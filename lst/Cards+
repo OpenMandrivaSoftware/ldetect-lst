@@ -953,7 +953,7 @@ DRIVER savage
 NEEDVIDEORAM
 LINE      #Option "xaa_benchmark"
 
-NAME Card:S3 Savage (generic, sw_cursor)
+NAME S3 Savage (generic, sw_cursor)
 SEE S3 Savage (generic)
 LINE Option "sw_cursor"
 
