@@ -1365,6 +1365,7 @@ Hewlett-Packard; HP M720 17-inch Display; 0; 30-85; 50-150
 Hewlett-Packard; HP M900 19-inch Display; 0; 31-95; 50-150
 Hewlett-Packard; HP M910 19-inch Display; 0; 29-107; 50-150
 Hewlett-Packard; HP M920 19-inch Display; 0; 29-107; 50-150
+Hewlett-Packard; HP P4819 HP P1130 21-inch Monitor; hwp12d3; 30.0-130.0; 48.0-170.0; 1
 Hewlett-Packard; HP P4829 L1820 18.1-inch LCD Monitor; hwp12dd; 31-80; 56-75; 1
 Hewlett-Packard; HP Pavilion M45/S40 Monitor; hwp14b2; 31.468-50.0; 56.0-75.0; 1
 Highscreen; Highscreen LE 1024; 45; 31.4-31.6,35.1-35.2,35.5-35.6; 50-87
@@ -2239,6 +2240,7 @@ NEC; NEC MultiSync LCD15T; nec6590; 24.0-60.0; 55.0-85.0; 1
 NEC; NEC MultiSync LCD1800; nec65a1; 24.0-80.0; 55.0-86.0; 1
 NEC; NEC MultiSync LCD1810; nec4786; 31.0-80.0; 56.0-76.0; 1
 NEC; NEC MultiSync LCD1810X; nec6594; 31.0-82.0; 56.0-85.0; 1
+NEC; NEC MultiSync LCD1880SX; nec65d4; 31.0-82.0; 50.0-85.0; 1
 NEC; NEC MultiSync LCD2000; nec4f56; 24.0-81.0; 55.0-85.0; 1
 NEC; NEC MultiSync LCD2010; nec4f60; 24.0-80.0; 56.0-76.0; 1
 NEC; NEC MultiSync LCD2010; nec4f60; 24.0-81.0; 55.0-85.0; 1
