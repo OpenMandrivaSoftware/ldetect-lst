@@ -5749,7 +5749,7 @@
 0x8086	0x248c	"i810-tco"	"Intel Corp.|82801 LPC Interface"
 0x8086	0x248d	"unknown"	"Intel Corp.|82801?? USB 2.0 EHCI Contoroller"
 0x8086	0x24c0	"i810-tco"	"Intel Corp.|82801DB 845G/GL Chipset ISA Bridge (ICH4)"
-0x8086	0x24c1	"unknown"	"Intel Corp.|82801DBL (ICH4-L) IDE Controller"
+0x8086	0x24c1	"piix"	"Intel Corp.|82801DBL (ICH4-L) IDE Controller"
 0x8086	0x24c2	"usb-uhci"	"Intel Corp.|82801DB USB Controller"
 0x8086	0x24c3	"i2c-i801"	"Intel Corp.|82801DB SMBus Controller"
 0x8086	0x24c4	"usb-uhci"	"Intel Corp.|82801DB USB Controller"
