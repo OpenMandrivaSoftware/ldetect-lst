@@ -24,6 +24,18 @@
 #
 #
 
+
+######################################################################
+# VESA driver
+NAME VESA driver (generic)
+CHIPSET VESA VBE 2.0
+DRIVER vesa
+
+
+NAME FrameBuffer (generic)
+DRIVER fbdev
+
+
 #Chips & Technologies
 
 #untested
@@ -1458,6 +1470,9 @@ SEE Weitek P9100 (generic)
 
 # Trident
 
+NAME Trident (generic)
+DRIVER trident
+
 NAME Trident 8900/9000 (generic)
 DRIVER trident
 
@@ -2044,6 +2059,33 @@ DRIVER neomagic
 NAME NeoMagic MagicMedia 256XL+
 SEE NeoMagic MagicMedia (laptop/notebook)
 LINE Option "sw_cursor"
+
+
+# Digital
+
+NAME Digital 8-plane TGA (Generic)
+CHIPSET TGA
+DRIVER tga
+
+NAME Digital 8-plane TGA (UDB/Multia)
+CHIPSET TGA
+DRIVER tga
+LINE     Ramdac "Bt485"
+
+NAME Digital 8-plane TGA (ZLXp-E1)
+CHIPSET TGA
+DRIVER tga
+LINE     Ramdac "Bt485"
+
+NAME Digital 24-plane TGA (ZLXp-E2)
+CHIPSET TGA
+DRIVER tga
+LINE     Ramdac "Bt463"
+
+NAME Digital 24-plane+3D TGA (ZLXp-E3)
+CHIPSET TGA
+DRIVER tga
+LINE     Ramdac "Bt463"
 
 # Epson SPC8110
 
