@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.38
+%define version 0.1.39
 %define release 1mdk
 
 Name: %{name}
@@ -64,6 +64,13 @@ fi
 %{_bindir}/*
 
 %changelog
+* Wed Jan  5 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.39-1mdk
+- sync with kernel-2.6.10-mm1
+- clean DVB entries
+- remove bogus usbcore entries
+- solve a few conflicts regarding devices claimed by modules
+- fix a wrongly identified card (pixel, #12871)
+
 * Thu Dec 23 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.38-1mdk
 - add support for Digigram PCXHR sound cards
 - fix description of a couple DELL cards and a couple Digigram cards
