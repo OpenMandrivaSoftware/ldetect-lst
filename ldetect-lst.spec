@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.17
+%define version 0.1.18
 %define release 1mdk
 
 Name: %{name}
@@ -64,6 +64,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Tue Sep 28 2004 Frederic Lepied <flepied@mandrakesoft.com> 0.1.18-1mdk
+- added ath_pci entries
+
 * Fri Sep 24 2004 Frederic Lepied <flepied@mandrakesoft.com> 0.1.17-1mdk
 - lst/usbtable: merged kernel 2.6.8.1.10mdk entries to be able to
  list them during install.
