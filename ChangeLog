@@ -902,11 +902,11 @@
 
 	* lst/pcitable: add one adsl over isdn modem (Steffen Barszus)
 
-2003-10-31 03:35  jmdault
+2003-10-31 03:35  Jean-Michel Dault
 
 	* lst/pcitable: Replace tab by space in VoiceTronix cards
 
-2003-10-31 03:19  jmdault
+2003-10-31 03:19  Jean-Michel Dault
 
 	* lst/pcitable: Add VoiceTronix telephony cards
 
@@ -2781,7 +2781,7 @@
 
 	* lst/ScannerDB: some HP escanners added (but in UNSUPPORTED :(
 
-2002-02-15 09:19  jquintela
+2002-02-15 09:19  Juan Quintela <quintela@mandrakesoft.com>
 
 	* lst/pcitable: use new qlogic drivers by default
 
