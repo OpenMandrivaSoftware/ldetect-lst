@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.75
+%define version 0.1.76
 %define release 1mdk
 
 Name: %{name}
@@ -63,6 +63,10 @@ fi
 %{_bindir}/*
 
 %changelog
+* Wed Mar 23 2005 Pixel <pixel@mandrakesoft.com> 0.1.76-1mdk
+- force overrideValidateMode on neomagic (which has pbs detecting the size of the LCD panel)
+- allow 3D on S3 UniChrome
+
 * Tue Mar 22 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.75-1mdk
 - switch ES1983S Maestro-3i PCI Audio Accelerator from OSS to ALSA
   (#14573)
