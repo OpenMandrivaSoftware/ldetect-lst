@@ -603,6 +603,7 @@ Compaq; Compaq Internal VGA Panel; ivga; 31.5; 50.0-70.0; 1
 Compaq; Compaq P110 Color Monitor; cpq1321; 30.0-107.0; 48.0-160.0; 1
 Compaq; Compaq P1210 Color Monitor; cpq1386; 30.0-121.0; 50.0-160.0; 1
 Compaq; Compaq P1610 Color Monitor; cpq1327; 30.0-96.0; 48.0-160.0; 1
+Compaq; Compaq P50 Color Monitor; cpq1323; 30.0-69.0; 50.0-125.0; 1
 Compaq; Compaq P70 Color Monitor; cpq1320; 30.0-92.0; 48.0-150.0; 1
 Compaq; Compaq P710 Color Monitor; cpq1384; 30.0-96.0; 50.0-130.0; 1
 Compaq; Compaq P75 Color Monitor; cpq1330; 30.0-85.0; 50.0-150.0; 1
@@ -949,6 +950,8 @@ Dell; Dell 1702FP (Analog); DEL3007; 30.0-80.0; 56.0-76.0; 1
 Dell; Dell 1702FP (Digital); DEL3006; 30.0-80.0; 56.0-76.0; 1
 Dell; Dell 1703FP (Analog); DEL3010; 30.0-80.0; 56.0-76.0; 1
 Dell; Dell 1703FP (Digital); DEL3011; 30.0-80.0; 56.0-76.0; 1
+Dell; Dell 1704FPV (Analog); DEL3015; 30.0-81.0; 56.0-76.0; 1
+Dell; Dell 1704FPV (Digital); DEL3016; 30.0-81.0; 56.0-76.0; 1
 Dell; Dell 1726T-HS/D1025HT; del5319; 31.0-85.0; 50.0-100.0; 1
 Dell; Dell 1800FP (Analog); DELE000; 30.0-80.0; 56.0-85.0; 1
 Dell; Dell 1800FP (Digital); DELE001; 30.0-70.0; 56.0-85.0; 1
@@ -1811,6 +1814,7 @@ IBM; IBM 9525; ibm9525; 30.0-64.0; 50.0-110.0; 1
 IBM; IBM 9527; ibm9527; 30.0-82.0; 50.0-110.0; 1
 IBM; IBM Aptiva 9900; ibm26ac; 30.0-54.0; 50.0-120.0; 1
 IBM; IBM Aptiva 9901; ibm27ad; 30.0-54.0; 50.0-120.0; 1
+IBM; IBM C220p; IBM1A4F; 30.0-130.0; 50.0-160.0
 IBM; IBM G200; ibm1991; 31.0-82.0; 50.0-120.0; 1
 IBM; IBM G41; ibm198e; 31.0-58.5; 50.0-95.0; 1
 IBM; IBM G50; ibm198f; 31.0-58.5; 50.0-95.0; 1
@@ -2244,6 +2248,7 @@ MAG Technology Co., Ltd.; MAG xj770; mag9702; 30.0-70.0; 50.0-130.0; 1
 MAG Technology Co., Ltd.; MAG XJ796; mag9703; 30.0-96.0; 50.0-160.0; 1
 MAG Technology Co., Ltd.; MAG XJ810; mag8997; 30.0-95.0; 50.0-160.0; 1
 MAG Technology Co., Ltd.; MAG XJ910; mag9158; 30.0-110.0; 50.0-160.0; 1
+Maxdata Computer; Maxdata Belinea 10 30 52; max06b9; 30.0-97.0; 50.0-150.0; 1
 Maxdata Computer; Maxdata Belinea 10 40 65; max4065; 30.0-50.0; 50.0-120.0; 1
 Maxdata Computer; Maxdata Belinea 10 50 95; max3539; 30.0-64.0; 55.0-90.0; 1
 Maxdata Computer; Maxdata Belinea 10 55 75; max7555; 30.0-69.0; 50.0-120.0; 1
@@ -3491,6 +3496,7 @@ Toshiba; Toshiba P17CU01; p17cu01; 30.0-57.0; 50.0-90.0; 1
 Toshiba; Toshiba P21CM00; p21cm00; 30.0-65.0; 50.0-90.0; 1
 Toshiba; Toshiba P21CR01; p21cr01; 30.0-65.0; 50.0-90.0; 1
 Toshiba; Toshiba TOS5082; tos5082; 31.5-48.5; 50.0-70.0; 1
+TPG; TPG 554e; TPG1554; 30.0-54.0; 50.0-120.0; 1
 TTX; TTX 3435AG; ttx3435ag; 15.5-35.5; 50.0-70.0; 1
 TTX; TTX 3436AG; ttx3436ag; 15.0-38.0; 50.0-90.0; 1
 TTX; TTX 3450AG; ttx3450ag; 20.0-38.0; 50.0-90.0; 1
