@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.5
-%define release 2mdk
+%define release 3mdk
 
 Name: %{name}
 Version: %{version}
@@ -64,6 +64,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Wed Jan 22 2003 Pixel <pixel@mandrakesoft.com> 0.1.5-3mdk
+- use option ForceInit for Savage/IX-MV (see bug #730)
+
 * Wed Jan 22 2003 Pixel <pixel@mandrakesoft.com> 0.1.5-2mdk
 - add a mouse in usbtable
 
