@@ -13,7 +13,7 @@ CardsNames: Cards+ ../convert/Cards2CardsNames.pl
 
 
 install:
-	for i in pcitable usbtable; do \
+	for i in pcitable pcmciatable usbtable; do \
 	(echo "# !! The original version is available in CVS at" ; \
          echo "# export CVSROOT=:pserver:anoncvs@cvs.mandrakesoft.com:/home/cvs/cooker" ; \
 	 echo "# cvs login    (password \`\`cvs'')" ; \
