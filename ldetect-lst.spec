@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.2
-%define release 15mdk
+%define release 16mdk
 
 Name: %{name}
 Version: %{version}
@@ -48,10 +48,11 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/*
 
 %changelog
-
-- fixed support for SiS 300.
+* Tue Jul 31 2001 Guillaume Cottenceau <gc@mandrakesoft.com> 0.1.2-16mdk
+- merge with 2.4.6-5mdk pcitable and usbtable
 
 * Wed Jul  4 2001 François Pons <fpons@mandrakesoft.com> 0.1.2-15mdk
+- fixed support for SiS 300.
 - synced pcitable and Cards+ with XFree86 4.1.0.
 - another people do the following:
 - es1370 doesn't work for "Ensoniq|ES1370 [AudioPCI]" (ID 0x12745000)
