@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.3
-%define release 6mdk
+%define release 7mdk
 
 Name: %{name}
 Version: %{version}
@@ -61,6 +61,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Fri Mar  1 2002 Pixel <pixel@mandrakesoft.com> 0.1.3-7mdk
+- various s3 changes (Erwan)
+
 * Thu Feb 28 2002 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.3-6mdk
 - yduret sucks and has forgotten to commit in cvs his package uploae
 - Thierry Vignaud:
