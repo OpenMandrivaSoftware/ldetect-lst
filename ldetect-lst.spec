@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.8
-%define release 1mdk
+%define release 2mdk
 
 Name: %{name}
 Version: %{version}
@@ -64,6 +64,12 @@ fi
 %{_bindir}/*
 
 %changelog
+* Fri Aug 29 2003 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.8-2mdk
+- add 3 more monitors (Bryan Whitehead)
+- fix 1 cardbus controller (guillaume=
+- manage one more gefore card and one more sound card
+- use typhoon instead of 3c990 & 3c990fx have die (juan)
+
 * Thu Aug 14 2003 Pixel <pixel@mandrakesoft.com> 0.1.8-1mdk
 - pcitable
   o merge with modules.pcimap from kernel 2.4.22.0.3mdk-1-1mdk
