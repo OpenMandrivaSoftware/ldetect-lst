@@ -435,7 +435,7 @@
 0x1011	0x000c	"unknown"	"Digital Equipment Corporation|DC21130 PCI Integrated Graphics & Video Accel"
 0x1011	0x000d	"unknown"	"DEC|PBXGB [TGA2]"
 0x1011	0x000f	"defxx"	"DEC|DEFPA"
-0x1011	0x0014	"tulip"	"DEC|DECchip 21041 [Tulip Pass 3]"
+0x1011	0x0014	"de2104x"	"DEC|DECchip 21041 [Tulip Pass 3]"
 0x1011	0x0016	"unknown"	"DEC|DGLPB [OPPO]"
 0x1011	0x0017	"unknown"	"DEC|PV-PCI Graphics Controller (ZLXp-L)"
 0x1011	0x0019	"tulip"	"DEC|DECchip 21142/43"
