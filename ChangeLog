@@ -1,3 +1,19 @@
+2004-08-04 07:41  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.14-1mdk
+
+2004-08-04 06:55  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/usbtable: merge strings from usb.ids
+
+2004-08-04 06:55  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* convert/README.pcitable: fix doc
+
+2004-08-04 06:50  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/usbtable: sync usbtable with with kernel-2.6.8-0.rc2.2mdk
+
 2004-08-03 14:02  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.13-1mdk
