@@ -2125,6 +2125,7 @@
 0x10b5	0x9656	0x1369	0xb101	"snd-pcxhr"	"Digigram|PCX882HR"
 0x10b5	0x9656	0x1369	0xb201	"snd-pcxhr"	"Digigram|VX881HR"
 0x10b5	0x9656	0x1369	0xb301	"snd-pcxhr"	"Digigram|PCX881HR"
+0x10b5	0x9656	"unknown"	""
 0x10b5	0xa001	"8250_pci"	"PLX Technology, Inc.|Gtek Serial"
 0x10b5	0xbb04	"unknown"	"PLX Technology, Inc.|B&B 3PCIOSD1A Isolated PCI Serial"
 0x10b5	0xc001	"unknown"	"PLX Technology, Inc.|GTEK Cyclone 16/32 port serial adaptor"
