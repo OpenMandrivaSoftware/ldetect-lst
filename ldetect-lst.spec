@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.16
-%define release 1mdk
+%define release 2mdk
 
 Name: %{name}
 Version: %{version}
@@ -64,6 +64,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Fri Aug 27 2004 Gwenole Beauchesne <gbeauchesne@mandrakesoft.com> 0.1.16-2mdk
+- use 3w-9xxx for 3ware 9XXX-series ATA-RAID
+
 * Thu Aug 26 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.16-1mdk
 - usbtable: sync with kernel-2.6.8.1.1mdk (kernel-2.6.8.1.3mdk equals
   1mdk regarding pcitable & usbtable)
