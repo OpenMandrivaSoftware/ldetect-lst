@@ -1277,7 +1277,7 @@
 0x1102	0x7002	"emu10k1-gp"	"Creative Labs|SB Live! (joystick)"
 0x1102	0x8938	"es1371"	"Creative Labs|ES1371"
 0x1103	0x0003	"unknown"	"Triones|HPT343"
-0x1103	0x0004	"unknown"	"Triones|HPT366"
+0x1103	0x0004	"hptraid"	"Triones|HPT366"
 0x1105	0x5000	"unknown"	"Sigma Designs Inc|Multimedia"
 0x1105	0x8300	"unknown"	"Sigma Designs, Inc.|REALmagic Hollywood Plus DVD Decoder"
 0x1106	0x0305	"unknown"	"VIA Technologies|VT8363/8365 [KT133/KM133]"
