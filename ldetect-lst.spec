@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.7
-%define release 10mdk
+%define release 11mdk
 
 Name: %{name}
 Version: %{version}
@@ -64,6 +64,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Tue Mar 25 2003 Frederic Lepied <flepied@mandrakesoft.com> 0.1.7-11mdk
+- Correction for the intel sound card (Arnaud)
+
 * Thu Mar 20 2003 Pixel <pixel@mandrakesoft.com> 0.1.7-10mdk
 - change the module of an intel sound card from i810_rng to i801_audio
 
