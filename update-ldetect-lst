@@ -1,0 +1,17 @@
+#!/usr/bin/perl
+
+my $dir = '/usr/share/ldetect-lst';
+my @files = qw(pcitable usbtable isatable pcmciatable);
+
+if ($ARGV[0] eq '--clean') {
+    foreach (@files) {
+	unlink "$dir/$_";
+    }
+} else {
+    foreach (@files) {
+	my $d = "$dir/$_.d";
+	-d $d or next;
+	my @l = sort glob("$d/*.lst") or next;
+	system("cat " . join(" ", @l) . " > $dir/$_");
+    }
+}

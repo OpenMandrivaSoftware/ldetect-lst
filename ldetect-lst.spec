@@ -1,6 +1,6 @@
 %define name ldetect-lst
-%define version 0.1.2
-%define release 39mdk
+%define version 0.1.3
+%define release 1mdk
 
 Name: %{name}
 Version: %{version}
@@ -37,9 +37,14 @@ rm -rf $RPM_BUILD_ROOT
 %clean
 rm -rf $RPM_BUILD_ROOT
 
+%preun -p "/usr/sbin/update-ldetect-lst --clean"
+
+%post -p /usr/sbin/update-ldetect-lst
+
 %files
 %defattr(-,root,root)
 %{_datadir}/%{name}
+%{_sbindir}/*
 
 %files devel
 %defattr(-,root,root)
@@ -47,6 +52,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/*
 
 %changelog
+* Thu Feb  7 2002 Pixel <pixel@mandrakesoft.com> 0.1.3-1mdk
+- allow third party entries (using update-ldetect-lst)
+
 * Tue Feb  5 2002 Pixel <pixel@mandrakesoft.com> 0.1.2-39mdk
 - fix usbtable merge with kernel usbmap
 

@@ -8,8 +8,9 @@ clean:
 	make -C lst clean
 
 install: build
-	install -d $(bindir) $(dir)	
+	install -d $(bindir) $(sbindir) $(dir)
 	make -C lst install
+	install update-ldetect-lst $(sbindir)
 	install convert/merge2pcitable.pl $(bindir)
 
 rpm: clean $(RPM)

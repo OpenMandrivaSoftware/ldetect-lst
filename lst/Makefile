@@ -32,6 +32,7 @@ $(TABLES3):
 
 install: $(TMP_TABLES) $(TABLES3)
 	for i in $(TABLES); do \
+	mkdir -p $(dir)/$$i.d ; \
 	(echo "# !! The original version is available in CVS at" ; \
          echo "# export CVSROOT=:pserver:anoncvs@cvs.mandrakesoft.com:/home/cvs/cooker" ; \
 	 echo "# cvs login    (password \`\`cvs'')" ; \
@@ -41,6 +42,6 @@ install: $(TMP_TABLES) $(TABLES3)
          echo "# export CVS_RSH=ssh" ; \
          echo "# cvs checkout soft/$(project)" ; \
 	 cat $$i.tmp \
-	) > $(dir)/$$i; done
+	) > $(dir)/$$i.d/90default.lst; done
 
 	install -m 644 ScannerDB.gz Cards+ CardsNames MonitorsDB isdn.db $(dir)
