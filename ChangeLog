@@ -1,8 +1,13 @@
+2002-08-06 15:22  Gwenole Beauchesne <gbeauchesne@mandrakesoft.com>
+
+	* Makefile: Add changelog rule to use cvs2cl for ChangeLog file,
+	much nicer
+
 2002-08-06 12:42  Pixel <pixel@mandrakesoft.com>
 
 	* lst/pcitable: fix vendor for a megaraid (s/Dell/AMI/)
 
-2002-08-05 22:09  quintela
+2002-08-05 22:09  Juan Quintela <quintela@mandrakesoft.com>
 
 	* lst/pcitable: bcm5700 is story.  Great live to tg3
 
