@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.7
-%define release 2mdk
+%define release 3mdk
 
 Name: %{name}
 Version: %{version}
@@ -64,6 +64,10 @@ fi
 %{_bindir}/*
 
 %changelog
+* Sun Feb 16 2003 Till Kamppeter <till@mandrakesoft.com> 0.1.7-3mdk
+- Updated ScannerDB and scannerconfigs to include also the third-party
+  SANE drivers.
+
 * Thu Feb 13 2003 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.7-2mdk
 - Restructured and updated ScannerDB for scannerdrake (till)
 
