@@ -1,3 +1,15 @@
+2004-09-08 11:23  Frederic Lepied <flepied@mandrakesoft.com>
+
+	* lst/pcitable: added entries for slamr and rt2500
+
+2004-09-08 11:06  Frederic Lepied <flepied@mandrakesoft.com>
+
+	* lst/usbtable: added slusb added driver for NetGear MA111
+
+2004-09-06 06:21  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: add bug reference in 0.1.16-3mdk's changelog
+
 2004-09-06 06:09  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* Makefile: (changelog) only follow HEAD
