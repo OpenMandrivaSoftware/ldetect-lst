@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.3
-%define release 4mdk
+%define release 5mdk
 
 Name: %{name}
 Version: %{version}
@@ -51,6 +51,7 @@ fi
 
 %files
 %defattr(-,root,root)
+%doc ChangeLog
 %{_datadir}/%{name}
 %{_sbindir}/*
 
@@ -60,9 +61,11 @@ fi
 %{_bindir}/*
 
 %changelog
+* Thu Feb 28 2002 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.3-5mdk
 - Thierry Vignaud:
 	* fix 10 incorrect TV card names
 	* add 15 new TV cards
+	* add ChangeLog
 - Pixel:
 	* add 3 usb mice
 	* s/53c7,8xx/sym53c8xx/
