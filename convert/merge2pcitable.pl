@@ -70,7 +70,11 @@ sub read_pcitable {
 	      # known errors in redhat's pcitable
 	      # these are pci to pci bridge
 	    $module = "yenta_socket" if $module =~ /i82365/;
-	    my $id = join '', map { s/^0x//; $_ } $id1, $id2, $subid1, $subid2;
+	    my $id = join '', map { 
+		s/^0x//;
+		length == 4 or print STDERR "$f $line: bad number $_\n";
+		$_;
+	    } $id1, $id2, $subid1, $subid2;
 	    $drivers{$id} and print STDERR "$f $line: multiple entry for $id (skipping $module $text)\n";
 	    $drivers{$id} ||= [ map &$rm_quote, $module, $text ];
 	}

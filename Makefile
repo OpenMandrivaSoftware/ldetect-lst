@@ -3,6 +3,9 @@ include Makefile.config
 build: 
 	make -C lst build
 
+check:
+	make -C lst check
+
 clean:
 	rm -f *~
 	make -C lst clean

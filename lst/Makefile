@@ -16,6 +16,10 @@ build: CardsNames
 clean:
 	rm -f *~ CardsNames *.tmp ScannerDB.gz
 
+check:
+	@../convert/merge2pcitable.pl pcitable pcitable pcitable > /dev/null
+	@../convert/merge2pcitable.pl pcitable usbtable usbtable > /dev/null
+
 CardsNames: Cards+ ../convert/Cards2CardsNames.pl
 	rm -f $@
 	../convert/Cards2CardsNames.pl $< > $@
