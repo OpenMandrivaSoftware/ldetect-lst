@@ -741,7 +741,7 @@
 0x106b	0x000e	"unknown"	"Apple Computer Inc.|Hydra Mac I/O"
 0x106b	0x0010	"unknown"	"Apple Computer Inc.|Heathrow Mac I/O"
 0x106b	0x0017	"unknown"	"Apple Computer Inc.|Paddington Mac I/O"
-0x106b	0x0019	"unknown"	"Apple|Keylargo USB"
+0x106b	0x0019	"usb-ohci"	"Apple|Keylargo USB"
 0x106b	0x0020	"unknown"	"Apple|Uni-North AGP"
 0x106b	0x0022	"unknown"	"Apple|Keylargo I/O"
 0x106c	0x8801	"unknown"	"Hyundai Electronics America|Dual Pentium ISA/PCI Motherboard"
