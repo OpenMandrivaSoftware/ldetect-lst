@@ -1880,7 +1880,7 @@
 0x109e	0x0878	0x270f	0xfc00	"bt878"	"Brooktree Corporation|Digitop DTT-1000"
 0x109e	0x0878	0xbd11	0x1200	"snd_bt87x"	"Brooktree Corp.|Bt878 Audio Capture"
 0x109e	0x0878	"bt878"	"Brooktree Corp.|Pinnacle PCTV Sat DVB PCI (based on the Bt878 PCI bridge)"
-0x109e	0x0879	0x0070	0x13eb	"snd-bt87x"	""
+0x109e	0x0879	0x0070	0x13eb	"snd-bt87x"	"Brooktree Corp.|Bt879 Video Capture (Audio Section)"
 0x109e	0x0879	"btaudio"	"Brooktree Corp.|Bt879 Video Capture (Audio Section)"
 0x109e	0x0880	"btaudio"	"Brooktree Corp.|Bt880 Video Capture (Audio Section)"
 0x109e	0x2115	"unknown"	"Brooktree Corp.|BtV 2115 Mediastream controller"
