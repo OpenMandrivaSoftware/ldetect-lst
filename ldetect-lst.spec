@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.7
-%define release 3mdk
+%define release 4mdk
 
 Name: %{name}
 Version: %{version}
@@ -64,6 +64,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Thu Feb 27 2003 Pixel <pixel@mandrakesoft.com> 0.1.7-4mdk
+- updated pcitable (pci.ids, redhat pcitable, modules.pcimap, http://www.yourvote.com/pci/vendors.txt)
+
 * Sun Feb 16 2003 Till Kamppeter <till@mandrakesoft.com> 0.1.7-3mdk
 - Updated ScannerDB and scannerconfigs to include also the third-party
   SANE drivers.
