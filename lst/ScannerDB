@@ -426,30 +426,31 @@ SERVER hp
 DRIVER usb
 LINE option connect-device
 LINE $DEVICE
+UNSUPPORTED
 
 NAME Hewlett-Packard|ScanJet 4100C
-SEE Hewlett-Packard|ScanJet 3300C
-
-NAME Hewlett-Packard|ScanJet 4200C
-SEE Hewlett-Packard|ScanJet 3300C
+SERVER hp
+DRIVER usb 
+LINE option connect-device
+LINE $DEVICE                                                                                                                                     
 
 NAME Hewlett-Packard|ScanJet 5200C
-SEE Hewlett-Packard|ScanJet 3300C
+SEE Hewlett-Packard|ScanJet 4100C
 
 NAME Hewlett-Packard|ScanJet 6200C
-SEE Hewlett-Packard|ScanJet 3300C
+SEE Hewlett-Packard|ScanJet 4100C
 
 NAME Hewlett-Packard|ScanJet 6250C
-SEE Hewlett-Packard|ScanJet 3300C
+SEE Hewlett-Packard|ScanJet 4100C
 
 NAME Hewlett-Packard|ScanJet 6300C
-SEE Hewlett-Packard|ScanJet 3300C
+SEE Hewlett-Packard|ScanJet 4100C
 
 NAME Hewlett-Packard|ScanJet 6350C
-SEE Hewlett-Packard|ScanJet 3300C
+SEE Hewlett-Packard|ScanJet 4100C
 
 NAME Hewlett-Packard|ScanJet 6390C
-SEE Hewlett-Packard|ScanJet 3300C
+SEE Hewlett-Packard|ScanJet 4100C
 
 NAME Hewlett-Packard|PhotoSmart PhotoScanner
 SEE Hewlett-Packard|ScanJet IIc
