@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.4
-%define release 5mdk
+%define release 6mdk
 
 Name: %{name}
 Version: %{version}
@@ -62,6 +62,12 @@ fi
 %{_bindir}/*
 
 %changelog
+* Tue Aug  6 2002 Gwenole Beauchesne <gbeauchesne@mandrakesoft.com> 0.1.4-6mdk
+- lst/pcitable: fix vendor for a megaraid (s/Dell/AMI/)
+- lst/pcitable: bcm5700 is story.  Great live to tg3
+- lst/Cards+: add XaaNoPixmapCache for i815 too (per Mattias Dahlberg request)
+- lst/pcitable: switch Danny Tholen sound card from oss to alsa
+
 * Thu Aug  1 2002 Pixel <pixel@mandrakesoft.com> 0.1.4-5mdk
 - Cards+ & pcitable: add "ATI Rage 128 TVout" with flag FB_TVOUT
 
