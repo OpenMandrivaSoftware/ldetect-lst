@@ -4,6 +4,22 @@
 
 # generated from Sane by scannerdrake
 
+# LM 983x escanner
+# Plustek (integrated in sane) http://home.t-online.de/home/g-jaeger/plustek.html
+#	all above :)
+# HP
+#	2200C	9832	scanjet2200c.sf.net
+#	3300C	?	http://hp3300backend.sourceforge.net/ http://home.zonnet.nl/bertrik/hp3300c/hp3300c.htm
+#	3400C	?	see 3300c
+#	4300C	?	see 3300c
+#	4200C	9830	http://hp4200-backend.sourceforge.net/ (in sane)
+# Umax
+#	1200U	9830	http://umax1220u-sane.sourceforge.net/
+#	3400	9832	
+#	5400	9832
+# Epson
+#	1250	9832	the hp2200c driver works 
+
 # from abaton.desc
 NAME Abaton|Scan 300/GS
 SERVER abaton
@@ -436,7 +452,7 @@ NAME Hewlett-Packard|ScanJet 4100C
 SERVER hp
 DRIVER usb 
 LINE option connect-device
-LINE $DEVICE                                                                                                                                     
+LINE $DEVICE
 
 NAME Hewlett-Packard|ScanJet 5200C
 SEE Hewlett-Packard|ScanJet 4100C
