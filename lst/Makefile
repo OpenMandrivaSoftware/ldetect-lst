@@ -11,20 +11,15 @@ TMP_TABLES1 = $(TABLES1:%=%.tmp)
 TMP_TABLES2 = $(TABLES2:%=%.tmp)
 TMP_TABLES  = $(TABLES:%=%.tmp)
 
-build: CardsNames
+build: 
 
 clean:
-	rm -f *~ CardsNames *.tmp ScannerDB.gz
+	rm -f *~ *.tmp ScannerDB.gz
 
 check:
 	@../convert/merge2pcitable.pl pcitable pcitable pcitable > /dev/null
 	@../convert/merge2pcitable.pl pcitable usbtable usbtable > /dev/null
 	@cd ../convert; ./verify_Cards.pl
-
-CardsNames: Cards+ ../convert/Cards2CardsNames.pl
-	rm -f $@
-	../convert/Cards2CardsNames.pl $< > $@
-	chmod a-w $@
 
 $(TMP_TABLES1): %.tmp: %
 	../convert/merge2pcitable.pl pcitable $< $<.$(ARCH) > $@
@@ -45,4 +40,4 @@ install: $(TMP_TABLES) $(TABLES3)
 	 cat $$i.tmp \
 	) > $(dir)/$$i.d/90default.lst; done
 
-	install -m 644 ScannerDB.gz Cards+ CardsNames MonitorsDB isdn.db $(dir)
+	install -m 644 ScannerDB.gz Cards+ MonitorsDB isdn.db $(dir)

@@ -16,6 +16,8 @@ rm -f pcids.html ; wget http://www.begent.co.uk/pcids.htm
 # you can also try the following. BUT be careful when choosing cards needing subids. Ask pixel@mandrakesoft.com first!
 ./merge2pcitable.pl --keep-subids begent_pcids_htm pcids.htm pcitable > pcitable.new
 
+# http://members.hyperlink.net.au/~chart/download/pcidevs.txt
+
 
 # with redhat's pcitable in /tmp/rh_pcitable (from kudzu or anaconda)
 ./merge2pcitable.pl pcitable /tmp/rh_pcitable pcitable > pcitable.new

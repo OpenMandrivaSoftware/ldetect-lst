@@ -26,17 +26,6 @@
 #
 #
 
-# VGA
-
-NAME Generic VGA compatible
-SERVER VGA16
-DRIVER vga
-
-NAME Unsupported VGA compatible
-SERVER VGA16
-DRIVER vga
-UNSUPPORTED
-
 #Chips & Technologies
 
 #untested
@@ -262,20 +251,11 @@ SEE Cirrus Logic GD542x
 NAME ALG-5434(E)
 SEE Cirrus Logic GD543x
 
-NAME Actix ProStar
-SEE Cirrus Logic GD542x
-
-NAME Actix ProStar 64
-SEE Cirrus Logic GD543x
-
 #tested
 NAME Acumos AVGA3
 SEE Cirrus Logic GD542x
 
 NAME DFI-WG1000
-SEE Cirrus Logic GD542x
-
-NAME Spider VLB Plus
 SEE Cirrus Logic GD542x
 
 NAME VI720
@@ -328,21 +308,6 @@ SERVER SVGA
 DRIVER vga
 UNSUPPORTED
 
-NAME Octek VL-VGA-26
-SEE Cirrus Logic GD542x
-
-NAME Octek VL-VGA-28
-SEE Cirrus Logic GD542x
-
-NAME Octek Combo-26
-SEE Cirrus Logic GD542x
-
-NAME Octek Combo-28
-SEE Cirrus Logic GD542x
-
-NAME Octek AVGA-20
-SEE Cirrus Logic GD542x
-
 # S3 801/805
 
 NAME S3 801/805 (generic)
@@ -356,12 +321,6 @@ SEE S3 801/805 (generic)
 
 NAME S3 86C805 (generic)
 SEE S3 801/805 (generic)
-
-NAME Actix GE32i
-SERVER S3
-DRIVER s3
-NEEDVIDEORAM
-UNSUPPORTED
 
 NAME Orchid Fahrenheit 1280
 SERVER S3
@@ -446,12 +405,6 @@ SEE S3 Trio32 (generic)
 NAME Diamond Stealth64 Video 2001 series (2121/2201)
 SEE S3 Trio64V+ (generic)
 
-NAME Cardex Trio64
-SEE S3 Trio64 (generic)
-
-NAME Cardex Trio64Pro
-SEE S3 Trio64 (generic)
-
 NAME Miro Crystal 12SD
 SEE S3 Trio32 (generic)
 
@@ -463,9 +416,6 @@ SEE S3 868 with SDAC (86C716)
 
 NAME Diamond Stealth64 Video 2120/2200
 SEE S3 868 with SDAC (86C716)
-
-NAME SPEA/V7 Mirage P64 with S3 Trio64
-SEE S3 Trio64 (generic)
 
 NAME Number Nine FX Vision 330
 SEE S3 Trio64 (generic)
@@ -522,7 +472,7 @@ SEE S3 Trio64V2/DX (generic)
 NAME S3 86C785 (Trio64V2/GX)
 SEE S3 Trio64V2/GX (generic)
 
-NAME ELSA WINNER 1000/T2D
+NAME Elsa WINNER 1000/T2D
 SEE S3 Trio64V2/DX (generic)
 
 
@@ -544,10 +494,10 @@ SEE S3 Aurora64V+ (generic)
 NAME SHARP 9090
 SEE S3 Aurora64V+ (generic)
 
-NAME COMPAQ Armada 7730MT
+NAME Compaq Armada 7730MT
 SEE S3 Aurora64V+ (generic)
 
-NAME COMPAQ Armada 7380DMT
+NAME Compaq Armada 7380DMT
 SEE S3 Aurora64V+ (generic)
 
 
@@ -594,10 +544,10 @@ SEE S3 Trio64V+ (generic)
 NAME STB Powergraph 64
 SEE S3 Trio64 (generic)
 
-NAME ELSA Winner 1000TRIO
+NAME Elsa Winner 1000TRIO
 SEE S3 Trio64 (generic)
 
-NAME ELSA Winner 1000TRIO/V
+NAME Elsa Winner 1000TRIO/V
 SEE S3 Trio64V+ (generic)
 
 NAME Hercules Graphite Terminator 64
@@ -621,57 +571,54 @@ NAME Number Nine FX Motion 771
 LINE    #s3RefClk  16
 SEE S3 968 (generic)
 
-NAME Spider Tarantula 64
-SEE S3 964 (generic)
-
 NAME Miro Crystal 80SV
 SERVER S3
 DRIVER s3
 NEEDVIDEORAM
 
-NAME ELSA Winner 2000PRO-2
+NAME Elsa Winner 2000PRO-2
 SERVER S3
 DRIVER s3
 NEEDVIDEORAM
 LINE     #Option "ELSA_w2000pro"
 
-NAME ELSA Winner 2000PRO-4
+NAME Elsa Winner 2000PRO-4
 SERVER S3
 DRIVER s3
 NEEDVIDEORAM
 LINE     #Option "ELSA_w2000pro"
 
-NAME ELSA Winner 2000PRO/X-2
+NAME Elsa Winner 2000PRO/X-2
 SERVER S3
 DRIVER s3
 NEEDVIDEORAM
 LINE     #Option "sync_on_green"
 
-NAME ELSA Winner 2000PRO/X-4
+NAME Elsa Winner 2000PRO/X-4
 SERVER S3
 DRIVER s3
 NEEDVIDEORAM
 LINE     #Option "sync_on_green"
 
-NAME ELSA Winner 2000PRO/X-8
+NAME Elsa Winner 2000PRO/X-8
 SERVER S3
 DRIVER s3
 NEEDVIDEORAM
 LINE     #Option "sync_on_green"
 
-NAME ELSA Winner 2000AVI
+NAME Elsa Winner 2000AVI
 SERVER S3
 DRIVER s3
 NEEDVIDEORAM
 LINE     #Option "sync_on_green"
 
-NAME ELSA Gloria-4
+NAME Elsa Gloria-4
 SERVER S3
 DRIVER s3
 NEEDVIDEORAM
 LINE     #Option "sync_on_green"
 
-NAME ELSA Gloria-8
+NAME Elsa Gloria-8
 SERVER S3
 DRIVER s3
 NEEDVIDEORAM
@@ -682,21 +629,21 @@ SERVER S3
 DRIVER s3
 NEEDVIDEORAM
 
-NAME LeadTek WinFast S430
+NAME Leadtek WinFast S430
 SERVER S3
 DRIVER s3
 NEEDVIDEORAM
 
 NAME WinFast S430
-SEE LeadTek WinFast S430
+SEE Leadtek WinFast S430
 
-NAME LeadTek WinFast S510
+NAME Leadtek WinFast S510
 SERVER S3
 DRIVER s3
 NEEDVIDEORAM
 
 NAME WinFast S510
-SEE LeadTek WinFast S510
+SEE Leadtek WinFast S510
 
 # S3 928
 
@@ -709,20 +656,20 @@ UNSUPPORTED
 NAME S3 86C928 (generic)
 SEE S3 928 (generic)
 
-NAME ELSA Winner 1000VL
+NAME Elsa Winner 1000VL
 SERVER S3
 DRIVER s3
 NEEDVIDEORAM
 UNSUPPORTED
 LINE     # the following settings should be detected and set automatically by XF86_S3
-LINE     # if the serial number of the ELSA card is printed correctly:
+LINE     # if the serial number of the Elsa card is printed correctly:
 LINE     #ClockChip "icd2061a"
 LINE     #Membase 0xf8000000
 
-NAME ELSA Winner 1000TwinBus
-SEE ELSA Winner 1000VL
+NAME Elsa Winner 1000TwinBus
+SEE Elsa Winner 1000VL
 
-NAME ELSA Winner 2000
+NAME Elsa Winner 2000
 SEE S3 928 (generic)
 
 NAME Miro Crystal 16S
@@ -856,13 +803,13 @@ NAME S3 86C280 (ViRGE/MX+)
 SEE S3 ViRGE/MX+ (generic)
 
 
-NAME ELSA Victory 3D
+NAME Elsa Victory 3D
 SEE S3 ViRGE (generic)
 
-NAME ELSA Victory 3DX
+NAME Elsa Victory 3DX
 SEE S3 ViRGE/DX (generic)
 
-NAME ELSA Winner 3000-S
+NAME Elsa Winner 3000-S
 SEE S3 ViRGE (generic)
 
 NAME Number Nine Visual 9FX Reality 332
@@ -882,9 +829,6 @@ SEE S3 ViRGE (generic)
 
 NAME Diamond Multimedia Stealth 3D 2000 PRO
 SEE S3 ViRGE/DX (generic)
-
-NAME Canopus Co. Power Window 3DV
-SEE S3 ViRGE (generic)
 
 NAME DataExpert DSV3325
 SEE S3 ViRGE (generic)
@@ -907,13 +851,13 @@ SEE S3 ViRGE/DX (generic)
 NAME AOpen PT75
 SEE S3 ViRGE/DX (generic)
 
-NAME LeadTek WinFast 3D S600
+NAME Leadtek WinFast 3D S600
 SEE S3 ViRGE (generic)
 
 NAME WinFast 3D S600
-SEE LeadTek WinFast 3D S600
+SEE Leadtek WinFast 3D S600
 
-NAME LeadTek WinFast 3D S680
+NAME Leadtek WinFast 3D S680
 SEE S3 ViRGE/GX2 (generic)
 
 NAME Miro MiroMedia 3D
@@ -948,16 +892,16 @@ LINE      #Option "pci_retry"
 NAME S3 86C988 (ViRGE/VX)
 SEE S3 ViRGE/VX (generic)
 
-NAME ELSA Winner 3000
+NAME Elsa Winner 3000
 SEE S3 ViRGE/VX (generic)
 
-NAME ELSA Winner 3000-M-22
+NAME Elsa Winner 3000-M-22
 SEE S3 ViRGE/VX (generic)
 
-NAME ELSA Winner 3000-L-42
+NAME Elsa Winner 3000-L-42
 SEE S3 ViRGE/VX (generic)
 
-NAME ELSA Winner 2000AVI/3D
+NAME Elsa Winner 2000AVI/3D
 SEE S3 ViRGE/VX (generic)
 
 NAME Diamond Stealth 3D 3000
@@ -1103,12 +1047,6 @@ SEE ET6000 (generic)
 NAME ET6300 (generic)
 SEE ET6000 (generic)
 
-NAME Cardex Cobra
-SEE ET4000 W32i, W32p (generic)
-
-NAME Cardex Challenger (Pro)
-SEE ET4000 W32i, W32p (generic)
-
 NAME Colorgraphic Dual Lightning
 SEE ET4000 W32i, W32p (generic)
 
@@ -1142,7 +1080,7 @@ SEE ET4000 W32i, W32p (generic)
 NAME Integral FlashPoint
 SEE ET4000 W32i, W32p (generic)
 
-NAME LeadTek WinFast S200
+NAME Leadtek WinFast S200
 SEE ET4000 W32i, W32p (generic)
 
 NAME Matrox Comet
@@ -1155,16 +1093,13 @@ NAME Miro MiroVideo 20TD
 SEE ET4000 W32i, W32p (generic)
 
 NAME WinFast S200
-SEE LeadTek WinFast S200
+SEE Leadtek WinFast S200
 
 NAME Sigma Concorde
 SEE ET4000/W32 (generic)
 
 NAME Sigma Legend
 SEE ET4000 (generic)
-
-NAME SPEA/V7 ShowTime Plus
-SEE ET4000 W32i, W32p (generic)
 
 NAME STB LightSpeed
 SEE ET4000 W32i, W32p (generic)
@@ -1212,9 +1147,6 @@ NAME Binar Graphics AnyView
 SEE ET6000 (generic)
 
 NAME MediaVision Proaxcel 128
-SEE ET6000 (generic)
-
-NAME ATrend ATC-2165A
 SEE ET6000 (generic)
 
 NAME Interay PMC Viper
@@ -1555,12 +1487,6 @@ SERVER SVGA
 DRIVER vga
 UNSUPPORTED
 
-NAME SPEA/V7 Mirage VEGA Plus
-LINE   #chipset "ali2228"
-SERVER SVGA
-DRIVER vga
-UNSUPPORTED
-
 # ARK Logic
 
 NAME Ark Logic ARK1000PV (generic)
@@ -1769,12 +1695,6 @@ DRIVER trident
 NAME Trident CyberBlade (generic)
 SERVER SVGA
 DRIVER trident
-
-NAME Trident TVGA 8800BR
-SEE Generic VGA compatible
-
-NAME Trident TVGA 8800CS
-SEE Generic VGA compatible
 
 NAME Trident Cyber 9525 (generic)
 SERVER SVGA
@@ -2076,22 +1996,22 @@ UTAH_GLX_EXPERIMENTAL
 NAME RIVA Ultra TNT2 
 SEE RIVA TNT2
 
-NAME ELSA VICTORY ERAZOR
+NAME Elsa VICTORY ERAZOR
 SEE RIVA128
 
-NAME ELSA VICTORY ERAZOR LT
+NAME Elsa VICTORY ERAZOR LT
 SEE RIVA128
 
-NAME ELSA Winner 1000 R3D
+NAME Elsa Winner 1000 R3D
 SEE RIVA128
 
-NAME ELSA ERAZOR II
+NAME Elsa ERAZOR II
 SEE RIVA TNT
 
-NAME ELSA ERAZOR III
+NAME Elsa ERAZOR III
 SEE RIVA TNT2
 
-NAME ELSA Synergy II
+NAME Elsa Synergy II
 SEE RIVA TNT2
 
 NAME Leadtek WinFast 3D S320II
@@ -2133,10 +2053,10 @@ SEE RIVA TNT2
 NAME Guillemot Maxi Gamer Xentor 32
 SEE RIVA TNT2
 
-NAME Creative Graphics Blaster TNT
+NAME Creative Labs Graphics Blaster TNT
 SEE RIVA TNT
 
-NAME Creative Graphics Blaster TNT2
+NAME Creative Labs Graphics Blaster TNT2
 SEE RIVA TNT2
 
 NAME Chaintech Desperado RI20
@@ -2159,15 +2079,6 @@ SEE RIVA TNT
 
 NAME MELCO WGA-TS 
 SEE RIVA TNT2 
-
-NAME Canopus SPECTRA 3200R2 
-SEE RIVA TNT 
-
-NAME Canopus SPECTRA 5400 
-SEE RIVA TNT2 
-
-NAME Canopus SPECTRA 5400 Premium Edition 
-SEE RIVA Ultra TNT2 
 
 NAME NVIDIA GeForce 256 (generic)
 SEE NVIDIA GeForce
@@ -2204,21 +2115,21 @@ LINE #Option "no_accel"
 NAME 3Dlabs Permedia4 (generic)
 DRIVER glint
 
-NAME ELSA GLoria-L/MX
+NAME Elsa GLoria-L/MX
 SERVER 3DLabs
 DRIVER glint
 LINE #Option "no_accel"
 
-NAME ELSA GLoria-L
+NAME Elsa GLoria-L
 SERVER 3DLabs
 DRIVER glint
 
-NAME ELSA GLoria-XL
+NAME Elsa GLoria-XL
 LINE Option     "SWcursor"
 SERVER 3DLabs
 DRIVER glint
 
-NAME ELSA GLoria-XXL
+NAME Elsa GLoria-XXL
 LINE Option     "SWcursor"
 SERVER 3DLabs
 DRIVER glint
@@ -2229,7 +2140,7 @@ SERVER 3DLabs
 DRIVER glint
 LINE Option "firegl_3000"
 
-NAME ELSA GLoria-S
+NAME Elsa GLoria-S
 SERVER 3DLabs
 DRIVER glint
 LINE #Option "no_accel"
@@ -2243,25 +2154,19 @@ LINE #Option "no_accel"
 LINE #VideoRam 8192
 LINE Option     "SWcursor"
 
-NAME ELSA GLoria Synergy
+NAME Elsa GLoria Synergy
 SERVER 3DLabs
 DRIVER glint
 LINE #Option "no_accel"
 LINE Option     "SWcursor"
 
-NAME ELSA Winner 2000/Office
+NAME Elsa Winner 2000/Office
 SERVER 3DLabs
 DRIVER glint
 LINE #Option "no_accel"
 LINE Option     "SWcursor"
 
 NAME Diamond Fire GL 1000 PRO
-SERVER 3DLabs
-DRIVER glint
-LINE #Option "no_accel"
-LINE Option     "SWcursor"
-
-NAME Creative Blaster Exxtreme
 SERVER 3DLabs
 DRIVER glint
 LINE #Option "no_accel"
@@ -2278,7 +2183,7 @@ SERVER 3DLabs
 DRIVER glint
 LINE Option     "SWcursor"
 
-NAME 3DLabs Oxygen GMX
+NAME 3Dlabs Oxygen GMX
 SERVER 3DLabs
 DRIVER glint
 LINE #Option "no_accel"
@@ -2337,7 +2242,7 @@ LINE Option "sw_cursor"
 
 # Epson SPC8110
 
-NAME EPSON SPC8110 (CardPC)
+NAME Epson SPC8110 (CardPC)
 SERVER SVGA
 DRIVER vga
 UNSUPPORTED
@@ -2365,9 +2270,6 @@ LINE # Option "sw_cursor"
 NAME Creative Labs 3D Blaster PCI (Verite 1000)
 SEE Rendition Verite 1000
 
-NAME Canopus Total-3D
-SEE Rendition Verite 1000
-
 NAME Sierra Screaming 3D
 SEE Rendition Verite 1000
 
@@ -2384,7 +2286,7 @@ SEE Rendition Verite 2x00
 
 # Epson
 
-NAME EPSON CardPC (onboard)
+NAME Epson CardPC (onboard)
 SERVER SVGA
 
 # Intel
@@ -2429,9 +2331,6 @@ SEE Intel 740 (generic)
 NAME ASUS AGP-V2740
 SEE Intel 740 (generic)
 
-NAME Atrend (Speedy) 3DIO740 AGP (ATC-2740)
-SEE Intel 740 (generic)
-
 NAME Chaintech AGP-740D
 SEE Intel 740 (generic)
 
@@ -2463,9 +2362,6 @@ NAME Gigabyte Predator i740 8MB AGP
 SEE Intel 740 (generic)
 
 NAME Hercules Terminator 128 2X/i AGP
-SEE Intel 740 (generic)
-
-NAME HOT-158 (Shuttle)
 SEE Intel 740 (generic)
 
 NAME Intel Express 3D AGP
@@ -2504,9 +2400,6 @@ SEE Intel 740 (generic)
 NAME Soyo AGP (SY-740 AGP)
 SEE Intel 740 (generic)
 
-NAME Spacewalker Hot-158 
-SEE Intel 740 (generic)
-
 NAME VideoExcel AGP 740
 SEE Intel 740 (generic)
 
@@ -2521,6 +2414,7 @@ SERVER SVGA
 DRIVER i810
 # UTAH_GLX  (not working)
 DRI_GLX
+LINE Option "XaaNoPixmapCache"
 
 NAME Intel 815
 SERVER SVGA
@@ -2575,27 +2469,27 @@ NAME Silicon Motion LynxEM
 SERVER SVGA
 DRIVER siliconmotion
 
-NAME SMI Lynx (generic)
+NAME Silicon Motion Lynx (generic)
 SERVER SVGA
 DRIVER siliconmotion
 
-NAME SMI LynxE (generic)
+NAME Silicon Motion LynxE (generic)
 SERVER SVGA
 DRIVER siliconmotion
 
-NAME SMI Lynx3D (generic)
+NAME Silicon Motion Lynx3D (generic)
 SERVER SVGA
 DRIVER siliconmotion
 
-NAME SMI LynxEM (generic)
+NAME Silicon Motion LynxEM (generic)
 SERVER SVGA
 DRIVER siliconmotion
 
-NAME SMI LynxEM+ (generic)
+NAME Silicon Motion LynxEM+ (generic)
 SERVER SVGA
 DRIVER siliconmotion
 
-NAME SMI Lynx3DM (generic)
+NAME Silicon Motion Lynx3DM (generic)
 SERVER SVGA
 DRIVER siliconmotion
 

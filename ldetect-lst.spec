@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.4
-%define release 3mdk
+%define release 4mdk
 
 Name: %{name}
 Version: %{version}
@@ -62,6 +62,20 @@ fi
 %{_bindir}/*
 
 %changelog
+* Sun Jul 28 2002 Pixel <pixel@mandrakesoft.com> 0.1.4-4mdk
+- drop CardsNames (not used anymore by drakx)
+- Cards+: add Option "XaaNoPixmapCache" for i810 as suggested on cooker.
+          to be removed when the kernel works ok
+- Cards+ (and pcitable): to cleanup the tree in XFdrake
+  - remove "Spacewalker HOT", "Octek", "Creative Blaster Exxtreme",
+    "Atrend", "ATrend", "SPEA", "Spider", "Actix", "Canopus", "Cardex"
+    entries
+  - remove "Generic VGA compatible" and entries using it
+  - remove "Unsupported VGA compatible"
+  - replace "SMI" by "Silicon Motion"
+  - replace "ELSA" by "Elsa"
+  - replace "LeadTek" by "Leadtek"
+
 * Sun Jul 21 2002 Pixel <pixel@mandrakesoft.com> 0.1.4-3mdk
 - pcitable
   - bttc -> bttv (typo fix)
