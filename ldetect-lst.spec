@@ -64,6 +64,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Thu Mar 20 2003 Pixel <pixel@mandrakesoft.com> 0.1.7-10mdk
+- change the module of an intel sound card from i810_rng to i801_audio
+
 * Wed Mar 12 2003 Pixel <pixel@mandrakesoft.com> 0.1.7-9mdk
 - add a MemoryStick reader and a usb floppy drive from ghibo
 
