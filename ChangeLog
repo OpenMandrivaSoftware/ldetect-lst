@@ -1,3 +1,18 @@
+2005-01-05 13:23  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: update
+
+2005-01-04 12:37  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/: pcitable, usbtable: - sync with kernel-2.6.10-mm1 - remove
+	  bogus usbcore entries - solve a few conflicts regarding devices
+	  claimed by modules - clean DVB entries
+
+2004-12-31 18:55  Pixel <pixel@mandrakesoft.com>
+
+	* lst/pcitable: bugzilla #12871 says this is not a graphic card, so
+	  debian pci.lst is wrong (or we need sub-id to differentiate?)
+
 2004-12-23 18:05  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* lst/pcitable: provide a generic 0x10b5	0x9656 entry in
