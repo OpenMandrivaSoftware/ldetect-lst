@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.23
+%define version 0.1.24
 %define release 1mdk
 
 Name: %{name}
@@ -64,6 +64,13 @@ fi
 %{_bindir}/*
 
 %changelog
+* Wed Nov 10 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.24-1mdk
+- disambiguate media devices (eg: TV cards vs SAT cards)
+- add I2C modules
+- workaround sound on some VIA VT8233 (#10859)
+- sync with pci.ids, hwdata-0.145 and kernel-2.6.8.1.21mdk
+- use yenta_socket for PCI7420 CardBus Controller
+
 * Thu Oct 28 2004 Gwenole Beauchesne <gbeauchesne@mandrakesoft.com> 0.1.23-1mdk
 - add Philips Semiconductors DSL card (blino)
 - use new megaraid_mbox for the following cards:
