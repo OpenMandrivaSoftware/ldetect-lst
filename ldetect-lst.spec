@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.2
-%define release 38mdk
+%define release 39mdk
 
 Name: %{name}
 Version: %{version}
@@ -47,6 +47,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/*
 
 %changelog
+* Tue Feb  5 2002 Pixel <pixel@mandrakesoft.com> 0.1.2-39mdk
+- fix usbtable merge with kernel usbmap
+
 * Wed Jan 30 2002 Pixel <pixel@mandrakesoft.com> 0.1.2-38mdk
 - replace a de4x5 with tulip
 
