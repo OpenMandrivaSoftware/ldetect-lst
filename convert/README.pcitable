@@ -2,13 +2,13 @@
 # How to merge the pcitable with various source:
 #
 # update pciutils
-./merge2pcitable pciids /usr/share/pci.ids pcitable > pcitable.new
+./merge2pcitable.pl pciids /usr/share/pci.ids pcitable > pcitable.new
 
 # with redhat's pcitable in /tmp/rh_pcitable (from kudzu or anaconda)
-./merge2pcitable pcitable /tmp/rh_pcitable pcitable > pcitable.new
+./merge2pcitable.pl pcitable /tmp/rh_pcitable pcitable > pcitable.new
 
 # with a new kernel
-./merge2pcitable kernel_pcimap $(echo /lib/modules/2.4.*/modules.pcimap | sed 's/ .*//') pcitable > pcitable.new
+./merge2pcitable.pl kernel_pcimap $(echo /lib/modules/2.4.*/modules.pcimap | sed 's/ .*//') pcitable > pcitable.new
 
 # checking the pcitable
-./merge2pcitable pcitable pcitable pcitable > /dev/null
+./merge2pcitable.pl pcitable pcitable pcitable > /dev/null
