@@ -1,3 +1,21 @@
+2005-01-24 16:40  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.52-1mdk
+
+2005-01-24 16:22  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: add support for one ATI SATA controller (from
+	  kernel-2.6.11-rc1-mm2)
+
+2005-01-24 16:17  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: add two SATA ICH7 controllers (from
+	  kernel-2.6.11-rc1)
+
+2005-01-24 12:26  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/MonitorsDB: add a new Samsung monitor (Albert Astals Cid)
+
 2005-01-20 16:20  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.51-1mdk
