@@ -160,6 +160,11 @@ Acer; Aspire 77is; API9707; 30.0-69.0; 50.0-110.0
 Acer; Aspire 77s; API9803; 30.0-72.0; 50.0-120.0
 Apollo; Apollo 1280x1024-68Hz; 0; 73.702; 68.24
 Apollo; Apollo 1280x1024-70Hz; 0; 75.118; 70.07
+Apple; HiRes Display 1152x864; 0; 30.0-100.0; 50.0-160.0
+Apple; HiRes Display 1280x1024; 0; 30.0-130.0; 50.0-160.0
+Apple; LoRes Display 640x480; 0; 28.0-33.0; 43.0-72.0
+Apple; iBook 800x600; 0; 28.0-50.0; 43.0-75.0
+Apple; iMac/PowerBook 1024x768; 0; 30.0-70.0; 50.0-160.0
 Axion; Axion CL-1566; 100; 30-66; 50-120
 COMPAQ; COMPAQ 1024 Monitor; 0; 30-60; 50-100
 COMPAQ; COMPAQ 151FS Monitor; 0; 30-60; 50-100
