@@ -16,4 +16,5 @@
 0x012f	0x0001	"unknown"	"Adaptec|SCSI"	"unknown"
 0x021b	0x0202	"pcnet_cs"	"AmbiCom|AMB8110 Fast Ethernet"	"ethernet"
 0x026f	0x0301	"pcnet_cs"	"Buffalo|LPC3-CLX Fast Ethernet"	"ethernet"
+0x028a	0x0002	"unknown"	"Compaq|iPAQ networking 11 Mbps wireless card"
 0xffff	0x1090	"pcnet_cs"	"Ark Sky|Link Express PA2600"	"ethernet"
