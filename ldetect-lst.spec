@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.9
-%define release 8mdk
+%define release 9mdk
 
 Name: %{name}
 Version: %{version}
@@ -64,6 +64,11 @@ fi
 %{_bindir}/*
 
 %changelog
+* Tue Mar  2 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.9-9mdk
+- add missing realtek 8139 (#8012)
+- merge 2.6.3-4mdk kernel pcimap (planel)
+- sanitize intel bridges naming scheme
+
 * Mon Mar  1 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.9-8mdk
 - add Samsung SyncMaster 765MB (Kozak Daniel)
 - fix entry for AGFA SnapScan Touch (#8441) (till)
