@@ -145,7 +145,7 @@
 0x043e	0x8585	"unknown"	"LG Electronics USA Inc.|LPC-UC35 Webcam"
 0x0441	0x1456	"unknown"	"Winbond Systems Lab.|Hub"
 0x044e	0x2002	"unknown"	"Alps Electric Co.|MD-5500 Printer"
-0x044e	0x3001	"unknown"	"Alps Electric Co.|UGTZ4 Bluetooth"
+0x044e	0x3001	"hci_usb"	"Alps Electric Co.|UGTZ4 Bluetooth"
 0x044f	0x0400	"unknown"	"ThrustMaster, Inc.|HOTAS Cougar"
 0x044f	0xa0a3	"unknown"	"ThrustMaster, Inc.|Fusion Digital GamePad"
 0x044f	0xb203	"unknown"	"ThrustMaster, Inc.|360 Modena Pro Wheel"
