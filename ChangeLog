@@ -1,3 +1,28 @@
+2005-02-10 15:52  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.61-1mdk
+
+2005-02-10 15:52  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* AUTHORS: update contributors list
+
+2005-02-10 13:43  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: add a new us robotics gibabit card (arnaud)
+
+2005-02-10 12:55  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/MonitorsDB: add a new EMC monitor (Funda Wang)
+
+2005-02-10 11:53  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: fill in a few descriptions from
+	  alsa-driver/pci/pcxhr/pcxhr.c
+
+2005-02-09 12:53  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* AUTHORS: update contributors list
+
 2005-02-09 12:48  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.60-1mdk
