@@ -6,7 +6,7 @@
 0x0003	0x1461	"bttv"	"AVerMedia|TVPhone98"
 0x0004	0x1461	"bttv"	"AVerMedia|TVPhone98"
 0x0012	0x11bd	"bttv"	"Pinnacle|PCTV"
-0x001c	0x11bd	"bttv"	"Pinnacle|PCTV Sat
+0x001c	0x11bd	"bttv"	"Pinnacle|PCTV Sat"
 0x003d	0x00d1	"unknown"	"Real 3D|i740 (PCI)"
 0x0079	0x0e11	"bttv"	"Canopus|WinDVR PCI"
 0x0101	0x14c7	"bttv"	"Modular Technology MM205 PCTV"
@@ -2586,7 +2586,7 @@
 0x145c	0x0000	"unknown"	"Cryptek|crypto pci 56kb crypto 56kb internal"
 0x145f	0x0001	"unknown"	"Baldor Electric Company|NextMove PCI"
 0x1461	0x0002	"bttv"	"Avermedia|TVCapture 98"
-0x1489	0x7001	"snd-card-cs46xx"	"Genius|Soundmaker 128 value
+0x1489	0x7001	"snd-card-cs46xx"	"Genius|Soundmaker 128 value"
 0x148d	0x1003	"unknown"	"DIGICOM Systems, Inc.|HCF 56k Data/Fax Modem"
 0x14af	0x0050	"snd-card-cs461x"	"Hercules|Game Theatre XP"
 0x14b3	0x0000	"unknown"	"XPEED Inc|DSL NIC"
