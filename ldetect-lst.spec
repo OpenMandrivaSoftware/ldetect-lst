@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.7
-%define release 13mdk
+%define release 14mdk
 
 Name: %{name}
 Version: %{version}
@@ -64,6 +64,18 @@ fi
 %{_bindir}/*
 
 %changelog
+* Wed May 28 2003 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.7-14mdk
+- handle dxr3/hollywood plus cards (frederic crozat)
+- manage two previously unmanaged isdn cards (Steffen Barszus)
+- add one more LG Flatron monitor (Benjamin Pflugmann)
+- fix #1607, #2017
+- fix #2255 : add support for three more monitors (two futura and one
+  sun)
+- prevent freeze (#3793)
+- fix #3759 (wrong refresh rate)
+- fix #3915: do not list anymore 'Lucent Microelectronics Venus Modem"
+  as a winmodem (poulpy)
+
 * Sun Apr  6 2003 Pixel <pixel@mandrakesoft.com> 0.1.7-13mdk
 - don't use cat(1) in update-ldetect-lst (fix bug #3678)
 
