@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.66
+%define version 0.1.67
 %define release 1mdk
 
 Name: %{name}
@@ -63,6 +63,11 @@ fi
 %{_bindir}/*
 
 %changelog
+* Thu Feb 24 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.67-1mdk
+- add support for VT6410
+- add support for Pacific Digital SATA QStor
+- fix a GeForce FX entry
+
 * Tue Feb 22 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.66-1mdk
 - usbtable: sync with kernel-2.6.10-3mdk
 
