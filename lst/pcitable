@@ -3214,7 +3214,6 @@
 0x1166	0x0240	"sata_svw"	"Reliance Computer|K2 SATA controller"
 0x1166	0x0241	"sata_svw"	""
 0x1166	0x0242	"sata_svw"	""
-0x1166	0xffff	"sworks-agp"	""
 0x1169	0x2001	"unknown"	"Centre f/Dev. of Adv. Computing|Ql5032-33APQ208C PCI to C-DAC RTU bus interface FPGA"
 0x116a	0x6100	"unknown"	"Polaris Communications|Bus/Tag Channel"
 0x116a	0x6800	"unknown"	"Polaris Communications|Escon Channel"
