@@ -1256,7 +1256,7 @@
 0x104c	0x3d07	"Card:Elsa GLoria Synergy"	"Texas Instruments|ELSA GLoria Synergy [Permedia 2]"
 0x104c	0x8000	"pcilynx"	"Texas Instruments|PCILynx/PCILynx2 IEEE 1394 Link Layer Controller"
 0x104c	0x8009	"ohci1394"	"Texas Instruments|OHCI Compliant FireWire Controller"
-0x104c	0x8011	"ohci1394"	"Texas Instruments|PCI4450 OHCI-Lynx IEEE 1394 Controller"
+0x104c	0x8011	"yenta_socket"	"Texas Instruments|PCI4450 OHCI-Lynx IEEE 1394 Controller"
 0x104c	0x8017	"ohci1394"	"Texas Instruments|PCI4410 OHCI-Lynx IEEE 1394 Controller"
 0x104c	0x8019	"ohci1394"	"Texas Instruments|TSB12LV23 OHCI Compliant IEEE-1394 Controller"
 0x104c	0x8020	"ohci1394"	"Texas Instruments|TSB12LV26 OHCI-Lynx PCI IEEE 1394 Host Controller"
