@@ -2839,7 +2839,7 @@
 0x1131	0x3400	"slamr"	"Philips Semiconductors|UCB1500 Modem"
 0x1131	0x3401	"unknown"	"Philips Semiconductors|UCB1500 Multimedia Audio Device"
 0x1131	0x5400	"unknown"	"Philips Semiconductors|TriMedia TM1000/1100 Multimedia processor"
-0x1131	0x5402	"unknown"	"Philips Semiconductors|TriMedia TM-1300 Media Processor"
+0x1131	0x5402	"ISDN:capidrv"	"Philips Semiconductors|Fritz DSL ISDN/DSL Adapter"
 0x1131	0x7130	"saa7134"	"Philips Semiconductors|SAA7130 Video Broadcast Decoder"
 0x1131	0x7133	"saa7134"	"Philips Semiconductors|SAA7135HL Multi Media Capture Device"
 0x1131	0x7134	"saa7134"	"Philips Semiconductors|SAA7134"
