@@ -1072,25 +1072,25 @@ COMMENT PC-IN600,700,800 series is not supprted
 # from net.desc
 
 # from niash.desc
-NAME ScanJet 3300c
+NAME Hewlett-Packard|ScanJet 3300c
 SERVER niash
 DRIVER USB
 COMMENT NIASH00014 chip. Prototype backend available
 UNSUPPORTED
 
-NAME ScanJet 3400c
+NAME Hewlett-Packard|ScanJet 3400c
 SERVER niash
 DRIVER USB
 COMMENT NIASH00019 chip. Partially works.
 UNSUPPORTED
 
-NAME ScanJet 3400c
+NAME Hewlett-Packard|ScanJet 3400c
 SERVER niash
 DRIVER Parport (EPP)
 COMMENT Untested
 UNSUPPORTED
 
-NAME ScanJet 4300c
+NAME Hewlett-Packard|ScanJet 4300c
 SERVER niash
 DRIVER USB
 COMMENT NIASH00019 chip. Partially works.
