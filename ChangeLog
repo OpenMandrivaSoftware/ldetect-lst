@@ -1,3 +1,7 @@
+2005-04-05 19:46  Olivier Blin <oblin at mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.82-1mdk
+
 2005-04-05 19:39  Olivier Blin <oblin at mandrakesoft.com>
 
 	* lst/pcitable: use slmodem drivers for some ICH4 modems (Arnaud de
