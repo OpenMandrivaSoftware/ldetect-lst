@@ -631,7 +631,7 @@
 0x102b	0x1525	"unknown"	"Matrox|Fusion G450 AGP"
 0x102b	0x1527	"unknown"	"Matrox|Fusion Plus G800 AGP"
 0x102b	0x2007	"Card:Matrox Mystique"	"Matrox|MGA Mistral"
-0x102b	0x2527	"Card:Matrox Millennium G550"	"Matrox|MGA G550 AGP"
+0x102b	0x2527	"Card:Matrox Millennium G550 DualHead"	"Matrox|MGA G550 AGP"
 0x102b	0x4536	"unknown"	"Matrox|VIA Framegrabber"
 0x102b	0x6573	"unknown"	"Matrox Graphics Inc|Shark 10/100 Multiport SwitchNIC"
 0x102b	0xff02	"Card:Matrox Mystique"	"Matrox|Mystique G200 SG"

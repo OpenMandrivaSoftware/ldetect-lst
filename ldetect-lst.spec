@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.4
-%define release 7mdk
+%define release 8mdk
 
 Name: %{name}
 Version: %{version}
@@ -62,6 +62,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Sat Aug 17 2002 Pixel <pixel@mandrakesoft.com> 0.1.4-8mdk
+- G550 *are* DualHead
+
 * Tue Aug 13 2002 Pixel <pixel@mandrakesoft.com> 0.1.4-7mdk
 - add entry "Intel 845" using driver i810 (fix bug #60)
 - use accel for SiS 86C326 (tested on a box here)

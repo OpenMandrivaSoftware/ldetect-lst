@@ -1958,6 +1958,10 @@ MULTI_HEAD 2
 NAME Matrox Millennium G550
 SEE Matrox Millennium G450
 
+NAME Matrox Millennium G550 DualHead
+SEE Matrox Millennium G550
+MULTI_HEAD 2
+
 NAME Matrox Mystique
 SEE Matrox Millennium G200
 
