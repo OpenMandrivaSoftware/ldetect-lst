@@ -2112,7 +2112,7 @@
 0x10b5	0x9050	0xd84d	0x4065	"unknown"	"PLX Technology, Inc.|EX-4065 8S(16C550) RS-232"
 0x10b5	0x9050	0xd84d	0x4068	"unknown"	"PLX Technology, Inc.|EX-4068 8S(16C650) RS-232"
 0x10b5	0x9050	0xd84d	0x4078	"unknown"	"PLX Technology, Inc.|EX-4078 2S(16C552) RS-232+1P"
-0x10b5	0x9050	"snd-vx222"	"PLX Technology, Inc.|PCI <-> IOBus Bridge"
+0x10b5	0x9050	"snd-vx222"	"Digigram|VX222"
 0x10b5	0x9051	"unknown"	"PLX Technology|PCI9051 Target PCI interface Chip"
 0x10b5	0x9052	"unknown"	"PLX Technology|PCI 9052 PCI 9052 Target PCI Interface Chip"
 0x10b5	0x9054	"unknown"	"PLX Technology|PCI 9054 PCI I/O Accelerator"
