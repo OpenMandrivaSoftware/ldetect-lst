@@ -1,3 +1,15 @@
+2005-01-20 16:20  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.51-1mdk
+
+2005-01-20 16:19  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: "snd-audigyls" ALSA driver was renamed "snd-ca0106"
+
+2005-01-20 16:01  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: sync with libata-dev
+
 2005-01-20 14:29  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.50-1mdk
