@@ -2409,7 +2409,7 @@
 0x8086	0x244b	"unknown"	"Intel Corporation|82820 815e (Camino 2) Chipset IDE U100"
 0x8086	0x244c	"sonypi"	""
 0x8086	0x244e	"unknown"	"Intel Corporation|82820 815e (Camino 2) Chipset PCI"
-0x8086	0x2482	"unknown"	"Intel Corporation|82801 USB Controller"
+0x8086	0x2482	"usb-uhci"	"Intel Corporation|82801 USB Controller"
 0x8086	0x2483	"unknown"	"Intel Corporation|82801 SMBus Controller"
 0x8086	0x2485	"i810_audio"	"Intel Corporation|82801 AC97 Audio Controller"
 0x8086	0x248a	"unknown"	"Intel Corporation|82801 UltraATA IDE Controller"
