@@ -1,3 +1,11 @@
+2003-03-25 15:52  Frederic Lepied <flepied@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.7-11mdk
+
+2003-03-25 15:43  adelorbeau
+
+	* lst/pcitable: Correction for the intel sound card
+
 2003-03-20 21:12  adelorbeau
 
 	* ldetect-lst.spec: Forgot to change the version tag
