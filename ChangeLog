@@ -1,3 +1,30 @@
+2004-02-19 14:45  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.9-6mdk
+
+2004-02-18 18:39  Till Kamppeter <till@mandrakesoft.com>
+
+	* lst/: ScannerDB, scannerconfigs: Fixed Firmware configuration
+	  templates for SANE backend "artec_eplus48u".
+
+2004-02-18 10:51  gletoquart
+
+	* lst/pcitable: Add card FX5200 Ultra Update FX5200
+
+2004-02-17 15:01  gletoquart
+
+	* lst/pcitable: Change for NVIDIA Quadro FX 1000 Change for NVIDIA
+	  FX 5200 Change for NVIDIA FX 5600 Change for all MDK ATI Card
+	  FBDEV to FGLRX
+
+2004-02-17 13:16  Arnaud de Lorbeau <adelorbeau@mandrakesoft.com>
+
+	* lst/pcitable: Update ATI Radeon 9600
+
+2004-02-12 19:45  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: fix changelog
+
 2004-02-12 18:20  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.9-5mdk
