@@ -1,3 +1,28 @@
+2005-02-08 12:13  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.58-1mdk
+
+2005-02-08 12:09  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: fix wrong qla1280 entry
+
+2005-02-08 12:09  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: sync with kernel-2.6.11-rc3-mm1
+
+2005-02-08 12:09  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: sync with kernel-2.6.11-rc3-mm1
+
+2005-02-07 22:23  Stew Benedict <sbenedict@mandrakesoft.com>
+
+	* lst/: Cards+, pcitable: Xbox X driver support
+
+2005-02-07 18:48  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: from kernel-2.6.10-ac12: - add two new atp870u
+	  entries - update AEC-67160-2 description
+
 2005-02-07 14:17  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.57-1mdk
