@@ -1728,7 +1728,7 @@
 0x1106	0x3038	"usb-uhci"	"VIA Technologies|VT82C586B USB"
 0x1106	0x3040	"unknown"	"VIA Technologies|VT82C586B ACPI"
 0x1106	0x3043	"via-rhine"	"VIA Technologies|VT86C100A [Rhine 10/100]"
-0x1106	0x3044	"unknown"	"VIA Technologies|OHCI Compliant IEEE 1394 Host Controller"
+0x1106	0x3044	"ohci1394"	"VIA Technologies|OHCI Compliant IEEE 1394 Host Controller"
 0x1106	0x3050	"unknown"	"VIA Technologies Inc|Power Management Controller"
 0x1106	0x3051	"unknown"	"VIA Technologies Inc|Power Management Controller"
 0x1106	0x3053	"via-rhine"	"VIA Technologies|VT6105M [Rhine III 10/100]"
