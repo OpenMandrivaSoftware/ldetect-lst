@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.4
-%define release 8mdk
+%define release 9mdk
 
 Name: %{name}
 Version: %{version}
@@ -62,6 +62,18 @@ fi
 %{_bindir}/*
 
 %changelog
+* Tue Aug 20 2002 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.4-9mdk
+- 2 unknown cards were in fact "Media Vision" (reported by Danny
+  Tholen)
+- till:
+	o add new Epson models to scanner database for scannerdrake :
+	  Epson Perfection 660, 1660 Photo, 2400 Photo Added photo card
+	  readers of Epson Stylus Photo 915/915
+	o alter description of USB vendor 0x04b8 model 0x0005 to "Epson
+	  Corp.|USB Printer", nearly all Epson printers have this ID
+	  pair, so no program should report "Epson Stylus Color 760"
+	  then.
+
 * Sat Aug 17 2002 Pixel <pixel@mandrakesoft.com> 0.1.4-8mdk
 - G550 *are* DualHead
 
