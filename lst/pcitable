@@ -2685,7 +2685,7 @@
 0x1112	0x2340	"unknown"	"RNS - Div. of Meret Communications Inc|4 Port Fast Ethernet Adapter"
 0x1112	0x2400	"unknown"	"RNS - Div. of Meret Communications Inc|ATM Adapter"
 0x1113	0x1211	"8139too"	"Accton|SMC2-1211TX"
-0x1113	0x1216	"tulip_old"	"Accton|Ethernet Adapter"
+0x1113	0x1216	"tulip"	"Accton|Ethernet Adapter"
 0x1113	0x1217	"tulip"	"Accton|EN-1217 Ethernet Adapter"
 0x1113	0x5105	"unknown"	"Accton|10Mbps Network card"
 0x1113	0x9211	"unknown"	"Accton|EN-1207D Fast Ethernet Adapter"
