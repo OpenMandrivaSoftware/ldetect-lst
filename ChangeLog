@@ -1,3 +1,7 @@
+2003-08-29 14:34  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.8-2mdk
+
 2003-08-28 00:41  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* lst/MonitorsDB: add two new monitors (one apple and one nec)
