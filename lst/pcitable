@@ -283,7 +283,7 @@
 0x100e	0x9001	"Card:Diamond Viper PCI 2Mb"	"Weitek|P9000"
 0x100e	0x9100	"Card:Diamond Viper PCI 2Mb"	"Weitek|P9100"
 0x1011	0x0001	"tulip"	"DEC|DECchip 21050"
-0x1011	0x0002	"de4x5"	"DEC|DECchip 21040 [Tulip]"
+0x1011	0x0002	"tulip"	"DEC|DECchip 21040 [Tulip]"
 0x1011	0x0004	"Card:Digital 8-plane TGA (UDB/Multia)"	"DEC|21030/TGA"
 0x1011	0x0007	"unknown"	"DEC|NVRAM [Zephyr NVRAM]"
 0x1011	0x0008	"unknown"	"DEC|KZPSA [KZPSA]"
