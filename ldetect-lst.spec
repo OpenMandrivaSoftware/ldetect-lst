@@ -60,6 +60,7 @@ fi
 %{_bindir}/*
 
 %changelog
+- lst/usbtable: add 3 mice
 
 * Thu Feb 14 2002 Pixel <pixel@mandrakesoft.com> 0.1.3-4mdk
 - add BuildRequires: perl-MDK-Common
