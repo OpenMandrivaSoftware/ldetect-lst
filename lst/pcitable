@@ -986,7 +986,7 @@
 0x1073	0x000a	"snd-card-ymfpci"	"Yamaha Corp|DS1L Audio"
 0x1073	0x000c	"snd-card-ymfpci"	"Yamaha Corporation|YMF-740C [DS-1L Audio Controller]"
 0x1073	0x000d	"snd-card-ymfpci"	"Yamaha Corporation|YMF-724F [DS-1 Audio Controller]"
-0x1073	0x0010	"snd-card-ymfpci"	"Yamaha Corporation|YMF-744B [DS-1S Audio Controller]"
+0x1073	0x0010	"ymfpci"	"Yamaha Corporation|YMF-744B [DS-1S Audio Controller]"
 0x1073	0x0012	"snd-card-ymfpci"	"Yamaha Corporation|YMF-754 [DS-1E Audio Controller]"
 0x1073	0x0020	"ymfpci"	"Yamaha Corporation|DS-1 Audio"
 0x1073	0x2000	"unknown"	"Yamaha Corporation|DS2416 Digital Mixing Card"
