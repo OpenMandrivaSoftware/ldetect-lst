@@ -269,6 +269,7 @@
 0x1002	0x4358	"Card:ATI Mach64"	"ATI|210888CX [Mach64 CX]"
 0x1002	0x4361	"snd-atiixp"	"ATI|IXP300 AC'97 Audio Controller"
 0x1002	0x4369	"atiixp"	""
+0x1002	0x436e	"sata_sil"	""
 0x1002	0x4370	"snd-atiixp"	"ATI|IXP400 AC'97 Audio Controller"
 0x1002	0x4376	"atiixp"	""
 0x1002	0x4379	"atiixp"	""
