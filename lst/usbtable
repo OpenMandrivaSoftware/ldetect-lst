@@ -73,6 +73,7 @@
 0x0409	0x0012	"unknown"	"NEC Systems|ATerm IT75DSU ISDN TA"
 0x0409	0x0014	"unknown"	"NEC Systems|Japanese Keyboard"
 0x0409	0x0027	"unknown"	"NEC Systems|MultiSync Monitor"
+0x0409	0x0040	"Removable:floppy"	"NEC Systems|Floppy (UFI)"
 0x0409	0x0058	"unknown"	"NEC Systems|USB2.0 Hub Controller"
 0x0409	0x55aa	"unknown"	"NEC Systems|Hub"
 0x0409	0x55ab	"unknown"	"NEC Systems|Hub [iMac kbd]"
