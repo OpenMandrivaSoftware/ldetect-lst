@@ -1,5 +1,10 @@
 #!/usr/bin/perl
 
+@ignored_modules = (
+qw(alsa ignore),
+qw(tr bcm5700), # redhat have this, ignore it
+);
+
 if ($0 =~ /merge2pcitable/) 
 {
     $ARGV[0] eq '-f' and $force = shift;
@@ -19,14 +24,19 @@ if ($0 =~ /merge2pcitable/)
     write_pcitable($d_pci);
 } else { 1 }
 
+sub member { my $e = shift; foreach (@_) { $e eq $_ and return 1 } 0 }
+
+sub dummy_module { 
+    my ($m) = @_;
+    $m =~ s/"(.*)"/$1/;
+    member($m, @ignored_modules);
+}
+
 sub to_string {
     my ($id, $driver) = @_;
     my ($module, $text) = map { qq("$_") } @$driver;
     my ($id1, $id2, $subid1, $subid2) = map { "0x$_" } ($id =~ /(....)/g);
     join "\t", $id1, $id2, "$subid1 $subid2" ne "0xffff 0xffff" ? ($subid1, $subid2) : (), $module, $text;
-}
-sub dummy_module {
-    $_[0] =~ /alsa|ignore/;
 }
 
 # works for RedHat's pcitable old and new format, + mdk format (alike RedHat's old one)
@@ -175,7 +185,7 @@ sub merge {
 
 sub cleanup_subids {
     my ($drivers) = @_;
-    my %l, %m;
+    my (%l, %m);
     foreach (sort keys %$drivers) {
 	my ($id, $subid) = /(........)(........)/;
 	if ($l{$id}) {
