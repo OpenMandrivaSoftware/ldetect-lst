@@ -67,6 +67,7 @@ fi
 * Tue Aug 31 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.16-3mdk
 - pcitable:
   o sync with kernel-2.6.8.1.5mdk
+  o switch one nForce2 from OSS to ALSA
   o in 2.6.x kernel, pwcd was splited between pcwd_pci and pcwd_usb
   o in both 2.4.x and 2.6.x kernels:
     * 3c359 replaced 3c559
