@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.4
-%define release 12mdk
+%define release 13mdk
 
 Name: %{name}
 Version: %{version}
@@ -63,6 +63,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Tue Aug 27 2002 Pixel <pixel@mandrakesoft.com> 0.1.4-13mdk
+- fix syntax error in usbtable (and prevent this to happen again)
+
 * Mon Aug 26 2002 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.4-12mdk
 - add lots of new devices to hardware db
 

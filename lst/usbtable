@@ -559,7 +559,7 @@
 0x05da	0x40ca	"unknown"	"Microtek International Inc.|ScanMaker 3600"
 0x05da	0x80a3	"microtek"	"Microtek International Inc.|ScanMaker V6USL (#2)"
 0x05da	0x80ac	"microtek"	"Microtek International Inc.|ScanMaker V6UL/SpicyU"
-0x05dc	0x0001	"usb-storage"	"Lexar|Jumpshot USB CF Reader""
+0x05dc	0x0001	"usb-storage"	"Lexar|Jumpshot USB CF Reader"
 0x05e3	0x000b	"unknown"	"Genesys Logic, Inc.|Karna Razor BoomSlang 2000 Mouse"
 0x05e3	0x0300	"unknown"	"Genesys Logic, Inc.|GLUSB98PT Parallel Port"
 0x05e3	0x0502	"usbnet"	""
