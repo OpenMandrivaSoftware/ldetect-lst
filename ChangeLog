@@ -1,3 +1,23 @@
+2003-10-13 15:12  Pixel <pixel@mandrakesoft.com>
+
+	* lst/Cards+: "ATI Radeon (fbdev)" doesn't handle DRI
+
+2003-10-13 08:50  Nicolas Planel <nplanel@mandrakesoft.com>
+
+	* lst/pcitable: s/3c940/sk98lin/
+
+2003-10-06 13:04  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: reference ite raid controller (to be managed
+	through iteraid once
+	http://www.ite.com.tw/pc/LinuxSrc_it8212_092005-03.zip is merged in
+	our kernel)
+
+2003-09-25 23:03  Stefan Siegel <siegel@linux-mandrake.com>
+
+	* lst/usbtable: added new USB device 0x2304 0x051a "Pinnacle
+	Systems, Inc.|Pinnacle Bungee (NTSC)"
+
 2003-09-22 14:22  Gwenole Beauchesne <gbeauchesne@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.8-10mdk
