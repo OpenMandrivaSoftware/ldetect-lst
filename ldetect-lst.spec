@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.2
-%define release 24mdk
+%define release 25mdk
 
 Name: %{name}
 Version: %{version}
@@ -48,6 +48,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/*
 
 %changelog
+* Fri Sep 21 2001 François Pons <fpons@mandrakesoft.com> 0.1.2-25mdk
+- added GeForce 3 Integrated (Xbox).
+
 * Thu Sep 13 2001 Frederic Lepied <flepied@mandrakesoft.com> 0.1.2-24mdk
 - corrected wacom entries to support the PL500 and the Graphire2.
 
