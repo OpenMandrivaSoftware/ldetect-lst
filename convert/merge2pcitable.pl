@@ -113,20 +113,20 @@ sub read_pciids {
 	next if /^#/ || /^;/ || /^\s*$/;
 	if (/^C\s/) {
 	    last;
-	} elsif (my ($subid1, $subid2, $text) = /^\t\t(\S+)\s+(\S+)\s+(.*)/) {
+	} elsif (my ($subid1, $subid2, $text) = /^\t\t(\S+)\s+(\S+)\s+(.+)/) {
 	    $text =~ s/\t/ /g;
 	    $id1 && $id2 or die "$f $line: unexpected device\n";
-	    $drivers{lc "$id1$id2$subid1$subid2"} = [ "unknown", "$class|$text" ];
-	} elsif (/^\t(\S+)\s+(.*)/) {
+	    $drivers{sprintf qq(%04x%04x%04x%04x), hex($id1), hex($id2), hex($subid1), hex($subid2)} = [ "unknown", "$class|$text" ];
+	} elsif (/^\t(\S+)\s+(.+)/) {
 	    ($id2, $text) = ($1, $2);
 	    $text =~ s/\t/ /g;
 	    $id1 && $id2 or die "$f $line: unexpected device\n";
-	    $drivers{lc "$id1${id2}ffffffff"} = [ "unknown", "$class|$text" ];
-	} elsif (/^(\S+)\s+(.*)/) {
+	    $drivers{sprintf qq(%04x%04xffffffff), hex($id1), hex($id2)} = [ "unknown", "$class|$text" ];
+	} elsif (/^(\S+)\s+(.+)/) {
 	    $id1 = $1;
 	    $class = $class{$2} || $2;
 	} else {
-	    die "bad line: $_\n";
+	    warn "bad line: $_\n";
 	}
     }
     \%drivers;
