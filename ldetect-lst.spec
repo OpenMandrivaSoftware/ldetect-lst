@@ -67,7 +67,7 @@ fi
 * Fri Nov 26 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.31-1mdk
 - since yenta_socket driver claims to support any pci card whose class
   is PCI_CLASS_BRIDGE_CARDBUS, assign it to all pcmcia/cardbus
-  controller
+  controllers
 
 * Fri Nov 26 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.30-1mdk
 - handle PCI device IDs set to PCI_ANY_ID in kernel's pcimap:
