@@ -66,6 +66,9 @@ sub read_pcitable {
 
 	    $module =~ s/\.o$//;
 	    $module = "unknown" if dummy_module($module);
+	    $module = "unknown" if $id1 == 0x1011 && (0x0024 <= $id2 && $id2 <= 0x0025); 
+	      # known errors in redhat's pcitable
+	      # these are pci to pci bridge
 	    $module = "i82365" if $module =~ /yenta_socket/;
 	    my $id = join '', map { s/^0x//; $_ } $id1, $id2, $subid1, $subid2;
 	    $drivers{$id} and print STDERR "$f $line: multiple entry for $id (skipping $module $text)\n";
