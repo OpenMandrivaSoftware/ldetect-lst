@@ -68,7 +68,7 @@ fi
 - sync with rh's hwdata-0.113, thus adding support for:
   o one Syskonnect SK-98xx gigabit ethernet,
   o one intel ich5 sata controller
-  o two voodoo gfx cards)
+  o two voodoo gfx cards
 
 * Thu Mar 18 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.9-11mdk
 - audigy does not works but snd-emu10k1 does works smoothly (#4512)
