@@ -1,3 +1,19 @@
+2004-03-24 10:39  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: add one more change in 0.1.9-12mdk
+
+2004-03-24 10:39  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: add support for warly laptop geforce card
+
+2004-03-23 17:28  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: fix changelog
+
+2004-03-23 17:27  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* Makefile: add localsrpm target
+
 2004-03-23 17:24  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* lst/pcitable: these two ones need Alan Cox's new "voodoo" driver
