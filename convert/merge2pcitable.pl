@@ -35,6 +35,7 @@ sub dummy_module {
 
 sub to_string {
     my ($id, $driver) = @_;
+    @$driver == 2 or die "error: to_string $id\n";
     my ($module, $text) = map { qq("$_") } @$driver;
     my ($id1, $id2, $subid1, $subid2) = map { "0x$_" } ($id =~ /(....)/g);
     join "\t", $id1, $id2, "$subid1 $subid2" ne "0xffff 0xffff" ? ($subid1, $subid2) : (), $module, $text;
@@ -193,6 +194,56 @@ sub read_hwd {
     \%drivers;
 }
 
+sub read_begent_pcids_htm {
+    my ($f) = @_;
+    my %drivers;
+    local *F;
+    open F, $f or die "can't open $f\n";
+
+    # drop until TBODY
+    while (<F>) { last if m|<TBODY>| }
+
+    my $get_one = sub { map { scalar <F> } 1 .. 6 };
+    my $from_h = sub { 
+	local $_ = lc $_[0]; 
+	/([0-9a-g]{4})h/ or die "$.: bad number $_\n";
+	$1;
+    };
+
+    # drop first line
+    $get_one->();
+
+    my ($cur_vendor, $cur_vendor_descr, $cur_id);
+
+    while (1) {
+	my ($tr, $vendor, $device, $sub, $text, $tr2) = map { m|<td>(.*)</td>| ? $1 : $_ } $get_one->();
+	last if $tr =~ m|</TBODY>|;
+	$tr  =~ m|<tr>|  or die "$f:$.: bad <tr> line $tr\n";
+	$tr2 =~ m|</tr>| or die "$f:$.: bad </tr> line $tr2\n";
+
+	if ($vendor) {
+	    $device eq '-' && $sub eq '-' or die "$f:$.: bad vendor line\n";
+	    $cur_vendor = $vendor;
+	    ($cur_vendor_descr) = $text =~ m|<b>(.*)</b>| or die "$f:$.: vendor descr not bold\n";
+	} else {
+	    $cur_id = $device || $cur_id;
+	    my $sub_t =
+	      $sub ? do {
+		  $sub =~ /^rev / and next; # ignoring "rev " thingy
+		  if ($sub =~ /^(.....)$/) {
+		      'ffff' . $from_h->($sub);
+		  } else {
+		      my ($s1, $s2) = $sub =~ /^(....)(.....)$/ or die "$f:$.: bad subid $sub\n";
+		      $from_h->($s2) . $from_h->($s1 . 'h');
+		  }
+	      } : 'ffffffff';
+
+	    $drivers{$from_h->($cur_vendor) . $from_h->($cur_id) . $sub_t} = [ 'unknown', "$cur_vendor_descr|$text" ];
+	}
+    }
+    \%drivers;
+}
+
 # write in RedHat's pcitable old format (mdk one)
 sub write_pcitable {
     my ($drivers) = @_;
@@ -219,6 +270,15 @@ sub merge {
 		}
 	    }
 	} else {
+	    if (!/ffffffff$/ && $new->{$_}[0] eq "unknown") {
+		# keep sub-entry with major-entry module
+		# will be dropped if every subids have the same module
+		# ie. if no subids already present have a different module than the main one
+		/(........)/;
+		$new->{$_}[0] = $drivers->{$1 . 'ffffffff'}[0] || "unknown" 
+		  if exists $drivers->{$1 . 'ffffffff'};
+	    }
+
 	    $drivers->{$_} = $new->{$_} 
 	      # don't keep sub-entries with unknown drivers
 	      if $all || /ffffffff$/ || $new->{$_}[0] ne "unknown";
@@ -243,7 +303,7 @@ sub cleanup_subids {
 	foreach my $subid (@{$m{$id}}) {
 	    my $e = $drivers->{"$id$subid"};
 	    $modules{$e->[0]} = 1;
-	    $text = $e->[1] if length($e->[1]) > length($text);
+	    $text = $e->[1] if length($e->[1]) > length($text) || $subid eq 'ffffffff'; # favour previous text
 	}
 	if (keys(%modules) == 1) {
 	    my ($module, undef) = %modules;

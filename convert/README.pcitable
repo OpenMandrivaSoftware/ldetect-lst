@@ -10,7 +10,9 @@
 rm -f vendors.txt ; wget http://www.yourvote.com/pci/vendors.txt
 ./merge2pcitable.pl pciids vendors.txt pcitable > pcitable.new
 
-# http://www.begent.co.uk/pcids.htm
+# Another one
+rm -f pcids.html ; wget http://www.begent.co.uk/pcids.htm
+./merge2pcitable.pl begent_pcids_htm pcids.htm pcitable > pcitable.new
 
 
 # with redhat's pcitable in /tmp/rh_pcitable (from kudzu or anaconda)
