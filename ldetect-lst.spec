@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.41
+%define version 0.1.42
 %define release 1mdk
 
 Name: %{name}
@@ -64,6 +64,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Fri Jan  7 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.42-1mdk
+- add a Samsung monitor (Andres Kaaber)
+
 * Fri Jan  7 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.41-1mdk
 - sync with kernel-2.6.9-1mdk
 - add a LG monitor (Andres Kaaber)
