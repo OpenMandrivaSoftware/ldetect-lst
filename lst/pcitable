@@ -5892,6 +5892,7 @@
 0x8086	0x266f	"piix"	"Intel Corp.|I/O Controller Hub PATA"
 0x8086	0x2782	"unknown"	"Intel Corp.|Graphics Controller"
 0x8086	0x2792	"unknown"	"Intel Corp.|Mobile Graphics Controller"
+0x8086	0x27d8	"snd-azx"	""
 0x8086	0x3092	"i2o_block"	"Intel Corp.|Integrated RAID"
 0x8086	0x3200	"sata_vsc"	"Intel Corp.|31244 PCI-X to Serial ATA Controller"
 0x8086	0x3340	"intel-agp"	"Intel Corp.|82855PM Processor to I/O Controller"
