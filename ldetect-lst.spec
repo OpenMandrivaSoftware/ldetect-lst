@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.9
-%define release 6mdk
+%define release 7mdk
 
 Name: %{name}
 Version: %{version}
@@ -64,6 +64,10 @@ fi
 %{_bindir}/*
 
 %changelog
+* Fri Feb 20 2004 Frederic Lepied <flepied@mandrakesoft.com> 0.1.9-7mdk
+- pcitable: o updated ATI entries for radeon cards
+            o standardize ATI name use
+
 * Thu Feb 19 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.9-6mdk
 - fix firmware configurationç templates for SANE backend
   "artec_eplus48u" (till)
