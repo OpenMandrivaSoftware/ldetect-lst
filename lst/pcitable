@@ -1553,7 +1553,7 @@
 0x10de	0x01aa	"unknown"	"Nvidia Corporation|nForce 220 Memory Controller (DDR)"
 0x10de	0x01ab	"unknown"	"Nvidia Corporation|nForce 420 Memory Controller (DDR)"
 0x10de	0x01ac	"unknown"	"Nvidia Corporation|nForce 220/420 Memory Controller"
-0x10de	0x01ad	"unknown"	"Nvidia Corporation|nForce 220/420 Memory Controller"
+0x10de	0x01ad	"nvnet"	"Nvidia Corporation|nForce Ethernet Controller"
 0x10de	0x01b0	"unknown"	"Nvidia Corporation|nForce MCP Audio Processing Unit (Dolby Digital)"
 0x10de	0x01b1	"i810_audio"	"Nvidia Corporation|nForce Audio Codec Interface"
 0x10de	0x01b2	"unknown"	"Nvidia Corporation|nForce Joystick"
