@@ -778,6 +778,7 @@
 0x103c	0x121a	"unknown"	"HP|NetServer SMIC Controller"
 0x103c	0x121b	"unknown"	"HP|NetServer Legacy COM Port Decoder"
 0x103c	0x121c	"unknown"	"HP|NetServer PCI COM Port Decoder"
+0x103c	0x1279	"Card:ATI Rage 128"	"HP|Rage128 Ultra TR"
 0x103c	0x2910	"unknown"	"HP|E2910A"
 0x103c	0x2920	"unknown"	"Hewlett-Packard Company|Fast Host Interface"
 0x103c	0x2924	"unknown"	"Hewlett-Packard Company|E2924A PCI Host Interface Adapter"
