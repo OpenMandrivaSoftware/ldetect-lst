@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.2
-%define release 5mdk
+%define release 6mdk
 
 Name: %{name}
 Version: %{version}
@@ -48,6 +48,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/*
 
 %changelog
+* Tue Mar 13 2001 Pixel <pixel@mandrakesoft.com> 0.1.2-6mdk
+- updated
+
 * Tue Mar  6 2001 Pixel <pixel@mandrakesoft.com> 0.1.2-5mdk
 - merge with /lib/modules/2.4.2-7mdk/modules.pcimap, anaconda-7.1-1.200102051925's
 pcitable, kudzu-0.92.1-1's pcitable
