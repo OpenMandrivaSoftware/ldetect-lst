@@ -1,4 +1,9 @@
-2005-04-04 15:37  Pixel <pixel@mandrakesoft.com>
+2005-04-05 19:39  Olivier Blin <oblin at mandrakesoft.com>
+
+	* lst/pcitable: use slmodem drivers for some ICH4 modems (Arnaud de
+	  Lorbeau)
+
+2005-04-04 15:37  Pixel <pixel at mandrakesoft.com>
 
 	* ldetect-lst.spec, lst/pcitable: add graphic card entry for laptop
 	  nx6110
