@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.9
-%define release 14mdk
+%define release 15mdk
 
 Name: %{name}
 Version: %{version}
@@ -64,6 +64,11 @@ fi
 %{_bindir}/*
 
 %changelog
+* Mon Apr 26 2004 Gwenole Beauchesne <gbeauchesne@mandrakesoft.com> 0.1.9-15mdk
+- add Tatung C7BZR monitor specs
+- revert GeForce FX 5700 change as XFree86 4.3 "nv" driver doesn't get it right
+- sync with kernel-2.6.3-10mdk and rh's hwdata-0.117 (tv)
+
 * Fri Apr 16 2004 Gwenole Beauchesne <gbeauchesne@mandrakesoft.com> 0.1.9-14mdk
 - add "iteraid" (IT8212) controller
 - fix GeForce FX 5700/5950, Quadro FX 1100 entries
