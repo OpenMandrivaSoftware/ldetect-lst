@@ -1,3 +1,11 @@
+2004-09-28 07:02  Frederic Lepied <flepied@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.18-1mdk
+
+2004-09-28 07:01  Frederic Lepied <flepied@mandrakesoft.com>
+
+	* lst/usbtable: fixed entry at the wrong place
+
 2004-09-28 06:57  Frederic Lepied <flepied@mandrakesoft.com>
 
 	* lst/pcitable: added ath_pci entries
