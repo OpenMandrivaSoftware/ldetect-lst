@@ -3071,15 +3071,13 @@ LINE #    Option     "fifo_conservative"
 NAME Rendition Verite 1000
 CHIPSET Verite 1000
 SERVER SVGA
-DRIVER vga
-UNSUPPORTED
+DRIVER rendition
 LINE # Option "sw_cursor"
 
 NAME Rendition Verite 2x00
 CHIPSET Verite 2x00
 SERVER SVGA
-DRIVER vga
-UNSUPPORTED
+DRIVER rendition
 LINE # Option "sw_cursor"
 
 NAME Creative Labs 3D Blaster PCI (Verite 1000)
