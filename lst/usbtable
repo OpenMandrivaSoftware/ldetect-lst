@@ -378,6 +378,7 @@
 0x0557	0x2008	"pl2303"	""
 0x0557	0x2600	"unknown"	"ATEN International Co. Ltd.|IDE Bridge"
 0x0557	0x4000	"kaweth"	"ATEN International Co. Ltd.|DSB-650 10Mbps Ethernet [klsi]"
+0x055d	0x9001	"unknown"	"Samsung Electro-Mechanics Co.|MPC-C30 AnyCam Premium for Notebooks"
 0x055f	0x0001	"scanner"	"Mustek Systems Inc.|ScanExpress 1200 CU"
 0x055f	0x0002	"scanner"	"Mustek Systems Inc.|ScanExpress 600 CU"
 0x055f	0x0003	"scanner"	"Mustek Systems Inc.|ScanExpress 1200 USB"
