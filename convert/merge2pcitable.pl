@@ -36,7 +36,7 @@ sub dummy_module {
 
 sub to_string {
     my ($id, $driver) = @_;
-    @$driver == 2 or error("error: to_string $id");
+    @$driver >= 2 or error("error: to_string $id");
     my ($module, $text) = map { qq("$_") } @$driver;
     my ($id1, $id2, $subid1, $subid2) = map { "0x$_" } ($id =~ /(....)/g);
     join "\t", $id1, $id2, "$subid1 $subid2" ne "0xffff 0xffff" ? ($subid1, $subid2) : (), $module, $text;
@@ -48,8 +48,9 @@ sub read_pcitable {
     my ($f, $strict) = @_;
     my %drivers;
     my $line = 0;
-    my $rm_quote_silent = sub { s/^"//; s/"$//; $_ };
+    my $rm_quote_silent = sub { local ($_) = @_; s/^"//; s/"$//; $_ };
     my $rm_quote = sub {
+	    local ($_) = @_; 
 	    s/^"// or error("$f:$line: missing left quote");
             s/"$// or error("$f:$line: missing right quote");
 	    /"/ && $strict and error("$f:$line: bad double quote");
@@ -90,7 +91,7 @@ sub read_pcitable {
 		lc($_);
 	    } $id1, $id2, $subid1, $subid2;
 	    $drivers{$id} && $strict and error("$f:$line: multiple entry for $id (skipping $module $text)");
-	    $drivers{$id} ||= [ map &$rm_quote, $module, $text ];
+	    $drivers{$id} ||= [ $rm_quote->($module), $rm_quote->($text), $line ];
 	} else {
 	    die "$f:$line: bad line\n";
 	}
