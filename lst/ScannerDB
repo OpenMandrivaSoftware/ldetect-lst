@@ -346,12 +346,16 @@ NAME Seiko Epson Corp.|Perfection 1200Photo
 SEE Seiko Epson Corp.|Perfection 636
 
 NAME Seiko Epson Corp.|Perfection 1240
-SERVER epson
+SEE Seiko Epson Corp.|Perfection 636
 DRIVER SCSI USB
 
 NAME Seiko Epson Corp.|Perfection 1640
-SERVER epson
+SEE Seiko Epson Corp.|Perfection 636
 DRIVER SCSI USB
+
+NAME Seiko Epson Corp.|Perfection 1650 Photo
+SEE Seiko Epson Corp.|Perfection 636
+COMMENT usb 0x04b8 0x0110
 
 NAME Seiko Epson Corp.|Expression 636
 SEE Seiko Epson Corp.|GT-7000
