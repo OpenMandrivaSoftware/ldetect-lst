@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.4
-%define release 16mdk
+%define release 17mdk
 
 Name: %{name}
 Version: %{version}
@@ -63,6 +63,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Thu Sep 12 2002 Damien Chaumette <dchaumette@mandrakesoft.com> 0.1.4-17mdk
+- fix some isdn cards module syntax to "ISDN:module_name"
+
 * Thu Sep 05 2002 François Pons <fpons@mandrakesoft.com> 0.1.4-16mdk
 - fix for GeForce NV25 not working with nv driver (use fbdev or nvidia).
 
