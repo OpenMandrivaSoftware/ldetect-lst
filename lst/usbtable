@@ -630,6 +630,7 @@
 0x04e7	0x0001	"unknown"	"Elo TouchSystems|TouchScreen"
 0x04e8	0x1003	"unknown"	"Samsung Electronics Co., Ltd.|MP3 Player and Recorder"
 0x04e8	0x5a03	"unknown"	"Samsung Electronics Co., Ltd.|Yepp MP3 Player"
+0x04e8	0x7021	"hci_usb"	"Samsung Electronics Co., Ltd.|Bluetooth Controller"
 0x04e8	0x6601	"visor"	""
 0x04e8	0x8001	"pl2303"	""
 0x04f1	0x0001	"unknown"	"Victor Company of Japan (JVC)|GC-QX3 Digital Still Camera"
