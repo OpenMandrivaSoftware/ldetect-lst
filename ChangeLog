@@ -1,3 +1,12 @@
+2004-12-23 18:05  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: provide a generic 0x10b5	0x9656 entry in
+	  order to workaround fscking make check
+
+2004-12-23 18:03  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: sort
+
 2004-12-23 14:55  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.38-1mdk
