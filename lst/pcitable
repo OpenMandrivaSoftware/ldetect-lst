@@ -5003,7 +5003,7 @@
 0x17fe	0x2220	"unknown"	"Linksys, A Division of Cisco Systems|[AirConn] INPROCOMM IPN 2220 Wireless LAN Adapter (rev 01)"
 0x1813	0x4000	"Bad:www.linmodems.org"	"Modem Silicon Operation|MD563X Host Accelerated Modem"
 0x1813	0x4100	"unknown"	"Ambient Technologies Inc|HaM plus Data Fax Modem"
-0x1814	0x0101	"unknown"	"RaLink|Wireless PCI Adpator RT2400 / RT2460"
+0x1814	0x0101	"rt2400"	"RaLink|Wireless PCI Adpator RT2400 / RT2460"
 0x1814	0x0201	"rt2500"	"RaLink|Ralink RT2500 802.11 Cardbus Reference Card"
 0x182d	0x3069	"unknown"	"SiteCom Europe BV|ISDN PCI DC-105V2"
 0x183b	0x08a7	"unknown"	"MikroM GmbH|MVC100 DVI"
