@@ -64,6 +64,8 @@ fi
 %{_bindir}/*
 
 %changelog
+- XF 4.3 now add DRI for Radeon 8500 cards. (fpons)
+
 * Thu Jul 24 2003 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.7-16mdk
 - fix incorrect driver for Envy24HT (#4257 : Eric Fernandez)
 - fix one phillips saa7146 card module (Steffen Barszus)
