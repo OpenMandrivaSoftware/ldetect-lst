@@ -1,3 +1,33 @@
+2004-03-01 10:56  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.9-8mdk
+
+2004-02-27 19:06  Till Kamppeter <till@mandrakesoft.com>
+
+	* lst/ScannerDB: Fixed entry for AGFA SnapScan Touch (bug #8441).
+
+2004-02-23 10:08  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/MonitorsDB: add Samsung SyncMaster 765MB (Kozak Daniel
+	  <pleusicles@freemail.hu>)
+
+2004-02-20 16:55  Pixel <pixel@mandrakesoft.com>
+
+	* convert/verify_Cards.pl: display file & line number in the error
+	  message (nice for "unknown card", but not that nice for "no
+	  Driver for card xxx", but it will do!)
+
+2004-02-20 16:54  Pixel <pixel@mandrakesoft.com>
+
+	* convert/merge2pcitable.pl: - $rm_quote_silent was expecting $_
+	  whereas we passed a parameter - $rm_quote now expects a parameter
+	  - add the line number in the data we collect - modify to_string()
+	  to accept this 3rd element
+
+2004-02-20 16:39  Pixel <pixel@mandrakesoft.com>
+
+	* convert/merge2pcitable.pl: emacs compatible error messages
+
 2004-02-20 10:24  Frederic Lepied <flepied@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.9-7mdk
