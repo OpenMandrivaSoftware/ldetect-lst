@@ -1,19 +1,17 @@
-# $XConsortium: Cards /main/27 1996/10/28 05:43:53 kaleb $
-# This is the database of card definitions used by xf86config.
-# Each definition should have a NAME entry, CHIPSET (descriptive) and
-# SERVER (one of Mono, VGA16, SVGA, S3, 8514, Mach8, Mach32, Mach64, AGX,
-# P9000, W32, I128).
+# $Id$
+# This is the database of card definitions used by XFdrake
+#
+
+# Each definition should have a NAME entry, a SERVER or DRIVER
+#
 # A reference to another definition is made with SEE (already defined
 # entries are not overridden).
-# Optional entries are RAMDAC (identifier), CLOCKCHIP (identifier),
-# DACSPEED, NOCLOCKPROBE (advises never to probe clocks), UNSUPPORTED
-# (indicates card that is not yet properly supported by a dedicated
-# server). A LINE entry adds a line of text to be included in the
-# Device section (can include options or comments).
-# There's no CLOCKS option (although a Clocks line can be included
-# with LINE), as it is very undesirable to have a Clocks line that
-# is incorrect. The idea is that the Clocks are probed for to be
-# sure (a commented suggested Clocks line can be included).
+#
+# Optional entries are:
+#
+# NOCLOCKPROBE: advises never to probe clocks
+# UNSUPPORTED: indicates card that is not yet properly supported by XFree4
+# LINE: adds a line of text to be included in the Device section (can include options or comments).
 #
 # DRI_GLX: 3D acceleration configuration for XFree 4 using DRI.
 # UTAH_GLX: 3D acceleration configuration for XFree 3.3 using Utah-GLX.
@@ -27,10 +25,6 @@
 # MULTI_HEAD n: for n Head cards (eg: "MULTI_HEAD 4" for QuadHead)
 #
 #
-# The majority of entries are just a binding of a model name to a
-# chipset/server and untested.
-#
-# $XFree86: xc/programs/Xserver/hw/xfree86/xf86config/Cards,v 3.51.2.43 1999/12/20 12:55:58 hohndel Exp $
 
 # VGA
 
@@ -363,76 +357,11 @@ SEE S3 801/805 (generic)
 NAME S3 86C805 (generic)
 SEE S3 801/805 (generic)
 
-#tested
-NAME S3 801/805 with ATT20c490 RAMDAC
-SERVER S3
-DRIVER s3
-NEEDVIDEORAM
-UNSUPPORTED
-RAMDAC att20c490
-LINE     #Option "dac_8_bit"		# Not supported by some 20c490 clones
-
-NAME S3 801/805 with SC1148{2,3,4} RAMDAC
-SERVER S3
-DRIVER s3
-NEEDVIDEORAM
-UNSUPPORTED
-RAMDAC sc11482
-
-NAME S3 801/805 with SC1148{5,7,9} RAMDAC
-SERVER S3
-DRIVER s3
-NEEDVIDEORAM
-UNSUPPORTED
-RAMDAC sc11485
-
-NAME S3 801/805 with S3 GenDAC
-SERVER S3
-DRIVER s3
-NEEDVIDEORAM
-UNSUPPORTED
-RAMDAC s3gendac
-CLOCKCHIP s3gendac
-
-NAME S3 801/805 with ATT20c490 RAMDAC and ICD2061A
-SERVER S3
-DRIVER s3
-NEEDVIDEORAM
-UNSUPPORTED
-RAMDAC att20c490
-CLOCKCHIP icd2061a
-LINE     #Option "dac_8_bit"		# Not supported by some 20c490 clones
-
-NAME S3 801/805 with Chrontel 8391
-SERVER S3
-DRIVER s3
-NEEDVIDEORAM
-UNSUPPORTED
-RAMDAC att20c490
-CLOCKCHIP ch8391
-LINE     Option "dac_8_bit"
-
-#tested
-NAME Actix GE32+ 2MB
-SERVER S3
-DRIVER s3
-NEEDVIDEORAM
-UNSUPPORTED
-RAMDAC att20c490
-LINE     #Option "dac_8_bit"
-
 NAME Actix GE32i
 SERVER S3
 DRIVER s3
 NEEDVIDEORAM
 UNSUPPORTED
-
-NAME Orchid Fahrenheit VA
-SERVER S3
-DRIVER s3
-NEEDVIDEORAM
-UNSUPPORTED
-RAMDAC att20c490
 
 NAME Orchid Fahrenheit 1280
 SERVER S3
@@ -443,48 +372,11 @@ LINE     #Probable clocks:
 LINE     #Clocks 25.20 28.32 32.50 0.00 40.00 44.90 50.40 65.00
 LINE     #Clocks 78.00 56.70 63.10 75.10 80.00 89.90 100.90 31.50
 
-NAME Orchid Fahrenheit-1280+
-SERVER S3
-DRIVER s3
-NEEDVIDEORAM
-UNSUPPORTED
-RAMDAC att20C490
-LINE     Dacspeed   110
-LINE     Option     "dac_8_bit"
-LINE     #Option    "nolinear" # VLB card may require this
-LINE     #Probable clocks:
-LINE     #Clocks     25.20 28.32 40.0 0.0 50.10 77.0 36.10 45.0
-LINE     #Clocks     130.0 120.20 80.0 31.50 110.30 65.0 75.0 94.60
-
-NAME Diamond Stealth 24
-SERVER S3
-DRIVER s3
-NEEDVIDEORAM
-UNSUPPORTED
-CLOCKCHIP icd2061a
-LINE     #Option    "nolinear"
-LINE     #Ramdac "att20c490" # The Diamond RAMDAC is reportedly compatible for 15bpp
-
 NAME Miro Crystal 8S
 SEE S3 801/805 (generic)
 
-NAME Miro Crystal 10SD with GenDAC
-SEE S3 801/805 with S3 GenDAC
-
 NAME Dell S3 805
 SEE S3 801/805 (generic)
-
-NAME STB Powergraph X-24
-SEE S3 801/805 with ATT20c490 RAMDAC and ICD2061A
-
-NAME JAX 8241
-SEE S3 801/805 with Chrontel 8391
-
-NAME VL-41
-SEE S3 801/805 with Chrontel 8391
-
-NAME SPEA Mirage
-SEE S3 801/805 with Chrontel 8391
 
 # S3 864/Trio64/Trio32/868
 
@@ -499,28 +391,6 @@ SEE S3 864 (generic)
 
 NAME S3 Vision864 (generic)
 SEE S3 864 (generic)
-
-NAME S3 864 with SDAC (86C716)
-SERVER S3
-DRIVER s3
-NEEDVIDEORAM
-UNSUPPORTED
-RAMDAC s3_sdac
-CLOCKCHIP s3_sdac
-
-NAME S3 864 with ATT 20C498 or 21C498
-SERVER S3
-DRIVER s3
-NEEDVIDEORAM
-UNSUPPORTED
-RAMDAC att20c498
-
-NAME S3 864 with STG1703
-SERVER S3
-DRIVER s3
-NEEDVIDEORAM
-UNSUPPORTED
-RAMDAC stg1703
 
 NAME S3 868 (generic)
 SERVER S3
@@ -539,24 +409,6 @@ SERVER S3
 DRIVER s3
 NEEDVIDEORAM
 UNSUPPORTED
-
-NAME S3 868 with ATT 20C498 or 21C498
-SERVER S3
-DRIVER s3
-NEEDVIDEORAM
-UNSUPPORTED
-RAMDAC att20c498
-
-NAME S3 868 with ATT 20C409
-SERVER S3
-DRIVER s3
-NEEDVIDEORAM
-UNSUPPORTED
-RAMDAC att20c409
-
-NAME Number Nine FX Motion 531
-CLOCKCHIP icd2061a
-SEE S3 868 with ATT 20C498 or 21C498
 
 NAME S3 Trio64 (generic)
 SERVER S3
@@ -579,28 +431,8 @@ SERVER S3
 DRIVER s3
 NEEDVIDEORAM
 
-NAME Genoa Phantom 64i with S3 SDAC
-DACSPEED 135
-SEE S3 864 with SDAC (86C716)
-
-NAME Number Nine GXE64
-SERVER S3
-DRIVER s3
-NEEDVIDEORAM
-UNSUPPORTED
-CLOCKCHIP icd2061a
-LINE     Option "number_nine"
-
 NAME Number Nine GXE64 with S3 Trio64
 SEE S3 Trio64 (generic)
-
-NAME Diamond Stealth 64 DRAM with S3 SDAC
-DACSPEED 135
-SEE S3 864 with SDAC (86C716)
-
-NAME Diamond Stealth64 Graphics 2xx0 series (864 + SDAC)
-DACSPEED 135
-SEE S3 864 with SDAC (86C716)
 
 NAME Diamond Stealth 64 DRAM with S3 Trio64
 SEE S3 Trio64 (generic)
@@ -614,34 +446,6 @@ SEE S3 Trio32 (generic)
 NAME Diamond Stealth64 Video 2001 series (2121/2201)
 SEE S3 Trio64V+ (generic)
 
-NAME Actix GE64
-CLOCKCHIP icd2061a
-SEE S3 864 (generic)
-
-NAME ELSA Winner 1000PRO with S3 SDAC
-SEE S3 864 with SDAC (86C716)
-
-NAME ELSA Winner 1000PRO with STG1700 or AT&T RAMDAC
-SERVER S3
-DRIVER s3
-NEEDVIDEORAM
-UNSUPPORTED
-CLOCKCHIP icd2061a
-
-NAME ELSA Winner 1000PRO/X
-SEE S3 868 with SDAC (86C716)
-
-NAME ELSA Winner 1000ISA
-SERVER S3
-DRIVER s3
-NEEDVIDEORAM
-UNSUPPORTED
-CLOCKCHIP icd2061a
-LINE     Option "dac_8_bit"
-LINE     # the following settings should be detected and set automatically by XF86_S3
-LINE     # if the serial number of the ELSA card is printed correctly:
-LINE     #ClockChip "icd2061a"
-
 NAME Cardex Trio64
 SEE S3 Trio64 (generic)
 
@@ -654,34 +458,11 @@ SEE S3 Trio32 (generic)
 NAME Miro Crystal 22SD
 SEE S3 Trio64 (generic)
 
-NAME Miro Crystal 20SD with ICS2494 (BIOS 1.xx)
-SEE S3 864 with ATT 20C498 or 21C498
-
-NAME Miro Crystal 20SD with ICD2061A (BIOS 2.xx)
-CLOCKCHIP icd2061a
-SEE S3 864 with ATT 20C498 or 21C498
-
-NAME Miro Crystal 20SD VLB with S3 SDAC (BIOS 3.xx)
-SEE S3 864 with SDAC (86C716)
-
-NAME Miro Crystal 20SD PCI with S3 SDAC
-SEE S3 868 with SDAC (86C716)
-
-NAME ELSA Winner 1000AVI (SDAC version)
-SEE S3 868 with SDAC (86C716)
-
-NAME ELSA Winner 1000AVI (AT&T 20C409 version)
-SEE S3 868 with ATT 20C409
-
 NAME Diamond Stealth Video DRAM
 SEE S3 868 with SDAC (86C716)
 
 NAME Diamond Stealth64 Video 2120/2200
 SEE S3 868 with SDAC (86C716)
-
-NAME SPEA/V7 Mirage P64
-CLOCKCHIP ics2595
-SEE S3 864 (generic)
 
 NAME SPEA/V7 Mirage P64 with S3 Trio64
 SEE S3 Trio64 (generic)
@@ -793,36 +574,8 @@ SEE S3 968 (generic)
 NAME S3 Vision968 (generic)
 SEE S3 968 (generic)
 
-NAME Number Nine GXE64 Pro
-SERVER S3
-DRIVER s3
-NEEDVIDEORAM
-RAMDAC ti3025
-LINE     Option "number_nine"
-
-NAME Diamond Stealth 64 VRAM
-CLOCKCHIP icd2061a
-LINE    #Option "slow_vram"
-SEE S3 964 (generic)
-
 NAME Diamond Stealth64 Video 3200
 LINE    #Option "slow_vram"
-SEE S3 968 (generic)
-
-NAME Diamond Stealth 64 Video VRAM (TI RAMDAC)
-LINE    #Option "slow_vram"
-LINE    #DacSpeed 220
-SEE S3 968 (generic)
-
-NAME Diamond Stealth64 Video 3240/3400 (TI RAMDAC)
-LINE    #Option "slow_vram"
-LINE    #DacSpeed 220
-SEE S3 968 (generic)
-
-NAME Diamond Stealth64 Video 3240/3400 (IBM RAMDAC)
-LINE    #Option "slow_vram"
-RAMDAC ibm_rgb526
-LINE    DacSpeed 220
 SEE S3 968 (generic)
 
 NAME Genoa VideoBlitz III AV
@@ -871,37 +624,10 @@ SEE S3 968 (generic)
 NAME Spider Tarantula 64
 SEE S3 964 (generic)
 
-NAME Miro Crystal 20SV
-SERVER S3
-DRIVER s3
-NEEDVIDEORAM
-CLOCKCHIP icd2061a
-
-NAME Miro Crystal 40SV
-SERVER S3
-DRIVER s3
-NEEDVIDEORAM
-CLOCKCHIP ti3025
-
 NAME Miro Crystal 80SV
 SERVER S3
 DRIVER s3
 NEEDVIDEORAM
-
-NAME Miro Video 20SV
-SERVER S3
-DRIVER s3
-NEEDVIDEORAM
-RAMDAC att20c505
-LINE    #DacSpeed 150
-CLOCKCHIP ics9161a
-
-NAME SPEA Mercury 64
-SERVER S3
-DRIVER s3
-NEEDVIDEORAM
-CLOCKCHIP ics9161a
-LINE     #Option "spea_mercury"
 
 NAME ELSA Winner 2000PRO-2
 SERVER S3
@@ -983,23 +709,6 @@ UNSUPPORTED
 NAME S3 86C928 (generic)
 SEE S3 928 (generic)
 
-NAME Actix Ultra
-SERVER S3
-DRIVER s3
-NEEDVIDEORAM
-UNSUPPORTED
-RAMDAC att20c490
-LINE     #Option "dac_8_bit"
-
-NAME Diamond Stealth Pro
-SERVER S3
-DRIVER s3
-NEEDVIDEORAM
-UNSUPPORTED
-CLOCKCHIP icd2061a
-LINE     #Ramdac "att20c490" # The Diamond RAMDAC is reportedly compatible for 15bpp
-LINE     #Option "no_linear" # Some VLB machines may require this
-
 NAME ELSA Winner 1000VL
 SERVER S3
 DRIVER s3
@@ -1019,52 +728,6 @@ SEE S3 928 (generic)
 NAME Miro Crystal 16S
 SEE S3 928 (generic)
 
-NAME SPEA/V7 Mercury
-SERVER S3
-DRIVER s3
-NEEDVIDEORAM
-UNSUPPORTED
-CLOCKCHIP sc11412
-LINE     Option "spea_mercury"
-
-NAME STB Pegasus
-SERVER S3
-DRIVER s3
-NEEDVIDEORAM
-UNSUPPORTED
-RAMDAC bt485
-CLOCKCHIP icd2061a
-LINE     Option "stb_pegasus"
-LINE     #Option "sync_on_green"
-
-NAME Number Nine GXE Level 14/16
-SERVER S3
-DRIVER s3
-NEEDVIDEORAM
-UNSUPPORTED
-DACSPEED 200
-CLOCKCHIP icd2061a
-LINE     Option "number_nine"
-LINE     #Option "nolinear"
-LINE     #Option "nomemaccess"
-
-NAME Number Nine GXE Level 10/11/12
-SERVER S3
-DRIVER s3
-NEEDVIDEORAM
-UNSUPPORTED
-CLOCKCHIP icd2061a
-LINE     Option "number_nine"
-
-NAME 928Movie
-SERVER S3
-DRIVER s3
-NEEDVIDEORAM
-UNSUPPORTED
-CLOCKCHIP icd2595
-RAMDAC bt485
-LINE     # pixel multiplexing not supported
-
 # S3 911/924
 
 NAME S3 911/924 (generic)
@@ -1078,13 +741,6 @@ SEE S3 911/924 (generic)
 
 NAME S3 86C924 (generic)
 SEE S3 911/924 (generic)
-
-NAME Diamond Stealth VRAM
-SERVER S3
-DRIVER s3
-NEEDVIDEORAM
-UNSUPPORTED
-CLOCKCHIP icd2061a
 
 #NAME Orchid Fahrenheit 1280
 #SEE S3 911/924 (generic)
@@ -1446,10 +1102,6 @@ SEE ET6000 (generic)
 NAME ET6300 (generic)
 SEE ET6000 (generic)
 
-NAME Diamond Stealth 32
-CLOCKCHIP icd2061a
-SEE ET4000 W32i, W32p (generic)
-
 NAME Cardex Cobra
 SEE ET4000 W32i, W32p (generic)
 
@@ -1535,14 +1187,6 @@ NAME TechWorks Thunderbolt
 SEE ET4000/W32 (generic)
 
 NAME ViewTop PCI
-SEE ET4000 W32i, W32p (generic)
-
-NAME SNI PC5H W32
-CLOCKCHIP stg1703
-SEE ET4000 W32i, W32p (generic)
-
-NAME SNI Scenic W32
-CLOCKCHIP stg1703
 SEE ET4000 W32i, W32p (generic)
 
 NAME Hercules Dynamite 128/Video
@@ -1775,72 +1419,8 @@ SERVER AGX
 DRIVER vga
 UNSUPPORTED
 
-NAME Boca Vortex (Sierra RAMDAC)
-SERVER AGX
-DRIVER vga
-UNSUPPORTED
-RAMDAC sc15025
-LINE     Option "dac_8_bit"
-LINE     Option "no_wait_state"
-LINE     #Option "fifo_moderate"   # 2x bus bw - may result in random pixels
-
 NAME EIZO (VRAM)
 SEE AGX (generic)
-
-NAME Orchid Celsius (AT&T RAMDAC)
-SERVER AGX
-DRIVER vga
-UNSUPPORTED
-RAMDAC att20c490
-LINE     Option "dac_8_bit"
-LINE     Option "no_wait_state"
-LINE     #Option "fifo_moderate"   # 2x bus bw - may result in random pixels
-
-NAME Orchid Celsius (Sierra RAMDAC)
-SERVER AGX
-DRIVER vga
-UNSUPPORTED
-RAMDAC sc15025
-LINE     Option "dac_8_bit"
-LINE     Option "no_wait_state"
-LINE     #Option "fifo_moderate"   # 2x bus bw - may result in random pixels
-
-
-NAME Spider Black Widow
-SERVER AGX
-DRIVER vga
-UNSUPPORTED
-RAMDAC sc15025
-LINE     Option "dac_8_bit"
-LINE     Option "no_wait_state"
-LINE     #Option "fifo_moderate"   # 2x bus bw - may result in random pixels
-
-
-NAME Spider Black Widow Plus
-SERVER AGX
-DRIVER vga
-UNSUPPORTED
-RAMDAC sc15025
-LINE     Option "dac_8_bit"
-LINE     Option "no_wait_state"
-LINE     #Option "fifo_moderate"   # 2x bus bw - may result in random pixels
-LINE     #Option "fifo_aggressive" # 3x bus bw - may result in random pixels
-LINE	 #Probable clocks:
-LINE     #Clocks 25.2  28.3  39.9  72.2  50.0  76.9  36.1  44.8
-LINE     #Clocks 89.0  119.8 79.9  31.5 110.0  64.9  74.9  94.9
-
-NAME Hercules Graphite HG210
-SERVER AGX
-DRIVER vga
-UNSUPPORTED
-RAMDAC bt482
-DACSPEED 85
-LINE     Chipset "AGX-014"
-LINE     Option "dac_8_bit"
-LINE     Option "no_wait_state"
-LINE     #Probable clocks:
-LINE     #Clocks 25.0  28.0  32.0  36.0  40.0  45.0  50.0  65.0
-LINE     #Clocks 70.0  75.0  80.0  85.0  90.0  95.0 100.0 110.0
 
 NAME Hercules Graphite Pro
 SERVER AGX
@@ -2006,22 +1586,8 @@ SEE Ark Logic ARK1000PV (generic)
 NAME Hercules Stingray Pro/V
 SEE Ark Logic ARK1000PV (generic)
 
-NAME Ocean (octek) VL-VGA-1000
-RAMDAC att20c490
-SEE Ark Logic ARK1000VL (generic)
-
 NAME Hercules Stingray 64/V with ZoomDAC
 SEE Ark Logic ARK2000PV (generic)
-
-NAME Hercules Stingray 64/V with ICS5342
-RAMDAC ics5342
-SERVER SVGA
-DRIVER ark
-
-NAME Diamond Stealth64 Graphics 2001 series
-RAMDAC ics5342
-SERVER SVGA
-DRIVER ark
 
 # Oak
 
@@ -2812,26 +2378,6 @@ NAME Hercules Thriller3D
 SEE Rendition Verite 2x00
 
 # Digital
-
-NAME Digital 8-plane TGA (UDB/Multia)
-SERVER TGA
-DRIVER tga
-RAMDAC Bt485
-
-NAME Digital 8-plane TGA (ZLXp-E1)
-SERVER TGA
-DRIVER tga
-RAMDAC Bt485
-
-NAME Digital 24-plane TGA (ZLXp-E2)
-SERVER TGA
-DRIVER tga
-RAMDAC Bt463
-
-NAME Digital 24-plane+3D TGA (ZLXp-E3)
-SERVER TGA
-DRIVER tga
-RAMDAC Bt463
 
 # Epson
 
