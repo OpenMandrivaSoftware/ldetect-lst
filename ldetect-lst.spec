@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.11
+%define version 0.1.12
 %define release 1mdk
 
 Name: %{name}
@@ -64,6 +64,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Thu Jul 29 2004 Frederic Lepied <flepied@mandrakesoft.com> 0.1.12-1mdk
+- usbtable: updated descriptions
+
 * Mon Jul 26 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.11-1mdk
 - monitor DB:
   o add a Princeton monitor (#2633)
