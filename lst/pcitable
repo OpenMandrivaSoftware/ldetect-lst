@@ -4305,7 +4305,7 @@
 0x1344	0x3470	"unknown"	"Micron Technology, Inc.|MT7LLN22NCNE South Bridge"
 0x1344	0x4020	"unknown"	"Micron Technology, Inc.|CopperHead CopperTail SC1 IDE Controller"
 0x1344	0x4030	"unknown"	"Micron Technology, Inc.|CopperHead CopperTail SC1 USB Controller"
-0x134a	0x0001	"dtc"	"DTC Technology Corp.|Domex 536"
+0x134a	0x0001	"dmx3191d"	"DTC Technology Corp.|Domex 536"
 0x134a	0x0002	"dtc"	"DTC Technology Corp.|Domex DMX3194UP SCSI Adapter"
 0x134a	0x3510	0xafff	0xffff	"unknown"	"DTC Technology Corp.|DTC50C18 scsi"
 0x134d	0x2189	"unknown"	"PCTel Inc|HSP56 MicroModem"
