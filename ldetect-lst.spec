@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.40
+%define version 0.1.41
 %define release 1mdk
 
 Name: %{name}
@@ -64,6 +64,10 @@ fi
 %{_bindir}/*
 
 %changelog
+* Fri Jan  7 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.41-1mdk
+- sync with kernel-2.6.9-1mdk
+- add a LG monitor (Andres Kaaber)
+
 * Thu Jan  6 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.40-1mdk
 - add a new monitor (Marek Laane)
 - pcitable: fix wrong driver for a wifi card (#11393)
