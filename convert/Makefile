@@ -13,4 +13,5 @@ xf86PciInfo2pcitable: %: %.c xf86PciInfo.h
 
 #do
 # take new xc/programs/Xserver/hw/xfree86/common/xf86PciInfo.h in XFree86-4
-# make ; ./xf86PciInfo2pcitable > /tmp/xf_pcitable ; perl rh_pcitable2pcitable /tmp/xf_pcitable ../pcitable
+# make ; ./xf86PciInfo2pcitable > /tmp/xf_pcitable ; ./merge2pcitable.pl pcitable /tmp/xf_pcitable pcitable
+
