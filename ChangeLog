@@ -1,3 +1,20 @@
+2004-09-24 05:17  Frederic Lepied <flepied@mandrakesoft.com>
+
+	* lst/usbtable: merged kernel 2.6.8.1.10mdk entries to be able to
+	  list them during install.
+
+2004-09-24 04:46  Frederic Lepied <flepied@mandrakesoft.com>
+
+	* lst/pcitable: fixed ATI entries (don't forget to run make check)
+
+2004-09-20 06:57  Nicolas Planel <nplanel@mandrakesoft.com>
+
+	* lst/pcitable: update ATI pciids
+
+2004-09-20 05:04  Nicolas Planel <nplanel@mandrakesoft.com>
+
+	* lst/pcitable: add new NVidia 6800
+
 2004-09-14 07:47  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.16-6mdk
