@@ -348,6 +348,7 @@ AT&T; AT&T 14 in. Color Value; 0; 48.0; 50-90
 AT&T; AT&T 14 in. Mono; 0; 31; 55-75
 AT&T; AT&T 15 in. Color; 0; 30-64; 50-90
 AT&T; AT&T 17 in. Color Professional; 0; 30-82; 50-160
+Benq; Benq FP767; 0; 31.5-83; 56.0-76.0; 1
 AT&T; AT&T 17 in. Color Value; 0; 30-64; 50-90
 AT&T; AT&T CRT-365; 0; 30.0-75.0; 60.0-70.0
 AT&T; AT&T CRT-395; 0; 30.0-66.0; 50.0-90.0
@@ -671,6 +672,7 @@ Cornerstone; Cornerstone Color 21/75; 0; 30.0-94.0; 50.0-150.0
 Cornerstone; Cornerstone Color 40/95; 0; 30.0-95.0; 50.0-180.0
 Cornerstone; Cornerstone Color 45/101sf; 0; 31.0-100.7; 50.0-160.0
 Cornerstone; Cornerstone Color 50/101sf, 21/81; 0; 31.0-100.7; 50.0-160.0
+Cornerstone; Cornerstone Color 50/115sf; crn0007; 31-115, 50-160; 1 
 Cornerstone; Cornerstone p1400; crn000d; 31.0-107.0; 50.0-160.0; 1
 Cornerstone; Cornerstone p1401; crn0016; 31.0-110.0; 50.0-180.0; 1
 Cornerstone; Cornerstone p1500; crn000f; 31.0-107.0; 50.0-160.0; 1
@@ -1149,6 +1151,7 @@ Elitegroup Computer Systems; ECS VERTOS 2101; ecs0008; 24.0-90.0; 50.0-100.0; 1
 Elitegroup Computer Systems; ECS VERTOS 2102; ecs0009; 24.0-90.0; 50.0-100.0; 1
 Elsa AG; Elsa Ecomo Office; els4160; 30.0-86.0; 50.0-130.0; 1
 Elsa AG; Elsa GDM-17E40; 135; 29-82; 50-150
+EMC; EMC SA-560; 0; 30-64; 50-100; 1
 Epson; Epson CG1428I; epson2; 35.5; 56.0-87.0; 1
 Epson; Epson CG1428N; epson3; 48.0; 56.0-87.0; 1
 Epson; Epson CG1439I; epson1; 35.5; 56.0-87.0; 1
@@ -1316,15 +1319,20 @@ Generic; 1024x768 @ 70 Hz; 0; 31.5-57.0; 50-70
 Generic; 1280x1024 @ 60 Hz; 0; 31.5-64.3; 50-70
 Generic; 1280x1024 @ 74 Hz; 0; 31.5-79.0; 50-90
 Generic; 1280x1024 @ 76 Hz; 0; 31.5-82; 50-90
+Generic; 1400x1050; 0; 31.5-82; 50-90
 Generic; 1600x1200 @ 70 Hz; 0; 31.5-88.0; 50-90
 Generic; 1600x1200 @ 76 Hz; 0; 31.5-94.0; 50-90
 Generic; 640x480 @ 60 Hz; 0; 31.5; 50-61
 Generic; 800x600 @ 56 Hz; 0; 31.5-35.1; 50-61
 Generic; 800x600 @ 60 Hz; 0; 31.5-37.9; 50-70
 Generic; Flat Panel 1024x768; 0; 31.5-48.5; 40-70
+Generic; Flat Panel 1280x800; 0; 31.5-90; 60
 Generic; Flat Panel 1280x1024; 0; 31.5-67; 50-75
+Generic; Flat Panel 1440x900; 0; 31.5 - 100.0; 59.0 - 75.0
 Generic; Flat Panel 1400x1050; 0; 31.5-90; 59-75
+Generic; Flat Panel 1680x1050; 0; 31.5-90; 60 
 Generic; Flat Panel 1600x1200; 0; 31.5-90; 60 
+Generic; Flat Panel 1920x1200; 0; 31.5-90; 60 
 Generic; Flat Panel 640x480; 0; 31.5; 40-70
 Generic; Flat Panel 800x600; 0; 31.5-37.9; 40-70
 Geritec; Geritec PR568; BMM0238; 31-60; 60-75
@@ -1588,6 +1596,7 @@ Hitachi, Ltd.; Hitachi HM4921; hit2149; 30.0-107.0; 50.0-152.0; 1
 Hitachi, Ltd.; Hitachi HM-5219; hm-5219; 88.0-90.0; 88.0-89.0; 1
 Hitachi, Ltd.; Hitachi HM6421; hit6421; 100.0-102.0; 72.0-77.0; 1
 Hitachi, Ltd.; Hitachi HM6821; hit6821; 30.0-107.0; 50.0-152.0; 1
+Hitachi, Ltd.; Hitachi TX36D79VC1CAB; HTC17AC; 50-65; 40-52
 Hitachi, Ltd.; Hitachi V700; HTCB3CD; 30-70; 50-160
 Hitachi, Ltd.; Hitachi V810; HTCB446; 30-96; 50-160
 Hitachi, Ltd.; Hitachi V900; HTCB3CE; 30-95; 50-160
@@ -2087,6 +2096,7 @@ Logitec; Logitec LCM-T151AS; LOG1047; 31.0-61.0; 56.0-76.0
 Logitec; Logitec LCM-T152A; LOG1045; 31.0-61.0; 56.0-76.0
 Logitec; Logitec LCM-T153A; LOG1056; 31.0-61.0; 56.0-76.0
 Logitec; Logitec LCM-T181A; LOG1057; 30.0-72.0; 50.0-120.0
+MacroView; MacroView mp712; OEM7692; 30.0-70.0; 50.0-120.0
 Magnavox; Magnavox MB4010(14inch/CM1300); 0; 30.0-54.0; 50.0-110.0
 Magnavox; Magnavox MB5314(15inch/CM1200); 0; 30.0-66.0; 50.0-110.0
 Magnavox; Magnavox MB7000(17inch/CM6800); 0; 30.0-66.0; 50.0-130.0
@@ -2432,6 +2442,7 @@ NEC; NEC MultiSync E950; nec4bfa; 31.0-96.0; 55.0-160.0; 1
 NEC; NEC MultiSync FE1250; nec61ab; 31.0-110.0; 50.0-160.0; 1
 NEC; NEC MultiSync FE700; nec4272; 31.0-70.0; 55.0-120.0; 1
 NEC; NEC MultiSync FE750; nec61ad; 31.0-92.0; 55.0-160.0; 1
+NEC; NEC MultiSync FP912SB; nec61dd; 30.0-110.0; 50.0-160.0
 NEC; NEC MultiSync FE950; nec61ae; 31.0-96.0; 55.0-160.0; 1
 NEC; NEC MultiSync FP1350; nec578a; 31.0-115.0; 55.0-160.0; 1
 NEC; NEC MultiSync FP1370; nec61a8; 31.0-130.0; 55.0-160.0; 1
@@ -2818,6 +2829,7 @@ Philips; Philips 105S(15inch/CM1300); phl105c; 30.0-54.0; 50.0-110.0; 1
 Philips; Philips 105S(15inch/CM2300); phlb15c; 30.0-60.0; 50.0-120.0; 1
 Philips; Philips 107B(17inch/CM6800); phl6800; 30.0-69.0; 50.0-130.0; 1
 Philips; Philips 107B20(17inch/CM2317); phle003; 30.0-92.0; 50.0-160.0; 1
+Philips; Philips 107P(17inch); phle002; 30.0-92.0; 50.0-160.0; 1
 Philips; Philips 107S(17inch/CM1300); phla17c; 30.0-69.0; 50.0-120.0; 1
 Philips; Philips 107S(17inch/CM6800); phl107c; 30.0-66.0; 50.0-130.0; 1
 Philips; Philips 109S; phl4109; 30.0-95.0; 50.0-160.0; 1
@@ -2977,6 +2989,7 @@ Proview; Proview 570; pts023a; 30.0-70.0; 50.0-150.0; 1
 Proview; Proview 770; pts0302; 30.0-76.0; 50.0-150.0; 1
 Proview; Proview 786N; 0; 30.0-70.0; 50.0-160.0; 1
 Proview; Proview 860; pts035c; 30.0-54.0; 50.0-150.0; 1
+Proview; Proview 996N; pts025c; 30.0-98.0; 50.0-160.0; 1
 Quantex; Quantex TE1564M - Super View 1280; 75; 30-64; 50-100
 Qume; Qume QM835; qm835; 30.0-36.5; 50.0-90.0; 1
 Radius; Radius PrecisionColor Display/19; pcd19; 30.0-67.0; 72; 1
@@ -3182,6 +3195,7 @@ SGI; SGI 21-inch GDM-5411; 0; 30-121; 48-160
 SGI; SGI 24-inch GDM-90W11; 0; 30.0-96.0;48.0-160.0
 SGI; SGI GDM-90W11; 0; 30.0-96.0;48.0-160.0
 SGI; SGI 1600SW FlatPanel; SGX0640; 72.0; 60.0
+Shamrock; Shamrock C407L; 0; 31.5-55.0; 50-70
 Siemens Nixdorf; Siemens Nixdorf MCM1402; siemens1; 30-64; 50-100; 1
 Siemens Nixdorf; Siemens Nixdorf MCM1503; siemens2; 30-64; 50-100; 1
 Siemens Nixdorf; Siemens Nixdorf MCM1702; siemens3; 30-82; 50-150; 1
@@ -3286,6 +3300,7 @@ Sunshine; Sunshine DM-8 CM-1433H; 0; 31.5-35.1; 55.0-66.0
 Sun; Sun 16-inch 574; sun0574; 30.0-70.0; 50.0-90.0; 1
 Sun; Sun 17-inch 447Z; 100; 31.0-72.0; 50.0-120.0
 Sun; Sun 17-inch CHB7727L (Samsung); 0; 30.0-72.0; 50.0-160.0; 1
+Sun; Sun 18-inch Flat Panel Display; sun0004; 64.0-81.0; 60.0-76.0; 1
 Sun; Sun 21-inch N3; 0; 30.0-96.0; 48.0-160.0
 Sun; Sun 24-inch; 0; 30.0-96.0; 50.0-160.0
 Sylvania; Sylvania F74; syl00f4; 30.0-70.0; 55.0-120.0; 1
@@ -3470,13 +3485,19 @@ ViewSonic; ViewSonic 7; vs_7; 30.0-64.0; 50.0-90.0; 1
 ViewSonic; ViewSonic 8; vs_8; 30.0-64.0; 50.0-90.0; 1
 ViewSonic; ViewSonic A50; vsc5a45; 30-56; 50-120; 1
 ViewSonic; ViewSonic A70; vsc5a43; 30-70; 50-180; 1
+ViewSonic; ViewSonic A70f+; VSC9E0B; 30-70; 60-150
+ViewSonic; ViewSonic A70f-2; VSC8E06; 30-70; 50-160
+ViewSonic; ViewSonic A72f-2; VSC8F06; 30-70; 50-160
 ViewSonic; ViewSonic A75f; vsc5841; 30-70; 50-180; 1
 ViewSonic; ViewSonic A75s-2; vsc8913; 30-70; 50-180; 1
 ViewSonic; ViewSonic A75s; vsc5a42; 30-70; 50-180; 1
 ViewSonic; ViewSonic A90; vsc504e; 30-86; 50-180; 1
+ViewSonic; ViewSonic A90f+; VSC200D; 30-86; 50-150
 ViewSonic; ViewSonic A95f; vsc594d; 30-97; 50-180; 1
 ViewSonic; ViewSonic AL750; vsc5947; 30-60; 50-75; 1
 ViewSonic; ViewSonic AL950; vsc3858; 30-80; 50-75; 1
+ViewSonic; ViewSonic E220-2; VSCBD0C; 30-97; 50-180
+ViewSonic; ViewSonic E220; VSC6505; 30-97; 50-160
 ViewSonic; ViewSonic E40-2; vsc4741; 30-54; 50-100; 1
 ViewSonic; ViewSonic E40-3; vsc4943; 30-48; 50-90; 1
 ViewSonic; ViewSonic E40-4; vsc0900; 30-48; 50-90; 1
@@ -3484,7 +3505,9 @@ ViewSonic; ViewSonic E40-5; vsc4a42; 30-48; 50-90; 1
 ViewSonic; ViewSonic E40; vsc4441; 30-54; 55-100; 1
 ViewSonic; ViewSonic E41; vsc3741; 30-54; 50-100; 1
 ViewSonic; ViewSonic E50; vsc4545; 30-70; 50-120; 1
+ViewSonic; ViewSonic E50-4; VSC8B06; 30-56; 50-120
 ViewSonic; ViewSonic E51; vsc3445; 30-70; 50-120; 1
+ViewSonic; ViewSonic E55-3; VSC5E13; 30-70; 50-160
 ViewSonic; ViewSonic E641-2; vsc3641; 30-54; 50-100; 1
 ViewSonic; ViewSonic E641-3; vsc4541; 30-54; 50-100; 1
 ViewSonic; ViewSonic E641; vsc3441; 30-54; 50-100; 1
@@ -3502,8 +3525,18 @@ ViewSonic; ViewSonic E655; vsc3345; 30-65; 50-100; 1
 ViewSonic; ViewSonic E70-2; vsc5346; 30-70; 50-120; 1
 ViewSonic; ViewSonic E70-3; vsc4b41; 30-70; 50-120; 1
 ViewSonic; ViewSonic E70-4; vsc5041; 30-70; 50-120; 1
+ViewSonic; ViewSonic E70-7; VSC5007; 30-70; 50-120
+ViewSonic; ViewSonic E70-8; VSCE905; 30-70; 50-160
+ViewSonic; ViewSonic E70-10; VSCF711; 30-72; 50-180
 ViewSonic; ViewSonic E70; vsc5244; 30-70; 50-120; 1
+ViewSonic; ViewSonic E70f+-2; VSCD313; 30-70; 50-150
+ViewSonic; ViewSonic E70f+; VSC2B0B; 30-70; 60-150
+ViewSonic; ViewSonic E70f-2; VSC4E07; 30-70; 50-150
+ViewSonic; ViewSonic E70f-3; VSC3908; 30-70; 50-120
+ViewSonic; ViewSonic E70f-5/E70fb-5; VSC2011; 30-72; 50-160
+ViewSonic; ViewSonic E70fb-2; VSC4F07; 30-70; 50-150
 ViewSonic; ViewSonic E71; vsc4e4a; 30-70; 50-120; 1
+ViewSonic; ViewSonic E75f; VSCD305; 30-86; 50-150
 ViewSonic; ViewSonic E771-2; vsc4844; 30-70; 50-120; 1
 ViewSonic; ViewSonic E771-4; vsc5941; 30-70; 50-120; 1
 ViewSonic; ViewSonic E771; vsc564a; 30-70; 50-120; 1
@@ -3514,12 +3547,28 @@ ViewSonic; ViewSonic E790B; vsc514d; 30-95; 50-200; 1
 ViewSonic; ViewSonic E790; vsc4d4d; 30-95; 50-200; 1
 ViewSonic; ViewSonic E810; vsc5251; 30-95; 50-180; 1
 ViewSonic; ViewSonic E90; vsc564e; 30-87; 50-120; 1
+ViewSonic; ViewSonic E90-4; VSCA418; 30-86; 50-180
+ViewSonic; ViewSonic E90f+-3; VSC9517; 30-86; 50-180
+ViewSonic; ViewSonic E90f+; VSC890E; 30-86; 50-180
+ViewSonic; ViewSonic E90fb; VSCA306; 30-86; 50-150
+ViewSonic; ViewSonic E90fmb; VSC2408; 30-86; 50-150
+ViewSonic; ViewSonic E92f+; VSC9417; 30-97; 50-180
 ViewSonic; ViewSonic EA771B; vsc4244; 30-70; 50-120; 1
 ViewSonic; ViewSonic EA771; vsc4d4a; 30-70; 50-120; 1
+ViewSonic; ViewSonic G220f; VSCE709; 30-110; 50-180
+ViewSonic; ViewSonic G220fb; VSCE809; 30-110; 50-180
 ViewSonic; ViewSonic G653-2; vsc4745; 30-70; 50-120; 1
 ViewSonic; ViewSonic G653; vsc3645; 30-70; 50-120; 1
 ViewSonic; ViewSonic G655-3; vsc0400; 30-70; 50-120; 1
 ViewSonic; ViewSonic G655; vsc5045; 30-70; 50-120; 1
+ViewSonic; ViewSonic G70f-2; VSCEA18; 30-70; 50-160
+ViewSonic; ViewSonic G70f; VSC8D06; 30-70; 50-160
+ViewSonic; ViewSonic G70fm; VSCD405; 30-70; 50-160
+ViewSonic; ViewSonic G70fmb; VSCC306; 30-70; 50-160
+ViewSonic; ViewSonic G71f+-2; VSC9312; 30-72; 50-160
+ViewSonic; ViewSonic G71f+; VSCAC09; 30-70; 50-180
+ViewSonic; ViewSonic G75f-2; VSCF505; 30-86; 50-180
+ViewSonic; ViewSonic G75f-3; VSC2E0C; 30-86; 50-180
 ViewSonic; ViewSonic G771; vsc4c4a; 30-70; 50-180; 1
 ViewSonic; ViewSonic G773-2; vsc4a44; 30-70; 50-160; 1
 ViewSonic; ViewSonic G773-3; vsc5341; 30-70; 50-180; 1
@@ -3529,7 +3578,11 @@ ViewSonic; ViewSonic G790; vsc384d; 30-95; 50-180; 1
 ViewSonic; ViewSonic G800; vsc374d; 30-86; 50-120; 1
 ViewSonic; ViewSonic G810-2; vsc4951; 30-92; 50-180; 1
 ViewSonic; ViewSonic G810-4; vsc5151; 30-97; 50-180; 1
+ViewSonic; ViewSonic G810-6; VSCC308; 30-97; 50-180
 ViewSonic; ViewSonic G810; vsc3751; 30-89; 50-160; 1
+ViewSonic; ViewSonic G90f+; VSC3513; 30-110; 50-160
+ViewSonic; ViewSonic G90f-2; VSC8A06; 30-97; 50-180
+ViewSonic; ViewSonic G90fb-2; VSC4907; 30-97; 50-180
 ViewSonic; ViewSonic GA655; vsc4145; 30-70; 50-180; 1
 ViewSonic; ViewSonic GA771; vsc514a; 30-70; 50-180; 1
 ViewSonic; ViewSonic GF775; vsc5744; 30-86; 50-160; 1
@@ -3548,6 +3601,7 @@ ViewSonic; ViewSonic MB110; vsc4a51; 30-95; 50-180; 1
 ViewSonic; ViewSonic MB50; vsc4845; 30-70; 50-160; 1
 ViewSonic; ViewSonic MB70; vsc4644; 30-70; 50-160; 1
 ViewSonic; ViewSonic MB90; vsc444d; 30-95; 50-180; 1
+ViewSonic; ViewSonic N1700w; VSC5C0B; 24-82; 60-75
 ViewSonic; ViewSonic OptiQuest 1000S; oqi3234; 48.4; 0-60; 1
 ViewSonic; ViewSonic OptiQuest 1562A-2; oqi3232; 31.5-62; 50-90; 1
 ViewSonic; ViewSonic OptiQuest 1769DC; oqi4637; 30-69; 50-120; 1
@@ -3556,6 +3610,7 @@ ViewSonic; ViewSonic OptiQuest Q41; oqi4136; 30-48; 50-90; 1
 ViewSonic; ViewSonic OptiQuest Q51; oqi4435; 30-54; 50-100; 1
 ViewSonic; ViewSonic OptiQuest Q53; oqi4433; 30-70; 50-100; 1
 ViewSonic; ViewSonic OptiQuest Q71-2; oqi4738; 30-70; 50-120; 1
+ViewSonic; ViewSonic OptiQuest Q71-6; oqie702; 30-70; 50-160; 1
 ViewSonic; ViewSonic OptiQuest Q71; oqi4735; 30-70; 50-120; 1
 ViewSonic; ViewSonic OptiQuest V115T; oqi4d32; 30-96; 50-150; 1
 ViewSonic; ViewSonic OptiQuest V55; oqi4436; 30-70; 50-160; 1
@@ -3571,7 +3626,14 @@ ViewSonic; ViewSonic OptiQuest V775-2; oqi4732; 30-85; 50-120; 1
 ViewSonic; ViewSonic OptiQuest V775; oqi3333; 30-82; 50-130; 1
 ViewSonic; ViewSonic OptiQuest V95; oqi4a32; 30-95; 50-150; 1
 ViewSonic; ViewSonic OptiQuest VA656; oqi3138; 30-63; 50-100; 1
+ViewSonic; ViewSonic P220f-3; VSC7F12; 30-110; 50-160
+ViewSonic; ViewSonic P220fb-2; VSC430C; 30-110; 50-180
+ViewSonic; ViewSonic P225f-4; VSCBB0C; 30-127; 50-180
+ViewSonic; ViewSonic P225f-5; VSC8012; 30-127; 50-160
+ViewSonic; ViewSonic P225fb-4; VSCBC0C; 30-127; 50-180
 ViewSonic; ViewSonic P655; vsc4245; 30-70; 50-180; 1
+ViewSonic; ViewSonic P70f; VSC5107; 30-97; 50-120
+ViewSonic; ViewSonic P75f+; VSC2C09; 30-97; 50-160
 ViewSonic; ViewSonic P775; vsc504a; 30-95; 50-180; 1
 ViewSonic; ViewSonic P795; vsc424d; 30-107; 50-180; 1
 ViewSonic; ViewSonic P810-3; vsc4851; 30-95; 50-180; 1
@@ -3585,6 +3647,9 @@ ViewSonic; ViewSonic P815-4; vsc4f51; 30-117; 50-180; 1
 ViewSonic; ViewSonic P815; vsc3651; 30-115; 50-160; 1
 ViewSonic; ViewSonic P817-E; vsc4c52; 30-137; 50-180; 1
 ViewSonic; ViewSonic P817; vsc4c51; 30-137; 50-180; 1
+ViewSonic; ViewSonic P90f; VSC5207; 30-110; 50-180
+ViewSonic; ViewSonic P95f+-2; VSC1114; 30-110; 50-160
+ViewSonic; ViewSonic P95f+; VSC2B09; 30-110; 50-160
 ViewSonic; ViewSonic PF775; vsc5a44; 30-96; 50-180; 1
 ViewSonic; ViewSonic PF77a; vscf801; 30-97; 50-180; 1
 ViewSonic; ViewSonic PF77d; vscf901; 30-92; 50-85; 1
@@ -3622,28 +3687,107 @@ ViewSonic; ViewSonic PT810-3; vsc3851; 30-96; 50-160; 1
 ViewSonic; ViewSonic PT810; vsc3351; 30-86; 50-130; 1
 ViewSonic; ViewSonic PT813; vsc4151; 30-107; 50-160; 1
 ViewSonic; ViewSonic vcdts21367-1; oqi4d31; 30-95; 50-160; 1
+ViewSonic; ViewSonic VA500; VSCF605; 30-60; 50-75
+ViewSonic; ViewSonic VA520-2; VSC6A01; 30-62; 50-75
+ViewSonic; ViewSonic VA520-3; VSCF70C; 30-62; 50-75
+ViewSonic; ViewSonic VA520; VSCBA07; 30-62; 50-75
+ViewSonic; ViewSonic VA550; VSCFA02; 30-62; 50-60
+ViewSonic; ViewSonic VA700; VSCF705; 30-82; 50-75
+ViewSonic; ViewSonic VA720-2; VSC700B; 30-82; 50-75
+ViewSonic; ViewSonic VA720; VSC6C09; 30-82; 50-75
+ViewSonic; ViewSonic VA800; VSCDE00; 30-82; 50-75
+ViewSonic; ViewSonic VE150m; VSCC203; 30-60; 50-75
+ViewSonic; ViewSonic VE150mb; VSCED05; 30-60; 50-75
 ViewSonic; ViewSonic VE150B; vsc8115; 30-60; 50-75; 1
 ViewSonic; ViewSonic VE150; vsc5547; 30-60; 50-75; 1
 ViewSonic; ViewSonic VE151; vsc5345; 31-61; 56-75; 1
+ViewSonic; ViewSonic VE155; VSCB807; 30-60; 50-75
+ViewSonic; ViewSonic VE155b; VSC260A; 30-62; 50-75
+ViewSonic; ViewSonic VE170; VSCA601; 30-80; 50-80
+ViewSonic; ViewSonic VE170b; VSCA701; 30-82; 50-75
+ViewSonic; ViewSonic VE170m; VSCE705; 30-82; 50-75
+ViewSonic; ViewSonic VE170mb; VSCE805; 30-82; 50-75
+ViewSonic; ViewSonic VE175-2; VSCC314; 30-82; 50-75
+ViewSonic; ViewSonic VE175; VSEE08 ; 30-80; 50-75
+ViewSonic; ViewSonic VE175b-2; VSCC414; 30-82; 50-75
+ViewSonic; ViewSonic VE175b; VSCE10A; 30-80; 50-75
+ViewSonic; ViewSonic VE500-2; VSCBC17; 30-62; 50-75
+ViewSonic; ViewSonic VE500; VSC4108; 30-62; 50-75
+ViewSonic; ViewSonic VE510+; VSC6500; 30-62; 50-75
+ViewSonic; ViewSonic VE700; VSC4308; 24-82; 56-85
+ViewSonic; ViewSonic VE800; VSC3A08; 30-80; 50-75
 ViewSonic; ViewSonic VG150; vsc5147; 30-62; 50-60; 1
+ViewSonic; ViewSonic VG150m-2; VSC4811; 30-62; 50-75
+ViewSonic; ViewSonic VG150m; VSCFC09; 30-62; 50-75
+ViewSonic; ViewSonic VG150mb; VSCFD09; 30-62; 50-75
 ViewSonic; ViewSonic VG151; vsc5a47; 24.8-61; 56-75; 1
 ViewSonic; ViewSonic VG175; vscdd00; 30-82; 50-75; 1
+ViewSonic; ViewSonic VG151b; VSCDA06; 30-62; 50-75
+ViewSonic; ViewSonic VG171; 9E06   ; 30-82; 50-75
+ViewSonic; ViewSonic VG171b; VSCD906; 30-82; 50-75
 ViewSonic; ViewSonic VG180-2; vsc464e; 30-80; 56-85; 1
 ViewSonic; ViewSonic VG180-3; vsc7517; 30-82; 50-75; 1
 ViewSonic; ViewSonic VG180; vsc464d; 30-80; 60-85; 1
+ViewSonic; ViewSonic VG181; VSC7517; 30-82; 50-75
+ViewSonic; ViewSonic VG181b; VSCD806; 30-82; 50-75
+ViewSonic; ViewSonic VG191; VSC2007; 30-82; 50-75
+ViewSonic; ViewSonic VG191b; VSC2107; 30-82; 50-75
+ViewSonic; ViewSonic VG500-2; VSCF118; 30-62; 50-75
+ViewSonic; ViewSonic VG500; VSC3D08; 30-62; 50-75
+ViewSonic; ViewSonic VG500b; VSCB40A; 30-62; 50-75
+ViewSonic; ViewSonic VG700; VSC3E08; 30-82; 50-75
+ViewSonic; ViewSonic VG700b-2; VSCB50B; 30-82; 50-75
+ViewSonic; ViewSonic VG700b; VSC9D0E; 30-82; 50-75
+ViewSonic; ViewSonic VG710b; VSCA318; 30-82; 50-85
+ViewSonic; ViewSonic VG710s; VSCA218; 30-82; 50-85
+ViewSonic; ViewSonic VG750; VSC3F08; 24-82; 56-85
+ViewSonic; ViewSonic VG800-2; VSCF311; 30-83; 50-75
+ViewSonic; ViewSonic VG800; VSC6F08; 30-82; 50-75
+ViewSonic; ViewSonic VG800b-2; VSCF411; 30-83; 50-75
+ViewSonic; ViewSonic VG800b; VSC230E; 30-82; 50-75
+ViewSonic; ViewSonic VG810b; VSCC018; 30-82; 50-75
+ViewSonic; ViewSonic VG810s; VSCBF18; 30-82; 50-75
+ViewSonic; ViewSonic VG900b; VSC240E; 30-82; 50-75
+ViewSonic; ViewSonic VG910b; VSCDB18; 30-82; 50-75
+ViewSonic; ViewSonic VG910s; VSCDA18; 30-82; 50-75
 ViewSonic; ViewSonic VP140-2; vsc4841; 30-60; 50-75; 1
 ViewSonic; ViewSonic VP140-3; vsc7d15; 30-62; 50-75; 1
 ViewSonic; ViewSonic VP140; vsc3541; 30-61; 50-77; 1
 ViewSonic; ViewSonic VP150; vsc3845; 30-61; 50-77; 1
 ViewSonic; ViewSonic VP151; vsc5945; 30-94; 50-85; 1
-ViewSonic; ViewSonic VP171b; ; 30-82, 50-85; 1
+ViewSonic; ViewSonic VP171b; VSC0C11; 30-82; 50-85
+ViewSonic; ViewSonic VP171s; VSCB716; 30-82; 50-85
 ViewSonic; ViewSonic VP181; vsc574d; 30-95; 50-75; 1
+ViewSonic; ViewSonic VP181b-2; VSC6711; 30-92; 50-85
+ViewSonic; ViewSonic VP181s; VSCB816; 30-92; 50-85
 ViewSonic; ViewSonic VP190; vsc474d; 30-82; 50-77; 1
+ViewSonic; ViewSonic VP191b; VSC0E11; 30-82; 50-85
+ViewSonic; ViewSonic VP191s; VSCB916; 30-82; 50-85
+ViewSonic; ViewSonic VP201b; VSC6911; 30-95; 50-85
+ViewSonic; ViewSonic VP201m; VSC5404; 30-82; 50-85
+ViewSonic; ViewSonic VP201mb; VSCEB04; 30-82; 50-85
+ViewSonic; ViewSonic VP201s; VSC0C18; 30-95; 50-85
+ViewSonic; ViewSonic VP211b; VSC6A11; 30-95; 50-85
+ViewSonic; ViewSonic VP230mb; VSC7203; 30-82; 50-75
 ViewSonic; ViewSonic VPA138; vsc4141; 30-62; 50-75; 1
 ViewSonic; ViewSonic VPA145; vsc3941; 30-62; 50-75; 1
 ViewSonic; ViewSonic VPA150; vsc4345; 30-62; 50-75; 1
 ViewSonic; ViewSonic VPD150; vsc4b47; 48; 60; 1
 ViewSonic; ViewSonic VPD180; vsc4b49; 64; 60; 1
+ViewSonic; ViewSonic VT550; VSCB711; 30-62; 50-75
+ViewSonic; ViewSonic VX2000; VSC4208; 30-82; 50-85
+ViewSonic; ViewSonic VX500+; VSCF008; 30-62; 50-75
+ViewSonic; ViewSonic VX500-2; VSCCB0F; 30-80; 50-75
+ViewSonic; ViewSonic VX700-2; VSCEF08; 30-82; 50-75
+ViewSonic; ViewSonic VX700-3; VSC8F11; 30-83; 50-75
+ViewSonic; ViewSonic VX700; VSC6206; 24-82; 56-85
+ViewSonic; ViewSonic VX800-2; VSC8209; 30-82; 50-75
+ViewSonic; ViewSonic VX800-3; VSCF511; 30-83; 50-75
+ViewSonic; ViewSonic VX800; VSC0B07; 24-82; 56-85
+ViewSonic; ViewSonic VX900-2; VSC9011; 30-83; 50-75
+ViewSonic; ViewSonic VX900; VSC0B08; 30-82; 50-75
+ViewSonic; ViewSonic airpanel V150; VSCF50B; 30-62; 50-75
+Vobis; Vobis Highscreen MS 1795P; VOB0c7c; 30-82; 47-120
 WYSE; WYSE WY-670; wy-670; 34.0-38.0; 55.0-87.0; 1
 WYSE; WYSE WY-890N; wy-890n; 38.5-51.0; 58.0-77.0; 1
 Yakumo Electronics; Yakumo OF1564 DO; yak6146; 30-64; 50-100; 1
