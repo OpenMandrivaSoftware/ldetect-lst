@@ -4087,6 +4087,7 @@
 0x8086	0x3576	"unknown"	"Intel Corporation|82830 Host-AGP Bridge"
 0x8086	0x3577	"Card:Intel 830"	"Intel Corporation|82830 CGC Integrated Graphics Device"
 0x8086	0x3578	"unknown"	"Intel Corporation|82830 CPU to I/O Bridge"
+0x8086	0x3582	"Card:Intel 85x"	"Intel Corporation|852GM/852GME/855GM/855GME Chipset Graphics Controller"
 0x8086	0x4000	"unknown"	"Intel Corporation|Creatix V.90 HaM Modem"
 0x8086	0x5001	"unknown"	"Intel Corporation|PRO/DSL 2100 Modem - PPP"
 0x8086	0x5005	"unknown"	"Intel Corporation|PRO/DSL 2200 Modem - PPPoA"
