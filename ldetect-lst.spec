@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.16
-%define release 2mdk
+%define release 3mdk
 
 Name: %{name}
 Version: %{version}
@@ -64,6 +64,27 @@ fi
 %{_bindir}/*
 
 %changelog
+* Tue Aug 31 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.16-3mdk
+- pcitable:
+  o sync with kernel-2.6.8.1.5mdk
+  o in 2.6.x kernel, pwcd was splited between pcwd_pci and pcwd_usb
+  o in both 2.4.x and 2.6.x kernels:
+    * 3c359 replaced 3c559
+    * donauboe replaced toshoboe
+    * hw_random replaced both amd7xx_tco, amd768_rng and i810_rngb
+    * pc300 replaced pc300too
+    * tmspci replaced sktr
+    * tulip replaced tulip_old
+  o remove bogus 0xffff 0xffff entry
+  o introduce bt878
+  o introduce sata_sx4 instead of sata_promise for one controller
+  o fix a few wrong entries (according to kernel's pcimap):
+    * one s/dmfe/tulip/
+    * one s/qla2200/qla2100/
+    * one s/tulip/de2104x/
+    * one s/yenta_socket/i82092/
+    * one s/yenta_socket/pd6729/
+
 * Fri Aug 27 2004 Gwenole Beauchesne <gbeauchesne@mandrakesoft.com> 0.1.16-2mdk
 - use 3w-9xxx for 3ware 9XXX-series ATA-RAID
 
