@@ -514,52 +514,52 @@ UNSUPPORTED
 #UNSUPPORTED
 
 NAME Hewlett-Packard|OfficeJet Pro 1150C
-SERVER hp
+SERVER printerdrake
 DRIVER Parport(ECP) JetDirect
-UNSUPPORTED
 
 NAME Hewlett-Packard|OfficeJet Pro 1170C/1175C
 SERVER hp
 DRIVER Parport(ECP) JetDirect
 UNSUPPORTED
 
-NAME Hewlett-Packard|OfficeJet G series
-SERVER hp
+NAME Hewlett-Packard|OfficeJet D series
+SERVER printerdrake
 DRIVER Parport(ECP) USB JetDirect
-UNSUPPORTED
+
+NAME Hewlett-Packard|OfficeJet G series
+SERVER printerdrake
+DRIVER Parport(ECP) USB JetDirect
 
 NAME Hewlett-Packard|OfficeJet K series
-SERVER hp
+SERVER printerdrake
 DRIVER Parport(ECP) USB JetDirect
 COMMENT partial support -- requires extra steps to scan successfully
-UNSUPPORTED
 
 NAME Hewlett-Packard|OfficeJet V series
-SERVER hp
+SERVER printerdrake
 DRIVER USB JetDirect
 COMMENT partial support -- requires extra steps to scan successfully
-UNSUPPORTED
 
 NAME Hewlett-Packard|OfficeJet R series
-SERVER hp
+SERVER printerdrake
 DRIVER Parport(ECP) JetDirect
 COMMENT Parallel interface requires ppscsi driver and epst module
-UNSUPPORTED
+
+NAME Hewlett-Packard|PSC 300 series
+SERVER printerdrake
+DRIVER Parport(ECP) JetDirect
 
 NAME Hewlett-Packard|PSC 500 series
-SERVER hp
+SERVER printerdrake
 DRIVER Parport(ECP) JetDirect
-UNSUPPORTED
 
 NAME Hewlett-Packard|PSC 700 series
-SERVER hp
+SERVER printerdrake
 DRIVER USB JetDirect
-UNSUPPORTED
 
 NAME Hewlett-Packard|PSC 900 series
-SERVER hp
+SERVER printerdrake
 DRIVER USB JetDirect
-UNSUPPORTED
 
 # from hp4200.desc
 NAME Hewlett-Packard|ScanJet 4200C
@@ -1273,11 +1273,24 @@ NAME Connectix|Color QuickCam
 SERVER qcam
 DRIVER Parport
 COMMENT Require root privileges.
+LINE # In order to use the qcam backend, you'll need to enable to line with
+LINE # the port address for your scanner.  You can enable multiple lines if
+LINE # you really have a QuickCam connect to each port.
+LINE #
+LINE #u0x37b # /dev/lp0 forced in unidir mode
+LINE #u0x378 # /dev/lp1 forced in unidir mode
+LINE #u0x278 # /dev/lp2 forced in unidir mode
+LINE #0x37b  # /dev/lp0
+LINE #0x378  # /dev/lp1
+LINE #0x278  # /dev/lp2
+LINE 0x3bc   # /dev/lp0
+
 
 NAME Connectix|Greyscale QuickCam
 SERVER qcam
 DRIVER Parport
 COMMENT Require root privileges.  Partly working.
+SEE 
 
 # from ricoh.desc
 NAME Ricoh|Ricoh IS50
