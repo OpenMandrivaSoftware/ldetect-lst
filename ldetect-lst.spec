@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.8
-%define release 10mdk
+%define release 11mdk
 
 Name: %{name}
 Version: %{version}
@@ -64,6 +64,11 @@ fi
 %{_bindir}/*
 
 %changelog
+* Tue Oct 14 2003 Gwenole Beauchesne <gbeauchesne@mandrakesoft.com> 0.1.8-11mdk
+- Updates for new libata drivers:
+  - VIA 8237 SATA controller (sata_via)
+  - Promise SATA150 TX4 controllers (sata_promise)
+
 * Mon Sep 22 2003 Gwenole Beauchesne <gbeauchesne@mandrakesoft.com> 0.1.8-10mdk
 - nforce3 nvnet
 
