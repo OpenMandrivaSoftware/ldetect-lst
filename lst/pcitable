@@ -75,7 +75,7 @@
 0x0e11	0xf150	"tlan"	"Compaq|NetFlex-3/P ThunderLAN 2.3"
 0x0e11	0xf700	"unknown"	"Compaq Computer Corp.|LP7000 Compaq/Emulex Fibre Channel HBA"
 0x0e11	0xf800	"unknown"	"Compaq Computer Corp.|LP8000 Compaq/Emulex Fibre Channel HBA"
-0x1000	0x0001	"53c7,8xx"	"Symbios|53c810"
+0x1000	0x0001	"sym53c8xx"	"Symbios|53c810"
 0x1000	0x0002	"sym53c8xx"	"Symbios|53c820"
 0x1000	0x0003	"sym53c8xx"	"Symbios|53c825"
 0x1000	0x0004	"sym53c8xx"	"Symbios|53c815"
