@@ -1218,16 +1218,48 @@ SERVER SnapScan
 DRIVER USB
 COMMENT Ditto. Have no specific programming info yet.
 
+NAME AGFA-Gevaert NV|SnapScan e20
+SERVER SnapScan
+DRIVER USB
+COMMENT Have no specific programming info yet.
+UNSUPPORTED
+
+NAME AGFA-Gevaert NV|SnapScan e25
+SERVER SnapScan
+DRIVER USB
+COMMENT Have no specific programming info yet.
+UNSUPPORTED
+
+NAME AGFA-Gevaert NV|SnapScan e26
+SERVER SnapScan
+DRIVER USB
+COMMENT Have no specific programming info yet.
+UNSUPPORTED
+
 NAME AGFA-Gevaert NV|SnapScan e40
 SERVER SnapScan
 DRIVER USB
 COMMENT Have no specific programming info yet.
+UNSUPPORTED
+
+NAME AGFA-Gevaert NV|SnapScan e42
+SERVER SnapScan
+DRIVER USB
+COMMENT Have no specific programming info yet.
+UNSUPPORTED
 
 NAME AGFA-Gevaert NV|SnapScan e50
 SERVER SnapScan
 DRIVER USB
 COMMENT Have no specific programming info yet.
+UNSUPPORTED
 
+NAME AGFA-Gevaert NV|SnapScan e52
+SERVER SnapScan
+DRIVER USB
+COMMENT Have no specific programming info yet.
+UNSUPPORTED
+   
 NAME Vuego|310s
 SERVER SnapScan
 DRIVER SCSI
