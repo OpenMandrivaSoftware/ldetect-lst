@@ -584,7 +584,7 @@
 0x1028	0x0006	"aacraid"	"Dell Computer Corporation|PowerEdge Expandable RAID Controller 3/Di"
 0x1028	0x0007	"drsc"	"Dell Computer Corporation|Remote Assitant Card 3"
 0x1028	0x0008	"aacraid"	"Dell Computer Corporation|PowerEdge Expandable RAID Controller 3/Di"
-0x1028	0x000a	"aacraid"	"Dell Computer Corporation|PowerEdge Expandable RAID Controller 3/Si"
+0x1028	0x000a	"aacraid"	"Dell Computer Corporation|PowerEdge Expandable RAID Controller 3/Di"
 0x1028	0x000c	"racser"	"Dell Computer Corporation|Embedded Systems Management Device 4"
 0x1028	0x000e	"megaraid"	"Dell Computer Corporation|PowerEdge RAID Controller"
 0x102a	0x0000	"unknown"	"LSI Logic|HYDRA"
