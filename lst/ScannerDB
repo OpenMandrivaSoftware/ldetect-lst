@@ -646,6 +646,9 @@ LINE scsi * * Scanner
 
 NAME Microtek|ScanMaker X6
 SEE Microtek|ScanMaker E3plus
+COMMENT    Vendor:           Model: Scanner V6UPL     Rev: 1.00
+COMMENT   Type:   Scanner                            ANSI SCSI revision: 02
+   
 
 NAME Microtek|ScanMaker X6EL
 SEE Microtek|ScanMaker E3plus
