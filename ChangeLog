@@ -1,3 +1,12 @@
+2005-03-30 15:16  Thierry Vignaud <tvignaud at mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.78-1mdk
+
+2005-03-30 15:15  Thierry Vignaud <tvignaud at mandrakesoft.com>
+
+	* lst/pcitable: merge with rh's hwdata-1.152 (aka new nvidia ids
+	  from X.Org X11 6.8.2)
+
 2005-03-30 14:24  Thierry Vignaud <tvignaud at mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.77-1mdk
