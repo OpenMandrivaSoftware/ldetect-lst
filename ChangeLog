@@ -1,3 +1,15 @@
+2005-01-07 20:33  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.41-1mdk
+
+2005-01-07 20:18  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/: pcitable, usbtable: sync with kernel-2.6.9-1mdk
+
+2005-01-07 14:32  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/MonitorsDB: add a LG monitor (Andres Kaaber)
+
 2005-01-06 18:46  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.40-1mdk
