@@ -341,7 +341,7 @@
 0x101e	0x9060	"megaraid"	"AMI|MegaRAID"
 0x1022	0x2000	"pcnet32"	"Advanced Micro Devices [AMD]|79c970 [PCnet LANCE]"
 0x1022	0x2001	"pcnet32"	"Advanced Micro Devices [AMD]|79c978 [HomePNA]"
-0x1022	0x2020	"AM53C974"	"Advanced Micro Devices [AMD]|53c974 [PCscsi]"
+0x1022	0x2020	"tmscsim"	"Advanced Micro Devices [AMD]|53c974 [PCscsi]"
 0x1022	0x2040	"unknown"	"Advanced Micro Devices [AMD]|79c974"
 0x1022	0x7006	"agpgart"	"Advanced Micro Devices [AMD]|AMD-751 [Irongate] System Controller"
 0x1022	0x7007	"unknown"	"Advanced Micro Devices (AMD)|AMD-751 PCI to PCI bridge"
