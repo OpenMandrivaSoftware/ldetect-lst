@@ -1734,6 +1734,7 @@
 0x0572	0x0040	"unknown"	"Conexant Systems (Rockwell), Inc.|Wondereye CP-115 WebCam"
 0x0572	0x1232	"unknown"	"Conexant Systems (Rockwell), Inc.|V.90 modem"
 0x0572	0xcafe	"unknown"	"Conexant Systems (Rockwell), Inc.|AccessRunner ADSL Modem"
+0x0572	0xcb00	"unknown"	"Conexant Systems (Rockwell), Inc.|E-Tech/Amigo AMX-CA80U ADSL Modem"
 0x0573	0x0003	"unknown"	"Nogatech Ltd.|USBGear USBG-V1"
 0x0573	0x0400	"unknown"	"Zoran Co. Personal Media Division (Nogatech)|D-Link V100"
 0x0573	0x2000	"usbvision"	"Nogatech Ltd.|X10 USB Camera"
