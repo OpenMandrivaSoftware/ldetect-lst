@@ -17,8 +17,10 @@ clean:
 	rm -f *~ *.tmp ScannerDB.gz
 
 check:
-	@../convert/merge2pcitable.pl pcitable pcitable pcitable > /dev/null
-	@../convert/merge2pcitable.pl pcitable usbtable usbtable > /dev/null
+	@../convert/merge2pcitable.pl pcitable pcitable pcitable > .pcitable
+	@diff -u pcitable .pcitable
+	@../convert/merge2pcitable.pl pcitable usbtable usbtable > .usbtable
+	@diff -u usbtable .usbtable
 	@cd ../convert; ./verify_Cards.pl
 
 $(TMP_TABLES1): %.tmp: %

@@ -16,7 +16,7 @@ install: build
 	install update-ldetect-lst $(sbindir)
 	install convert/merge2pcitable.pl $(bindir)
 
-rpm: clean $(RPM)
+rpm: check clean $(RPM)
 	(echo "# !! DON'T MODIFY HERE, MODIFY IN THE CVS !!" ; \
          cat $(project).spec \
         ) > $(RPM)/SPECS/$(project).spec
