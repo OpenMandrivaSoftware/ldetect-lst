@@ -1,3 +1,43 @@
+2004-11-10 15:20  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec:  0.1.24-1mdk
+
+2004-11-09 17:39  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: only 0x10b5:0x9050 devices with 0x1369 as subvendor
+	  are managed by snd-vx222
+
+2004-11-09 15:50  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: fix bogus driver names
+
+2004-11-09 13:58  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/usbtable: From: Benoit Audouard: - s/adiusbadsl/eagleusb/ -
+	  add fast 800 E3
+
+2004-11-08 18:55  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: fix 0.1.22-1mdk's changelog
+
+2004-11-08 18:48  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: reorder for lord "make check"
+
+2004-11-08 18:25  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: better fix for #10859: only swith to OSS the card
+	  reported to works with OSS since other work with ALSA and not
+	  with OSS
+
+2004-11-05 18:54  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: add a few real descriptions
+
+2004-11-05 14:48  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: remove bogus entry
+
 2004-11-05 14:36  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* lst/pcitable: sync with kernel-2.6.8.1.21mdk
