@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.4
-%define release 6mdk
+%define release 7mdk
 
 Name: %{name}
 Version: %{version}
@@ -62,6 +62,10 @@ fi
 %{_bindir}/*
 
 %changelog
+* Tue Aug 13 2002 Pixel <pixel@mandrakesoft.com> 0.1.4-7mdk
+- add entry "Intel 845" using driver i810 (fix bug #60)
+- use accel for SiS 86C326 (tested on a box here)
+
 * Tue Aug  6 2002 Gwenole Beauchesne <gbeauchesne@mandrakesoft.com> 0.1.4-6mdk
 - lst/pcitable: fix vendor for a megaraid (s/Dell/AMI/)
 - lst/pcitable: bcm5700 is story.  Great live to tg3
