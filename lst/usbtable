@@ -501,7 +501,7 @@
 0x04b8	0x0106	"scanner"	"Seiko Epson Corp.|Stylus Scan 2500"
 0x04b8	0x0107	"scanner"	"Seiko Epson Corp.|Expression 1600"
 0x04b8	0x010a	"scanner"	"Seiko Epson Corp.|Perfection 1640SU / 1640SU Photo"
-0x04b8	0x010b	"scanner"	"Seiko Epson Corp.|Perfection 1240U"
+0x04b8	0x010b	"scanner"	"Seiko Epson Corp.|Perfection 1240U / 1240U Photo"
 0x04b8	0x010c	"scanner"	"Seiko Epson Corp.|Perfection 640U"
 0x04b8	0x0110	"scanner"	"Seiko Epson Corp.|Perfection 1650 Photo"
 0x04b8	0x0601	"unknown"	"Seiko Epson Corp.|Stylus Photo 875DC Card Reader"
