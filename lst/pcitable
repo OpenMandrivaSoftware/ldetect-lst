@@ -2817,7 +2817,7 @@
 0x1273	0x0002	"unknown"	"Hughes Network Systems|DirecPC"
 0x1274	0x0000	"unknown"	"Ensoniq|es1370 audio pci"
 0x1274	0x1274	"unknown"	"Ensoniq|5880 multimedia audio device"
-0x1274	0x1371	"es1371"	"Ensoniq|ES1371 [AudioPCI-97]"
+0x1274	0x1371	"es1371"	"Creative Labs|Sound Blaster AudioPCI64V/AudioPCI128"
 0x1274	0x1373	"unknown"	"Ensoniq|ES1373 Sound Blaster Audio(PCI)"
 0x1274	0x5000	"snd-ens1370"	"Ensoniq|ES1370 [AudioPCI]"
 0x1274	0x5880	"es1371"	"Ensoniq|CT5880"
