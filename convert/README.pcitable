@@ -6,6 +6,9 @@
 # update pciutils
 ./merge2pcitable.pl pciids /usr/share/pci.ids pcitable > pcitable.new
 
+# update usbutils
+./merge2pcitable.pl usbids /usr/share/usb.ids usbtable > usbtable.new
+
 #  A pciids with more accurate information are available from
 rm -f vendors.txt ; wget http://www.yourvote.com/pci/vendors.txt
 ./merge2pcitable.pl pciids vendors.txt pcitable > pcitable.new
