@@ -814,6 +814,7 @@ SEE S3 ViRGE/MX (generic)
 
 NAME S3 Trio3D
 SERVER SVGA
+LINE Option "sw_cursor"
 
 NAME S3 86C365 (Trio3D)
 SEE S3 Trio3D
@@ -1863,6 +1864,7 @@ DRIVER sis
 DRI_GLX_EXPERIMENTAL
 UTAH_GLX_EXPERIMENTAL
 BAD_FB_RESTORE
+LINE     Option "sw_cursor"
 LINE     # Option "no_accel" # Use this if acceleration is causing problems
 LINE     # Option "fifo_moderate" 
 LINE     # Option "fifo_conserv" 
@@ -1917,7 +1919,6 @@ SEE SiS 5597
 
 NAME Diamond SpeedStar A50
 SEE SiS 6326
-LINE     Option "sw_cursor"
 LINE     Option "no_imageblt"
 LINE     Option "no_bitblt"
 
@@ -2330,7 +2331,7 @@ DRIVER neomagic
 
 NAME NeoMagic MagicMedia 256XL+
 SEE NeoMagic MagicMedia (laptop/notebook)
-LINE     Option "sw_cursor"
+LINE Option "sw_cursor"
 
 # Epson SPC8110
 
