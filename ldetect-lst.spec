@@ -66,7 +66,7 @@ fi
 %changelog
 * Fri Dec  3 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.37-1mdk
 - disambiguate names of media devices (eg: DVB vs TV cards)
-- update incomplete descriptionsfrom {pci,usb}.ids
+- update incomplete descriptions from {pci,usb}.ids
 - sync i2c with 2.6.10-rc2-mm4
 - one extra sound card from pci-26.lst file from debian's
   discover1-data
