@@ -1616,7 +1616,7 @@
 0x1095	0x0680	"unknown"	"CMD Technology Inc.|PCI-680 UltraATA/133 EIDE Controller"
 0x1095	0x3112	"sata_sil"	"Silicon Image|Sil3112A Serial ATA"
 0x1095	0x3114	"sata_sil"	"Silicon Image|Sil3114A Serial ATA"
-0x1095	0x3512	"sata_sil"	"Silicon Image|Sil3112A Serial ATA"
+0x1095	0x3512	"sata_sil"	"Silicon Image|Sil3512A Serial ATA"
 0x1097	0x0038	"unknown"	"Appian Technology (ETMA)|EIDE Controller"
 0x1097	0x3d32	"unknown"	"Appian Graphics|Jeronimo 2000 AGP"
 0x1098	0x0001	"Server:SVGA"	"Quantum Designs|QD-8500"
