@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.74
+%define version 0.1.75
 %define release 1mdk
 
 Name: %{name}
@@ -63,6 +63,11 @@ fi
 %{_bindir}/*
 
 %changelog
+* Tue Mar 22 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.75-1mdk
+- switch ES1983S Maestro-3i PCI Audio Accelerator from OSS to ALSA
+  (#14573)
+- sync usbtable with kernel
+
 * Mon Mar 21 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.74-1mdk
 - add a new SATA driver: ata_adma
 - replace no more existing xircom_tulip_cb driver by xircom_cb
