@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.2
-%define release 26mdk
+%define release 27mdk
 
 Name: %{name}
 Version: %{version}
@@ -48,6 +48,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/*
 
 %changelog
+* Mon Sep 24 2001 Pixel <pixel@mandrakesoft.com> 0.1.2-27mdk
+- replace ns558 by emu10k1-gp (Planel Nicolas)
+
 * Fri Sep 21 2001 Francois Pons <fpons@mandrakesoft.com> 0.1.2-26mdk
 - added GeForce 3 Integrated (Xbox).
 
