@@ -5645,4 +5645,3 @@
 0xfffe	0x0405	"unknown"	"VMWare Inc|Virtual SVGA 4.0"
 0xfffe	0x0710	"unknown"	"VMWare|Virtual SVGA"
 0xffff	0x8139	"8139too"	"RealTek|RTL-8139 Fast Ethernet"
-0xffff	0xffff	"usb-uhci"	""
