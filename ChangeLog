@@ -1,3 +1,227 @@
+2002-08-06 12:42  Pixel <pixel@mandrakesoft.com>
+
+	* lst/pcitable: fix vendor for a megaraid (s/Dell/AMI/)
+
+2002-08-05 22:09  quintela
+
+	* lst/pcitable: bcm5700 is story.  Great live to tg3
+
+2002-08-02 12:00  Pixel <pixel@mandrakesoft.com>
+
+	* lst/Cards+: add XaaNoPixmapCache for i815 too (per Mattias
+	Dahlberg request)
+
+2002-08-01 12:20  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: switch Danny Tholen sound card from oss to alsa
+
+2002-08-01 00:29  Pixel <pixel@mandrakesoft.com>
+
+	* ldetect-lst.spec, lst/Cards+, lst/pcitable: Cards+ & pcitable:
+	add "ATI Rage 128 TVout" with flag FB_TVOUT
+
+2002-07-29 17:46  Nicolas Planel <nplanel@mandrakesoft.com>
+
+	* lst/pcitable: Add and fix name for via-rhine module
+	(0x3065,0x3106,0x3053)
+
+2002-07-28 23:58  Pixel <pixel@mandrakesoft.com>
+
+	* ldetect-lst.spec, convert/Cards2CardsNames.pl,
+	convert/README.pcitable, lst/.cvsignore, lst/Cards+, lst/Makefile,
+	lst/pcitable: - drop CardsNames (not used anymore by drakx) -
+	Cards+: add Option "XaaNoPixmapCache" for i810 as suggested on
+	cooker. 	   to be removed when the kernel works ok  - Cards+
+	(and pcitable): to cleanup the tree in XFdrake	 - remove
+	"Spacewalker HOT", "Octek", "Creative Blaster Exxtreme",    
+	"Atrend", "ATrend", "SPEA", "Spider", "Actix", "Canopus", "Cardex" 
+	   entries   - remove "Generic VGA compatible" and entries using it
+	  - remove "Unsupported VGA compatible"   - replace "SMI" by
+	"Silicon Motion"   - replace "ELSA" by "Elsa"	- replace "LeadTek"
+	by "Leadtek"
+
+2002-07-26 12:23  Erwan Velu <erwan@mandrakesoft.com>
+
+	* lst/pcitable: Changing spaces to tabs for nvidia entries
+
+2002-07-26 11:37  Erwan Velu <erwan@mandrakesoft.com>
+
+	* lst/: Cards+, pcitable: Fixing NVIDIA Geforce 4 entries
+
+2002-07-25 15:18  Nicolas Planel <nplanel@mandrakesoft.com>
+
+	* lst/pcitable: Add ID (9904) (990a) for 3Com card supported in the
+	kernel but not in pcitable ! fix module name for 990[2-4] 990[8-a]
+	=> module name : 3c990
+
+2002-07-21 23:18  Pixel <pixel@mandrakesoft.com>
+
+	* ldetect-lst.spec: - pcitable	 - bttc -> bttv (typo fix)   -
+	snd-cs461x -> snd-cs46xx (since snd-cs461x doesn't exist)   - fix
+	many typos (please use make test!!)   - all new rh id're merged
+	(titi)	 - new eepro100 IDs (nplanel)	- new Promise 20276
+	(nplanel)
+
+2002-07-21 23:18  Pixel <pixel@mandrakesoft.com>
+
+	* convert/verify_Cards.pl: adapt to new Xconfigurator.pm
+
+2002-07-21 23:10  Pixel <pixel@mandrakesoft.com>
+
+	* lst/pcitable: - bttc -> bttv (typo fix) - snd-cs461x ->
+	snd-cs46xx (since snd-cs461x doesn't exist) - fix many typos
+	(please use make test!!)
+
+2002-07-20 19:56  Pixel <pixel@mandrakesoft.com>
+
+	* lst/Cards+: add Option "sw_cursor" for S3 Trio3D and SiS 6326
+
+2002-07-20 18:49  Nicolas Planel <nplanel@mandrakesoft.com>
+
+	* lst/pcitable: Add new eepro100 ID from Intel ICH4 Spec
+	(0x103b,0x103c)
+
+2002-07-20 12:12  Pixel <pixel@mandrakesoft.com>
+
+	* lst/Cards+: - cleanup the comment at beginning - drop entries
+	using any of RAMDAC CLOCKCHIP DACSPEED (obsolete stuff)
+
+2002-07-19 14:48  Nicolas Planel <nplanel@mandrakesoft.com>
+
+	* lst/pcitable: Another ID for eepro100 NIC (8086/103a)
+
+2002-07-19 13:46  Nicolas Planel <nplanel@mandrakesoft.com>
+
+	* lst/pcitable: 
+	
+	Add ID for new Promise 20276 Fix VT8235 USB2.0 name
+
+2002-07-18 17:40  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: more vendors sanitazation
+
+2002-07-18 17:26  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: - all new rh id're merged - normalize amd|compacq
+	vendors name
+
+2002-07-18 17:11  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: - add more cards from rh - one unknown card use
+	8139too now - normalize some vendor names which've different
+	versions
+
+2002-07-17 23:42  Pixel <pixel@mandrakesoft.com>
+
+	* ldetect-lst.spec, lst/Cards+, lst/pcitable: - pcitable: update
+	with www.begent.co.uk/pcids.htm   especially interesting are the
+	G200,G400,G450 multi head categorisation - Cards+: new entries for
+	DualHead & QuadHead matrox
+
+2002-07-17 23:41  Pixel <pixel@mandrakesoft.com>
+
+	* convert/: README.pcitable, merge2pcitable.pl: special option for
+	watching subids, but beware of it!
+
+2002-07-17 23:26  Pixel <pixel@mandrakesoft.com>
+
+	* convert/: README.pcitable, merge2pcitable.pl: add handling for
+	pci ids from http://www.begent.co.uk/pcids.htm
+
+2002-07-17 23:25  Pixel <pixel@mandrakesoft.com>
+
+	* lst/MonitorsDB: cleanup generic monitors
+
+2002-07-17 22:46  Pixel <pixel@mandrakesoft.com>
+
+	* lst/pcitable: normalize and drop unneeded use of subids
+
+2002-07-17 22:05  Pixel <pixel@mandrakesoft.com>
+
+	* convert/.cvsignore: [no log message]
+
+2002-07-17 22:04  Pixel <pixel@mandrakesoft.com>
+
+	* convert/Makefile: (clean): more cleanup
+
+2002-07-17 22:04  Pixel <pixel@mandrakesoft.com>
+
+	* convert/: Makefile, README.pcitable, xf86PciInfo2pcitable.c,
+	xf86str.h: - drop getting info from XFree86 (XFree now uses
+	http://pciids.sourceforge.net/) - nicer getting of kernel's info
+
+2002-07-17 15:25  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/usbtable: fill empty string for visor from what real device
+	reported (aka fix "pixel think the (null) bug is still there when
+	it isn't"
+
+2002-07-17 14:51  Pixel <pixel@mandrakesoft.com>
+
+	* ldetect-lst.spec: - Cards+ + pcitable:   - add "ATI Radeon 8500"
+	with no DRI_GLX   - add "SiS 6326 no_accel" with Option "no_accel" 
+	 - add "NeoMagic 128XD" with special XaaNoScanline* options   - add
+	"NeoMagic MagicMedia 256XL+" with Option "sw_cursor"   - add
+	NEEDVIDEORAM for cards corresponding to /86c368|S3
+	Inc|Tseng.*ET6\d00/	(hoping it will work: since the regexp was
+	broken, it was never done.	 (it was applied on the module
+	field of pcitable, instead of the description))    - remove CHIPSET
+	except for cards which had needChipset	  - add UTAH_GLX,
+	UTAH_GLX_EXPERIMENTAL	   (which card have them come from
+	Xconfigurator.pm)    - add BAD_FB_RESTORE & BAD_FB_RESTORE_XF3
+
+2002-07-17 14:50  Pixel <pixel@mandrakesoft.com>
+
+	* lst/pcitable: - use new "SiS 6326 no_accel" - use new "NeoMagic
+	128XD" - use new "Card:MagicMedia 256XL+" - use "Card:ATI Mach64
+	Utah" for mach64 cards Utah-aware - use a special entry for Radeon
+	8500
+
+2002-07-17 14:49  Pixel <pixel@mandrakesoft.com>
+
+	* lst/Cards+: - add "ATI Radeon 8500" with no DRI_GLX - add "SiS
+	6326 no_accel" with Option "no_accel" - add "NeoMagic 128XD" with
+	special XaaNoScanline* options - add "NeoMagic MagicMedia 256XL+"
+	with Option "sw_cursor" - add NEEDVIDEORAM for cards corresponding
+	to /86c368|S3 Inc|Tseng.*ET6\d00/   (hoping it will work: since the
+	regexp was broken, it was never done.	  (it was applied on the
+	module field of pcitable, instead of the description))	- remove
+	CHIPSET except for cards which had needChipset - add UTAH_GLX,
+	UTAH_GLX_EXPERIMENTAL	(which card have them come from
+	Xconfigurator.pm) - add BAD_FB_RESTORE & BAD_FB_RESTORE_XF3
+
+2002-07-17 14:46  Pixel <pixel@mandrakesoft.com>
+
+	* lst/Makefile: add checking Cards+ in "make check"
+
+2002-07-15 17:54  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: rh 7.3 beta merge, step 2 (66% done)
+
+2002-07-15 17:20  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: rh b7.3 merge, first step (33% done)
+
+2002-07-15 16:46  Pixel <pixel@mandrakesoft.com>
+
+	* convert/merge2pcitable.pl: handle buggy redhat pcitable
+
+2002-07-10 14:13  Erwan Velu <erwan@mandrakesoft.com>
+
+	* lst/pcitable: adding 176 for geforce 4
+
+2002-07-08 11:34  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: s/snd-card/snd/g
+
+2002-07-07 13:39  Pixel <pixel@mandrakesoft.com>
+
+	* lst/MonitorsDB: merge with redhat hwdata-0.32
+
+2002-06-26 15:54  Gwenole Beauchesne <gbeauchesne@mandrakesoft.com>
+
+	* lst/pcitable: - Merge AMD-8111 pci.ids from upstream pci.ids
+
 2002-06-21 13:47  Gwenole Beauchesne <gbeauchesne@mandrakesoft.com>
 
 	* ldetect-lst.spec, lst/pcitable: - Add more nForce things from
@@ -63,7 +287,7 @@
 
 	* lst/pcitable: fix titi sucking
 
-2002-03-14 18:00  erwan
+2002-03-14 18:00  Erwan Velu <erwan@mandrakesoft.com>
 
 	* lst/pcitable: Fixing wrong module for xircom pcmcia combo card
 
@@ -72,7 +296,7 @@
 	* convert/merge2pcitable.pl: added check for verifying if a missing
 	quote has been put on module or description.
 
-2002-03-14 17:23  erwan
+2002-03-14 17:23  Erwan Velu <erwan@mandrakesoft.com>
 
 	* lst/pcitable: Fixing SB Audigy processor and game port
 
@@ -173,11 +397,11 @@
 
 	* ldetect-lst.spec: various s3 changes (Erwan)
 
-2002-02-28 12:17  erwan
+2002-02-28 12:17  Erwan Velu <erwan@mandrakesoft.com>
 
 	* lst/pcitable: Modified s3 entries
 
-2002-02-28 12:16  erwan
+2002-02-28 12:16  Erwan Velu <erwan@mandrakesoft.com>
 
 	* lst/pcitable: modified S3 supersavage
 
@@ -480,11 +704,11 @@
 
 	* lst/Cards+: 86c968 seems to work with XF4/vesa rather than XF3/s3
 
-2002-01-17 10:50  erwan
+2002-01-17 10:50  Erwan Velu <erwan@mandrakesoft.com>
 
 	* lst/usbtable: Fixing usb table
 
-2002-01-16 14:19  erwan
+2002-01-16 14:19  Erwan Velu <erwan@mandrakesoft.com>
 
 	* lst/pcitable: Fixing & Adding Apple devices
 
@@ -494,11 +718,11 @@
 	White <iwhite@victoria.tc.ca>) 0x104c 0x8020: use "ohci1394" (sub
 	0x14db 0xf000)	 (Dave Seff <dseff1@nyc.rr.com>)
 
-2002-01-14 14:02  erwan
+2002-01-14 14:02  Erwan Velu <erwan@mandrakesoft.com>
 
 	* lst/pcitable: Adding VIA bridge
 
-2002-01-14 10:27  erwan
+2002-01-14 10:27  Erwan Velu <erwan@mandrakesoft.com>
 
 	* lst/pcitable: added some entries for i830 chipset
 
@@ -510,16 +734,16 @@
 
 	* lst/pcitable: fix bad spaces with tabulations
 
-2002-01-04 11:38  erwan
+2002-01-04 11:38  Erwan Velu <erwan@mandrakesoft.com>
 
 	* lst/pcitable: Fixing typo, missing tabs
 
-2002-01-04 11:33  erwan
+2002-01-04 11:33  Erwan Velu <erwan@mandrakesoft.com>
 
 	* lst/pcitable: Added some entries for Reliance Computer and Intel
 	chipset
 
-2001-12-28 10:35  erwan
+2001-12-28 10:35  Erwan Velu <erwan@mandrakesoft.com>
 
 	* lst/pcitable: Adding module for 1022:7414
 
@@ -540,15 +764,15 @@
 
 	* lst/Makefile: compress scannerDB
 
-2001-12-17 12:02  erwan
+2001-12-17 12:02  Erwan Velu <erwan@mandrakesoft.com>
 
 	* lst/: pcitable, usbtable: Moving 1668:408 from PCI to USB table,
 
-2001-12-17 11:57  erwan
+2001-12-17 11:57  Erwan Velu <erwan@mandrakesoft.com>
 
 	* lst/usbtable: Updating USB table
 
-2001-12-17 11:36  erwan
+2001-12-17 11:36  Erwan Velu <erwan@mandrakesoft.com>
 
 	* lst/pcitable: Adding some descriptions to CMD Technology Devices
 
@@ -614,7 +838,7 @@
 	* lst/MonitorsDB: Dell 791 doesn't exist, this was a typo, this
 	991.  Thanks to Alexander Kirillov <kirillov@math.sunysb.edu>.
 
-2001-10-16 15:21  erwan
+2001-10-16 15:21  Erwan Velu <erwan@mandrakesoft.com>
 
 	* lst/usbtable: Added Espon Perfection 1650 Photo Usb Scanner
 
@@ -657,7 +881,7 @@
 
 	* lst/MonitorsDB: add some Cybervision's (Jorg <jorgp@bartnet.net>)
 
-2001-10-03 15:41  erwan
+2001-10-03 15:41  Erwan Velu <erwan@mandrakesoft.com>
 
 	* lst/pcitable: Fixing lots of null entries such as 0x1023 0x1236
 	"" using www.yourvote.com/pci
@@ -688,21 +912,21 @@
 
 	* lst/pcitable: add hptraid
 
-2001-10-01 14:38  erwan
+2001-10-01 14:38  Erwan Velu <erwan@mandrakesoft.com>
 
 	* lst/pcitable: Added lots of intel devices and ATI Radeon mobility
 	Fixing some empty devices
 
-2001-09-26 15:59  erwan
+2001-09-26 15:59  Erwan Velu <erwan@mandrakesoft.com>
 
 	* lst/pcitable: Correcting a typo on 1668/0408
 
-2001-09-26 15:57  erwan
+2001-09-26 15:57  Erwan Velu <erwan@mandrakesoft.com>
 
 	* lst/pcitable: Added 3Com V.90 Mini-PCI Modem (0x10b7/0x1007) &
 	Actiontec WaveLan (0x1668/0x0408)
 
-2001-09-25 14:13  erwan
+2001-09-25 14:13  Erwan Velu <erwan@mandrakesoft.com>
 
 	* lst/pcitable: Adding and changing name of conexant winmodem id
 	1815 & 1803
@@ -877,7 +1101,7 @@
 	* lst/MonitorsDB: add Belinea monitors (thanks to Alex Hulse
 	<axh0@aber.ac.uk>)
 
-2001-08-16 11:34  erwan
+2001-08-16 11:34  Erwan Velu <erwan@mandrakesoft.com>
 
 	* lst/Cards+: changed driver for Kyro series, the previous module
 	works only for Dreamcast ! back to vesa mode !
@@ -895,7 +1119,7 @@
 	* lst/Cards+: remove SERVER for "KYRO Series" as XF3 doesn't handle
 	it
 
-2001-08-13 18:25  erwan
+2001-08-13 18:25  Erwan Velu <erwan@mandrakesoft.com>
 
 	* lst/: Cards+, pcitable: added Kyro video card familly, added also
 	in Card+ (id 104a:0010)
@@ -909,11 +1133,11 @@
 
 	* lst/usbtable: merge with latest usb.ids
 
-2001-08-13 11:10  erwan
+2001-08-13 11:10  Erwan Velu <erwan@mandrakesoft.com>
 
 	* lst/pcitable: Adding IBM ServeRAID card 0x1014 0x01bd with ips
 
-2001-08-06 11:55  erwan
+2001-08-06 11:55  Erwan Velu <erwan@mandrakesoft.com>
 
 	* lst/pcitable: added ohci1394 for 104d:8039
 
@@ -1049,7 +1273,7 @@
 	* lst/: Makefile, pcmciatable: added pcmciatable (merge with
 	HardDrake)
 
-2001-05-03 15:33  erwan
+2001-05-03 15:33  Erwan Velu <erwan@mandrakesoft.com>
 
 	* lst/pcitable: Adding module snd-card-via8233 for VIA-8233 chipset
 
