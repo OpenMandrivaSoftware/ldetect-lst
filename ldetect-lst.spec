@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.2
-%define release 35mdk
+%define release 36mdk
 
 Name: %{name}
 Version: %{version}
@@ -47,6 +47,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/*
 
 %changelog
+* Fri Jan 25 2002 Pixel <pixel@mandrakesoft.com> 0.1.2-36mdk
+- s/ncr53c8xx/sym53c8xx/
+
 * Tue Jan 22 2002 François Pons <fpons@mandrakesoft.com> 0.1.2-35mdk
 - added i830 support (Card:Intel 830).
 - added Alliance AT25 card support (Card:AT25).
