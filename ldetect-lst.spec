@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.4
-%define release 11mdk
+%define release 12mdk
 
 Name: %{name}
 Version: %{version}
@@ -63,6 +63,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Mon Aug 26 2002 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.4-12mdk
+- add lots of new devices to hardware db
+
 * Thu Aug 22 2002 Pixel <pixel@mandrakesoft.com> 0.1.4-11mdk
 - use "Mouse:USB|Microsoft Explorer" for those mice
 

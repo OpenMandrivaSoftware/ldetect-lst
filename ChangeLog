@@ -1,3 +1,162 @@
+2002-08-26 00:16  tvignaud
+
+	* lst/usbtable: add dc100 webcam
+
+2002-08-26 00:12  tvignaud
+
+	* lst/pcitable: add new modem
+
+2002-08-26 00:10  tvignaud
+
+	* lst/usbtable: add unknwon hub
+
+2002-08-26 00:07  tvignaud
+
+	* lst/isatable: add unknown modem
+
+2002-08-26 00:04  tvignaud
+
+	* lst/usbtable: add:   
+	o ATI|USB Cable 205
+	o CCYU TECHNOLOGY|EasyDisk Portable Device
+	o Datafab/Unknown|Datafab-based Reader
+	o Datafab/Unknown|Datafab-based Reader
+	o EagleTec|External Hard Disk
+	o In-System Design|Portable USB Harddrive V2
+	o In-System Design|Portable USB Harddrive V2
+	o In-System Design|USB Storage Adapter V2
+	o JMTek|USBDrive
+	o Minds@Work|Digital Wallet
+	o SanDisk Corp.|ImageMate SDDR-12
+	o Sony Corp.|PEG Mass Storage
+	o Sony Corp.|Portable USB Harddrive V2
+	
+	- use usb-storage:  
+	o Datafab Systems Inc.|Simple Technologies Flash Card Reader
+	o Datafab Systems, Inc.|USB to CompactFlash + SmartMedia Combo (LC1)  
+	o Casio Computer Co., Ltd.|QV-8000SX Digicam
+	o Freecom/Memorex|USB-IDE/BBQ Series 100 CD-R/RW
+	o Hagiwara Sys-Com|FlashGate  
+	o Hagiwara Sys-Com|FlashGate SmartMedia Card Reader  
+	o In-System Design|USB/IDE Bridge (ATA/ATAPI)  
+	o LaCie|HardDrive
+	o Linksys Inc.|SCM eUSB SmartMedia Card Reader / Camedia MAUSB-2  
+	o Microtech|CameraMate (DPCM_USB)  
+	o Microtech|SCSI-DB25 SCSI Bridge [shuttle]
+	o Microtech|SCSI-HD50 SCSI Bridge [shuttle]
+	o Minolta|Dimage S304
+	o Minolta|Dimage S304  
+	o PNY/Datafab|PNY/Datafab CompactFlash & SmartMedia Card Reader  
+	o SanDisk Corp.|Compact Flash Reader / ImageMate SDDR-05a  
+	o SanDisk Corp.|SDDR-09-01 ImageMate SmartMedia Reader  
+	o SanDisk Corp.|SDDR-31 ImageMate CompactFlash Reader / ImageMate SDDR-31  
+	o SIIG/Datafab|SIIG/Datafab Memory Stick+CompactFlash & SmartMedia Card Reader/Writer [eusb]
+	o Simple Tech/Datafab|Simple Tech/Datafab CompactFlash  & SmartMedia Card Reader  
+	o Sony Corp.|DSC-S30/S70/S75/505V/F505/F707 Cybershot Digital Camera,  
+	o Sony Corp.|MemoryStick MSC-U01N Reader  
+	o Sony Corp.|MSAC-US1 MemoryStick Reader  
+	o Sony Corp.|NW-MS7 Walkman MemoryStick Reader  
+	o Sony Corp.|Sony HandyCam MemoryStick Reader  
+	o Y-E Data, Inc.|FlashBuster-U
+
+2002-08-25 22:38  tvignaud
+
+	* lst/usbtable: -add :	
+	o Frontier Labs|Nex II Digital
+	o Hitachi|DVD-CAM DZ-MV100A Camcorder  
+	o Iomega|USB Clik! 40
+	o Panasonic|LS-120 Camera  
+	o Shuttle Technology Inc.|eUSB ATA/ATAPI Adapter  
+	o Shuttle Technology Inc.|eUSB CompactFlash Adapter
+	o Shuttle Technology Inc.|eUSCSI Bridge
+	o Shuttle Technology Inc.|eUSCSI Bridge
+
+	- bettter description for:
+	o ScanLogic Corp.|SL11R-IDE [IDE Bridge]
+
+	- use usb-storage for:
+  	o Belkin Components|SCSI Adapter  
+	o Fuji Photo Film Co., Ltd.|FinePix 4700 Zoom / FinePix 1400 Zoom digital camrea  
+	o Shuttle Technology Inc.|CD-RW Devicee  
+	o Shuttle Technology Inc.|eUSB MultiMedia Card Reader / eUSB MMC Adapter  
+	o Shuttle Technology Inc.|eUSB SmartMedia Card Reader / ImageMate SDDR09  
+	o Shuttle Technology Inc.|E-USCSI Bridge  
+	o Shuttle Technology Inc.|Hifd
+
+2002-08-25 22:11  tvignaud
+
+	* lst/usbtable: add:
+	- Lexar|Jumpshot USB CF Reader
+	- SIIG|CompactFlash Card Reader
+
+2002-08-25 21:51  tvignaud
+
+	* lst/usbtable: - add:
+	o Mitsumi|USB FDD
+	o Hewlett-Packard|CD-Writer Plus CD-4e
+	o Microtech|CameraMate (DPCM_USB)  
+	o Frontier Labs|Nex II Digital  
+	o OCTAL, S.A.|PCBIT-USB ISDN Adapter
+	
+	- handle with usb-storage :
+	o Mitsumi|CD-R/RW Drive	
+	o Hewlett-Packard|CD-Writer Plus
+	o Hewlett-Packard|CD-Writer Plus 8200e/Mesa  
+	o ScanLogic Corp.|IDE Bridge
+
+	- add name to unknown scanner: Trust|Flat scan USB 1920t
+	flat scan USB 19200
+
+2002-08-25 21:48  tvignaud
+
+	* lst/isatable: add a new modem
+
+2002-08-25 21:37  tvignaud
+
+	* lst/usbtable: hp 8200e cd burner works with usb-storage
+
+2002-08-25 21:30  tvignaud
+
+	* lst/pcmciatable: add PCMCIA Compaq iPAQ
+
+2002-08-25 21:21  tvignaud
+
+	* lst/isatable: add Apache A56SP-HCF modem
+
+2002-08-25 21:17  tvignaud
+
+	* lst/pcitable: add intel modem 536EP v.92
+
+2002-08-25 21:11  tvignaud
+
+	* lst/usbtable: add Motorota Surfboard 4200 cable modem
+
+2002-08-22 18:01  dchaumette
+
+	* lst/pcitable: add Nforce Ethernet Controler
+
+2002-08-22 15:45  prigaux
+
+	* ldetect-lst.spec, lst/usbtable: use "Mouse:USB|Microsoft
+	Explorer" for those mice
+
+2002-08-21 20:38  prigaux
+
+	* ldetect-lst.spec: add Url (thanks to Yura Gusev)
+
+2002-08-21 18:10  nplanel
+
+	* lst/pcitable: Fix Firewire modules (unknown => ohci1394) on
+	Audigy interface (Working now) 0x1102/0x4001
+
+2002-08-20 21:32  tvignaud
+
+	* Makefile: default RPM to ~/rpm as i did in ldetect
+
+2002-08-20 21:31  tvignaud
+
+	* ChangeLog, ldetect-lst.spec: 0.1.4-10mdk
+
 2002-08-20 21:31  tvignaud
 
 	* Makefile: split rpm target into rpm and srpm target as i did for
