@@ -338,8 +338,10 @@ Apple; Apple HiRes Display 1280x1024; 0; 30.0-130.0; 50.0-160.0
 Apple; Apple iMac CRT; APP059d; 60.015; 75-117
 Apple; Apple iMac LCD 15; APP229c; 28.0-49.0; 60
 Apple; Apple iMac LCD 17; APP279c; 28.0-49.0; 60
+Apple; Apple iMac (Rev A) 15"; APP019d; 59-63; 50-150
 Apple; Apple iBook 800x600; 0; 28-50; 43.0-75.0
-Apple; Apple iBook2 12 (1024x768); APP129c; 30-70; 43.0-72.0
+Apple; Apple iBook2 12" (1024x768); APP129c; 30-70; 43.0-72.0
+Apple; Apple iBook2 15" (1024x768); APP1a9c; 30-70; 43.0-72.0
 Apple; Apple iMac/PowerBook 1024x768; 0; 30.0-70.0; 50.0-160.0
 Apple; Apple LoRes Display 640x480; 0; 28.0-33.0; 43.0-72.0
 Apple; Apple PowerBook G4 12 (2003); APP2a9c; 30-70; 60
