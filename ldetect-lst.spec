@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.7
-%define release 8mdk
+%define release 9mdk
 
 Name: %{name}
 Version: %{version}
@@ -64,6 +64,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Wed Mar 12 2003 Pixel <pixel@mandrakesoft.com> 0.1.7-9mdk
+- add a MemoryStick reader and a usb floppy drive from ghibo
+
 * Mon Mar 10 2003 Frederic Lepied <flepied@mandrakesoft.com> 0.1.7-8mdk
 - NForce1 video works with nv driver now
 - NForce2 net => nvnet
