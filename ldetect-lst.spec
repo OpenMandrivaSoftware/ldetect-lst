@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.15
+%define version 0.1.16
 %define release 1mdk
 
 Name: %{name}
@@ -64,6 +64,12 @@ fi
 %{_bindir}/*
 
 %changelog
+* Thu Aug 26 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.16-1mdk
+- usbtable: sync with kernel-2.6.8.1.1mdk (kernel-2.6.8.1.3mdk equals
+  1mdk regarding pcitable & usbtable)
+- switch Intel/ICH6 sound card from OSS to ALSA b/c of sound recording
+  issues
+
 * Wed Aug 18 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.15-1mdk
 - sync pcitable with kernel-2.6.8.1.1mdk
 - fill some empty strings (Erwan Velu)
