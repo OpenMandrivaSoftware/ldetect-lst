@@ -1,3 +1,44 @@
+2004-03-18 12:12  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.9-11mdk
+
+2004-03-18 12:11  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: reverse dc395x_trm => dc395x_trm move since it's
+	  supposed to be managed by module-init-tools
+
+2004-03-18 11:47  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: audigy does not work whereas snd-emu10k1 works
+	  smoothly
+
+2004-03-17 11:34  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: dc395x_trm was renamed as dc395x (#7233)
+
+2004-03-16 17:24  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.9-10mdk
+
+2004-03-16 17:23  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: switch a broadcom from b44 to bcm4400 on arnaud/hp
+	  request
+
+2004-03-05 12:42  Nicolas Planel <nplanel@mandrakesoft.com>
+
+	* convert/merge2pcitable.pl: revert bad commit
+
+2004-03-05 12:41  Nicolas Planel <nplanel@mandrakesoft.com>
+
+	* ldetect-lst.spec, convert/merge2pcitable.pl, lst/usbtable: add
+	  MSI WLAN PC2PC usb adapter
+	  http://www.msi.com.tw/program/products/communication/cmu/pro_cmu_detail.php?UID=390
+
+2004-03-03 08:36  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: fix Sil3512A description (#8579)
+
 2004-03-02 15:40  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* lst/pcitable: thx make check
