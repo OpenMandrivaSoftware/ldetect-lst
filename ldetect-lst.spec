@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.16
-%define release 4mdk
+%define release 5mdk
 
 Name: %{name}
 Version: %{version}
@@ -64,6 +64,11 @@ fi
 %{_bindir}/*
 
 %changelog
+* Tue Sep 14 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.16-5mdk
+- add support for xDSL over CAPI (eg: AVM cards) (blino)
+- add some Apple hardware (Christiaan Welvaar)
+- sync pcitable with kernel-2.6.8.1.10mdk
+
 * Wed Sep  8 2004 Frederic Lepied <flepied@mandrakesoft.com> 0.1.16-4mdk
  o pcitable:
 	* added entries for slamr and rt2500
