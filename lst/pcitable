@@ -1763,6 +1763,7 @@
 0x1307	0x004c	"unknown"	"Computer Boards|PCI-DAS1000"
 0x1308	0x0001	"unknown"	"Jato Technologies Inc.|NetCelerator Adapter"
 0x1317	0x0981	"tulip"	"ADMtek|AN981 Comet"
+0x1317	0x0985	"tulip"	"Bridgecom, Inc|Linksys EtherFast 10/100"
 0x1318	0x0911	"unknown"	"Packet Engines Inc.|PCI Ethernet Adapter"
 0x1319	0x0801	"snd-card-fm801"	"Fortemedia, Inc|Xwave QS3000A [FM801]"
 0x1319	0x0802	"unknown"	"Fortemedia, Inc|Xwave QS3000A [FM801 game port]"
