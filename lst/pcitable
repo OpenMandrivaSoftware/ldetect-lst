@@ -5900,7 +5900,7 @@
 0x8086	0x2782	"unknown"	"Intel Corp.|Graphics Controller"
 0x8086	0x2792	"unknown"	"Intel Corp.|Mobile Graphics Controller"
 0x8086	0x27d8	"snd-azx"	""
-0x8086	0x27deo	"snd-intel8x0"	""
+0x8086	0x27de	"snd-intel8x0"	""
 0x8086	0x27df	"piix"	""
 0x8086	0x3092	"i2o_block"	"Intel Corp.|Integrated RAID"
 0x8086	0x3200	"sata_vsc"	"Intel Corp.|31244 PCI-X to Serial ATA Controller"
