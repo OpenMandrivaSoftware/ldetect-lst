@@ -2,7 +2,7 @@
 # This is the database of card definitions used by XFdrake
 #
 
-# Each definition should have a NAME entry, a SERVER or DRIVER
+# Each definition should have a NAME entry, a DRIVER
 #
 # A reference to another definition is made with SEE (already defined
 # entries are not overridden).
@@ -14,12 +14,9 @@
 # LINE: adds a line of text to be included in the Device section (can include options or comments).
 #
 # DRI_GLX: 3D acceleration configuration for XFree 4 using DRI.
-# UTAH_GLX: 3D acceleration configuration for XFree 3.3 using Utah-GLX.
 # DRI_GLX_EXPERIMENTAL: DRI, but EXPERIMENTAL and may freeze the machine.
-# UTAH_GLX_EXPERIMENTAL: Utah-GLX, but EXPERIMENTAL and may freeze the machine.
 #
 # BAD_FB_RESTORE: for bad cards not restoring cleanly framebuffer (XFree 4)
-# BAD_FB_RESTORE_XF3: for bad cards not restoring cleanly framebuffer (XFree 3)
 #
 # MULTI_HEAD 2: for DualHead cards (think Matrox G450)
 # MULTI_HEAD n: for n Head cards (eg: "MULTI_HEAD 4" for QuadHead)
@@ -31,7 +28,6 @@
 
 #untested
 NAME Chips & Technologies CT65520
-SERVER SVGA
 DRIVER chips
 LINE # Device section for C&T cards.
 LINE # Option "suspend_hack"
@@ -105,13 +101,11 @@ NAME Chips & Technologies CT69030
 SEE Chips & Technologies CT65550
 
 NAME Chips & Technologies CT64200
-SERVER SVGA
 DRIVER chips
 LINE # Device section for C&T cards.
 LINE # videoram 1024
 
 NAME Chips & Technologies CT64300
-SERVER SVGA
 DRIVER chips
 LINE # Option "noaccel"
 LINE # Option "no_bitblt"
@@ -128,7 +122,6 @@ SEE Chips & Technologies CT64200
 
 #tested
 NAME Cirrus Logic GD542x
-SERVER SVGA
 DRIVER vga
 LINE # Device section for Cirrus Logic GD5420/2/4/6/8/9-based cards.
 LINE     #MemBase 0x00e00000
@@ -137,7 +130,6 @@ LINE     #Option "linear"
 
 #tested
 NAME Cirrus Logic GD543x
-SERVER SVGA
 DRIVER cirrus
 LINE # Device section for Cirrus Logic GD5430/34-based cards.
 LINE     #MemBase 0x00e00000		# ISA card that maps to 14Mb
@@ -147,7 +139,6 @@ LINE     #MemBase 0x02000000		# VLB card that maps to 32Mb
 LINE     #Option "linear"
 
 NAME Cirrus Logic GD544x
-SERVER SVGA
 DRIVER cirrus
 
 NAME Creative Labs Graphics Blaster MA201
@@ -158,19 +149,16 @@ SEE Cirrus Logic GD544x
 
 #tested
 NAME Cirrus Logic GD5462
-SERVER SVGA
 DRIVER cirrus
 LINE #Option "fifo_conservative"
 
 #tested
 NAME Cirrus Logic GD5464
-SERVER SVGA
 DRIVER cirrus
 LINE #Option "fifo_conservative"
 
 #tested
 NAME Cirrus Logic GD5465
-SERVER SVGA
 DRIVER cirrus
 LINE #Option "fifo_conservative"
 
@@ -186,7 +174,6 @@ SEE Cirrus Logic GD5464
 # reported not working on SGI 1200 as of 02/22/2001 (RH)
 # reported working on XF 4.2.0 by Juan (MDK)
 NAME Cirrus Logic GD5480
-SERVER SVGA
 DRIVER cirrus
 
 #tested
@@ -203,7 +190,6 @@ NAME Diamond SpeedStar Pro 1100
 SEE Cirrus Logic GD542x
 
 NAME Orchid Kelvin 64 VLB Rev A
-SERVER SVGA
 DRIVER cirrus
 LINE # Device section for Orchid Kelvin 64 VLB Rev A
 LINE # Linear framebuffer maps at 2048Mb. Some motherboards make linear addressing
@@ -214,7 +200,6 @@ LINE     MemBase 0x80000000		# VLB card that maps to 2048Mb
 LINE     #Option "linear"
 
 NAME Orchid Kelvin 64 VLB Rev B
-SERVER SVGA
 DRIVER cirrus
 LINE # Device section for Orchid Kelvin 64 VLB Rev B
 LINE # Linear framebuffer maps at 32Mb. Some motherboards make linear addressing
@@ -262,15 +247,12 @@ NAME VI720
 SEE Cirrus Logic GD543x
 
 NAME Cirrus Logic GD62xx (laptop)
-SERVER SVGA
 DRIVER vga
 
 NAME Cirrus Logic GD64xx (laptop)
-SERVER SVGA
 DRIVER vga
 
 NAME Cirrus Logic GD754x (laptop)
-SERVER SVGA
 DRIVER vga
 
 NAME Techworks Ultimate 3D
@@ -283,12 +265,10 @@ NAME Jaton Video-70P
 SEE Cirrus Logic GD5464
 
 NAME PixelView Combo TV Pro (Prolink)
-SERVER SVGA
 DRIVER vga
 LINE # COMMENT on card TV Tuner
 
 NAME PixelView Combo TV 3D AGP (Prolink)
-SERVER SVGA
 DRIVER vga
 LINE # COMMENT on card TV+FM Tuner
 
@@ -299,13 +279,11 @@ NAME VideoLogic GrafixStar 560 (PCI/AGP)
 SEE Cirrus Logic GD5465
 
 NAME Cirrus Logic GD5446 (noname card)
-SERVER SVGA
 DRIVER vga
 
 # S3 801/805
 
 NAME S3 801/805 (generic)
-SERVER S3
 DRIVER s3
 NEEDVIDEORAM
 
@@ -316,7 +294,6 @@ NAME S3 86C805 (generic)
 SEE S3 801/805 (generic)
 
 NAME Orchid Fahrenheit 1280
-SERVER S3
 DRIVER s3
 NEEDVIDEORAM
 LINE     #Probable clocks:
@@ -332,7 +309,6 @@ SEE S3 801/805 (generic)
 # S3 864/Trio64/Trio32/868
 
 NAME S3 864 (generic)
-SERVER S3
 DRIVER s3
 NEEDVIDEORAM
 
@@ -343,7 +319,6 @@ NAME S3 Vision864 (generic)
 SEE S3 864 (generic)
 
 NAME S3 868 (generic)
-SERVER S3
 DRIVER s3
 NEEDVIDEORAM
 
@@ -354,12 +329,10 @@ NAME S3 Vision868 (generic)
 SEE S3 868 (generic)
 
 NAME S3 868 with SDAC (86C716)
-SERVER S3
 DRIVER s3
 NEEDVIDEORAM
 
 NAME S3 Trio64 (generic)
-SERVER S3
 DRIVER s3
 NEEDVIDEORAM
 
@@ -367,7 +340,6 @@ NAME S3 86C764 (Trio64)
 SEE S3 Trio64 (generic)
 
 NAME S3 Trio64V+ (generic)
-SERVER S3
 DRIVER s3
 NEEDVIDEORAM
 
@@ -375,7 +347,6 @@ NAME S3 86C765 (Trio64V+)
 SEE S3 Trio64V+ (generic)
 
 NAME S3 Trio32 (generic)
-SERVER S3
 DRIVER s3
 NEEDVIDEORAM
 
@@ -445,7 +416,6 @@ SEE S3 Trio64V+ (generic)
 # S3 Trio64V2
 
 NAME S3 Trio64V2 (generic)
-SERVER S3
 DRIVER s3
 NEEDVIDEORAM
 
@@ -468,7 +438,6 @@ SEE S3 Trio64V2/DX (generic)
 # S3 Aurora64V+
 
 NAME S3 Aurora64V+ (generic)
-SERVER S3
 DRIVER s3
 NEEDVIDEORAM
 LINE     # Option "lcd_center"
@@ -493,7 +462,6 @@ SEE S3 Aurora64V+ (generic)
 # S3 964/968
 
 NAME S3 964 (generic)
-SERVER S3
 DRIVER s3
 NEEDVIDEORAM
 
@@ -561,65 +529,54 @@ LINE    #s3RefClk  16
 SEE S3 968 (generic)
 
 NAME Miro Crystal 80SV
-SERVER S3
 DRIVER s3
 NEEDVIDEORAM
 
 NAME Elsa Winner 2000PRO-2
-SERVER S3
 DRIVER s3
 NEEDVIDEORAM
 LINE     #Option "ELSA_w2000pro"
 
 NAME Elsa Winner 2000PRO-4
-SERVER S3
 DRIVER s3
 NEEDVIDEORAM
 LINE     #Option "ELSA_w2000pro"
 
 NAME Elsa Winner 2000PRO/X-2
-SERVER S3
 DRIVER s3
 NEEDVIDEORAM
 LINE     #Option "sync_on_green"
 
 NAME Elsa Winner 2000PRO/X-4
-SERVER S3
 DRIVER s3
 NEEDVIDEORAM
 LINE     #Option "sync_on_green"
 
 NAME Elsa Winner 2000PRO/X-8
-SERVER S3
 DRIVER s3
 NEEDVIDEORAM
 LINE     #Option "sync_on_green"
 
 NAME Elsa Winner 2000AVI
-SERVER S3
 DRIVER s3
 NEEDVIDEORAM
 LINE     #Option "sync_on_green"
 
 NAME Elsa Gloria-4
-SERVER S3
 DRIVER s3
 NEEDVIDEORAM
 LINE     #Option "sync_on_green"
 
 NAME Elsa Gloria-8
-SERVER S3
 DRIVER s3
 NEEDVIDEORAM
 LINE     #Option "sync_on_green"
 
 NAME VideoLogic GrafixStar 700
-SERVER S3
 DRIVER s3
 NEEDVIDEORAM
 
 NAME Leadtek WinFast S430
-SERVER S3
 DRIVER s3
 NEEDVIDEORAM
 
@@ -627,7 +584,6 @@ NAME WinFast S430
 SEE Leadtek WinFast S430
 
 NAME Leadtek WinFast S510
-SERVER S3
 DRIVER s3
 NEEDVIDEORAM
 
@@ -637,7 +593,6 @@ SEE Leadtek WinFast S510
 # S3 928
 
 NAME S3 928 (generic)
-SERVER S3
 DRIVER s3
 NEEDVIDEORAM
 
@@ -645,7 +600,6 @@ NAME S3 86C928 (generic)
 SEE S3 928 (generic)
 
 NAME Elsa Winner 1000VL
-SERVER S3
 DRIVER s3
 NEEDVIDEORAM
 LINE     # the following settings should be detected and set automatically by XF86_S3
@@ -665,7 +619,6 @@ SEE S3 928 (generic)
 # S3 911/924
 
 NAME S3 911/924 (generic)
-SERVER S3
 DRIVER s3
 NEEDVIDEORAM
 
@@ -679,7 +632,6 @@ SEE S3 911/924 (generic)
 #SEE S3 911/924 (generic)
 
 NAME S3 924 with SC1148 DAC
-SERVER S3
 DRIVER s3
 NEEDVIDEORAM
 LINE     #Probable clocks:
@@ -689,12 +641,10 @@ LINE     #Clocks 130.2 119.5 79.4 31.2 110.0 65.2 74.9 71.3
 # S3 ViRGE,/DX,/GX and ViRGE/VX
 
 NAME S3 ViRGE (old S3V server)
-SERVER S3V
 DRIVER s3virge
 NEEDVIDEORAM
 
 NAME S3 ViRGE (generic)
-SERVER SVGA
 DRIVER s3virge
 NEEDVIDEORAM
 LINE      #Option "xaa_benchmark"
@@ -703,7 +653,6 @@ LINE      #Option "pci_burst_on"
 LINE      #Option "pci_retry"
 
 NAME S3 ViRGE/DX (generic)
-SERVER SVGA
 DRIVER s3virge
 NEEDVIDEORAM
 LINE      #Option "xaa_benchmark"
@@ -712,7 +661,6 @@ LINE      #Option "pci_burst_on"
 LINE      #Option "pci_retry"
 
 NAME S3 ViRGE/GX (generic)
-SERVER SVGA
 DRIVER s3virge
 NEEDVIDEORAM
 LINE      #Option "xaa_benchmark"
@@ -722,7 +670,6 @@ LINE      #Option "pci_retry"
 
 
 NAME S3 ViRGE/GX2 (generic)
-SERVER SVGA
 DRIVER s3virge
 NEEDVIDEORAM
 LINE      #Option "xaa_benchmark"
@@ -731,7 +678,6 @@ LINE      #Option "pci_burst_on"
 LINE      #Option "pci_retry"
 
 NAME S3 ViRGE/MX (generic)
-SERVER SVGA
 DRIVER s3virge
 NEEDVIDEORAM
 LINE      #Option "lcd_center"
@@ -745,7 +691,6 @@ NAME S3 ViRGE/MX+ (generic)
 SEE S3 ViRGE/MX (generic)
 
 NAME S3 Trio3D
-SERVER SVGA
 DRIVER s3virge
 LINE Option "sw_cursor"
 
@@ -866,7 +811,6 @@ SEE S3 ViRGE (generic)
 
 
 NAME S3 ViRGE/VX (generic)
-SERVER SVGA
 DRIVER s3virge
 NEEDVIDEORAM
 LINE      #Option "xaa_benchmark"
@@ -933,7 +877,6 @@ SEE S3 ViRGE/MX (generic)
 
 
 NAME S3 Savage (generic)
-SERVER SVGA
 DRIVER savage
 NEEDVIDEORAM
 LINE      #Option "xaa_benchmark"
@@ -952,7 +895,6 @@ SEE S3 Savage (generic)
 
 NAME S3 Savage3D
 SEE S3 Savage (generic)
-UTAH_GLX_EXPERIMENTAL
 
 NAME Aristo ART-390-G  S3 Savage3D
 SEE S3 Savage (generic)
@@ -984,7 +926,6 @@ NAME Creative Labs Savage 4  3D Blaster
 SEE S3 Savage4 (generic)
 
 NAME S3 Savage2000 (generic)
-SERVER SVGA
 DRIVER savage
 NEEDVIDEORAM
 
@@ -994,22 +935,18 @@ SEE S3 Savage4 (generic)
 # ET4000/ET6000
 
 NAME ET3000 (generic)
-SERVER SVGA
 DRIVER tseng
 
 NAME Genoa 5400
 SEE ET3000 (generic)
 
 NAME ET4000 (generic)
-SERVER SVGA
 DRIVER tseng
 
 NAME ET4000/W32 (generic)
-SERVER W32
 DRIVER tseng
 
 NAME ET4000 W32i, W32p (generic)
-SERVER SVGA
 DRIVER tseng
 LINE     #Option "linear"       # for linear mode at 8bpp
 LINE     #Option "noaccel"      # when problems with accelerator
@@ -1022,7 +959,6 @@ LINE     #MemBase 0x3C00000     # when automatic MemBase detection doesn't work
 LINE         # -- see README.tseng for more (important) information on MemBase
 
 NAME ET6000 (generic)
-SERVER SVGA
 DRIVER tseng
 NEEDVIDEORAM
 LINE     #videoram 2304         # 2.25 MB, when memory probe is incorrect
@@ -1162,34 +1098,19 @@ SEE ET6000 (generic)
 # ATI
 
 NAME ATI 8514 Ultra (no VGA)
-SERVER Mach8
 DRIVER vga
 
 NAME ATI Graphics Ultra
-SERVER Mach8
 DRIVER vga
 
-NAME ATI Graphics Ultra Pro
-SERVER Mach32
-
 NAME ATI Wonder SVGA
-SERVER SVGA
 DRIVER ati
-
-NAME ATI Ultra Plus
-SERVER Mach32
-
-NAME ATI Mach32
-SERVER Mach32
 
 NAME ATI Mach64
-SERVER Mach64
 DRIVER ati
-BAD_FB_RESTORE_XF3
 
 NAME ATI Mach64 Utah
 SEE ATI Mach64
-UTAH_GLX_EXPERIMENTAL
 
 NAME ATI Mach64 CT (264CT)
 SEE ATI Mach64
@@ -1289,7 +1210,6 @@ SEE ATI Mach64
 
 NAME ATI Rage Mobility
 SEE ATI Mach64
-UTAH_GLX_EXPERIMENTAL
 BAD_FB_RESTORE
 
 NAME ATI Rage Mobility P
@@ -1302,7 +1222,6 @@ NAME ASUS PCI-AV264CT
 SEE ATI Mach64
 
 NAME ATI Rage XL
-SERVER SVGA
 DRIVER ati
 
 NAME ATI Rage XL AGP
@@ -1312,7 +1231,6 @@ NAME ATI Rage 128
 DRIVER r128
 DRI_GLX
 # DRI_GLX: 16 and 32 bits, prefer 16bit as no DMA.
-BAD_FB_RESTORE_XF3
 
 NAME ATI Rage 128 Mobility
 SEE ATI Rage 128
@@ -1347,21 +1265,18 @@ DRI_GLX
 DRIVER2 fglrx
 
 NAME ATI Radeon (fbdev)
-SERVER FBDev
 DRIVER fbdev
 DRIVER2 fglrx
 
 # AGX
 
 NAME AGX (generic)
-SERVER AGX
 DRIVER vga
 
 NAME EIZO (VRAM)
 SEE AGX (generic)
 
 NAME Hercules Graphite Pro
-SERVER AGX
 DRIVER vga
 # Card specific DAC, doesn't appear in ramdac menu
 LINE     Ramdac "herc_dual_dac"
@@ -1374,7 +1289,6 @@ LINE     #Clocks 25.0  28.0  32.0  36.0  40.0  45.0  50.0  65.0
 LINE     #Clocks 70.0  75.0  80.0  85.0  90.0  95.0 100.0 110.0
 
 NAME Hercules Graphite Power
-SERVER AGX
 DRIVER vga
 # Card specific DAC, doesn't appear in ramdac menu
 #   The glue logic state machine for RAMDAC switching doesn't work as
@@ -1390,14 +1304,12 @@ LINE     #Clocks 25.0  28.0  32.0  36.0  40.0  45.0  50.0  65.0
 LINE     #Clocks 70.0  75.0  80.0  85.0  90.0  95.0 100.0 110.0
 
 NAME XGA-2  (ISA bus)
-SERVER AGX
 DRIVER vga
 LINE     #Instance  7           # XGA instance 0-7
 LINE     #COPbase   0xC8F00     # XGA memory-mapped register address
 LINE     #POSbase   0           # Disable probing if above are specified
 
 NAME XGA-1  (ISA bus)
-SERVER AGX
 DRIVER vga
 LINE     #Instance  7           # XGA instance 0-7
 LINE     #COPbase   0xC8F00     # XGA memory-mapped register address
@@ -1406,19 +1318,15 @@ LINE     #POSbase   0           # Disable probing if above are specified
 # WD
 
 NAME Paradise/WD 90CXX
-SERVER SVGA
 DRIVER vga
 
 NAME DFI-WG6000
-SERVER SVGA
 DRIVER vga
 
 NAME Diamond SpeedStar 24X (not fully supported)
-SERVER SVGA
 DRIVER vga
 
 NAME WD 90C24 (laptop)
-SERVER SVGA
 DRIVER vga
 LINE     #Chipset "wd90c24"
 LINE     #Option "noaccel" # Use this if acceleration is causing problems
@@ -1430,7 +1338,6 @@ LINE     #Clocks 44.297                      # Must match Mclk
 
 
 NAME WD 90C24A or 90C24A2 (laptop)
-SERVER SVGA
 DRIVER vga
 LINE     #Chipset "wd90c24"
 LINE     #Clocks 25.175 28.322 65     36     # These are not programmable
@@ -1443,57 +1350,46 @@ LINE     #Clocks 44.297                      # Must match Mclk
 
 NAME Avance Logic 2101
 LINE   #chipset "al2101"
-SERVER SVGA
 DRIVER vga
 
 NAME Avance Logic 2228
 LINE   #chipset "ali2228"
-SERVER SVGA
 DRIVER vga
 
 NAME Avance Logic 2301
 LINE   #chipset "ali2301"
-SERVER SVGA
 DRIVER vga
 
 NAME Avance Logic 2302
 LINE   #chipset "ali2302"
-SERVER SVGA
 DRIVER vga
 
 NAME Avance Logic 2308
 LINE   #chipset "ali2308"
-SERVER SVGA
 DRIVER vga
 
 NAME Avance Logic 2401
 LINE   #chipset "ali2401"
-SERVER SVGA
 DRIVER vga
 
 NAME Hercules Stingray
 LINE   #chipset "ali2228"
-SERVER SVGA
 DRIVER vga
 
 # ARK Logic
 
 NAME Ark Logic ARK1000PV (generic)
-SERVER SVGA
 DRIVER ark
 
 # For now, treat the VL as a PV.  This may be changed later
 NAME Ark Logic ARK1000VL (generic)
 LINE Chipset "ark1000pv"
-SERVER SVGA
 DRIVER ark
 
 NAME Ark Logic ARK2000PV (generic)
-SERVER SVGA
 DRIVER ark
 
 NAME Ark Logic ARK2000MT (generic)
-SERVER SVGA
 DRIVER ark
 
 NAME Hercules Stingray Pro
@@ -1508,18 +1404,15 @@ SEE Ark Logic ARK2000PV (generic)
 # Oak
 
 NAME Oak ISA Card (generic)
-SERVER SVGA
 DRIVER vga
 
 NAME Oak 87 VLB (generic)
-SERVER SVGA
 DRIVER vga
 LINE Option "fifo_aggressive" # Comment this if you experience streaks.
 LINE Option "no_wait"         # Comment this if you find problems.        
 LINE #Option "enable_bitblt"  # You may enable this and see if it works (see README.Oak file)
 
 NAME Oak 87 ISA (generic)
-SERVER SVGA
 DRIVER vga
 LINE Option "noaccel"        # ISA cards seem to have Color Expansion support broken
 LINE #Option "enable_bitblt" # This should work on ISA, but lets not make it default just in case.
@@ -1530,7 +1423,6 @@ SEE Oak 87 ISA (generic)
 # P9000
 
 NAME Diamond Viper VLB 2Mb
-SERVER P9000
 DRIVER vga
 LINE     #Clocks must match the mode clocks (XFree86 3.1 P9000 server)
 LINE     #Versions later than 3.1 do not require a clocks line
@@ -1539,7 +1431,6 @@ LINE     Videoram 2048      # Required
 LINE     Membase 0x80000000 # Optional (0x80000000 is default)
 
 NAME Diamond Viper PCI 2Mb
-SERVER P9000
 DRIVER vga
 LINE     #Clocks must match the mode clocks (XFree86 3.1 P9000 server)
 LINE     #Versions later than 3.1 do not require a clocks line
@@ -1547,7 +1438,6 @@ LINE     Videoram 2048      # Required
 LINE     #Membase 0x80000000 # Use scanpci to get the correct Membase
 
 NAME Orchid P9000 VLB
-SERVER P9000
 DRIVER vga
 LINE     Chipset "orchid_p9000"
 LINE     Membase 0xE0000000
@@ -1555,7 +1445,6 @@ LINE     Membase 0xE0000000
 # P9100
 
 NAME Weitek P9100 (generic)
-SERVER SVGA
 DRIVER vga
 
 NAME Diamond Viper Pro Video
@@ -1564,119 +1453,90 @@ SEE Weitek P9100 (generic)
 # Trident
 
 NAME Trident 8900/9000 (generic)
-SERVER SVGA
 DRIVER trident
 
 NAME Trident 8900D (generic)
-SERVER SVGA
 DRIVER trident
 
 NAME Trident TVGA9200CXr (generic)
-SERVER SVGA
 DRIVER trident
 
 NAME Trident TGUI9400CXi (generic)
-SERVER SVGA
 DRIVER trident
 
 NAME Trident TGUI9420DGi (generic)
-SERVER SVGA
 DRIVER trident
 
 NAME Trident TGUI9430DGi (generic)
-SERVER SVGA
 DRIVER trident
 
 NAME Trident TGUI9420 (generic)
-SERVER SVGA
 DRIVER trident
 
 NAME Trident TGUI9440 (generic)
-SERVER SVGA
 DRIVER trident
 
 NAME Trident TGUI9660 (generic)
 DRIVER trident
-SERVER SVGA
 
 NAME Trident TGUI9680 (generic)
 DRIVER trident
-SERVER SVGA
 
 NAME Trident TGUI9682 (generic)
-SERVER SVGA
 DRIVER trident
 
 NAME Trident TGUI9685 (generic)
-SERVER SVGA
 DRIVER trident
 
 NAME Trident Cyber 9320 (generic)
 DRIVER trident
-SERVER SVGA
 
 NAME Trident Cyber 9382 (generic)
-SERVER SVGA
 DRIVER trident
 
 NAME Trident Cyber 9385 (generic)
-SERVER SVGA
 DRIVER trident
 
 NAME Trident Cyber 9388 (generic)
-SERVER SVGA
 DRIVER trident
 
 NAME Trident Cyber 939a (generic)
-SERVER SVGA
 DRIVER trident
 
 NAME Trident Cyber 9397 (generic)
-SERVER SVGA
 DRIVER trident
 
 NAME Trident Cyber 9397 DVD (generic)
-SERVER SVGA
 DRIVER trident
 
 NAME Trident Cyber 9520 (generic)
-SERVER SVGA
 DRIVER trident
 
 NAME Trident Cyber 9325 (generic)
-SERVER SVGA
 DRIVER trident
 
 NAME Trident 3DImage975 (generic)
-SERVER SVGA
 DRIVER trident
 
 NAME Trident 3DImage975 AGP (generic)
-SERVER SVGA
 DRIVER trident
 
 NAME Trident 3DImage985 (generic)
-SERVER SVGA
 DRIVER trident
 
 NAME Trident Providia 9682 (generic)
-SERVER SVGA
 DRIVER trident
 
 NAME Trident Providia 9685 (generic)
-SERVER SVGA
 DRIVER trident
 
 NAME Trident Blade3D (generic)
-SERVER SVGA
 DRIVER trident
 
 NAME Trident CyberBlade (generic)
-SERVER SVGA
 DRIVER trident
 
 NAME Trident Cyber 9525 (generic)
-SERVER SVGA
 DRIVER trident
 LINE     # Option "accel" # Use this if acceleration works on your laptop
 
@@ -1699,7 +1559,6 @@ NAME SiS
 DRIVER sis
 
 NAME SiS SG86C205
-SERVER SVGA
 DRIVER sis
 BAD_FB_RESTORE
 LINE     # Option "no_accel" # Use this if acceleration is causing problems
@@ -1708,7 +1567,6 @@ LINE     # Option "fifo_conserv"
 LINE     # Option "fifo_aggresive" 
 
 NAME SiS SG86C215
-SERVER SVGA
 DRIVER sis
 BAD_FB_RESTORE
 LINE     # This is a cheap version of 86c205. I am not sure if acceleration works
@@ -1719,7 +1577,6 @@ LINE     # Option "fifo_conserv"
 LINE     # Option "fifo_aggresive" 
 
 NAME SiS SG86C225
-SERVER SVGA
 DRIVER sis
 BAD_FB_RESTORE
 LINE     # Option "no_accel" # Use this if acceleration is causing problems
@@ -1728,7 +1585,6 @@ LINE     # Option "fifo_conserv"
 LINE     # Option "fifo_aggresive" 
 
 NAME SiS 5597
-SERVER SVGA
 DRIVER sis
 BAD_FB_RESTORE
 LINE     # Option "no_accel" # Use this if acceleration is causing problems
@@ -1742,7 +1598,6 @@ LINE     # Option "ext_eng_queue" # Turbo-queue. This can cause drawing
 LINE                              # errors, but gives some accel
 
 NAME SiS 5598
-SERVER SVGA
 DRIVER sis
 BAD_FB_RESTORE
 LINE     # Option "no_accel" # Use this if acceleration is causing problems
@@ -1756,10 +1611,8 @@ LINE     # Option "ext_eng_queue" # Turbo-queue. This can cause drawing
 LINE                              # errors, but gives some accel
 
 NAME SiS 6326
-SERVER SVGA
 DRIVER sis
 DRI_GLX_EXPERIMENTAL
-UTAH_GLX_EXPERIMENTAL
 BAD_FB_RESTORE
 LINE     Option "sw_cursor"
 LINE     # Option "no_accel" # Use this if acceleration is causing problems
@@ -1777,34 +1630,26 @@ SEE SiS 6326
 LINE     Option "no_accel" # Use this if acceleration is causing problems
 
 NAME SiS Real256E
-SERVER SVGA
 DRIVER sis
 
 NAME SiS 530
-SERVER SVGA
 DRIVER sis
 
 NAME SiS 540
-SERVER SVGA
 DRIVER sis
 BAD_FB_RESTORE
 
 NAME SiS 620
-SERVER SVGA
 DRIVER sis
 
 NAME SiS 630
-SERVER SVGA
 DRIVER sis
 DRI_GLX_EXPERIMENTAL
-UTAH_GLX_EXPERIMENTAL
 
 NAME SiS 650
-SERVER SVGA
 DRIVER sis
 
 NAME SiS 300
-SERVER SVGA
 DRIVER sis
 BAD_FB_RESTORE
 
@@ -1855,57 +1700,45 @@ SEE SiS 6326
 # Cyrix
 
 NAME MediaGX
-SERVER SVGA
 DRIVER cyrix
 
 # Alliance ProMotion
 
 NAME Alliance ProMotion 6422
-SERVER SVGA
 DRIVER vga
 
 # Number 9 I128
 
 NAME Number Nine Imagine I-128 (2-8MB)
-SERVER I128
 DRIVER i128
 
 NAME Number Nine Imagine I-128 Series 2 (2-4MB)
-SERVER I128
 DRIVER i128
 
 NAME Revolution 3D (T2R)
-SERVER I128
 DRIVER i128
 
 NAME Number Nine Revolution 3D AGP (4-8MB SGRAM)
-SERVER I128
 DRIVER i128
 
 NAME Number Nine Imagine-128-T2R
-SERVER I128
 DRIVER i128
 
 # Matrox
 
 NAME Matrox Millennium
-SERVER SVGA
 DRIVER mga
 BAD_FB_RESTORE
 LINE Option	"sw_cursor"
 
 NAME Matrox Millennium II
-SERVER SVGA
 DRIVER mga
 BAD_FB_RESTORE
 
 NAME Matrox Millennium G200
-SERVER SVGA
 DRIVER mga
 DRI_GLX
 # DRI_GLX prefer 16bit with AGP only
-UTAH_GLX
-# Utah-GLX doesn't work in 8bpp
 BAD_FB_RESTORE
 
 NAME Matrox Millennium G200 DualHead
@@ -1943,40 +1776,29 @@ NAME Matrox Mystique
 SEE Matrox Millennium G200
 
 NAME Matrox Productiva G100
-SERVER SVGA
 DRIVER mga
 BAD_FB_RESTORE
 
 # NVIDIA
 
 NAME Diamond Edge 3D
-SERVER SVGA
 DRIVER vga
 
 NAME RIVA128
-SERVER SVGA
 DRIVER nv
-UTAH_GLX_EXPERIMENTAL
-# should be UTAH_GLX, but it's not working correctly enough
 BAD_FB_RESTORE
 
 NAME RIVA TNT
-SERVER SVGA
 DRIVER nv
-UTAH_GLX_EXPERIMENTAL
 BAD_FB_RESTORE
 
 NAME RIVA TNT2
-SERVER SVGA
 DRIVER nv
 DRIVER2 nvidia
-UTAH_GLX_EXPERIMENTAL
 
 NAME NVIDIA GeForce
-SERVER SVGA
 DRIVER nv
 DRIVER2 nvidia
-UTAH_GLX_EXPERIMENTAL
 
 NAME RIVA Ultra TNT2 
 SEE RIVA TNT2
@@ -2066,7 +1888,6 @@ NAME MELCO WGA-TS
 SEE RIVA TNT2 
 
 NAME NVIDIA GeForce (fbdev)
-SERVER FBDev
 DRIVER fbdev
 DRIVER2 nvidia
 
@@ -2095,13 +1916,11 @@ SEE NVIDIA GeForce
 # IMS
 
 NAME IMS TwinTurbo (generic)
-SERVER SVGA
 DRIVER imstt
 
 # 3DLabs
 
 NAME 3Dlabs Permedia2 (generic)
-SERVER 3DLabs
 DRIVER glint
 LINE #Option "no_accel"
 
@@ -2109,75 +1928,62 @@ NAME 3Dlabs Permedia4 (generic)
 DRIVER glint
 
 NAME Elsa GLoria-L/MX
-SERVER 3DLabs
 DRIVER glint
 LINE #Option "no_accel"
 
 NAME Elsa GLoria-L
-SERVER 3DLabs
 DRIVER glint
 
 NAME Elsa GLoria-XL
 LINE Option     "SWcursor"
-SERVER 3DLabs
 DRIVER glint
 
 NAME Elsa GLoria-XXL
 LINE Option     "SWcursor"
-SERVER 3DLabs
 DRIVER glint
 
 NAME Diamond Fire GL 3000
 LINE Option     "SWcursor"
-SERVER 3DLabs
 DRIVER glint
 LINE Option "firegl_3000"
 
 NAME Elsa GLoria-S
-SERVER 3DLabs
 DRIVER glint
 LINE #Option "no_accel"
 LINE #VideoRam 8192
 LINE Option     "SWcursor"
 
 NAME Diamond Fire GL 1000
-SERVER 3DLabs
 DRIVER glint
 LINE #Option "no_accel"
 LINE #VideoRam 8192
 LINE Option     "SWcursor"
 
 NAME Elsa GLoria Synergy
-SERVER 3DLabs
 DRIVER glint
 LINE #Option "no_accel"
 LINE Option     "SWcursor"
 
 NAME Elsa Winner 2000/Office
-SERVER 3DLabs
 DRIVER glint
 LINE #Option "no_accel"
 LINE Option     "SWcursor"
 
 NAME Diamond Fire GL 1000 PRO
-SERVER 3DLabs
 DRIVER glint
 LINE #Option "no_accel"
 LINE Option     "SWcursor"
 
 NAME AccelStar Permedia II AGP
-SERVER 3DLabs
 DRIVER glint
 LINE #Option "no_accel"
 LINE Option     "SWcursor"
 
 NAME Leadtek WinFast 2300
-SERVER 3DLabs
 DRIVER glint
 LINE Option     "SWcursor"
 
 NAME 3Dlabs Oxygen GMX
-SERVER 3DLabs
 DRIVER glint
 LINE #Option "no_accel"
 LINE Option     "SWcursor"
@@ -2185,11 +1991,9 @@ LINE Option     "SWcursor"
 # Alliance Semiconductor
 
 NAME Diamond Stealth Video 2500
-SERVER SVGA
 DRIVER apm
 
 NAME AT3D
-SERVER SVGA
 DRIVER apm
 LINE #Option "no_accel"
 
@@ -2202,7 +2006,6 @@ SEE AT3D
 # NeoMagic
 
 NAME NeoMagic (laptop/notebook)
-SERVER SVGA
 DRIVER neomagic
 LINE #    Chipset    "NM2160"
 LINE #    IOBase     0xfea00000
@@ -2236,7 +2039,6 @@ LINE Option "sw_cursor"
 # Epson SPC8110
 
 NAME Epson SPC8110 (CardPC)
-SERVER SVGA
 DRIVER vga
 LINE #    Chipset    "spc8110"
 LINE #    MemBase    0x03e00000
@@ -2250,12 +2052,10 @@ LINE #    Option     "fifo_conservative"
 # Rendition
 
 NAME Rendition Verite 1000
-SERVER SVGA
 DRIVER rendition
 LINE # Option "sw_cursor"
 
 NAME Rendition Verite 2x00
-SERVER SVGA
 DRIVER rendition
 LINE # Option "sw_cursor"
 
@@ -2279,14 +2079,11 @@ SEE Rendition Verite 2x00
 # Epson
 
 NAME Epson CardPC (onboard)
-SERVER SVGA
 
 # Intel
 
 NAME Intel 740 (generic)
-SERVER SVGA
 DRIVER i740
-BAD_FB_RESTORE_XF3
 LINE     #Option     "no_accel"
 LINE     #Option     "sw_cursor"
 LINE     #Option     "hw_cursor"
@@ -2402,21 +2199,17 @@ NAME Winfast S900 i740 AGP 8MB
 SEE Intel 740 (generic)
 
 NAME Intel 810
-SERVER SVGA
 DRIVER i810
-# UTAH_GLX  (not working)
 DRI_GLX
 LINE Option "XaaNoPixmapCache"
 
 NAME Intel 815
-SERVER SVGA
 DRIVER i810
 DRI_GLX
 # DRI_GLX 16bits
 LINE Option "XaaNoPixmapCache"
 
 NAME Intel 830
-SERVER SVGA
 DRIVER i810
 DRI_GLX
 
@@ -2433,18 +2226,15 @@ DRIVER i810
 DRI_GLX
 
 NAME Voodoo Banshee (generic)
-SERVER SVGA
 DRIVER tdfx
 DRI_GLX
 # DRI_GLX 16bit only
 
 NAME Voodoo Rush (generic)
-SERVER SVGA
 DRIVER tdfx
 LINE Option	"nodri"
 
 NAME Voodoo3 (generic)
-SERVER SVGA
 DRIVER tdfx
 DRI_GLX
 
@@ -2467,167 +2257,126 @@ SEE Voodoo Banshee (generic)
 # Silicon Motion, Inc.
 
 NAME Silicon Motion Lynx (generic)
-SERVER SVGA
 DRIVER siliconmotion
 
 NAME Silicon Motion LynxEM
-SERVER SVGA
 DRIVER siliconmotion
 
 NAME Silicon Motion Lynx (generic)
-SERVER SVGA
 DRIVER siliconmotion
 
 NAME Silicon Motion LynxE (generic)
-SERVER SVGA
 DRIVER siliconmotion
 
 NAME Silicon Motion Lynx3D (generic)
-SERVER SVGA
 DRIVER siliconmotion
 
 NAME Silicon Motion LynxEM (generic)
-SERVER SVGA
 DRIVER siliconmotion
 
 NAME Silicon Motion LynxEM+ (generic)
-SERVER SVGA
 DRIVER siliconmotion
 
 NAME Silicon Motion Lynx3DM (generic)
-SERVER SVGA
 DRIVER siliconmotion
 
 
 # Sun Cards / Servers (added by Red Hat Software 02/1999)
 
 NAME Sun Monochrome (bwtwo)
-SERVER SunMono
 DRIVER sunbw2
  
 NAME Sun Color3 (cgthree)
-SERVER Sun
 DRIVER suncg3
  
 NAME Sun CG8/RasterOps
-SERVER Sun
  
 NAME Sun GS (cgtwelve)
-SERVER Sun24
  
 NAME Sun Graphics Tower
-SERVER Sun24
 
 NAME Quantum 3D MGXplus with 4M VRAM
-SERVER Sun24
  
 NAME Quantum 3D MGXplus
-SERVER Sun24
  
 NAME Sun Unknown GX
-SERVER Sun
 DRIVER suncg6
  
 NAME Sun Double width GX
-SERVER Sun
 DRIVER suncg6
  
 NAME Sun Single width GX
-SERVER Sun
 DRIVER suncg6
 
 NAME Sun Turbo GX with 1M VSIMM
-SERVER Sun
 DRIVER suncg6
  
 NAME Sun Turbo GX Plus
-SERVER Sun
 DRIVER suncg6
  
 NAME Sun Turbo GX
-SERVER Sun
 DRIVER suncg6
  
 NAME Sun SX with 4M VSIMM
-SERVER Sun24
 DRIVER suncg14
  
 NAME Sun SX with 8M VSIMM
-SERVER Sun24
 DRIVER suncg14
  
 NAME Sun SX
-SERVER Sun24
 DRIVER suncg14
 
 NAME Sun Turbo ZX
-SERVER Sun24
 DRIVER sunleo
  
 NAME Sun ZX or Turbo ZX
-SERVER Sun24
 DRIVER sunleo
 
 NAME Sun TCX (8bit)
-SERVER Sun
 DRIVER suntcx
  
 NAME Sun TCX (S24)
-SERVER Sun24
 DRIVER suntcx
  
 NAME Sun Elite3D-M6 Horizontal
-SERVER Sun24
 DRIVER sunffb
  
 NAME Sun Elite3D
-SERVER Sun24
 DRIVER sunffb
 
 NAME Sun FFB 67MHz Creator
-SERVER Sun24
 DRIVER sunffb
  
 NAME Sun FFB 67MHz Creator 3D
-SERVER Sun24
 DRIVER sunffb
  
 NAME Sun FFB 75MHz Creator 3D
-SERVER Sun24
 DRIVER sunffb
  
 NAME Sun FFB2 Vertical Creator
-SERVER Sun24
 DRIVER sunffb
  
 NAME Sun FFB2 Vertical Creator 3D
-SERVER Sun24
 DRIVER sunffb
  
 NAME Sun FFB2Vertical Creator
-SERVER Sun24
 DRIVER sunffb
 
 NAME Sun FFB2Vertical Creator 3D
-SERVER Sun24
 DRIVER sunffb
  
 NAME Sun FFB2 Horizontal Creator
-SERVER Sun24
 DRIVER sunffb
  
 NAME Sun FFB2 Horizontal Creator 3D
-SERVER Sun24
 DRIVER sunffb
  
 NAME Sun FFB
-SERVER Sun24
 DRIVER sunffb
 
 # VMware virtual video cards
 
 NAME VMware virtual video card
-SERVER SVGA
 DRIVER vmware
 
 # Misc

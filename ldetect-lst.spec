@@ -64,6 +64,8 @@ fi
 %{_bindir}/*
 
 %changelog
+- Cards+: drop XFree3 related data (Pixel)
+
 * Mon Apr 26 2004 Gwenole Beauchesne <gbeauchesne@mandrakesoft.com> 0.1.9-15mdk
 - add Tatung C7BZR monitor specs
 - revert GeForce FX 5700 change as XFree86 4.3 "nv" driver doesn't get it right
