@@ -823,6 +823,7 @@
 0x066b	0x2206	"pegasus"	"Linksys Inc.|USB Ethernet [pegasus]"
 0x066b	0x2211	"at76c503-i3861"	"Linksys Inc.|WUSB11 Wireless Ethernet"
 0x066b	0x2212	"prism2_usb"	""
+0x066b	0x2213	"prism2_usb"	"Linksys|USB 802.11 adapter"
 0x066b	0x400b	"pegasus"	"Linksys Inc.|USB Network Adapter"
 0x066f	0x4200	"unknown"	"SigmaTel, Inc.|STIr4200 IrDA Bridge"
 0x0672	0x1041	"unknown"	"Labtec Inc.|LCS1040 Speaker System"
