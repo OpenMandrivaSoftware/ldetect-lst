@@ -1295,6 +1295,7 @@
 0x2304	0x0210	"usbvision"	"Pinnacle Systems, Inc.|Studio PCTV USB (PAL) with FM radio"
 0x2304	0x0212	"usbvision"	"Pinnacle Systems, Inc.|Studio PCTV USB (NTSC)"
 0x2304	0x0300	"unknown"	"Pinnacle Systems, Inc. [hex]|Pinnacle Studio Linx Video input cable (NTSC)"
+0x2304	0x051a	"unknown"	"Pinnacle Systems, Inc.|Pinnacle Bungee (NTSC)"
 0x2318	0x0011	"unknown"	"Shining Technologies Inc. [hex]|CitiDISK Jr. IDE Enclosure"
 0x2375	0x0001	"unknown"	"Digit@lway, Inc.|Digital Audio Player"
 0x3125	0x0001	"unknown"	"Eagletron|TrackerPod Camera Stand"
