@@ -3541,13 +3541,12 @@ CHIPSET ffb
 SERVER Sun24
 DRIVER sunffb
 
-# Misc
-
 # VMware virtual video cards
 
 NAME VMware virtual video card
 SERVER SVGA
 DRIVER vmware
-NOCLOCKPROBE
+
+# Misc
 
 END
