@@ -2439,7 +2439,7 @@
 0x10de	0x006c	"unknown"	"nVidia Corp.|nForce2 External PCI Bridge"
 0x10de	0x006d	"unknown"	"nVidia Corp.|nForce2 PCI Bridge"
 0x10de	0x006e	"ohci1394"	"nVidia Corp.|nForce2 Firewire Controller"
-0x10de	0x0084	"unknown"	"nVidia Corporation|MCP2A SMBus"
+0x10de	0x0084	"i2c-nforce2"	"nVidia Corporation|MCP2A SMBus"
 0x10de	0x0085	"amd74xx"	"nVidia Corporation|MCP2A IDE"
 0x10de	0x0086	"forcedeth"	"nVidia Corp.|Ethernet controller"
 0x10de	0x0087	"unknown"	"nVidia Corporation|MCP2A USB Controller"
