@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.61
+%define version 0.1.62
 %define release 1mdk
 
 Name: %{name}
@@ -64,6 +64,10 @@ fi
 %{_bindir}/*
 
 %changelog
+* Fri Feb 11 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.62-1mdk
+- sync with kernel-2.6.10-3mdk (one new ULI SATA controller & two Intel LPC)
+- add a couple of Radeon graphic cards
+
 * Thu Feb 10 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.61-1mdk
 - add a new us robotics gibabit card (arnaud)
 - add a new EMC monitor (Funda Wang)
