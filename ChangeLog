@@ -1,4 +1,20 @@
-2005-02-22 14:50  Thierry Vignaud <tvignaud@mandrakesoft.com>
+2005-02-24 13:50  Thierry Vignaud <tvignaud at mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.67-1mdk
+
+2005-02-24 12:27  Thierry Vignaud <tvignaud at mandrakesoft.com>
+
+	* lst/pcitable: add support for Pacific Digital SATA QStor
+
+2005-02-24 12:27  Thierry Vignaud <tvignaud at mandrakesoft.com>
+
+	* lst/pcitable: add support for VT6410
+
+2005-02-23 00:11  Stew Benedict <sbenedict at mandrakesoft.com>
+
+	* lst/Cards+: More nvxbox support.
+
+2005-02-22 14:50  Thierry Vignaud <tvignaud at mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.66-1mdk
 
