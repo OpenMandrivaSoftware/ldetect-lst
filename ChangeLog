@@ -1,3 +1,29 @@
+2004-02-02 16:44  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.9-1mdk
+
+2004-02-02 16:07  Nicolas Planel <nplanel@mandrakesoft.com>
+
+	* lst/pcitable: remove bad agp merge
+
+2004-02-02 16:03  Nicolas Planel <nplanel@mandrakesoft.com>
+
+	* lst/pcitable: merge kernel 2.6.2-0.rc3.1mdk pcimap
+
+2004-02-02 15:06  Nicolas Planel <nplanel@mandrakesoft.com>
+
+	* lst/pcitable: add prism54 wireless cards support
+
+2004-02-02 12:47  Nicolas Planel <nplanel@mandrakesoft.com>
+
+	* lst/pcitable: add aureal sound cards support
+
+2004-01-29 12:02  Pixel <pixel@mandrakesoft.com>
+
+	* ldetect-lst.spec: - support more sata controller sata_svw
+	  ata_piix sata_promise (nplanel) - philippe.harrand tells his
+	  Davicom card works with dmfe module, not tulip (gc)
+
 2004-01-28 19:08  Nicolas Planel <nplanel@mandrakesoft.com>
 
 	* lst/pcitable: support more sata controller sata_svw ata_piix
