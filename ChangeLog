@@ -1,3 +1,67 @@
+2004-11-19 22:52  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.28-1mdk
+
+2004-11-19 22:51  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: fill in descriptions for ALI SATA controllers
+
+2004-11-19 22:50  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: fix duplicated entry
+
+2004-11-19 21:37  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.27-1mdk
+
+2004-11-19 21:00  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: add new ULI SATA controller from bk-sata
+
+2004-11-19 20:55  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: fix VIA VT6420 description (according to both
+	  drivers/scsi/sata_via.c and pci.ids)
+
+2004-11-19 20:54  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: add new VIA SATA controller from bk-sata
+
+2004-11-19 19:37  Stefan Siegel <siegel@linux-mandrake.com>
+
+	* lst/usbtable: Added 0x046d 0x08f5 Logitech Inc.|QuickCam
+	  Communicate
+
+2004-11-18 12:19  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: overwrite incomplete descriptions from pci.ids
+
+2004-11-18 12:14  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: add a new ATI gfx card from pciids
+
+2004-11-18 12:07  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: sync with pci.ids from kernel-2.6.10-rc2-mm1
+
+2004-11-18 12:07  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: update/fill in ATI sound-cards description from
+	  ALSA sound driver
+
+2004-11-18 12:06  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: sync with ALSA-1.0.7 as in kernel-2.6.10-rc2-mm1
+
+2004-11-17 16:00  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* Makefile: (changelog) use english dates in ChangeLog
+
+2004-11-17 15:58  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* convert/: README.pcitable, merge2pcitable.pl: add support for new
+	  rh's pcitable format from FC3's hwdata
+
 2004-11-17 15:42  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.26-1mdk
