@@ -6,19 +6,18 @@ require './merge2pcitable.pl';
 
 $cards = Xconfig::card::readCardsDB("../lst/Cards+");
 
-@cards = map {
-    my $drivers = read_pcitable("../lst/$_");
-    map { /^Card:(.*)/ } grep { /^Card/ } map { $_->[0] } values %$drivers;
-} qw(pcitable usbtable);
-
-foreach (@cards) {
-    $nb++;
-    if (!$cards->{$_}) {
-	warn "unknown card: $_\n";
-	$bad++;
-    } elsif (!$cards->{$_}{Driver}) {
-	warn "no Driver: $_\n";
-	$bad++;
+foreach my $file (qw(pcitable usbtable)) {
+    my $drivers = read_pcitable("../lst/$file");
+    foreach (values %$drivers) {
+	my ($driver, $name, $line) = @$_;
+	my ($card) = $driver =~ /^Card:(.*)/ or next;
+	if (!$cards->{$card}) {
+	    warn "$file:$line: unknown card $name\n";
+	    $bad++;
+	} elsif (!$cards->{$card}{Driver}) {
+	    warn "$file:$line: no Driver for card $name\n";
+	    $bad++;
+	}
     }
 }
 
