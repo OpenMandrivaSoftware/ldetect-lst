@@ -2773,7 +2773,7 @@
 0x14e4	0x4212	"unknown"	"Broadcom Corporation|BCM V.90 56k Modem"
 0x14e4	0x5820	"bcm5820"	"Broadcom Corporation|BCM5820 Crypto Accelerator"
 0x14e4	0x5821	"bcm5820"	"Broadcom Corporation|BCM5821 Crypto Accelerator"
-0x14eb	0x0020	"unknown"	"Seiko Epson Corporation|BEMx.x PCI to S5U13xxxB00B Bridge Adapter"
+0x14eb	0x0020	"unknown"	"Epson Corporation|BEMx.x PCI to S5U13xxxB00B Bridge Adapter"
 0x14f1	0x0854	"unknown"	"Conexant Systems, Inc.|RLVDL56DPF K56 FLEX, V.90, HCF controller"
 0x14f1	0x1002	"unknown"	"Conexant Systems, Inc.|3251 HCF 56k Modem"
 0x14f1	0x1003	"unknown"	"Conexant Systems, Inc.|HCF 56k Modem"
