@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.48
+%define version 0.1.49
 %define release 1mdk
 
 Name: %{name}
@@ -64,6 +64,10 @@ fi
 %{_bindir}/*
 
 %changelog
+* Thu Jan 13 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.49-1mdk
+- add a new Sony monitor (Neoclust)
+- switch a realtek driver (#12982)
+
 * Tue Jan 11 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.48-1mdk
 - add another zaptel device (Stefan van der Eijk)
 - switch from ata_piix to ahci
