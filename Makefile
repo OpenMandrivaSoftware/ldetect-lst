@@ -8,8 +8,9 @@ clean:
 	make -C lst clean
 
 install: build
-	install -d $(dir)
+	install -d $(bindir) $(dir)	
 	make -C lst install
+	install convert/merge2pcitable.pl $(bindir)
 
 rpm: clean $(RPM)
 	(echo "# !! DON'T MODIFY HERE, MODIFY IN THE CVS !!" ; \

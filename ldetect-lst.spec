@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.2
-%define release 1mdk
+%define release 2mdk
 
 Name: %{name}
 Version: %{version}
@@ -13,9 +13,17 @@ BuildRoot: %{_tmppath}/%{name}-buildroot
 Copyright: GPL
 Prefix: %{_prefix}
 
+%package devel
+Summary: Devel for ldetect-lst
+Group: Development/Perl
+Requires: ldetect-lst = %{version}
+
 %description
 The hardware device lists provided by this package are used as lookup 
 table to get hardware autodetection
+
+%description devel
+see ldetect-lst
 
 %prep
 %setup -n %{name}
@@ -34,7 +42,15 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(-,root,root)
 %{_datadir}/%{name}
 
+%files devel
+%defattr(-,root,root)
+%doc convert/README.pcitable
+%{_bindir}/*
+
 %changelog
+* Thu Dec 21 2000 Pixel <pixel@mandrakesoft.com> 0.1.2-2mdk
+- add ldetect-lst-devel
+
 * Sat Dec 16 2000 Pixel <pixel@mandrakesoft.com> 0.1.2-1mdk
 - add usbtable
 
