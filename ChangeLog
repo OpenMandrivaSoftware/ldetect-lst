@@ -2098,12 +2098,12 @@
 	* lst/usbtable: - CDCEther (USB-over-Ethernet driver) works very
 	well for Motorola   USB cable modems
 
-2003-11-16 22:11  Fançois Pons <fpons@mandrakesoft.com>
+2003-11-16 22:11  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* lst/usbtable: added missing 0x1110 0x9024 for adiusbadsl entry
 	(according to baud123 on eagle forum).
 
-2003-11-15 20:14  Fançois Pons <fpons@mandrakesoft.com>
+2003-11-15 20:14  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* ldetect-lst.spec, lst/usbtable: new entry for adiusbadsl
 	compatible modem (aka Comtrend ?)
@@ -2180,17 +2180,17 @@
 	(fglrx) for card supporting commercial ATI driver (fglrx), update
 	pcitable
 
-2003-09-22 10:09  Fançois Pons <fpons@mandrakesoft.com>
+2003-09-22 10:09  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.8-9mdk
 
-2003-09-22 10:06  Fançois Pons <fpons@mandrakesoft.com>
+2003-09-22 10:06  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* lst/Cards+: added ATI Radeon (gpl) to avoid proprietary driver
 	fglrx which does not work with mobile chipset (maybe), or at least
 	340M.
 
-2003-09-22 10:05  Fançois Pons <fpons@mandrakesoft.com>
+2003-09-22 10:05  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* lst/pcitable: mobile driver may not be supported by fglrx,
 	created ATI Radeon (gpl) for that.
@@ -2265,17 +2265,17 @@
 
 	* ldetect-lst.spec: 0.1.8-4mdk
 
-2003-09-10 13:12  Fançois Pons <fpons@mandrakesoft.com>
+2003-09-10 13:12  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* lst/Cards+: added card "ATI Radeon (fbdev)" for Radeon not
 	supported by XFree86 but supported by the fglrx proprietary driver
 	from ATI.
 
-2003-09-10 13:10  Fançois Pons <fpons@mandrakesoft.com>
+2003-09-10 13:10  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* ldetect-lst.spec: added DRIVER2 fglrx support.
 
-2003-09-10 13:10  Fançois Pons <fpons@mandrakesoft.com>
+2003-09-10 13:10  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* lst/Cards+: added Radeon card support with fglrx (as DRIVER2).
 
@@ -2315,11 +2315,11 @@
 	* lst/MonitorsDB: add 2 new monitors (#4989 and one from Ivan
 	Kerekes)
 
-2003-09-04 08:26  Fançois Pons <fpons@mandrakesoft.com>
+2003-09-04 08:26  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* ldetect-lst.spec: incomming 0.1.8-3mdk
 
-2003-09-04 08:25  Fançois Pons <fpons@mandrakesoft.com>
+2003-09-04 08:25  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* lst/Cards+: make Mach64 now use Utah GLX in experimental mode
 	(who still want to use XFree 3.3.6 against XFree 4.3 ;-))
@@ -2483,11 +2483,11 @@
 
 	* lst/pcitable: better description for audiopci creative labs
 
-2003-07-25 12:38  Fançois Pons <fpons@mandrakesoft.com>
+2003-07-25 12:38  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* ldetect-lst.spec: fix bug 3029.
 
-2003-07-25 12:37  Fançois Pons <fpons@mandrakesoft.com>
+2003-07-25 12:37  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* lst/Cards+: ATI Radeon 8500 now add support for DRI.
 
@@ -2659,7 +2659,7 @@
 	* lst/pcitable: Move an intel sound card from i810_rng to
 	i810_audio because rng do not work very well with this sound card.
 
-2003-03-20 16:49  Fançois Pons <fpons@mandrakesoft.com>
+2003-03-20 16:49  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* lst/Cards+: Added card SiS 650 for planel sucking.
 
@@ -2722,7 +2722,7 @@
 	* lst/pcitable: Modifie the 3c920 Tornado to use the module 3c90x
 	(added in the last kernel)
 
-2003-02-28 13:27  Fançois Pons <fpons@mandrakesoft.com>
+2003-02-28 13:27  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* ldetect-lst.spec, lst/pcitable: added support for ltmodem
 
@@ -3100,7 +3100,7 @@
 
 	* lst/pcitable: Add nForce2 ID
 
-2002-09-17 15:40  Fançois Pons <fpons@mandrakesoft.com>
+2002-09-17 15:40  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* ldetect-lst.spec, lst/pcitable: added missing G450 DualHead.
 
@@ -3152,12 +3152,12 @@
 	* lst/pcitable: Fixing 0x1028/0x000a name s/Si/Di/ (reported by
 	Dell)
 
-2002-09-05 16:10  Fançois Pons <fpons@mandrakesoft.com>
+2002-09-05 16:10  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* ldetect-lst.spec, lst/Cards+, lst/pcitable: fix for GeForce NV25
 	now using fbdev or nvidia instead of nv.
 
-2002-09-05 14:32  Fançois Pons <fpons@mandrakesoft.com>
+2002-09-05 14:32  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* lst/: Cards+, pcitable: GeForce4 0x10de/0x0250 only works with
 	fbdev
@@ -3715,7 +3715,7 @@
 
 	* lst/pcitable: restore via8233 sound support
 
-2002-05-24 09:36  Fançois Pons <fpons@mandrakesoft.com>
+2002-05-24 09:36  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* lst/pcitable: added 0x8086 0x1039
 
@@ -3728,16 +3728,16 @@
 
 	* AUTHORS: [no log message]
 
-2002-04-25 17:38  Fançois Pons <fpons@mandrakesoft.com>
+2002-04-25 17:38  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* ldetect-lst.spec: HP sync.
 
-2002-04-25 17:37  Fançois Pons <fpons@mandrakesoft.com>
+2002-04-25 17:37  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* lst/usbtable: added HP wheel mouse and keyboard (need
 	consolidation).
 
-2002-04-25 17:36  Fançois Pons <fpons@mandrakesoft.com>
+2002-04-25 17:36  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* lst/pcitable: sync with HP stuff.
 
@@ -3750,20 +3750,20 @@
 
 	* ldetect-lst.spec: Provides: hwdata for newer kudzu
 
-2002-03-14 17:44  Fançois Pons <fpons@mandrakesoft.com>
+2002-03-14 17:44  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* lst/pcitable: fixes ? in description (by titi)
 
-2002-03-14 17:37  Fançois Pons <fpons@mandrakesoft.com>
+2002-03-14 17:37  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* ldetect-lst.spec, convert/merge2pcitable.pl: fixes for new
 	release.
 
-2002-03-14 17:32  Fançois Pons <fpons@mandrakesoft.com>
+2002-03-14 17:32  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* lst/: pcitable, usbtable: fix doubles.
 
-2002-03-14 17:01  Fançois Pons <fpons@mandrakesoft.com>
+2002-03-14 17:01  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* lst/pcitable: fix titi sucking
 
@@ -3771,7 +3771,7 @@
 
 	* lst/pcitable: Fixing wrong module for xircom pcmcia combo card
 
-2002-03-14 16:57  Fançois Pons <fpons@mandrakesoft.com>
+2002-03-14 16:57  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* convert/merge2pcitable.pl: added check for verifying if a missing
 	quote has been put on module or description.
@@ -3920,7 +3920,7 @@
 
 	* lst/pcitable: three other O2 Micro CardBus controllers
 
-2002-02-23 13:34  Fançois Pons <fpons@mandrakesoft.com>
+2002-02-23 13:34  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* lst/Cards+: added SiS 640 in card supported by XFree 4.
 
@@ -3948,11 +3948,11 @@
 
 	* lst/ScannerDB: fix Bell and Howell entries
 
-2002-02-18 14:09  Fançois Pons <fpons@mandrakesoft.com>
+2002-02-18 14:09  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* lst/Cards+: KYRO uses fbdev instead of vesa.
 
-2002-02-18 09:04  Fançois Pons <fpons@mandrakesoft.com>
+2002-02-18 09:04  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* lst/Cards+: added GD5480 as working under XF 4.2 (Juan)
 
@@ -4005,7 +4005,7 @@
 	* lst/pcitable: s/cmpci/snd-card-cmipci/ since cmpci seems less
 	ususable than ALSA.
 
-2002-02-11 16:41  Fançois Pons <fpons@mandrakesoft.com>
+2002-02-11 16:41  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* lst/Cards+, lst/pcitable, ldetect-lst.spec: GeForce Integrated
 	really prefer fbdev instead of nv (else freeze).
@@ -4082,99 +4082,99 @@
 
 	* ldetect-lst.spec, lst/pcitable: s/ncr53c8xx/sym53c8xx/
 
-2002-01-22 15:40  Fançois Pons <fpons@mandrakesoft.com>
+2002-01-22 15:40  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.2-35mdk
 
-2002-01-22 15:37  Fançois Pons <fpons@mandrakesoft.com>
+2002-01-22 15:37  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* lst/usbtable: fixed some typos (please do not use space for
 	separator, use tab).
 
-2002-01-22 15:35  Fançois Pons <fpons@mandrakesoft.com>
+2002-01-22 15:35  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* lst/pcitable: fixed typo at line 664.
 
-2002-01-22 15:32  Fançois Pons <fpons@mandrakesoft.com>
+2002-01-22 15:32  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* lst/pcitable: small fixes for i830 agpgart reference (does we
 	need that ?)
 
-2002-01-22 15:29  Fançois Pons <fpons@mandrakesoft.com>
+2002-01-22 15:29  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* lst/Cards+: made trident driver available for card that (may?)
 	support it, but keep UNSUPPORTED flag.
 
-2002-01-22 15:25  Fançois Pons <fpons@mandrakesoft.com>
+2002-01-22 15:25  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* lst/Cards+: Rendition Verite 1000, 2x00 are supported by 4.2.0.
 
-2002-01-22 15:23  Fançois Pons <fpons@mandrakesoft.com>
+2002-01-22 15:23  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* lst/pcitable: new entry for Card:NeoMagic MagicMedia
 	(laptop/notebook) only supported by 4.2.0 (NM2230 and later).
 
-2002-01-22 15:22  Fançois Pons <fpons@mandrakesoft.com>
+2002-01-22 15:22  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* lst/Cards+: Make some NeoMagic card running only 4.2.0.
 
-2002-01-22 15:16  Fançois Pons <fpons@mandrakesoft.com>
+2002-01-22 15:16  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* lst/Cards+: cyrix driver stated as running (feedback wanted
 	though)
 
-2002-01-22 13:57  Fançois Pons <fpons@mandrakesoft.com>
+2002-01-22 13:57  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* lst/Cards+: Chips and Technologies card supported by XFree86
 	4.2.0.
 
-2002-01-22 13:54  Fançois Pons <fpons@mandrakesoft.com>
+2002-01-22 13:54  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* lst/Cards+: fixed an old ATI Mach8 card reference not marked as
 	UNSUPPORTED (and should be).
 
-2002-01-22 13:52  Fançois Pons <fpons@mandrakesoft.com>
+2002-01-22 13:52  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* lst/Cards+: added Ark Logic card support by XFree86 4.2.0 using
 	ark driver.
 
-2002-01-22 13:50  Fançois Pons <fpons@mandrakesoft.com>
+2002-01-22 13:50  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* lst/Cards+: added Card:AT25 only for XFree86 4.2.0.
 
-2002-01-22 13:49  Fançois Pons <fpons@mandrakesoft.com>
+2002-01-22 13:49  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* lst/pcitable: added Alliance AT25 support.
 
-2002-01-22 13:42  Fançois Pons <fpons@mandrakesoft.com>
+2002-01-22 13:42  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* lst/Cards+: SiS 300 is said to have problems with XFree 4.2.0.
 
-2002-01-22 13:39  Fançois Pons <fpons@mandrakesoft.com>
+2002-01-22 13:39  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* lst/pcitable: Using new Card:3Dlabs Permedia4 (generic) for card
 	not supported by XF3.3.6.
 
-2002-01-22 13:39  Fançois Pons <fpons@mandrakesoft.com>
+2002-01-22 13:39  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* lst/Cards+: Create a 3DLabs Permedia4 (generic) card (not
 	supported in 3.3.6)
 
-2002-01-22 13:28  Fançois Pons <fpons@mandrakesoft.com>
+2002-01-22 13:28  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* lst/Cards+: marked all cards using 964, 968, Trio32, Trio64,
 	Trio64V+, Trio64UV+, Aurora64V+, Trio64V2, Plato/PX as running with
 	XFree 4.2.0.
 
-2002-01-21 18:37  Fançois Pons <fpons@mandrakesoft.com>
+2002-01-21 18:37  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* lst/Cards+: added Card:Intel 830
 
-2002-01-21 18:34  Fançois Pons <fpons@mandrakesoft.com>
+2002-01-21 18:34  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* lst/pcitable: Intel 830 support (with Card)
 
-2002-01-21 18:24  Fançois Pons <fpons@mandrakesoft.com>
+2002-01-21 18:24  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* lst/Cards+: changed all S3 card to use DRIVER s3 but keep
 	UNSUPPORTED flag, waiting for detailed documentation from XFree to
@@ -4431,7 +4431,7 @@
 
 	* ldetect-lst.spec: oups
 
-2001-09-21 14:36  Fançois Pons <fpons@mandrakesoft.com>
+2001-09-21 14:36  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* ldetect-lst.spec, lst/pcitable: added GeForce3 missing pci id.
 
@@ -4445,7 +4445,7 @@
 	* convert/merge2pcitable.pl: remove (yet again) tulip for some DEC
 	cards, and ensure the bug in redhat pcitable won't both us again
 
-2001-09-19 15:19  Fançois Pons <fpons@mandrakesoft.com>
+2001-09-19 15:19  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* lst/Cards+: Rage 128 card are not supported by XF3.
 
@@ -4474,7 +4474,7 @@
 
 	* lst/pcitable: added matrox G550.
 
-2001-09-10 16:00  Fançois Pons <fpons@mandrakesoft.com>
+2001-09-10 16:00  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* lst/pcitable: fixed suckings.
 
@@ -4539,7 +4539,7 @@
 
 	* lst/usbtable: add some Logitech mice
 
-2001-08-29 08:46  Fançois Pons <fpons@mandrakesoft.com>
+2001-08-29 08:46  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* ldetect-lst.spec, lst/Cards+: Matrox Millenium card are supported
 	by XF4.
@@ -4671,23 +4671,23 @@
 
 	* lst/isatable: fix cmi8330 detection
 
-2001-07-05 11:28  Fançois Pons <fpons@mandrakesoft.com>
+2001-07-05 11:28  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* ldetect-lst.spec, lst/Cards+, lst/pcitable: SiS 300 card update.
 
-2001-07-04 17:35  Fançois Pons <fpons@mandrakesoft.com>
+2001-07-04 17:35  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* ldetect-lst.spec: the 15mdk is going.
 
-2001-07-04 17:33  Fançois Pons <fpons@mandrakesoft.com>
+2001-07-04 17:33  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* lst/Cards+: added VMware virtual cards.
 
-2001-07-04 17:17  Fançois Pons <fpons@mandrakesoft.com>
+2001-07-04 17:17  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* lst/Cards+: added some more card, notably VMware and IMS one.
 
-2001-07-04 17:13  Fançois Pons <fpons@mandrakesoft.com>
+2001-07-04 17:13  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* lst/pcitable: synced with XFree 4.1.0
 
@@ -4791,11 +4791,11 @@
 
 	* lst/pcitable: added GeForce3 and CyberBlade/Xpm entries
 
-2001-04-10 09:16  Fançois Pons <fpons@mandrakesoft.com>
+2001-04-10 09:16  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* ldetect-lst.spec: [no log message]
 
-2001-04-10 09:15  Fançois Pons <fpons@mandrakesoft.com>
+2001-04-10 09:15  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* lst/pcitable: added Trident CyberBladeXP
 
@@ -4868,7 +4868,7 @@
 
 	* convert/merge2pcitable.pl: (cleanup_subids): cleanup
 
-2001-03-23 17:11  Fançois Pons <fpons@mandrakesoft.com>
+2001-03-23 17:11  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* ldetect-lst.spec, lst/usbtable: USB Wacom driver set to
 	Tablet:wacom
@@ -4887,7 +4887,7 @@
 
 	* lst/MonitorsDB: add some CTX from cooker
 
-2001-03-21 18:43  Fançois Pons <fpons@mandrakesoft.com>
+2001-03-21 18:43  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* ldetect-lst.spec, lst/pcitable: fixed Matrox G450 entries in
 	pcitable relative to Cards+
@@ -4912,7 +4912,7 @@
 	'try some different parameters.' I went to X 3.3.6 (THANK YOU for
 	putting it in the options) and X fires up fine.
 
-2001-03-15 09:37  Fançois Pons <fpons@mandrakesoft.com>
+2001-03-15 09:37  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* ldetect-lst.spec, lst/Cards+, lst/pcitable: [no log message]
 
@@ -5003,7 +5003,7 @@
 	* Makefile, Makefile.config, ldetect-lst.spec: add
 	ldetect-lst-devel
 
-2000-12-21 14:57  Fançois Pons <fpons@mandrakesoft.com>
+2000-12-21 14:57  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* lst/Cards+: added i128 and siliconmotion driver entry.  updated
 	SiS 620 support back with XF4.0.2.
@@ -5012,11 +5012,11 @@
 
 	* lst/pcitable: add new entries from XFree86-4.02
 
-2000-12-19 14:08  Fançois Pons <fpons@mandrakesoft.com>
+2000-12-19 14:08  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* lst/pcitable: updated with new pci id provided by Erwan.
 
-2000-12-19 14:08  Fançois Pons <fpons@mandrakesoft.com>
+2000-12-19 14:08  FranÃ§ois Pons <fpons@mandrakesoft.com>
 
 	* lst/Cards+: updated with savage driver, according to Erwan.
 
