@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.2
-%define release 29mdk
+%define release 31mdk
 
 Name: %{name}
 Version: %{version}
@@ -47,6 +47,13 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/*
 
 %changelog
+* Wed Oct 10 2001 Yves Duret <yduret@mandrakesoft.com> 0.1.2-30mdk
+- really add ScannerDB (i suck)
+
+* Wed Oct 10 2001 Yves Duret <yduret@mandrakesoft.com> 0.1.2-30mdk
+- added ScannerDB
+- fix scanner entry in usbtable
+
 * Mon Oct  8 2001 Gwenole Beauchesne <gbeauchesne@mandrakesoft.com> 0.1.2-29mdk
 - Arch-dependent pcitable and usbtable
 - On IA-64, suggest "e100" driver for devices = { 0x1229, 0x2449 }
