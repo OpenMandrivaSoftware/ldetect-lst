@@ -1,3 +1,28 @@
+2005-03-15 19:00  Thierry Vignaud <tvignaud at mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.72-1mdk
+
+2005-03-15 18:56  Thierry Vignaud <tvignaud at mandrakesoft.com>
+
+	* lst/pcitable: fix driver after alsa naming change
+
+2005-03-14 22:56  Frederic Lepied <flepied at mandrakesoft.com>
+
+	* lst/pcitable: fixed S3 UniChrome entries.
+
+2005-03-14 18:00  Thierry Vignaud <tvignaud at mandrakesoft.com>
+
+	* lst/pcitable: replace a "GeForce2 DDR" by a "GeForce FX"
+
+2005-03-14 16:09  Pixel <pixel at mandrakesoft.com>
+
+	* ldetect-lst.spec, update-ldetect-lst, lst/Makefile, lst/dmitable:
+	  add dmitable
+
+2005-03-14 15:33  Thierry Vignaud <tvignaud at mandrakesoft.com>
+
+	* lst/pcitable: add two Chelsio gigabit cards
+
 2005-03-09 18:16  Thierry Vignaud <tvignaud at mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.70-1mdk
