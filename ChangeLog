@@ -1,4 +1,9 @@
-2005-03-31 15:31  Thierry Vignaud <tvignaud at mandrakesoft.com>
+2005-04-04 15:37  Pixel <pixel@mandrakesoft.com>
+
+	* ldetect-lst.spec, lst/pcitable: add graphic card entry for laptop
+	  nx6110
+
+2005-03-31 15:31  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.80-1mdk
 
