@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.9
-%define release 7mdk
+%define release 8mdk
 
 Name: %{name}
 Version: %{version}
@@ -64,6 +64,10 @@ fi
 %{_bindir}/*
 
 %changelog
+* Mon Mar  1 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.9-8mdk
+- add Samsung SyncMaster 765MB (Kozak Daniel)
+- fix entry for AGFA SnapScan Touch (#8441) (till)
+
 * Fri Feb 20 2004 Frederic Lepied <flepied@mandrakesoft.com> 0.1.9-7mdk
 - pcitable: o updated ATI entries for radeon cards
             o standardize ATI name use
