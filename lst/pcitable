@@ -2305,7 +2305,7 @@
 0x10b9	0x5253	"unknown"	"Acer Laboratories Inc. [ALi]|M5253 P1394 OHCI 1.1 Controller"
 0x10b9	0x5255	"unknown"	"Acer Laboratories Inc. [ALi]|M5455 PCI AC-Link Controller Audio Device"
 0x10b9	0x5261	"tulip"	"Acer Laboratories Inc. [ALi]|M5261 Ethernet Controller"
-0x10b9	0x5263	"uli526x"	"ALi Corporation|M5263 Ethernet Controller"
+0x10b9	0x5263	"tulip"	"ALi Corporation|M5263 Ethernet Controller"
 0x10b9	0x5271	"unknown"	"Acer Laboratories Inc. [ALi]|M5471 Memory Stick Controller"
 0x10b9	0x5273	"unknown"	"Acer Laboratories Inc. [ALi]|M5473 SD-MMC Controller"
 0x10b9	0x5281	"sata_uli"	"ALi Corporation|ALi M5281 Serial ATA / RAID Host Controller"
