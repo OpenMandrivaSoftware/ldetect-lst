@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.72
+%define version 0.1.73
 %define release 1mdk
 
 Name: %{name}
@@ -63,6 +63,11 @@ fi
 %{_bindir}/*
 
 %changelog
+* Mon Mar 21 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.73-1mdk
+- sync with kernel-2.6.11-mm3
+- add support for production version of ATI RN50/ES1000
+- MonitorsDB: misc cleanups (pixel & me)
+
 * Tue Mar 15 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.72-1mdk
 - fix driver after alsa naming change
 - fix S3 UniChrome entries (fredl)
