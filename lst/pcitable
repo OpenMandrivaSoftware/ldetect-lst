@@ -393,6 +393,7 @@
 0x1002	0x5159	0x148c	0x2003	"Card:ATI Radeon (fglrx)"	"ATI Technologies Inc|RV100 QY [Radeon 7000 Multi-Display Edition]"
 0x1002	0x5159	0x148c	0x2023	"Card:ATI Radeon (fglrx)"	"ATI Technologies Inc|RV100 QY [Radeon 7000 Evil Master Multi-Display]"
 0x1002	0x5159	0x174b	0x7112	"Card:ATI Radeon (fglrx)"	"ATI Technologies Inc|RV100 QY [Sapphire Radeon VE 7000]"
+0x1002	0x5159	0x174b	0x7c28	"Card:ATI Radeon (fglrx)"	"ATI Technologies Inc|Sapphire Radeon VE 7000 DDR"
 0x1002	0x5159	0x1787	0x0202	"Card:ATI Radeon (fglrx)"	"ATI Technologies Inc|RV100 QY [Excalibur Radeon 7000]"
 0x1002	0x5159	"Card:ATI Radeon (fglrx)"	"ATI|Radeon VE/7000 QY (AGP/PCI)"
 0x1002	0x515a	"Card:ATI Radeon (fglrx)"	"ATI|Radeon VE/7000 QZ (AGP/PCI)"
