@@ -1161,7 +1161,7 @@
 0x0c4b	0x0100	"cyberjack"	""
 0x0c70	0x0000	"unknown"	"MCT Elektronikladen|USB08 Development board"
 0x0c76	0x0003	"usb-storage"	"JMTek|USBDrive"
-0x0c76	0x0005	"unknown"	"JMTek, LLC.|USBdisk"
+0x0c76	0x0005	"Removable:memory_card"	"JMTek|USBdisk"
 0x0caf	0x3a00	"unknown"	"Buslink|Hard Drive"
 0x0d46	0x0078	"kobil_sct"	""
 0x0d46	0x2011	"kobil_sct"	""
