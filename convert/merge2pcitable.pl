@@ -315,7 +315,8 @@ sub merge {
 		    print STDERR "different($drivers->{$_}[0] $new->{$_}[0]): ", to_string($_, $drivers->{$_}), "\n" if $different;
 		}
 	    }
-	    $drivers->{$_}[1] ||= $new->{$_}[1];
+	    next if !$new->{$_}[1];
+	    $drivers->{$_}[1] = $new->{$_}[1] if !$drivers->{$_}[1] || $drivers->{$_}[1] =~ /\|$/;
 	} else {
 	    if (!/ffffffff$/ && $new->{$_}[0] eq "unknown") {
 		# keep sub-entry with major-entry module
