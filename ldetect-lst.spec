@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.9
-%define release 2mdk
+%define release 3mdk
 
 Name: %{name}
 Version: %{version}
@@ -64,6 +64,10 @@ fi
 %{_bindir}/*
 
 %changelog
+* Sun Feb  8 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.9-3mdk
+- prevent spurious "SiS|" empty vendor branch to appear in XFdrake
+- sync with kernel-2.6.2.1mdk, rh's hwdata-0.105 and http://www.pcidatabase.com
+
 * Mon Feb  2 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.9-2mdk
 - merge kernel 2.6.2-0.rc3.1mdk pcimap
 
