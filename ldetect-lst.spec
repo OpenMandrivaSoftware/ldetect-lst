@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.8
-%define release 14mdk
+%define release 15mdk
 
 Name: %{name}
 Version: %{version}
@@ -64,6 +64,10 @@ fi
 %{_bindir}/*
 
 %changelog
+* Thu Jan 29 2004 Pixel <pixel@mandrakesoft.com> 0.1.8-15mdk
+- support more sata controller sata_svw ata_piix sata_promise (nplanel)
+- philippe.harrand tells his Davicom card works with dmfe module, not tulip (gc)
+
 * Mon Jan 26 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.8-14mdk
 - add one alcor device (Jaco Greeff <jaco@puxedo.org>)
 - add 2 monitors (thanks to Frederik Himpe, bugzilla #6710)
