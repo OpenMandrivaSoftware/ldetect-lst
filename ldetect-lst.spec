@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.52
+%define version 0.1.53
 %define release 1mdk
 
 Name: %{name}
@@ -64,6 +64,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Tue Jan 25 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.53-1mdk
+- fix support for SB Live! Value EMU10k1X
+
 * Mon Jan 24 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.52-1mdk
 - add support for one ATI and two ICH7 SATA controllers
 - add a new Samsung monitor (Albert Astals Cid)
