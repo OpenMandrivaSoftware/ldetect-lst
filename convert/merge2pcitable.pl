@@ -5,7 +5,7 @@ use MDK::Common;
 
 @ignored_modules = (
 qw(alsa ignore),
-qw(tr bcm5700), # redhat have this, ignore it
+qw(tr), # redhat have this, ignore it
 );
 
 if ($0 =~ /merge2pcitable/) 
