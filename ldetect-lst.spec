@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.7
-%define release 5mdk
+%define release 6mdk
 
 Name: %{name}
 Version: %{version}
@@ -64,6 +64,11 @@ fi
 %{_bindir}/*
 
 %changelog
+* Wed Mar  5 2003 Frederic Lepied <flepied@mandrakesoft.com> 0.1.7-6mdk
+- usbtable: tagged hisax_st5481 as ISDN
+- pcitable: integrated NVidia ids from XFree 4.3
+- add back 3c90x for some ids (Arnaud)
+
 * Fri Feb 28 2003 François Pons <fpons@mandrakesoft.com> 0.1.7-5mdk
 - added LT:www.linmodems.org reference to supported ltmodem.
 
