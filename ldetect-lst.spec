@@ -65,7 +65,7 @@ fi
 
 %changelog
 * Wed Sep 10 2003 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.8-4mdk
-- added DRIVER2 fglrx support (francois)
+- added DRIVER2 fglrx support (francois, nicolas)
 - merge with kernel modules maps (pixel)
 - one more usb device (Stefan Siegel)
 - update scanner database for SANE 1.0.12 (till)
