@@ -499,7 +499,7 @@
 0x05a4	0x9731	"unknown"	"Ortek Technology, Inc.|MCK-600W Keyboard"
 0x05a9	0x0511	"ov511"	"OmniVision Technologies, Inc.|OV511 WebCam"
 0x05a9	0xa511	"ov511"	"OmniVision Technologies, Inc.|OV511+ WebCam"
-0x05a9	0xa518	"ov518_decomp"	"OmniVision Technologies, Inc.|OV518 WebCam"
+0x05a9	0x0518	"ov518_decomp"	"OmniVision Technologies, Inc.|OV518 WebCam"
 0x05ab	0x0002	"unknown"	"In-System Design|Parallel Port"
 0x05ab	0x0031	"unknown"	"In-System Design|ATA Bridge"
 0x05ab	0x0060	"unknown"	"In-System Design|USB 2.0 Bridge"
