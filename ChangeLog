@@ -1,3 +1,66 @@
+2004-11-25 19:38  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.29-1mdk
+
+2004-11-24 18:37  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/MonitorsDB: sort
+
+2004-11-24 17:35  Pablo Saratxaga <pablo@mandrakesoft.com>
+
+	* lst/MonitorsDB: Added "Samsung SyncMaster 910N/912N"
+
+2004-11-24 14:32  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/MonitorsDB: sort
+
+2004-11-24 14:29  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/usbtable: (strange) merge with kernel-2.6.8.1.22mdk's usbmap
+
+2004-11-24 14:22  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/MonitorsDB: sync with hwdata-0.148
+
+2004-11-24 14:09  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/MonitorsDB: typo fix (make check should check this...)
+
+2004-11-24 14:00  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/usbtable: fix double quotes
+
+2004-11-24 13:59  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/usbtable: sync with latest usb.ids
+
+2004-11-24 13:58  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: one more missing description
+
+2004-11-24 13:56  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: fill in a few descriptions
+
+2004-11-24 13:31  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: sync with serial, DVB and SMB Host controllers
+	  drivers from kernel-2.6.10-rc2-mm3
+
+2004-11-23 13:01  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: add support for Intel's High Definition Audio
+	  Controller (from ALSA's CVS)
+
+2004-11-23 12:24  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: sync with ALSA's CVS
+
+2004-11-21 20:40  Stefan Siegel <siegel@linux-mandrake.com>
+
+	* lst/usbtable: Added 0x2304 0x0419 Pinnacle Systems, Inc.|Pinnacle
+	  Bungee (PAL)
+
 2004-11-19 22:52  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.28-1mdk
