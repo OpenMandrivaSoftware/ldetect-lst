@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.80
+%define version 0.1.81
 %define release 1mdk
 
 Name: %{name}
@@ -63,6 +63,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Mon Apr  4 2005 Pixel <pixel@mandrakesoft.com> 0.1.81-1mdk
+- add graphic card entry for laptop nx6110
+
 * Thu Mar 31 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.80-1mdk
 - check pcitable consistency vs kernel's module.pcimap and fix:
   o one Adaptec entry (aic79xx -> aic7xxx)
