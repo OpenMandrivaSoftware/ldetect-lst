@@ -1,3 +1,36 @@
+2004-09-06 06:09  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* Makefile: (changelog) only follow HEAD
+
+2004-09-05 02:51  Frederic Lepied <flepied@mandrakesoft.com>
+
+	* lst/pcitable: added "nVidia Corp.|nForce2 UDMA 133 IDE
+	  Controller" (bug #11173) Corporation => Corp. to be coherent with
+	  the hardware database
+
+2004-09-01 09:32  Frederic Lepied <flepied@mandrakesoft.com>
+
+	* lst/pcitable: added entries for IPW2200 Intel Corporation =>
+	  Intel Corp.
+
+2004-09-01 05:14  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: complete 0.1.16-3mdk's changelog
+
+2004-09-01 05:14  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: package AUTHORS too
+
+2004-09-01 05:14  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* AUTHORS: automatic filling from ChangeLog (stats showed 2 groups:
+	  less than 70 commits and more than 200 commits)
+
+2004-08-31 11:48  Frederic Lepied <flepied@mandrakesoft.com>
+
+	* lst/usbtable: put newhidups driver for MGE UPS entries.  fixed
+	  wacom entries.
+
 2004-08-31 07:07  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.16-3mdk
@@ -95,14 +128,6 @@
 2004-08-30 11:59  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* lst/pcitable: sync with kernel-2.6.8.1.5mdk
-
-2004-08-30 07:33  Gwenole Beauchesne <gbeauchesne@mandrakesoft.com>
-
-	* ldetect-lst.spec: 0.1.9-17mdk
-
-2004-08-30 07:26  Gwenole Beauchesne <gbeauchesne@mandrakesoft.com>
-
-	* lst/pcitable: Adapt for 3ware 9000-series controllers
 
 2004-08-30 04:23  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
