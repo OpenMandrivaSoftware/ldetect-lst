@@ -6,10 +6,6 @@
 
 	* Makefile: err file no longer exists
 
-2004-05-24 17:02  Gwenole Beauchesne <gbeauchesne@mandrakesoft.com>
-
-	* Makefile: err file no longer exists
-
 2004-05-24 17:01  Gwenole Beauchesne <gbeauchesne@mandrakesoft.com>
 
 	* lst/pcitable: Add Quadro FX 1300 entries, fix Erwan changes
