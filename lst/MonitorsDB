@@ -348,7 +348,6 @@ AT&T; AT&T 14 in. Color Value; 0; 48.0; 50-90
 AT&T; AT&T 14 in. Mono; 0; 31; 55-75
 AT&T; AT&T 15 in. Color; 0; 30-64; 50-90
 AT&T; AT&T 17 in. Color Professional; 0; 30-82; 50-160
-Benq; Benq FP767; 0; 31.5-83; 56.0-76.0; 1
 AT&T; AT&T 17 in. Color Value; 0; 30-64; 50-90
 AT&T; AT&T CRT-365; 0; 30.0-75.0; 60.0-70.0
 AT&T; AT&T CRT-395; 0; 30.0-66.0; 50.0-90.0
@@ -427,6 +426,7 @@ Belinea; Belinea 108050; 0; 30.0-95.0; 50.0-160.0
 Belinea; Belinea 108060; 0; 30.0-115.0; 50.0-160.0
 Belinea; Belinea 108090; 0; 30.0-95.0; 50.0-160.0
 Belinea; Belinea 108095; 0; 30.0-95.0; 50.0-160.0
+Benq; Benq FP767; 0; 31.5-83; 56.0-76.0; 1
 Bridge; Bridge BM17C; brg00ab; 30.0-70.0; 50.0-160.0; 1
 Brother; Brother BM85L; 0; 30.0-64.0; 50.0-100.0; 1
 Bus Computer Systems; Bus Computer Systems Bus_VGA; bus_vga; 31.5-38.0; 50.0-70.0; 1
