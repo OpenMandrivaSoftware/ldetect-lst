@@ -1887,6 +1887,7 @@
 0x10b5	0x0960	"unknown"	"PLX Technology|PCI 9080RDK-960 PCI Reference Design Kit for PCI 9080"
 0x10b5	0x1030	"ISDN:hisax,type=34"	"PLX Technology, Inc.|Gazel ISDN Adapter"
 0x10b5	0x1054	"ISDN:hisax,type=34"	"PLX Technology, Inc.|Gazel ISDN Adapter"
+0x10b5	0x106a	0x10b5	0x106a	"8250_pci"	""
 0x10b5	0x1076	"8250_pci"	"PLX Technology, Inc.|VScom 800 8 port serial adaptor"
 0x10b5	0x1077	"8250_pci"	"PLX Technology, Inc.|VScom 400 4 port serial adaptor"
 0x10b5	0x1078	"unknown"	"PLX Technology|PCI 9050 Vision Systems VScom PCI-210"
