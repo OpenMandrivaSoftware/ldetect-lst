@@ -1,3 +1,15 @@
+2004-10-28 11:57  Gwenole Beauchesne <gbeauchesne@mandrakesoft.com>
+
+	* lst/pcitable: first round towards move to "megaraid_mbox"
+
+2004-10-28 08:15  Olivier Blin <oblin@mandrakesoft.com>
+
+	* lst/pcitable: add Philips Semiconductors DSL card
+
+2004-10-28 04:11  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.23-1mdk
+
 2004-10-28 04:10  Gwenole Beauchesne <gbeauchesne@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.22-1mdk
