@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.20
+%define version 0.1.21
 %define release 1mdk
 
 Name: %{name}
@@ -64,6 +64,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Thu Oct 21 2004 Gwenole Beauchesne <gbeauchesne@mandrakesoft.com> 0.1.21-1mdk
+- add nVidia Quadro FX 3400 PCI-Express card ID
+
 * Mon Oct 11 2004 Gwenole Beauchesne <gbeauchesne@mandrakesoft.com> 0.1.20-1mdk
 - speculatively use aic79xx for Adaptec ASC-39320[AB] cards
 
