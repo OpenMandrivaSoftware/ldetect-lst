@@ -2899,6 +2899,19 @@ SERVER SVGA
 DRIVER nv
 NOCLOCKPROBE
 
+NAME NVIDIA GeForce3 (generic)
+CHIPSET GeForce3
+SERVER SVGA
+DRIVER nv
+NOCLOCKPROBE
+
+# IMS
+
+NAME IMS TwinTurbo (generic)
+SERVER SVGA
+DRIVER imstt
+NOCLOCKPROBE
+
 # 3DLabs
 
 NAME 3Dlabs Permedia2 (generic)
@@ -3529,5 +3542,12 @@ SERVER Sun24
 DRIVER sunffb
 
 # Misc
+
+# VMware virtual video cards
+
+NAME VMware virtual video card
+SERVER SVGA
+DRIVER vmware
+NOCLOCKPROBE
 
 END
