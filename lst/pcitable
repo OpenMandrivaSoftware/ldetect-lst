@@ -889,7 +889,7 @@
 0x1097	0x3d32	"unknown"	"Appian Graphics|Jeronimo 2000 AGP"
 0x1098	0x0001	"Server:SVGA"	"Quantum Designs|QD-8500"
 0x1098	0x0002	"Server:SVGA"	"Quantum Designs|QD-8580"
-0x109e	0x0350	"bttv"	"Brooktree Corporation|Bt848 TV with DMA push"
+0x109e	0x0350	"bttv"	"Miro|PCTV (1rst generation)"
 0x109e	0x0351	"bttv"	"Brooktree Corporation|Bt849A Video capture"
 0x109e	0x036c	"bttv"	"Brooktree Corporation|Bt879(??) Video Capture"
 0x109e	0x036e	"bttv"	"Brooktree Corporation|Bt878"
