@@ -4951,7 +4951,7 @@
 0x8086	0xb152	"unknown"	"Intel Corporation|S21152BB PCI to PCI Bridge"
 0x8086	0xb154	"unknown"	"Intel Corporation|S21154AE/BE PCI to PCI Bridge"
 0x8086	0xb555	"umem"	"Intel Corporation|21555 Non-Transparent PCI-to-PCI Bridge"
-0x8086	0xffff	"unknown"	"Intel Corporation|450NX/GX [Orion] - 82453KX/GX Memory controller [BUG]"
+0x8086	0xffff	"intel-agp"	"Intel Corporation|450NX/GX [Orion] - 82453KX/GX Memory controller [BUG]"
 0x80ff	0x1230	"unknown"	"Intel - Buggy BIOS!!!|82338/82371FB Triton PIIX PCI EIDE"
 0x8800	0x2008	"unknown"	"Trigem Computer Inc.|Video assistent component"
 0x8c4a	0x1980	"ne2k-pci"	""
