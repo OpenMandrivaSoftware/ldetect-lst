@@ -29,6 +29,11 @@ rm -f pcids.htm ; wget http://www.begent.co.uk/pcids.htm
 # with redhat's pcitable in /tmp/rh_pcitable (from hwdata)
 ./merge2pcitable.pl rhpcitable /tmp/rh_pcitable pcitable > pcitable.new
 
+# with SuSE hwinfo 
+# (srpm in ftp://ftp.suse.com/pub/suse/i386/current/suse/src)
+./merge2pcitable.pl hwinfo_x11 /tmp/hwinfo-9.31/src/ids/src/x11.i386 pcitable > pcitable.new
+
+
 # with a new kernel
 (cd ~/tmp ; rm -rf lib ; rpm2cpio /RPMS/kernel-2.4.*.rpm |cpio -id './lib/modules/*/modules.*map')
 cp -f ~/tmp/lib/modules/*/modules.{pci,usb}map .

@@ -215,6 +215,48 @@ sub read_hwd {
     \%drivers;
 }
 
+sub read_hwinfo_x11 {
+    my ($f) = @_;
+
+    my (%drivers, %e, %vendors, $line);
+    foreach (cat_($f)) {
+	$line++;
+	s/\s*$//;
+	if (my ($add, $name, $val) = /^([ &])(\w+)\.id\s+(.*)/) {
+	    if (!$add) {
+		warn "read_hwinfo_x11:$line: unused %e\n" if %e;
+		%e = ();
+	    }
+	    if ($val =~ /^pci\s+0x([0-9a-f]{4})/i) {
+		$val = hex $1;
+	    } else {
+		warn "read_hwinfo_x11:$line: weird value $val\n";
+	    }
+	    $e{$name} = $val;
+	} elsif (/^\+vendor\.name\s+(.*)/) {
+            $vendors{$e{vendor}} = $1;
+	} elsif (/^\+(?:sub)?device\.name\s+(.*)/) {
+	    $e{name} = $1;
+	} elsif (my ($driver) = /^\+driver\.xfree\s+(.*)/) {
+	    if (exists $e{vendor} && exists $e{device}) {
+		my $vendor = $vendors{$e{vendor}};
+		my $module = $driver =~ /^4\|(\w+)/ ? "Driver:$1" : "Card:$driver";
+		$drivers{sprintf qq(%04x%04x%04x%04x), $e{vendor}, $e{device}, 
+			 $e{subvendor} || 0xffff, $e{subdevice} || 0xffff} = [ $module, "$vendor|$e{name}" ];
+	    } else {
+		warn "read_hwinfo_x11:$line: $driver but no vendor or no device\n";
+	    }
+	} elsif (/^$/) {
+	    %e = ();
+	} elsif (/^\+driver\.xfree\.config/) {
+	    # drop
+	} else {
+	    warn "read_hwinfo_x11:$line: unknown line $_\n";
+	}
+    }
+    \%drivers;
+}
+
 sub read_begent_pcids_htm {
     my ($f) = @_;
     my %drivers;
