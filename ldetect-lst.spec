@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.58
+%define version 0.1.59
 %define release 1mdk
 
 Name: %{name}
@@ -64,6 +64,11 @@ fi
 %{_bindir}/*
 
 %changelog
+* Tue Feb  8 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.59-1mdk
+- sync with latest usb.ids
+- sync with latest pci.ids
+- fix a nv SATA controller description
+
 * Tue Feb  8 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.58-1mdk
 - fix wrong qla1280 entry
 - sync with kernel-2.6.11-rc3-mm1
