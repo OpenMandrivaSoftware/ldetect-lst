@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.9
-%define release 1mdk
+%define release 2mdk
 
 Name: %{name}
 Version: %{version}
@@ -64,8 +64,10 @@ fi
 %{_bindir}/*
 
 %changelog
-* Mon Feb  2 2004 Nicolas Planel <nplanel@mandrakesoft.com> 0.1.9-1mdk
+* Mon Feb  2 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.9-2mdk
 - merge kernel 2.6.2-0.rc3.1mdk pcimap
+
+* Mon Feb  2 2004 Nicolas Planel <nplanel@mandrakesoft.com> 0.1.9-1mdk
 - add prism54 wireless cards support
 - add aureal sound cards support
 
