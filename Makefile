@@ -12,7 +12,12 @@ clean:
 
 install: build
 	install -d $(dir)
-	install -m 644 pcitable $(dir)
+	(echo "# !! The original version is available in CVS at" ; \
+         echo "# export CVSROOT=:pserver:anoncvs@linux-mandrake.com:/home/cvs/cooker" ; \
+	 echo "# cvs login    (password ``cvs'')" ; \
+         echo "# cvs checkout soft/$(project)" ; \
+	 cat pcitable \
+	) > $(dir)/pcitable
 
 
 rpm: clean $(RPM)
