@@ -51,7 +51,6 @@ LINE # Option "fix_panel_size"
 LINE # videoram 512
 
 NAME KYRO Series
-SERVER SVGA
 DRIVER pvr2fb 
 
 NAME Chips & Technologies CT65525
