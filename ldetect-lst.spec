@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.7
-%define release 16mdk
+%define release 17mdk
 
 Name: %{name}
 Version: %{version}
@@ -64,6 +64,10 @@ fi
 %{_bindir}/*
 
 %changelog
+* Tue Aug 12 2003 Gwenole Beauchesne <gbeauchesne@mandrakesoft.com> 0.1.7-17mdk
+- Use "pdc-ultra" for Promise SATA150 Controllers
+- Eicon cards fixes (Steffen Barszus through Pixel)
+- i810 audio fixes (adelorbeau)
 - XF 4.3 now add DRI for Radeon 8500 cards. (fpons)
 
 * Thu Jul 24 2003 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.7-16mdk
