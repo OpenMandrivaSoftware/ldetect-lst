@@ -3040,7 +3040,7 @@
 0x173b	0x03e8	"tg3"	"Altima (nee BroadCom)|AC1000 Gigabit Ethernet"
 0x173b	0x03ea	"tg3"	"Altima (nee BroadCom)|AC1000 Gigabit Ethernet"
 0x1743	0x8139	"unknown"	"Peppercon AG|ROL/F-100 Fast Ethernet Adapter with ROL"
-0x1813	0x4000	"Bad:www.linmodems.org"	"Modem Silicon Operation|MD563X Host Acceletrated Modem"
+0x1813	0x4000	"Bad:www.linmodems.org"	"Modem Silicon Operation|MD563X Host Accelerated Modem"
 0x1850	0x1851	"bttv"	"Flyvideo 98 (LR50) / Chronos Video Shuttle II"
 0x1851	0x1851	"bttv"	"Flyvideo 98EZ (LR51) / CyberMail AV"
 0x1852	0x1852	"bttv"	"Flyvideo 98FM (LR50) / Typhoon TView TV/FM Tuner"
