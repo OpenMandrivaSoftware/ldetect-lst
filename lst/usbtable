@@ -204,7 +204,6 @@
 0x0471	0x0304	"pwc"	"Philips|Askey VC010 WebCam"
 0x0471	0x0307	"pwc"	"Philips|PCVC675K WebCam"
 0x0471	0x0308	"pwc"	"Philips|PCVC680K WebCam"
-0x0471	0x030C	"unknown"	"Philips|PCVC690K WebCam"
 0x0471	0x030b	"se401"	"Philips|USB WebCam"
 0x0471	0x030c	"pwc"	"Philips|PCVC690K WebCam"
 0x0471	0x0310	"pwc"	"Philips|PCVC730K WebCam"
