@@ -1,3 +1,23 @@
+2005-01-10 14:26  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.45-1mdk
+
+2005-01-10 13:34  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/MonitorsDB: add a new Philips monitor (Albert Astals Cid)
+
+2005-01-10 13:24  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/: pcitable, usbtable: *partial* support for zaptel
+
+2005-01-10 12:31  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: fix ivtv's ids
+
+2005-01-10 12:31  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: add ivtv driver
+
 2005-01-10 11:57  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.44-1mdk
