@@ -1514,7 +1514,7 @@
 0x116a	0x7100	"unknown"	"Polaris Communications|Bus/Tag Channel"
 0x116a	0x7800	"unknown"	"Polaris Communications|Escon Channel"
 0x1178	0xafa1	"unknown"	"Alfa Inc|Fast Ethernet Adapter"
-0x1179	0x0001	"Card:Trident Cyber 9525 (generic)"	"Toshiba|Toshiba-4010CDT"
+0x1179	0x0001	"unknown"	"Toshiba|Toshiba-4010CDT"
 0x1179	0x0404	"unknown"	"Toshiba|DVD Decoder card"
 0x1179	0x0406	"unknown"	"Toshiba|Tecra Video Capture device"
 0x1179	0x0407	"unknown"	"Toshiba|DVD Decoder card (Version 2)"
