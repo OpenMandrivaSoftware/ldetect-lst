@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.3
-%define release 5mdk
+%define release 6mdk
 
 Name: %{name}
 Version: %{version}
@@ -61,7 +61,8 @@ fi
 %{_bindir}/*
 
 %changelog
-* Thu Feb 28 2002 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.3-5mdk
+* Thu Feb 28 2002 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.3-6mdk
+- yduret sucks and has forgotten to commit in cvs his package uploae
 - Thierry Vignaud:
 	* fix 10 incorrect TV card names
 	* add 15 new TV cards
@@ -69,6 +70,10 @@ fi
 - Pixel:
 	* add 3 usb mice
 	* s/53c7,8xx/sym53c8xx/
+- Guillaume:
+	* remove duplicate entry (quintela sucks)
+	* be sure to have \t everywhere
+	* three other O2 Micro CardBus controllers
 - Yves Duret:
 	* fix Connectix entries (qcam server)
 	* added support for Hewlett-Packard OfficeJet series
@@ -87,6 +92,11 @@ fi
 	* added GD5480 as working under XF 4.2 (Juan)
 - Juan Quintela
 	*  use new qlogic drivers by default
+
+* Tue Feb 19 2002 Yves Duret <yduret@mandrakesoft.com> 0.1.3-5mdk
+
+- ScannerDB, usbtable updated
+
 
 * Thu Feb 14 2002 Pixel <pixel@mandrakesoft.com> 0.1.3-4mdk
 - add BuildRequires: perl-MDK-Common
