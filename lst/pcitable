@@ -515,7 +515,7 @@
 0x1039	0x0205	"Card:SiS SG86C205"	"Silicon Integrated Systems [SiS]|SG86C205"
 0x1039	0x0215	"Card:SiS SG86C215"	"SIS|SG86C215"
 0x1039	0x0225	"Card:SiS SG86C225"	"SIS|SG86C225"
-0x1039	0x0300	"unknown"	"SiS|300"
+0x1039	0x0300	"Card:SiS 300"	"SiS|300"
 0x1039	0x0406	"unknown"	"Silicon Integrated Systems [SiS]|85C501/2"
 0x1039	0x0496	"unknown"	"Silicon Integrated Systems [SiS]|85C496"
 0x1039	0x0530	"agpgart"	"Silicon Integrated Systems [SiS]|530 Host"

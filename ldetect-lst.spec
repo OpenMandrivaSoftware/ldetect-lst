@@ -48,6 +48,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/*
 
 %changelog
+
+- fixed support for SiS 300.
+
 * Wed Jul  4 2001 François Pons <fpons@mandrakesoft.com> 0.1.2-15mdk
 - synced pcitable and Cards+ with XFree86 4.1.0.
 - another people do the following:
