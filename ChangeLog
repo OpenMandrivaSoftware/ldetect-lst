@@ -1,3 +1,13 @@
+2003-10-14 18:44  Gwenole Beauchesne <gbeauchesne@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.8-11mdk
+
+2003-10-14 18:44  Gwenole Beauchesne <gbeauchesne@mandrakesoft.com>
+
+	* lst/pcitable: - Updates for new libata drivers:   - VIA 8237 SATA
+	controller (sata_via)	- Promise SATA150 TX4 controllers
+	(sata_promise)
+
 2003-10-13 15:12  Pixel <pixel@mandrakesoft.com>
 
 	* lst/Cards+: "ATI Radeon (fbdev)" doesn't handle DRI
