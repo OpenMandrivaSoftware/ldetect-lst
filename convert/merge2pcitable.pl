@@ -106,6 +106,7 @@ sub read_kernel_pcimap {
 	chomp;
 	next if /^#/ || /^\s*$/;
 	my ($module, $id1, $id2, $subid1, $subid2) = split;
+	next if $id2 eq '0xffffffff';
 	next if $module eq 'pci';
 	($subid1, $subid2) = ("ffff", "ffff") if $subid1 == 0 && $subid2 == 0;
 	$drivers{join '', map { /(....)$/ } $id1, $id2, $subid1, $subid2} = [ $module, '' ];

@@ -1184,6 +1184,7 @@
 0x0d8e	0x7a01	"prism2_usb"	""
 0x0d96	0x3300	"unknown"	"Traveler|SX330z Digital Camera"
 0x0d96	0x4100	"unknown"	"Traveler|SX410z Digital Camera"
+0x0db0	0x1020	"at76c505-rfmd2958"	"Micro Star International|MS6978 WLAN PC2PC 802.11b Adapter"
 0x0db7	0x0002	"pegasus"	""
 0x0dcd	0x0001	"ftdi_sio"	"NetworkFab Corporation|Remote Interface Adapter"
 0x0dcd	0x0002	"unknown"	"NetworkFab Corporation|High Bandwidth Codec"

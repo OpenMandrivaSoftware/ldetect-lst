@@ -64,6 +64,8 @@ fi
 %{_bindir}/*
 
 %changelog
+- add MSI WLAN PC2PC usb adapter.
+
 * Tue Mar  2 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.9-9mdk
 - add missing realtek 8139 (#8012)
 - merge 2.6.3-4mdk kernel pcimap (planel)
