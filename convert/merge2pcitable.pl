@@ -55,6 +55,7 @@ sub read_pcitable {
 
 	    $module =~ s/\.o$//;
 	    $module = "unknown" if dummy_module($module);
+	    $module = "i82365" if $module =~ /yenta_socket/;
 	    my $id = join '', map { s/^0x//; $_ } $id1, $id2, $subid1, $subid2;
 	    $drivers{$id} and print STDERR "$f $line: multiple entry for $id (skipping $module $text)\n";
 	    $drivers{$id} ||= [ map &$rm_quote, $module, $text ];
