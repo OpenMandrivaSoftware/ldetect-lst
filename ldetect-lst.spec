@@ -64,7 +64,8 @@ fi
 %{_bindir}/*
 
 %changelog
-* Tue Mar 23 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.9-12mdk
+* Wed Mar 24 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.9-12mdk
+- add support for warly laptop geforce card
 - sync with rh's hwdata-0.113, thus adding support for:
   o one Syskonnect SK-98xx gigabit ethernet,
   o one intel ich5 sata controller
