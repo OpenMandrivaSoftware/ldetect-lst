@@ -6,6 +6,7 @@ Name: %{name}
 Version: %{version}
 Release: %{release}
 Summary: Hardware list for the light detection library
+URL: http://cvs.mandrakesoft.com/cgi-bin/cvsweb.cgi/soft/ldetect-lst/
 Source: %{name}.tar.bz2
 Group: System/Libraries
 BuildRoot: %{_tmppath}/%{name}-buildroot
