@@ -1,3 +1,16 @@
+2003-08-14 04:12  Pixel <pixel@mandrakesoft.com>
+
+	* ldetect-lst.spec: - pcitable	 o merge with modules.pcimap from
+	kernel 2.4.22.0.3mdk-1-1mdk   o update with pci.ids 2003-08-13
+	10:00:05 (pciutils-2.1.11-4mdk)   o merge with redhat's
+	hwdata-0.89-1.1 - MonitorsDB   o merge with redhat's
+	hwdata-0.89-1.1
+
+2003-08-14 04:12  Pixel <pixel@mandrakesoft.com>
+
+	* convert/merge2pcitable.pl: one really must not be too strict with
+	redhat's pcitable
+
 2003-08-14 04:01  Pixel <pixel@mandrakesoft.com>
 
 	* lst/pcitable: s/gmac/sungem/ (thanks to Stew Benedict)
