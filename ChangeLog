@@ -1,3 +1,36 @@
+2004-02-08 04:05  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.9-3mdk
+
+2004-02-08 02:34  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/Cards+: prevent spurious "SiS|" empty vendor branch to appear
+	  in Xconfig::card::card_config__not_listed()
+
+2004-02-08 02:17  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* convert/README.pcitable: take not of url change
+
+2004-02-08 02:16  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: merge with http://www.pcidatabase.com
+
+2004-02-08 02:06  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: partial merge with rh's hwdata-0.105
+
+2004-02-08 01:48  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: sync with http://pciids.sourceforge.net/pci.ids.bz2
+
+2004-02-08 01:43  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/usbtable: these devices do have a driver
+
+2004-02-08 01:38  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: merge kernel-2.6.2.1mdk pcimap
+
 2004-02-02 19:22  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.9-2mdk
