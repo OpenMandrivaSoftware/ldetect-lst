@@ -89,6 +89,20 @@ sub read_kernel_pcimap {
     \%drivers;
 }
 
+sub read_kernel_usbmap {
+    my ($f) = @_;
+    my %drivers;
+    open F, $f or die "read_kernel_usbmap: can't open $f\n";
+    foreach (<F>) {
+	chomp;
+	next if /^#/ || /^\s*$/;
+	my ($module, $flag, $id1, $id2) = split;
+	hex($flag) == 3 or next;
+	$drivers{join '', map { /(....)$/ } $id1, $id2, "ffff", "ffff"} = [ $module, '' ];
+    }
+    \%drivers;
+}
+
 sub read_pciids {
     my ($f) = @_;
     my %drivers;
