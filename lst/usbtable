@@ -1141,6 +1141,7 @@
 0x09c4	0x0011	"irda-usb"	""
 0x09eb	0x4331	"unknown"	"IM Networks, Inc.|iRhythm Tuner Remote"
 0x09ef	0x0101	"unknown"	"Xitel|MD-Port DG2 MiniDisc Interface"
+0x0a12	0x0001	"hci_usb"	"Sitecom|Bluetooth USB adaptor"
 0x0a16	0x9988	"unknown"	"Trek Technology (S) PTE Ltd.|Trek2000 TD-G2"
 0x0a17	0x0004	"unknown"	"Asahi Optical Co., Ltd.|Pentax Optio 330"
 0x0a17	0x1001	"dc2xx"	""
