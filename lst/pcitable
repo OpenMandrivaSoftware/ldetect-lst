@@ -2153,7 +2153,7 @@
 0x10de	0x0038	"forcedeth"	"nVidia Corp.|Ethernet controller"
 0x10de	0x003a	"snd-intel8x0"	""
 0x10de	0x003e	"sata_nv"	"nVidia Corp.|"
-0x10de	0x0041	"unknown"	"nVidia Corp.|NV40 OS1RT00B30"
+0x10de	0x0041	"Card:NVIDIA GeForce 6800 (generic)"	"nVidia Corp.|NV40 OS1RT00B30"
 0x10de	0x0045	"Card:NVIDIA GeForce 6800 (generic)"	"nVidia Corp.|NV40 [GeForce 6800GT]"
 0x10de	0x0054	"sata_nv"	"nVidia Corp.|"
 0x10de	0x0055	"sata_nv"	"nVidia Corp.|"
