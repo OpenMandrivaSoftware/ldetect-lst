@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.78
+%define version 0.1.79
 %define release 1mdk
 
 Name: %{name}
@@ -63,6 +63,12 @@ fi
 %{_bindir}/*
 
 %changelog
+* Wed Mar 30 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.79-1mdk
+- explicitely list all devices supported by megaraid_mbox (workaround
+  *part* of #13855)
+- add 2 more O2 Micro PCMCIA controllers (but ldetect class matching
+  should catch them anyway)
+
 * Wed Mar 30 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.78-1mdk
 - support new nvidia ids from X.Org 6.8.2
 
