@@ -4448,7 +4448,7 @@ SERVER niash
 DRIVER USB
 COMMENT NIASH00019 chip. Partially works.
 
-NAME AGFA-Gevaert NV|SnapScan Touch
+NAME AGFA-Gevaert NV|Snapscan Touch
 SERVER niash
 DRIVER USB
 COMMENT NIASH00014 chip
