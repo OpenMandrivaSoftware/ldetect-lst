@@ -1,3 +1,20 @@
+2005-02-11 20:57  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.63-1mdk
+
+2005-02-11 20:43  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: this card is managed by dmx3191d not dtc (which is
+	  an ISA driver anyway, not a PCI one...)
+
+2005-02-11 20:26  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: add r8180 wireless driver (from kernel-multimedia)
+
+2005-02-11 20:26  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/usbtable: sync with latest usb.ids
+
 2005-02-11 17:39  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* lst/usbtable: fix bad doble quotes
