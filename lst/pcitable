@@ -199,7 +199,7 @@
 0x1002	0x474f	"Card:ATI Mach64 Utah"	"ATI|Rage XL"
 0x1002	0x4750	"Card:ATI Mach64 Utah"	"ATI|3D Rage Pro 215GP"
 0x1002	0x4751	"Card:ATI Mach64 Utah"	"ATI|3D Rage Pro 215GQ"
-0x1002	0x4752	"Card:ATI Mach64 Utah"	"ATI|Rage XL"
+0x1002	0x4752	"Card:ATI Rage XL"	"ATI|Rage XL"
 0x1002	0x4753	"Card:ATI Mach64 Utah"	"ATI|Rage XC"
 0x1002	0x4754	"Card:ATI Mach64 3D RAGE II"	"ATI|3D Rage I/II 215GT [Mach64 GT]"
 0x1002	0x4755	"Card:ATI Mach64 3D RAGE II"	"ATI|3D Rage II+ 215GTB [Mach64 GTB]"
