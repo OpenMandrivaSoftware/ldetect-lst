@@ -1,3 +1,32 @@
+2003-09-22 14:01  Nicolas Planel <nplanel@mandrakesoft.com>
+
+	* ldetect-lst.spec: new ldetect
+
+2003-09-22 12:49  Nicolas Planel <nplanel@mandrakesoft.com>
+
+	* lst/: Cards+, pcitable: remove Radeon (gpl) entry, add Radeon
+	(fglrx) for card supporting commercial ATI driver (fglrx), update
+	pcitable
+
+2003-09-22 12:09  Fançois Pons <fpons@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.8-9mdk
+
+2003-09-22 12:06  Fançois Pons <fpons@mandrakesoft.com>
+
+	* lst/Cards+: added ATI Radeon (gpl) to avoid proprietary driver
+	fglrx which does not work with mobile chipset (maybe), or at least
+	340M.
+
+2003-09-22 12:05  Fançois Pons <fpons@mandrakesoft.com>
+
+	* lst/pcitable: mobile driver may not be supported by fglrx,
+	created ATI Radeon (gpl) for that.
+
+2003-09-19 15:36  Frederic Lepied <flepied@mandrakesoft.com>
+
+	* Makefile: run check in sprm target
+
 2003-09-19 13:37  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.8-8mdk
