@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.2
-%define release 22mdk
+%define release 23mdk
 
 Name: %{name}
 Version: %{version}
@@ -48,6 +48,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/*
 
 %changelog
+* Wed Sep 12 2001 Frederic Lepied <flepied@mandrakesoft.com> 0.1.2-23mdk
+- added matrox G550 pci id
+
 * Wed Sep  5 2001 Pixel <pixel@mandrakesoft.com> 0.1.2-22mdk
 - replace AM53C974 with tmscsim
 
