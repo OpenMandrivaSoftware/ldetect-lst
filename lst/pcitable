@@ -488,6 +488,7 @@
 0x102b	0x0525	0x102b	0x0f83	"Card:Matrox Millennium G450"	"Matrox|MGA G450 Low Profile DVI"
 0x102b	0x0525	0x1705	0x0001	"Card:Matrox Millennium G450"	"Matrox|MGA G450 32S"
 0x102b	0x0525	"Card:Matrox Millennium G400"	"Matrox|MGA G400 AGP"
+0x102b	0x2527	"Card:Matrox Millennium G550"	"Matrox|MGA G550 AGP"
 0x102b	0x0d10	"Card:Matrox Mystique"	"Matrox|MGA Ultima/Impression"
 0x102b	0x1000	"Card:Matrox Productiva G100"	"Matrox|MGA G100 [Productiva]"
 0x102b	0x1001	"Card:Matrox Productiva G100"	"Matrox|MGA G100 [Productiva] AGP"
