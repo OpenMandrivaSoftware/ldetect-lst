@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.39
+%define version 0.1.40
 %define release 1mdk
 
 Name: %{name}
@@ -64,6 +64,11 @@ fi
 %{_bindir}/*
 
 %changelog
+* Thu Jan  6 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.40-1mdk
+- add a new monitor (Marek Laane)
+- pcitable: fix wrong driver for a wifi card (#11393)
+- usbtable: sync with latest usb.ids
+
 * Wed Jan  5 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.39-1mdk
 - sync with kernel-2.6.10-mm1
 - clean DVB entries
