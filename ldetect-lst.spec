@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.42
+%define version 0.1.43
 %define release 1mdk
 
 Name: %{name}
@@ -64,6 +64,11 @@ fi
 %{_bindir}/*
 
 %changelog
+* Fri Jan  7 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.43-1mdk
+- add a Belinea monitor (Michael Braun)
+- add two LG monitors (Neoclust)
+- add support for Intel ICH7 sound card
+
 * Fri Jan  7 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.42-1mdk
 - add a Samsung monitor (Andres Kaaber)
 
