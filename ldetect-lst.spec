@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.2
-%define release 10mdk
+%define release 11mdk
 
 Name: %{name}
 Version: %{version}
@@ -48,6 +48,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/*
 
 %changelog
+* Mon Apr  9 2001 Pixel <pixel@mandrakesoft.com> 0.1.2-11mdk
+- added some usb stuff
+
 * Sat Mar 24 2001 Pixel <pixel@mandrakesoft.com> 0.1.2-10mdk
 - cleaned pcitable
 
