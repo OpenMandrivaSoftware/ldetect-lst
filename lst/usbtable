@@ -1106,6 +1106,7 @@
 0x08e9	0x0100	"irda-usb"	"Extended Systems, Inc.|XTNDAccess IrDA Dongle"
 0x08ec	0x0010	"Removable:memory_card"	"M-Systems|DiskOnKey"
 0x0919	0x0100	"unknown"	"Tiger Electronics|Fast Flicks Digital Camera"
+0x091e	0x0200	"unknown"	"Garmin International|USB Data Card Programmer"
 0x0921	0x0100	"belkin_sa"	"GoHubs, Inc.|"
 0x0921	0x1000	"belkin_sa"	"GoHubs, Inc.|"
 0x0921	0x1200	"belkin_sa"	""
