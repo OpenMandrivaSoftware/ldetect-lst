@@ -193,6 +193,7 @@
 0x046d	0xc401	"unknown"	"Logitech Inc.|TrackMan Marble Wheel"
 0x046d	0xc501	"unknown"	"Logitech Inc.|Cordless Mouse Receiver"
 0x046d	0xc503	"unknown"	"Logitech Inc.|Cordless Mouse+Keyboard Receiver"
+0x046d	0xc504	"Mouse:USB|Wheel"	"Logitech Inc.|Cordless Mouse+Keyboard Receiver"
 0x046d	0xd001	"unknown"	"Logitech Inc.|QuickCam Pro"
 0x046e	0x6782	"unknown"	"Behavior Tech. Computer|BTC 7932 keyboard"
 0x0471	0x0101	"unknown"	"Philips|DSS350 Digital Speaker System"
