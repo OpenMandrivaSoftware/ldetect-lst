@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.63
+%define version 0.1.64
 %define release 1mdk
 
 Name: %{name}
@@ -64,6 +64,12 @@ fi
 %{_bindir}/*
 
 %changelog
+* Fri Feb 18 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.64-1mdk
+- fix one missing iteraid -> it821x (#13740)
+- one more VIA SATA controller
+- sync Monitors DB with hwdata-0.150
+- Rev B iMac as the same eisa id as Rev A (danny)
+
 * Fri Feb 11 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.63-1mdk
 - fix kernel-2.4.x support for some i810-tco
 - fix dtc SCSI driver used instead of dmx3191d
