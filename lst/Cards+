@@ -226,11 +226,11 @@ CHIPSET CL-GD5464
 SEE Cirrus Logic GD5464
 
 # reported not working on SGI 1200 as of 02/22/2001 (RH)
+# reported working on XF 4.2.0 by Juan (MDK)
 NAME Cirrus Logic GD5480
 CHIPSET CL-GD5480
 SERVER SVGA
 DRIVER cirrus
-UNSUPPORTED
 NOCLOCKPROBE
 
 #tested
