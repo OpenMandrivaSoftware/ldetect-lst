@@ -1,3 +1,123 @@
+2002-09-12 15:00  tvignaud
+
+	* lst/pcitable: add a dvb and a saa7134 cards
+
+2002-09-12 14:27  dchaumette
+
+	* ldetect-lst.spec: 17mdk
+
+2002-09-12 12:27  prigaux
+
+	* lst/: Cards+, pcitable: add "sw_cursor" for card S3
+	Inc.|86C270-294 Savage/IX-MV [DISPLAY_VGA] (vendor:5333 device:8c12
+	subv:1179 subd:0001) as reported:
+	
+	> christoph.blume@gmx.de writes:
+	>
+	> > in RC2 I have following Problems. I must edit my XF86Config
+	> > File and set the "sw_cursor" Option for my graphic card. In
+	> > MDK 8.2 I can choose this during the installation, i think
+	> > this feature is good for beginners.
+	>
+	> [...]
+	>
+	> > My Computer is an Toshiba Satellite Pro 4310, Celeron 600,
+	> > 13"DSTN Display (800x600) and a Savage Graphics Chip.
+
+2002-09-12 12:26  prigaux
+
+	* lst/usbtable: add some removable entries
+
+2002-09-09 17:46  dchaumette
+
+	* lst/pcitable: - move last ISDN cards to "ISDN:module_name" syntax
+
+2002-09-06 17:05  tvignaud
+
+	* lst/pcitable: add ohci1394 driver to a few ohci controller on
+	fred request
+
+2002-09-06 14:18  nplanel
+
+	* lst/pcitable: Fixing 0x1028/0x000a name s/Si/Di/ (reported by
+	Dell)
+
+2002-09-05 18:10  fpons
+
+	* ldetect-lst.spec, lst/Cards+, lst/pcitable: fix for GeForce NV25
+	now using fbdev or nvidia instead of nv.
+
+2002-09-05 16:32  fpons
+
+	* lst/: Cards+, pcitable: GeForce4 0x10de/0x0250 only works with
+	fbdev
+
+2002-09-05 16:16  gc
+
+	* lst/pcitable: fix nplanel boulet * 2, only one TAB between fields
+
+2002-09-05 16:10  gc
+
+	* lst/pcitable: fix planel bouletrie (duplicate entry..)
+
+2002-09-05 16:05  gc
+
+	* ldetect-lst.spec: [no log message]
+
+2002-09-03 13:09  flepied
+
+	* lst/pcitable: corrected GeForce4 Ti4600 description
+
+2002-09-02 10:12  erwan
+
+	* lst/pcitable: Adding firewire module for vaio
+
+2002-08-29 16:50  nplanel
+
+	* lst/pcitable: Add new ID for qla2200 driver 0x1077/0x1216
+
+2002-08-29 16:37  nplanel
+
+	* lst/pcitable: Add new ID 0x10ec/0x8169 : Realtek Gigabit ethernet
+	adapter RTL8169
+
+2002-08-29 15:38  tvignaud
+
+	* lst/pcitable: add new sound driver
+
+2002-08-29 00:29  prigaux
+
+	* ldetect-lst.spec, convert/usb-removables.pl, lst/usbtable: - add
+	"Removable:floppy", "Removable:memory_card", "Removable:camera" -
+	usb-removables.pl is useful to update usbtable Removable:xxx based
+	on device descriptions
+
+2002-08-28 17:21  flepied
+
+	* lst/pcitable: added r128 from HP
+
+2002-08-27 00:35  prigaux
+
+	* ldetect-lst.spec, lst/pcitable, lst/usbtable: - fix syntax error
+	in usbtable (and prevent this to happen again)
+
+2002-08-27 00:34  prigaux
+
+	* convert/merge2pcitable.pl: enhance error detection (too many
+	double quotes)
+
+2002-08-26 23:49  siegel
+
+	* lst/pcitable: added another "ohci1394" card
+
+2002-08-26 09:10  pablo
+
+	* lst/MonitorsDB: Added 4 monitors
+
+2002-08-26 05:01  tvignaud
+
+	* ChangeLog, ldetect-lst.spec: 0.1.4-12mdk
+
 2002-08-26 00:16  tvignaud
 
 	* lst/usbtable: add dc100 webcam
