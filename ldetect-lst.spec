@@ -64,9 +64,12 @@ fi
 %{_bindir}/*
 
 %changelog
-* Thu Oct 28 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.23-1mdk
-- add support for FreeBox via USB link (buggy device make kernel
-  failed to map usbnet to it)
+* Thu Oct 28 2004 Gwenole Beauchesne <gbeauchesne@mandrakesoft.com> 0.1.23-1mdk
+- add Philips Semiconductors DSL card (blino)
+- use new megaraid_mbox for the following cards:
+  + 0x1000 0x0408  "megaraid_mbox" "LSI Logic / Symbios Logic|MegaRAID"
+  + 0x1000 0x0409  "megaraid_mbox" "LSI Logic / Symbios Logic|MegaRAID"
+  + 0x1028 0x0013  "megaraid_mbox" "Dell|PowerEdge Expandable RAID controller 4"
 
 * Thu Oct 28 2004 Gwenole Beauchesne <gbeauchesne@mandrakesoft.com> 0.1.22-1mdk
 - add nVidia Quadro FX 1100 card ID
