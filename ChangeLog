@@ -10,10 +10,6 @@
 
 	* lst/pcitable: add a couple of Radeon graphic cards
 
-2005-02-11 17:17  Thierry Vignaud <tvignaud@mandrakesoft.com>
-
-	* lst/pcitable: add a couple of Radeon graphic cards
-
 2005-02-11 17:16  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* lst/pcitable: sync with kernel-2.6.10-3mdk (one new ULI SATA
