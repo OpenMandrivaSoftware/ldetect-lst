@@ -12,3 +12,6 @@
 
 # checking the pcitable
 ./merge2pcitable.pl pcitable pcitable pcitable > /dev/null
+
+
+## do "ln -s ../lst/pcitable" first
