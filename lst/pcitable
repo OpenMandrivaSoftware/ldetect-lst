@@ -3906,6 +3906,7 @@
 0x1274	0x1371	"snd-ens1371"	"Creative Labs|Sound Blaster AudioPCI64V/AudioPCI128"
 0x1274	0x1373	"unknown"	"Ensoniq|ES1373 Sound Blaster Audio(PCI)"
 0x1274	0x5000	"snd-ens1370"	"Ensoniq|ES1370 [AudioPCI]"
+0x1274	0x5580	"snd-ens1371"	"Ensoniq|ES1371 [AudioPCI]"
 0x1274	0x5880	"es1371"	"Ensoniq|CT5880"
 0x1274	0x9876	"unknown"	"Ensoniq| "
 0x1278	0x0701	"unknown"	"Transtech Parallel Systems|TPE3/TM3 PowerPC Node"
