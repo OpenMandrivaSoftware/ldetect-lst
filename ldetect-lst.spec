@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.37
+%define version 0.1.38
 %define release 1mdk
 
 Name: %{name}
@@ -64,6 +64,11 @@ fi
 %{_bindir}/*
 
 %changelog
+* Thu Dec 23 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.38-1mdk
+- add support for Digigram PCXHR sound cards
+- fix description of a couple DELL cards and a couple Digigram cards
+- sync with kernels 2.6.10-rc3-mm1 and 2.6.8-10-rc3-bk16
+
 * Fri Dec  3 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.37-1mdk
 - disambiguate names of media devices (eg: DVB vs TV cards)
 - update incomplete descriptions from {pci,usb}.ids
