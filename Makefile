@@ -16,13 +16,16 @@ install: build
 	install update-ldetect-lst $(sbindir)
 	install convert/merge2pcitable.pl $(bindir)
 
-rpm: check clean $(RPM)
+rpm: srpm
+	rpm -bb --clean --rmsource --rmspec $(RPM)/SPECS/$(project).spec
+
+srpm: check clean $(RPM)
 	(echo "# !! DON'T MODIFY HERE, MODIFY IN THE CVS !!" ; \
          cat $(project).spec \
         ) > $(RPM)/SPECS/$(project).spec
 
 	(cd .. ; tar cfj $(RPM)/SOURCES/$(project).tar.bz2 $(project))
-	rpm -ba --clean --rmsource --rmspec $(RPM)/SPECS/$(project).spec
+	rpm -bs $(RPM)/SPECS/$(project).spec
 
 changelog:
 	cvs2cl -U ../common/username -I ChangeLog 
