@@ -73,20 +73,22 @@ sub read_kernel_pcimap {
 sub read_pciids {
     my ($f) = @_;
     my %drivers;
-    my ($id1, $id2, $class, $line);
+    my ($id1, $id2, $class, $line, $text);
     open F, $f or die "read_pciids: can't open $f\n";
     foreach (<F>) {
 	chomp; $line++;
 	next if /^#/ || /^;/ || /^\s*$/;
 	if (/^C\s/) {
 	    last;
-	} elsif (/^\t\t(\S+)\s+(\S+)\s+(.*)/) {
+	} elsif (my ($subid1, $subid2, $text) = /^\t\t(\S+)\s+(\S+)\s+(.*)/) {
+	    $text =~ s/\t/ /g;
 	    $id1 && $id2 or die "$f $line: unexpected device\n";
-	    $drivers{"$id1$id2$1$2"} = [ "unknown", "$class|$3" ];
+	    $drivers{"$id1$id2$subid1$subid2"} = [ "unknown", "$class|$text" ];
 	} elsif (/^\t(\S+)\s+(.*)/) {
-	    $id2 = $1;
+	    ($id2, $text) = ($1, $2);
+	    $text =~ s/\t/ /g;
 	    $id1 && $id2 or die "$f $line: unexpected device\n";
-	    $drivers{"$id1${id2}ffffffff"} = [ "unknown", "$class|$2" ];
+	    $drivers{"$id1${id2}ffffffff"} = [ "unknown", "$class|$text" ];
 	} elsif (/^(\S+)\s+(.*)/) {
 	    $id1 = $1;
 	    $class = $class{$2} || $2;
