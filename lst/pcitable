@@ -2167,7 +2167,7 @@
 0x15dc	0x0001	"unknown"	"Litronic Inc|Argus 300 PCI Cryptography Module"
 0x1619	0x0400	"farsync"	""
 0x1619	0x0440	"farsync"	""
-0x1668	0x0408	"unknown"	"Actiontec WanLan"
+0x1668	0x0408	"unknown"	"Actiontec WaveLan (USB)"
 0x1813	0x4000	"unknown"	"Modem Silicon Operation|MD563X Host Acceletrated Modem"
 0x1850	0x1851	"bttv"	"Chronos|Video Shuttle II"
 0x1851	0x1851	"bttv"	"CyberMail AV"
