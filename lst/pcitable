@@ -2733,7 +2733,7 @@
 0x10ec	0x8129	"8139too"	"Realtek|RTL-8129"
 0x10ec	0x8131	"unknown"	"Realtek Semiconductor| "
 0x10ec	0x8138	"8139too"	"Realtek|RT8139 (B/C) Cardbus Fast Ethernet Adapter"
-0x10ec	0x8139	"8139too"	"Realtek|RTL-8139"
+0x10ec	0x8139	"8139cp"	"Realtek|RTL-8139"
 0x10ec	0x8169	"r8169"	"Realtek|RTL-8169"
 0x10ec	0x8180	"unknown"	"Realtek Semiconductor|RTL8180 Realtek RTL8180 Wireless LAN (Mini-)PCI NIC"
 0x10ec	0x8197	"slamr"	"Realtek Semiconductor Co., Ltd.|SmartLAN56 56K Modem"
