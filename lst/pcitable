@@ -643,7 +643,7 @@
 0x104a	0x0008	"unknown"	"SGS Thomson|STG 2000X"
 0x104a	0x0009	"unknown"	"SGS Thomson|STG 1764X"
 0x104a	0x0010	"Card:KYRO Series"	"ST Microelectronics|Kyro series"
-0x104a	0x0500	"ADSL:bewan"	"Bewan Systems|PCI ADSL Modem [model] from"
+0x104a	0x0500	"ADSL:unicorn"	"Bewan Systems|PCI ADSL Modem [model] from"
 0x104a	0x0981	"tulip"	"ST Microelectronics| Ethernet Controller"
 0x104a	0x1746	"unknown"	"SGS Thomson|STG 1764X"
 0x104a	0x2774	"tulip"	"ST Microelectronics|STE10/100A PCI 10/100 Ethernet Controller"
