@@ -1256,6 +1256,7 @@ Hansol Electronics; Hansol Electronics Mazellan900P; hsl076d; 30.0-96.0; 47.0-15
 HCI; HCI Maxiscan; maxiscan; 15.0-35.0; 50.0-70.0; 1
 Hewlett-Packard; HP 1024 LCD Flat Panel 14-inch Display; 0; 32-61; 50-90
 Hewlett-Packard; HP 1024 LE Flat Panel 14-inch Display; 0; 32-54; 50-105
+Hewlett-Packard; HP 2025 (P4831) 20.2-inch LCD Monitor; hwp144a; 30-94; 56-85; 1
 Hewlett-Packard; HP A1295A 24-inch Display; 0; 30-96; 50-160; 1
 Hewlett-Packard; HP A4033A 21-inch Display; 0; 30-80; 50-120; 1
 Hewlett-Packard; HP A4331A 20-inch Display; 0; 30-82; 48-150; 1
@@ -1364,7 +1365,7 @@ Hewlett-Packard; HP M720 17-inch Display; 0; 30-85; 50-150
 Hewlett-Packard; HP M900 19-inch Display; 0; 31-95; 50-150
 Hewlett-Packard; HP M910 19-inch Display; 0; 29-107; 50-150
 Hewlett-Packard; HP M920 19-inch Display; 0; 29-107; 50-150
-Hewlett-Packard; HP P4829J L1820 18.1-inch LCD Monitor; 0; 25-82; 54-88; 1
+Hewlett-Packard; HP P4829 L1820 18.1-inch LCD Monitor; hwp12dd; 31-80; 56-75; 1
 Hewlett-Packard; HP Pavilion M45/S40 Monitor; hwp14b2; 31.468-50.0; 56.0-75.0; 1
 Highscreen; Highscreen LE 1024; 45; 31.4-31.6,35.1-35.2,35.5-35.6; 50-87
 Hitachi, Ltd.; Hitachi 20-AP; 20-ap; 30.0-65.0; 55.0-80.0; 1
