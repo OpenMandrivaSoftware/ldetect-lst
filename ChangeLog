@@ -1,3 +1,57 @@
+2004-02-12 18:20  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.9-5mdk
+
+2004-02-12 18:04  Nicolas Planel <nplanel@mandrakesoft.com>
+
+	* lst/pcitable: remove ata_piix support for 24d1 device, ata_piix
+	  is unable to use some ATAPI device in combined mode
+
+2004-02-12 15:40  Nicolas Planel <nplanel@mandrakesoft.com>
+
+	* lst/pcitable: new id from ATI driver must be (fbdev) ...
+	  unsupported by radeon XFree driver
+
+2004-02-12 14:58  Nicolas Planel <nplanel@mandrakesoft.com>
+
+	* lst/pcitable: s/airo_mpi/airo/
+
+2004-02-12 14:56  Nicolas Planel <nplanel@mandrakesoft.com>
+
+	* ldetect-lst.spec, lst/pcitable: update ATI fglrx id
+
+2004-02-12 13:51  Frederic Lepied <flepied@mandrakesoft.com>
+
+	* lst/: Cards+, pcitable: added SiS Real256E
+
+2004-02-11 16:56  adelorbeau
+
+	* lst/usbtable: Add a Bluetooth USB key
+
+2004-02-10 01:25  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/MonitorsDB: remove empty line from hwdata
+
+2004-02-10 01:25  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/MonitorsDB: sort acer monitors
+
+2004-02-10 00:30  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/MonitorsDB: hwdata actually contained a typo :-)
+
+2004-02-10 00:29  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/MonitorsDB: partial merge with rh's hwdata-0.105
+
+2004-02-10 00:23  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/MonitorsDB: add support for CTL 910TF monitor (#7664)
+
+2004-02-09 19:34  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: fix module for Zoran ZR36057PQC device (#7654)
+
 2004-02-09 13:32  Pixel <pixel@mandrakesoft.com>
 
 	* ldetect-lst.spec: all graphic cards now have a DRIVER
