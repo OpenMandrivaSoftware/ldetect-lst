@@ -2062,7 +2062,7 @@
 0x10b5	0x2288	"unknown"	"PLX Technology|Chrislin Industries Memory"
 0x10b5	0x2724	"unknown"	"PLX Technology, Inc.|Thales PCSM Security Card"
 0x10b5	0x2bd0	"ISDN:hisax,type=34"	"PLX Technology, Inc.|Gazel ISDN Adapter"
-0x10b5	0x9030	"snd-vx222"	"PLX Technology|PCI 9030 PCI SMARTarget I/O Accelerator"
+0x10b5	0x9030	"snd-vx222"	"Digigram|VX222"
 0x10b5	0x9036	"unknown"	"PLX Technology, Inc.|9036"
 0x10b5	0x9050	0x10b5	0x1067	"unknown"	"PLX Technology, Inc.|IXXAT CAN i165"
 0x10b5	0x9050	0x10b5	0x1172	"unknown"	"PLX Technology, Inc.|IK220 (Heidenhain)"
