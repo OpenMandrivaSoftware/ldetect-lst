@@ -2230,6 +2230,7 @@ DRI_GLX
 
 NAME Intel 915
 DRIVER i810
+# DRI_GLX # only supported in X.org-6.8.0 
 
 NAME Voodoo Banshee (generic)
 DRIVER tdfx
