@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.22
+%define version 0.1.23
 %define release 1mdk
 
 Name: %{name}
@@ -64,6 +64,10 @@ fi
 %{_bindir}/*
 
 %changelog
+* Thu Oct 28 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.23-1mdk
+- add support for FreeBox via USB link (buggy device make kernel
+  failed to map usbnet to it)
+
 * Thu Oct 28 2004 Gwenole Beauchesne <gbeauchesne@mandrakesoft.com> 0.1.22-1mdk
 - add nVidia Quadro FX 1100 card ID
 - add support for FreeBox via USB link (buggy device make kernel
