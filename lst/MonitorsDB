@@ -736,6 +736,19 @@ CTX; CTX VL710 series, EX710 series; ctx3660; 30.0-92.0; 50.0-160.0; 1
 CTX; CTX VL710 series, EX710 series; ctx3661; 30.0-92.0; 50.0-160.0; 1
 CTX; CTX VL950 series, EX950 series, PL9 series; ctx3700; 30.0-95.0; 50.0-160.0; 1
 CTX; CTX VL950 series, EX950 series, PL9 series; ctx3710; 30.0-95.0; 50.0-160.0; 1
+Cybervision; Cybervision C40; CYB5031; 30-50; 50-90; 1
+Cybervision; Cybervision C50; CYB5331; 30-50; 50-90; 1
+Cybervision; Cybervision C52; CYB5332; 30-70; 50-90; 1
+Cybervision; Cybervision C70; CYB5631; 30-70; 50-90; 1
+Cybervision; Cybervision C72; CYB5632; 30-70; 50-120; 1
+Cybervision; Cybervision C92; CYB5931; 30-85; 50-150; 1
+Cybervision; Cybervision C112; CYB3131; 30-95; 50-150; 1
+Cybervision; Cybervision CP21; CYB5032; 30-50; 50-75; 1
+Cybervision; Cybervision CP45; CYB5333; 30-62; 50-75; 1
+Cybervision; Cybervision C50-2; CYB5434; 30-54; 50-100; 1
+Cybervision; Cybervision C52-2; CYB5334; 30-70; 50-120; 1
+Cybervision; Cybervision C70-2; CYB5635; 30-70; 50-120; 1
+Cybervision; Cybervision C72-2; CYB5637; 30-70; 50-120; 1
 Daewoo; Daewoo 1509B; dwe5093; 30.0-69.0; 50.0-120.0; 1
 Daewoo; Daewoo 1705B; dwe7053; 30.0-69.0; 50.0-120.0; 1
 Daewoo; Daewoo 431X; dwe4312; 30.0-54.0; 50.0-120.0; 1
