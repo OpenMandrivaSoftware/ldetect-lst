@@ -48,7 +48,10 @@ buildrpm:
 
 # rules to build a distributable rpm
 
-rpm: changelog cvstag dist buildrpm
+srpm: changelog cvstag dist
+	rpm -ts $(PACKAGE)-$(VERSION).tar.bz2
+
+rpm: srpm buildrpm
 
 dist: cleandist dir export tar
 
