@@ -1,3 +1,17 @@
+2004-04-05 11:17  Erwan Velu <erwan@mandrakesoft.com>
+
+	* lst/pcitable: Fixing empty strings
+
+2004-03-29 17:51  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/MonitorsDB: add a new samsung monitor (Alojz Stanich
+	  <ostijarej@volja.net>)
+
+2004-03-29 10:49  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: geforce 4 => fx (cosmetic change since they're
+	  aliased anyway)
+
 2004-03-25 12:29  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.9-13mdk
