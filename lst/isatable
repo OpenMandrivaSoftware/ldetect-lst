@@ -1746,6 +1746,7 @@
 "SUP0980"	"unknown"	"Diamon|SupraFAXModem V.32bis PnP"	"modem"	""
 "SUP1150"	"unknown"	"Diamond|SupraExpress 144 Plus PnP"	"modem"	""
 "SUP1200"	"unknown"	"Diamond|SupraFAXModem 288 PnP"	"modem"	""
+"SUP1250"	"unknown"	"Diamond|??"	"modem"	""
 "SUP1230"	"unknown"	"Diamond|SupraExpress 144i PnP"	"modem"	""
 "SUP1250"	"unknown"	"Diamond|SupraExpress 288"	"modem"	""
 "SUP1330"	"unknown"	"Diamond|SupraSonic 288V+ PnP"	"modem"	""
