@@ -724,6 +724,7 @@
 "ICL1400"	"unknown"	"Fujitsu|ICL ErgoPro 142v"	"unknown"	""
 "ICLA080"	"unknown"	"Fujitsu|ICL EtherTeam 32 EISA 32-bit Ethernet Controller"	""
 "ICLA090"	"unknown"	"ICL|EtherTeam PCI/ISA Ethernet Adapter"	"unknown"	""
+"ICM1234"	"unknown"	"Apache|A56SP-HCF"	"modem"	""
 "ICU0010"	"unknown"	"Intel|SatisFAXtion Modem/400"	"modem"	""
 "ICU0020"	"unknown"	"Intel|SatisFAXtion Modem/100"	"modem"	""
 "ICU0030"	"unknown"	"Digi|DigiChannel PC/4E Serial Adapter"	"unknown"	""
