@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.2
-%define release 12mdk
+%define release 13mdk
 
 Name: %{name}
 Version: %{version}
@@ -48,6 +48,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/*
 
 %changelog
+* Tue Apr 10 2001 Frederic Lepied <flepied@mandrakesoft.com> 0.1.2-13mdk
+- added GeForce3 and CyberBlade/Xpm entries
+
 * Tue Apr 10 2001 François Pons <fpons@mandrakesoft.com> 0.1.2-12mdk
 - added Trident CyberBladeXP.
 
