@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.2
-%define release 28mdk
+%define release 29mdk
 
 Name: %{name}
 Version: %{version}
@@ -8,7 +8,6 @@ Release: %{release}
 Summary: Hardware list for the light detection library
 Source: %{name}.tar.bz2
 Group: System/Libraries
-BuildArchitectures: noarch
 BuildRoot: %{_tmppath}/%{name}-buildroot
 License: GPL
 Prefix: %{_prefix}
@@ -48,6 +47,10 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/*
 
 %changelog
+* Mon Oct  8 2001 Gwenole Beauchesne <gbeauchesne@mandrakesoft.com> 0.1.2-29mdk
+- Arch-dependent pcitable and usbtable
+- On IA-64, suggest "e100" driver for devices = { 0x1229, 0x2449 }
+
 * Tue Oct 02 2001 Yves Duret <yduret@mandrakesoft.com> 0.1.2-28mdk
 - fix typo in usb scanner
 
