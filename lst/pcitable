@@ -5921,7 +5921,7 @@
 0x8086	0x257e	"unknown"	"Intel Corp.|82875P Processor to I/O Memory Interface"
 0x8086	0x2580	"intel-agp"	"Intel Corp.|Memory Controller Hub"
 0x8086	0x2581	"unknown"	"Intel Corp.|Memory Controller Hub PCI Express Port"
-0x8086	0x2582	"Card:Intel 915"	"Intel Corp.|Graphics Controller"
+0x8086	0x2582	"Card:Intel 915"	"Intel Corp.|82915G Express Chipset Family Graphics Controller"
 0x8086	0x2584	"unknown"	"Intel Corp.|Workstation Memory Controller Hub"
 0x8086	0x2585	"unknown"	"Intel Corp.|Workstation Memory Controller Hub PCI Express Port"
 0x8086	0x2588	"unknown"	"Intel Corp.|Server Memory Controller Hub"
