@@ -1246,7 +1246,7 @@ DRIVER USB
 COMMENT Mostly OK
 UNSUPPORTED
 
-NAME HP ScanJet 2200C
+NAME Hewlett-Packard|ScanJet 2200C
 SERVER plustek
 DRIVER USB
 COMMENT Mostly OK
@@ -1362,6 +1362,12 @@ NAME AGFA-Gevaert NV|SnapScan 1212u
 SERVER SnapScan
 DRIVER USB
 COMMENT Ditto. Have no specific programming info yet.
+
+NAME AGFA-Gevaert NV|Snapscan Touch
+SERVER snapscan
+DRIVER USB
+COMMENT seems to be a hp3300c
+UNSUPPORTED
 
 NAME AGFA-Gevaert NV|SnapScan e20
 SERVER SnapScan
