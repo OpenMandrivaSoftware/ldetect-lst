@@ -29,7 +29,7 @@ rm -f pcids.htm ; wget http://www.begent.co.uk/pcids.htm
 # with a new kernel
 (cd ~/tmp ; rm -rf lib ; rpm2cpio /RPMS/kernel-2.4.*.rpm |cpio -id './lib/modules/*/modules.*map')
 cp -f ~/tmp/lib/modules/*/modules.{pci,usb}map .
-rm -rf lib
+rm -rf ~/tmp/lib
 ./merge2pcitable.pl kernel_pcimap modules.pcimap pcitable > pcitable.new
 ./merge2pcitable.pl kernel_usbmap modules.usbmap usbtable > usbtable.new
 
