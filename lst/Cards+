@@ -2186,6 +2186,8 @@ DRIVER fbdev
 NAME NVIDIA GeForce3 (generic)
 SEE NVIDIA GeForce
 
+NAME NVIDIA GeForce4 (generic)
+SEE NVIDIA GeForce
 # IMS
 
 NAME IMS TwinTurbo (generic)
