@@ -3284,6 +3284,7 @@
 0x8086	0x103c	"eepro100"	"Intel Corporation|EtherExpress PRO/100"
 0x8086	0x103d	"eepro100"	"Intel Corp.|82801BD PRO/100 VE (MOB) Ethernet Controller"
 0x8086	0x103e	"eepro100"	"Intel Corp.|82801BD PRO/100 VM (MOB) Ethernet Controller"
+0x8086	0x1040	"unknown"	"Intel Corp.|536EP v.92 modem (MD5628D-L-C ?)"
 0x8086	0x1059	"eepro100"	"Intel Corp.|82551QM Ethernet Controller"
 0x8086	0x1100	"unknown"	"Intel Corporation|82815 Host-Hub Interface Bridge / DRAM Ctrlr"
 0x8086	0x1101	"unknown"	"Intel Corporation|82815 AGP Bridge"
