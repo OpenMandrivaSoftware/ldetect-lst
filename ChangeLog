@@ -24,7 +24,7 @@
 
 	* lst/: Cards+, pcitable: added SiS Real256E
 
-2004-02-11 16:56  adelorbeau
+2004-02-11 16:56  Arnaud de Lorbeau <adelorbeau@mandrakesoft.com>
 
 	* lst/usbtable: Add a Bluetooth USB key
 
@@ -189,11 +189,11 @@
 	* ldetect-lst.spec, lst/MonitorsDB: - add 2 monitors (thanks to
 	  Frederik Himpe, bugzilla #6710)
 
-2003-12-17 23:28  tkamppeter
+2003-12-17 23:28  Till Kamppeter <till@mandrakesoft.com>
 
 	* lst/ScannerDB: Updated ScannerDB for SANE 1.0.13.
 
-2003-12-15 03:31  tkamppeter
+2003-12-15 03:31  Till Kamppeter <till@mandrakesoft.com>
 
 	* lst/scannerconfigs: Support for scanner firmware upload.
 
@@ -273,7 +273,7 @@
 
 	* lst/pcitable: Adding ENE CB 710
 
-2003-10-23 19:17  adelorbeau
+2003-10-23 19:17  Arnaud de Lorbeau <adelorbeau@mandrakesoft.com>
 
 	* lst/pcitable: Broadcom NIC (14e4 1696): bcm5700 --> tg3
 
@@ -428,7 +428,7 @@
 
 	* lst/Cards+: added Radeon card support with fglrx (as DRIVER2).
 
-2003-09-09 22:09  tkamppeter
+2003-09-09 22:09  Till Kamppeter <till@mandrakesoft.com>
 
 	* lst/: ScannerDB, scannerconfigs: Updated scanner database for
 	SANE 1.0.12.
@@ -622,7 +622,7 @@
 	Version.  (I had a guy at de.comp.os.unix.linux.isdn with this card
 	and mandrake 9.1)
 
-2003-07-31 22:06  adelorbeau
+2003-07-31 22:06  Arnaud de Lorbeau <adelorbeau@mandrakesoft.com>
 
 	* lst/pcitable: Changing back the sound drivers from i810_audio to
 	snd-intel8x0 for the following cards: 8086 24c5 / 8086 24d5 / 10de
@@ -791,19 +791,19 @@
 
 	* ldetect-lst.spec: 0.1.7-11mdk
 
-2003-03-25 14:43  adelorbeau
+2003-03-25 14:43  Arnaud de Lorbeau <adelorbeau@mandrakesoft.com>
 
 	* lst/pcitable: Correction for the intel sound card
 
-2003-03-20 20:12  adelorbeau
+2003-03-20 20:12  Arnaud de Lorbeau <adelorbeau@mandrakesoft.com>
 
 	* ldetect-lst.spec: Forgot to change the version tag
 
-2003-03-20 19:35  adelorbeau
+2003-03-20 19:35  Arnaud de Lorbeau <adelorbeau@mandrakesoft.com>
 
 	* ldetect-lst.spec: New package for the intel sound card.
 
-2003-03-20 19:32  adelorbeau
+2003-03-20 19:32  Arnaud de Lorbeau <adelorbeau@mandrakesoft.com>
 
 	* lst/pcitable: Move an intel sound card from i810_rng to
 	i810_audio because rng do not work very well with this sound card.
@@ -866,7 +866,7 @@
 
 	* lst/pcitable: integrated NVidia ids from XFree 4.3
 
-2003-02-28 20:19  adelorbeau
+2003-02-28 20:19  Arnaud de Lorbeau <adelorbeau@mandrakesoft.com>
 
 	* lst/pcitable: Modifie the 3c920 Tornado to use the module 3c90x
 	(added in the last kernel)
@@ -929,16 +929,16 @@
 	* lst/pcitable: added 0x8086 0x1960 0x0e11 0xc000 "Compaq Computer
 	Corporation|Remote Insight Controller"
 
-2003-02-17 05:14  tkamppeter
+2003-02-17 05:14  Till Kamppeter <till@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.7-3mdk
 
-2003-02-14 23:55  tkamppeter
+2003-02-14 23:55  Till Kamppeter <till@mandrakesoft.com>
 
 	* lst/: ScannerDB, scannerconfigs: Added some missing drivrs to
 	ScannerDB, Updates for SANE patches.
 
-2003-02-14 23:28  adelorbeau
+2003-02-14 23:28  Arnaud de Lorbeau <adelorbeau@mandrakesoft.com>
 
 	* lst/pcitable: Correction ohci => ehci
 
@@ -950,7 +950,7 @@
 
 	* Makefile: make log computation faster, do incremental log
 
-2003-02-13 02:34  tkamppeter
+2003-02-13 02:34  Till Kamppeter <till@mandrakesoft.com>
 
 	* lst/: Makefile, ScannerDB, scannerconfigs: Restructured and
 	updated ScannerDB. For easy, fully automatic generation of
@@ -963,11 +963,11 @@
 
 	* ldetect-lst.spec: 0.1.7-1mdk
 
-2003-02-12 16:15  adelorbeau
+2003-02-12 16:15  Arnaud de Lorbeau <adelorbeau@mandrakesoft.com>
 
 	* lst/pcitable: Add intel USB controller
 
-2003-02-10 22:16  adelorbeau
+2003-02-10 22:16  Arnaud de Lorbeau <adelorbeau@mandrakesoft.com>
 
 	* lst/pcitable: Add bcm4400 and bcm5700 for two network cards.
 
@@ -1515,11 +1515,11 @@
 	* Makefile: split rpm target into rpm and srpm target as i did for
 	ldetect
 
-2002-08-20 15:54  tkamppeter
+2002-08-20 15:54  Till Kamppeter <till@mandrakesoft.com>
 
 	* lst/usbtable: s/Seiko Epson/Epson/ ("Seiko" confuses the users).
 
-2002-08-20 15:26  tkamppeter
+2002-08-20 15:26  Till Kamppeter <till@mandrakesoft.com>
 
 	* lst/usbtable: s/Epson/Seiko Epson/ (to match with names in
 	ScannerDB).
@@ -1532,12 +1532,12 @@
 
 	* lst/usbtable: fix broken stuff comitted by till
 
-2002-08-20 00:19  tkamppeter
+2002-08-20 00:19  Till Kamppeter <till@mandrakesoft.com>
 
 	* lst/ScannerDB: Added new Epson models to scanner database for
 	scannerdrake.
 
-2002-08-19 22:14  tkamppeter
+2002-08-19 22:14  Till Kamppeter <till@mandrakesoft.com>
 
 	* lst/usbtable: Added new scanner models: Epson Perfection 660,
 	1660 Photo, 2400 Photo Added photo card readers of Epson Stylus
