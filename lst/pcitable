@@ -3017,7 +3017,7 @@
 0x11d5	0x0117	"unknown"	"Ikon Corporation|10117"
 0x11d5	0x0118	"unknown"	"Tahoma Technology|10118 DR11-W emulator"
 0x11db	0x1234	"8139too"	"Sega Enterprises Ltd|Dreamcast Broadband Adapter"
-0x11de	0x6057	"buz"	"Zoran Corporation|ZR36057PQC Video cutting chipset"
+0x11de	0x6057	"zr36067"	"Zoran Corporation|ZR36057PQC Video cutting chipset"
 0x11de	0x6120	"ISDN:hisax"	"Zoran Corporation|ZR36120 ISDN Adapter"
 0x11de	0x9876	"unknown"	"Zoran Corporation| "
 0x11e3	0x5030	"pcwd"	"Quicklogic Corporation|PC Watchdog"
