@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.59
+%define version 0.1.60
 %define release 1mdk
 
 Name: %{name}
@@ -64,6 +64,12 @@ fi
 %{_bindir}/*
 
 %changelog
+* Wed Feb  9 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.60-1mdk
+- add 2 missing mxser entries from kernel-2.6.10-1mdk
+- add a radeon LE
+- fix a cople of descriptions (mostly ipw2200 and i915)
+- fix support for one modem (vincent guardiola)
+
 * Tue Feb  8 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.59-1mdk
 - sync with latest usb.ids
 - sync with latest pci.ids
