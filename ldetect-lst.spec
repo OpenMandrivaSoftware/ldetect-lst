@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.64
+%define version 0.1.65
 %define release 1mdk
 
 Name: %{name}
@@ -63,6 +63,10 @@ fi
 %{_bindir}/*
 
 %changelog
+* Mon Feb 21 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.65-1mdk
+- fill in missing Radeon descriptions
+- update scanner database for SANE 1.0.15 (till)
+
 * Fri Feb 18 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.64-1mdk
 - fix one missing iteraid -> it821x (#13740)
 - one more VIA SATA controller
