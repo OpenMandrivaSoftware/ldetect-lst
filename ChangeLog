@@ -1,3 +1,43 @@
+2003-09-07 19:50  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.8-3mdk
+
+2003-09-07 00:02  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: fix #1837: make ldetect awawre of acx100_pci
+
+2003-09-06 20:05  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/MonitorsDB: add one more monitor from mattias through Todd
+	Lyons
+
+2003-09-06 15:20  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/MonitorsDB: add 2 new monitors (#4989 and one from Ivan
+	Kerekes)
+
+2003-09-04 10:26  Fançois Pons <fpons@mandrakesoft.com>
+
+	* ldetect-lst.spec: incomming 0.1.8-3mdk
+
+2003-09-04 10:25  Fançois Pons <fpons@mandrakesoft.com>
+
+	* lst/Cards+: make Mach64 now use Utah GLX in experimental mode
+	(who still want to use XFree 3.3.6 against XFree 4.3 ;-))
+
+2003-09-02 19:07  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/MonitorsDB: one more monitor from jean-claude ben
+
+2003-09-01 13:04  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/usbtable: enforce "Vendor|Descr" syntax
+
+2003-08-31 23:42  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/usbtable: describe for some isdn usb adatators (Steffen
+	Barszus)
+
 2003-08-29 14:34  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.8-2mdk
