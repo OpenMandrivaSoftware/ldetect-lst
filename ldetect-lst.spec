@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.7
-%define release 15mdk
+%define release 16mdk
 
 Name: %{name}
 Version: %{version}
@@ -64,6 +64,11 @@ fi
 %{_bindir}/*
 
 %changelog
+* Thu Jul 24 2003 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.7-16mdk
+- fix incorrect driver for Envy24HT (#4257 : Eric Fernandez)
+- fix one phillips saa7146 card module (Steffen Barszus)
+- describe one unknown bcm card (Alastair Wiggins)
+
 * Fri Jun 27 2003 Nicolas Planel <nplanel@mandrakesoft.com> 0.1.7-15mdk
 - Add new ICH5 ID
 - 3com 3c940
