@@ -2,6 +2,9 @@
 # How to merge the pcitable with various source:
 #
 # update pciutils
+# PS:
+#  A pciids with more accurate information are available from
+#  http://www.yourvote.com/pci/vendors.txt
 ./merge2pcitable.pl pciids /usr/share/pci.ids pcitable > pcitable.new
 
 # with redhat's pcitable in /tmp/rh_pcitable (from kudzu or anaconda)
@@ -12,6 +15,5 @@
 
 # checking the pcitable
 ./merge2pcitable.pl pcitable pcitable pcitable > /dev/null
-
 
 ## do "ln -s ../lst/pcitable" first
