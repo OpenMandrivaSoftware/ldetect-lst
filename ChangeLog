@@ -1,3 +1,30 @@
+2005-03-31 15:31  Thierry Vignaud <tvignaud at mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.80-1mdk
+
+2005-03-31 15:16  Thierry Vignaud <tvignaud at mandrakesoft.com>
+
+	* lst/pcitable: orinoco_plx no more supports this device whereas
+	  hostap_plx does
+
+2005-03-31 15:15  Thierry Vignaud <tvignaud at mandrakesoft.com>
+
+	* lst/pcitable: aic79xx no more supports this device whereas
+	  aic7xxx does
+
+2005-03-31 14:51  Thierry Vignaud <tvignaud at mandrakesoft.com>
+
+	* lst/pcitable: this device is no more managed bu atiixp
+
+2005-03-31 14:49  Thierry Vignaud <tvignaud at mandrakesoft.com>
+
+	* lst/pcitable: these devices are no more supported by ahci :-(
+
+2005-03-31 14:43  Thierry Vignaud <tvignaud at mandrakesoft.com>
+
+	* lst/pcitable: qla6322 has been obsoleted by qla6322 and no more
+	  exists
+
 2005-03-30 17:18  Thierry Vignaud <tvignaud at mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.79-1mdk
