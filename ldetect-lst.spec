@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.9
-%define release 3mdk
+%define release 4mdk
 
 Name: %{name}
 Version: %{version}
@@ -64,6 +64,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Mon Feb  9 2004 Pixel <pixel@mandrakesoft.com> 0.1.9-4mdk
+- all graphic cards now have a DRIVER
+
 * Sun Feb  8 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.9-3mdk
 - sync with kernel-2.6.2.1mdk, rh's hwdata-0.105 and http://www.pcidatabase.com
 
