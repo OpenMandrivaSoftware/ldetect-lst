@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.35
+%define version 0.1.36
 %define release 1mdk
 
 Name: %{name}
@@ -64,6 +64,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Thu Dec  2 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.36-1mdk
+- sync with debian's discover
+
 * Thu Dec  2 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.35-1mdk
 - add two new geforce cards and a score of fiber channel cards
 
