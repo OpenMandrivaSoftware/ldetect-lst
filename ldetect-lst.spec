@@ -75,7 +75,7 @@ fi
     * hw_random replaced both amd7xx_tco, amd768_rng and i810_rngb
     * pc300 replaced pc300too
     * tmspci replaced sktr
-    * tulip replaced tulip_old
+    * tulip replaced tulip_old (#10965)
   o remove bogus 0xffff 0xffff entry
   o introduce bt878
   o introduce sata_sx4 instead of sata_promise for one controller
