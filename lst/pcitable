@@ -1503,7 +1503,7 @@
 0x1179	0x0404	"unknown"	"Toshiba|DVD Decoder card"
 0x1179	0x0406	"unknown"	"Toshiba|Tecra Video Capture device"
 0x1179	0x0407	"unknown"	"Toshiba|DVD Decoder card (Version 2)"
-0x1179	0x0601	"Card:Trident Cyber 9525 (generic)"	"Toshiba|601 [Laptop]"
+0x1179	0x0601	"unknown"	"Toshiba|601 [Laptop]"
 0x1179	0x0602	"unknown"	"Toshiba America Info Systems|PCI to ISA Bridge for Notebooks"
 0x1179	0x0603	"i82365"	"Toshiba|ToPIC95 PCI to CardBus Bridge for Notebooks"
 0x1179	0x0604	"unknown"	"Toshiba America Info Systems|PCI to PCI Bridge for Notebooks"
