@@ -1,3 +1,22 @@
+2004-02-09 13:32  Pixel <pixel@mandrakesoft.com>
+
+	* ldetect-lst.spec: all graphic cards now have a DRIVER
+
+2004-02-09 11:27  Nicolas Planel <nplanel@mandrakesoft.com>
+
+	* lst/pcitable: fixup ehci-hcd for Acer USB2.0 controller
+
+2004-02-09 11:13  Pixel <pixel@mandrakesoft.com>
+
+	* lst/Cards+: - remove many UNSUPPORTED allowing using DRIVER for
+	  those cards - S3 Trio 3D is handled by driver s3virge (bugzilla
+	  #7583)
+
+2004-02-09 11:12  Pixel <pixel@mandrakesoft.com>
+
+	* convert/verify_Cards.pl: check "Driver" availability since XF3.3
+	  is now in contrib
+
 2004-02-08 04:09  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* ldetect-lst.spec, lst/Cards+: roll back "prevent spurious "SiS|"
