@@ -54,7 +54,7 @@ fi
 
 %files
 %defattr(-,root,root)
-%doc ChangeLog
+%doc AUTHORS ChangeLog
 %{_datadir}/%{name}
 %{_sbindir}/*
 
