@@ -1945,6 +1945,7 @@
 0x1407	0x8002	"unknown"	"Lava Computer mfg Inc|Lava Dual Parallel port A"
 0x1407	0x8003	"unknown"	"Lava Computer mfg Inc|Lava Dual Parallel port B"
 0x1407	0x8800	"unknown"	"Lava Computer mfg Inc|BOCA Research IOPPAR"
+0x1409	0x7268	"unknown"	"Timedia Technology Co Ltd|SUN1888 Simple Comm. Controller"
 0x1412	0x1712	"snd-card-ice1712"	"IC Ensemble Inc|ICE1712 [Envy24]"
 0x144a	0x7296	"unknown"	"Adlink Technology|PCI-7296"
 0x144a	0x7432	"unknown"	"Adlink Technology|PCI-7432"
