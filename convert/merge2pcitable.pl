@@ -45,8 +45,13 @@ sub to_string {
 sub read_pcitable {
     my ($f) = @_;
     my %drivers;
-    my $rm_quote = sub { s/^"//; s/"$//; $_ };
     my $line = 0;
+    my $rm_quote_silent = sub { s/^"//; s/"$//; $_ };
+    my $rm_quote = sub {
+	    s/^"// or print STDERR "missing left quote at line $line\n";
+            s/"$// or print STDERR "missing right quote at line $line\n";
+	    $_;
+    };
     foreach (cat_($f)) {
 	chomp; $line++;
 	next if /^#/ || /^\s*$/;
@@ -57,7 +62,7 @@ sub read_pcitable {
 	    my ($module, $text) = @l;
 
 	    my $class = $text =~ /(.*?)|/;
-	    my $id1_ = $rm_quote->($id1);
+	    my $id1_ = $rm_quote_silent->($id1);
 	    if ($class{$id1_}) {
 		print STDERR "$f $line: class $id1_ named both $class and $class{$id1_}, taking $class{$id1_}\n";
 		$class{$id1_} ||= $1;
@@ -65,11 +70,11 @@ sub read_pcitable {
 	    }
 
 	    $module =~ s/\.o$//;
-	    $module = "unknown" if dummy_module($module);
-	    $module = "unknown" if $id1 == 0x1011 && (0x0024 <= $id2 && $id2 <= 0x0025); 
+	    $module = '"unknown"' if dummy_module($module);
+	    $module = '"unknown"' if $id1 == 0x1011 && (0x0024 <= $id2 && $id2 <= 0x0025); 
 	      # known errors in redhat's pcitable
 	      # these are pci to pci bridge
-	    $module = "yenta_socket" if $module =~ /i82365/;
+	    $module = '"yenta_socket"' if $module =~ /i82365/;
 	    my $id = join '', map { 
 		s/^0x//;
 		length == 4 or print STDERR "$f $line: bad number $_\n";
