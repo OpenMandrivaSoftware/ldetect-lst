@@ -718,7 +718,7 @@
 0x1606	0x0002	"unknown"	"Umax|Astra 1236U"
 0x1606	0x0010	"scanner"	"Umax|Astra 1220U"
 0x1606	0x0030	"scanner"	"Umax|Astra 2000U"
-0x1606	0x0230	"scanner"	""
+0x1606	0x0230	"scanner"	"Umax|Astra 2200U"
 0x1606	0x2020	"unknown"	"Umax|AstraCam 1000"
 0x1608	0x0001	"io_edgeport"	"Inside Out Networks|EdgePort/4 Serial Port"
 0x1608	0x0003	"io_edgeport"	""
