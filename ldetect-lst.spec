@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.2
-%define release 3mdk
+%define release 4mdk
 
 Name: %{name}
 Version: %{version}
@@ -48,6 +48,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/*
 
 %changelog
+* Thu Jan 25 2001 Guillaume Cottenceau <gc@mandrakesoft.com> 0.1.2-4mdk
+- snd-card-intel8x0 -> i810_audio
+
 * Thu Jan 25 2001 Guillaume Cottenceau <gc@mandrakesoft.com> 0.1.2-3mdk
 - snapshot (for pcitable updates)
 
