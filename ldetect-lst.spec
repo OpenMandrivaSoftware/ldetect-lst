@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.33
+%define version 0.1.34
 %define release 1mdk
 
 Name: %{name}
@@ -64,6 +64,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Thu Dec  2 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.34-1mdk
+- sync with pci.ids, usb.ids, kernel-2.6.9-ac12, kernel-2.6.10-rc2-mm4
+
 * Thu Dec  2 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.33-1mdk
 - enable DRI on i915 and onMach64 since it is now supported in X.org-6.8.x
 
