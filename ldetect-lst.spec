@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.73
+%define version 0.1.74
 %define release 1mdk
 
 Name: %{name}
@@ -63,6 +63,10 @@ fi
 %{_bindir}/*
 
 %changelog
+* Mon Mar 21 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.74-1mdk
+- add a new SATA driver: ata_adma
+- replace no more existing xircom_tulip_cb driver by xircom_cb
+
 * Mon Mar 21 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.73-1mdk
 - sync with kernel-2.6.11-mm3
 - add support for production version of ATI RN50/ES1000
