@@ -2688,7 +2688,6 @@ NAME Matrox Millennium
 CHIPSET mga2064w
 SERVER SVGA
 DRIVER mga
-UNSUPPORTED
 LINE Option	"sw_cursor"
 NOCLOCKPROBE
 
