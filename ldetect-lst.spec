@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.7
-%define release 1mdk
+%define release 2mdk
 
 Name: %{name}
 Version: %{version}
@@ -64,6 +64,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Thu Feb 13 2003 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.7-2mdk
+- Restructured and updated ScannerDB for scannerdrake (till)
+
 * Wed Feb 12 2003 Frederic Lepied <flepied@mandrakesoft.com> 0.1.7-1mdk
 - added ids for some Intel cards
 
