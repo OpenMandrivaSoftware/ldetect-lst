@@ -1007,6 +1007,7 @@
 0x1043	0x401d	"Card:NVIDIA GeForce2 DDR (generic)"	"Asustek Computer Inc.|GeForce2 MX"
 0x1043	0x4021	"Card:NVIDIA GeForce2 DDR (generic)"	"Asustek Computer, Inc.|v7100 Combo Deluxe [GeForce2 MX + TV tuner]"
 0x1043	0x4057	"Card:NVIDIA GeForce3 (generic)"	"Asustek Computer, Inc.|V8200 GeForce 3"
+0x1043	0x80f3	"snd-intel8x0"	"Asustek Computer Inc.|ASUS ICH5/AD1985"
 0x1044	0x1012	"unknown"	"Distributed Tech|Domino RAID Engine"
 0x1044	0xa400	"eata"	"Distributed Tech|SmartCache/Raid I-IV Controller"
 0x1044	0xa500	"unknown"	"Distributed Tech|PCI Bridge"
