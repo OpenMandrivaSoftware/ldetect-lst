@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.4
-%define release 1mdk
+%define release 2mdk
 
 Name: %{name}
 Version: %{version}
@@ -62,6 +62,11 @@ fi
 %{_bindir}/*
 
 %changelog
+* Wed Jul 17 2002 Pixel <pixel@mandrakesoft.com> 0.1.4-2mdk
+- pcitable: update with www.begent.co.uk/pcids.htm
+  especially interesting are the G200,G400,G450 multi head categorisation
+- Cards+: new entries for DualHead & QuadHead matrox
+
 * Wed Jul 17 2002 Pixel <pixel@mandrakesoft.com> 0.1.4-1mdk
 - Cards+ + pcitable:
   - add "ATI Radeon 8500" with no DRI_GLX

@@ -23,6 +23,9 @@
 # BAD_FB_RESTORE: for bad cards not restoring cleanly framebuffer (XFree 4)
 # BAD_FB_RESTORE_XF3: for bad cards not restoring cleanly framebuffer (XFree 3)
 #
+# MULTI_HEAD 2: for DualHead cards (think Matrox G450)
+# MULTI_HEAD n: for n Head cards (eg: "MULTI_HEAD 4" for QuadHead)
+#
 #
 # The majority of entries are just a binding of a model name to a
 # chipset/server and untested.
@@ -2436,13 +2439,29 @@ UTAH_GLX
 # Utah-GLX doesn't work in 8bpp
 BAD_FB_RESTORE
 
+NAME Matrox Millennium G200 DualHead
+SEE Matrox Millennium G200
+MULTI_HEAD 2
+
+NAME Matrox Millennium G200 QuadHead
+SEE Matrox Millennium G200
+MULTI_HEAD 4
+
 NAME Matrox Millennium G400
 SEE Matrox Millennium G200
+
+NAME Matrox Millennium G400 DualHead
+SEE Matrox Millennium G400
+MULTI_HEAD 2
 
 NAME Matrox Millennium G450
 DRIVER mga
 DRI_GLX
 BAD_FB_RESTORE
+
+NAME Matrox Millennium G450 DualHead
+SEE Matrox Millennium G450
+MULTI_HEAD 2
 
 NAME Matrox Millennium G550
 SEE Matrox Millennium G450
