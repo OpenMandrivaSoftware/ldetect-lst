@@ -1,3 +1,24 @@
+2004-04-26 17:29  Gwenole Beauchesne <gbeauchesne@mandrakesoft.com>
+
+	* lst/MonitorsDB: Add Tatung C7BZR monitor specs
+
+2004-04-20 14:09  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: sync with kernel-2.6.3-10mdk
+
+2004-04-20 11:51  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: sync with rh's wdata-0.117 (add support for 4
+	  geforce cards and fix one sound card)
+
+2004-04-20 11:46  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: roll back bogus commit
+
+2004-04-20 11:36  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: sync with kernel-2.6.3-9mdk
+
 2004-04-16 17:36  Gwenole Beauchesne <gbeauchesne@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.9-14mdk
