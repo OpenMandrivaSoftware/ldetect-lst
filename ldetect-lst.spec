@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.47
+%define version 0.1.48
 %define release 1mdk
 
 Name: %{name}
@@ -64,6 +64,10 @@ fi
 %{_bindir}/*
 
 %changelog
+* Tue Jan 11 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.48-1mdk
+- add another zaptel device (Stefan van der Eijk)
+- switch from ata_piix to ahci
+
 * Tue Jan 11 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.47-1mdk
 - list zd1201 driver
 - manually merge driver that don't export ids of devices they managed
