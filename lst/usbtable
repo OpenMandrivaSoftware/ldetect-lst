@@ -1547,6 +1547,7 @@
 0x1065	0x2136	"usb-storage"	"CCYU TECHNOLOGY|EasyDisk Portable Device"
 0x10b5	0x9060	"unknown"	"PLX|Test Board"
 0x10bd	0x1427	"kaweth"	"ASANTE|USB To Ethernet Adapter"
+0x10eb	0x0001	"usbnet"	""
 0x1110	0x900f	"adiusbadsl"	"Analog Devices Inc.|USB ADSL modem"
 0x1110	0x9010	"adiusbadsl"	"Analog Devices Inc.|USB ADSL modem"
 0x1110	0x9021	"adiusbadsl"	"Analog Devices Inc.|USB ADSL modem"
