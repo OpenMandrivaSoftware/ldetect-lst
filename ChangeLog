@@ -1,3 +1,66 @@
+2004-12-23 14:55  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.38-1mdk
+
+2004-12-23 14:53  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: sync with mxser driver from 2.6.8-10-rc3-bk16
+
+2004-12-23 14:43  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: quite a lot of cards are repackaged under
+	  0x10b5:0x9030 but we only support 0x10b5:0x9030:0x1369:* devices
+	  (which are sound cards), so let's describe them instead
+
+2004-12-23 14:42  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: quite a lot of cards are repackaged under
+	  0x10b5:0x9050 but we only support 0x10b5:0x9050:0x1369:* devices
+	  (which are sound cards), so let's describe them instead
+
+2004-12-23 14:39  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: add support for Digigram PCXHR sound cards
+
+2004-12-16 15:38  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: sync with kernel-2.6.10-rc3-mm1
+
+2004-12-05 16:41  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: fix description of a couple DELL cards
+
+2004-12-03 16:44  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: typo fix in 0.1.37-1mdk's changelog
+
+2004-12-03 16:35  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.37-1mdk
+
+2004-12-03 11:58  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: disambiguate names of media devices
+
+2004-12-03 11:22  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/: pcitable, usbtable: fill in bogus descriptions from pci.ids
+
+2004-12-03 11:21  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* convert/merge2pcitable.pl: overwrite bogus descriptions (aka
+	  "vendor|") with proper ones (aka "vendor|device") from
+	  {pci,usb}.ids
+
+2004-12-03 11:21  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: sync with 2.6.10-rc2-mm4
+
+2004-12-02 19:25  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: one extra sound card from pci-26.lst file from
+	  debian's discover1-data
+
 2004-12-02 19:10  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.36-1mdk
