@@ -4085,7 +4085,7 @@
 0x125d	0x1989	"snd-maestro3"	"ESS Technology|ESS Modem"
 0x125d	0x1990	"snd-maestro3"	"ESS Technology|Canyon3D-2"
 0x125d	0x1992	"snd-maestro3"	"ESS Technology|Canyon3D-2"
-0x125d	0x1998	"maestro3"	"ESS Technology|ES1983S Maestro-3i PCI Audio Accelerator"
+0x125d	0x1998	"snd-maestro3"	"ESS Technology|ES1983S Maestro-3i PCI Audio Accelerator"
 0x125d	0x1999	"snd-maestro3"	"ESS Technology|ES1983S Maestro-3i PCI Modem Accelerator"
 0x125d	0x199a	"maestro3"	"ESS Technology|Maestro-3"
 0x125d	0x199b	"snd-maestro3"	"ESS Technology|ES1983S Maestro-3i PCI Modem Accelerator"
