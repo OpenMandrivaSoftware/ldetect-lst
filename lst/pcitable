@@ -657,6 +657,7 @@
 0x104c	0x8009	"unknown"	"Texas Instruments|OHCI Compliant FireWire Controller"
 0x104c	0x8019	"unknown"	"Texas Instruments|TSB12LV23 OHCI Compliant IEEE-1394 Controller"
 0x104c	0x8020	"unknown"	"Pinnacle|eee1394 controller studioDV"
+0x104c	0x8023	"ohci1394"	""
 0x104c	0xa001	"unknown"	"Texas Instruments|TDC1570"
 0x104c	0xa100	"unknown"	"Texas Instruments|TDC1561"
 0x104c	0xac10	"unknown"	"Texas Instruments|PCI1050"
