@@ -1,4 +1,57 @@
-2002-09-12 15:00  tvignaud
+2002-10-21 17:35  Frederic Lepied <flepied@mandrakesoft.com>
+
+	* lst/pcitable: added missing savage id
+
+2002-10-15 09:35  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/usbtable: add support for usb video devices (florent
+	beranger)
+
+2002-10-11 18:59  dchaumette
+
+	* lst/pcitable: fix typo
+
+2002-10-10 19:59  Yves Duret <yduret@mandrakesoft.com>
+
+	* lst/ScannerDB: fix some Hewlett-Packard scanner from niash
+	backend
+
+2002-10-10 11:52  dchaumette
+
+	* lst/pcitable: move HSF/HCF modems module from "unknown" to
+	"Bad:www.linmodems.org"
+
+2002-10-02 13:36  Pixel <pixel@mandrakesoft.com>
+
+	* ldetect-lst.spec: add "PreReq: perl-base" (so that
+	update-ldetect-lst works)
+
+2002-10-01 20:56  Guillaume Cottenceau <gc@mandrakesoft.com>
+
+	* lst/pcitable: change 0x8086 0x1059 from eepro100 to e100 per
+	suggestion of cory.meisch@hp.com
+
+2002-09-18 02:05  Nicolas Planel <nplanel@mandrakesoft.com>
+
+	* lst/pcitable: Fix some errors ... :(
+
+2002-09-18 01:53  Nicolas Planel <nplanel@mandrakesoft.com>
+
+	* lst/pcitable: Add new ID from modules.pcimap
+
+2002-09-18 01:02  Nicolas Planel <nplanel@mandrakesoft.com>
+
+	* lst/pcitable: Add nForce2 ID
+
+2002-09-17 17:40  Fançois Pons <fpons@mandrakesoft.com>
+
+	* ldetect-lst.spec, lst/pcitable: added missing G450 DualHead.
+
+2002-09-12 15:14  Pixel <pixel@mandrakesoft.com>
+
+	* lst/Cards+: fix typo
+
+2002-09-12 15:00  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* lst/pcitable: add a dvb and a saa7134 cards
 
@@ -6,7 +59,7 @@
 
 	* ldetect-lst.spec: 17mdk
 
-2002-09-12 12:27  prigaux
+2002-09-12 12:27  Pixel <pixel@mandrakesoft.com>
 
 	* lst/: Cards+, pcitable: add "sw_cursor" for card S3
 	Inc.|86C270-294 Savage/IX-MV [DISPLAY_VGA] (vendor:5333 device:8c12
@@ -24,7 +77,7 @@
 	> > My Computer is an Toshiba Satellite Pro 4310, Celeron 600,
 	> > 13"DSTN Display (800x600) and a Savage Graphics Chip.
 
-2002-09-12 12:26  prigaux
+2002-09-12 12:26  Pixel <pixel@mandrakesoft.com>
 
 	* lst/usbtable: add some removable entries
 
@@ -32,222 +85,196 @@
 
 	* lst/pcitable: - move last ISDN cards to "ISDN:module_name" syntax
 
-2002-09-06 17:05  tvignaud
+2002-09-06 17:05  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* lst/pcitable: add ohci1394 driver to a few ohci controller on
 	fred request
 
-2002-09-06 14:18  nplanel
+2002-09-06 14:18  Nicolas Planel <nplanel@mandrakesoft.com>
 
 	* lst/pcitable: Fixing 0x1028/0x000a name s/Si/Di/ (reported by
 	Dell)
 
-2002-09-05 18:10  fpons
+2002-09-05 18:10  Fançois Pons <fpons@mandrakesoft.com>
 
 	* ldetect-lst.spec, lst/Cards+, lst/pcitable: fix for GeForce NV25
 	now using fbdev or nvidia instead of nv.
 
-2002-09-05 16:32  fpons
+2002-09-05 16:32  Fançois Pons <fpons@mandrakesoft.com>
 
 	* lst/: Cards+, pcitable: GeForce4 0x10de/0x0250 only works with
 	fbdev
 
-2002-09-05 16:16  gc
+2002-09-05 16:16  Guillaume Cottenceau <gc@mandrakesoft.com>
 
 	* lst/pcitable: fix nplanel boulet * 2, only one TAB between fields
 
-2002-09-05 16:10  gc
+2002-09-05 16:10  Guillaume Cottenceau <gc@mandrakesoft.com>
 
 	* lst/pcitable: fix planel bouletrie (duplicate entry..)
 
-2002-09-05 16:05  gc
+2002-09-05 16:05  Guillaume Cottenceau <gc@mandrakesoft.com>
 
 	* ldetect-lst.spec: [no log message]
 
-2002-09-03 13:09  flepied
+2002-09-03 13:09  Frederic Lepied <flepied@mandrakesoft.com>
 
 	* lst/pcitable: corrected GeForce4 Ti4600 description
 
-2002-09-02 10:12  erwan
+2002-09-02 10:12  Erwan Velu <erwan@mandrakesoft.com>
 
 	* lst/pcitable: Adding firewire module for vaio
 
-2002-08-29 16:50  nplanel
+2002-08-29 16:50  Nicolas Planel <nplanel@mandrakesoft.com>
 
 	* lst/pcitable: Add new ID for qla2200 driver 0x1077/0x1216
 
-2002-08-29 16:37  nplanel
+2002-08-29 16:37  Nicolas Planel <nplanel@mandrakesoft.com>
 
 	* lst/pcitable: Add new ID 0x10ec/0x8169 : Realtek Gigabit ethernet
 	adapter RTL8169
 
-2002-08-29 15:38  tvignaud
+2002-08-29 15:38  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* lst/pcitable: add new sound driver
 
-2002-08-29 00:29  prigaux
+2002-08-29 00:29  Pixel <pixel@mandrakesoft.com>
 
 	* ldetect-lst.spec, convert/usb-removables.pl, lst/usbtable: - add
 	"Removable:floppy", "Removable:memory_card", "Removable:camera" -
 	usb-removables.pl is useful to update usbtable Removable:xxx based
 	on device descriptions
 
-2002-08-28 17:21  flepied
+2002-08-28 17:21  Frederic Lepied <flepied@mandrakesoft.com>
 
 	* lst/pcitable: added r128 from HP
 
-2002-08-27 00:35  prigaux
+2002-08-27 00:35  Pixel <pixel@mandrakesoft.com>
 
 	* ldetect-lst.spec, lst/pcitable, lst/usbtable: - fix syntax error
 	in usbtable (and prevent this to happen again)
 
-2002-08-27 00:34  prigaux
+2002-08-27 00:34  Pixel <pixel@mandrakesoft.com>
 
 	* convert/merge2pcitable.pl: enhance error detection (too many
 	double quotes)
 
-2002-08-26 23:49  siegel
+2002-08-26 23:49  Stefan Siegel <siegel@linux-mandrake.com>
 
 	* lst/pcitable: added another "ohci1394" card
 
-2002-08-26 09:10  pablo
+2002-08-26 09:10  Pablo Saratxaga <pablo@mandrakesoft.com>
 
 	* lst/MonitorsDB: Added 4 monitors
 
-2002-08-26 05:01  tvignaud
+2002-08-26 05:01  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
-	* ChangeLog, ldetect-lst.spec: 0.1.4-12mdk
+	* ldetect-lst.spec: 0.1.4-12mdk
 
-2002-08-26 00:16  tvignaud
+2002-08-26 00:16  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* lst/usbtable: add dc100 webcam
 
-2002-08-26 00:12  tvignaud
+2002-08-26 00:12  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* lst/pcitable: add new modem
 
-2002-08-26 00:10  tvignaud
+2002-08-26 00:10  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* lst/usbtable: add unknwon hub
 
-2002-08-26 00:07  tvignaud
+2002-08-26 00:07  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* lst/isatable: add unknown modem
 
-2002-08-26 00:04  tvignaud
+2002-08-26 00:04  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
-	* lst/usbtable: add:   
-	o ATI|USB Cable 205
-	o CCYU TECHNOLOGY|EasyDisk Portable Device
-	o Datafab/Unknown|Datafab-based Reader
-	o Datafab/Unknown|Datafab-based Reader
-	o EagleTec|External Hard Disk
-	o In-System Design|Portable USB Harddrive V2
-	o In-System Design|Portable USB Harddrive V2
-	o In-System Design|USB Storage Adapter V2
-	o JMTek|USBDrive
-	o Minds@Work|Digital Wallet
-	o SanDisk Corp.|ImageMate SDDR-12
-	o Sony Corp.|PEG Mass Storage
-	o Sony Corp.|Portable USB Harddrive V2
+	* lst/usbtable: add:   o ATI|USB Cable 205   o CCYU
+	TECHNOLOGY|EasyDisk Portable Device   o
+	Datafab/Unknown|Datafab-based Reader   o
+	Datafab/Unknown|Datafab-based Reader   o EagleTec|External Hard
+	Disk   o In-System Design|Portable USB Harddrive V2   o In-System
+	Design|Portable USB Harddrive V2   o In-System Design|USB Storage
+	Adapter V2   o JMTek|USBDrive	o Minds@Work|Digital Wallet   o
+	SanDisk Corp.|ImageMate SDDR-12   o Sony Corp.|PEG Mass Storage   o
+	Sony Corp.|Portable USB Harddrive V2
 	
-	- use usb-storage:  
-	o Datafab Systems Inc.|Simple Technologies Flash Card Reader
-	o Datafab Systems, Inc.|USB to CompactFlash + SmartMedia Combo (LC1)  
-	o Casio Computer Co., Ltd.|QV-8000SX Digicam
-	o Freecom/Memorex|USB-IDE/BBQ Series 100 CD-R/RW
-	o Hagiwara Sys-Com|FlashGate  
-	o Hagiwara Sys-Com|FlashGate SmartMedia Card Reader  
-	o In-System Design|USB/IDE Bridge (ATA/ATAPI)  
-	o LaCie|HardDrive
-	o Linksys Inc.|SCM eUSB SmartMedia Card Reader / Camedia MAUSB-2  
-	o Microtech|CameraMate (DPCM_USB)  
-	o Microtech|SCSI-DB25 SCSI Bridge [shuttle]
-	o Microtech|SCSI-HD50 SCSI Bridge [shuttle]
-	o Minolta|Dimage S304
-	o Minolta|Dimage S304  
-	o PNY/Datafab|PNY/Datafab CompactFlash & SmartMedia Card Reader  
-	o SanDisk Corp.|Compact Flash Reader / ImageMate SDDR-05a  
-	o SanDisk Corp.|SDDR-09-01 ImageMate SmartMedia Reader  
-	o SanDisk Corp.|SDDR-31 ImageMate CompactFlash Reader / ImageMate SDDR-31  
-	o SIIG/Datafab|SIIG/Datafab Memory Stick+CompactFlash & SmartMedia Card Reader/Writer [eusb]
-	o Simple Tech/Datafab|Simple Tech/Datafab CompactFlash  & SmartMedia Card Reader  
-	o Sony Corp.|DSC-S30/S70/S75/505V/F505/F707 Cybershot Digital Camera,  
-	o Sony Corp.|MemoryStick MSC-U01N Reader  
-	o Sony Corp.|MSAC-US1 MemoryStick Reader  
-	o Sony Corp.|NW-MS7 Walkman MemoryStick Reader  
-	o Sony Corp.|Sony HandyCam MemoryStick Reader  
-	o Y-E Data, Inc.|FlashBuster-U
+	- use usb-storage:   o Datafab Systems Inc.|Simple Technologies
+	Flash Card Reader"   o Datafab Systems, Inc.|USB to CompactFlash +
+	SmartMedia Combo (LC1)"   o Casio Computer Co., Ltd.|QV-8000SX
+	Digicam"   o Freecom/Memorex|USB-IDE/BBQ Series 100 CD-R/RW"   o
+	Hagiwara Sys-Com|FlashGate"   o Hagiwara Sys-Com|FlashGate
+	SmartMedia Card Reader"   o In-System Design|USB/IDE Bridge
+	(ATA/ATAPI)"   o LaCie|HardDrive"   o Linksys Inc.|SCM eUSB
+	SmartMedia Card Reader / Camedia MAUSB-2"   o Microtech|CameraMate
+	(DPCM_USB)"   o Microtech|SCSI-DB25 SCSI Bridge [shuttle]"   o
+	Microtech|SCSI-HD50 SCSI Bridge [shuttle]"   o Minolta|Dimage S304"
+	  o Minolta|Dimage S304"   o PNY/Datafab|PNY/Datafab CompactFlash &
+	SmartMedia Card Reader"   o SanDisk Corp.|Compact Flash Reader /
+	ImageMate SDDR-05a"   o SanDisk Corp.|SDDR-09-01 ImageMate
+	SmartMedia Reader"   o SanDisk Corp.|SDDR-31 ImageMate CompactFlash
+	Reader / ImageMate SDDR-31"   o SIIG/Datafab|SIIG/Datafab Memory
+	Stick+CompactFlash & SmartMedia Card Reader/Writer [eusb]"   o
+	Simple Tech/Datafab|Simple Tech/Datafab CompactFlash  & SmartMedia
+	Card Reader"   o Sony Corp.|DSC-S30/S70/S75/505V/F505/F707
+	Cybershot Digital Camera",   o Sony Corp.|MemoryStick MSC-U01N
+	Reader"   o Sony Corp.|MSAC-US1 MemoryStick Reader"   o Sony
+	Corp.|NW-MS7 Walkman MemoryStick Reader"   o Sony Corp.|Sony
+	HandyCam MemoryStick Reader"   o Y-E Data, Inc.|FlashBuster-U"
 
-2002-08-25 22:38  tvignaud
+2002-08-25 22:38  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
-	* lst/usbtable: -add :	
-	o Frontier Labs|Nex II Digital
-	o Hitachi|DVD-CAM DZ-MV100A Camcorder  
-	o Iomega|USB Clik! 40
-	o Panasonic|LS-120 Camera  
-	o Shuttle Technology Inc.|eUSB ATA/ATAPI Adapter  
-	o Shuttle Technology Inc.|eUSB CompactFlash Adapter
-	o Shuttle Technology Inc.|eUSCSI Bridge
-	o Shuttle Technology Inc.|eUSCSI Bridge
+	* lst/usbtable: -add :	 o Frontier Labs|Nex II Digital   o
+	Hitachi|DVD-CAM DZ-MV100A Camcorder   o Iomega|USB Clik! 40   o
+	Panasonic|LS-120 Camera   o Shuttle Technology Inc.|eUSB ATA/ATAPI
+	Adapter   o Shuttle Technology Inc.|eUSB CompactFlash Adapter	o
+	Shuttle Technology Inc.|eUSCSI Bridge	o Shuttle Technology
+	Inc.|eUSCSI Bridge - bettter description for:	o ScanLogic
+	Corp.|SL11R-IDE [IDE Bridge] - use usb-storage for:   o Belkin
+	Components|SCSI Adapter   o Fuji Photo Film Co., Ltd.|FinePix 4700
+	Zoom / FinePix 1400 Zoom digital camrea   o Shuttle Technology
+	Inc.|CD-RW Devicee   o Shuttle Technology Inc.|eUSB MultiMedia Card
+	Reader / eUSB MMC Adapter   o Shuttle Technology Inc.|eUSB
+	SmartMedia Card Reader / ImageMate SDDR09   o Shuttle Technology
+	Inc.|E-USCSI Bridge   o Shuttle Technology Inc.|Hifd
 
-	- bettter description for:
-	o ScanLogic Corp.|SL11R-IDE [IDE Bridge]
+2002-08-25 22:11  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
-	- use usb-storage for:
-  	o Belkin Components|SCSI Adapter  
-	o Fuji Photo Film Co., Ltd.|FinePix 4700 Zoom / FinePix 1400 Zoom digital camrea  
-	o Shuttle Technology Inc.|CD-RW Devicee  
-	o Shuttle Technology Inc.|eUSB MultiMedia Card Reader / eUSB MMC Adapter  
-	o Shuttle Technology Inc.|eUSB SmartMedia Card Reader / ImageMate SDDR09  
-	o Shuttle Technology Inc.|E-USCSI Bridge  
-	o Shuttle Technology Inc.|Hifd
+	* lst/usbtable: add: - Lexar|Jumpshot USB CF Reader -
+	SIIG|CompactFlash Card Reader
 
-2002-08-25 22:11  tvignaud
+2002-08-25 21:51  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
-	* lst/usbtable: add:
-	- Lexar|Jumpshot USB CF Reader
-	- SIIG|CompactFlash Card Reader
-
-2002-08-25 21:51  tvignaud
-
-	* lst/usbtable: - add:
-	o Mitsumi|USB FDD
-	o Hewlett-Packard|CD-Writer Plus CD-4e
-	o Microtech|CameraMate (DPCM_USB)  
-	o Frontier Labs|Nex II Digital  
-	o OCTAL, S.A.|PCBIT-USB ISDN Adapter
-	
-	- handle with usb-storage :
-	o Mitsumi|CD-R/RW Drive	
-	o Hewlett-Packard|CD-Writer Plus
-	o Hewlett-Packard|CD-Writer Plus 8200e/Mesa  
-	o ScanLogic Corp.|IDE Bridge
-
-	- add name to unknown scanner: Trust|Flat scan USB 1920t
+	* lst/usbtable: - add:	 o Mitsumi|USB FDD   o
+	Hewlett-Packard|CD-Writer Plus CD-4e"	o Microtech|CameraMate
+	(DPCM_USB)   o Frontier Labs|Nex II Digital   o OCTAL,
+	S.A.|PCBIT-USB ISDN Adapter" - handle with usb-storage :   o
+	Mitsumi|CD-R/RW Drive"	 o Hewlett-Packard|CD-Writer Plus"   o
+	Hewlett-Packard|CD-Writer Plus 8200e/Mesa"   o ScanLogic Corp.|IDE
+	Bridge" - add name to unknown scanner: "Trust|Flat scan USB 1920t
 	flat scan USB 19200
 
-2002-08-25 21:48  tvignaud
+2002-08-25 21:48  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* lst/isatable: add a new modem
 
-2002-08-25 21:37  tvignaud
+2002-08-25 21:37  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* lst/usbtable: hp 8200e cd burner works with usb-storage
 
-2002-08-25 21:30  tvignaud
+2002-08-25 21:30  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* lst/pcmciatable: add PCMCIA Compaq iPAQ
 
-2002-08-25 21:21  tvignaud
+2002-08-25 21:21  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* lst/isatable: add Apache A56SP-HCF modem
 
-2002-08-25 21:17  tvignaud
+2002-08-25 21:17  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* lst/pcitable: add intel modem 536EP v.92
 
-2002-08-25 21:11  tvignaud
+2002-08-25 21:11  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* lst/usbtable: add Motorota Surfboard 4200 cable modem
 
@@ -255,29 +282,29 @@
 
 	* lst/pcitable: add Nforce Ethernet Controler
 
-2002-08-22 15:45  prigaux
+2002-08-22 15:45  Pixel <pixel@mandrakesoft.com>
 
 	* ldetect-lst.spec, lst/usbtable: use "Mouse:USB|Microsoft
 	Explorer" for those mice
 
-2002-08-21 20:38  prigaux
+2002-08-21 20:38  Pixel <pixel@mandrakesoft.com>
 
 	* ldetect-lst.spec: add Url (thanks to Yura Gusev)
 
-2002-08-21 18:10  nplanel
+2002-08-21 18:10  Nicolas Planel <nplanel@mandrakesoft.com>
 
 	* lst/pcitable: Fix Firewire modules (unknown => ohci1394) on
 	Audigy interface (Working now) 0x1102/0x4001
 
-2002-08-20 21:32  tvignaud
+2002-08-20 21:32  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* Makefile: default RPM to ~/rpm as i did in ldetect
 
-2002-08-20 21:31  tvignaud
+2002-08-20 21:31  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
-	* ChangeLog, ldetect-lst.spec: 0.1.4-10mdk
+	* ldetect-lst.spec: 0.1.4-10mdk
 
-2002-08-20 21:31  tvignaud
+2002-08-20 21:31  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* Makefile: split rpm target into rpm and srpm target as i did for
 	ldetect
@@ -291,11 +318,11 @@
 	* lst/usbtable: s/Epson/Seiko Epson/ (to match with names in
 	ScannerDB).
 
-2002-08-20 12:06  tvignaud
+2002-08-20 12:06  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
-	* ChangeLog, ldetect-lst.spec: 0.1.4-9mdk
+	* ldetect-lst.spec: 0.1.4-9mdk
 
-2002-08-20 12:04  tvignaud
+2002-08-20 12:04  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* lst/usbtable: fix broken stuff comitted by till
 
@@ -312,326 +339,83 @@
 	"Epson Corp.|USB Printer", nearly all Epson printers have this ID
 	pair, so no program should report "Epson Stylus Color 760" then.
 
-2002-08-18 22:26  tvignaud
+2002-08-18 22:26  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* lst/isatable: 2 unknown cards were in fact "Media Vision"
 	(reported by Danny Tholen <danny at mailmij dot org >)
 
-2002-08-17 14:31  prigaux
+2002-08-17 14:31  Pixel <pixel@mandrakesoft.com>
 
 	* ldetect-lst.spec, lst/Cards+, lst/pcitable: G550 *are* DualHead
 
-2002-08-15 22:43  tvignaud
+2002-08-15 22:43  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* lst/pcitable: while updating from alsa-0.9 rc1 to rc2, i miss one
 	new supported card
 
-2002-08-15 22:28  tvignaud
+2002-08-15 22:28  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* lst/isatable: - resync with alsa-driver-0.9rc3 - s/snd-card/snd -
 	snd-dt0197h is snd-dt019x now
 
-2002-08-15 22:19  tvignaud
+2002-08-15 22:19  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* lst/pcitable: resync with alsa-driver-0.9rc3
 
-2002-08-13 17:36  prigaux
+2002-08-13 17:36  Pixel <pixel@mandrakesoft.com>
 
 	* ldetect-lst.spec, lst/Cards+, lst/pcitable: - add entry "Intel
 	845" using driver i810 (fix bug #60) - use accel for SiS 86C326
 	(tested on a box here)
 
-2002-08-08 20:40  prigaux
+2002-08-08 20:40  Pixel <pixel@mandrakesoft.com>
 
 	* lst/MonitorsDB: add a Philips monitor (given by Frederik Himpe)
 
-2002-08-08 01:38  prigaux
+2002-08-08 01:38  Pixel <pixel@mandrakesoft.com>
 
 	* Makefile, lst/Makefile: stricter checks
 
-2002-08-08 01:37  prigaux
+2002-08-08 01:37  Pixel <pixel@mandrakesoft.com>
 
 	* lst/pcitable: merge with hwdata-0.36-1
 
-2002-08-08 01:36  prigaux
+2002-08-08 01:36  Pixel <pixel@mandrakesoft.com>
 
 	* convert/verify_Cards.pl: adapt to new Xconfig::card
 
-2002-08-08 01:32  prigaux
+2002-08-08 01:32  Pixel <pixel@mandrakesoft.com>
 
 	* lst/usbtable: normalize
 
-2002-08-08 01:21  prigaux
+2002-08-08 01:21  Pixel <pixel@mandrakesoft.com>
 
 	* lst/pcitable: normalize
 
-2002-08-07 13:07  prigaux
+2002-08-07 13:07  Pixel <pixel@mandrakesoft.com>
 
 	* lst/MonitorsDB: update with redhat's hwdata-0.36-1
 
-2002-08-06 17:38  prigaux
+2002-08-06 17:38  Pixel <pixel@mandrakesoft.com>
 
 	* lst/usbtable: fix typo (s/0xa518/0x0518/) for ov518
 
-2002-08-06 17:11  prigaux
+2002-08-06 17:11  Pixel <pixel@mandrakesoft.com>
 
 	* lst/usbtable: add ov518
 
-2002-08-06 17:06  prigaux
+2002-08-06 17:06  Pixel <pixel@mandrakesoft.com>
 
 	* lst/: pcitable, usbtable: rename "Seiko Epson" in "Epson"
 
-2002-08-06 17:05  prigaux
+2002-08-06 17:05  Pixel <pixel@mandrakesoft.com>
 
 	* lst/MonitorsDB: replace "Laptop Display Panel" with "Flat Panel"
 
-2002-08-06 15:26  gbeauchesne
+2002-08-06 15:26  Gwenole Beauchesne <gbeauchesne@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.4-6mdk
 
-2002-08-06 15:25  gbeauchesne
-
-	* ChangeLog: Generated by cvs2cl the 06_Aug
-
-2002-08-06 15:22  gbeauchesne
-
-	* Makefile: Add changelog rule to use cvs2cl for ChangeLog file,
-	much nicer
-
-2002-08-06 15:21  gbeauchesne
-
-	* ChangeLog: Generated by cvs2cl the 06_Aug
-
-2002-08-06 12:42  prigaux
-
-	* lst/pcitable: fix vendor for a megaraid (s/Dell/AMI/)
-
-2002-08-05 22:09  quintela
-
-	* lst/pcitable: bcm5700 is story.  Great live to tg3
-
-2002-08-02 12:00  prigaux
-
-	* lst/Cards+: add XaaNoPixmapCache for i815 too (per Mattias
-	Dahlberg request)
-
-2002-08-01 12:20  tvignaud
-
-	* lst/pcitable: switch Danny Tholen sound card from oss to alsa
-
-2002-08-01 00:29  prigaux
-
-	* ldetect-lst.spec, lst/Cards+, lst/pcitable: Cards+ & pcitable:
-	add "ATI Rage 128 TVout" with flag FB_TVOUT
-
-2002-07-29 17:46  nplanel
-
-	* lst/pcitable: Add and fix name for via-rhine module
-	(0x3065,0x3106,0x3053)
-
-2002-07-28 23:58  prigaux
-
-	* ldetect-lst.spec, convert/Cards2CardsNames.pl,
-	convert/README.pcitable, lst/.cvsignore, lst/Cards+, lst/Makefile,
-	lst/pcitable: - drop CardsNames (not used anymore by drakx) -
-	Cards+: add Option "XaaNoPixmapCache" for i810 as suggested on
-	cooker. 	   to be removed when the kernel works ok  - Cards+
-	(and pcitable): to cleanup the tree in XFdrake	 - remove
-	"Spacewalker HOT", "Octek", "Creative Blaster Exxtreme",    
-	"Atrend", "ATrend", "SPEA", "Spider", "Actix", "Canopus", "Cardex" 
-	   entries   - remove "Generic VGA compatible" and entries using it
-	  - remove "Unsupported VGA compatible"   - replace "SMI" by
-	"Silicon Motion"   - replace "ELSA" by "Elsa"	- replace "LeadTek"
-	by "Leadtek"
-
-2002-07-26 12:23  erwan
-
-	* lst/pcitable: Changing spaces to tabs for nvidia entries
-
-2002-07-26 11:37  erwan
-
-	* lst/: Cards+, pcitable: Fixing NVIDIA Geforce 4 entries
-
-2002-07-25 15:18  nplanel
-
-	* lst/pcitable: Add ID (9904) (990a) for 3Com card supported in the
-	kernel but not in pcitable ! fix module name for 990[2-4] 990[8-a]
-	=> module name : 3c990
-
-2002-07-21 23:18  prigaux
-
-	* ldetect-lst.spec: - pcitable	 - bttc -> bttv (typo fix)   -
-	snd-cs461x -> snd-cs46xx (since snd-cs461x doesn't exist)   - fix
-	many typos (please use make test!!)   - all new rh id're merged
-	(titi)	 - new eepro100 IDs (nplanel)	- new Promise 20276
-	(nplanel)
-
-2002-07-21 23:18  prigaux
-
-	* convert/verify_Cards.pl: adapt to new Xconfigurator.pm
-
-2002-07-21 23:10  prigaux
-
-	* lst/pcitable: - bttc -> bttv (typo fix) - snd-cs461x ->
-	snd-cs46xx (since snd-cs461x doesn't exist) - fix many typos
-	(please use make test!!)
-
-2002-07-20 19:56  prigaux
-
-	* lst/Cards+: add Option "sw_cursor" for S3 Trio3D and SiS 6326
-
-2002-07-20 18:49  nplanel
-
-	* lst/pcitable: Add new eepro100 ID from Intel ICH4 Spec
-	(0x103b,0x103c)
-
-2002-07-20 12:12  prigaux
-
-	* lst/Cards+: - cleanup the comment at beginning - drop entries
-	using any of RAMDAC CLOCKCHIP DACSPEED (obsolete stuff)
-
-2002-07-19 14:48  nplanel
-
-	* lst/pcitable: Another ID for eepro100 NIC (8086/103a)
-
-2002-07-19 13:46  nplanel
-
-	* lst/pcitable: 
-	
-	Add ID for new Promise 20276 Fix VT8235 USB2.0 name
-
-2002-07-18 17:40  tvignaud
-
-	* lst/pcitable: more vendors sanitazation
-
-2002-07-18 17:26  tvignaud
-
-	* lst/pcitable: - all new rh id're merged - normalize amd|compacq
-	vendors name
-
-2002-07-18 17:11  tvignaud
-
-	* lst/pcitable: - add more cards from rh - one unknown card use
-	8139too now - normalize some vendor names which've different
-	versions
-
-2002-07-17 23:42  prigaux
-
-	* ldetect-lst.spec, lst/Cards+, lst/pcitable: - pcitable: update
-	with www.begent.co.uk/pcids.htm   especially interesting are the
-	G200,G400,G450 multi head categorisation - Cards+: new entries for
-	DualHead & QuadHead matrox
-
-2002-07-17 23:41  prigaux
-
-	* convert/: README.pcitable, merge2pcitable.pl: special option for
-	watching subids, but beware of it!
-
-2002-07-17 23:26  prigaux
-
-	* convert/: README.pcitable, merge2pcitable.pl: add handling for
-	pci ids from http://www.begent.co.uk/pcids.htm
-
-2002-07-17 23:25  prigaux
-
-	* lst/MonitorsDB: cleanup generic monitors
-
-2002-07-17 22:46  prigaux
-
-	* lst/pcitable: normalize and drop unneeded use of subids
-
-2002-07-17 22:05  prigaux
-
-	* convert/.cvsignore: [no log message]
-
-2002-07-17 22:04  prigaux
-
-	* convert/Makefile: (clean): more cleanup
-
-2002-07-17 22:04  prigaux
-
-	* convert/: Makefile, README.pcitable, xf86PciInfo2pcitable.c,
-	xf86str.h: - drop getting info from XFree86 (XFree now uses
-	http://pciids.sourceforge.net/) - nicer getting of kernel's info
-
-2002-07-17 15:25  tvignaud
-
-	* lst/usbtable: fill empty string for visor from what real device
-	reported (aka fix "pixel think the (null) bug is still there when
-	it isn't"
-
-2002-07-17 14:51  prigaux
-
-	* ldetect-lst.spec: - Cards+ + pcitable:   - add "ATI Radeon 8500"
-	with no DRI_GLX   - add "SiS 6326 no_accel" with Option "no_accel" 
-	 - add "NeoMagic 128XD" with special XaaNoScanline* options   - add
-	"NeoMagic MagicMedia 256XL+" with Option "sw_cursor"   - add
-	NEEDVIDEORAM for cards corresponding to /86c368|S3
-	Inc|Tseng.*ET6\d00/	(hoping it will work: since the regexp was
-	broken, it was never done.	 (it was applied on the module
-	field of pcitable, instead of the description))    - remove CHIPSET
-	except for cards which had needChipset	  - add UTAH_GLX,
-	UTAH_GLX_EXPERIMENTAL	   (which card have them come from
-	Xconfigurator.pm)    - add BAD_FB_RESTORE & BAD_FB_RESTORE_XF3
-
-2002-07-17 14:50  prigaux
-
-	* lst/pcitable: - use new "SiS 6326 no_accel" - use new "NeoMagic
-	128XD" - use new "Card:MagicMedia 256XL+" - use "Card:ATI Mach64
-	Utah" for mach64 cards Utah-aware - use a special entry for Radeon
-	8500
-
-2002-07-17 14:49  prigaux
-
-	* lst/Cards+: - add "ATI Radeon 8500" with no DRI_GLX - add "SiS
-	6326 no_accel" with Option "no_accel" - add "NeoMagic 128XD" with
-	special XaaNoScanline* options - add "NeoMagic MagicMedia 256XL+"
-	with Option "sw_cursor" - add NEEDVIDEORAM for cards corresponding
-	to /86c368|S3 Inc|Tseng.*ET6\d00/   (hoping it will work: since the
-	regexp was broken, it was never done.	  (it was applied on the
-	module field of pcitable, instead of the description))	- remove
-	CHIPSET except for cards which had needChipset - add UTAH_GLX,
-	UTAH_GLX_EXPERIMENTAL	(which card have them come from
-	Xconfigurator.pm) - add BAD_FB_RESTORE & BAD_FB_RESTORE_XF3
-
-2002-07-17 14:46  prigaux
-
-	* lst/Makefile: add checking Cards+ in "make check"
-
-2002-07-15 17:54  tvignaud
-
-	* lst/pcitable: rh 7.3 beta merge, step 2 (66% done)
-
-2002-07-15 17:20  tvignaud
-
-	* lst/pcitable: rh b7.3 merge, first step (33% done)
-
-2002-07-15 16:46  prigaux
-
-	* convert/merge2pcitable.pl: handle buggy redhat pcitable
-
-2002-07-10 14:13  erwan
-
-	* lst/pcitable: adding 176 for geforce 4
-
-2002-07-08 11:34  tvignaud
-
-	* lst/pcitable: s/snd-card/snd/g
-
-2002-07-07 13:39  prigaux
-
-	* lst/MonitorsDB: merge with redhat hwdata-0.32
-
-2002-06-26 15:54  gbeauchesne
-
-	* lst/pcitable: - Merge AMD-8111 pci.ids from upstream pci.ids
-
-2002-06-21 13:47  gbeauchesne
-
-	* ChangeLog: Update ChangeLog
-
-2002-06-21 13:47  gbeauchesne
-=======
 2002-08-06 15:22  Gwenole Beauchesne <gbeauchesne@mandrakesoft.com>
 
 	* Makefile: Add changelog rule to use cvs2cl for ChangeLog file,
@@ -862,10 +646,9 @@
 	* lst/pcitable: - Merge AMD-8111 pci.ids from upstream pci.ids
 
 2002-06-21 13:47  Gwenole Beauchesne <gbeauchesne@mandrakesoft.com>
->>>>>>> 1.6
 
-	* ChangeLog, ldetect-lst.spec, lst/pcitable: - Add more nForce
-	things from Damien
+	* ldetect-lst.spec, lst/pcitable: - Add more nForce things from
+	Damien
 
 2002-06-19 10:55  Guillaume Cottenceau <gc@mandrakesoft.com>
 
