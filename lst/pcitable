@@ -1570,7 +1570,7 @@
 0x10de	0x0201	"Card:NVIDIA GeForce3 (generic)"	"nVidia Corporation|GeForce3 (rev 1)"
 0x10de	0x0202	"Card:NVIDIA GeForce3 (generic)"	"nVidia Corporation|GeForce3 (rev 2)"
 0x10de	0x0203	"Card:NVIDIA GeForce3 (generic)"	"nVidia Corporation|GeForce3 (rev 3)"
-0x10de	0x0250	"Card:NVIDIA GeForce3 (generic)"	"NVidia|0x0250"
+0x10de	0x0250	"Card:NVIDIA GeForce3 (generic)"	"NVidia|NV25 [GeForce4 Ti4600]"
 0x10de	0x0251	"Card:NVIDIA GeForce3 (generic)"	"NVidia|NV25 [GeForce4 Ti4400]"
 0x10de	0x0253	"Card:NVIDIA GeForce3 (generic)"	"NVidia|NV25 [GeForce4 Ti4200]"
 0x10de	0x0258	"Card:NVIDIA GeForce3 (generic)"	"NVidia|NV25 (GeForce 4)"
