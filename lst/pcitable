@@ -2610,7 +2610,7 @@
 0x10de	0x0288	"Card:NVIDIA GeForce4 (generic)"	"nVidia|Quadro4 980 XGL"
 0x10de	0x0289	"Card:NVIDIA GeForce4 (generic)"	"nVidia|Quadro4 780 XGL"
 0x10de	0x028c	"Card:NVIDIA GeForce4 (generic)"	"nVidia|Quadro4 700 GoGL"
-0x10de	0x02a0	"Card:NVIDIA GeForce3 (xbox)"		"nVidia|GeForce3 Integrated (Xbox)"
+0x10de	0x02a0	"Card:NVIDIA GeForce3 (xbox)"	"nVidia|GeForce3 Integrated (Xbox)"
 0x10de	0x0300	"Card:NVIDIA GeForce FX (generic)"	"nVidia|NV30 GeForce FX"
 0x10de	0x0301	"Card:NVIDIA GeForce FX (generic)"	"nVidia|GeForce FX 5800 Ultra"
 0x10de	0x0302	"Card:NVIDIA GeForce FX (generic)"	"nVidia|GeForce FX 5800"
