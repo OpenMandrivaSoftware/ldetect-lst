@@ -434,6 +434,7 @@
 0x1002	0x5159	0x1787	0x0202	"Card:ATI Radeon (fglrx)"	"ATI Technologies Inc|RV100 QY [Excalibur Radeon 7000]"
 0x1002	0x5159	"Card:ATI Radeon (fglrx)"	"ATI|Radeon VE/7000 QY (AGP/PCI)"
 0x1002	0x515a	"Card:ATI Radeon (fglrx)"	"ATI|Radeon VE/7000 QZ (AGP/PCI)"
+0x1002	0x515e	"Card:ATI Radeon (fglrx)"	"ATI|ES1000 RN50"
 0x1002	0x5168	"Card:ATI Radeon"	"ATI|Radeon R200 Qh"
 0x1002	0x5169	"Card:ATI Radeon"	"ATI|Radeon R200 Qi"
 0x1002	0x516a	"Card:ATI Radeon"	"ATI|Radeon R200 Qj"
