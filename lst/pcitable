@@ -650,7 +650,7 @@
 0x1033	0x00be	"unknown"	"NEC Corporation|VR4122 64-bit CPU with Northbridge"
 0x1033	0x00cd	"unknown"	"NEC Corporation|uPD72870 IEEE1394 1-Chip OHCI Host Controller"
 0x1033	0x00ce	"unknown"	"NEC Corporation|uPD72871/2 IEEE1394 1-Chip OHCI Host Controller"
-0x1033	0x00e0	"unknown"	"NEC Corporation|PCI to USB Enhanced Host Controller"
+0x1033	0x00e0	"ehci-hcd"	"NEC Corporation|PCI to USB Enhanced Host Controller"
 0x1036	0x0000	"fdomain"	"Future Domain|TMC-18C30 [36C70]"
 0x1039	0x0001	"unknown"	"Silicon Integrated Systems [SiS]|5591/5592 AGP"
 0x1039	0x0002	"unknown"	"Silicon Integrated Systems [SiS]|SG86C202"
