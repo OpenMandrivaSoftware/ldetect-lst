@@ -23,8 +23,8 @@ if ($0 =~ /merge2pcitable/)
 
     my $read = $main::{"read_$format"} or die "unknown format $format (must be one of $formats)\n";
     my $d_pci = read_pcitable($pcitable, 'strict');
-    my $d_in = $read->($in);
-    merge($d_pci, $d_in);
+    my ($d_in, $classes) = $read->($in);
+    merge($d_pci, $d_in, $classes);
     exit 1 if our $error;
     cleanup_subids($d_pci) if !$keep_subids;
     write_pcitable($d_pci);
@@ -110,16 +110,21 @@ sub read_pcitable {
 
 sub read_kernel_pcimap {
     my ($f) = @_;
-    my %drivers;
+    my (%drivers, %driver_with_classes);
     foreach (cat_($f)) {
 	chomp;
 	next if /^#/ || /^\s*$/;
 	my ($module, $id1, $id2, $subid1, $subid2) = split;
 	next if $module eq 'pci';
 	($subid1, $subid2) = ("ffff", "ffff") if hex($subid1) == 0 && hex($subid2) == 0;
-	$drivers{join '', map { /(....)$/ } $id1, $id2, $subid1, $subid2} = [ $module, '' ];
+     if ($id2 =~ /ffff$/ && $id1 !~ /ffff$/) {
+         # $driver_with_classes{$id1} = [ $module, '' ];
+         $driver_with_classes{join '', map { /(....)$/ } $id1, $id2, $subid1, $subid2} = [ $module, '' ];
+     } else {
+         $drivers{join '', map { /(....)$/ } $id1, $id2, $subid1, $subid2} = [ $module, '' ];
+     }
     }
-    \%drivers;
+    \%drivers, \%driver_with_classes;
 }
 
 sub read_kernel_usbmap {
@@ -269,7 +274,25 @@ sub write_pcitable {
 }
 
 sub merge {
-    my ($drivers, $new) = @_;
+    my ($drivers, $new, $classes) = @_;
+    foreach (keys %$classes) {
+        my ($vendor, $id, $subvendor, $subid);
+        ($vendor, $id, $subvendor, $subid) = ($_ =~ /^([0-9a-f]{4,4})([0-9a-f]{4,4})/);
+        next unless ($vendor, $id, $subvendor, $subid) = ($_ =~ /^([0-9a-f]{4,4})([0-9a-f]{4,4})/);
+
+        # handle PCI_ANY_ID as PCI device ID:
+        if ($vendor !~ /ffff$/ && $id =~ /ffff$/) {
+            foreach my $old (keys %$drivers) {
+                next if $old !~ /^$vendor/ || $drivers->{$old}[0] ne 'unknown';
+                # blacklist AGP for now;
+                next if $classes->{$_}[0] =~ /agp/;
+                # the following test would be better but still generates some wrong entries (the only real check is to check
+                # PCI_CAP_ID_AGP at probing time):
+                # next if $classes->{$_}[0] =~ /-agp/ && $drivers->{$old}[1] !~ /Bridge|Controller|Host/i;
+                $drivers->{$old}[0] = $classes->{$_}[0]; # if $drivers->{$old}[0] eq "unknown";
+            }
+        }
+     }
 
     foreach (keys %$new) {
 	next if $new->{$_}[0] =~ /parport_pc|i810_ng/;
