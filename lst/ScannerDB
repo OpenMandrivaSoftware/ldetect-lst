@@ -428,6 +428,10 @@ LINE option connect-device
 LINE $DEVICE
 UNSUPPORTED
 
+NAME Hewlett-Packard|ScanJet 5300C
+COMMENT The HP 5300 does now work with SANE/Avision.
+UNSUPPORTED
+
 NAME Hewlett-Packard|ScanJet 4100C
 SERVER hp
 DRIVER usb 
@@ -451,6 +455,12 @@ SEE Hewlett-Packard|ScanJet 4100C
 
 NAME Hewlett-Packard|ScanJet 6390C
 SEE Hewlett-Packard|ScanJet 4100C
+
+NAME Hewlett-Packard|ScanJet 7400C
+COMMENT it is an Avision OEM scanner labeled by HP
+COMMENT http://www.rocklinux.org/people/rene/sane/
+COMMENT HP5370C should work if 7400c works..
+UNSUPPORTED
 
 NAME Hewlett-Packard|PhotoSmart PhotoScanner
 SEE Hewlett-Packard|ScanJet IIc
