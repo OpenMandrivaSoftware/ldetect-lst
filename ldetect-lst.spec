@@ -1,6 +1,6 @@
 %define name ldetect-lst
-%define version 0.1.4
-%define release 19mdk
+%define version 0.1.5
+%define release 1mdk
 
 Name: %{name}
 Version: %{version}
@@ -64,6 +64,19 @@ fi
 %{_bindir}/*
 
 %changelog
+* Sun Jan 12 2003 Pixel <pixel@mandrakesoft.com> 0.1.5-1mdk
+  o lst/pcitable:
+  - merge with modules.pcimap from kernel 2.4.21.pre2.1mdk-1-1mdk
+  - merge with http://www.yourvote.com/pci/vendors.txt
+  - merge with pci.ids
+  - merge with redhat's hwdata 0.62
+    (Radeon 9000, Radeon Mobility 9000 and Radeon 9700 use "Card:ATI Radeon"
+    until someone finds they need a special entry in Cards+ (as for redhat, they
+    specify the CHIPSET, why?))
+  o lst/usbtable:
+  - merge with usb.ids,v 1.111 
+  - merge with modules.usbmap from kernel 2.4.21.pre2.1mdk-1-1mdk
+
 * Mon Oct 21 2002 Frederic Lepied <flepied@mandrakesoft.com> 0.1.4-19mdk
  o lst/pcitable: added missing savage id
  o lst/usbtable: add support for usb video devices (Florent Beranger)
