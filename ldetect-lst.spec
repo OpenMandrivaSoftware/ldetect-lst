@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.12
+%define version 0.1.13
 %define release 1mdk
 
 Name: %{name}
@@ -64,6 +64,12 @@ fi
 %{_bindir}/*
 
 %changelog
+* Tue Aug  3 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.13-1mdk
+- pcitable: 
+  o merge with kernel-2.6.8-0.rc2.2mdk
+  o merge with pciids.sf.net
+  o update missing descriptions
+
 * Thu Jul 29 2004 Frederic Lepied <flepied@mandrakesoft.com> 0.1.12-1mdk
 - usbtable: updated descriptions
 
