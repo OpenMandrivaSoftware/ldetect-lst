@@ -1,3 +1,11 @@
+2004-07-28 17:21  Frederic Lepied <flepied@mandrakesoft.com>
+
+	* lst/usbtable: updated description
+
+2004-07-26 14:33  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: fix 0.1.10-1mdk 's changelog :-(
+
 2004-07-26 06:12  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.11-1mdk
