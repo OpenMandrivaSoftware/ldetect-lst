@@ -1,3 +1,7 @@
+2004-10-21 11:56  Gwenole Beauchesne <gbeauchesne@mandrakesoft.com>
+
+	* lst/pcitable: add Quadro FX 3400, fix typo for Quadro FX 1300
+
 2004-10-11 04:59  Gwenole Beauchesne <gbeauchesne@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.20-1mdk
