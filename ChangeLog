@@ -1,3 +1,34 @@
+2004-11-17 14:12  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.25-1mdk
+
+2004-11-16 18:16  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: sync with kernel-tmb-2.6.7-2.tmb.6mdk
+
+2004-11-16 12:18  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: fill driver field for EIDE/ATA controllers (they
+	  currently are compiled in kernel core but this enable to support
+	  modular ata as well as to display less frightening "unsupported"
+	  stuff in our tools)
+
+2004-11-16 12:18  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: sync with 2.8.10-rc1-mm5's libata
+
+2004-11-16 12:18  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: 3c90x is dead for years
+
+2004-11-16 12:18  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: fix from 2.8.10-rc1-mm5
+
+2004-11-16 12:17  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: sync with 2.8.10-rc1-mm5's serial driver
+
 2004-11-10 15:20  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* ldetect-lst.spec:  0.1.24-1mdk
