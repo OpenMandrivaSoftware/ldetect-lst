@@ -7,13 +7,14 @@ my @ignored_modules = (
 qw(alsa ignore),
 );
 
-my ($force, $all, $true_all, $keep_subids, $chk_descr);
+my ($force, $all, $true_all, $keep_subids, $chk_descr, $wildcards);
 
 if ($0 =~ /merge2pcitable/) 
 {
     $ARGV[0] eq '-f' and $force = shift;
     $ARGV[0] eq '-a' and $all = shift;
     $ARGV[0] eq '--keep-subids' and $keep_subids = shift;
+    $ARGV[0] eq '--handle-wildcards' and $wildcards = shift;
 
     my $formats = join '|', grep { $_ } map { /^read_(.*)/ ? $1 : '' } keys %main::;
 
@@ -273,7 +274,8 @@ sub write_pcitable {
     }
 }
 
-sub merge {
+
+sub merge_entries_with_wildcards {
     my ($drivers, $new, $classes) = @_;
     foreach (keys %$classes) {
         my ($vendor, $id, $subvendor, $subid);
@@ -293,6 +295,11 @@ sub merge {
             }
         }
      }
+}
+
+sub merge {
+    my ($drivers, $new, $classes) = @_;
+    merge_entries_with_wildcards($drivers, $new, $classes) if $wildcards;
 
     foreach (keys %$new) {
 	next if $new->{$_}[0] =~ /parport_pc|i810_ng/;
