@@ -24,6 +24,7 @@ if ($0 =~ /merge2pcitable/)
     my $d_pci = read_pcitable($pcitable, 'strict');
     my $d_in = $read->($in);
     merge($d_pci, $d_in);
+    exit 1 if our $error;
     cleanup_subids($d_pci) if !$keep_subids;
     write_pcitable($d_pci);
 } else { 1 }
@@ -36,7 +37,7 @@ sub dummy_module {
 
 sub to_string {
     my ($id, $driver) = @_;
-    @$driver == 2 or die "error: to_string $id\n";
+    @$driver == 2 or error("error: to_string $id");
     my ($module, $text) = map { qq("$_") } @$driver;
     my ($id1, $id2, $subid1, $subid2) = map { "0x$_" } ($id =~ /(....)/g);
     join "\t", $id1, $id2, "$subid1 $subid2" ne "0xffff 0xffff" ? ($subid1, $subid2) : (), $module, $text;
@@ -50,8 +51,9 @@ sub read_pcitable {
     my $line = 0;
     my $rm_quote_silent = sub { s/^"//; s/"$//; $_ };
     my $rm_quote = sub {
-	    s/^"// or print STDERR "missing left quote at line $line\n";
-            s/"$// or print STDERR "missing right quote at line $line\n";
+	    s/^"// or error("$f:$line: missing left quote");
+            s/"$// or error("$f:$line: missing right quote");
+	    /"/ and error("$f:$line: bad double quote");
 	    $_;
     };
     foreach (cat_($f)) {
@@ -85,10 +87,10 @@ sub read_pcitable {
 	    $module = '"yenta_socket"' if $module =~ /i82365/;
 	    my $id = join '', map { 
 		s/^0x//;
-		length == 4 or print STDERR "$f $line: bad number $_\n";
+		length == 4 or error("$f $line: bad number $_");
 		lc($_);
 	    } $id1, $id2, $subid1, $subid2;
-	    $drivers{$id} and print STDERR "$f $line: multiple entry for $id (skipping $module $text)\n";
+	    $drivers{$id} and error("$f $line: multiple entry for $id (skipping $module $text)");
 	    $drivers{$id} ||= [ map &$rm_quote, $module, $text ];
 	} else {
 	    die "$f $line: bad line\n";
@@ -319,4 +321,9 @@ sub cleanup_subids {
 #	    print STDERR "keeping subids for $id ($text) because of ", join(", ", keys %modules), "\n";
 	}
     }
+}
+
+sub error {
+    our $error = 1;
+    print STDERR "$_[0]\n";
 }
