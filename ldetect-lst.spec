@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.54
+%define version 0.1.55
 %define release 1mdk
 
 Name: %{name}
@@ -64,6 +64,10 @@ fi
 %{_bindir}/*
 
 %changelog
+* Wed Feb  2 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.55-1mdk
+- add 2 new intel sata controllers
+- sync with kernel-multimedia-2.6.10-1.mm.9mdk
+
 * Fri Jan 28 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.54-1mdk
 - add one intel ide controller (from lkml)
 - add a new LG monitor (Angelo Naselli)
