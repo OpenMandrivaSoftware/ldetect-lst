@@ -1716,6 +1716,7 @@ NAME ATI Graphics Ultra
 CHIPSET ati
 SERVER Mach8
 DRIVER ati
+UNSUPPORTED
 
 NAME ATI Graphics Ultra Pro
 CHIPSET ati
