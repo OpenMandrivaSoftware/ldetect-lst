@@ -12,6 +12,7 @@ BuildRoot: %{_tmppath}/%{name}-buildroot
 License: GPL
 Prefix: %{_prefix}
 BuildRequires: perl-MDK-Common
+Provides: hwdata
 
 %package devel
 Summary: Devel for ldetect-lst
