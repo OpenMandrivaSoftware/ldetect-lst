@@ -20,8 +20,10 @@ install: build
 
 rpm: srpm
 	rpm -bb --clean --rmsource --rmspec $(RPM)/SPECS/$(project).spec
+	cvs commit
 
 srpm: check clean $(RPM)
+	cvs update
 	(echo "# !! DON'T MODIFY HERE, MODIFY IN THE CVS !!" ; \
          cat $(project).spec \
         ) > $(RPM)/SPECS/$(project).spec
