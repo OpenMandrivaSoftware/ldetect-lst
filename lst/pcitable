@@ -1411,7 +1411,7 @@
 0x105a	0x6268	"unknown"	"Promise Technology|PDC20268R FastTrak100 TX2/TX4 EIDE controller"
 0x105a	0x6269	"unknown"	"Promise Technology, Inc.|PDC20271"
 0x105a	0x6621	"unknown"	"Promise Technology, Inc.|PDC20621 [SX4000] 4 Channel IDE RAID Controller"
-0x105a	0x6622	"sata_promise"	"Promise Technology|PDC2037X FastTrak Controller"
+0x105a	0x6622	"sata_sx4"	"Promise Technology|PDC2037X FastTrak Controller"
 0x105a	0x6626	"unknown"	"Promise Technology, Inc.|PDC20618 Ultra 618"
 0x105a	0x6629	"unknown"	"Promise Technology|FastTrak TX4000 Controller"
 0x105a	0x7275	"unknown"	"Promise Technology, Inc.|PDC20277"
