@@ -5062,6 +5062,7 @@
 0x16ca	0x0001	"unknown"	"Cenatek Inc.|Rocket Drive Solid State Disk"
 0x16e3	0x1e0f	"unknown"	"European Space Agency|LEON2FT Processor"
 0x16ec	0x00ff	"unknown"	"U.S. Robotics|USR997900 10/100 Mbps PCI Network Card"
+0x16ec	0x0116	"r8169"	"U.S. Robotics|Gibabit Network Card"
 0x16ec	0x3685	"orinoco_plx"	"U.S. Robotics|Wireless Access PCI Adapter Model 022415"
 0x16ed	0x1001	"unknown"	"Sycron N. V.|UMIO communication card"
 0x16f4	0x8000	"unknown"	"Vweb Corp|VW2010"
