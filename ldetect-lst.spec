@@ -73,7 +73,7 @@ fi
 
 * Thu Oct 28 2004 Gwenole Beauchesne <gbeauchesne@mandrakesoft.com> 0.1.22-1mdk
 - add nVidia Quadro FX 1100 card ID
-- add support for FreeBox via USB link (buggy device make kernel
+- add support for FreeBox v4 via USB link (buggy device make kernel
   failed to map usbnet to it) [ Thierry Vignaud ]
 
 * Thu Oct 21 2004 Gwenole Beauchesne <gbeauchesne@mandrakesoft.com> 0.1.21-1mdk
