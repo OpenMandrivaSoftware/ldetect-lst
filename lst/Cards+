@@ -2452,6 +2452,9 @@ DRIVER i810
 NAME Intel 85x
 DRIVER i810
 
+NAME Intel 865
+DRIVER i810
+
 NAME Voodoo Banshee (generic)
 SERVER SVGA
 DRIVER tdfx

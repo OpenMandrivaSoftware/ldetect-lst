@@ -4081,6 +4081,7 @@
 0x8086	0x2560	"agpgart"	"Intel Corporation|82845 845 Chipset Host Bridge (MCH)"
 0x8086	0x2561	"unknown"	"Intel Corp.|82845G/GL [Brookdale-G] Chipset AGP Bridge"
 0x8086	0x2562	"Card:Intel 845"	"Intel Corporation|82845 CGC [Chipset Graphics Controller]"
+0x8086	0x2572	"Card:Intel 865"	"Intel Corporation|865 Chipset Graphics Controller"
 0x8086	0x3092	"i2o_block"	"Intel Corporation|Integrated RAID"
 0x8086	0x3200	"unknown"	"Intel Corporation|31244 PCI-X to Serial ATA Controller"
 0x8086	0x3575	"agpgart"	"Intel Corporation|82830 Host-Hub I/F Bridge SDRAM Controller"
