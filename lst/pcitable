@@ -3203,7 +3203,7 @@
 0x1409	0x7168	"unknown"	"Timedia Technology Co Ltd|Multi I/O card"
 0x1409	0x7268	"unknown"	"Timedia Technology Co Ltd|SUN1888 Simple Comm. Controller"
 0x1412	0x1712	"snd-ice1712"	"IC Ensemble Inc|ICE1712 [Envy24]"
-0x1412	0x1724	"snd-ice1712"	"IC Ensemble Inc|ICE1724 [Envy24HT]"
+0x1412	0x1724	"snd-ice1724"	"IC Ensemble Inc|ICE1724 [Envy24HT]"
 0x1415	0x8401	"unknown"	"Oxford Semiconductor, Ltd.|OX9162 PCI Bridge"
 0x1415	0x8403	"unknown"	"Oxford Semiconductor, Ltd.|OX12PCI840 PCI Parallel Port"
 0x1415	0x9500	"unknown"	"Oxford Semiconductor, Ltd.|PCI Function"
