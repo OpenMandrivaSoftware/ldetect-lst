@@ -1,3 +1,32 @@
+2004-11-17 15:42  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.26-1mdk
+
+2004-11-17 15:41  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: rollback s/ata_piix/ahci/ since the later is only
+	  provided with latest releases of libata...
+
+2004-11-17 15:40  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/: Cards+, pcitable: sync with hwdata-0.147
+
+2004-11-17 15:13  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/Cards+: explain why we do not support DRI on i915
+
+2004-11-17 15:11  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/usbtable: fix bad double quote
+
+2004-11-17 15:04  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/usbtable: sync with latest usb.ids
+
+2004-11-17 15:03  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: sync with latest pci.ids
+
 2004-11-17 14:12  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.25-1mdk
