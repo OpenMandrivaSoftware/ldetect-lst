@@ -299,6 +299,15 @@ ADI; ADI ProVista E40; adi1952; 30.0-64.0; 50.0-100.0; 1
 ADI; ADI ProVista E44; adi2e30; 30.0-69.0; 50.0-100.0; 1
 ADI; ADI ProVista E55; adi4430; 30.0-69.0; 50.0-100.0; 1
 ADI; ADI ProVista E66; adi3e30; 30.0-86.0; 50.0-120.0; 1
+Amptron International,Inc.; Amptron CS19; AMPCS19; 30.0-95.0; 50.0-120.0
+Amptron International,Inc.; Amptron AV8S; AMPAV8S; 30.0-68.0; 50.0-110.0
+Amptron International,Inc.; Amptron ES15; AMPD556; 30.0-54.0; 50.0-120.0
+Amptron International,Inc.; Amptron AV5S; AMPAV5S; 30.0-54.0; 50.0-110.0
+Amptron International,Inc.; Amptron ES14; AMPD356; 30.0-54.0; 50.0-120.0
+Amptron International,Inc.; Amptron AV6S; AMPAV6S; 30.0-68.0; 50.0-110.0
+Amptron International,Inc.; Amptron CS17; AMPCS17; 30.0-69.0; 50.0-120.0
+Amptron International,Inc.; Amptron GS17e; AMPA770; 30.0-70.0; 50.0-130.0
+Amptron International,Inc.; Amptron GS17; AMPA785; 30.0-85.0; 50.0-130.0
 AOC; AOC CM-324; cm-324; 15.0-37.0; 50.0-90.0; 1
 AOC; AOC CM-325; cm-325; 31.0-38.0; 50.0-90.0; 1
 AOC; AOC CM-326; cm-326; 15.0-38.0; 50.0-90.0; 1
@@ -322,15 +331,52 @@ AOC; AOC SPECTRUM 9Glr; aoce995; 30.0-95.0; 47.0-150.0; 1
 Apollo; Apollo 1280x1024-68Hz; 0; 73.702; 68.24
 Apollo; Apollo 1280x1024-70Hz; 0; 75.118; 70.07
 Apple; Apple 23" Cinema HD; APP9218; 30.0-90.0; 50.0-70.0; 1
-Apple; HiRes Display 1152x864; 0; 30.0-100.0; 50.0-160.0
-Apple; HiRes Display 1280x1024; 0; 30.0-130.0; 50.0-160.0
-Apple; iBook2 1024x768; 0; 28.0-49.0; 43.0-72.0
-Apple; iBook 800x600; 0; 28.0-50.0; 43.0-75.0
-Apple; iMac/PowerBook 1024x768; 0; 30.0-70.0; 50.0-160.0
-Apple; LoRes Display 640x480; 0; 28.0-33.0; 43.0-72.0
-Apple; Studio Display 17 1280x1024; 0; 30.0-85.0; 48.0-160.0
-Apple; TiPowerBook 1152x768; 0; 30.0-100.0; 50.0-160.0
-Apple; TiPowerBook 1280x854; 0; 30.0-100.0; 50.0-160.0
+Apple; Apple eMac; APP079d; 71-73; 70-140
+Apple; Apple HiRes Display 1152x864; 0; 30.0-100.0; 50.0-160.0
+Apple; Apple HiRes Display 1280x1024; 0; 30.0-130.0; 50.0-160.0
+Apple; Apple iMac CRT; APP059d; 60.015; 75-117
+Apple; Apple iMac LCD 15; APP229c; 28.0-49.0; 60
+Apple; Apple iMac LCD 17; APP279c; 28.0-49.0; 60
+Apple; Apple iBook 800x600; 0; 28-50; 43.0-75.0
+Apple; Apple iBook2 12 (1024x768); APP129c; 30-70; 43.0-72.0
+Apple; Apple iMac/PowerBook 1024x768; 0; 30.0-70.0; 50.0-160.0
+Apple; Apple LoRes Display 640x480; 0; 28.0-33.0; 43.0-72.0
+Apple; Apple PowerBook G4 12 (2003); APP2a9c; 30-70; 60
+Apple; Apple PowerBook G4 12 (2003); APP2b9c; 30-70; 60
+Apple; Apple PowerBook G3 (pre-1999); 0; 119; 196
+Apple; Apple PowerBook G3 Series (1999-2000); 0; 31.5-57.0; 60
+Apple; Apple Titanium PowerBook G4 (2001); APP1d9c; 30.0-100.0; 50-60
+Apple; Apple Titanium PowerBook G4 (2002); APP209c; 30.0-100.0; 50-60
+Apple; Apple Aluminum PowerBook G4; APP359c; 30.0-100.0; 50-60
+Apple; Apple Studio Display 15 LCD; APP1592; 28.0-49.0; 60
+Apple; Apple Studio Display 15 LCD (pre-2001); APPf401; 48-60; 60-75
+Apple; Apple Studio Display 17 LCD; APP1792; 30-130; 48.0-160.0
+Apple; Apple Studio Display 20 LCD; APP1992; 30-130; 60
+Apple; Apple Cinema Display 22 LCD; APP1692; 30-130; 60
+Apple; Apple Cinema Display 23 LCD; APP1892; 30-130; 60
+Apple; Apple AudioVision 14; 0; 35.0; 66.7
+Apple; Apple Basic Color Monitor; 0; 31.5; 60.0
+Apple; Apple Color Plus 14; 0; 35.0 ; 67.0
+Apple; Apple ColorSync 17; 0; 30-82; 40-120
+Apple; Apple ColorSync 20; 0; 30-94; 48-120
+Apple; Apple Macintosh 16" Color Display; 0; 50.0; 75.0
+Apple; Apple Macintosh 21" Color Display; 0; 68.7; 75.0
+Apple; Apple Multiple Scan 14; 0; 31.5-48.1; 60-72
+Apple; Apple Multiple Scan 15; 0; 30-61 ; 60-75
+Apple; Apple Multiple Scan 15AV; 0; 30-56.5; 56-75
+Apple; Apple Multiple Scan 17; 0; 60-75; 31.4-60.2
+Apple; Apple Multiple Scan 1705; 0; 30-65; 50-120
+Apple; Apple Multiple Scan 20; 0; 60-75; 31.4-80
+Apple; Apple Multiple Scan 720; 0; 30-69; 48-160
+Apple; Apple Performa Display; 0; 35.0 ; 66.7
+Apple; Apple Studio Display 17 CRT; 0; 30-85; 48-160
+Apple; Apple Studio Display 21 CRT; 0; 31-107; 48-120
+Apple; Apple Vision 1710; 0; 30-80; 40-120
+Apple; Apple Vision 1710AV; 0; 30-82; 50-120
+Apple; Apple Vision 750AV; 0; 30-82; 40-120
+Apple; Apple Vision 850 AV; 0; 30-94; 48-120
+Apple; Apple TiPowerBook 1152x768; 0; 30.0-100.0; 50.0-160.0
+Apple; Apple TiPowerBook 1280x854; 0; 30.0-100.0; 50.0-160.0
 AST; AST Sabre; ast8009; 30.0-64.0; 50.0-90.0; 1
 AST; AST Vision 20H; ast8008; 29.0-82.0; 50.0-150.0; 1
 AST; AST Vision 4I; ast8002; 30.0-38.0; 50.0-90.0; 1
@@ -686,6 +732,7 @@ CTX; CTX 1451ES; ctx-1451es; 30-50; 50-90; 1
 CTX; CTX 1451GM; ctx-1451gm; 30-50; 50-90; 1
 CTX; CTX 1462GM; ctx-1462; 30.0-62.0; 50.0-90.0; 1
 CTX; CTX 1551; ctx1551; 30.0-50.0; 45.0-90.0; 1
+CTX; CTX 1561; ctx1561; 30.0-60.0; 50.0-90.0; 1
 CTX; CTX 1562; ctx1562; 30.0-62.0; 45.0-90.0; 1
 CTX; CTX 1562ES; ctx-1562es; 30-62; 50-90; 1
 CTX; CTX 1562GM; ctx-1562gm; 30-62; 50-90; 1
@@ -1796,6 +1843,7 @@ ICL; ICL VE17C; icl-ve17c; 30.0-64.0; 48.0-100.0; 1
 Iiyama; Iiyama A101GT, VisionMasterPro 501; ivm2118; 27.0-96.0; 50.0-160.0; 1
 Iiyama; Iiyama A102GT, VisionMasterPro 502; ivm2128; 27.0-110.0; 50.0-160.0; 1
 Iiyama; Iiyama A201HT, VisionMaster Pro 510; ivm2140; 30.0-130.0; 50.0-160.0; 1
+Iiyama; Iiyama MA201D, VisionMaster Pro 511; ivm2150; 30.0-110.0; 50.0-180.0; 1
 Iiyama; Iiyama A701GT, VisionMasterPro 400; ivm1711; 27.0-96.0; 50.0-160.0; 1
 Iiyama; Iiyama A702HT, VisionMaster Pro 410; ivm1740; 27.0-96.0; 50.0-160.0; 1
 Iiyama; Iiyama A705MT, VisionMaster Pro 411 /i70A; ivm174a; 30.0-86.0; 50.0-180.0; 1
@@ -3560,7 +3608,7 @@ ViewSonic; ViewSonic E790B-4; vsce405; 30-95; 50-160; 1
 ViewSonic; ViewSonic E790B; vsc514d; 30-95; 50-200; 1
 ViewSonic; ViewSonic E790; vsc4d4d; 30-95; 50-200; 1
 ViewSonic; ViewSonic E810; vsc5251; 30-95; 50-180; 1
-ViewSonic; ViewSonic E90; vsc564e; 30-87; 50-120; 1
+ViewSonic; ViewSonic E90; vsc564e; 30-87; 50-180; 1
 ViewSonic; ViewSonic E90-4; VSCA418; 30-86; 50-180
 ViewSonic; ViewSonic E90f+-3; VSC9517; 30-86; 50-180
 ViewSonic; ViewSonic E90f+; VSC890E; 30-86; 50-180
@@ -3735,10 +3783,10 @@ ViewSonic; ViewSonic VG150m-2; VSC4811; 30-62; 50-75
 ViewSonic; ViewSonic VG150m; VSCFC09; 30-62; 50-75
 ViewSonic; ViewSonic VG150mb; VSCFD09; 30-62; 50-75
 ViewSonic; ViewSonic VG151; vsc5a47; 24.8-61; 56-75; 1
-ViewSonic; ViewSonic VG175; vscdd00; 30-82; 50-75; 1
 ViewSonic; ViewSonic VG151b; VSCDA06; 30-62; 50-75
 ViewSonic; ViewSonic VG171; 9E06   ; 30-82; 50-75
 ViewSonic; ViewSonic VG171b; VSCD906; 30-82; 50-75
+ViewSonic; ViewSonic VG175; vscdd00; 30-82; 50-75; 1
 ViewSonic; ViewSonic VG180-2; vsc464e; 30-80; 56-85; 1
 ViewSonic; ViewSonic VG180-3; vsc7517; 30-82; 50-75; 1
 ViewSonic; ViewSonic VG180; vsc464d; 30-80; 60-85; 1
