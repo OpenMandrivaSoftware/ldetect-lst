@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.2
-%define release 20mdk
+%define release 21mdk
 
 Name: %{name}
 Version: %{version}
@@ -48,6 +48,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/*
 
 %changelog
+* Wed Sep  5 2001 Pixel <pixel@mandrakesoft.com> 0.1.2-21mdk
+- merge with latest redhat pcitable & kernel modules.pcimap
+
 * Thu Aug 30 2001 Pixel <pixel@mandrakesoft.com> 0.1.2-20mdk
 - cleanup some bttv
 - Matrox Millenium card are supported by XF4 (fpons)
