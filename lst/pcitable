@@ -4143,7 +4143,7 @@
 0x126c	0x1211	"8139too"	"Northern Telecom|10/100BaseTX [RTL81xx]"
 0x126c	0x126c	"unknown"	"Northern Telecom|802.11b Wireless Ethernet Adapter"
 0x126c	0x1f1f	"unknown"	"Nortel Networks Corp.|e-mobility 802.11b Wireless LAN PCI Card"
-0x126c	0x8030	"orinoco_plx"	"Mitani Corp.|emobility"
+0x126c	0x8030	"hostap_plx"	"Mitani Corp.|emobility"
 0x126f	0x0501	"unknown"	"Silicon Motion, Inc.|SM501 VoyagerGX"
 0x126f	0x0710	"Card:Silicon Motion LynxEM (generic)"	"Silicon Motion, Inc.|Lynx EM MS710"
 0x126f	0x0712	"Card:Silicon Motion Lynx (generic)"	"Silicon Motion, Inc.|SM712 LynxEM+"
