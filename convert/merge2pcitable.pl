@@ -21,6 +21,9 @@ sub to_string {
     my ($id1, $id2, $subid1, $subid2) = map { "0x$_" } ($id =~ /(....)/g);
     join "\t", $id1, $id2, "$subid1 $subid2" ne "0xffff 0xffff" ? ($subid1, $subid2) : (), $module, $text;
 }
+sub dummy_module {
+    $_[0] =~ /alsa|ignore/;
+}
 
 # works for RedHat's pcitable old and new format, + mdk format (alike RedHat's old one)
 # (the new format has ending .o's and double quotes are removed)
@@ -48,7 +51,7 @@ sub read_pcitable {
 	    }
 
 	    $module =~ s/\.o$//;
-	    $module = "unknown" if $module =~ /alsa|ignore/; # stupid rh stuff
+	    $module = "unknown" if dummy_module($module);
 	    my $id = join '', map { s/^0x//; $_ } $id1, $id2, $subid1, $subid2;
 	    $drivers{$id} and print STDERR "$f $line: multiple entry for $id (skipping $module $text)\n";
 	    $drivers{$id} ||= [ map &$rm_quote, $module, $text ];
@@ -65,6 +68,7 @@ sub read_kernel_pcimap {
 	chomp;
 	next if /^#/ || /^\s*$/;
 	my ($module, $id1, $id2, $subid1, $subid2) = split;
+	($subid1, $subid2) = ("ffff", "ffff") if $subid1 == 0 && $subid2 == 0;
 	$drivers{join '', map { /(....)$/ } $id1, $id2, $subid1, $subid2} = [ $module, '' ];
     }
     \%drivers;
@@ -93,7 +97,29 @@ sub read_pciids {
 	    $id1 = $1;
 	    $class = $class{$2} || $2;
 	} else {
-	    die "bad line: $_";
+	    die "bad line: $_\n";
+	}
+    }
+    \%drivers;
+}
+
+sub read_pcilst {
+    my ($f) = @_;
+    my %drivers;
+    my ($id, $class, $line, $text);
+    open F, $f or die "read_pciids: can't open $f\n";
+    foreach (<F>) {
+	chomp; $line++;
+	next if /^#/ || /^;/ || /^\s*$/;
+	if (/^\t\S/) {
+	    my ($id, undef, $module, $text) = split ' ', $_, 4 or die "bad line: $_\n";
+	    $text =~ s/\t/ /g;
+	    $module = "unknown" if dummy_module($module);
+	    $drivers{"${id}ffffffff"} = [ $module, "$class|$text" ];
+	} elsif (/^(\S+)\s+(.*)/) {
+	    $class = $class{$2} || $2;
+	} else {
+	    die "bad line: $_\n";
 	}
     }
     \%drivers;
@@ -125,8 +151,8 @@ sub merge {
     foreach (keys %$new) {
 	next if $new->{$_}[0] =~ /parport_pc|i810_ng/;
 	if ($drivers->{$_}) {
-	    if ($new->{$_}[0] !~ /unknown|ignore/) {
-		if ($drivers->{$_}[0] =~ /unknown|ignore/ || $force) {
+	    if ($new->{$_}[0] ne "unknown") {
+		if ($drivers->{$_}[0] eq "unknown" || $force) {
 		    $drivers->{$_}[0] = $new->{$_}[0];
 		} elsif ($drivers->{$_}[0] ne $new->{$_}[0]) {		    
 		    print STDERR "different($drivers->{$_}[0] $new->{$_}[0]): ", to_string($_, $drivers->{$_}), "\n"
@@ -137,7 +163,7 @@ sub merge {
 	} else {
 	    $drivers->{$_} = $new->{$_} 
 	      # don't keep sub-entries with unknown drivers
-	      if $all || /ffffffff$/ || $new->{$_}[0] !~ /(unknown|ignore)/;
+	      if $all || /ffffffff$/ || $new->{$_}[0] ne "unknown";
 	}	
     }
 }
