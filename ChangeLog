@@ -1,6 +1,37 @@
+2005-02-18 14:53  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.64-1mdk
+
+2005-02-17 18:25  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: fix one missing iteraid -> it821x (#13740)
+
+2005-02-17 13:20  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: sync with libata-dev (one more VIA SATA controller)
+
+2005-02-16 17:58  Pixel <pixel@mandrakesoft.com>
+
+	* convert/: README.pcitable, merge2pcitable.pl: add merging with
+	  SuSE hwinfo
+
+2005-02-14 17:44  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/MonitorsDB: sync with hwdata-0.150
+
+2005-02-11 21:45  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/MonitorsDB: Rev B iMac as the same eisa id as Rev A (danny)
+
 2005-02-11 20:57  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.63-1mdk
+
+2005-02-11 20:47  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: - use "i810-tco" rather than "i8xx_tco" since
+	  module-init-tools has a   compat table (thus fixing kernel-2.4.x
+	  support) - refer "i810-tco" form over "i810_tco"
 
 2005-02-11 20:43  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
