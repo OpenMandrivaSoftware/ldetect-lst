@@ -64,6 +64,7 @@ fi
 %{_bindir}/*
 
 %changelog
+- update ATI fglrx id
 * Mon Feb  9 2004 Pixel <pixel@mandrakesoft.com> 0.1.9-4mdk
 - all graphic cards now have a DRIVER
 
