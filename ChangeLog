@@ -1,3 +1,11 @@
+2004-09-28 06:57  Frederic Lepied <flepied@mandrakesoft.com>
+
+	* lst/pcitable: added ath_pci entries
+
+2004-09-25 06:37  Erwan Velu <erwan@mandrakesoft.com>
+
+	* lst/usbtable: Adding bluetooth adapter
+
 2004-09-24 07:28  Frederic Lepied <flepied@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.17-1mdk
