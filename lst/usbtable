@@ -735,6 +735,7 @@
 0x05ac	0x1001	"unknown"	"Apple Computer|Apple Keyboard Hub [ALPS]"
 0x05ac	0x1002	"unknown"	"Apple Computer|Apple Extended Keyboard Hub [Mitsumi]"
 0x05b8	0x3002	"unknown"	"Agiler, Inc.|Scroll Mouse"
+0x05b8	0x3038	"Mouse:USB|Wheel"	"Agiler, Inc.|Crystal Optical Mouse"
 0x05c5	0x0002	"digi_acceleport"	""
 0x05c5	0x0004	"digi_acceleport"	""
 0x05c6	0x3100	"unknown"	"Qualcomm, Inc.|CDMA Wireless Modem/Phone"
