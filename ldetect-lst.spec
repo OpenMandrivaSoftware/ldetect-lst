@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.8
-%define release 9mdk
+%define release 10mdk
 
 Name: %{name}
 Version: %{version}
@@ -64,6 +64,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Mon Sep 22 2003 Gwenole Beauchesne <gbeauchesne@mandrakesoft.com> 0.1.8-10mdk
+- nforce3 nvnet
+
 * Mon Sep 22 2003 Nicolas Planel <nplanel@mandrakesoft.com> 0.1.8-9mdk
 - some ATI Radeon card are not working with fglrx.
 
