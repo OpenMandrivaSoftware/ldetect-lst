@@ -59,6 +59,9 @@ fi
 %{_bindir}/*
 
 %changelog
+
+- GeForce Integrated use fbdev driver instead of nv (freeze).
+
 * Mon Feb 11 2002 Pixel <pixel@mandrakesoft.com> 0.1.3-3mdk
 - fix the comment for accessing the CVS version
 

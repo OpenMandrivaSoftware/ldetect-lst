@@ -1446,7 +1446,7 @@
 0x10de	0x017a	"Card:NVIDIA GeForce2 DDR (generic)"	"NVidia|0x017A"
 0x10de	0x017b	"Card:NVIDIA GeForce2 DDR (generic)"	"NVidia|0x017B"
 0x10de	0x017c	"Card:NVIDIA GeForce2 DDR (generic)"	"NVidia|0x017C"
-0x10de	0x01a0	"Card:NVIDIA GeForce2 DDR (generic)"	"NVidia|GeForce2 Integrated"
+0x10de	0x01a0	"Card:NVIDIA GeForce2 Integrated (generic)"	"NVidia|GeForce2 Integrated"
 0x10de	0x01a4	"unknown"	"Nvidia Corporation|nForce AGP Controller"
 0x10de	0x01a5	"unknown"	"Nvidia Corporation|nForce AGP Controller"
 0x10de	0x01a6	"unknown"	"Nvidia Corporation|nForce AGP Controller"
