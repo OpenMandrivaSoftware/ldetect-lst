@@ -1638,7 +1638,7 @@
 0x105a	0x6621	"unknown"	"Promise Technology, Inc.|PDC20621 [SX4000] 4 Channel IDE RAID Controller"
 0x105a	0x6622	"sata_sx4"	"Promise Technology|PDC2037X FastTrak Controller"
 0x105a	0x6626	"unknown"	"Promise Technology, Inc.|PDC20618 Ultra 618"
-0x105a	0x6629	"unknown"	"Promise Technology|FastTrak TX4000 Controller"
+0x105a	0x6629	"sata_promise"	"Promise Technology|FastTrak TX4000 Controller"
 0x105a	0x7275	"pdc202xx_new"	"Promise Technology, Inc.|PDC20277"
 0x105a	0x8000	"sx8"	"Promise Technology, Inc.|"
 0x105a	0x8002	"sx8"	"Promise Technology, Inc.|"
