@@ -62,6 +62,8 @@ fi
 %{_bindir}/*
 
 %changelog
+- fpons: added various HP hardware.
+
 * Fri Mar  1 2002 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.3-8mdk
 - fpons: fixed doubles and typo.
 - Thierry:
