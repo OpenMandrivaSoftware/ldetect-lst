@@ -1752,7 +1752,7 @@
 0x10de	0x0060	"unknown"	"Nvidia Corporation|nForce2 LPC / Legacy / System Management"
 0x10de	0x0064	"unknown"	"Nvidia Corporation|nForce2 SMBus 2.0 Controller"
 0x10de	0x0065	"unknown"	"Nvidia Corporation|nForce2 UDMA 100 IDE Controller"
-0x10de	0x0066	"unknown"	"Nvidia Corporation|nForce2 MCP Networking Adapter"
+0x10de	0x0066	"nvnet"		"Nvidia Corporation|nForce2 MCP Networking Adapter"
 0x10de	0x0067	"usb-ohci"	"Nvidia Corporation|nForce2 USB 1.0 OHCI Controller"
 0x10de	0x0068	"ehci-hcd"	"Nvidia Corporation|nForce2 USB 2.0 Enhanced Controller"
 0x10de	0x006a	"i810_audio"	"Nvidia Corporation|nForce2 Audio Codec Interface"
