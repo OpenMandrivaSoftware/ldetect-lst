@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.71
+%define version 0.1.72
 %define release 1mdk
 
 Name: %{name}
@@ -63,6 +63,11 @@ fi
 %{_bindir}/*
 
 %changelog
+* Tue Mar 15 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.72-1mdk
+- fix driver after alsa naming change
+- fix S3 UniChrome entries (fredl)
+- replace a "GeForce2 DDR" by a "GeForce FX"
+
 * Mon Mar 14 2005 Pixel <pixel@mandrakesoft.com> 0.1.71-1mdk
 - add dmitable
 
