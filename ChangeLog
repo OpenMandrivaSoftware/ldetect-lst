@@ -1,3 +1,17 @@
+2005-03-22 19:17  Thierry Vignaud <tvignaud at mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.75-1mdk
+
+2005-03-22 18:19  Thierry Vignaud <tvignaud at mandrakesoft.com>
+
+	* lst/pcitable: switch ES1983S Maestro-3i PCI Audio Accelerator
+	  from OSS to ALSA (#14573)
+
+2005-03-22 17:09  Thierry Vignaud <tvignaud at mandrakesoft.com>
+
+	* lst/usbtable: xircom_tulip_cb is no more living and this device
+	  is claimed by xircom_cb
+
 2005-03-21 17:24  Thierry Vignaud <tvignaud at mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.74-1mdk
