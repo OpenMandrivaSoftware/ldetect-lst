@@ -141,6 +141,11 @@ SERVER as6e
 DRIVER Parport
 COMMENT Requires the program 'as6edriver' to run.
 
+NAME BlackWidow|4830Pro
+SERVER as6e
+DRIVER Parport
+COMMENT Requires the program 'as6edriver' to run.
+
 # from avision.desc
 NAME Avision|AV 6240
 SERVER avision
