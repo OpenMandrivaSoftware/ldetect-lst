@@ -186,6 +186,8 @@ COMMENT 1 pass, 1200*600 DPI
 
 # from bh.desc
 NAME Bell and Howell|COPISCAN II 6338
+SERVER bh
+DRIVER SCSI
 LINE scsi "B&H SCSI"
 LINE /dev/scanner
 COMMENT Duplex Scanner with ACE - development model
