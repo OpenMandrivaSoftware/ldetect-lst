@@ -1699,7 +1699,7 @@
 0x1242	0x4643	"unknown"	"Jaycor Networks, Inc.|FCI-1063 Fibre Channel Adapter"
 0x1244	0x0700	"ISDN:b1pci,type=27"	"AVM Audiovisuelles|B1 ISDN Adapter"
 0x1244	0x0a00	"ISDN:hisax,type=27"	"AVM Audiovisuelles|A1 ISDN Adapter [Fritz]"
-0x1244	0x0e00	"ISDN:hisax,type=27"	"AVM Audiovisuelles|A1 ISDN Adapter [Fritz]"
+0x1244	0x0e00	"ISDN:hisax,type=10"	"AVM Audiovisuelles|A1 ISDN Adapter [Fritz]"
 0x1244	0x1200	"t1pci"	""
 0x124d	0x0000	"unknown"	"Stallion|EasyConnection 8/32"
 0x124d	0x0002	"unknown"	"Stallion|EasyConnection 8/64"
