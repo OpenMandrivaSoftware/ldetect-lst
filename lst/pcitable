@@ -3470,7 +3470,7 @@
 0x14e4	0x1654	"bcm5700"	""
 0x14e4	0x165d	"bcm5700"	"Broadcom Corporation|BCM5705M 1000BaseTX"
 0x14e4	0x165e	"bcm5700"	""
-0x14e4	0x1696	"bcm5700"	"Broadcom Corporation|NetXtreme BCM5782 Gigabit Ethernet"
+0x14e4	0x1696	"tg3"	"Broadcom Corporation|NetXtreme BCM5782 Gigabit Ethernet"
 0x14e4	0x169c	"bcm5700"	"Broadcom Corporation|NetXtreme BCM5788 Gigabit Ethernet"
 0x14e4	0x16a6	"tg3"	"Broadcom Corporation|NetXtreme BCM5702X Gigabit Ethernet"
 0x14e4	0x16a7	"tg3"	"Broadcom Corporation|NetXtreme BCM5703X Gigabit Ethernet"
