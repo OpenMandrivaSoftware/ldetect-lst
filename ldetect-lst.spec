@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.81
+%define version 0.1.82
 %define release 1mdk
 
 Name: %{name}
@@ -63,6 +63,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Tue Apr  5 2005 Olivier Blin <oblin@mandrakesoft.com> 0.1.82-1mdk
+- use slmodem driver for some ICH4 modems (Arnaud de Lorbeau)
+
 * Mon Apr  4 2005 Pixel <pixel@mandrakesoft.com> 0.1.81-1mdk
 - add graphic card entry for laptop nx6110
 
