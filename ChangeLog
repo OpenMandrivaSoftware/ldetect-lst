@@ -1,3 +1,26 @@
+2005-03-30 17:18  Thierry Vignaud <tvignaud at mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.79-1mdk
+
+2005-03-30 17:17  Thierry Vignaud <tvignaud at mandrakesoft.com>
+
+	* lst/pcitable: always use the same comany name for all O2Micro
+	  devices
+
+2005-03-30 17:14  Thierry Vignaud <tvignaud at mandrakesoft.com>
+
+	* lst/pcitable: yenta_socket claims all O2 Micro controllers
+
+2005-03-30 17:10  Thierry Vignaud <tvignaud at mandrakesoft.com>
+
+	* lst/pcitable: update descriptions from pci.ids
+
+2005-03-30 16:57  Thierry Vignaud <tvignaud at mandrakesoft.com>
+
+	* lst/pcitable: explicitely list all devices supported by
+	  megaraid_mbox since core team don't want to restore support for
+	  megaraid (#13855)
+
 2005-03-30 15:16  Thierry Vignaud <tvignaud at mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.78-1mdk
