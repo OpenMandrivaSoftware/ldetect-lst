@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.19
+%define version 0.1.20
 %define release 1mdk
 
 Name: %{name}
@@ -64,6 +64,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Mon Oct 11 2004 Gwenole Beauchesne <gbeauchesne@mandrakesoft.com> 0.1.20-1mdk
+- speculatively use aic79xx for Adaptec ASC-39320[AB] cards
+
 * Mon Oct 11 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.19-1mdk
 - fix sound on one ensoniq sound card
 
