@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.24
+%define version 0.1.25
 %define release 1mdk
 
 Name: %{name}
@@ -64,6 +64,15 @@ fi
 %{_bindir}/*
 
 %changelog
+* Wed Nov 17 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.25-1mdk
+- pcitable:
+  o sync with kernel-tmb-2.6.7-2.tmb.6mdk
+  o sync with 2.8.10-rc1-mm5's libata & serial driver
+  o fill driver field for EIDE/ATA controllers
+  o s/3c90x/3c59x/ since the former is dead for years
+  o fix a couble of bogus entries
+	* lst/pcitable: sync with 2.8.10-rc1-mm5's 
+
 * Wed Nov 10 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.24-1mdk
 - disambiguate media devices (eg: TV cards vs SAT cards)
 - add I2C modules
