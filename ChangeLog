@@ -1,6 +1,22 @@
+2004-03-25 12:29  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.9-13mdk
+
+2004-03-25 12:25  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: fix #9159 (wrong module)
+
+2004-03-25 12:24  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: fix several mach64 cards (QA request)
+
 2004-03-24 10:39  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* ldetect-lst.spec: add one more change in 0.1.9-12mdk
+
+2004-03-24 10:39  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: add support for warly laptop geforce card
 
 2004-03-24 10:39  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
