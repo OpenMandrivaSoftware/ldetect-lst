@@ -1,3 +1,23 @@
+2003-03-10 15:27  Frederic Lepied <flepied@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.7-8mdk
+
+2003-03-10 15:23  Frederic Lepied <flepied@mandrakesoft.com>
+
+	* lst/Cards+: NForce works with nv driver now
+
+2003-03-06 18:36  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.7-7mdk
+
+2003-03-06 14:24  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/usbtable: fix some webcam description in harddrake2
+
+2003-03-05 15:16  Frederic Lepied <flepied@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.7-6mdk
+
 2003-03-05 15:07  Frederic Lepied <flepied@mandrakesoft.com>
 
 	* lst/usbtable: tagged hisax_st5481 as ISDN
