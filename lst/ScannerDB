@@ -1571,7 +1571,8 @@ SERVER umax
 DRIVER Firewire
 COMMENT not tested
 UNSUPPORTED
- #for hardware detection
+
+#for hardware detection
 NAME Umax|Astra 1220U
 DRIVER usb
 UNSUPPORTED
