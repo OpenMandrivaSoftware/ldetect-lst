@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.18
+%define version 0.1.19
 %define release 1mdk
 
 Name: %{name}
@@ -64,6 +64,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Mon Oct 11 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.19-1mdk
+- fix sound on one ensoniq sound card
+
 * Tue Sep 28 2004 Frederic Lepied <flepied@mandrakesoft.com> 0.1.18-1mdk
 - added ath_pci entries
 
