@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.3
-%define release 2mdk
+%define release 3mdk
 
 Name: %{name}
 Version: %{version}
@@ -59,6 +59,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Mon Feb 11 2002 Pixel <pixel@mandrakesoft.com> 0.1.3-3mdk
+- fix the comment for accessing the CVS version
+
 * Thu Feb  7 2002 Pixel <pixel@mandrakesoft.com> 0.1.3-2mdk
 - upgrading the package should now work... using trigger :-(
 

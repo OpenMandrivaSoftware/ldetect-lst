@@ -34,13 +34,9 @@ install: $(TMP_TABLES) $(TABLES3)
 	for i in $(TABLES); do \
 	mkdir -p $(dir)/$$i.d ; \
 	(echo "# !! The original version is available in CVS at" ; \
-         echo "# export CVSROOT=:pserver:anoncvs@cvs.mandrakesoft.com:/home/cvs/cooker" ; \
-	 echo "# cvs login    (password \`\`cvs'')" ; \
-         echo "# cvs checkout soft/$(project)" ; \
-	 echo "#   or" ; \
-         echo "# export CVSROOT=:ext:LOGIN@cvs.mandrakesoft.com:/home/cvs/cooker" ; \
          echo "# export CVS_RSH=ssh" ; \
-         echo "# cvs checkout soft/$(project)" ; \
+         echo "# export CVSROOT=:ext:anoncvs@cvs.mandrakesoft.com:/cooker" ; \
+         echo "# cvs checkout soft/$(project)    (password \`\`cvs'')" ; \
 	 cat $$i.tmp \
 	) > $(dir)/$$i.d/90default.lst; done
 
