@@ -23,7 +23,7 @@
 0x03f0	0x0401	"scanner"	"Hewlett-Packard|ScanJet 5200c"
 0x03f0	0x0404	"unknown"	"Hewlett-Packard|DeskJet 830c/832"
 0x03f0	0x0405	"unknown"	"Hewlett-Packard|ScanJet 3400cse"
-0x03f0	0x0601	"scanner"	"Hewlett-Packard|ScanJet 6300c "
+0x03f0	0x0601	"scanner"	"Hewlett-Packard|ScanJet 6300c"
 0x03f0	0x0604	"unknown"	"Hewlett-Packard|DeskJet 840c"
 0x03f0	0x0701	"hp5300"	""
 0x03f0	0x1004	"unknown"	"Hewlett-Packard|DeskJet 970Cse"
