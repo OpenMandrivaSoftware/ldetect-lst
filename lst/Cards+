@@ -1351,19 +1351,17 @@ NAME ATI Radeon
 DRIVER radeon
 DRI_GLX
 # DRI_GLX: 16bits preferable ?
-DRIVER2 fglrx
 
 NAME ATI Radeon 8500
 DRIVER radeon
 # no DRI_GLX for now (XF 4.2)
 # but XF 4.3 add DRI
 DRI_GLX
-DRIVER2 fglrx
 
-NAME ATI Radeon (gpl)
+NAME ATI Radeon (fglrx)
 DRIVER radeon
 DRI_GLX
-# DRI_GLX: 16bits preferable ?
+DRIVER2 fglrx
 
 NAME ATI Radeon (fbdev)
 SERVER FBDev
