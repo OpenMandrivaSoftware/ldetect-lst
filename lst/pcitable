@@ -1272,7 +1272,7 @@
 0x1101	0x9500	"initio"	"Initio Corporation|360P"
 0x1101	0x9700	"initio"	"Initio Corp|Fast Wide SCSI Controller"
 0x1102	0x0002	"emu10k1"	"Creative Labs|SB Live! (audio)"
-0x1102	0x7002	"ns558"	"Creative Labs|SB Live! (joystick)"
+0x1102	0x7002	"emu10k1-gp"	"Creative Labs|SB Live! (joystick)"
 0x1102	0x8938	"es1371"	"Creative Labs|ES1371"
 0x1103	0x0003	"unknown"	"Triones|HPT343"
 0x1103	0x0004	"unknown"	"Triones|HPT366"
