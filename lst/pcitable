@@ -1848,6 +1848,7 @@
 0x10de	0x006e	"ohci1394"	"Nvidia Corporation|nForce2 Firewire Controller"
 0x10de	0x00a0	"Card:RIVA TNT2"	"nVidia Corporation|Riva TNT2"
 0x10de	0x00d4	"unknown"	"NVIDIA Corporation|nForce MCP3? SMBus Controller"
+0x10de	0x00d6	"nvnet"	"Nvidia Corporation|nForce3 MCP Networking Adapter"
 0x10de	0x00da	"snd-intel8x0"	"Nvidia Corporation|nForce2 Audio Codec Interface"
 0x10de	0x0100	"Card:NVIDIA GeForce 256 (generic)"	"nVidia Corporation|GeForce 256"
 0x10de	0x0101	"Card:NVIDIA GeForce 256 (generic)"	"nVidia Corporation|GeForce DDR"
