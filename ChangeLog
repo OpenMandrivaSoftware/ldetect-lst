@@ -1,6 +1,73 @@
+2004-07-26 06:12  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.11-1mdk
+
+2004-07-26 06:06  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/MonitorsDB: increase DELL monitors frequency ranges (from
+	  hwdata-0.123)
+
+2004-07-26 06:05  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/MonitorsDB: sync case with hwdata-0.123
+
+2004-07-26 06:02  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/MonitorsDB: two new HP monitors
+
+2004-07-26 06:00  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/MonitorsDB: introduce alternate EISA ids
+
+2004-07-26 05:59  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/MonitorsDB: typo fix
+
+2004-07-26 05:57  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/MonitorsDB: fix sorting
+
+2004-07-26 05:56  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/MonitorsDB: remove a few dobles intruced by pixel
+
+2004-07-26 05:50  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/MonitorsDB: sync with rh's hwdata-0.123
+
+2004-07-21 10:43  Nicolas Planel <nplanel@mandrakesoft.com>
+
+	* lst/pcitable: bcm4400 -> b44	like (#9742)
+
+2004-07-21 10:42  Nicolas Planel <nplanel@mandrakesoft.com>
+
+	* lst/pcitable: bcm5700 -> tg3 (#9742)
+
+2004-07-07 10:10  gletoquart
+
+	* lst/pcitable: Add NVIDIA PCI-express 5750 Card Add Matrox P750
+	  Add NVIDIA GO 5600
+
+2004-07-07 03:07  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/MonitorsDB: add a Princeton monitor (#2633)
+
+2004-07-07 03:06  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/MonitorsDB: add a LCD monitor (Sylvain Vignaud)
+
+2004-06-22 10:29  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: fix #8295 (no ADSL over this card)
+
 2004-06-15 15:25  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.10-1mdk
+
+2004-06-15 15:23  Arnaud de Lorbeau <adelorbeau@mandrakesoft.com>
+
+	* lst/pcitable: Add madwifi_pci for 16c8 0013 and slamr (slmodem)
+	  for 10b9 5457
 
 2004-06-15 15:23  Arnaud de Lorbeau <adelorbeau@mandrakesoft.com>
 
