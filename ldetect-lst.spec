@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.50
+%define version 0.1.51
 %define release 1mdk
 
 Name: %{name}
@@ -64,6 +64,10 @@ fi
 %{_bindir}/*
 
 %changelog
+* Thu Jan 20 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.51-1mdk
+- "snd-audigyls" ALSA driver was renamed "snd-ca0106"
+- add SATA support for ICH7
+
 * Thu Jan 20 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.50-1mdk
 - fix conflict between 8139cp and 8139too
 - add AC'97 Audio support for Intel ICH7
