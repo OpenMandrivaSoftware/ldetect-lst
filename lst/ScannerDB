@@ -361,6 +361,10 @@ SEE Seiko Epson Corp.|Perfection 636
 NAME Seiko Epson Corp.|Perfection 640
 SEE Seiko Epson Corp.|Perfection 636
 
+NAME Seiko Epson Corp.|Perfection 660
+COMMENT Does not work with SANE/Epson
+UNSUPPORTED
+
 NAME Seiko Epson Corp.|Perfection 1200S
 SEE Seiko Epson Corp.|GT-7000
 
@@ -379,6 +383,21 @@ NAME Seiko Epson Corp.|Perfection 1650 / 1650 Photo
 SEE Seiko Epson Corp.|Perfection 636
 COMMENT usb 0x04b8 0x0110
 DRIVER SCSI usb
+
+NAME Seiko Epson Corp.|Perfection 1660 Photo
+SEE Seiko Epson Corp.|Perfection 636
+COMMENT usb 0x04b8 0x011e
+DRIVER usb
+
+NAME Seiko Epson Corp.|Perfection 2400 Photo
+SEE Seiko Epson Corp.|Perfection 636
+COMMENT usb 0x04b8 0x011b
+DRIVER usb
+
+NAME Seiko Epson Corp.|Perfection 2450
+SEE Seiko Epson Corp.|Perfection 636
+COMMENT usb 0x04b8 0x0112
+DRIVER usb
 
 NAME Seiko Epson Corp.|Expression 636
 SEE Seiko Epson Corp.|GT-7000
