@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.4
-%define release 4mdk
+%define release 5mdk
 
 Name: %{name}
 Version: %{version}
@@ -62,6 +62,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Thu Aug  1 2002 Pixel <pixel@mandrakesoft.com> 0.1.4-5mdk
+- Cards+ & pcitable: add "ATI Rage 128 TVout" with flag FB_TVOUT
+
 * Sun Jul 28 2002 Pixel <pixel@mandrakesoft.com> 0.1.4-4mdk
 - drop CardsNames (not used anymore by drakx)
 - Cards+: add Option "XaaNoPixmapCache" for i810 as suggested on cooker.

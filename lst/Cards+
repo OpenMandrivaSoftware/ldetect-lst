@@ -23,6 +23,7 @@
 #
 # MULTI_HEAD 2: for DualHead cards (think Matrox G450)
 # MULTI_HEAD n: for n Head cards (eg: "MULTI_HEAD 4" for QuadHead)
+# FB_TVOUT: the card displays to a plugged TV when in framebuffer
 #
 #
 
@@ -1326,6 +1327,10 @@ BAD_FB_RESTORE_XF3
 
 NAME ATI Rage 128 Mobility
 SEE ATI Rage 128
+
+NAME ATI Rage 128 TVout
+SEE ATI Rage 128
+FB_TVOUT
 
 NAME ATI Rage Fury AGP
 SEE ATI Rage 128

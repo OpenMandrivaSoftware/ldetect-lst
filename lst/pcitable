@@ -217,7 +217,7 @@
 0x1002	0x516b	"Card:ATI Radeon"	"ATI|Radeon R200 Qk"
 0x1002	0x516c	"Card:ATI Radeon 8500"	"ATI|Radeon 8500 Ql"
 0x1002	0x5245	"Card:ATI Rage 128"	"ATI|Rage 128 GL"
-0x1002	0x5246	"Card:ATI Rage 128"	"ATI|Rage 128 GL AGP 1x/2x"
+0x1002	0x5246	"Card:ATI Rage 128 TVout"	"ATI|Rage 128 GL AGP 1x/2x"
 0x1002	0x5247	"Card:ATI Rage 128"	"ATI|Rage 128 RG"
 0x1002	0x524b	"Card:ATI Rage 128"	"ATI|Rage 128 VR"
 0x1002	0x524c	"Card:ATI Rage 128"	"ATI|Rage 128 VR AGP 1x/2x"
