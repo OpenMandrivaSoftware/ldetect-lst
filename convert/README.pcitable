@@ -7,7 +7,7 @@
 ./merge2pcitable.pl pciids /usr/share/pci.ids pcitable > pcitable.new
 
 # update usbutils
-./merge2pcitable.pl usbids /usr/share/usb.ids usbtable > usbtable.new
+./merge2pcitable.pl pciids /usr/share/usb.ids usbtable > usbtable.new
 
 #  A pciids with more accurate information are available from
 #  was moved into http://www.pcidatabase.com/reports.php?type=tab-delimeted
