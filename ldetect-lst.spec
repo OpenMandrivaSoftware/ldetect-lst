@@ -65,7 +65,6 @@ fi
 
 %changelog
 * Sun Feb  8 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.9-3mdk
-- prevent spurious "SiS|" empty vendor branch to appear in XFdrake
 - sync with kernel-2.6.2.1mdk, rh's hwdata-0.105 and http://www.pcidatabase.com
 
 * Mon Feb  2 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.9-2mdk
