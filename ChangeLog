@@ -1,3 +1,23 @@
+2004-03-02 15:40  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: thx make check
+
+2004-03-02 15:37  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.9-9mdk
+
+2004-03-02 15:36  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: add missing realtek 8139 (#8012)
+
+2004-03-02 14:40  Nicolas Planel <nplanel@mandrakesoft.com>
+
+	* lst/pcitable: merge 2.6.3-4mdk kernel pcimap
+
+2004-03-01 17:44  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: make all intel bridges names look the same
+
 2004-03-01 10:56  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.9-8mdk
