@@ -855,7 +855,7 @@
 0x104c	0x8017	"unknown"	"Texas Instruments|PCI4410 OHCI-Lynx IEEE 1394 Controller"
 0x104c	0x8019	"ohci1394"	"Texas Instruments|TSB12LV23 OHCI Compliant IEEE-1394 Controller"
 0x104c	0x8020	"ohci1394"	"Texas Instruments|TSB12LV26 OHCI-Lynx PCI IEEE 1394 Host Controller"
-0x104c	0x8021	"unknown"	"Texas Instruments|TSB43AA22 Firewire (IEEE1394) Cntrlr (w/ PHY/Link)"
+0x104c	0x8021	"ohci1394"	"Texas Instruments|TSB43AA22 Firewire (IEEE1394) Cntrlr (w/ PHY/Link)"
 0x104c	0x8022	"unknown"	"Texas Instruments|TSB43AB22 IEEE-1394 Controller (PHY/Link) 1394a-2000"
 0x104c	0x8023	"ohci1394"	"Texas Instruments|TSB43AB22 IEEE1394a-2000 OHCI PHY/Link-Layer Ctrlr"
 0x104c	0x8024	"unknown"	"Texas Instruments|TSB43AB23 IEEE-1394 Controller (PHY/Link) 1394a-2000"
