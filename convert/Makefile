@@ -1,6 +1,9 @@
 FILES = xf86PciInfo2pcitable
 
-all: $(FILES)
+all: $(FILES) verif
+
+verif:
+	./verify_Cards.pl
 
 clean:
 	rm -f $(FILES)

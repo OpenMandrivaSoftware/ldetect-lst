@@ -1,19 +1,22 @@
 #!/usr/bin/perl
 
-$ARGV[0] eq '-f' and $force = shift;
-$ARGV[0] eq '-a' and $all = shift;
+if ($0 =~ /merge2pcitable/) 
+{
+    $ARGV[0] eq '-f' and $force = shift;
+    $ARGV[0] eq '-a' and $all = shift;
 
-my $formats = join '|', grep {$_} map { /^read_(.*)/ ? $1 : '' } keys %main::;
+    my $formats = join '|', grep {$_} map { /^read_(.*)/ ? $1 : '' } keys %main::;
 
-@ARGV == 3 or die "usage: $0 [-f] [-a] $formats <in_file> <mdk_pcitable>\n";
+    @ARGV == 3 or die "usage: $0 [-f] [-a] $formats <in_file> <mdk_pcitable>\n";
 
-($format, $in, $pcitable) = @ARGV;
+    ($format, $in, $pcitable) = @ARGV;
 
-my $read = $main::{"read_$format"} or die "unknown format $format (must be one of $formats)\n";
-my $d_pci = read_pcitable($pcitable);
-my $d_in = $read->($in);
-merge($d_pci, $d_in);
-write_pcitable($d_pci);
+    my $read = $main::{"read_$format"} or die "unknown format $format (must be one of $formats)\n";
+    my $d_pci = read_pcitable($pcitable);
+    my $d_in = $read->($in);
+    merge($d_pci, $d_in);
+    write_pcitable($d_pci);
+} else { 1 }
 
 sub to_string {
     my ($id, $driver) = @_;
