@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.60
+%define version 0.1.61
 %define release 1mdk
 
 Name: %{name}
@@ -64,6 +64,12 @@ fi
 %{_bindir}/*
 
 %changelog
+* Thu Feb 10 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.61-1mdk
+- add a new us robotics gibabit card (arnaud)
+- add a new EMC monitor (Funda Wang)
+- fill in a few descriptions for Digigram sound cards
+- update contributors list
+
 * Wed Feb  9 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.60-1mdk
 - add 2 missing mxser entries from kernel-2.6.10-1mdk
 - add a radeon LE
