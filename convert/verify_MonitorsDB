@@ -1,0 +1,16 @@
+#!/usr/bin/perl
+
+use lib qw(/usr/lib/libDrakX);
+use Xconfig::monitor;
+
+my $monitors_db = Xconfig::monitor::readMonitorsDB("../lst/MonitorsDB");
+foreach (@$monitors_db) {
+    if ($_->{EISA_ID} =~ /^\w{3}[0-9a-f]{4}$/i) {
+	# perfect!
+    } elsif ($_->{EISA_ID} =~ /^([a-z]{3})([0-9a-f]{0,3})$/i) {
+	# we can correct this
+	printf "$_->{EISA_ID} should be %s%04x\n", $1, hex($2);
+    } else {
+	print "bad EISA_ID $_->{EISA_ID}\n";
+    }
+}
