@@ -26,6 +26,8 @@ rm -f pcids.htm ; wget http://www.begent.co.uk/pcids.htm
 # with redhat's pcitable in /tmp/rh_pcitable (from kudzu or anaconda)
 ./merge2pcitable.pl pcitable /tmp/rh_pcitable pcitable > pcitable.new
 
+# with redhat's pcitable in /tmp/rh_pcitable (from hwdata)
+./merge2pcitable.pl rhpcitable /tmp/rh_pcitable pcitable > pcitable.new
 
 # with a new kernel
 (cd ~/tmp ; rm -rf lib ; rpm2cpio /RPMS/kernel-2.4.*.rpm |cpio -id './lib/modules/*/modules.*map')

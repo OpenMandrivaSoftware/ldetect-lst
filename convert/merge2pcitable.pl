@@ -44,10 +44,15 @@ sub to_string {
     join "\t", $id1, $id2, if_("$subid1 $subid2" ne "0xffff 0xffff", $subid1, $subid2), $module, $text;
 }
 
+sub read_rhpcitable {
+    my ($f, $strict) = @_;
+    read_pcitable($f, $strict, 1);
+}
+
 # works for RedHat's pcitable old and new format, + mdk format (alike RedHat's old one)
 # (the new format has ending .o's and double quotes are removed)
 sub read_pcitable {
-    my ($f, $strict) = @_;
+    my ($f, $strict, $newer_rh_format) = @_;
     my %drivers;
     my %class;
     my $line = 0;
@@ -69,6 +74,7 @@ sub read_pcitable {
 	}
 
 	if (my ($id1, $id2, @l) = split /\t+/) {
+	    push @l, '""' if $newer_rh_format;
 	    my ($subid1, $subid2) = ('ffff', 'ffff');
 	    ($subid1, $subid2, @l) = @l if @l == 4;
 	    @l == 2 or die "$f:$line: bad number of fields " . (int @l) . " (in $_)\n";
