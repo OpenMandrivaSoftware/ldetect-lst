@@ -1,6 +1,6 @@
 %define name ldetect-lst
-%define version 0.1.7
-%define release 17mdk
+%define version 0.1.8
+%define release 1mdk
 
 Name: %{name}
 Version: %{version}
@@ -64,6 +64,14 @@ fi
 %{_bindir}/*
 
 %changelog
+* Thu Aug 14 2003 Pixel <pixel@mandrakesoft.com> 0.1.8-1mdk
+- pcitable
+  o merge with modules.pcimap from kernel 2.4.22.0.3mdk-1-1mdk
+  o update with pci.ids 2003-08-13 10:00:05 (pciutils-2.1.11-4mdk)
+  o merge with redhat's hwdata-0.89-1.1
+- MonitorsDB
+  o merge with redhat's hwdata-0.89-1.1
+
 * Tue Aug 12 2003 Gwenole Beauchesne <gbeauchesne@mandrakesoft.com> 0.1.7-17mdk
 - Use "pdc-ultra" for Promise SATA150 Controllers
 - Eicon cards fixes (Steffen Barszus through Pixel)
