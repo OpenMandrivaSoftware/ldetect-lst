@@ -1757,7 +1757,7 @@
 0x1074	0x4e78	"unknown"	"NexGen Microsystems|82c500/1"
 0x1077	0x1016	"qla1280"	"Q Logic|QLA10160"
 0x1077	0x101e	"unknown"	"Q Logic|QLA12160 on AMI MegaRAID"
-0x1077	0x1020	"qlogicisp"	"Q Logic|ISP1020"
+0x1077	0x1020	"qla1280"	"Q Logic|ISP1020"
 0x1077	0x1022	"qlogicisp"	"Q Logic|ISP1022"
 0x1077	0x1080	"qla1280"	"Q Logic|QLA1080"
 0x1077	0x1216	"qla1280"	"Q Logic|QLA12160 on AMI MegaRAID"
