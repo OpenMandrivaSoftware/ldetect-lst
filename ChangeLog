@@ -11,11 +11,6 @@
 	* lst/pcitable: 8139cp doesn't work for all 0x10ec:0x8139:*
 	  devices, so let fix conflict between #12982 and cooker
 
-2005-01-20 12:16  Thierry Vignaud <tvignaud@mandrakesoft.com>
-
-	* lst/pcitable: 8139cp doesn't work for all 0x10ec:0x8139:*
-	  devices, so let fix conflict between #12982 and cooker
-
 2005-01-17 17:30  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* lst/pcitable: add AC'97 Audio support for Intel ICH7 (from ALSA's
