@@ -746,7 +746,7 @@
 0x04b4	0x0002	"cytherm"	"Cypress Semiconductor|CY7C63x0x Thermometer"
 0x04b4	0x1002	"dsbr100"	"Cypress Semiconductor|R100 Radio"
 0x04b4	0x5500	"unknown"	"Cypress Semiconductor Corp.|HID->COM RS232 Adapter"
-0x04b4	0x6560	"unknown"	"Cypress Semiconductor Corp.|CY7C65640 USB-2.0 "TetraHub""
+0x04b4	0x6560	"unknown"	"Cypress Semiconductor Corp.|CY7C65640 USB-2.0 'TetraHub'"
 0x04b4	0x6830	"unknown"	"Cypress Semiconductor Corp.|USB-2.0 IDE Adapter"
 0x04b4	0x8613	"usbtest"	"Cypress Semiconductor|CY7C68013 EZ-USB FX2 USB 2.0 Development Kit"
 0x04b4	0xd5d5	"unknown"	"Cypress Semiconductor|CY7C63x0x Zoltrix Z-Boxer GamePad"
