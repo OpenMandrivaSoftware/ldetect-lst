@@ -2793,7 +2793,7 @@
 0x125d	0x2808	"unknown"	"ESS Technology|ES336H Fax Modem (Later Model)"
 0x125d	0x2838	"Bad:www.linmodems.org"	"ESS Technology|ES2838/2839 SuperLink Modem"
 0x125d	0x2898	"unknown"	"ESS Technology|ES2898 Modem"
-0x1260	0x3873	"orinoco_pci"	"Harris Semiconductor|Prism 2.5 Wavelan chipset"
+0x1260	0x3873	"unknown"	"Harris Semiconductor|Prism 2.5 Wavelan chipset"
 0x1260	0x8130	"unknown"	"Harris Semiconductor|HMP8130 NTSC/PAL Video Decoder"
 0x1260	0x8131	"unknown"	"Harris Semiconductor|HMP8131 NTSC/PAL Video Decoder"
 0x1266	0x0001	"eepro100"	"Microdyne Corporation|NE10/100 Adapter (i82557B)"
