@@ -1135,7 +1135,7 @@
 0x10eb	0x0101	"unknown"	"Artists Graphics|3GA"
 0x10eb	0x8111	"unknown"	"Artists Graphics|Twist3 Frame Grabber"
 0x10ec	0x8029	"ne2k-pci"	"Realtek|RTL-8029(AS)"
-0x10ec	0x8129	"rtl8139"	"Realtek|RTL-8129"
+0x10ec	0x8129	"8139too"	"Realtek|RTL-8129"
 0x10ec	0x8138	"8139too"	"Realtek|RT8139 (B/C) Cardbus Fast Ethernet Adapter"
 0x10ec	0x8139	"8139too"	"Realtek|RTL-8139"
 0x10ed	0x7310	"unknown"	"Ascii Corporation|V7310"
