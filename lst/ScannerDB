@@ -769,21 +769,81 @@ NAME Mustek Systems Inc.|ScanExpress 6000 P
 SERVER mustek_pp
 DRIVER Parport (EPP)
 COMMENT works
+LINE # choose between two different ways to lock to port
+LINE option io-mode alt_lock
+LINE # try to avoid to heavy load. Note that this reduces scan speed
+LINE option niceload
+LINE # specify the port your scanner is connected to. Possible are 0x378 (lp1)
+LINE # 0x278 (lp2) and 0x3bc (lp0)
+LINE # for 2.4.x+ kernels, this isn't true anymore. Here lp0 is assigned to the
+LINE # first available port, normally 0x378
+LINE port 0x378
+LINE # Mustek ScanExpress 6000 P
+LINE name SE-6000P
+LINE vendor Mustek
+LINE option wait-lamp 15
 
 NAME Mustek Systems Inc.|ScanMagic 4800 P
 SERVER mustek_pp
 DRIVER Parport (EPP)
 COMMENT works
+LINE # choose between two different ways to lock to port
+LINE option io-mode alt_lock
+LINE # try to avoid to heavy load. Note that this reduces scan speed
+LINE option niceload
+LINE # specify the port your scanner is connected to. Possible are 0x378 (lp1)
+LINE # 0x278 (lp2) and 0x3bc (lp0)
+LINE # for 2.4.x+ kernels, this isn't true anymore. Here lp0 is assigned to the
+LINE # first available port, normally 0x378
+LINE port 0x378
+LINE # Mustek ScanMagic 4800 P
+LINE name SM-4800P
+LINE vendor Mustek
+LINE option wait-lamp 15
+    
 
 NAME Mustek Systems Inc.|ScanExpress 1200 ED Plus
 SERVER mustek_pp
 DRIVER Parport (EPP)
 COMMENT works partly
+LINE # choose between two different ways to lock to port
+LINE option io-mode alt_lock
+LINE # try to avoid to heavy load. Note that this reduces scan speed
+LINE option niceload
+LINE # specify the port your scanner is connected to. Possible are 0x378 (lp1)
+LINE # 0x278 (lp2) and 0x3bc (lp0)
+LINE # for 2.4.x+ kernels, this isn't true anymore. Here lp0 is assigned to the
+LINE # first available port, normally 0x378
+LINE port 0x378
+LINE # Mustek ScanMagic/Express 1200 ED Plus (this scanner isn't yet supported!!!)
+LINE name SE-1200EDP
+LINE vendor Mustek
+LINE # this scanner has an optical resolution of 600 dpi
+LINE option use600
+LINE # this scanner *must* use option niceload
+LINE option niceload
 
 NAME Mustek Systems Inc.|ScanMagic 1200 ED Plus
 SERVER mustek_pp
 DRIVER Parport (EPP)
 COMMENT works partly
+LINE # choose between two different ways to lock to port
+LINE option io-mode alt_lock
+LINE # try to avoid to heavy load. Note that this reduces scan speed
+LINE option niceload
+LINE # specify the port your scanner is connected to. Possible are 0x378 (lp1)
+LINE # 0x278 (lp2) and 0x3bc (lp0)
+LINE # for 2.4.x+ kernels, this isn't true anymore. Here lp0 is assigned to the
+LINE # first available port, normally 0x378
+LINE port 0x378
+LINE # Mustek ScanMagic/Express 1200 ED Plus (this scanner isn't yet supported!!!)
+LINE name SM-1200EDP
+LINE vendor Mustek
+LINE # this scanner has an optical resolution of 600 dpi
+LINE option use600
+LINE # this scanner *must* use option niceload
+LINE option niceload
+
 
 NAME Mustek Systems Inc.|ScanExpress 12000 P
 SERVER mustek_pp
@@ -795,16 +855,61 @@ NAME Mustek Systems Inc.|600 III EP Plus
 SERVER mustek_pp
 DRIVER Parport (SPP,EPP)
 COMMENT works
+LINE # choose between two different ways to lock to port
+LINE option io-mode alt_lock
+LINE # try to avoid to heavy load. Note that this reduces scan speed
+LINE option niceload
+LINE # specify the port your scanner is connected to. Possible are 0x378 (lp1)
+LINE # 0x278 (lp2) and 0x3bc (lp0)
+LINE # for 2.4.x+ kernels, this isn't true anymore. Here lp0 is assigned to the
+LINE # first available port, normally 0x378
+LINE port 0x378
+LINE # Mustek 600 III EP Plus
+LINE name 600IIIEPP
+LINE vendor Mustek
+LINE option wait-lamp 15 # some models only need 5 secs...
+
 
 NAME Mustek Systems Inc.|ScanExpress 600 SEP
 SERVER mustek_pp
 DRIVER Parport (EPP)
 COMMENT works
+LINE # choose between two different ways to lock to port
+LINE option io-mode alt_lock
+LINE # try to avoid to heavy load. Note that this reduces scan speed
+LINE option niceload
+LINE # specify the port your scanner is connected to. Possible are 0x378 (lp1)
+LINE # 0x278 (lp2) and 0x3bc (lp0)
+LINE # for 2.4.x+ kernels, this isn't true anymore. Here lp0 is assigned to the
+LINE # first available port, normally 0x378
+LINE port 0x378
+LINE # Mustek ScanExpress 600 SEP
+LINE  name SE-600SEP
+LINE  vendor Mustek
+LINE  option wait-lamp 15
 
 NAME Medion|MD9848
 SERVER mustek_pp
 DRIVER Parport (SPP)
 COMMENT aka. ``Aldi Scanner'' - works
+LINE # choose between two different ways to lock to port
+LINE option io-mode alt_lock
+LINE # try to avoid to heavy load. Note that this reduces scan speed
+LINE option niceload
+LINE # specify the port your scanner is connected to. Possible are 0x378 (lp1)
+LINE # 0x278 (lp2) and 0x3bc (lp0)
+LINE # for 2.4.x+ kernels, this isn't true anymore. Here lp0 is assigned to the
+LINE # first available port, normally 0x378
+LINE port 0x378
+LINE # Medion MD9848 (aka Aldi-Scanner)
+LINE  name MD9848
+LINE  vendor Medion
+LINE  option wait-bank 250
+LINE # scan maximal 16 lines for one sane_read() call
+LINE  option strip-height 16 
+LINE # we just need 16 lines * 3 (rgb) colors * 300 dpi * 8.5 inch bytes
+LINE  option buffer 122400
+
 
 NAME Medion|MD985x
 SERVER mustek_pp
@@ -826,6 +931,19 @@ NAME Fidelity Imaging Solutions Inc.|Gallery 4800
 SERVER mustek_pp
 DRIVER Parport (EPP)
 COMMENT works
+LINE # choose between two different ways to lock to port
+LINE option io-mode alt_lock
+LINE # try to avoid to heavy load. Note that this reduces scan speed
+LINE option niceload
+LINE # specify the port your scanner is connected to. Possible are 0x378 (lp1)
+LINE # 0x278 (lp2) and 0x3bc (lp0)
+LINE # for 2.4.x+ kernels, this isn't true anymore. Here lp0 is assigned to the
+LINE # first available port, normally 0x378
+LINE port 0x378
+LINE # Fidelity Imaging Solutions Inc. Gallery 4800
+LINE  name Gallery-4800
+LINE  vendor Fidelity-Imaging-Solutions
+
 
 # from mustek_usb.desc
 NAME Mustek Systems Inc.|ScanExpress 1200 CU
