@@ -5899,6 +5899,8 @@
 0x8086	0x266f	"piix"	"Intel Corp.|I/O Controller Hub PATA"
 0x8086	0x2782	"unknown"	"Intel Corp.|Graphics Controller"
 0x8086	0x2792	"unknown"	"Intel Corp.|Mobile Graphics Controller"
+0x8086	0x27c1	"ahci"	""
+0x8086	0x27c5	"ahci"	""
 0x8086	0x27d8	"snd-azx"	""
 0x8086	0x27de	"snd-intel8x0"	""
 0x8086	0x27df	"piix"	""
