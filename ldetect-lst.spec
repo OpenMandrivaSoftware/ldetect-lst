@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.8
-%define release 2mdk
+%define release 3mdk
 
 Name: %{name}
 Version: %{version}
@@ -64,11 +64,15 @@ fi
 %{_bindir}/*
 
 %changelog
+* Sun Sep  7 2003 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.8-3mdk
+- fix #1837: handle acx100_pci
+- support more monitors (#4989, ...)
+- fix some isdn usb adatators description (Steffen Barszus)
 - now Mach64 cards use Utah GLX in experimental mode. (fpons)
 
 * Fri Aug 29 2003 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.8-2mdk
 - add 3 more monitors (Bryan Whitehead)
-- fix 1 cardbus controller (guillaume=
+- fix 1 cardbus controller (guillaume)
 - manage one more gefore card and one more sound card
 - use typhoon instead of 3c990 & 3c990fx have die (juan)
 
