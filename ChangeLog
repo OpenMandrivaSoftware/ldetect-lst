@@ -1,6 +1,124 @@
-2004-08-27 05:04  Gwenole Beauchesne <gbeauchesne@mandrakesoft.com>
+2004-08-31 07:07  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.16-3mdk
+
+2004-08-31 06:58  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: use right qla driver
+
+2004-08-31 06:56  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: in 2.6.x kernel, pwcd was splited between pcwd_pci
+	  and pcwd_usb
+
+2004-08-31 06:55  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: according to kernel pcimap, ohci394 does not
+	  register this device whereas yenta_socket does (the description
+	  looks bogus and is neither in hwdata nor in pci.ids :-( despite
+	  pixel log points to them)
+
+	  kernel sources looks like this indeed a 'Ti|4450' device, but
+	  we've not the full description.
+
+2004-08-31 06:44  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: this device is now handled by sata_sx4
+
+2004-08-31 06:26  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: pc300 replaced pc300too in both 2.4.x and 2.6.x
+	  kernels long time ago
+
+2004-08-31 06:24  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: according to kernel pcimap, dmfe does not register
+	  this device whereas tulip does
+
+2004-08-31 06:22  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: this device has two PCI functions, one for video
+	  (tv) and one for audio.
+
+	  since most people listen to audio through a jack between their tv
+	  card and their sound card rather than using btaudio or snd-bt87x,
+	  it's more important to support their tv/satellite card rather
+	  than just soun,d
+
+2004-08-31 06:09  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: 3c359 replaced 3c559 in both 2.4.x and 2.6.x
+	  kernels
+
+2004-08-31 06:08  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: according to kernel pcimap, yenta_socket does not
+	  register this device whereas i82092 does
+
+2004-08-31 06:06  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: according to kernel pcimap, yenta_socket does not
+	  register this device whereas pd6729 does
+
+2004-08-31 06:05  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: do one s/tulip/de2104x/ (according to kernel
+	  pcimap, this device is only registred with de2104x)
+
+2004-08-31 06:02  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: donauboe replaced toshoboe
+
+2004-08-31 05:57  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: tulip_old is neither in 2.4.x kernel nor in 2.6.x
+	  one
+
+2004-08-31 05:51  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: hw_random replaced i810_rng too in both 2.4.x and
+	  2.6.x kernels
+
+2004-08-31 05:50  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: hw_random replaced both amd7xx_tco and amd768_rng
+	  in both 2.4.x and 2.6.x kernels
+
+2004-08-31 05:40  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: remove bogus 0xffff 0xffff entry
+
+2004-08-31 05:35  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: tmspci replaced sktr long time ago
+
+2004-08-30 11:59  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: sync with kernel-2.6.8.1.5mdk
+
+2004-08-30 07:33  Gwenole Beauchesne <gbeauchesne@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.9-17mdk
+
+2004-08-30 07:26  Gwenole Beauchesne <gbeauchesne@mandrakesoft.com>
+
+	* lst/pcitable: Adapt for 3ware 9000-series controllers
+
+2004-08-30 04:23  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: switch one nForce2 from OSS to ALSA
+
+2004-08-27 11:04  Gwenole Beauchesne <gbeauchesne@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.16-2mdk
+
+2004-08-27 11:04  Gwenole Beauchesne <gbeauchesne@mandrakesoft.com>
+
+	* lst/pcitable: handle 3w-9xxx
+
+2004-08-27 08:30  Olivier Thauvin <thauvin@aerov.jussieu.fr>
+
+	* lst/MonitorsDB: -add Dell laptop 16/10 screen
 
 2004-08-27 05:04  Gwenole Beauchesne <gbeauchesne@mandrakesoft.com>
 
