@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.3
-%define release 7mdk
+%define release 8mdk
 
 Name: %{name}
 Version: %{version}
@@ -61,6 +61,12 @@ fi
 %{_bindir}/*
 
 %changelog
+* Fri Mar  1 2002 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.3-8mdk
+- Thierry:
+	* 1 new card
+	* 3 old card that hadn't any modules have one now
+	* fix one typo (s!snd-es1938!snd-card-es1938)
+	* merge all isapnp ids from alsa
 
 * Fri Mar  1 2002 Pixel <pixel@mandrakesoft.com> 0.1.3-7mdk
 - various s3 changes (Erwan)
