@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.67
+%define version 0.1.68
 %define release 1mdk
 
 Name: %{name}
@@ -63,6 +63,12 @@ fi
 %{_bindir}/*
 
 %changelog
+* Tue Mar  8 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.68-1mdk
+- sync with xorg-x11-6.8.2-2mdk's nv driver
+- add Xbox support (stew)
+- ScannerDB: updates for parallel scanners (especially auto-detection
+  with "umax_pp" driver) (till)
+
 * Thu Feb 24 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.67-1mdk
 - add support for VT6410
 - add support for Pacific Digital SATA QStor
