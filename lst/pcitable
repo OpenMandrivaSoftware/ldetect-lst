@@ -306,6 +306,7 @@
 0x1014	0x0144	"unknown"	"IBM|Yotta Video Compositor Output"
 0x1014	0x0156	"unknown"	"IBM|405GP PLB to PCI Bridge"
 0x1014	0x0170	"unknown"	"IBM|RC1000 / GT 1000"
+0x1014  0x01bd	"ips"		"IBM|ServeRAID controller"
 0x1014	0xffff	"unknown"	"IBM|MPIC-2 interrupt controller"
 0x1017	0x5343	"unknown"	"SPEA Software AG|SPEA 3D Accelerator"
 0x101a	0x0005	"hp100"	"AT&T GIS (NCR)|100VG ethernet"
