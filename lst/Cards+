@@ -2089,6 +2089,11 @@ SEE RIVA TNT
 NAME MELCO WGA-TS 
 SEE RIVA TNT2 
 
+NAME NVIDIA GeForce (fbdev)
+SERVER FBDev
+DRIVER fbdev
+DRIVER2 nvidia
+
 NAME NVIDIA GeForce 256 (generic)
 SEE NVIDIA GeForce
 
@@ -2100,18 +2105,13 @@ NAME NVIDIA GeForce2 DDR (generic)
 SEE NVIDIA GeForce DDR (generic)
 
 NAME NVIDIA GeForce2 Integrated (generic)
-SERVER FBDev
-DRIVER fbdev
+SEE NVIDIA GeForce (fbdev)
 
 NAME NVIDIA GeForce3 (generic)
 SEE NVIDIA GeForce
 
 NAME NVIDIA GeForce4 (generic)
 SEE NVIDIA GeForce
-
-NAME NVIDIA GeForce (fbdev)
-SERVER FBDev
-DRIVER fbdev
 # IMS
 
 NAME IMS TwinTurbo (generic)

@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.4
-%define release 15mdk
+%define release 16mdk
 
 Name: %{name}
 Version: %{version}
@@ -63,6 +63,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Thu Sep 05 2002 François Pons <fpons@mandrakesoft.com> 0.1.4-16mdk
+- fix for GeForce NV25 not working with nv driver (use fbdev or nvidia).
+
 * Thu Sep  5 2002 Guillaume Cottenceau <gc@mandrakesoft.com> 0.1.4-15mdk
 - snapshot for latest ieee1394 cards
 
