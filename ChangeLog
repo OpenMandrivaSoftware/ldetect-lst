@@ -1,3 +1,66 @@
+2003-02-13 10:26  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.7-2mdk
+
+2003-02-13 10:25  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* Makefile: make log computation faster, do incremental log
+
+2003-02-13 03:34  tkamppeter
+
+	* lst/: Makefile, ScannerDB, scannerconfigs: Restructured and
+	updated ScannerDB. For easy, fully automatic generation of
+	ScannerDB with Scannerdrake added scannerconfigs file which
+	contains the lines to put into the config files
+	(/etc/sane.d/*.conf) of the scanner drivers. Now Scannerdrake
+	should be able to set up nearly every SANE-supported scanner.
+
+2003-02-12 17:29  Frederic Lepied <flepied@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.7-1mdk
+
+2003-02-12 17:15  adelorbeau
+
+	* lst/pcitable: Add intel USB controller
+
+2003-02-10 23:16  adelorbeau
+
+	* lst/pcitable: Add bcm4400 and bcm5700 for two network cards.
+
+2003-02-10 15:46  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: fix #286
+
+2003-02-06 17:55  Pixel <pixel@mandrakesoft.com>
+
+	* lst/pcitable: fix bug #1322
+
+2003-02-06 16:18  Frederic Lepied <flepied@mandrakesoft.com>
+
+	* lst/: Cards+, pcitable: added Intel 865 entry
+
+2003-02-05 13:58  Pixel <pixel@mandrakesoft.com>
+
+	* lst/: Cards+, pcitable: add Intel(R) 852GM/855GM
+
+2003-02-01 21:31  Pixel <pixel@mandrakesoft.com>
+
+	* lst/usbtable: add a memory stick (bug #798)
+
+2003-01-30 12:05  Guillaume Cottenceau <gc@mandrakesoft.com>
+
+	* lst/MonitorsDB: adding LG StudioWorks 995E thx to Jure Repinc
+	<jlp@holodeck1.com>
+
+2003-01-29 09:38  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/ScannerDB: typo fix from the communauty (fix "unknown line
+	1574 ( #for hardware detection)")
+
+2003-01-28 12:09  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.6-1mdk
+
 2003-01-28 09:41  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* lst/pcitable: i810_audio and snd-intel8x0 only handle
@@ -206,7 +269,7 @@
 	* lst/usbtable: add support for usb video devices (florent
 	beranger)
 
-2002-10-11 18:59  dchaumette
+2002-10-11 18:59  Damien Chaumette <dchaumette@mandrakesoft.com>
 
 	* lst/pcitable: fix typo
 
@@ -215,7 +278,7 @@
 	* lst/ScannerDB: fix some Hewlett-Packard scanner from niash
 	backend
 
-2002-10-10 11:52  dchaumette
+2002-10-10 11:52  Damien Chaumette <dchaumette@mandrakesoft.com>
 
 	* lst/pcitable: move HSF/HCF modems module from "unknown" to
 	"Bad:www.linmodems.org"
@@ -254,7 +317,7 @@
 
 	* lst/pcitable: add a dvb and a saa7134 cards
 
-2002-09-12 14:27  dchaumette
+2002-09-12 14:27  Damien Chaumette <dchaumette@mandrakesoft.com>
 
 	* ldetect-lst.spec: 17mdk
 
@@ -280,7 +343,7 @@
 
 	* lst/usbtable: add some removable entries
 
-2002-09-09 17:46  dchaumette
+2002-09-09 17:46  Damien Chaumette <dchaumette@mandrakesoft.com>
 
 	* lst/pcitable: - move last ISDN cards to "ISDN:module_name" syntax
 
@@ -477,7 +540,7 @@
 
 	* lst/usbtable: add Motorota Surfboard 4200 cable modem
 
-2002-08-22 18:01  dchaumette
+2002-08-22 18:01  Damien Chaumette <dchaumette@mandrakesoft.com>
 
 	* lst/pcitable: add Nforce Ethernet Controler
 
@@ -508,11 +571,11 @@
 	* Makefile: split rpm target into rpm and srpm target as i did for
 	ldetect
 
-2002-08-20 17:54  Till Kamppeter <tkamppeter@mandrakesoft.com>
+2002-08-20 17:54  tkamppeter
 
 	* lst/usbtable: s/Seiko Epson/Epson/ ("Seiko" confuses the users).
 
-2002-08-20 17:26  Till Kamppeter <tkamppeter@mandrakesoft.com>
+2002-08-20 17:26  tkamppeter
 
 	* lst/usbtable: s/Epson/Seiko Epson/ (to match with names in
 	ScannerDB).
@@ -525,12 +588,12 @@
 
 	* lst/usbtable: fix broken stuff comitted by till
 
-2002-08-20 02:19  Till Kamppeter <tkamppeter@mandrakesoft.com>
+2002-08-20 02:19  tkamppeter
 
 	* lst/ScannerDB: Added new Epson models to scanner database for
 	scannerdrake.
 
-2002-08-20 00:14  Till Kamppeter <tkamppeter@mandrakesoft.com>
+2002-08-20 00:14  tkamppeter
 
 	* lst/usbtable: Added new scanner models: Epson Perfection 660,
 	1660 Photo, 2400 Photo Added photo card readers of Epson Stylus
@@ -2100,13 +2163,13 @@
 
 	* lst/pcitable: 8129 chipset now use 8139too
 
+2001-02-04 12:38  Pixel <pixel@mandrakesoft.com>
+
+	* convert/.cvsignore: [no log message]
+
 2001-02-04 12:37  Pixel <pixel@mandrakesoft.com>
 
 	* lst/pcitable: merge with rh
-
-2001-02-04 12:36  Pixel <pixel@mandrakesoft.com>
-
-	* convert/: README.pcitable, .cvsignore: [no log message]
 
 2001-02-04 12:33  Pixel <pixel@mandrakesoft.com>
 
@@ -2114,7 +2177,7 @@
 
 2001-02-04 12:30  Pixel <pixel@mandrakesoft.com>
 
-	* convert/.cvsignore: [no log message]
+	* convert/: .cvsignore, README.pcitable: [no log message]
 
 2001-01-25 16:27  Guillaume Cottenceau <gc@mandrakesoft.com>
 
