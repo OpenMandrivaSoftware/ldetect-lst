@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.14
+%define version 0.1.15
 %define release 1mdk
 
 Name: %{name}
@@ -64,6 +64,11 @@ fi
 %{_bindir}/*
 
 %changelog
+* Wed Aug 18 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.15-1mdk
+- sync pcitable with kernel-2.6.8.1.1mdk
+- fill some empty strings (Erwan Velu)
+- add support for several ati & nvidia gfx cards (greg)
+
 * Wed Aug  4 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.14-1mdk
 - usbtable: 
   o sync with kernel-2.6.8-0.rc2.2mdk
