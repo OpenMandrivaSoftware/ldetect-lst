@@ -252,6 +252,7 @@
 0x060b	0x2101	"unknown"	"Solid Year (?)|Solid Year Keyboard"
 0x0618	0x0101	"unknown"	"MacAlly|Mouse"
 0x0638	0x0268	"unknown"	"Avision, Inc.|iVina 1200U Scanner"
+0x0644	0x0000	"Floppy:normal"	"TEAC|Floppy drive-05PUB"
 0x066b	0x0105	"unknown"	"Linksys Inc.|SCM eUSB SmartMedia Card Reader"
 0x066b	0x2202	"unknown"	"Linksys Inc.|USB10T Ethernet [klsi]"
 0x066b	0x2203	"unknown"	"Linksys Inc.|USB100TX Ethernet [pegasus]"
