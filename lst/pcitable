@@ -4057,7 +4057,7 @@
 0x1283	0x8152	"unknown"	"Integrated Technology Express Inc.|IT8152F/G Advanced RISC-to-PCI Companion Chip"
 0x1283	0x8172	"unknown"	"Integrated Technology Express Inc.|IT8172G Ultra RISC (MIPS, SH4) Companion Chip"
 0x1283	0x8211	"it821x"	""
-0x1283	0x8212	"iteraid"	"Integrated Technology Express Inc.|IT8212 RAID Controller"
+0x1283	0x8212	"it821x"	"Integrated Technology Express Inc.|IT8212 RAID Controller"
 0x1283	0x8330	"unknown"	"Integrated Technology Express, Inc.|IT8330G"
 0x1283	0x8872	"unknown"	"Integrated Technology Express Inc.|IT8871/72 PCI to ISA I/O chip"
 0x1283	0x8875	"unknown"	"Integrated Technology Express Inc.|IT8875F PCI Parallel Port"
