@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.2
-%define release 14mdk
+%define release 15mdk
 
 Name: %{name}
 Version: %{version}
@@ -48,7 +48,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/*
 
 %changelog
-
+* Wed Jul  4 2001 François Pons <fpons@mandrakesoft.com> 0.1.2-15mdk
+- synced pcitable and Cards+ with XFree86 4.1.0.
+- another people do the following:
 - es1370 doesn't work for "Ensoniq|ES1370 [AudioPCI]" (ID 0x12745000)
   replace it by "snd-card-ens1370" wich operates smoothly
 - add a new Pinnacle PCTV
