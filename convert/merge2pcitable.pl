@@ -53,7 +53,7 @@ sub read_pcitable {
     my $rm_quote = sub {
 	    s/^"// or error("$f:$line: missing left quote");
             s/"$// or error("$f:$line: missing right quote");
-	    /"/ and error("$f:$line: bad double quote");
+	    /"/ && $strict and error("$f:$line: bad double quote");
 	    $_;
     };
     foreach (cat_($f)) {
