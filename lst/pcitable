@@ -443,7 +443,7 @@
 0x102b	0x051f	"Card:Matrox Millennium II"	"Matrox|MGA 2164W [Millennium II] AGP"
 0x102b	0x0520	"Card:Matrox Millennium G200"	"Matrox|MGA G200"
 0x102b	0x0521	"Card:Matrox Millennium G200"	"Matrox|MGA G200 AGP [Millennium] AGP"
-0x102b	0x0525	0x102b	0x0641	"Card:Matrox Millennium G450 (generic)"	"Matrox|MGA G450 AGP"
+0x102b	0x0525	0x102b	0x0641	"Card:Matrox Millennium G450"	"Matrox|MGA G450 AGP"
 0x102b	0x0525	"Card:Matrox Millennium G400"	"Matrox|MGA G400 AGP"
 0x102b	0x0d10	"Card:Matrox Mystique"	"Matrox|MGA Ultima/Impression"
 0x102b	0x1000	"Card:Matrox Productiva G100"	"Matrox|MGA G100 [Productiva]"

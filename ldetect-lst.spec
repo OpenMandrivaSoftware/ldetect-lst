@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.2
-%define release 7mdk
+%define release 8mdk
 
 Name: %{name}
 Version: %{version}
@@ -48,6 +48,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/*
 
 %changelog
+* Wed Mar 21 2001 François Pons <fpons@mandrakesoft.com> 0.1.2-8mdk
+- fixed wrong Matrox G450 reference.
+
 * Thu Mar 15 2001 François Pons <fpons@mandrakesoft.com> 0.1.2-7mdk
 - updated, removed matrox memory reference.
 
