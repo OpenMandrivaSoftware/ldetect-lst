@@ -40,6 +40,7 @@ NAME Chips & Technologies CT65520
 CHIPSET ct65520
 SERVER SVGA
 DRIVER chips
+UNSUPPORTED
 LINE # Device section for C&T cards.
 LINE # Option "suspend_hack"
 LINE # Option "STN"
@@ -154,8 +155,8 @@ NAME Cirrus Logic GD542x
 CHIPSET CL-GD5420/2/4/6/8/9
 SERVER SVGA
 DRIVER vga
-UNSUPPORTED
 NOCLOCKPROBE
+UNSUPPORTED
 LINE # Device section for Cirrus Logic GD5420/2/4/6/8/9-based cards.
 LINE     #MemBase 0x00e00000
 LINE     #MemBase 0x04e00000
@@ -222,11 +223,12 @@ NAME Creative Labs Graphics Blaster 3D
 CHIPSET CL-GD5464
 SEE Cirrus Logic GD5464
 
-#tested
+# reported not working on SGI 1200 as of 02/22/2001 (RH)
 NAME Cirrus Logic GD5480
 CHIPSET CL-GD5480
 SERVER SVGA
 DRIVER cirrus
+UNSUPPORTED
 NOCLOCKPROBE
 
 #tested
@@ -630,7 +632,7 @@ DRIVER vga
 UNSUPPORTED
 NOCLOCKPROBE
 
-NAME S3 86C764 (generic)
+NAME S3 86C764 (Trio64)
 SEE S3 Trio64 (generic)
 
 NAME S3 Trio64V+ (generic)
@@ -640,7 +642,7 @@ DRIVER vga
 UNSUPPORTED
 NOCLOCKPROBE
 
-NAME S3 86C765 (generic)
+NAME S3 86C765 (Trio64V+)
 SEE S3 Trio64V+ (generic)
 
 NAME S3 Trio32 (generic)
@@ -808,10 +810,10 @@ SEE S3 Trio64V2 (generic)
 NAME S3 Trio64V2/GX (generic)
 SEE S3 Trio64V2 (generic)
 
-NAME S3 86C775 (generic)
+NAME S3 86C775 (Trio64V2/DX)
 SEE S3 Trio64V2/DX (generic)
 
-NAME S3 86C785 (generic)
+NAME S3 86C785 (Trio64V2/GX)
 SEE S3 Trio64V2/GX (generic)
 
 NAME ELSA WINNER 1000/T2D
@@ -829,7 +831,7 @@ NOCLOCKPROBE
 LINE     # Option "lcd_center"
 LINE     # Set_LCDClk  <pixel_clock_for_LCD>
 
-NAME S3 86CM65
+NAME S3 86CM65 (Aurora64V+)
 SEE S3 Aurora64V+ (generic)
 
 NAME SHARP 9080
@@ -1302,22 +1304,22 @@ NAME S3 Trio3D/2X
 LINE      # Option "no_accel"	# You may enable this if there are timeouts when starting X
 SEE S3 Trio3D
 
-NAME S3 86C325 (generic)
+NAME S3 86C325 (ViRGE)
 SEE S3 ViRGE (generic)
 
-NAME S3 86C375 (generic)
+NAME S3 86C375 (ViRGE/DX)
 SEE S3 ViRGE/DX (generic)
 
-NAME S3 86C385 (generic)
+NAME S3 86C385 (ViRGE/GX)
 SEE S3 ViRGE/GX (generic)
 
-NAME S3 86C357 (generic)
+NAME S3 86C357 (ViRGE/GX2)
 SEE S3 ViRGE/GX2 (generic)
 
-NAME S3 86C260 (generic)
+NAME S3 86C260 (ViRGE/MX)
 SEE S3 ViRGE/MX (generic)
 
-NAME S3 86C280 (generic)
+NAME S3 86C280 (ViRGE/MX+)
 SEE S3 ViRGE/MX+ (generic)
 
 
@@ -1412,7 +1414,7 @@ LINE      #Option "pci_burst_on"
 LINE      #Option "pci_retry"
 
 
-NAME S3 86C988 (generic)
+NAME S3 86C988 (ViRGE/VX)
 SEE S3 ViRGE/VX (generic)
 
 NAME ELSA Winner 3000
@@ -1520,7 +1522,8 @@ SERVER SVGA
 DRIVER savage
 NOCLOCKPROBE
 
-
+NAME S3 Savage/MX
+SEE S3 Savage4 (generic)
 
 # ET4000/ET6000
 
@@ -1571,6 +1574,10 @@ LINE     #Option "xaa_no_color_exp"  # When text (or bitmap) is not rendered cor
 
 NAME ET6100 (generic)
 CHIPSET ET6100
+SEE ET6000 (generic)
+
+NAME ET6300 (generic)
+CHIPSET ET6300
 SEE ET6000 (generic)
 
 NAME Diamond Stealth 32
@@ -1725,36 +1732,36 @@ SEE ET6000 (generic)
 NAME ATI 8514 Ultra (no VGA)
 CHIPSET ATI-Mach8
 SERVER Mach8
-DRIVER ati
+DRIVER vga
 UNSUPPORTED
 
 NAME ATI Graphics Ultra
-CHIPSET ATI-Mach8
+CHIPSET ati
 SERVER Mach8
 DRIVER ati
 
 NAME ATI Graphics Ultra Pro
-CHIPSET ATI-Mach32
+CHIPSET ati
 SERVER Mach32
 DRIVER ati
 
 NAME ATI Wonder SVGA
-CHIPSET ATI vgawonder
+CHIPSET ati
 SERVER SVGA
 DRIVER ati
 
 NAME ATI Ultra Plus
-CHIPSET ATI-Mach32
+CHIPSET ati
 SERVER Mach32
 DRIVER ati
 
 NAME ATI Mach32
-CHIPSET ATI-Mach32
+CHIPSET ati
 SERVER Mach32
 DRIVER ati
 
 NAME ATI Mach64
-CHIPSET ATI-Mach64
+CHIPSET ati
 SERVER Mach64
 DRIVER ati
 NOCLOCKPROBE
@@ -1861,12 +1868,20 @@ SEE ATI Mach64
 NAME ATI Rage Mobility P
 SEE ATI Mach64
 
-
 NAME ASUS PCI-V264CT
 SEE ATI Mach64
 
 NAME ASUS PCI-AV264CT
 SEE ATI Mach64
+
+NAME ATI Rage XL
+CHIPSET ati
+SERVER SVGA
+DRIVER ati
+NOCLOCKPROBE
+
+NAME ATI Rage XL AGP
+SEE ATI Rage XL
 
 NAME ATI Rage 128
 CHIPSET ATI Rage 128
@@ -1880,7 +1895,9 @@ LINE     #Option     "dac_8_bit"
 LINE     #Option     "dac_6_bit"
 
 NAME ATI Rage 128 Mobility
-SEE ATI Rage 128
+CHIPSET ati
+DRIVER r128
+NOCLOCKPROBE
 
 NAME ATI Rage Fury AGP
 SEE ATI Rage 128
@@ -1892,6 +1909,7 @@ NAME ATI XPERT 99 AGP
 SEE ATI Rage 128
 
 NAME ATI Radeon
+CHIPSET ati
 DRIVER radeon
 
 # AGX
@@ -2667,105 +2685,35 @@ DRIVER i128
 
 # Matrox
 
-NAME Matrox Millennium 2MB
+NAME Matrox Millennium
 CHIPSET mga2064w
 SERVER SVGA
 DRIVER mga
-LINE VideoRam 2048
+UNSUPPORTED
+LINE Option	"sw_cursor"
 NOCLOCKPROBE
 
-NAME Matrox Millennium 4MB
-CHIPSET mga2064w
-SERVER SVGA
-DRIVER mga
-LINE VideoRam 4096
-NOCLOCKPROBE
-
-NAME Matrox Millennium 8MB
-CHIPSET mga2064w
-SERVER SVGA
-DRIVER mga
-LINE VideoRam 8192
-NOCLOCKPROBE
-
-NAME Matrox Millennium II 4MB
+NAME Matrox Millennium II
 CHIPSET mga2164w
 SERVER SVGA
 DRIVER mga
-LINE VideoRam 4096
 NOCLOCKPROBE
 
-NAME Matrox Millennium II 8MB
-CHIPSET mga2164w
-SERVER SVGA
-DRIVER mga
-LINE VideoRam 8192
-NOCLOCKPROBE
-
-NAME Matrox Millennium II 16MB
-CHIPSET mga2164w
-SERVER SVGA
-DRIVER mga
-LINE VideoRam 16384
-NOCLOCKPROBE
-
-NAME Matrox Millennium G200 4MB
+NAME Matrox Millennium G200
 CHIPSET mgag200
 SERVER SVGA
 DRIVER mga
-LINE VideoRam 4096
 NOCLOCKPROBE
 
-NAME Matrox Millennium G200 8MB
-CHIPSET mgag200
-SERVER SVGA
-DRIVER mga
-LINE VideoRam 8192
-NOCLOCKPROBE
-
-NAME Matrox Millennium G200 16MB
-CHIPSET mgag200
-SERVER SVGA
-DRIVER mga
-LINE VideoRam 16384
-NOCLOCKPROBE
-
-NAME Matrox Millennium G200 SD 4MB
-CHIPSET mgag200
-SERVER SVGA
-DRIVER mga
-LINE VideoRam 4096
-LINE # Option "mga_sdram"
-NOCLOCKPROBE
-
-NAME Matrox Millennium G200 SD 8MB
-CHIPSET mgag200
-SERVER SVGA
-DRIVER mga
-LINE VideoRam 8192
-LINE # Option "mga_sdram"
-NOCLOCKPROBE
-
-NAME Matrox Millennium G200 SD 16MB
-CHIPSET mgag200
-SERVER SVGA
-DRIVER mga
-LINE VideoRam 16384
-LINE # Option "mga_sdram"
-NOCLOCKPROBE
-
-NAME Matrox Millennium G400 16MB
+NAME Matrox Millennium G400
 CHIPSET mgag400
 SERVER SVGA
 DRIVER mga
-LINE VideoRam 16384
 NOCLOCKPROBE
 
-NAME Matrox Millennium G400 32MB
-CHIPSET mgag400
-SERVER SVGA
+NAME Matrox Millennium G450
+CHIPSET mgag450
 DRIVER mga
-LINE VideoRam 32768
 NOCLOCKPROBE
 
 NAME Matrox Mystique
@@ -2774,39 +2722,16 @@ SERVER SVGA
 DRIVER mga
 NOCLOCKPROBE
 
-NAME Matrox Mystique G200 4MB
+NAME Matrox Mystique G200
 CHIPSET mgag200
 SERVER SVGA
 DRIVER mga
-LINE VideoRam 4096
 NOCLOCKPROBE
 
-NAME Matrox Mystique G200 8MB
-CHIPSET mgag200
-SERVER SVGA
-DRIVER mga
-LINE VideoRam 8192
-NOCLOCKPROBE
-
-NAME Matrox Mystique G200 16MB
-CHIPSET mgag200
-SERVER SVGA
-DRIVER mga
-LINE VideoRam 16384
-NOCLOCKPROBE
-
-NAME Matrox Productiva G100 4MB
+NAME Matrox Productiva G100
 CHIPSET mgag100
 SERVER SVGA
 DRIVER mga
-LINE VideoRam 4096
-NOCLOCKPROBE
-
-NAME Matrox Productiva G100 8MB
-CHIPSET mgag100
-SERVER SVGA
-DRIVER mga
-LINE VideoRam 8192
 NOCLOCKPROBE
 
 # NVIDIA
@@ -3159,14 +3084,14 @@ LINE #    Option     "fifo_conservative"
 NAME Rendition Verite 1000
 CHIPSET Verite 1000
 SERVER SVGA
-DRIVER rendition
+DRIVER vga
 UNSUPPORTED
 LINE # Option "sw_cursor"
 
 NAME Rendition Verite 2x00
 CHIPSET Verite 2x00
 SERVER SVGA
-DRIVER rendition
+DRIVER vga
 UNSUPPORTED
 LINE # Option "sw_cursor"
 
@@ -3356,23 +3281,29 @@ NAME Intel 810
 CHIPSET Intel 810
 SERVER SVGA
 DRIVER i810
+NOCLOCKPROBE
 
 NAME Intel 815
 CHIPSET Intel 815
 SERVER SVGA
 DRIVER i810
+NOCLOCKPROBE
 
 NAME Voodoo Banshee (generic)
 CHIPSET Voodoo Banshee
 SERVER SVGA
 DRIVER tdfx
-NOCLOCKPROBE
+
+NAME Voodoo Rush (generic)
+CHIPSET Voodoo Rush
+SERVER SVGA
+DRIVER tdfx
+LINE Option	"nodri"
 
 NAME Voodoo3 (generic)
 CHIPSET Voodoo3 
 SERVER SVGA
 DRIVER tdfx
-NOCLOCKPROBE
 
 NAME Voodoo5 (generic)
 CHIPSET Voodoo5
@@ -3390,6 +3321,21 @@ SEE Voodoo Banshee (generic)
 
 NAME Chaintech Desperado 3F10
 SEE Voodoo Banshee (generic)
+
+# Silicon Motion, Inc.
+
+NAME Silicon Motion Lynx (generic)
+CHIPSET Lynx
+SERVER SVGA
+DRIVER siliconmotion
+UNSUPPORTED
+NOCLOCKPROBE
+
+NAME Silicon Motion LynxEM
+CHIPSET Lynx
+SERVER SVGA
+DRIVER siliconmotion
+NOCLOCKPROBE
 
 NAME SMI Lynx (generic)
 CHIPSET Lynx

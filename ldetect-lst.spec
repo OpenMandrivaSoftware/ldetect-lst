@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.2
-%define release 6mdk
+%define release 7mdk
 
 Name: %{name}
 Version: %{version}
@@ -48,6 +48,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/*
 
 %changelog
+* Thu Mar 15 2001 François Pons <fpons@mandrakesoft.com> 0.1.2-7mdk
+- updated, removed matrox memory reference.
+
 * Tue Mar 13 2001 Pixel <pixel@mandrakesoft.com> 0.1.2-6mdk
 - updated
 
