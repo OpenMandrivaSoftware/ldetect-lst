@@ -945,6 +945,7 @@
 0x1057	0x4d69	"unknown"	"Motorola|20269"
 0x1057	0x5275	"unknown"	"Motorola|20276"
 0x1057	0x5600	"unknown"	"Motorola|SM56 PCI Modem"
+0x1057	0x5608	"unknown"	"Motorola|56k dps PCI Modem"
 0x1057	0x6400	"unknown"	"Motorola|MPC190 Security Processor (S1 family, encryption)"
 0x105a	0x0d30	"unknown"	"Promise Technology, Inc.|20265"
 0x105a	0x0d38	"unknown"	"Promise Technology|PDC20263 FastTrak66 EIDE Controller"
