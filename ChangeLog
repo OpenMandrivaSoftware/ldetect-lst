@@ -23,19 +23,19 @@
 
 	* lst/pcitable: updating nvidia fixing empty strings
 
-2004-08-17 07:15  gletoquart
+2004-08-17 07:15  Gregory Letoquart <gletoquart@mandrakesoft.com>
 
 	* lst/pcitable: ADD ATI X800 Pro Graphic Card
 
-2004-08-17 06:56  gletoquart
+2004-08-17 06:56  Gregory Letoquart <gletoquart@mandrakesoft.com>
 
 	* lst/Cards+: ADD New NVIDIA 6800 Card Model
 
-2004-08-17 06:55  gletoquart
+2004-08-17 06:55  Gregory Letoquart <gletoquart@mandrakesoft.com>
 
 	* lst/pcitable: ADD New Graphic Card NVIDIA 6800GT
 
-2004-08-17 03:56  gletoquart
+2004-08-17 03:56  Gregory Letoquart <gletoquart@mandrakesoft.com>
 
 	* lst/pcitable: ADD X600 Pro card
 
@@ -180,7 +180,7 @@
 
 	* lst/pcitable: bcm5700 -> tg3 (#9742)
 
-2004-07-07 10:10  gletoquart
+2004-07-07 10:10  Gregory Letoquart <gletoquart@mandrakesoft.com>
 
 	* lst/pcitable: Add NVIDIA PCI-express 5750 Card Add Matrox P750
 	  Add NVIDIA GO 5600
@@ -516,11 +516,11 @@
 	* lst/: ScannerDB, scannerconfigs: Fixed Firmware configuration
 	  templates for SANE backend "artec_eplus48u".
 
-2004-02-18 10:51  gletoquart
+2004-02-18 10:51  Gregory Letoquart <gletoquart@mandrakesoft.com>
 
 	* lst/pcitable: Add card FX5200 Ultra Update FX5200
 
-2004-02-17 15:01  gletoquart
+2004-02-17 15:01  Gregory Letoquart <gletoquart@mandrakesoft.com>
 
 	* lst/pcitable: Change for NVIDIA Quadro FX 1000 Change for NVIDIA
 	  FX 5200 Change for NVIDIA FX 5600 Change for all MDK ATI Card
