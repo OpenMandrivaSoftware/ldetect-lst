@@ -374,6 +374,7 @@
 0x1023	0x9785	"unknown"	"Trident Microsystems|TGUI 9785"
 0x1023	0x9850	"Card:Trident 3DImage985 (generic)"	"Trident Microsystems|3DImage 9850"
 0x1023	0x9880	"Card:Trident Blade3D (generic)"	"Trident Microsystems|Blade 3D PCI/AGP"
+0x1023	0x9910	"Card:Trident CyberBlade (generic)"	"Trident Microsystems|Cyber/BladeXP PCI/AGP"
 0x1025	0x1435	"unknown"	"Acer Incorporated [ALI]|M1435"
 0x1025	0x1445	"unknown"	"Acer Incorporated [ALI]|M1445"
 0x1025	0x1449	"unknown"	"Acer Incorporated [ALI]|M1449"
