@@ -78,7 +78,6 @@ fi
 - fix #8295 (no ADSL over Accton Ethernet card)
 
 * Tue Jun 15 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.10-1mdk
-- monitor db:
 - add madwifi_pci for 16c8 0013 (arnaud)
 - add module yenta_socket for the 0x1217 0x7114 (arnaud)
 - add slamr (slmodem) for 10b9 5457 (arnaud)
