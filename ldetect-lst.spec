@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.43
+%define version 0.1.44
 %define release 1mdk
 
 Name: %{name}
@@ -64,6 +64,11 @@ fi
 %{_bindir}/*
 
 %changelog
+* Mon Jan 10 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.44-1mdk
+- add a new Lite-On monitor (Berthy)
+- add a new Princeton monitor (Thomas Spuhler)
+- add a new Sony monitor (Angelo Naselli)
+
 * Fri Jan  7 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.43-1mdk
 - add a Belinea monitor (Michael Braun)
 - add two LG monitors (Neoclust)
