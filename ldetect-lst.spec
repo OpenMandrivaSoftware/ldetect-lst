@@ -60,7 +60,30 @@ fi
 %{_bindir}/*
 
 %changelog
-- lst/usbtable: add 3 mice
+- Thierry Vignaud:
+	* fix 10 incorrect TV card names
+	* add 15 new TV cards
+- Pixel:
+	* add 3 usb mice
+	* s/53c7,8xx/sym53c8xx/
+- Yves Duret:
+	* fix Connectix entries (qcam server)
+	* added support for Hewlett-Packard OfficeJet series
+	* fix Bell and Howell entries
+	* sync with scanner.{c,h} version 0.47 from david nelson
+	* sync with sane 1.0.7
+	* ci before big merge
+	* fix HP scanner entry
+	* added some HP models
+	* added more snapscan escanners + some add in usbtable (kbd..)
+	* mustek_pp updated
+	* one more HP escanner..
+	* some HP escanners added (but in UNSUPPORTED :(
+- François Pons:
+	* KYRO uses fbdev instead of vesa.
+	* lst/Cards+: added GD5480 as working under XF 4.2 (Juan)
+- Juan Quintela
+	*  use new qlogic drivers by default
 
 * Thu Feb 14 2002 Pixel <pixel@mandrakesoft.com> 0.1.3-4mdk
 - add BuildRequires: perl-MDK-Common
