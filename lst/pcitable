@@ -1167,7 +1167,7 @@
 0x1033	0x010c	"unknown"	"NEC|VR7701"
 0x1036	0x0000	"fdomain"	"Future Domain|TMC-18C30 [36C70]"
 0x1039	0x0000	"unknown"	"Silicon Integrated System| "
-0x1039	0x0001	"Card:VESA driver (generic)"	"Silicon Integrated Systems [SiS]|5591/5592 AGP"
+0x1039	0x0001	"unknown"	"Silicon Integrated Systems [SiS]|5591/5592 AGP"
 0x1039	0x0002	"sis-agp"	"Silicon Integrated Systems [SiS]|SG86C202"
 0x1039	0x0003	"unknown"	"Silicon Integrated System|SiS648FX Virtual PCI to PCI Bridge (AGP)"
 0x1039	0x0005	"unknown"	"Silicon Integrated Systems [SiS]|Pentium Chipset"
