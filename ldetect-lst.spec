@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.46
+%define version 0.1.47
 %define release 1mdk
 
 Name: %{name}
@@ -64,6 +64,10 @@ fi
 %{_bindir}/*
 
 %changelog
+* Tue Jan 11 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.47-1mdk
+- list zd1201 driver
+- manually merge driver that don't export ids of devices they managed
+
 * Tue Jan 11 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.46-1mdk
 - sync with ide drivers from 2.6.10-ac8
 - add a new Samsung monitor (Albert Astals Cid)
