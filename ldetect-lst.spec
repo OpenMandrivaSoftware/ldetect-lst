@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.8
-%define release 4mdk
+%define release 5mdk
 
 Name: %{name}
 Version: %{version}
@@ -64,6 +64,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Fri Sep 12 2003 Frederic Lepied <flepied@mandrakesoft.com> 0.1.8-5mdk
+- added Omnikey Cardman ids
+
 * Wed Sep 10 2003 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.8-4mdk
 - added DRIVER2 fglrx support (francois, nicolas)
 - merge with kernel modules maps (pixel)
