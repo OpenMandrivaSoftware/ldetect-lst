@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.6
+%define version 0.1.7
 %define release 1mdk
 
 Name: %{name}
@@ -64,6 +64,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Wed Feb 12 2003 Frederic Lepied <flepied@mandrakesoft.com> 0.1.7-1mdk
+- added ids for some Intel cards
+
 * Tue Jan 28 2003 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.6-1mdk
 - fix doble sound card detection on nforce2 motherboards
 - add various monitors & pci devices (cooker communauty)
