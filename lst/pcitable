@@ -2461,7 +2461,7 @@
 0x1287	0x0020	"unknown"	"LuxSonor Inc.|LS242 MPEG/DVD video decoder"
 0x128a	0xf001	"unknown"	"Asante Technologies Inc.|Ethernet 10/100 AsanteFAST 10/100 PCI Ethernet Adapter"
 0x128d	0x0021	"unknown"	"G2 Networks, Inc.|ATM155 Adapter"
-0x128e	0x0008	"unknown"	"Hoontech Corporation/Samho Multi Tech Ltd.|ST128 WSS/SB"
+0x128e	0x0008	"sam9407"	"Hoontech Corporation/Samho Multi Tech Ltd.|ST128 WSS/SB"
 0x128e	0x0009	"unknown"	"Hoontech Corporation/Samho Multi Tech Ltd.|ST128 SAM9407"
 0x128e	0x000a	"unknown"	"Hoontech Corporation/Samho Multi Tech Ltd.|ST128 Game Port"
 0x128e	0x000b	"unknown"	"Hoontech Corporation/Samho Multi Tech Ltd.|ST128 MPU Port"
