@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.9
-%define release 9mdk
+%define release 10mdk
 
 Name: %{name}
 Version: %{version}
@@ -64,7 +64,10 @@ fi
 %{_bindir}/*
 
 %changelog
-- add MSI WLAN PC2PC usb adapter.
+* Tue Mar 16 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.9-10mdk
+- add MSI WLAN PC2PC usb adapter (nplanel)
+- fix Sil3512A description (#8579)
+- switch a broadcom from b44 to bcm4400 on arnaud/hp request
 
 * Tue Mar  2 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.9-9mdk
 - add missing realtek 8139 (#8012)
