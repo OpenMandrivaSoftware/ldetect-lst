@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.16
-%define release 3mdk
+%define release 4mdk
 
 Name: %{name}
 Version: %{version}
@@ -64,6 +64,17 @@ fi
 %{_bindir}/*
 
 %changelog
+* Wed Sep  8 2004 Frederic Lepied <flepied@mandrakesoft.com> 0.1.16-4mdk
+ o pcitable:
+	* added entries for slamr and rt2500
+	* added entries for IPW2200
+	* Intel Corporation => Intel Corp.
+ o usbtable:
+	* added slusb
+	* added driver for NetGear MA111
+	* put newhidups driver for MGE UPS entries.
+	* fixed wacom entries.
+
 * Tue Aug 31 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.16-3mdk
 - pcitable:
   o sync with kernel-2.6.8.1.5mdk
