@@ -22,6 +22,7 @@ check:
 	@../convert/merge2pcitable.pl pcitable usbtable usbtable > .usbtable
 	@diff -u usbtable .usbtable
 	@cd ../convert; ./verify_Cards.pl
+	@rm -f .pcitable .usbtable
 
 $(TMP_TABLES1): %.tmp: %
 	../convert/merge2pcitable.pl pcitable $< $<.$(ARCH) > $@
