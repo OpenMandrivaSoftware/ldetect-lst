@@ -1,3 +1,25 @@
+2004-11-02 06:59  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: fix sound on VIA VT8233 (#10859)
+
+2004-11-02 05:23  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: some MODULE_DEVICE_TABLE() do not appears in
+	  kernel's pcimap; let's add my own motherboard and partially sync
+	  with 2.6.10-rc1-mm2 btw
+
+2004-11-02 05:22  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: disambiguate media devices
+
+2004-11-02 05:21  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* convert/merge2pcitable.pl: perl_checker fixes
+
+2004-11-02 05:21  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* convert/merge2pcitable.pl: fix checking subids
+
 2004-10-28 12:29  Gwenole Beauchesne <gbeauchesne@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.23-1mdk
