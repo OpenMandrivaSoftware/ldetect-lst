@@ -4105,7 +4105,7 @@
 0x1092	0x88d1	"unknown"	"Diamond Multimedia Systems|Stealth 64"
 0x1092	0x88f0	"unknown"	"Diamond Multimedia Systems|Stealth 64"
 0x1092	0x88f1	"unknown"	"Diamond Multimedia Systems|Stealth 64"
-0x1092	0x9999	"unknown"	"Diamond Multimedia Systems|DMD-I0928-1 "Monster sound" sound chip"
+0x1092	0x9999	"unknown"	"Diamond Multimedia Systems|DMD-I0928-1 'Monster sound' sound chip"
 0x1093	0x0160	"unknown"	"National Instruments|PCI-DIO-96"
 0x1093	0x0162	"unknown"	"National Instruments|PCI-MIO-16XE-50"
 0x1093	0x1170	"unknown"	"National Instruments|PCI-MIO-16XE-10"
