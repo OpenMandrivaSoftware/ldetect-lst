@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.8
-%define release 6mdk
+%define release 7mdk
 
 Name: %{name}
 Version: %{version}
@@ -64,6 +64,11 @@ fi
 %{_bindir}/*
 
 %changelog
+* Thu Sep 18 2003 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.8-7mdk
+- fix usbtable
+- reference two more Sagem Fast 800
+- reuse snd-intel8x0 for SIS 7012 (fixed in last kernel)
+
 * Wed Sep 17 2003 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.8-6mdk
 - use right driver for ali sound card (#2203)
 
