@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.56
+%define version 0.1.57
 %define release 1mdk
 
 Name: %{name}
@@ -64,6 +64,14 @@ fi
 %{_bindir}/*
 
 %changelog
+* Mon Feb  7 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.57-1mdk
+- sync with kernel-multimedia-2.6.10-1.mm.11mdk:
+  o add one new ipw2200 entry
+  o handle new driver qla4xxx
+  o handle new sata_promise driver
+- add support for "ARECA (ARC1110/1120/1130/1160/1210/1220/1230/1260)
+  SATA RAID HOST Controller" (new driver in kernel-2.6.11-rc3-mm1)
+
 * Mon Feb  7 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.56-1mdk
 - add one new ATI graphic card
 - add one new Intel graphic card
