@@ -263,6 +263,8 @@
 0x1002	0x496d	"Card:ATI Radeon (fbdev)"	""
 0x1002	0x496e	"Card:ATI Radeon (fglrx)"	"ATI|Radeon R250 [Radeon 9000] (Secondary)"
 0x1002	0x496f	"Card:ATI Radeon (fbdev)"	""
+0x1002	0x4a49	"Card:ATI Radeon (fglrx)"	"ATI|Radeon X800 Pro"
+0x1002	0x4a69	"unknown"	"ATI|X800 [Radeon X800 Pro] (Secondary)"
 0x1002	0x4c42	"Card:ATI Mach64 Utah"	"ATI|3D Rage LT Pro AGP-133"
 0x1002	0x4c44	"Card:ATI Mach64 Utah"	"ATI|3D Rage LT Pro AGP-66"
 0x1002	0x4c45	"Card:ATI Rage 128 Mobility"	"ATI|Rage Mobility M3 AGP"
