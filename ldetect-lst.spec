@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.65
+%define version 0.1.66
 %define release 1mdk
 
 Name: %{name}
@@ -63,6 +63,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Tue Feb 22 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.66-1mdk
+- usbtable: sync with kernel-2.6.10-3mdk
+
 * Mon Feb 21 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.65-1mdk
 - fill in missing Radeon descriptions
 - update scanner database for SANE 1.0.15 (till)
