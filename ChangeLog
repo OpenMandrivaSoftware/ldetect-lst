@@ -1,6 +1,68 @@
+2005-02-07 13:36  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.56-1mdk
+
+2005-02-07 13:28  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/usbtable: add new ISDN driver hfc4s8s_l1
+
+2005-02-07 13:28  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: ISDN drivers need a bit of formatting in order to
+	  be managed by drakconnect...
+
+2005-02-07 13:28  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: ISDN drivers need a bit of formatting in order to
+	  be managed by drakconnect...
+
+2005-02-07 13:24  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: audit drivers/char/drm/drm_pciids.h and new ATI
+	  graphic crads
+
+2005-02-07 13:24  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: this one is driven by vrc4173_cardu
+
+2005-02-07 13:23  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: uli526x is a patched tulip driver in fact...
+
+2005-02-07 13:23  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: add a new intel graphic card (from
+	  drivers/char/drm/drm_pciids.h)
+
+2005-02-07 13:23  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: sync with kernel-2.6.11-rc3
+
+2005-02-07 13:23  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: audit intel-agp driver and add missing entries
+
+2005-02-07 13:23  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: there's two pci vendor ids for ALI (0x10b9 "ALi
+	  Corporation" and 0x1025 "Acer Incorporated [ALI]").  ali-agp
+	  driver probe PCI_CAP_ID_AGP and device id (not vendor id), and so
+	  doesn't appear in kernel's modules.pcimap.
+
+	  thus let's manually add drivers for both vendor ids.
+
+2005-02-02 13:27  Pablo Saratxaga <pablo@mandrakesoft.com>
+
+	* lst/usbtable: added E-Tech/Amigo AMX-CA80U ADSL Modem (uses
+	  "cxacru" but it isn't yet on our kernels apparently)
+
 2005-02-02 12:06  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.55-1mdk
+
+2005-02-02 12:06  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: sync with kernel-multimedia-2.6.10-1.mm.9mdk
 
 2005-02-02 12:06  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
