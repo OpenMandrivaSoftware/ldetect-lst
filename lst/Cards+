@@ -40,7 +40,6 @@ NAME Chips & Technologies CT65520
 CHIPSET ct65520
 SERVER SVGA
 DRIVER chips
-UNSUPPORTED
 LINE # Device section for C&T cards.
 LINE # Option "suspend_hack"
 LINE # Option "STN"
@@ -51,7 +50,7 @@ LINE # Option "fix_panel_size"
 LINE # videoram 512
 
 NAME KYRO Series
-DRIVER vesa 
+DRIVER vesa
 
 NAME Chips & Technologies CT65525
 CHIPSET ct65525
