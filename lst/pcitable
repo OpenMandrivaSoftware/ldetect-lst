@@ -2076,7 +2076,7 @@
 0x4005	0x2364	"unknown"	"Avance Logic Inc.|ALG-2364A"
 0x4005	0x2464	"unknown"	"Avance Logic Inc.|ALG-2464"
 0x4005	0x2501	"unknown"	"Avance Logic Inc.|ALG-2564A/25128A"
-0x4005	0x4000	"unknown"	"Avance Logic Inc.|ALS4000 Audio Chipset"
+0x4005	0x4000	"snd-card-als4000"	"Avance Logic Inc.|ALS4000 Audio Chipset"
 0x400a	0x15b0	"bttv"	"Zoltrix|Genie TV"
 0x4010	0x15b0	"bttv"	"Zoltrix|Genie TV / Radio"
 0x4020	0x10fc	"bttv"	"I-O Data Co.|GV-BCV3/PCI"
