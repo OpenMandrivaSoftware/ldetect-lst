@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.2
-%define release 27mdk
+%define release 28mdk
 
 Name: %{name}
 Version: %{version}
@@ -48,6 +48,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/*
 
 %changelog
+* Tue Oct 02 2001 Yves Duret <yduret@mandrakesoft.com> 0.1.2-28mdk
+- fix typo in usb scanner
+
 * Mon Sep 24 2001 Pixel <pixel@mandrakesoft.com> 0.1.2-27mdk
 - replace ns558 by emu10k1-gp (Planel Nicolas)
 
