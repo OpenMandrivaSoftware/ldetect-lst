@@ -3868,7 +3868,7 @@
 0x13c0	0x0210	"synclink"	"Microgate Corporation|SyncLink Adapter v2"
 0x13c1	0x1000	"3w-xxxx"	"3ware Inc|3ware ATA-RAID"
 0x13c1	0x1001	"3w-xxxx"	"3ware Inc|3ware 7000-series ATA-RAID"
-0x13c1	0x1002	"3w-xxxx"	"3ware Inc|3ware ATA-RAID"
+0x13c1	0x1002	"3w-9xxx"	"3ware Inc|3ware 9XXX-series ATA-RAID"
 0x13c6	0x0520	"unknown"	"Condor Engineering Inc|CEI-520 A429 Card"
 0x13c6	0x0620	"unknown"	"Condor Engineering Inc|CEI-620 A429 Card"
 0x13c6	0x0820	"unknown"	"Condor Engineering Inc|CEI-820 A429 Card"
