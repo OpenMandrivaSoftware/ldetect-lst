@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.77
+%define version 0.1.78
 %define release 1mdk
 
 Name: %{name}
@@ -63,6 +63,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Wed Mar 30 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.78-1mdk
+- support new nvidia ids from X.Org 6.8.2
+
 * Wed Mar 30 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.77-1mdk
 - add Fastrate USB 100 modem (blino)
 - add support for NX6600GT (chandra, #14977)
