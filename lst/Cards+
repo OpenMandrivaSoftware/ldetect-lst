@@ -3011,7 +3011,7 @@ NOCLOCKPROBE
 # Alliance Semiconductor
 
 NAME Diamond Stealth Video 2500
-CHIPSET Alliance AT24 
+CHIPSET Alliance AT24
 SERVER SVGA
 DRIVER apm
 NOCLOCKPROBE
@@ -3024,7 +3024,9 @@ NOCLOCKPROBE
 LINE #Option "no_accel"
 
 NAME AT25
-SEE AT3D
+CHIPSET Alliance AT25
+DRIVER apm
+NOCLOCKPROBE
 
 NAME Hercules Stingray 128 3D
 SEE AT3D
