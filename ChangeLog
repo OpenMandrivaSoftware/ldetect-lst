@@ -1,6 +1,19 @@
-2004-09-28 07:02  Frederic Lepied <flepied@mandrakesoft.com>
+2004-10-11 04:57  Gwenole Beauchesne <gbeauchesne@mandrakesoft.com>
 
-	* ldetect-lst.spec: 0.1.18-1mdk
+	* lst/pcitable: speculatively use aic79xx for Adaptec ASC-39320[AB]
+	  cards
+
+2004-10-10 22:31  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.19-1mdk
+
+2004-10-10 22:30  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: fix sound on nicolas chipaux's sound card
+
+2004-10-06 05:05  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/usbtable: add dadou's bluetooth key
 
 2004-09-28 07:01  Frederic Lepied <flepied@mandrakesoft.com>
 
