@@ -1453,6 +1453,7 @@
 0x10de	0x0173	"Card:NVIDIA GeForce2 DDR (generic)"	"NVidia|0x0173"
 0x10de	0x0174	"Card:NVIDIA GeForce2 DDR (generic)"	"NVidia|0x0174"
 0x10de	0x0175	"Card:NVIDIA GeForce2 DDR (generic)"	"NVidia|0x0175"
+0x10de	0x0176	"Card:NVIDIA GeForce2 DDR (generic)"	"NVidia|0x0176"
 0x10de	0x0178	"Card:NVIDIA GeForce2 DDR (generic)"	"NVidia|0x0178"
 0x10de	0x017a	"Card:NVIDIA GeForce2 DDR (generic)"	"NVidia|0x017A"
 0x10de	0x017b	"Card:NVIDIA GeForce2 DDR (generic)"	"NVidia|0x017B"
