@@ -71,7 +71,7 @@ fi
 - fixes:
   o use right module for Zoran ZR36057PQC device (#7654)
   o do not use ata_piix for ich5 since it failled to handle some ATAPI
-    device in combined mode
+    device in combined mode (planel)
   o airo_mpi is dead, viva el airo (planel)
 - add support for:
   o SiS Real256E (flepied)
