@@ -1,0 +1,161 @@
+SERVER abaton
+LINE scsi ABATON
+LINE $DEVICE
+SERVER agfafocus
+LINE $DEVICE
+SERVER apple
+LINE scsi APPLE
+LINE $DEVICE
+SERVER artec
+LINE scsi ULTIMA
+LINE $DEVICE
+SERVER artec_eplus48u
+LINE usb $VENDOR $PRODUCT
+SERVER avision
+LINE scsi AVISION
+LINE scsi FCPA
+LINE scsi MINOLTA
+LINE scsi MITSBISH MCA-S600C
+LINE scsi MITSBISH MCA-SS600
+LINE scsi HP
+LINE scsi hp
+LINE $DEVICE
+SERVER bh
+LINE scsi "B&H SCSI"
+LINE $DEVICE
+SERVER canon
+LINE $DEVICE
+SERVER canon630u
+LINE usb $VENDOR $PRODUCT
+SERVER canon_pp
+LINE ieee1284 parport0
+LINE init_mode AUTO parport0
+SERVER coolscan
+LINE scsi Nikon * Scanner
+LINE $DEVICE
+SERVER coolscan
+LINE auto
+SERVER dc210
+LINE port=$DEVICE
+SERVER dc240
+LINE port=$DEVICE
+SERVER dc25
+LINE port=$DEVICE
+SERVER dmc
+LINE $DEVICE
+SERVER epson
+PARPORTLINE pio 0x378
+PARPORTLINE pio 0x278
+PARPORTLINE pio 0x3BC
+SCSILINE scsi EPSON
+USBLINE usb $DEVICE
+SERVER fujitsu
+LINE scsi FUJITSU
+SERVER gt68xx
+LINE usb $VENDOR $PRODUCT
+SERVER hp
+USBLINE usb $VENDOR $PRODUCT
+LINE $DEVICE
+SERVER hp4200
+LINE usb $VENDOR $PRODUCT
+LINE $DEVICE
+SERVER hpsj5s
+LINE parport0
+SERVER leo
+LINE scsi ACROSS * Scanner * * * 0
+LINE scsi "LEO" "LEOScan-S3"
+LINE $DEVICE
+SERVER matsushita
+LINE scsi "K.M.E.  " "KV-SS25A        "
+LINE $DEVICE
+SERVER microtek
+LINE scsi * * Scanner
+LINE $DEVICE
+SERVER microtek2
+LINE scsi * * Scanner
+LINE $DEVICE
+SERVER mustek
+LINE scsi MUSTEK * Scanner
+LINE scsi SCANNER
+LINE $DEVICE
+SERVER mustek_usb
+LINE usb $VENDOR $PRODUCT
+SERVER nec
+LINE $DEVICE
+SERVER niash
+LINE $DEVICE
+SERVER pie
+LINE scsi DEVCOM * Scanner
+LINE scsi PIE * Scanner
+LINE scsi AdLib * Scanner
+LINE $DEVICE
+SERVER plustek
+PARPORTLINE [parport]
+PARPORTLINE /dev/pt_drv
+USBLINE [usb]
+USBLINE device auto
+SERVER ricoh
+LINE scsi RICOH IS60
+LINE $DEVICE
+SERVER s9036
+LINE $DEVICE
+SERVER sceptre
+LINE scsi "KINPO   " "Vividscan S120  "
+LINE $DEVICE
+SERVER sharp
+LINE scsi SHARP * Scanner
+LINE $DEVICE
+SERVER snapscan
+SCSILINE scsi AGFA * Scanner
+SCSILINE scsi COLOR * Scanner
+SCSILINE scsi Color * Scanner
+SCSILINE scsi ACERPERI * Scanner
+USBLINE usb $VENDOR $PRODUCT
+SERVER sp15c
+LINE scsi FCPA
+SERVER st400
+LINE scsi SIEMENS "ST 400" Scanner * * 3 *
+LINE scsi SIEMENS "ST 800" Scanner * * 3 *
+SERVER tamarack
+LINE scsi TAMARACK
+LINE $DEVICE
+SERVER teco1
+LINE scsi "RELISYS" "VM3530+" Scanner * * * 0
+LINE scsi "" "Image Scanner" Scanner
+LINE scsi "RELISYS" "RELI 4830" Scanner
+LINE scsi "Dextra DF-600P" Scanner
+LINE $DEVICE
+SERVER teco2
+LINE scsi "" "Flatbed Scanner" Scanner
+LINE scsi "RELISYS" "APOLLO Express 6"
+LINE scsi "RELISYS" "SCORPIO Pro"
+LINE $DEVICE
+SERVER teco3
+LINE scsi "" "Flat-bed scanner" Scanner
+LINE scsi "RELISYS" "Scorpio"
+LINE scsi "Aashima" "IMAGERY 2400SP" Scanner * * * 0
+LINE scsi "Aashima" "IMAGERY 4800SP +"
+LINE $DEVICE
+SERVER umax
+SCSILINE scsi UMAX * Scanner
+SCSILINE scsi LinoHell JADE
+SCSILINE scsi LinoHell Office
+SCSILINE scsi LinoHell Office2
+SCSILINE scsi LinoHell SAPHIR2
+SCSILINE scsi LinoHell SAPHIR3
+SCSILINE scsi HDM LS4H1S
+SCSILINE scsi Nikon AX-110
+SCSILINE scsi Nikon AX-210
+SCSILINE scsi KYE ColorPage-HR5
+SCSILINE scsi EPSON Perfection600
+SCSILINE scsi ESCORT "Galleria 600S"
+SCSILINE option connection-type 1
+USBLINE usb $VENDOR $PRODUCT
+USBLINE option connection-type 2
+LINE $DEVICE
+SERVER umax1220u
+LINE usb $VENDOR $PRODUCT
+SERVER umax_pp
+LINE port $DEVICE
+SERVER v4l
+LINE $DEVICE

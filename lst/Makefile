@@ -6,6 +6,7 @@ ARCH := $(patsubst sparc%,sparc,$(ARCH))
 TABLES1 = pcitable usbtable
 TABLES2 = isatable pcmciatable
 TABLES3 = ScannerDB.gz
+TABLES4 = scannerconfigs
 TABLES = $(TABLES1) $(TABLES2)
 TMP_TABLES1 = $(TABLES1:%=%.tmp)
 TMP_TABLES2 = $(TABLES2:%=%.tmp)
@@ -43,4 +44,4 @@ install: $(TMP_TABLES) $(TABLES3)
 	 cat $$i.tmp \
 	) > $(dir)/$$i.d/90default.lst; done
 
-	install -m 644 ScannerDB.gz Cards+ MonitorsDB isdn.db $(dir)
+	install -m 644 ScannerDB.gz scannerconfigs Cards+ MonitorsDB isdn.db $(dir)
