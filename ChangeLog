@@ -1,3 +1,16 @@
+2004-11-26 20:15  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.31-1mdk
+
+2004-11-26 20:11  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: drivers/pcmcia/yenta_socket.c::yenta_table claims
+	  to support any pci card whose class is PCI_CLASS_BRIDGE_CARDBUS
+
+	  so let assign yenta_socket driver to all PCI cards whose name
+	  seems to indicate they're a PCMCIA/CardBus controller (especially
+	  when other PCI cards around are already managed by yenta_socket)
+
 2004-11-26 18:58  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.30-1mdk
