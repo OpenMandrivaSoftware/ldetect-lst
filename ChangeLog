@@ -1,3 +1,7 @@
+2003-10-17 17:23  Nicolas Planel <nplanel@mandrakesoft.com>
+
+	* ldetect-lst.spec, lst/pcitable: Add, fix emulex module and ID
+
 2003-10-14 18:44  Gwenole Beauchesne <gbeauchesne@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.8-11mdk
