@@ -7,6 +7,8 @@ TAG := $(shell echo "V$(VERSION)_$(RELEASE)" | tr -- '-.' '__')
 
 FILES = AUTHORS ChangeLog Makefile Makefile.config convert ldetect-lst.spec lst update-ldetect-lst
 
+.PHONY: changelog log
+
 build: 
 	make -C lst build
 
