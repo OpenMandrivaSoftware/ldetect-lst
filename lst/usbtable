@@ -411,7 +411,7 @@
 0x054c	0x002e	"unknown"	"Sony Corp.|Sony HandyCam MemoryStick Reader"
 0x054c	0x0032	"unknown"	"Sony Corp.|MemoryStick MSC-U01 Reader"
 0x054c	0x0038	"visor"	"Sony Corp.|CLIE PEG-S300/D PalmOS PDA"
-0x054c	0x0066	"visor"	""
+0x054c	0x0066	"visor"	"Sony Corp.|Palm Handheld"
 0x0553	0x0002	"cpia_usb"	"VLSI Vision Ltd.|CPiA WebCam"
 0x0553	0x0202	"unknown"	"VLSI Vision Ltd.|Aiptek PenCam 1"
 0x0557	0x2001	"uss720"	"ATEN International Co. Ltd.|UC-1284 Printer Port"
