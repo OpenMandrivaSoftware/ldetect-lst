@@ -10,10 +10,6 @@
 
 	* lst/pcitable: sync with kernel-2.6.11-rc3-mm1
 
-2005-02-08 12:09  Thierry Vignaud <tvignaud@mandrakesoft.com>
-
-	* lst/pcitable: sync with kernel-2.6.11-rc3-mm1
-
 2005-02-07 22:23  Stew Benedict <sbenedict@mandrakesoft.com>
 
 	* lst/: Cards+, pcitable: Xbox X driver support
