@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.4
-%define release 13mdk
+%define release 14mdk
 
 Name: %{name}
 Version: %{version}
@@ -63,6 +63,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Thu Aug 29 2002 Pixel <pixel@mandrakesoft.com> 0.1.4-14mdk
+- add "Removable:floppy", "Removable:memory_card", "Removable:camera"
+
 * Tue Aug 27 2002 Pixel <pixel@mandrakesoft.com> 0.1.4-13mdk
 - fix syntax error in usbtable (and prevent this to happen again)
 
