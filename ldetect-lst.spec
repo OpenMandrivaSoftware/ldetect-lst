@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.28
+%define version 0.1.29
 %define release 1mdk
 
 Name: %{name}
@@ -64,6 +64,21 @@ fi
 %{_bindir}/*
 
 %changelog
+* Thu Nov 25 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.29-1mdk
+- MonitorsDB:
+  o update, sync with hwdata-0.148
+  o fix a few entry
+  o add "Samsung SyncMaster 910N/912N" (pablo)
+- pcitable:
+  o fill in a few descriptions
+  o sync with serial, DVB and SMB Host controllers drivers from
+    kernel-2.6.10-rc2-mm3
+  o add support for Intel's High Definition Audio Controller
+  o sync with ALSA's CVS
+- usbtable:
+  o sync with usb.ids and with kernel-2.6.8.1.22mdk's usbmap
+  o add "Pinnacle Systems, Inc.|Pinnacle Bungee (PAL)" (Stefan Siegel)
+
 * Fri Nov 19 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.28-1mdk
 - ALI SATA controllers:
   o fill in descriptions
