@@ -2274,6 +2274,7 @@
 0x10de	0x01c1	"slamr"	"nVidia Corp.|Intel 537 [nForce MC97 Modem]"
 0x10de	0x01c2	"usb-ohci"	"nVidia Corp.|nForce USB Controller"
 0x10de	0x01c3	"forcedeth"	"nVidia Corp.|nForce MCP Networking Adapter"
+0x10de	0x01da	"Card:NVIDIA GeForce FX (generic)"	"nVidia Corporation|NV36 [Quadro FX 1100]"
 0x10de	0x01e0	"nvidia-agp"	"nVidia Corp.|nForce2 AGP Controller"
 0x10de	0x01e1	"unknown"	"NVIDIA Corp.|nForce2 AGP Controller"
 0x10de	0x01e8	"unknown"	"nVidia Corp.|nForce2 AGP Host to PCI Bridge"
