@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.7
-%define release 12mdk
+%define release 13mdk
 
 Name: %{name}
 Version: %{version}
@@ -64,6 +64,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Sun Apr  6 2003 Pixel <pixel@mandrakesoft.com> 0.1.7-13mdk
+- don't use cat(1) in update-ldetect-lst (fix bug #3678)
+
 * Fri Mar 28 2003 Frederic Lepied <flepied@mandrakesoft.com> 0.1.7-12mdk
 - activated 3D on i830, i845, i85x and i865
 

@@ -11,5 +11,9 @@ foreach (@files) {
     my $d = "$dir/$_.d";
     -d $d or next;
     my @l = sort glob("$d/*.lst") or next;
-    system("cat " . join(" ", @l) . " > $dir/$_");
+    open(my $OUT, " > $dir/$_");
+    foreach (@l) {
+	open(my $IN, $_) or next;
+	print $OUT $_ foreach <$IN>;
+    }
 }
