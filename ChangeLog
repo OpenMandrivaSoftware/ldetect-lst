@@ -1,3 +1,15 @@
+2003-09-10 19:10  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: update
+
+2003-09-10 18:21  Pixel <pixel@mandrakesoft.com>
+
+	* lst/usbtable: add a mouse
+
+2003-09-10 17:19  Nicolas Planel <nplanel@mandrakesoft.com>
+
+	* lst/pcitable: add ATI card detected by fglrx
+
 2003-09-10 16:40  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.8-4mdk
