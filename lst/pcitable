@@ -4177,7 +4177,7 @@
 0x1524	0x0510	"unknown"	"ENE Technology Inc|CB710 Cardbus Controller (4 in 1 reader)"
 0x1524	0x1211	"unknown"	"ENE Technology Inc|CB1211 Cardbus Controller"
 0x1524	0x1225	"unknown"	"ENE Technology Inc|CB1225 Cardbus Controller"
-0x1524	0x1410	"unknown"	"ENE Technology Inc|Unknown CardBus bridge"
+0x1524	0x1410	"yenta_socket"	"ENE Technology Inc|CB1410 CardBus Controller"
 0x1524	0x1411	"yenta_socket"	"ENE Technology Inc|CB1411 CardBus Controller"
 0x1524	0x1420	"unknown"	"ENE Technology Inc|CB1420 Cardbus Controller"
 0x1524	0x1421	"unknown"	"ENE Technology Inc|CB720 Cardbus Controller"
