@@ -48,6 +48,12 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/*
 
 %changelog
+
+- es1370 doesn't work for "Ensoniq|ES1370 [AudioPCI]" (ID 0x12745000)
+  replace it by "snd-card-ens1370" wich operates smoothly
+- add a new Pinnacle PCTV
+- add support for ALS4000
+
 * Thu Jun 14 2001 Pixel <pixel@mandrakesoft.com> 0.1.2-14mdk
 - adds some ATI cards
 
