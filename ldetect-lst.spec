@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.49
+%define version 0.1.50
 %define release 1mdk
 
 Name: %{name}
@@ -64,6 +64,12 @@ fi
 %{_bindir}/*
 
 %changelog
+* Thu Jan 20 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.50-1mdk
+- fix conflict between 8139cp and 8139too
+- add AC'97 Audio support for Intel ICH7
+- add eisa id for Panasonic E70i monitor (neoclust)
+- add 2 new monitors (one ADI and one Hyundai) (Neoclust)
+
 * Thu Jan 13 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.49-1mdk
 - add a new Sony monitor (Neoclust)
 - switch a realtek driver (#12982)
