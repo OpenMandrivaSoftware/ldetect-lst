@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.8
-%define release 13mdk
+%define release 14mdk
 
 Name: %{name}
 Version: %{version}
@@ -64,6 +64,8 @@ fi
 %{_bindir}/*
 
 %changelog
+* Mon Jan 26 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.8-14mdk
+- add one alcor device (Jaco Greeff <jaco@puxedo.org>)
 - add 2 monitors (thanks to Frederik Himpe, bugzilla #6710)
 - convert agpgart 24 style to splitted agpgart module (intel-agp,...).
 - s/nvnet/forcedeth/
