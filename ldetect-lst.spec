@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.8
-%define release 3mdk
+%define release 4mdk
 
 Name: %{name}
 Version: %{version}
@@ -64,7 +64,11 @@ fi
 %{_bindir}/*
 
 %changelog
-- added DRIVER2 fglrx support.
+* Wed Sep 10 2003 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.8-4mdk
+- added DRIVER2 fglrx support (francois)
+- merge with kernel modules maps (pixel)
+- one more usb device (Stefan Siegel)
+- update scanner database for SANE 1.0.12 (till)
 
 * Sun Sep  7 2003 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.8-3mdk
 - fix #1837: handle acx100_pci
