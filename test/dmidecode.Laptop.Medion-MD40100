@@ -1,0 +1,309 @@
+# dmidecode 1.8
+SMBIOS 2.31 present.
+DMI 2.31 present.
+39 structures occupying 1272 bytes.
+DMI table at 0x000E8340.
+Handle 0x0000
+	DMI type 0, 20 bytes.
+	BIOS Information Block
+		Vendor: Phoenix Technologies LTD
+		Version: V1.0 R01-A1B   
+		Release: 09/10/2003
+		BIOS base: 0xE2200
+		ROM size: 512K
+		Capabilities:
+			Flags: 0x0000000700005F90
+Handle 0x0001
+	DMI type 1, 25 bytes.
+	System Information Block
+		Vendor: MEDIONNB       
+		Product: WID2000        
+		Version: Revision A0
+		Serial Number:     9141D01ND0340026ECK000        
+Handle 0x0003
+	DMI type 3, 17 bytes.
+	Chassis Information Block
+		Vendor: Wistron        
+		Chassis Type: Other
+		Version: N/A
+		Serial Number: None
+		Asset Tag: No Asset Tag                    
+Handle 0x0004
+	DMI type 4, 35 bytes.
+	Processor
+		Socket Designation: WMT478/NWD
+		Processor Type: Central Processor
+		Processor Family: 
+		Processor Manufacturer: Intel
+		Processor Version: D0
+		Serial Number: 
+		Asset Tag: 
+		Vendor Part Number: 
+Handle 0x0005
+	DMI type 7, 19 bytes.
+	Cache
+		Socket: L1 Cache
+		L1 socketed Internal Cache: write-back
+		L1 Cache Size: 16K
+		L1 Cache Maximum: 16K
+		L1 Cache Type: Asynchronous 
+Handle 0x0006
+	DMI type 7, 19 bytes.
+	Cache
+		Socket: L2 Cache
+		L2 socketed Internal Cache: write-back
+		L2 Cache Size: 512K
+		L2 Cache Maximum: 512K
+		L2 Cache Type: Burst 
+Handle 0x0007
+	DMI type 7, 19 bytes.
+	Cache
+		Socket: L3 Cache
+		L3 socketed Internal Cache: write-back
+		L3 Cache Size: 512K
+		L3 Cache Maximum: 512K
+		L3 Cache Type: Burst 
+Handle 0x0008
+	DMI type 8, 9 bytes.
+	Port Connector
+		Internal Designator: J2A1
+		Internal Connector Type: 9 Pin Dual Inline (pin 10 cut)
+		External Designator: COM 1
+		External Connector Type: DB-9 pin male
+		Port Type: Serial Port 16550A Compatible
+Handle 0x0009
+	DMI type 8, 9 bytes.
+	Port Connector
+		Internal Designator: J3A1
+		Internal Connector Type: 25 Pin Dual Inline (pin 26 cut)
+		External Designator: Parallel
+		External Connector Type: DB-25 pin female
+		Port Type: Parallel Port ECP/EPP
+Handle 0x000A
+	DMI type 8, 9 bytes.
+	Port Connector
+		Internal Designator: J1A1
+		Internal Connector Type: None
+		External Designator: Keyboard
+		External Connector Type: Circular DIN-8 male
+		Port Type: Keyboard Port
+Handle 0x000B
+	DMI type 8, 9 bytes.
+	Port Connector
+		Internal Designator: J1A1
+		Internal Connector Type: None
+		External Designator: PS/2 Mouse
+		External Connector Type: Circular DIN-8 male
+		Port Type: Keyboard Port
+Handle 0x000C
+	DMI type 9, 13 bytes.
+	Card Slot
+		Slot: PCI Slot #1 - J6B3
+		Type: 32bit Long PCI 
+		Slot Features: 5v 3.3v 
+Handle 0x000D
+	DMI type 9, 13 bytes.
+	Card Slot
+		Slot: PCI Slot #2 - J6B2
+		Type: 32bit Long PCI 
+		Slot Features: 5v 3.3v 
+Handle 0x000E
+	DMI type 9, 13 bytes.
+	Card Slot
+		Slot: PCI Slot #3 - J7B1
+		Type: 32bit Long PCI 
+		Slot Features: 5v 3.3v 
+Handle 0x000F
+	DMI type 10, 6 bytes.
+	On Board Devices Information
+		Description: ADI1886 : Disabled
+		Type: Sound
+Handle 0x0010
+	DMI type 11, 5 bytes.
+	OEM Data
+		This is the Intel 865G
+		Customer Reference Board
+Handle 0x0011
+	DMI type 12, 5 bytes.
+	Configuration Information
+		Jumper settings can be described here.
+Handle 0x0012
+	DMI type 15, 29 bytes.
+	Event Log
+		Log Area: 0 bytes.
+		Log Header At: 0.
+		Log Data At: 16.
+		Log Type: 4.
+Handle 0x0013
+	DMI type 16, 15 bytes.
+	Physical Memory Array
+		Location: System board or motherboard
+		Use: System memory
+		Error Correction Type: None
+		Maximum Capacity: 4194304 kB
+		Error Information Handle: Not Provided
+		Number of Devices: 2
+Handle 0x0014
+	DMI type 17, 27 bytes.
+	Memory Device
+		Array Handle: 0x0013
+		Error Information Handle: None
+		Total Width: 72 bits
+		Data Width: 64 bits
+		Size: 256 Mbyte
+		Form Factor: DIMM
+		Set: 0x01
+		Locator: J6G1
+		Bank Locator: DIMM 0
+		Type: DDR
+		Type Detail: Synchronous 
+		Speed: 133 MHz (7.5 ns)
+		Manufacturer: 
+		Serial Number: 
+		Asset Tag: 
+		Part Number: 
+Handle 0x0015
+	DMI type 17, 27 bytes.
+	Memory Device
+		Array Handle: 0x0013
+		Error Information Handle: None
+		Total Width: 0 bits
+		Data Width: 0 bits
+		Size: 0 Mbyte
+		Form Factor: DIMM
+		Set: 0x01
+		Locator: J6G2
+		Bank Locator: DIMM 1
+		Type: DDR
+		Type Detail: Synchronous 
+		Speed: 133 MHz (7.5 ns)
+		Manufacturer: 
+		Serial Number: 
+		Asset Tag: 
+		Part Number: 
+Handle 0x0016
+	DMI type 17, 27 bytes.
+	Memory Device
+		Array Handle: 0x0013
+		Error Information Handle: None
+		Total Width: 72 bits
+		Data Width: 64 bits
+		Size: 256 Mbyte
+		Form Factor: DIMM
+		Set: 0x01
+		Locator: J6H1
+		Bank Locator: DIMM 2
+		Type: DDR
+		Type Detail: Synchronous 
+		Speed: 133 MHz (7.5 ns)
+		Manufacturer: 
+		Serial Number: 
+		Asset Tag: 
+		Part Number: 
+Handle 0x0017
+	DMI type 17, 27 bytes.
+	Memory Device
+		Array Handle: 0x0013
+		Error Information Handle: None
+		Total Width: 0 bits
+		Data Width: 0 bits
+		Size: 0 Mbyte
+		Form Factor: DIMM
+		Set: 0x01
+		Locator: J6H2
+		Bank Locator: DIMM 3
+		Type: DDR
+		Type Detail: Synchronous 
+		Speed: 133 MHz (7.5 ns)
+		Manufacturer: 
+		Serial Number: 
+		Asset Tag: 
+		Part Number: 
+Handle 0x0018
+	DMI type 19, 15 bytes.
+	Memory Array Mapped Address
+Handle 0x0019
+	DMI type 20, 19 bytes.
+	Memory Device Mapped Address
+Handle 0x001A
+	DMI type 20, 19 bytes.
+	Memory Device Mapped Address
+Handle 0x001B
+	DMI type 23, 13 bytes.
+	System Reset
+Handle 0x001C
+	DMI type 24, 5 bytes.
+	Hardware Security
+Handle 0x001D
+	DMI type 25, 9 bytes.
+	System Power Controls
+Handle 0x001E
+	DMI type 26, 20 bytes.
+	Voltage Sensor
+		Description: Voltage Probe
+		Device Location: Processor
+		Device Status: OK
+		Maximum Value: Unknown
+		Minimum Value: Unknown
+		Resolution:    Unknown
+		Tolerance:     Unknown
+		Accuracy:      Unknown
+Handle 0x001F
+	DMI type 27, 12 bytes.
+	Cooling Device
+		Device Type: Fan
+		Device Status: OK
+Handle 0x0020
+	DMI type 28, 20 bytes.
+	Temperature Sensor
+		Description: Temperature Probe
+		Device Location: Processor
+		Device Status: OK
+		Maximum Value: Unknown
+		Minimum Value: Unknown
+		Resolution:    Unknown
+		Tolerance:     Unknown
+		Accuracy:      Unknown
+Handle 0x0021
+	DMI type 29, 20 bytes.
+	Current Sensor
+		Description: Electrical Current Probe
+		Device Location: Processor
+		Device Status: OK
+		Maximum Value: Unknown
+		Minimum Value: Unknown
+		Resolution:    Unknown
+		Tolerance:     Unknown
+		Accuracy:      Unknown
+Handle 0x0022
+	DMI type 30, 6 bytes.
+	Out-of-Band Remote Access
+Handle 0x0023
+	DMI type 32, 20 bytes.
+	System Boot Information
+Handle 0x0024
+	DMI type 126, 4 bytes.
+	Inactive
+Handle 0x0025
+	DMI type 127, 4 bytes.
+	End-of-Table
+Handle 0x0026
+	DMI type 127, 4 bytes.
+	End-of-Table
+Wrong DMI structures count: 39 announced, only 38 decoded.
+ACPI 1.0 present.
+	OEM ID: PTLTD 
+RSD table at 0x1FF741E7.
+BIOS32 Service Directory present.
+	Calling Interface Address: 0x000FD5C0
+PNP 1.0 present.
+	Event Notification: Not Supported
+	Real Mode Code Address: F000:AD67
+	Real Mode Data Address: 0040:0000
+	Protected Mode Code Address: 0x000FAD85
+	Protected Mode Data Address: 0x00000400
+PCI Interrupt Routing 1.0 present.
+	Table Size: 176 bytes
+	Router ID: 00:1f.0
+	Exclusive IRQs: None
+	Compatible Router: 8086:122e

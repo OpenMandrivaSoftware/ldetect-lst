@@ -1,0 +1,112 @@
+# regexps are not allowed
+# only .* at the end is allowed, its means non anchored
+
+
+System/Manufacturer: ACER
+
+  System/Product Name: TravelMate 610
+  => Resolution: 1024x768
+  => Diagonal_size: 14.1
+
+
+Base Board/Manufacturer: COMPAL
+
+  Base Board/Product Name: ACL10
+  => Resolution: 1400x1050
+
+
+System/Manufacturer: Dell Computer .*
+
+  System/Product Name: Inspiron 8600 
+  => Resolution: 1280x800
+
+
+System/Manufacturer: Dell Computer .*
+
+  System/Product Name: Inspiron.*
+  => Module: i8k
+  => Pkg: i8kutils
+
+  System/Product Name: Latitude.*
+  => Module: i8k
+  => Pkg: i8kutils
+
+
+System/Manufacturer: IBM
+
+  System/Product Name: 2626JNG
+  => Resolution: 1024x768
+
+  System/Product Name: 2722DG1
+  => Resolution: 1400x1050
+
+  System/Version: ThinkPad T41p
+  => Resolution: 1400x1050
+
+
+System/Manufacturer: MAXDATA
+
+  System/Product Name: Pro 6100X
+  => Resolution: 1024x768
+  => Diagonal_size: 15
+
+  System/Product Name: Pro 7000X
+  => Resolution: 1024x768
+  => Diagonal_size: 15
+
+
+System/Manufacturer: Hewlett-Packard
+
+  System/Product Name: Compaq nx7010 (DJ342A#ABB) 
+  => XkbModel: hp5185
+  
+  System/Product Name: HP Pavilion dv1000 (PS600EA#ABF)
+  => Diagonal_size: 14.1
+  => Resolution: 1280x768
+
+  System/Product Name: HP nx9010.*
+  => Resolution: 1024x768
+  => Diagonal_size: 15
+
+  System/Version: HP OmniBook 6000 EA
+  => Resolution: 1024x768
+
+
+System/Manufacturer: Sony .*
+
+  System/Product Name: PCG-C1X.*
+  # especially PCG-C1XD(GB)
+  => Resolution: 1024x480
+  
+  System/Product Name: PCG-C1V.*
+  => Resolution: 1024x480
+  
+  System/Product Name: PCG-C1M.*
+  => Resolution: 1280x600
+
+  System/Product Name: PCG-GR214MP.*
+  => Resolution: 1024x768
+  => Diagonal_size: 14.1
+
+  System/Product Name: PCG-GRX316MP.*
+  # including PCG-GRX316MP(IT)
+  => Diagonal_size: 16.1
+  => Resolution: 1600x1200
+
+  System/Product Name: PCG-NV105.*
+  => Resolution: 1024x768
+
+  System/Product Name: PCG-NV109M.*
+  => Resolution: 1024x768
+  => Diagonal_size: 15
+
+  System/Product Name: VGN-S2XP.*
+  => Diagonal_size: 13.3
+  => Resolution: 1280x800
+
+
+System/Manufacturer: TOSHIBA
+
+  BIOS/Vendor: TOSHIBA
+  => Module: toshiba
+  => Pkg: toshutils

@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 
 my $dir = '/usr/share/ldetect-lst';
-my @files = qw(pcitable usbtable isatable pcmciatable);
+my @files = qw(pcitable usbtable isatable pcmciatable dmitable);
 
 unlink "$dir/$_" foreach @files;
 

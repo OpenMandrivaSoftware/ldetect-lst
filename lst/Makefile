@@ -4,7 +4,7 @@ ARCH := $(patsubst i%86,i386,$(shell uname -m))
 ARCH := $(patsubst sparc%,sparc,$(ARCH))
 
 TABLES1 = pcitable usbtable
-TABLES2 = isatable pcmciatable
+TABLES2 = isatable pcmciatable dmitable
 TABLES3 = ScannerDB.gz
 TABLES4 = scannerconfigs
 TABLES = $(TABLES1) $(TABLES2)

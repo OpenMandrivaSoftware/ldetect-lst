@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.70
+%define version 0.1.71
 %define release 1mdk
 
 Name: %{name}
@@ -63,6 +63,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Mon Mar 14 2005 Pixel <pixel@mandrakesoft.com> 0.1.71-1mdk
+- add dmitable
+
 * Wed Mar  9 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.70-1mdk
 - sync with kernel-2.6.11-1mdk and kernel-2.6.11-mm2
 
