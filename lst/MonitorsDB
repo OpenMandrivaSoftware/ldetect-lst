@@ -2120,6 +2120,7 @@ Maxdata Computer; Maxdata Belinea 10 40 65; max4065; 30.0-50.0; 50.0-120.0; 1
 Maxdata Computer; Maxdata Belinea 10 50 95; max3539; 30.0-64.0; 55.0-90.0; 1
 Maxdata Computer; Maxdata Belinea 10 55 75; max7555; 30.0-69.0; 50.0-120.0; 1
 MegaImage; MegaImage 17; 106; 30-64; 50-100
+Megavision; MV173 LCD; ate8506;  31.0-80.0; 58.0-75.0;
 Microtec; Microtec MD15-9; PBR023c; 30.0-70.0; 50.0-150.0; 1
 Microvitec, Inc.; Microvitec 1020/LP; 1020lp; 15.0-36.5; 45.0-100.0; 1
 Microvitec, Inc.; Microvitec 1020/SP; 1020sp; 15.0-36.5; 45.0-100.0; 1
@@ -3041,6 +3042,7 @@ Samsung; Samsung SyncMaster 17GLi; sam4d70; 30-65; 50-120; 1
 Samsung; Samsung SyncMaster 17GL; samsungsm17gl; 30-65; 50-100; 1
 Samsung; Samsung SyncMaster 17GLsi; sam4d71; 30-85; 50-120; 1
 Samsung; Samsung SyncMaster 17GLs; samsungsm17gls; 30-82; 50-120; 1
+Samsung; Samsung SyncMaster 171v; samsungsm171v; 30-81; 56-75; 1 
 Samsung; Samsung SyncMaster 20GLsi; sam4690; 30.0-82.0; 50.0-120.0; 1
 Samsung; Samsung SyncMaster 20gls; samsungsm20gls; 30-82; 50-120; 1
 Samsung; Samsung SyncMaster 21GLs; sam4610; 30.0-85.0; 50.0-160.0; 1
