@@ -20,7 +20,7 @@ if ($0 =~ /merge2pcitable/)
     ($format, $in, $pcitable) = @ARGV;
 
     my $read = $main::{"read_$format"} or die "unknown format $format (must be one of $formats)\n";
-    my $d_pci = read_pcitable($pcitable);
+    my $d_pci = read_pcitable($pcitable, 'strict');
     my $d_in = $read->($in);
     merge($d_pci, $d_in);
     cleanup_subids($d_pci);
@@ -43,7 +43,7 @@ sub to_string {
 # works for RedHat's pcitable old and new format, + mdk format (alike RedHat's old one)
 # (the new format has ending .o's and double quotes are removed)
 sub read_pcitable {
-    my ($f) = @_;
+    my ($f, $strict) = @_;
     my %drivers;
     my $line = 0;
     my $rm_quote_silent = sub { s/^"//; s/"$//; $_ };
@@ -55,6 +55,12 @@ sub read_pcitable {
     foreach (cat_($f)) {
 	chomp; $line++;
 	next if /^#/ || /^\s*$/;
+
+	if (!$strict) {
+	    #- help poor written pcitable's like redhat's :)
+	    s/(\S+)\s+(\S+)\s+(.*)/$1\t$2\t$3/;
+	}
+
 	if (my ($id1, $id2, @l) = split /\t+/) {
 	    my ($subid1, $subid2) = ('ffff', 'ffff');
 	    ($subid1, $subid2, @l) = @l if @l == 4;
@@ -82,6 +88,8 @@ sub read_pcitable {
 	    } $id1, $id2, $subid1, $subid2;
 	    $drivers{$id} and print STDERR "$f $line: multiple entry for $id (skipping $module $text)\n";
 	    $drivers{$id} ||= [ map &$rm_quote, $module, $text ];
+	} else {
+	    die "$f $line: bad line\n";
 	}
     }
     \%drivers;
