@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.9
-%define release 15mdk
+%define release 16mdk
 
 Name: %{name}
 Version: %{version}
@@ -64,6 +64,11 @@ fi
 %{_bindir}/*
 
 %changelog
+* Mon May 24 2004 Gwenole Beauchesne <gbeauchesne@mandrakesoft.com> 0.1.9-16mdk
+- Add Quadro FX 1300 entry
+- Fix module loading initio -> a100u2w (nicolas)
+- Updating cciss & cpqarray pci ids (erwan)
+- Adding some aacraid missing entries (erwan)
 - pcitable: remove the few remaining "Server:SVGA" since we don't have XF3 anymore (Pixel)
 - Cards+: drop XFree3 related data (Pixel)
 
