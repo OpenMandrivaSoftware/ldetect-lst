@@ -64,6 +64,8 @@ fi
 %{_bindir}/*
 
 %changelog
+- added new usbid for compatible adiusbadsl modem. (fpons)
+
 * Fri Oct 17 2003 Nicolas Planel <nplanel@mandrakesoft.com> 0.1.8-12mdk
 - Add/Update id for Emulex Fibre Channel Host adapter support.
 
