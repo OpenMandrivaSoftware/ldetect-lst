@@ -881,8 +881,8 @@ Dell; Dell 1401FP; delc0ec; 31.0-80.0; 56.0-76.0; 1
 Dell; Dell 1500FP; del715d; 30.0-61.0; 56.0-75.0; 1
 Dell; Dell 1501FP (Analog); del73a4; 30.0-61.0; 56.0-75.0; 1
 Dell; Dell 1501FP (Digital); del7140; 30.0-61.0; 56.0-75.0; 1
-Dell; Dell 1503FP (Analog); del3004; 31.0-60.0; 60.0-75.0; 1
-Dell; Dell 1503FP (Digital); del3003; 31.0-60.0; 60.0-75.0; 1
+Dell; Dell 1503FP (Analog); del3004; 30.0-60.0; 60.0-75.0; 1
+Dell; Dell 1503FP (Digital); del3003; 30.0-60.0; 60.0-75.0; 1
 Dell; Dell 1504FP (Digital); DEL300D; 30.0-60.0; 56.0-75.0; 1
 Dell; Dell 1504FP (Analog); DEL300C; 30.0-60.0; 56.0-75.0; 1
 Dell; Dell 1569; del1569; 30.0-69.0; 50.0-110.0; 1
