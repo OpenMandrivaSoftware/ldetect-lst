@@ -996,7 +996,6 @@
 0x1077	0x2200	"qla2200"	"Q Logic|QLA2200"
 0x1077	0x2300	"qla2300"	"Q Logic|QLA2300"
 0x1077	0x2312	"qla2300"	"Q Logic|QLA2312"
-0x1077	0x2312	"unknown"	"Q Logic|ISP 2312 Fibre Channel Adapter"
 0x1078	0x0000	"Card:MediaGX"	"Cyrix Corporation|5510 [Grappa]"
 0x1078	0x0001	"Card:MediaGX"	"Cyrix Corporation|PCI Master [MEDIAGX]"
 0x1078	0x0002	"Card:MediaGX"	"Cyrix Corporation|5520 [Cognac]"
