@@ -14,7 +14,10 @@ $cards = Xconfig::card::readCardsDB("../lst/Cards+");
 foreach (@cards) {
     $nb++;
     if (!$cards->{$_}) {
-	print STDERR "unknown card: $_\n";
+	warn "unknown card: $_\n";
+	$bad++;
+    } elsif (!$cards->{$_}{Driver}) {
+	warn "no Driver: $_\n";
 	$bad++;
     }
 }
