@@ -65,6 +65,7 @@ fi
 %changelog
 * Tue Mar  8 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.69-1mdk
 - sync with latest pci.ids & usb.ids
+- add a new megaraid SAS driver
 
 * Tue Mar  8 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.68-1mdk
 - sync with xorg-x11-6.8.2-2mdk's nv driver
