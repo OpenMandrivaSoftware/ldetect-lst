@@ -62,6 +62,7 @@ fi
 
 %changelog
 * Fri Mar  1 2002 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.3-8mdk
+- fpons: fixed doubles and typo.
 - Thierry:
 	* 1 new card
 	* 3 old card that hadn't any modules have one now
