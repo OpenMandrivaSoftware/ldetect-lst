@@ -687,6 +687,7 @@
 0x07af	0x0006	"unknown"	"Microtech|CameraMate"
 0x07b0	0x0001	"unknown"	"Trust Technologies|ISDN TA"
 0x07b2	0x4100	"unknown"	"Motorola ING|SB4100 Cable Modem"
+0x07b2	0x4200	"unknown"	"Motorola ING|SB4200 USB Cable Modem"
 0x07b3	0x0001	"unknown"	"Plustek, Inc.|OpticPro 1212U Scanner"
 0x07b3	0x0005	"scanner"	""
 0x07b3	0x0007	"scanner"	""
