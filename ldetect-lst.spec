@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.36
+%define version 0.1.37
 %define release 1mdk
 
 Name: %{name}
@@ -64,6 +64,13 @@ fi
 %{_bindir}/*
 
 %changelog
+* Fri Dec  3 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.37-1mdk
+- disambiguate names of media devices (eg: DVB vs TV cards)
+- update incomplete descriptionsfrom {pci,usb}.ids
+- sync i2c with 2.6.10-rc2-mm4
+- one extra sound card from pci-26.lst file from debian's
+  discover1-data
+
 * Thu Dec  2 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.36-1mdk
 - sync with debian's discover
 
