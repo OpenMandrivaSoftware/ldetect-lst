@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.68
+%define version 0.1.69
 %define release 1mdk
 
 Name: %{name}
@@ -63,6 +63,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Tue Mar  8 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.69-1mdk
+- sync with latest pci.ids & usb.ids
+
 * Tue Mar  8 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.68-1mdk
 - sync with xorg-x11-6.8.2-2mdk's nv driver
 - add Xbox support (stew)
