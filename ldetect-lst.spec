@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.45
+%define version 0.1.46
 %define release 1mdk
 
 Name: %{name}
@@ -64,6 +64,11 @@ fi
 %{_bindir}/*
 
 %changelog
+* Tue Jan 11 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.46-1mdk
+- sync with ide drivers from 2.6.10-ac8
+- add a new Samsung monitor (Albert Astals Cid)
+- add 2 zaptel devices (Stefan van der Eijk)
+
 * Mon Jan 10 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.45-1mdk
 - add a new Philips monitor (Albert Astals Cid)
 - add limited/partial support for zaptel
