@@ -145,6 +145,7 @@ sub read_pciids {
 	} elsif (/^(\S+)\s+(.+)/) {
 	    $id1 = $1;
 	    $class = $class{$2} || $2;
+	    $class =~ s/(Advanced Micro Devices) \[AMD\]/$1/;
 	} else {
 	    warn "bad line: $_\n";
 	}
