@@ -5,7 +5,8 @@ ARCH := $(patsubst sparc%,sparc,$(ARCH))
 
 TABLES1 = pcitable usbtable
 TABLES2 = isatable pcmciatable
-TABLES = $(TABLES1) $(TABLES2)
+TABLES3 = ScannerDB
+TABLES = $(TABLES1) $(TABLES2) $(TABLES3)
 TMP_TABLES1 = $(TABLES1:%=%.tmp)
 TMP_TABLES2 = $(TABLES2:%=%.tmp)
 TMP_TABLES  = $(TABLES:%=%.tmp)
@@ -13,7 +14,7 @@ TMP_TABLES  = $(TABLES:%=%.tmp)
 build: CardsNames
 
 clean:
-	rm -f *~ CardsNames *.tmp
+	rm -f *~ CardsNames *.tmp ScannerDB.gz
 
 CardsNames: Cards+ ../convert/Cards2CardsNames.pl
 	rm -f $@
@@ -25,6 +26,9 @@ $(TMP_TABLES1): %.tmp: %
 
 $(TMP_TABLES2): %.tmp: %
 	cp -f $< $@
+
+$(TMP_TABLES3): %.tmp: %
+	gzip -vc9 ScannerDB > ScannerDB.gz
 
 install: $(TMP_TABLES)
 	for i in $(TABLES); do \
@@ -39,4 +43,4 @@ install: $(TMP_TABLES)
 	 cat $$i.tmp \
 	) > $(dir)/$$i; done
 
-	install -m 644 ScannerDB Cards+ CardsNames MonitorsDB isdn.db $(dir)
+	install -m 644 ScannerDB.gz Cards+ CardsNames MonitorsDB isdn.db $(dir)
