@@ -68,6 +68,8 @@ fi
 - audigy does not works but snd-emu10k1 does works smoothly (#4512)
 - sync with kernel-2.6.3-7mdk
 - add LG Flatron 995FT Plus (Bruno Thomsen)
+- switch all broadcom from b44 to bcm4400
+- update entries for "avision" backend and for Kodak digicam backends (till)
 
 * Tue Mar 16 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.9-10mdk
 - add MSI WLAN PC2PC usb adapter (nplanel)
