@@ -1,3 +1,12 @@
+2005-01-25 22:16  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.53-1mdk
+
+2005-01-24 17:47  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: fix an audigy entry (wrong driver) (mandrakeexpert
+	  #88343)
+
 2005-01-24 16:40  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.52-1mdk
