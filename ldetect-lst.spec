@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.7
-%define release 7mdk
+%define release 8mdk
 
 Name: %{name}
 Version: %{version}
@@ -64,6 +64,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Mon Mar 10 2003 Frederic Lepied <flepied@mandrakesoft.com> 0.1.7-8mdk
+- NForce works with nv driver now
+
 * Thu Mar  6 2003 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.7-7mdk
 - fix webcam description in harddrake2
 
