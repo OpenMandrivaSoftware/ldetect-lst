@@ -206,11 +206,6 @@
 	* lst/pcitable: Add madwifi_pci for 16c8 0013 and slamr (slmodem)
 	  for 10b9 5457
 
-2004-06-15 15:23  Arnaud de Lorbeau <adelorbeau@mandrakesoft.com>
-
-	* lst/pcitable: Add madwifi_pci for 16c8 0013 and slamr (slmodem)
-	  for 10b9 5457
-
 2004-06-15 15:13  Arnaud de Lorbeau <adelorbeau@mandrakesoft.com>
 
 	* lst/pcitable: Modification of some bcm5700 in tg3 and add a few
@@ -239,10 +234,6 @@
 2004-05-24 17:02  Gwenole Beauchesne <gbeauchesne@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.9-16mdk
-
-2004-05-24 17:02  Gwenole Beauchesne <gbeauchesne@mandrakesoft.com>
-
-	* Makefile: err file no longer exists
 
 2004-05-24 17:02  Gwenole Beauchesne <gbeauchesne@mandrakesoft.com>
 
@@ -345,10 +336,6 @@
 2004-03-24 10:39  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* ldetect-lst.spec: add one more change in 0.1.9-12mdk
-
-2004-03-24 10:39  Thierry Vignaud <tvignaud@mandrakesoft.com>
-
-	* lst/pcitable: add support for warly laptop geforce card
 
 2004-03-24 10:39  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
@@ -742,10 +729,6 @@
 
 	* ldetect-lst.spec, lst/pcitable: - use fbdev for some radeon's -
 	  added new usbid for compatible adiusbadsl modem. (fpons)
-
-2003-12-12 12:50  Pixel <pixel@mandrakesoft.com>
-
-	* lst/usbtable: fix typo
 
 2003-12-12 11:50  Pixel <pixel@mandrakesoft.com>
 
