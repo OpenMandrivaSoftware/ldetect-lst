@@ -102,6 +102,7 @@
 0x046d	0xc001	"Mouse:USB|Wheel"	"Logitech Inc.|N48 / M-BB48 [FirstMouse Plus]"
 0x046d	0xc002	"Mouse:USB|Wheel"	"Logitech Inc.|M-BA47 [MouseMan Plus]"
 0x046d	0xc004	"Mouse:USB|Wheel"	"Logitech Inc.|WingMan Gaming Mouse"
+0x046d	0xc00c	"Mouse:USB|Wheel"	"Logitech Inc.|Mouse"
 0x046d	0xc208	"unknown"	"Logitech Inc.|WingMan GamePad Extreme"
 0x046d	0xc281	"iforce"	"Logitech Inc.|WingMan Force Joystick"
 0x046e	0x6782	"unknown"	"Behavior Tech. Computer|BTC 7932 keyboard"
