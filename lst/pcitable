@@ -35,7 +35,7 @@
 0x0e11	0x0001	"unknown"	"Compaq|PCI to EISA Bridge"
 0x0e11	0x0002	"unknown"	"Compaq|PCI to ISA Bridge"
 0x0e11	0x000f	"unknown"	"Compaq|CPQB1A9 StorageWorks Library Adapter (HVD)"
-0x0e11	0x0046	"cciss"	"Compaq|"
+0x0e11	0x0046	"cciss"	"Compaq|Smart Array 64xx"
 0x0e11	0x0049	"unknown"	"Compaq|NC7132 Gigabit Upgrade Module"
 0x0e11	0x004a	"unknown"	"Compaq|NC6136 Gigabit Server Adapter"
 0x0e11	0x007c	"unknown"	"Compaq|NC7770 1000BaseTX"
