@@ -10,6 +10,7 @@
 ./merge2pcitable.pl usbids /usr/share/usb.ids usbtable > usbtable.new
 
 #  A pciids with more accurate information are available from
+#  was moved into http://www.pcidatabase.com/reports.php?type=tab-delimeted
 rm -f vendors.txt ; wget http://www.yourvote.com/pci/vendors.txt
 ./merge2pcitable.pl pciids vendors.txt pcitable > pcitable.new
 
