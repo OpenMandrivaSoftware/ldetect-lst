@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.26
+%define version 0.1.27
 %define release 1mdk
 
 Name: %{name}
@@ -64,6 +64,17 @@ fi
 %{_bindir}/*
 
 %changelog
+* Fri Nov 19 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.27-1mdk
+- pcitable:
+  o sync with:
+    * ALSA-1.0.7 as in kernel-2.6.10-rc2-mm1
+    * pci.ids from kernel-2.6.10-rc2-mm1
+    * userland pci.ids
+  o update/fill in ATI sound-cards description from ALSA sound driver
+  o add two new controllers from ULI & VIA SATA controllers (from
+    bk-sata)
+- usbtable: add "Logitech Inc.|QuickCam Communicate" (Stefan Siegel)
+
 * Wed Nov 17 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.26-1mdk
 - sync with hwdata-0.147
 - sync with latest usb.ids
