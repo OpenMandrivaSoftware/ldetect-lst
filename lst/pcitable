@@ -2481,7 +2481,7 @@
 0x10de	0x008a	"snd-intel8x0"	"nVidia Corporation|MCP2S AC'97 Audio Controller"
 0x10de	0x008b	"unknown"	"nVidia Corporation|MCP2A PCI Bridge"
 0x10de	0x008c	"forcedeth"	"nVidia Corp.|Ethernet controller"
-0x10de	0x008e	"sata_nv"	"nVidia Corp.|Ethernet controller"
+0x10de	0x008e	"sata_nv"	"nVidia Corp.|nForce2 Serial ATA Controller"
 0x10de	0x00a0	"Card:RIVA TNT2"	"nVidia Corp.|Riva TNT2"
 0x10de	0x00c0	"unknown"	"nVidia Corporation|NV41.0"
 0x10de	0x00c1	"unknown"	"nVidia Corporation|NV41.1"
