@@ -1885,14 +1885,8 @@ SEE ATI Rage XL
 
 NAME ATI Rage 128
 CHIPSET ATI Rage 128
-SERVER SVGA
 DRIVER r128
 NOCLOCKPROBE
-LINE     #Option     "no_accel"
-LINE     #Option     "sw_cursor"
-LINE     #Option     "hw_cursor"
-LINE     #Option     "dac_8_bit"
-LINE     #Option     "dac_6_bit"
 
 NAME ATI Rage 128 Mobility
 CHIPSET ati
