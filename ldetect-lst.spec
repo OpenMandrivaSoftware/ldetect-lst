@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.8
-%define release 11mdk
+%define release 12mdk
 
 Name: %{name}
 Version: %{version}
@@ -64,6 +64,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Fri Oct 17 2003 Nicolas Planel <nplanel@mandrakesoft.com> 0.1.8-12mdk
+- Add/Update id for Emulex Fibre Channel Host adapter support.
+
 * Tue Oct 14 2003 Gwenole Beauchesne <gbeauchesne@mandrakesoft.com> 0.1.8-11mdk
 - Updates for new libata drivers:
   - VIA 8237 SATA controller (sata_via)
