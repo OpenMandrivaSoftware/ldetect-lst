@@ -4996,6 +4996,7 @@
 0x15e8	0x0130	"orinoco_plx"	"Correga|Wireless PCI Card"
 0x15e8	0x0131	"prism2_plx"	"National Datacomm Corp.|Prism II InstantWave HR PCI card"
 0x15e9	0x1841	"unknown"	"Pacific Digital Corp.|NetStaQ ADMA-100 ATA controller"
+0x15e9	0x2068	"sata_qstor"	"Pacific Digital Corp.|SATA QStor"
 0x15ec	0x3101	"unknown"	"Beckhoff GmbH|FC3101 Profibus DP 1 Channel PCI"
 0x15ec	0x5102	"unknown"	"Beckhoff GmbH|FC5102"
 0x15f2	0x0001	"unknown"	"Diagnostic Instruments Inc|Spot RT Spot RT Interface Board"
