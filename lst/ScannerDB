@@ -1,0 +1,211 @@
+# the ScannerDB
+# Yves Duret <yduret at mandrakesoft.com>
+# $Id$
+
+#- Espon
+NAME Seiko Epson Corp.|Perfection 636
+SERVER epson
+DRIVER usb
+LINE usb $DEVICE
+
+NAME Seiko Epson Corp.|Perfection 610
+SEE Seiko Epson Corp.|Perfection 636
+
+NAME Seiko Epson Corp.|Perfection 1200U
+SEE Seiko Epson Corp.|Perfection 636
+
+NAME Seiko Epson Corp.|Stylus Scan 2500
+SEE Seiko Epson Corp.|Perfection 636
+
+NAME Seiko Epson Corp.|Expression 1600
+SEE Seiko Epson Corp.|Perfection 636
+
+NAME Seiko Epson Corp.|Perfection 1640SU / 1640SU Photo
+SEE Seiko Epson Corp.|Perfection 636
+
+NAME Seiko Epson Corp.|Perfection 1240U
+SEE Seiko Epson Corp.|Perfection 636
+
+NAME Seiko Epson Corp.|Perfection 640U
+SEE Seiko Epson Corp.|Perfection 636
+
+#- HP
+NAME Hewlett-Packard|ScanJet 6300c
+SERVER hp
+DRIVER usb
+LINE option connect-device
+LINE $DEVICE
+
+NAME Hewlett-Packard|ScanJet 4100c
+SEE Hewlett-Packard|ScanJet 6300c
+
+NAME Hewlett-Packard|ScanJet 4200c
+SEE Hewlett-Packard|ScanJet 6300c
+
+NAME Hewlett-Packard|ScanJet 6200c
+SEE Hewlett-Packard|ScanJet 6300c
+
+NAME Hewlett-Packard|ScanJet 3300c
+SEE Hewlett-Packard|ScanJet 6300c
+
+NAME Hewlett-Packard|ScanJet 5200c
+SEE Hewlett-Packard|ScanJet 6300c
+
+NAME Hewlett-Packard|PhotoSmart S20
+DRIVER usb
+UNSUPPORTED
+
+NAME Mustek Systems Inc.|BearPaw 1200
+DRIVER usb
+UNSUPPORTED
+
+NAME Mustek Systems Inc.|BearPaw 2400
+DRIVER usb
+UNSUPPORTED
+
+NAME KYE Systems Corp.(Mouse Systems)|ColorPage-Vivid Pro Scanner
+DRIVER usb
+UNSUPPORTED
+
+NAME Primax Electronics|G2-300 Scanner
+DRIVER usb
+UNSUPPORTED
+
+NAME Primax Electronics|G2E-300 Scanner
+DRIVER usb
+UNSUPPORTED
+
+NAME Primax Electronics|G2-300 #2 Scanner
+DRIVER usb
+UNSUPPORTED
+
+NAME Primax Electronics|G2E-300 #2 Scanner
+DRIVER usb
+UNSUPPORTED
+
+NAME Primax Electronics|Colorado 9600 Scanner
+DRIVER usb
+UNSUPPORTED
+
+NAME Primax Electronics|Colorado 600u Scanner
+DRIVER usb
+UNSUPPORTED
+
+NAME Primax Electronics|Colorado 19200 Scanner
+DRIVER usb
+UNSUPPORTED
+
+NAME Primax Electronics|Colorado 1200u Scanner
+DRIVER usb
+UNSUPPORTED
+
+NAME Primax Electronics|G2-600 Scanner
+DRIVER usb
+UNSUPPORTED
+
+NAME Primax Electronics|ReadyScan 636i Scanner
+DRIVER usb
+UNSUPPORTED
+
+NAME Primax Electronics|G2-600 #2 Scanner
+DRIVER usb
+UNSUPPORTED
+
+NAME Primax Electronics|G2E-600 Scanner
+DRIVER usb
+UNSUPPORTED
+
+NAME Acer Peripherals Inc.|Vuego Scan Brisa 340U
+DRIVER usb
+UNSUPPORTED
+
+NAME Acer Peripherals Inc.|Prisa AcerScan 620U
+DRIVER usb
+UNSUPPORTED
+
+NAME Acer Peripherals Inc.|Prisa AcerScan 620U & 640U
+DRIVER usb
+UNSUPPORTED
+
+NAME Visioneer|OneTouch 7600 USB
+DRIVER usb
+UNSUPPORTED
+
+NAME Visioneer|OneTouch 5300 Scanner
+DRIVER usb
+UNSUPPORTED
+
+NAME Visioneer|OneTouch 6100 Scanner
+DRIVER usb
+UNSUPPORTED
+
+NAME Visioneer|OneTouch 6200 EPP/USB
+DRIVER usb
+UNSUPPORTED
+
+NAME Visioneer|OneTouch 8100 EPP/USB
+DRIVER usb
+UNSUPPORTED
+
+NAME Visioneer|OneTouch 8100 EPP/USB
+DRIVER usb
+UNSUPPORTED
+
+NAME Mustek Systems Inc.|ScanExpress 1200 CU
+SERVER mustek_usb
+DRIVER usb
+LINE usb 0x055f 0x0001
+
+NAME Mustek Systems Inc.|ScanExpress 600 CU
+SERVER mustek_usb
+DRIVER usb
+LINE usb 0x055f 0x0002
+
+NAME Mustek Systems Inc.|ScanExpress 1200 USB
+SERVER mustek_usb
+DRIVER usb
+LINE usb 0x055f 0x0003
+
+NAME Mustek Systems Inc.|ScanExpress 1200 UB
+SERVER mustek_usb
+DRIVER usb
+LINE usb 0x055f 0x0006
+
+NAME Mustek Systems Inc.|ScanExpress 1200 CU Plus
+SERVER mustek_usb
+DRIVER usb
+LINE usb 0x055f 0x0008
+
+NAME Avision, Inc.|iVina 1200U Scanner
+DRIVER usb
+UNSUPPORTED
+
+NAME AGFA-Gevaert NV|SnapScan 1212U
+DRIVER usb
+UNSUPPORTED
+
+NAME AGFA-Gevaert NV|SnapScan 1236U
+DRIVER usb
+UNSUPPORTED
+
+NAME AGFA-Gevaert NV|SnapScan Touch
+DRIVER usb
+UNSUPPORTED
+
+NAME AGFA-Gevaert NV|SnapScan 1212U (???)
+DRIVER usb
+UNSUPPORTED
+
+NAME Mustek Systems Inc.|BearPaw 1200F
+DRIVER usb
+UNSUPPORTED
+
+NAME Umax|Astra 1220U
+DRIVER usb
+UNSUPPORTED
+
+NAME Umax|Astra 2000U
+DRIVER usb
+UNSUPPORTED
+
+END
