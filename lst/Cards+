@@ -2228,6 +2228,9 @@ NAME Intel 865
 DRIVER i810
 DRI_GLX
 
+NAME Intel 915
+DRIVER i810
+
 NAME Voodoo Banshee (generic)
 DRIVER tdfx
 DRI_GLX
