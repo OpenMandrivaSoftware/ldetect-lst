@@ -4896,7 +4896,7 @@
 0x8086	0x1162	"unknown"	"Intel Corp.|Xscale 80200 Big Endian Companion Chip"
 0x8086	0x1200	"paep"	"Intel Corporation|Unknown device"
 0x8086	0x1209	"eepro100"	"Intel Corporation|82559ER"
-0x8086	0x1221	"yenta_socket"	"Intel Corporation|82092AA_0"
+0x8086	0x1221	"i82092"	"Intel Corporation|82092AA_0"
 0x8086	0x1222	"yenta_socket"	"Intel Corporation|82092AA_1"
 0x8086	0x1223	"unknown"	"Intel Corporation|SAA7116"
 0x8086	0x1225	"unknown"	"Intel Corporation|82452KX/GX [Orion]"
