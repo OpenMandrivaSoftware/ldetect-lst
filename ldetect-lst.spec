@@ -67,6 +67,7 @@ fi
 - add 2 monitors (thanks to Frederik Himpe, bugzilla #6710)
 - convert agpgart 24 style to splitted agpgart module (intel-agp,...).
 - s/nvnet/forcedeth/
+- add sata_sil, sk98lin, NVidia GForce FX 5950
 
 * Fri Dec 12 2003 Pixel <pixel@mandrakesoft.com> 0.1.8-13mdk
 - use fbdev for some radeon's
