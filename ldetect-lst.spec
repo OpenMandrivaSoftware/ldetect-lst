@@ -64,6 +64,7 @@ fi
 %{_bindir}/*
 
 %changelog
+- pcitable: remove the few remaining "Server:SVGA" since we don't have XF3 anymore (Pixel)
 - Cards+: drop XFree3 related data (Pixel)
 
 * Mon Apr 26 2004 Gwenole Beauchesne <gbeauchesne@mandrakesoft.com> 0.1.9-15mdk
