@@ -1,3 +1,25 @@
+2005-03-08 15:26  Thierry Vignaud <tvignaud at mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.68-1mdk
+
+2005-03-08 15:23  Thierry Vignaud <tvignaud at mandrakesoft.com>
+
+	* lst/pcitable: sync with xorg-x11-6.8.2-2mdk's nv driver
+
+2005-03-07 19:16  Stew Benedict <sbenedict at mandrakesoft.com>
+
+	* lst/usbtable: Fix tabs in xpad entry dropped in copy/paste - thx
+	  Thierry
+
+2005-03-07 18:54  Stew Benedict <sbenedict at mandrakesoft.com>
+
+	* lst/usbtable: Add Xbox controller to usbtable.
+
+2005-03-03 14:04  Till Kamppeter <till at mandrakesoft.com>
+
+	* lst/: ScannerDB, scannerconfigs: - Updates for parallel scanners,
+	  especially auto-detection with "umax_pp"   driver.
+
 2005-02-24 13:50  Thierry Vignaud <tvignaud at mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.67-1mdk
