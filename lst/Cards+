@@ -50,7 +50,7 @@ LINE # Option "fix_panel_size"
 LINE # videoram 512
 
 NAME KYRO Series
-DRIVER vesa
+DRIVER fbdev
 
 NAME Chips & Technologies CT65525
 CHIPSET ct65525
