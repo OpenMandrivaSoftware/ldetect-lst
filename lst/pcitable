@@ -1632,7 +1632,7 @@
 0x10ec	0x8129	"8139too"	"Realtek|RTL-8129"
 0x10ec	0x8138	"8139too"	"Realtek|RT8139 (B/C) Cardbus Fast Ethernet Adapter"
 0x10ec	0x8139	"8139too"	"Realtek|RTL-8139"
-0x10ec	0x8169	"r8169"		"Realtek|RTL-8169"
+0x10ec	0x8169	"r8169"	"Realtek|RTL-8169"
 0x10ed	0x7310	"unknown"	"Ascii Corporation|V7310"
 0x10ee	0x3fc0	"snd-rme96"	"Xilinx, Inc.|RME Digi96"
 0x10ee	0x3fc1	"snd-rme96"	"Xilinx, Inc.|RME Digi96/8"
