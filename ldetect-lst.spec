@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.25
+%define version 0.1.26
 %define release 1mdk
 
 Name: %{name}
@@ -64,6 +64,11 @@ fi
 %{_bindir}/*
 
 %changelog
+* Wed Nov 17 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.26-1mdk
+- sync with hwdata-0.147
+- sync with latest usb.ids
+- sync with latest pci.ids
+
 * Wed Nov 17 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.25-1mdk
 - pcitable:
   o sync with kernel-tmb-2.6.7-2.tmb.6mdk
