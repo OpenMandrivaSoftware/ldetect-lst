@@ -753,7 +753,7 @@
 0x1645	0x8005	"kaweth"	""
 0x1645	0x8093	"unknown"	"Entrega|PortGear Serial Port"
 0x1668	0x0333	"unknown"	"Actiontec Electronics, Inc.|Modem"
-0x1668  0x0408  "unknown"   "Actiontec Electronics, Inc.|USB Wireless Adapter"
+0x1668  0x0408  "unknown"	"Actiontec Electronics, Inc.|USB Wireless Adapter"
 0x1690	0x0101	"unknown"	"Creative Labs|Modem Blaster DE5670"
 0x1690	0x0103	"unknown"	"Creative Labs [hex]|Askey 1456 VQE-R3 Modem [conexant]"
 0x2001	0x200c	"pegasus"	"D-Link Corp|USB Network Adapter"
