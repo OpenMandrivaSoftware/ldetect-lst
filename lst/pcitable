@@ -605,7 +605,7 @@
 0x102b	0x0521	"Card:Matrox Millennium G200"	"Matrox|MGA G200 AGP [Millennium] AGP"
 0x102b	0x0525	0x102b	0x0541	"Card:Matrox Millennium G450 DualHead"	"Matrox|MGA G450 DualHead"
 0x102b	0x0525	0x102b	0x0542	"Card:Matrox Millennium G450 DualHead"	"Matrox|MGA G450 DualHead LX"
-0x102b	0x0525	0x102b	0x0641	"Card:Matrox Millennium G450"	"Matrox|MGA G450 AGP"
+0x102b	0x0525	0x102b	0x0641	"Card:Matrox Millennium G450 DualHead"	"Matrox|MGA G450 DualHead AGP"
 0x102b	0x0525	0x102b	0x0642	"Card:Matrox Millennium G450 DualHead"	"Matrox|MGA G450 DualHead LX"
 0x102b	0x0525	0x102b	0x07c0	"Card:Matrox Millennium G450 DualHead"	"Matrox|MGA G450 DualHead LE"
 0x102b	0x0525	0x102b	0x07c1	"Card:Matrox Millennium G450 DualHead"	"Matrox|MGA G450 SDR DualHead"

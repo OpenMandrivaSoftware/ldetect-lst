@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.4
-%define release 17mdk
+%define release 18mdk
 
 Name: %{name}
 Version: %{version}
@@ -63,6 +63,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Tue Sep 17 2002 François Pons <fpons@mandrakesoft.com> 0.1.4-18mdk
+- fix a Matrox G450 DualHead not seen as dual head.
+
 * Thu Sep 12 2002 Damien Chaumette <dchaumette@mandrakesoft.com> 0.1.4-17mdk
 - fix some isdn cards module syntax to "ISDN:module_name"
 
