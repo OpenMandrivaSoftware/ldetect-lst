@@ -1745,7 +1745,7 @@
 0x126f	0x0910	"Card:SMI Lynx (generic)"	"Silicon Motion, Inc.|SM910"
 0x1273	0x0002	"unknown"	"Hughes Network Systems|DirecPC"
 0x1274	0x1371	"es1371"	"Ensoniq|ES1371 [AudioPCI-97]"
-0x1274	0x5000	"es1370"	"Ensoniq|ES1370 [AudioPCI]"
+0x1274	0x5000	"snd-card-ens1370"	"Ensoniq|ES1370 [AudioPCI]"
 0x1274	0x5880	"es1371"	"Ensoniq|CT5880"
 0x1279	0x0295	"unknown"	"Transmeta Corporation|Virtual Northbridge"
 0x1279	0x0395	"unknown"	"Transmeta Corporation|LongRun Northbridge"
