@@ -1,3 +1,28 @@
+2005-03-21 16:44  Thierry Vignaud <tvignaud at mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.73-1mdk
+
+2005-03-21 14:55  Thierry Vignaud <tvignaud at mandrakesoft.com>
+
+	* lst/pcitable: Add support for production version of ATI
+	  RN50/ES1000
+
+2005-03-17 23:05  Pixel <pixel at mandrakesoft.com>
+
+	* convert/verify_MonitorsDB: MonitorsDB is full of bad EISA_ID :-(
+
+2005-03-17 17:34  Thierry Vignaud <tvignaud at mandrakesoft.com>
+
+	* lst/MonitorsDB: remove doble entry
+
+2005-03-17 17:34  Thierry Vignaud <tvignaud at mandrakesoft.com>
+
+	* lst/MonitorsDB: sort samsung monitors
+
+2005-03-16 12:38  Thierry Vignaud <tvignaud at mandrakesoft.com>
+
+	* lst/pcitable: sync with kernel-2.6.11-mm3
+
 2005-03-15 19:00  Thierry Vignaud <tvignaud at mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.72-1mdk
