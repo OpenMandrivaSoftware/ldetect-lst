@@ -1360,6 +1360,11 @@ DRIVER radeon
 DRI_GLX
 DRIVER2 fglrx
 
+NAME ATI Radeon (gpl)
+DRIVER radeon
+DRI_GLX
+# DRI_GLX: 16bits preferable ?
+
 NAME ATI Radeon (fbdev)
 SERVER FBDev
 DRIVER fbdev
