@@ -5,8 +5,8 @@ ARCH := $(patsubst sparc%,sparc,$(ARCH))
 
 TABLES1 = pcitable usbtable
 TABLES2 = isatable pcmciatable
-TABLES3 = ScannerDB
-TABLES = $(TABLES1) $(TABLES2) $(TABLES3)
+TABLES3 = ScannerDB.gz
+TABLES = $(TABLES1) $(TABLES2)
 TMP_TABLES1 = $(TABLES1:%=%.tmp)
 TMP_TABLES2 = $(TABLES2:%=%.tmp)
 TMP_TABLES  = $(TABLES:%=%.tmp)
@@ -27,10 +27,10 @@ $(TMP_TABLES1): %.tmp: %
 $(TMP_TABLES2): %.tmp: %
 	cp -f $< $@
 
-$(TMP_TABLES3): %.tmp: %
+$(TABLES3):
 	gzip -vc9 ScannerDB > ScannerDB.gz
 
-install: $(TMP_TABLES)
+install: $(TMP_TABLES) $(TABLES3)
 	for i in $(TABLES); do \
 	(echo "# !! The original version is available in CVS at" ; \
          echo "# export CVSROOT=:pserver:anoncvs@cvs.mandrakesoft.com:/home/cvs/cooker" ; \
