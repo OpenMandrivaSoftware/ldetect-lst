@@ -1,3 +1,35 @@
+2004-11-26 18:58  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.30-1mdk
+
+2004-11-26 18:56  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* convert/merge2pcitable.pl: (merge_entries_with_wildcards) split
+	  from merge() the new code that handle PCI_ANY_ID in kernel's
+	  pcimap.
+
+	  rationale: drivers that use PCI_ANY_ID often also check PCI
+	  capabalities which we cannot do w/o the card physically present
+	  and thus what we found must be reviewed.
+
+	  this is enabled by using the --handle-wildcards option
+
+2004-11-26 18:51  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: handle devices which drivers declare them with
+	  PCI_ANY_ID
+
+2004-11-26 18:48  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* convert/merge2pcitable.pl: (merge) handle PCI device IDs set to
+	  PCI_ANY_ID in kernel's pcimap
+
+2004-11-26 14:36  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: according to
+	  drivers/pcmcia/yenta_socket.c::yenta_table, all devices which
+	  vendor are managed by yenta_socket
+
 2004-11-25 19:38  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.29-1mdk
