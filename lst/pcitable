@@ -5310,7 +5310,7 @@
 0x8086	0x266a	"unknown"	"Intel Corp.|I/O Controller Hub SMBus"
 0x8086	0x266c	"unknown"	"Intel Corp.|82801FB/FBM/FR/FW/FRW (ICH6 Family) LAN Controller"
 0x8086	0x266d	"unknown"	"Intel Corp.|I/O Controller Hub Modem"
-0x8086	0x266e	"i810_audio"	"Intel Corp.|82801FB/FBM/FR/FW/FRW (ICH6 Family) AC'97 Audio Controller"
+0x8086	0x266e	"snd-intel8x0"	"Intel Corp.|82801FB/FBM/FR/FW/FRW (ICH6 Family) AC'97 Audio Controller"
 0x8086	0x266f	"unknown"	"Intel Corp.|I/O Controller Hub PATA"
 0x8086	0x2782	"unknown"	"Intel Corp.|Graphics Controller"
 0x8086	0x2792	"unknown"	"Intel Corp.|Mobile Graphics Controller"
