@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.9
-%define release 10mdk
+%define release 11mdk
 
 Name: %{name}
 Version: %{version}
@@ -64,6 +64,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Thu Mar 18 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.9-11mdk
+- audigy does not works but snd-emu10k1 does works smoothly
+
 * Tue Mar 16 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.9-10mdk
 - add MSI WLAN PC2PC usb adapter (nplanel)
 - fix Sil3512A description (#8579)
