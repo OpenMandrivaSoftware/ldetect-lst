@@ -1930,6 +1930,8 @@ SEE NVIDIA GeForce
 
 NAME NVIDIA GeForce3 (xbox)
 DRIVER nvxbox
+LINE Option "UseFBDev" "1"
+LINE Option "HWCursor" "0"
 
 NAME NVIDIA GeForce4 (generic)
 SEE NVIDIA GeForce
