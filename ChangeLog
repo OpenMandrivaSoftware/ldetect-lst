@@ -1,6 +1,40 @@
-2004-11-02 06:59  Thierry Vignaud <tvignaud@mandrakesoft.com>
+2004-11-05 14:36  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: sync with kernel-2.6.8.1.21mdk
+
+2004-11-05 10:33  Olivier Blin <oblin@mandrakesoft.com>
+
+	* lst/pcitable: use yenta_socket for PCI7420 CardBus Controller
+
+2004-11-05 00:32  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/: Cards+, pcitable: sync with hwdata-0.145
+
+2004-11-05 00:22  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: sync with pci.ids
+
+2004-11-02 12:59  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* lst/pcitable: fix sound on VIA VT8233 (#10859)
+
+2004-11-02 11:23  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: some MODULE_DEVICE_TABLE() do not appears in
+	  kernel's pcimap; let's add my own motherboard and partially sync
+	  with 2.6.10-rc1-mm2 btw
+
+2004-11-02 11:22  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: disambiguate media devices
+
+2004-11-02 11:21  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* convert/merge2pcitable.pl: perl_checker fixes
+
+2004-11-02 11:21  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* convert/merge2pcitable.pl: fix checking subids
 
 2004-11-02 05:23  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
