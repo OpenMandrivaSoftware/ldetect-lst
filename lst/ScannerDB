@@ -1290,7 +1290,7 @@ NAME Connectix|Greyscale QuickCam
 SERVER qcam
 DRIVER Parport
 COMMENT Require root privileges.  Partly working.
-SEE 
+SEE Connectix|Color QuickCam
 
 # from ricoh.desc
 NAME Ricoh|Ricoh IS50
