@@ -5,7 +5,7 @@ VERSION := $(shell rpm -q --qf '%{VERSION}\n' --specfile $(PACKAGE).spec | head 
 RELEASE := $(shell rpm -q --qf '%{RELEASE}\n' --specfile $(PACKAGE).spec | head -1)
 TAG := $(shell echo "V$(VERSION)_$(RELEASE)" | tr -- '-.' '__')
 
-FILES = AUTHORS ChangeLog Makefile Makefile.config convert err ldetect-lst.spec lst update-ldetect-lst
+FILES = AUTHORS ChangeLog Makefile Makefile.config convert ldetect-lst.spec lst update-ldetect-lst
 
 build: 
 	make -C lst build
