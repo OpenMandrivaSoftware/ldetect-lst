@@ -361,7 +361,7 @@
 0x1022	0x7410	"unknown"	"Advanced Micro Devices [AMD]|AMD-765 [Viper] ISA"
 0x1022	0x7411	"unknown"	"Advanced Micro Devices [AMD]|AMD-765 [Viper] IDE"
 0x1022	0x7413	"unknown"	"Advanced Micro Devices [AMD]|AMD-765 [Viper] ACPI"
-0x1022	0x7414	"unknown"	"Advanced Micro Devices [AMD]|AMD-765 [Viper] USB"
+0x1022	0x7414	"usb-ohci"	"Advanced Micro Devices [AMD]|AMD-765 [Viper] USB"
 0x1023	0x0194	"unknown"	"Trident Microsystems|82C194"
 0x1023	0x2000	"snd-card-trident"	"Trident Microsystems|4DWave DX"
 0x1023	0x2001	"snd-card-trident"	"Trident Microsystems|4DWave NX"
