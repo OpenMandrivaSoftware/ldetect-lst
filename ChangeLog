@@ -1,3 +1,19 @@
+2005-01-10 11:57  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.44-1mdk
+
+2005-01-10 11:54  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/MonitorsDB: add a Princeton monitor (Thomas Spuhler)
+
+2005-01-09 23:26  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/MonitorsDB: add a new Lite-On monitor (Berthy)
+
+2005-01-09 23:13  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/MonitorsDB: add a new Sony monitor (Angelo Naselli)
+
 2005-01-07 22:15  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.43-1mdk
