@@ -2367,7 +2367,7 @@
 0x10fc	0x0003	"unknown"	"I-O Data Device, Inc.|Cardbus IDE Controller"
 0x10fc	0x0005	"nsp32"	"I-O Data Device, Inc.|Cardbus SCSI CBSC II"
 0x1101	0x0002	"initio"	"Initio Corporation|Ultra SCSI Adapter"
-0x1101	0x1060	"initio"	"Initio Corporation|INI-A100U2W"
+0x1101	0x1060	"a100u2w"	"Initio Corporation|INI-A100U2W"
 0x1101	0x134a	"initio"	"Initio Corporation|Ultra SCSI Adapter"
 0x1101	0x9100	"initio"	"Initio Corporation|INI-9100/9100W"
 0x1101	0x9400	"initio"	"Initio Corporation|INI-940"
