@@ -1473,7 +1473,6 @@ NAME S3 Savage (generic)
 CHIPSET S3 Savage
 SERVER SVGA
 DRIVER savage
-UNSUPPORTED
 NOCLOCKPROBE
 LINE      #Option "xaa_benchmark"
 
@@ -1518,8 +1517,7 @@ SEE S3 Savage4 (generic)
 NAME S3 Savage2000 (generic)
 CHIPSET S3 Savage2000
 SERVER SVGA
-DRIVER s3virge
-UNSUPPORTED
+DRIVER savage
 NOCLOCKPROBE
 
 
