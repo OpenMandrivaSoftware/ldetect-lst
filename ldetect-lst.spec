@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.2
-%define release 33mdk
+%define release 34mdk
 
 Name: %{name}
 Version: %{version}
@@ -25,7 +25,7 @@ table to get hardware autodetection
 see ldetect-lst
 
 %prep
-%setup -n %{name}
+%setup -q -n %{name}
 
 %build
 %make
@@ -47,6 +47,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/*
 
 %changelog
+* Sat Jan 12 2002 Pixel <pixel@mandrakesoft.com> 0.1.2-34mdk
+- various
+
 * Mon Nov 19 2001 Gwenole Beauchesne <gbeauchesne@mandrakesoft.com> 0.1.2-33mdk
 - Add IBM|ServeRAID-4Lx and IBM|ServeRAID-4Mx PCI IDs
 - On IA-64, suggest "qlogicfc" for Q Logic { 2100, 2200 } cards
