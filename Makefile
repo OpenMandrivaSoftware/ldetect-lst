@@ -64,6 +64,8 @@ export:
 cvstag:
 	cvs tag $(CVSTAGOPT) $(TAG)
 
+log: changelog
+
 changelog: ../common/username
 	cvs2cl -U ../common/username -I ChangeLog --accum
 	rm -f ChangeLog.bak
