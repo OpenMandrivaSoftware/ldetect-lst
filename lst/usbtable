@@ -2689,7 +2689,7 @@
 0x1006	0x3002	"unknown"	"iRiver, Ltd.|iHP-140 mp3 player"
 0x1044	0x8002	"pegasus"	""
 0x1044	0x8003	"at76c503-rfmd"	""
-0x1044	0x8003	"zd1201"	""
+0x1044	0x8004	"zd1201"	""
 0x1046	0x9967	"w9968cf"	"Creative Labs (?)|WebCam Go"
 0x1063	0x1555	"unknown"	"Motorola|MC141555 Hub"
 0x1065	0x2136	"usb-storage"	"CCYU TECHNOLOGY|EasyDisk Portable Device"
