@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.62
+%define version 0.1.63
 %define release 1mdk
 
 Name: %{name}
@@ -64,6 +64,12 @@ fi
 %{_bindir}/*
 
 %changelog
+* Fri Feb 11 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.63-1mdk
+- fix kernel-2.4.x support for some i810-tco
+- fix dtc SCSI driver used instead of dmx3191d
+- add r8180 wireless driver (from kernel-multimedia)
+- sync with latest usb.ids
+
 * Fri Feb 11 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.62-1mdk
 - sync with kernel-2.6.10-3mdk (one new ULI SATA controller & two Intel LPC)
 - add a couple of Radeon graphic cards
