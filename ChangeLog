@@ -1,3 +1,7 @@
+2004-04-16 17:36  Gwenole Beauchesne <gbeauchesne@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.9-14mdk
+
 2004-04-16 17:31  Gwenole Beauchesne <gbeauchesne@mandrakesoft.com>
 
 	* lst/pcitable: GeForce FX 5950 has an NV38 GPU GeForce FX 5700 and
