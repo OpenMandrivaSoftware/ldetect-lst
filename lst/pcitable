@@ -193,6 +193,8 @@
 0x1001	0x9100	"initio"	"Initio|INI-9100/9100W SCSI Host"
 0x1002	0x0084	"Card:ATI Mach64"	"ATI|Mach64"
 0x1002	0x0088	"Card:ATI Mach64"	"ATI|Mach64 (SuSE Econ)"
+0x1002	0x3e50	"Card:ATI Radeon (fglrx)"	"ATI|Radeon X600 Pro (PCI-Express)"
+0x1002	0x3e70	"unknown"	"ATI|X600 [Radeon X600 Pro] (Secondary)"
 0x1002	0x4136	"Card:ATI Radeon (fglrx)"	"ATI|Radeon IGP320 (A3) 4136"
 0x1002	0x4137	"Card:ATI Radeon (fglrx)"	"ATI|Radeon IGP330/340/350 (A4) 4137"
 0x1002	0x4144	"Card:ATI Radeon (fglrx)"	"ATI|Radeon 9500 AD (AGP)"
