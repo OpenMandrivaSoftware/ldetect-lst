@@ -317,6 +317,8 @@
 0x1014	0x01bd	"ips"	"IBM|ServeRAID controller"
 0x1014	0x01be	"ips"	"IBM|ServeRAID-4M"
 0x1014	0x01bf	"ips"	"IBM|ServeRAID-4L"
+0x1014	0x0208	"ips"	"IBM|ServeRAID-4Mx"
+0x1014	0x020e	"ips"	"IBM|ServeRAID-4Lx"
 0x1014	0x022e	"ips"	"IBM|ServeRAID-4H"
 0x1014	0xffff	"unknown"	"IBM|MPIC-2 interrupt controller"
 0x1017	0x5343	"unknown"	"SPEA Software AG|SPEA 3D Accelerator"

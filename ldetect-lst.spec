@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.2
-%define release 32mdk
+%define release 33mdk
 
 Name: %{name}
 Version: %{version}
@@ -47,6 +47,10 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/*
 
 %changelog
+* Mon Nov 19 2001 Gwenole Beauchesne <gbeauchesne@mandrakesoft.com> 0.1.2-33mdk
+- Add IBM|ServeRAID-4Lx and IBM|ServeRAID-4Mx PCI IDs
+- On IA-64, suggest "qlogicfc" for Q Logic { 2100, 2200 } cards
+
 * Mon Nov 12 2001 Yves Duret <yduret@mandrakesoft.com> 0.1.2-32mdk
 - the really big fat heavy ScannerDB update (~320 scanners added)
 
