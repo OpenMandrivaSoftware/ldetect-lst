@@ -32,6 +32,8 @@ LINE usb $VENDOR $PRODUCT
 SERVER canon_pp
 LINE ieee1284 parport0
 LINE init_mode AUTO parport0
+MANUAL
+KERNEL ppdev
 SERVER coolscan
 LINE scsi Nikon * Scanner
 LINE $DEVICE
@@ -57,16 +59,22 @@ USBLINE usb $VENDOR $PRODUCT
 SERVER fujitsu
 SCSILINE scsi FUJITSU
 USBLINE usb $VENDOR $PRODUCT
+SERVER geniusvp2
+LINE device $DEVICE
+KERNEL ppdev
 SERVER gt68xx
 LINE usb $VENDOR $PRODUCT
 FIRMWARELINE firmware "$FIRMWARE"
 SERVER hp
 USBLINE usb $VENDOR $PRODUCT
+SCSILINE scsi HP
 SCSILINE $DEVICE
 SERVER hp4200
 LINE usb $VENDOR $PRODUCT
 SERVER hp5400
 LINE usb $VENDOR $PRODUCT
+SERVER hp_rts88xx
+MANUAL
 SERVER hpsj5s
 LINE parport0
 SERVER ibm
@@ -81,6 +89,10 @@ SERVER ma1509
 LINE usb $VENDOR $PRODUCT
 SERVER matsushita
 LINE scsi "K.M.E.  " "KV-SS25A        "
+LINE scsi "K.M.E.  " "KV-SS55EX       "
+LINE scsi "K.M.E.  " "KV-S2025C       "
+LINE scsi "K.M.E.  " "KV-S2045C       "
+LINE scsi "K.M.E.  " "KV-S2065L       "
 LINE $DEVICE
 SERVER microtek
 LINE scsi * * Scanner
@@ -94,6 +106,8 @@ LINE scsi SCANNER
 LINE $DEVICE
 SERVER mustek_usb
 LINE usb $VENDOR $PRODUCT
+SERVER mustek_pp
+MANUALREQUIRED
 SERVER nec
 LINE $DEVICE
 SERVER niash
@@ -103,10 +117,13 @@ LINE scsi PIE * Scanner
 LINE scsi AdLib * Scanner
 LINE $DEVICE
 SERVER plustek
-PARPORTLINE [parport]
-PARPORTLINE /dev/pt_drv
-USBLINE [usb]
-USBLINE device auto
+LINE [usb]
+SERVER plustek_pp
+LINE [direct]
+LINE device parport0
+MANUAL
+SERVER qcam
+MANUALREQUIRED
 SERVER ricoh
 LINE scsi RICOH IS60
 LINE $DEVICE
@@ -118,6 +135,9 @@ LINE $DEVICE
 SERVER sharp
 LINE scsi SHARP * Scanner
 LINE $DEVICE
+MANUAL
+SERVER sm3840
+LINE usb $VENDOR $PRODUCT
 SERVER snapscan
 SCSILINE scsi AGFA * Scanner
 SCSILINE scsi COLOR * Scanner
@@ -136,13 +156,20 @@ LINE $DEVICE
 SERVER teco1
 LINE scsi "RELISYS" "VM3530+" Scanner * * * 0
 LINE scsi "" "Image Scanner" Scanner
+LINE scsi "RELISYS" "VM4540" Scanner * * * 0
 LINE scsi "RELISYS" "RELI 4830" Scanner
 LINE scsi "Dextra DF-600P" Scanner
 LINE $DEVICE
 SERVER teco2
+LINE scsi "RELISYS" "AVEC II S3"
+LINE scsi "Primax" "Jewel"
+LINE scsi "RELISYS" "APOLLO Express 3"
+LINE scsi "RELISYS" "AVEC Super 3"
 LINE scsi "" "Flatbed Scanner" Scanner
 LINE scsi "RELISYS" "APOLLO Express 6"
 LINE scsi "RELISYS" "SCORPIO Pro"
+LINE scsi "Primax" "Profi 9600"
+LINE scsi "Primax" "Profi 19200"
 LINE $DEVICE
 SERVER teco3
 LINE scsi "" "Flat-bed scanner" Scanner
@@ -150,6 +177,8 @@ LINE scsi "RELISYS" "Scorpio"
 LINE scsi "Aashima" "IMAGERY 2400SP" Scanner * * * 0
 LINE scsi "Aashima" "IMAGERY 4800SP +"
 LINE $DEVICE
+SERVER u12
+LINE [usb]
 SERVER umax
 SCSILINE scsi UMAX * Scanner
 SCSILINE scsi LinoHell JADE
@@ -157,12 +186,15 @@ SCSILINE scsi LinoHell Office
 SCSILINE scsi LinoHell Office2
 SCSILINE scsi LinoHell SAPHIR2
 SCSILINE scsi LinoHell SAPHIR3
+SCSILINE scsi Linotype SAPHIR4
+SCSILINE scsi LinoHell OPAL2
 SCSILINE scsi HDM LS4H1S
 SCSILINE scsi Nikon AX-110
 SCSILINE scsi Nikon AX-210
 SCSILINE scsi KYE ColorPage-HR5
 SCSILINE scsi EPSON Perfection600
 SCSILINE scsi ESCORT "Galleria 600S"
+SCSILINE scsi TriGem PowerScanII
 SCSILINE option connection-type 1
 SCSILINE $DEVICE
 USBLINE usb $VENDOR $PRODUCT
@@ -171,5 +203,6 @@ SERVER umax1220u
 LINE usb $VENDOR $PRODUCT
 SERVER umax_pp
 LINE port $DEVICE
+KERNEL ppdev
 SERVER v4l
 LINE $DEVICE
