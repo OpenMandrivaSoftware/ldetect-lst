@@ -370,6 +370,7 @@
 0x04f2	0x0001	"unknown"	"Chicony Electronics Co., Ltd.|KU-8933 Keyboard"
 0x04f2	0x0002	"unknown"	"Chicony Electronics Co., Ltd.|NT68P81 Keyboard"
 0x04f2	0x0112	"unknown"	"Chicony Electronics Co., Ltd.|KU-8933 Keyboard with PS/2 Mouse port"
+0x04f2	0xa001	"unknown"	"Chicony Electronics Co., Ltd.|DC-100 webcam"
 0x04f9	0x0002	"unknown"	"Brother Industries, Ltd.|HL-1050 Laser Printer"
 0x04f9	0x0007	"unknown"	"Brother Industries, Ltd.|HL-1250 Laser Printer"
 0x04fa	0x4201	"unknown"	"Dallas Semiconductor|DS4201 Audio DAC"
