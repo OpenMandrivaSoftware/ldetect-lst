@@ -1554,7 +1554,7 @@
 0x04cc	0x8116	"pwc"	"Philips Semiconductors|Camera"
 0x04ce	0x0002	"usb-storage"	"ScanLogic Corp.|SL11R-IDE [IDE Bridge]"
 0x04ce	0x0300	"microtek"	"ScanLogic Corp.|"
-0x04cf	0x8818	"unknown"	"Myson Century, Inc.|Fast 3.5" External Storage"
+0x04cf	0x8818	"unknown"	"Myson Century, Inc.|Fast 3.5'' External Storage"
 0x04d2	0x0311	"unknown"	"Altec Lansing Technologies|ADA-310 Speakers"
 0x04d2	0xff05	"unknown"	"Altec Lansing Technologies|ADA-305 Speakers"
 0x04d8	0x8000	"unknown"	"Microchip Technology, Inc.|In-Circuit Debugger"
