@@ -1,3 +1,15 @@
+2005-02-02 12:06  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.55-1mdk
+
+2005-02-02 12:06  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: sync with kernel-multimedia-2.6.10-1.mm.9mdk
+
+2005-01-28 15:56  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: add 2 new intel sata controllers
+
 2005-01-28 14:20  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.54-1mdk
