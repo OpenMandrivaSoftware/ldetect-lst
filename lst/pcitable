@@ -1882,7 +1882,7 @@
 0x10b9	0x5229	"unknown"	"Acer Laboratories Inc. [ALi]|M5229 IDE"
 0x10b9	0x5235	"unknown"	"Acer Laboratories Inc. [ALi]|M5225"
 0x10b9	0x5237	"usb-ohci"	"Acer Laboratories Inc. [ALi]|M5237 (USB)"
-0x10b9	0x5239	"usb-ohci"	"Acer Laboratories Inc. [ALi]|USB 2.0 Controller"
+0x10b9	0x5239	"ehci-hcd"	"Acer Laboratories Inc. [ALi]|USB 2.0 Controller"
 0x10b9	0x5240	"unknown"	"Acer Labs Incorporated (ALI)|EIDE Controller"
 0x10b9	0x5241	"unknown"	"Acer Labs Incorporated (ALI)|PCMCIA Bridge"
 0x10b9	0x5242	"unknown"	"Acer Labs Incorporated (ALI)|General Purpose Controller"
