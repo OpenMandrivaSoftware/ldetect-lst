@@ -1,3 +1,21 @@
+2003-06-27 15:12  Nicolas Planel <nplanel@mandrakesoft.com>
+
+	* lst/pcitable: add new ICH5 id, add ati radeon 9800
+
+2003-06-12 13:35  Guillaume Cottenceau <gc@mandrakesoft.com>
+
+	* lst/pcitable: add warly's new proca's firewire controller (is
+	really vendor:1039 device:7007 subv:1019 subd:1814 but sub'ids are
+	maybe not really useful?)
+
+2003-06-05 17:15  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: support more cards (from modules.pcimap)
+
+2003-05-28 00:27  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.7-14mdk
+
 2003-05-27 23:41  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* lst/MonitorsDB: fix #2017
