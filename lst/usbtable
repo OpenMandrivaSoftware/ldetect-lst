@@ -15,7 +15,7 @@
 0x03f0	0x0202	"unknown"	"Hewlett-Packard|PhotoSmart S20"
 0x03f0	0x0204	"unknown"	"Hewlett-Packard|DeskJet 815c"
 0x03f0	0x0205	"scanner"	"Hewlett-Packard|ScanJet 3300C"
-0x03f0	0x0207	"unknown"	"Hewlett-Packard|CD-Writer Plus Mesa"
+0x03f0	0x0207	"usb-storage"	"Hewlett-Packard|8200e CD-Writer Plus Mesa"
 0x03f0	0x020c	"unknown"	"Hewlett-Packard|Multimedia Keyboard Hub"
 0x03f0	0x0304	"unknown"	"Hewlett-Packard|DeskJet 812c"
 0x03f0	0x0305	"scanner"	"Hewlett-Packard|ScanJet 4300C"
