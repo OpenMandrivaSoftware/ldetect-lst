@@ -1,4 +1,6 @@
-FILES = xf86PciInfo2pcitable
+# see README.pcitable
+
+FILES =
 
 all: $(FILES) verif
 
@@ -6,12 +8,4 @@ verif:
 	./verify_Cards.pl
 
 clean:
-	rm -f $(FILES)
-
-xf86PciInfo2pcitable: %: %.c xf86PciInfo.h
-	gcc -o $@ $<
-
-#do
-# take new xc/programs/Xserver/hw/xfree86/common/xf86PciInfo.h in XFree86-4
-# make ; ./xf86PciInfo2pcitable > /tmp/xf_pcitable ; ./merge2pcitable.pl pcitable /tmp/xf_pcitable pcitable
-
+	rm -f $(FILES) modules.pcimap modules.usbmap vendors.txt

@@ -1,17 +1,29 @@
 ################################################################################
 # How to merge the pcitable with various source:
 #
+
+
 # update pciutils
-# PS:
-#  A pciids with more accurate information are available from
-#  http://www.yourvote.com/pci/vendors.txt
 ./merge2pcitable.pl pciids /usr/share/pci.ids pcitable > pcitable.new
+
+#  A pciids with more accurate information are available from
+rm -f vendors.txt ; wget http://www.yourvote.com/pci/vendors.txt
+./merge2pcitable.pl pciids vendors.txt pcitable > pcitable.new
+
+# http://www.begent.co.uk/pcids.htm
+
 
 # with redhat's pcitable in /tmp/rh_pcitable (from kudzu or anaconda)
 ./merge2pcitable.pl pcitable /tmp/rh_pcitable pcitable > pcitable.new
 
+
 # with a new kernel
-./merge2pcitable.pl kernel_pcimap $(echo /lib/modules/2.4.*/modules.pcimap | sed 's/ .*//') pcitable > pcitable.new
+(cd ~/tmp ; rm -rf lib ; rpm2cpio /RPMS/kernel-2.4.*.rpm |cpio -id './lib/modules/*/modules.*map')
+cp -f ~/tmp/lib/modules/*/modules.{pci,usb}map .
+rm -rf lib
+./merge2pcitable.pl kernel_pcimap modules.pcimap pcitable > pcitable.new
+./merge2pcitable.pl kernel_usbmap modules.usbmap usbtable > usbtable.new
+
 
 # checking the pcitable
 ./merge2pcitable.pl pcitable pcitable pcitable > /dev/null
