@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.69
+%define version 0.1.70
 %define release 1mdk
 
 Name: %{name}
@@ -63,6 +63,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Wed Mar  9 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.70-1mdk
+- sync with kernel-2.6.11-1mdk and kernel-2.6.11-mm2
+
 * Tue Mar  8 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.69-1mdk
 - sync with latest pci.ids & usb.ids
 - add a new megaraid SAS driver
