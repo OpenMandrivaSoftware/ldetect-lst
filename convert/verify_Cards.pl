@@ -1,10 +1,10 @@
 #!/usr/bin/perl
 
 use lib qw(/usr/lib/libDrakX);
-use Xconfigurator;
+use Xconfig;
 require './merge2pcitable.pl';
 
-$cards = Xconfigurator::readCardsDB("../lst/Cards+");
+$cards = Xconfig::readCardsDB("../lst/Cards+");
 
 @cards = map {
     my $drivers = read_pcitable("../lst/$_");
