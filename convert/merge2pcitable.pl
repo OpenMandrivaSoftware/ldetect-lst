@@ -261,6 +261,7 @@ sub merge {
     my ($drivers, $new) = @_;
 
     foreach (keys %$new) {
+	$drivers->{$_}[1] = $new->{$_}[1] if !$drivers->{$_}[1];
 	next if $new->{$_}[0] =~ /parport_pc|i810_ng/;
 	if ($drivers->{$_}) {
 	    if ($new->{$_}[0] ne "unknown") {
