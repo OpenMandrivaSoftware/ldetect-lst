@@ -1,3 +1,35 @@
+2003-09-10 15:12  Fançois Pons <fpons@mandrakesoft.com>
+
+	* lst/Cards+: added card "ATI Radeon (fbdev)" for Radeon not
+	supported by XFree86 but supported by the fglrx proprietary driver
+	from ATI.
+
+2003-09-10 15:10  Fançois Pons <fpons@mandrakesoft.com>
+
+	* ldetect-lst.spec: added DRIVER2 fglrx support.
+
+2003-09-10 15:10  Fançois Pons <fpons@mandrakesoft.com>
+
+	* lst/Cards+: added Radeon card support with fglrx (as DRIVER2).
+
+2003-09-10 00:09  tkamppeter
+
+	* lst/: ScannerDB, scannerconfigs: Updated scanner database for
+	SANE 1.0.12.
+
+2003-09-08 14:12  Pixel <pixel@mandrakesoft.com>
+
+	* lst/pcitable: merge with pcimap from kernel 2.4.22.6mdk
+
+2003-09-08 13:53  Stefan Siegel <siegel@linux-mandrake.com>
+
+	* lst/usbtable: Added new device: 0x091e 0x0200 "Garmin
+	International|USB Data Card Programmer"
+
+2003-09-07 19:52  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* Makefile: add srpm target
+
 2003-09-07 19:50  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.8-3mdk
