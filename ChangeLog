@@ -10,6 +10,10 @@
 
 	* lst/MonitorsDB: -add Dell laptop 16/10 screen
 
+2004-08-26 13:24  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.16-1mdk
+
 2004-08-26 12:57  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* lst/pcitable: switch Intel/ICH6 sound card from OSS to ALSA b/c
