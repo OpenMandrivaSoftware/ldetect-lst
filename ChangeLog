@@ -1,6 +1,23 @@
+2005-02-11 17:17  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.62-1mdk
+
+2005-02-11 17:17  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: add a couple of Radeon graphic cards
+
+2005-02-11 17:16  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: sync with kernel-2.6.10-3mdk (one new ULI SATA
+	  controller & two Intel LPC)
+
 2005-02-10 15:52  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.61-1mdk
+
+2005-02-10 15:52  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* AUTHORS: update contributors list
 
 2005-02-10 15:52  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
