@@ -47,7 +47,7 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/*
 
 %changelog
-* Wed Oct 10 2001 Yves Duret <yduret@mandrakesoft.com> 0.1.2-30mdk
+* Wed Oct 10 2001 Yves Duret <yduret@mandrakesoft.com> 0.1.2-31mdk
 - really add ScannerDB (i suck)
 
 * Wed Oct 10 2001 Yves Duret <yduret@mandrakesoft.com> 0.1.2-30mdk
