@@ -5,7 +5,6 @@ use MDK::Common;
 
 @ignored_modules = (
 qw(alsa ignore),
-qw(tr), # redhat have this, ignore it
 );
 
 if ($0 =~ /merge2pcitable/) 
@@ -81,7 +80,7 @@ sub read_pcitable {
 
 	    $module =~ s/\.o$//;
 	    $module = '"unknown"' if dummy_module($module);
-	    $module = '"unknown"' if $id1 == 0x1011 && (0x0024 <= $id2 && $id2 <= 0x0025); 
+	    $module = '"unknown"' if $id1 eq '0x1011' && $id2 eq '0x0004';
 	      # known errors in redhat's pcitable
 	      # these are pci to pci bridge
 	    $module = '"yenta_socket"' if $module =~ /i82365/;
