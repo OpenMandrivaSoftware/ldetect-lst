@@ -1,3 +1,20 @@
+2003-07-24 22:40  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: fix #4257
+
+2003-07-10 13:10  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: - fix one phillips saa7146 card module (Steffen
+	Barszus) - describe one unknown bcm card (Alastair Wiggins)
+
+2003-07-01 16:48  Nicolas Planel <nplanel@mandrakesoft.com>
+
+	* lst/pcitable: add IDE ICH5 id
+
+2003-06-27 16:18  Nicolas Planel <nplanel@mandrakesoft.com>
+
+	* ldetect-lst.spec: 1.7.15mdk
+
 2003-06-27 15:12  Nicolas Planel <nplanel@mandrakesoft.com>
 
 	* lst/pcitable: add new ICH5 id, add ati radeon 9800
