@@ -1,793 +1,173 @@
 # generated from Sane by scannerdrake
 
-# from /root/s/sane-backends-1.0.11/doc/descriptions/abaton.desc
-NAME Abaton|Scan 300/GS
-SERVER abaton
+# from sane-backends-1.0.12/doc/descriptions/teco3.desc
+NAME Trust Technologies|Imagery 2400 SP
+SERVER teco3
 DRIVER SCSI
-LINE scsi ABATON
+LINE scsi "" "Flat-bed scanner" Scanner
+LINE scsi "RELISYS" "Scorpio"
+LINE scsi "Aashima" "IMAGERY 2400SP" Scanner * * * 0
+LINE scsi "Aashima" "IMAGERY 4800SP +"
 LINE $DEVICE
-COMMENT All known modes and functions supported
+COMMENT sub model VM3552
 
-NAME Abaton|Scan 300/S
-SERVER abaton
+NAME Trust Technologies|Imagery 4800 SP+
+SERVER teco3
 DRIVER SCSI
-LINE scsi ABATON
+LINE scsi "" "Flat-bed scanner" Scanner
+LINE scsi "RELISYS" "Scorpio"
+LINE scsi "Aashima" "IMAGERY 2400SP" Scanner * * * 0
+LINE scsi "Aashima" "IMAGERY 4800SP +"
 LINE $DEVICE
-COMMENT Untested, use with caution
+COMMENT sub model VM3552
 
-# from /root/s/sane-backends-1.0.11/doc/descriptions/agfafocus.desc
-NAME AGFA-Gevaert NV|Focus GS Scanner
-SERVER agfafocus
+NAME Trust Technologies|Imagery 9600 SP
+SERVER teco3
 DRIVER SCSI
+LINE scsi "" "Flat-bed scanner" Scanner
+LINE scsi "RELISYS" "Scorpio"
+LINE scsi "Aashima" "IMAGERY 2400SP" Scanner * * * 0
+LINE scsi "Aashima" "IMAGERY 4800SP +"
 LINE $DEVICE
-COMMENT 6 bit gray
+COMMENT sub model VM3552
 
-NAME AGFA-Gevaert NV|Focus Lineart Scanner
-SERVER agfafocus
+# from sane-backends-1.0.12/doc/descriptions/microtek.desc
+NAME Microtek|Scanmaker E6
+SERVER microtek
 DRIVER SCSI
+LINE scsi * * Scanner
 LINE $DEVICE
-COMMENT Lineart only? Untested.
 
-NAME AGFA-Gevaert NV|Focus II
-SERVER agfafocus
+NAME Microtek|Scanmaker E3
+SERVER microtek
 DRIVER SCSI
+LINE scsi * * Scanner
 LINE $DEVICE
-COMMENT gray only
 
-NAME AGFA-Gevaert NV|Focus Color
-SERVER agfafocus
+NAME Microtek|Scanmaker E2
+SERVER microtek
 DRIVER SCSI
+LINE scsi * * Scanner
 LINE $DEVICE
 COMMENT 3-pass
 
-NAME Siemens Information and Communication Products|S9036
-SERVER agfafocus
+NAME Microtek|Scanmaker 35t+
+SERVER microtek
 DRIVER SCSI
+LINE scsi * * Scanner
+LINE $DEVICE
+COMMENT slide-scanner
+
+NAME Microtek|Scanmaker 45t
+SERVER microtek
+DRIVER SCSI
+LINE scsi * * Scanner
+LINE $DEVICE
+COMMENT slide-scanner
+
+NAME Microtek|Scanmaker 35
+SERVER microtek
+DRIVER SCSI
+LINE scsi * * Scanner
+LINE $DEVICE
+COMMENT slide-scanner
+
+NAME Microtek|Scanmaker III
+SERVER microtek
+DRIVER SCSI
+LINE scsi * * Scanner
+LINE $DEVICE
+
+NAME Microtek|Scanmaker IISP
+SERVER microtek
+DRIVER SCSI
+LINE scsi * * Scanner
+LINE $DEVICE
+
+NAME Microtek|Scanmaker IIHR
+SERVER microtek
+DRIVER SCSI
+LINE scsi * * Scanner
+LINE $DEVICE
+COMMENT 3-pass
+
+NAME Microtek|Scanmaker IIG
+SERVER microtek
+DRIVER SCSI
+LINE scsi * * Scanner
 LINE $DEVICE
 COMMENT gray only
 
-# from /root/s/sane-backends-1.0.11/doc/descriptions/apple.desc
-NAME Apple|Apple Scanner
-SERVER apple
+NAME Microtek|Scanmaker II
+SERVER microtek
 DRIVER SCSI
-LINE scsi APPLE
+LINE scsi * * Scanner
 LINE $DEVICE
-COMMENT 4bit, 16 shades of gray
+COMMENT 3-pass
 
-NAME Apple|OneScanner
-SERVER apple
+NAME Microtek|Scanmaker 600Z(S)
+SERVER microtek
 DRIVER SCSI
-LINE scsi APPLE
+LINE scsi * * Scanner
 LINE $DEVICE
-COMMENT 8bit, 256 shades of gray. The backend needs work especially in the quantization code but it may work.
 
-NAME Apple|ColorOneScanner
-SERVER apple
+NAME Microtek|Scanmaker 600G(S)
+SERVER microtek
 DRIVER SCSI
-LINE scsi APPLE
+LINE scsi * * Scanner
 LINE $DEVICE
-COMMENT truecolor (needs much work) but it scans in non color modes.
+COMMENT gray only (see manpage)
 
-# from /root/s/sane-backends-1.0.11/doc/descriptions/artec.desc
-NAME Artec/Ultima|AT3
-SERVER artec
+NAME AGFA-Gevaert NV|Arcus II
+SERVER microtek
 DRIVER SCSI
-LINE scsi ULTIMA
+LINE scsi * * Scanner
 LINE $DEVICE
-COMMENT all modes working
+COMMENT Arcus *II*, not Arcus!
 
-NAME Artec/Ultima|A6000C
-SERVER artec
+NAME AGFA-Gevaert NV|StudioScan
+SERVER microtek
 DRIVER SCSI
-LINE scsi ULTIMA
+LINE scsi * * Scanner
 LINE $DEVICE
-COMMENT all modes working
 
-NAME Artec/Ultima|A6000C PLUS
-SERVER artec
+NAME AGFA-Gevaert NV|StudioScan II
+SERVER microtek
 DRIVER SCSI
-LINE scsi ULTIMA
+LINE scsi * * Scanner
 LINE $DEVICE
-COMMENT f/w <= v1.92 alpha, f/w >= v1.93 OK
 
-NAME Artec/Ultima|AT6
-SERVER artec
+NAME AGFA-Gevaert NV|StudioScan IIsi
+SERVER microtek
 DRIVER SCSI
-LINE scsi ULTIMA
+LINE scsi * * Scanner
 LINE $DEVICE
-COMMENT First scan works, subsequent fail until scanner power cycle.
 
-NAME Artec/Ultima|AT12
-SERVER artec
+NAME AGFA-Gevaert NV|DuoScan
+SERVER microtek
 DRIVER SCSI
-LINE scsi ULTIMA
+LINE scsi * * Scanner
 LINE $DEVICE
-COMMENT all modes working
 
-NAME Plustek, Inc.|OpticPro 19200S
-SERVER artec
+# from sane-backends-1.0.12/doc/descriptions/s9036.desc
+NAME Siemens Information and Communication Products|9036 Flatbed scanner
+SERVER s9036
 DRIVER SCSI
-LINE scsi ULTIMA
 LINE $DEVICE
-COMMENT rebadged Artec AM12S
 
-# from /root/s/sane-backends-1.0.11/doc/descriptions/artec_eplus48u.desc
-NAME Medion|MD9693
-SERVER artec_eplus48u
+# from sane-backends-1.0.12/doc/descriptions/ma1509.desc
+NAME Mustek Systems Inc.|BearPaw 1200 F
+SERVER ma1509
 DRIVER USB
 LINE usb $VENDOR $PRODUCT
-COMMENT CIS scanner based on the GT6816 chip. Apparently all other devices are re-badged Artec scanners.
+COMMENT Works upto 600 dpi. No support for TA and ADF yet.
 
-NAME Medion|MD9705
-SERVER artec_eplus48u
-DRIVER USB
-LINE usb $VENDOR $PRODUCT
-
-NAME Memorex|Mem 48 u
-SERVER artec_eplus48u
-DRIVER USB
-LINE usb $VENDOR $PRODUCT
-
-# from /root/s/sane-backends-1.0.11/doc/descriptions/as6e.desc
-NAME Artec/Ultima|AS6E
-SERVER as6e
-DRIVER Parport
-COMMENT Requires the program 'as6edriver' to run.
-
-# from /root/s/sane-backends-1.0.11/doc/descriptions/avision.desc
-NAME Avision|AV100CS
-SERVER avision
-DRIVER SCSI
-LINE scsi AVISION
-LINE scsi FCPA
-LINE scsi MINOLTA
-LINE scsi MITSBISH MCA-S600C
-LINE scsi MITSBISH MCA-SS600
-LINE scsi HP
-LINE scsi hp
-LINE $DEVICE
-
-NAME Avision|AV100IIICS
-SERVER avision
-DRIVER SCSI
-LINE scsi AVISION
-LINE scsi FCPA
-LINE scsi MINOLTA
-LINE scsi MITSBISH MCA-S600C
-LINE scsi MITSBISH MCA-SS600
-LINE scsi HP
-LINE scsi hp
-LINE $DEVICE
-
-NAME Avision|AV100S
-SERVER avision
-DRIVER SCSI
-LINE scsi AVISION
-LINE scsi FCPA
-LINE scsi MINOLTA
-LINE scsi MITSBISH MCA-S600C
-LINE scsi MITSBISH MCA-SS600
-LINE scsi HP
-LINE scsi hp
-LINE $DEVICE
-
-NAME Avision|AV240SC
-SERVER avision
-DRIVER SCSI
-LINE scsi AVISION
-LINE scsi FCPA
-LINE scsi MINOLTA
-LINE scsi MITSBISH MCA-S600C
-LINE scsi MITSBISH MCA-SS600
-LINE scsi HP
-LINE scsi hp
-LINE $DEVICE
-
-NAME Avision|AV260CS
-SERVER avision
-DRIVER SCSI
-LINE scsi AVISION
-LINE scsi FCPA
-LINE scsi MINOLTA
-LINE scsi MITSBISH MCA-S600C
-LINE scsi MITSBISH MCA-SS600
-LINE scsi HP
-LINE scsi hp
-LINE $DEVICE
-
-NAME Avision|AV360CS
-SERVER avision
-DRIVER SCSI
-LINE scsi AVISION
-LINE scsi FCPA
-LINE scsi MINOLTA
-LINE scsi MITSBISH MCA-S600C
-LINE scsi MITSBISH MCA-SS600
-LINE scsi HP
-LINE scsi hp
-LINE $DEVICE
-
-NAME Avision|AV363CS
-SERVER avision
-DRIVER SCSI
-LINE scsi AVISION
-LINE scsi FCPA
-LINE scsi MINOLTA
-LINE scsi MITSBISH MCA-S600C
-LINE scsi MITSBISH MCA-SS600
-LINE scsi HP
-LINE scsi hp
-LINE $DEVICE
-
-NAME Avision|AV420CS
-SERVER avision
-DRIVER SCSI
-LINE scsi AVISION
-LINE scsi FCPA
-LINE scsi MINOLTA
-LINE scsi MITSBISH MCA-S600C
-LINE scsi MITSBISH MCA-SS600
-LINE scsi HP
-LINE scsi hp
-LINE $DEVICE
-
-NAME Avision|AV6120
-SERVER avision
-DRIVER SCSI
-LINE scsi AVISION
-LINE scsi FCPA
-LINE scsi MINOLTA
-LINE scsi MITSBISH MCA-S600C
-LINE scsi MITSBISH MCA-SS600
-LINE scsi HP
-LINE scsi hp
-LINE $DEVICE
-
-NAME Avision|AV620CS
-SERVER avision
-DRIVER SCSI
-LINE scsi AVISION
-LINE scsi FCPA
-LINE scsi MINOLTA
-LINE scsi MITSBISH MCA-S600C
-LINE scsi MITSBISH MCA-SS600
-LINE scsi HP
-LINE scsi hp
-LINE $DEVICE
-
-NAME Avision|AV620CS Plus
-SERVER avision
-DRIVER SCSI
-LINE scsi AVISION
-LINE scsi FCPA
-LINE scsi MINOLTA
-LINE scsi MITSBISH MCA-S600C
-LINE scsi MITSBISH MCA-SS600
-LINE scsi HP
-LINE scsi hp
-LINE $DEVICE
-
-NAME Avision|AV630CS
-SERVER avision
-DRIVER SCSI
-LINE scsi AVISION
-LINE scsi FCPA
-LINE scsi MINOLTA
-LINE scsi MITSBISH MCA-S600C
-LINE scsi MITSBISH MCA-SS600
-LINE scsi HP
-LINE scsi hp
-LINE $DEVICE
-
-NAME Avision|AV630CSL
-SERVER avision
-DRIVER SCSI
-LINE scsi AVISION
-LINE scsi FCPA
-LINE scsi MINOLTA
-LINE scsi MITSBISH MCA-S600C
-LINE scsi MITSBISH MCA-SS600
-LINE scsi HP
-LINE scsi hp
-LINE $DEVICE
-
-NAME Avision|AV6240
-SERVER avision
-DRIVER SCSI
-LINE scsi AVISION
-LINE scsi FCPA
-LINE scsi MINOLTA
-LINE scsi MITSBISH MCA-S600C
-LINE scsi MITSBISH MCA-SS600
-LINE scsi HP
-LINE scsi hp
-LINE $DEVICE
-
-NAME Avision|AV600U
-SERVER avision
-DRIVER USB
-LINE scsi AVISION
-LINE scsi FCPA
-LINE scsi MINOLTA
-LINE scsi MITSBISH MCA-S600C
-LINE scsi MITSBISH MCA-SS600
-LINE scsi HP
-LINE scsi hp
-LINE $DEVICE
-
-NAME Avision|AV660S
-SERVER avision
-DRIVER USB
-LINE scsi AVISION
-LINE scsi FCPA
-LINE scsi MINOLTA
-LINE scsi MITSBISH MCA-S600C
-LINE scsi MITSBISH MCA-SS600
-LINE scsi HP
-LINE scsi hp
-LINE $DEVICE
-
-NAME Avision|AV680S
-SERVER avision
-DRIVER USB
-LINE scsi AVISION
-LINE scsi FCPA
-LINE scsi MINOLTA
-LINE scsi MITSBISH MCA-S600C
-LINE scsi MITSBISH MCA-SS600
-LINE scsi HP
-LINE scsi hp
-LINE $DEVICE
-
-NAME Avision|AV690U
-SERVER avision
-DRIVER USB
-LINE scsi AVISION
-LINE scsi FCPA
-LINE scsi MINOLTA
-LINE scsi MITSBISH MCA-S600C
-LINE scsi MITSBISH MCA-SS600
-LINE scsi HP
-LINE scsi hp
-LINE $DEVICE
-
-NAME Avision|AV800S
-SERVER avision
-DRIVER SCSI
-LINE scsi AVISION
-LINE scsi FCPA
-LINE scsi MINOLTA
-LINE scsi MITSBISH MCA-S600C
-LINE scsi MITSBISH MCA-SS600
-LINE scsi HP
-LINE scsi hp
-LINE $DEVICE
-
-NAME Avision|AV810C
-SERVER avision
-DRIVER SCSI
-LINE scsi AVISION
-LINE scsi FCPA
-LINE scsi MINOLTA
-LINE scsi MITSBISH MCA-S600C
-LINE scsi MITSBISH MCA-SS600
-LINE scsi HP
-LINE scsi hp
-LINE $DEVICE
-
-NAME Avision|AV820
-SERVER avision
-DRIVER SCSI
-LINE scsi AVISION
-LINE scsi FCPA
-LINE scsi MINOLTA
-LINE scsi MITSBISH MCA-S600C
-LINE scsi MITSBISH MCA-SS600
-LINE scsi HP
-LINE scsi hp
-LINE $DEVICE
-
-NAME Avision|AV820C
-SERVER avision
-DRIVER SCSI
-LINE scsi AVISION
-LINE scsi FCPA
-LINE scsi MINOLTA
-LINE scsi MITSBISH MCA-S600C
-LINE scsi MITSBISH MCA-SS600
-LINE scsi HP
-LINE scsi hp
-LINE $DEVICE
-
-NAME Avision|AV820C Plus
-SERVER avision
-DRIVER SCSI
-LINE scsi AVISION
-LINE scsi FCPA
-LINE scsi MINOLTA
-LINE scsi MITSBISH MCA-S600C
-LINE scsi MITSBISH MCA-SS600
-LINE scsi HP
-LINE scsi hp
-LINE $DEVICE
-
-NAME Avision|AV830C
-SERVER avision
-DRIVER SCSI
-LINE scsi AVISION
-LINE scsi FCPA
-LINE scsi MINOLTA
-LINE scsi MITSBISH MCA-S600C
-LINE scsi MITSBISH MCA-SS600
-LINE scsi HP
-LINE scsi hp
-LINE $DEVICE
-
-NAME Avision|AV830C Plus
-SERVER avision
-DRIVER SCSI
-LINE scsi AVISION
-LINE scsi FCPA
-LINE scsi MINOLTA
-LINE scsi MITSBISH MCA-S600C
-LINE scsi MITSBISH MCA-SS600
-LINE scsi HP
-LINE scsi hp
-LINE $DEVICE
-
-NAME Avision|AV880
-SERVER avision
-DRIVER SCSI
-LINE scsi AVISION
-LINE scsi FCPA
-LINE scsi MINOLTA
-LINE scsi MITSBISH MCA-S600C
-LINE scsi MITSBISH MCA-SS600
-LINE scsi HP
-LINE scsi hp
-LINE $DEVICE
-
-NAME Avision|AV880C
-SERVER avision
-DRIVER SCSI
-LINE scsi AVISION
-LINE scsi FCPA
-LINE scsi MINOLTA
-LINE scsi MITSBISH MCA-S600C
-LINE scsi MITSBISH MCA-SS600
-LINE scsi HP
-LINE scsi hp
-LINE $DEVICE
-
-NAME Avision|AV8000S
-SERVER avision
-DRIVER SCSI
-LINE scsi AVISION
-LINE scsi FCPA
-LINE scsi MINOLTA
-LINE scsi MITSBISH MCA-S600C
-LINE scsi MITSBISH MCA-SS600
-LINE scsi HP
-LINE scsi hp
-LINE $DEVICE
-
-NAME Hewlett-Packard|ScanJet 5300C
-SERVER avision
-DRIVER USB
-LINE scsi AVISION
-LINE scsi FCPA
-LINE scsi MINOLTA
-LINE scsi MITSBISH MCA-S600C
-LINE scsi MITSBISH MCA-SS600
-LINE scsi HP
-LINE scsi hp
-LINE $DEVICE
-
-NAME Hewlett-Packard|ScanJet 5370C
-SERVER avision
-DRIVER USB
-LINE scsi AVISION
-LINE scsi FCPA
-LINE scsi MINOLTA
-LINE scsi MITSBISH MCA-S600C
-LINE scsi MITSBISH MCA-SS600
-LINE scsi HP
-LINE scsi hp
-LINE $DEVICE
-
-NAME Mitsubishi|MCA-ADFC
-SERVER avision
-DRIVER SCSI
-LINE scsi AVISION
-LINE scsi FCPA
-LINE scsi MINOLTA
-LINE scsi MITSBISH MCA-S600C
-LINE scsi MITSBISH MCA-SS600
-LINE scsi HP
-LINE scsi hp
-LINE $DEVICE
-
-NAME Mitsubishi|S1200C
-SERVER avision
-DRIVER SCSI
-LINE scsi AVISION
-LINE scsi FCPA
-LINE scsi MINOLTA
-LINE scsi MITSBISH MCA-S600C
-LINE scsi MITSBISH MCA-SS600
-LINE scsi HP
-LINE scsi hp
-LINE $DEVICE
-
-NAME Mitsubishi|S600C
-SERVER avision
-DRIVER SCSI
-LINE scsi AVISION
-LINE scsi FCPA
-LINE scsi MINOLTA
-LINE scsi MITSBISH MCA-S600C
-LINE scsi MITSBISH MCA-SS600
-LINE scsi HP
-LINE scsi hp
-LINE $DEVICE
-
-NAME Fujitsu|ScanPartner
-SERVER avision
-DRIVER SCSI
-LINE scsi AVISION
-LINE scsi FCPA
-LINE scsi MINOLTA
-LINE scsi MITSBISH MCA-S600C
-LINE scsi MITSBISH MCA-SS600
-LINE scsi HP
-LINE scsi hp
-LINE $DEVICE
-
-NAME Fujitsu|ScanPartner 10
-SERVER avision
-DRIVER SCSI
-LINE scsi AVISION
-LINE scsi FCPA
-LINE scsi MINOLTA
-LINE scsi MITSBISH MCA-S600C
-LINE scsi MITSBISH MCA-SS600
-LINE scsi HP
-LINE scsi hp
-LINE $DEVICE
-
-NAME Fujitsu|ScanPartner 10C
-SERVER avision
-DRIVER SCSI
-LINE scsi AVISION
-LINE scsi FCPA
-LINE scsi MINOLTA
-LINE scsi MITSBISH MCA-S600C
-LINE scsi MITSBISH MCA-SS600
-LINE scsi HP
-LINE scsi hp
-LINE $DEVICE
-
-NAME Fujitsu|ScanPartner 15C
-SERVER avision
-DRIVER SCSI
-LINE scsi AVISION
-LINE scsi FCPA
-LINE scsi MINOLTA
-LINE scsi MITSBISH MCA-S600C
-LINE scsi MITSBISH MCA-SS600
-LINE scsi HP
-LINE scsi hp
-LINE $DEVICE
-
-NAME Fujitsu|ScanPartner 300C
-SERVER avision
-DRIVER SCSI
-LINE scsi AVISION
-LINE scsi FCPA
-LINE scsi MINOLTA
-LINE scsi MITSBISH MCA-S600C
-LINE scsi MITSBISH MCA-SS600
-LINE scsi HP
-LINE scsi hp
-LINE $DEVICE
-
-NAME Fujitsu|ScanPartner 600C
-SERVER avision
-DRIVER SCSI
-LINE scsi AVISION
-LINE scsi FCPA
-LINE scsi MINOLTA
-LINE scsi MITSBISH MCA-S600C
-LINE scsi MITSBISH MCA-SS600
-LINE scsi HP
-LINE scsi hp
-LINE $DEVICE
-
-NAME Fujitsu|ScanPartner Jr
-SERVER avision
-DRIVER SCSI
-LINE scsi AVISION
-LINE scsi FCPA
-LINE scsi MINOLTA
-LINE scsi MITSBISH MCA-S600C
-LINE scsi MITSBISH MCA-SS600
-LINE scsi HP
-LINE scsi hp
-LINE $DEVICE
-
-# from /root/s/sane-backends-1.0.11/doc/descriptions/bh.desc
-NAME Bell and Howell|COPISCAN II 6338
-SERVER bh
-DRIVER SCSI
-LINE scsi "B&H SCSI"
-LINE $DEVICE
-COMMENT Duplex Scanner with ACE - development model
-
-NAME Bell and Howell|COPISCAN II 2135
-SERVER bh
-DRIVER SCSI
-LINE scsi "B&H SCSI"
-LINE $DEVICE
-COMMENT Simplex Scanner
-
-NAME Bell and Howell|COPISCAN II 2137(A)
-SERVER bh
-DRIVER SCSI
-LINE scsi "B&H SCSI"
-LINE $DEVICE
-COMMENT Simplex Scanner (with ACE) - limited testing
-
-NAME Bell and Howell|COPISCAN II 2138A
-SERVER bh
-DRIVER SCSI
-LINE scsi "B&H SCSI"
-LINE $DEVICE
-COMMENT Simplex Scanner with ACE
-
-NAME Bell and Howell|COPISCAN II 3238
-SERVER bh
-DRIVER SCSI
-LINE scsi "B&H SCSI"
-LINE $DEVICE
-COMMENT Simplex Scanner
-
-NAME Bell and Howell|COPISCAN II 3338(A)
-SERVER bh
-DRIVER SCSI
-LINE scsi "B&H SCSI"
-LINE $DEVICE
-COMMENT Simplex Scanner (with ACE)
-
-# from /root/s/sane-backends-1.0.11/doc/descriptions/canon630u.desc
-NAME Canon|CanoScan fb630u
-SERVER canon630u
-DRIVER USB
-LINE usb $VENDOR $PRODUCT
-COMMENT OK
-
-NAME Canon|CanoScan fb636u
-SERVER canon630u
-DRIVER USB
-LINE usb $VENDOR $PRODUCT
-COMMENT hopefully works
-
-# from /root/s/sane-backends-1.0.11/doc/descriptions/canon.desc
-NAME Canon|CanoScan 300
-SERVER canon
-DRIVER SCSI
-LINE $DEVICE
-
-NAME Canon|CanoScan 600
-SERVER canon
-DRIVER SCSI
-LINE $DEVICE
-
-NAME Canon|CanoScan 620S
-SERVER canon
-DRIVER SCSI
-LINE $DEVICE
-
-NAME Canon|CanoScan 2700F
-SERVER canon
-DRIVER SCSI
-LINE $DEVICE
-
-NAME Canon|CanoScan 2710
-SERVER canon
-DRIVER SCSI
-LINE $DEVICE
-
-# from /root/s/sane-backends-1.0.11/doc/descriptions/canon_pp.desc
-NAME Canon|CanoScan FB310P
-SERVER canon_pp
-DRIVER Parport (ECP)
-LINE ieee1284 parport0
-LINE init_mode AUTO parport0
-COMMENT Rebadged Avision, different command set
-
-NAME Canon|CanoScan FB610P
-SERVER canon_pp
-DRIVER Parport (ECP)
-LINE ieee1284 parport0
-LINE init_mode AUTO parport0
-COMMENT Rebadged Avision, different command set
-
-NAME Canon|CanoScan FB320P
-SERVER canon_pp
-DRIVER Parport (ECP)
-LINE ieee1284 parport0
-LINE init_mode AUTO parport0
-COMMENT Newly added support
-
-NAME Canon|CanoScan FB620P
-SERVER canon_pp
-DRIVER Parport (ECP)
-LINE ieee1284 parport0
-LINE init_mode AUTO parport0
-COMMENT Newly added support
-
-NAME Canon|CanoScan FB330P
-SERVER canon_pp
-DRIVER Parport (ECP)
-LINE ieee1284 parport0
-LINE init_mode AUTO parport0
-
-NAME Canon|CanoScan FB630P
-SERVER canon_pp
-DRIVER Parport (ECP)
-LINE ieee1284 parport0
-LINE init_mode AUTO parport0
-
-NAME Canon|CanoScan N340P
-SERVER canon_pp
-DRIVER Parport (ECP)
-LINE ieee1284 parport0
-LINE init_mode AUTO parport0
-
-NAME Canon|CanoScan N640P
-SERVER canon_pp
-DRIVER Parport (ECP)
-LINE ieee1284 parport0
-LINE init_mode AUTO parport0
-
-NAME Canon|CanoScan N640P ex
-SERVER canon_pp
-DRIVER Parport (ECP)
-LINE ieee1284 parport0
-LINE init_mode AUTO parport0
-COMMENT Just an N640P in a different box?
-
-# from /root/s/sane-backends-1.0.11/doc/descriptions/coolscan2.desc
-NAME Nikon Corp.|LS 30
-SERVER coolscan2
-DRIVER SCSI
-COMMENT working -- model available to developer
-
-NAME Nikon Corp.|LS 2000
-SERVER coolscan2
-DRIVER SCSI
-
-NAME Nikon Corp.|LS 40 ED
-SERVER coolscan2
-DRIVER USB
-
-NAME Nikon Corp.|LS 4000 ED
-SERVER coolscan2
-DRIVER IEEE1394
-COMMENT needs linux kernel 2.4.19 or later
-
-NAME Nikon Corp.|LS 8000 ED
-SERVER coolscan2
-DRIVER IEEE1394
-COMMENT needs linux kernel 2.4.19 or later
-
-# from /root/s/sane-backends-1.0.11/doc/descriptions/coolscan.desc
+# from sane-backends-1.0.12/doc/descriptions/coolscan.desc
 NAME Nikon Corp.|LS-20
 SERVER coolscan
 DRIVER SCSI
 LINE scsi Nikon * Scanner
 LINE $DEVICE
-LINE auto
 COMMENT The LS-20 has been replaced by the LS-30
 
 NAME Nikon Corp.|LS-30
@@ -795,7 +175,6 @@ SERVER coolscan
 DRIVER SCSI
 LINE scsi Nikon * Scanner
 LINE $DEVICE
-LINE auto
 COMMENT alpha: only 24/30 bit RGB + 32/40 bit RGBI
 
 NAME Nikon Corp.|LS-2000
@@ -803,7 +182,6 @@ SERVER coolscan
 DRIVER SCSI
 LINE scsi Nikon * Scanner
 LINE $DEVICE
-LINE auto
 COMMENT alpha: only 24/36 bit + RGB 32/48 bit RGBI
 
 NAME Nikon Corp.|LS-1000
@@ -811,563 +189,9 @@ SERVER coolscan
 DRIVER SCSI
 LINE scsi Nikon * Scanner
 LINE $DEVICE
-LINE auto
 COMMENT Doesn't support gamma correction
 
-# from /root/s/sane-backends-1.0.11/doc/descriptions/dc210.desc
-NAME Kodak Co.|DC210
-SERVER dc210
-DRIVER Serial port
-LINE port=$DEVICE
-
-# from /root/s/sane-backends-1.0.11/doc/descriptions/dc240.desc
-NAME Kodak Co.|DC240
-SERVER dc240
-DRIVER Serial port
-LINE port=$DEVICE
-
-# from /root/s/sane-backends-1.0.11/doc/descriptions/dc25.desc
-NAME Kodak Co.|DC25
-SERVER dc25
-DRIVER Serial port
-LINE port=$DEVICE
-
-NAME Kodak Co.|DC20
-SERVER dc25
-DRIVER Serial port
-LINE port=$DEVICE
-COMMENT DC-20 untested by author but reported to work
-
-# from /root/s/sane-backends-1.0.11/doc/descriptions/dll.desc
-# from /root/s/sane-backends-1.0.11/doc/descriptions/dmc.desc
-NAME Polaroid|DMC
-SERVER dmc
-DRIVER SCSI
-LINE $DEVICE
-
-# from /root/s/sane-backends-1.0.11/doc/descriptions/epson.desc
-NAME Epson Corp.|GT-5000
-SERVER epson
-DRIVER Parport
-PARPORTLINE pio 0x378
-PARPORTLINE pio 0x278
-PARPORTLINE pio 0x3BC
-
-NAME Epson Corp.|Actionscanner II
-SERVER epson
-DRIVER Parport
-PARPORTLINE pio 0x378
-PARPORTLINE pio 0x278
-PARPORTLINE pio 0x3BC
-COMMENT US version of GT-5000
-
-NAME Epson Corp.|GT-6000
-SERVER epson
-DRIVER SCSI Parport
-PARPORTLINE pio 0x378
-PARPORTLINE pio 0x278
-PARPORTLINE pio 0x3BC
-SCSILINE scsi EPSON
-
-NAME Epson Corp.|ES-300C
-SERVER epson
-DRIVER SCSI Parport
-PARPORTLINE pio 0x378
-PARPORTLINE pio 0x278
-PARPORTLINE pio 0x3BC
-SCSILINE scsi EPSON
-COMMENT US version of GT-6000
-
-NAME Epson Corp.|GT-5500
-SERVER epson
-DRIVER SCSI
-SCSILINE scsi EPSON
-
-NAME Epson Corp.|GT-6500
-SERVER epson
-DRIVER Parport
-PARPORTLINE pio 0x378
-PARPORTLINE pio 0x278
-PARPORTLINE pio 0x3BC
-
-NAME Epson Corp.|ES-600C
-SERVER epson
-DRIVER Parport
-PARPORTLINE pio 0x378
-PARPORTLINE pio 0x278
-PARPORTLINE pio 0x3BC
-COMMENT US version of GT-6500
-
-NAME Epson Corp.|ES-1200C
-SERVER epson
-DRIVER Parport
-PARPORTLINE pio 0x378
-PARPORTLINE pio 0x278
-PARPORTLINE pio 0x3BC
-COMMENT US version of GT-9000
-
-NAME Epson Corp.|GT-7000
-SERVER epson
-DRIVER SCSI
-SCSILINE scsi EPSON
-
-NAME Epson Corp.|GT-8000
-SERVER epson
-DRIVER SCSI
-SCSILINE scsi EPSON
-
-NAME Epson Corp.|ES-8500
-SERVER epson
-DRIVER SCSI
-SCSILINE scsi EPSON
-
-NAME Epson Corp.|Perfection 636S
-SERVER epson
-DRIVER SCSI
-SCSILINE scsi EPSON
-COMMENT US version of GT-7000
-
-NAME Epson Corp.|Perfection 636U
-SERVER epson
-DRIVER USB
-USBLINE usb $VENDOR $PRODUCT
-
-NAME Epson Corp.|Perfection 610
-SERVER epson
-DRIVER USB
-USBLINE usb $VENDOR $PRODUCT
-
-NAME Epson Corp.|Perfection 640
-SERVER epson
-DRIVER USB
-USBLINE usb $VENDOR $PRODUCT
-
-NAME Epson Corp.|Perfection 1200S
-SERVER epson
-DRIVER SCSI
-SCSILINE scsi EPSON
-
-NAME Epson Corp.|Perfection 1200U
-SERVER epson
-DRIVER USB
-USBLINE usb $VENDOR $PRODUCT
-
-NAME Epson Corp.|Perfection 1200Photo
-SERVER epson
-DRIVER USB
-USBLINE usb $VENDOR $PRODUCT
-COMMENT with TPU
-
-NAME Epson Corp.|Perfection 1240
-SERVER epson
-DRIVER SCSI USB
-SCSILINE scsi EPSON
-USBLINE usb $VENDOR $PRODUCT
-
-NAME Epson Corp.|Perfection 1640
-SERVER epson
-DRIVER SCSI USB
-SCSILINE scsi EPSON
-USBLINE usb $VENDOR $PRODUCT
-
-NAME Epson Corp.|Perfection 1650
-SERVER epson
-DRIVER USB
-USBLINE usb $VENDOR $PRODUCT
-
-NAME Epson Corp.|Perfection 1660
-SERVER epson
-DRIVER USB
-USBLINE usb $VENDOR $PRODUCT
-
-NAME Epson Corp.|Perfection 2400
-SERVER epson
-DRIVER USB
-USBLINE usb $VENDOR $PRODUCT
-
-NAME Epson Corp.|Perfection 2450
-SERVER epson
-DRIVER USB IEEE-1394
-USBLINE usb $VENDOR $PRODUCT
-
-NAME Epson Corp.|Perfection 3200
-SERVER epson
-DRIVER USB
-USBLINE usb $VENDOR $PRODUCT
-COMMENT US version of the GT-9800
-
-NAME Epson Corp.|Expression 636
-SERVER epson
-DRIVER SCSI
-SCSILINE scsi EPSON
-COMMENT US version of GT-9500
-
-NAME Epson Corp.|Expression 800
-SERVER epson
-DRIVER SCSI
-SCSILINE scsi EPSON
-
-NAME Epson Corp.|Expression 1600
-SERVER epson
-DRIVER SCSI USB IEEE-1394
-SCSILINE scsi EPSON
-USBLINE usb $VENDOR $PRODUCT
-
-NAME Epson Corp.|Expression 1680
-SERVER epson
-DRIVER SCSI USB IEEE-1394
-SCSILINE scsi EPSON
-USBLINE usb $VENDOR $PRODUCT
-
-NAME Epson Corp.|FilmScan 200
-SERVER epson
-DRIVER SCSI
-SCSILINE scsi EPSON
-COMMENT A better backend for the FilmScan 200 can be found at <A HREF=\"http://www.vjet.demon.co.uk/scanner/\">http://www.vjet.demon.co.uk/scanner/</A>
-
-NAME Epson Corp.|CX-3200
-SERVER epson
-DRIVER USB
-USBLINE usb $VENDOR $PRODUCT
-
-NAME Epson Corp.|CX-5200
-SERVER epson
-DRIVER USB
-USBLINE usb $VENDOR $PRODUCT
-
-# from /root/s/sane-backends-1.0.11/doc/descriptions/fujitsu.desc
-NAME Fujitsu|M3096G
-SERVER fujitsu
-DRIVER SCSI
-SCSILINE scsi FUJITSU
-
-NAME Fujitsu|M3091DCd
-SERVER fujitsu
-DRIVER SCSI
-SCSILINE scsi FUJITSU
-
-NAME Fujitsu|M3092DCd
-SERVER fujitsu
-DRIVER SCSI
-SCSILINE scsi FUJITSU
-
-NAME Fujitsu|M3093GXim
-SERVER fujitsu
-DRIVER SCSI
-SCSILINE scsi FUJITSU
-
-NAME Fujitsu|M3093GDim
-SERVER fujitsu
-DRIVER SCSI
-SCSILINE scsi FUJITSU
-
-NAME Fujitsu|M4097
-SERVER fujitsu
-DRIVER SCSI
-SCSILINE scsi FUJITSU
-
-NAME Fujitsu|fi-4220C
-SERVER fujitsu
-DRIVER SCSI USB
-SCSILINE scsi FUJITSU
-USBLINE usb $VENDOR $PRODUCT
-
-NAME Fujitsu|fi-4340C
-SERVER fujitsu
-DRIVER SCSI USB
-SCSILINE scsi FUJITSU
-USBLINE usb $VENDOR $PRODUCT
-
-# from /root/s/sane-backends-1.0.11/doc/descriptions/gphoto2.desc
-# from /root/s/sane-backends-1.0.11/doc/descriptions/gt68xx.desc
-NAME Mustek Systems Inc.|BearPaw 1200 CS
-SERVER gt68xx
-DRIVER USB
-LINE usb $VENDOR $PRODUCT
-COMMENT Only the USB scanners mentioned below are supported. For other Mustek BearPaws, look at the Plustek backend.
-
-NAME Mustek Systems Inc.|BearPaw 1200 CU
-SERVER gt68xx
-DRIVER USB
-LINE usb $VENDOR $PRODUCT
-
-NAME Mustek Systems Inc.|BearPaw 1200 CU Plus
-SERVER gt68xx
-DRIVER USB
-LINE usb $VENDOR $PRODUCT
-
-NAME Mustek Systems Inc.|BearPaw 1200 TA
-SERVER gt68xx
-DRIVER USB
-LINE usb $VENDOR $PRODUCT
-COMMENT Transparency adapter supported
-
-NAME Mustek Systems Inc.|BearPaw 2400 CS
-SERVER gt68xx
-DRIVER USB
-LINE usb $VENDOR $PRODUCT
-COMMENT probably works, reports are welcome
-
-NAME Mustek Systems Inc.|BearPaw 2400 CS Plus
-SERVER gt68xx
-DRIVER USB
-LINE usb $VENDOR $PRODUCT
-COMMENT probably works, reports are welcome
-
-NAME Mustek Systems Inc.|BearPaw 2400 CU
-SERVER gt68xx
-DRIVER USB
-LINE usb $VENDOR $PRODUCT
-COMMENT works, but is slow"
-
-NAME Mustek Systems Inc.|BearPaw 2400 CU Plus
-SERVER gt68xx
-DRIVER USB
-LINE usb $VENDOR $PRODUCT
-
-NAME Mustek Systems Inc.|BearPaw 2400 TA
-SERVER gt68xx
-DRIVER USB
-LINE usb $VENDOR $PRODUCT
-COMMENT Transparency adapter supported
-
-NAME Mustek Systems Inc.|BearPaw 2400 TA Plus
-SERVER gt68xx
-DRIVER USB
-LINE usb $VENDOR $PRODUCT
-COMMENT Transparency adapter supported
-
-NAME Mustek Systems Inc.|ScanExpress 1200 UB Plus
-SERVER gt68xx
-DRIVER USB
-LINE usb $VENDOR $PRODUCT
-
-NAME Mustek Systems Inc.|ScanExpress A3 USB
-SERVER gt68xx
-DRIVER USB
-LINE usb $VENDOR $PRODUCT
-COMMENT Works.
-
-NAME Plustek, Inc.|OpticPro 1248U
-SERVER gt68xx
-DRIVER USB
-LINE usb $VENDOR $PRODUCT
-COMMENT Works up to 600 dpi
-
-NAME Artec|Ultima 2000
-SERVER gt68xx
-DRIVER USB
-LINE usb $VENDOR $PRODUCT
-COMMENT works, only product id 0x4002 is supported
-
-NAME Medion/Lifetec/Tevion/Cytron|LT 9452
-SERVER gt68xx
-DRIVER USB
-LINE usb $VENDOR $PRODUCT
-COMMENT Simlar to Mustek ScanExpress 1200 UB Plus
-
-NAME Medion/Lifetec/Tevion/Cytron|MD/LT 9375
-SERVER gt68xx
-DRIVER USB
-LINE usb $VENDOR $PRODUCT
-COMMENT Untested, but is reported to have the same ids as the Artec Ultima 2000. Please test.
-
-NAME Medion/Lifetec/Tevion/Cytron|MD/LT 9385
-SERVER gt68xx
-DRIVER USB
-LINE usb $VENDOR $PRODUCT
-COMMENT Similar to Artec Ultima 2000
-
-NAME Trust Technologies|Flat Scan USB 19200
-SERVER gt68xx
-DRIVER USB
-LINE usb $VENDOR $PRODUCT
-COMMENT Similar to Artec Ultima 2000
-
-NAME Lexmark|X70
-SERVER gt68xx
-DRIVER USB
-LINE usb $VENDOR $PRODUCT
-COMMENT works, some resolutions fail at 16 bit
-
-NAME Genius|Colorpage Vivid3x
-SERVER gt68xx
-DRIVER USB
-LINE usb $VENDOR $PRODUCT
-COMMENT Should be detected but most probably doesn't work yet. Testers welcome.
-
-# from /root/s/sane-backends-1.0.11/doc/descriptions/hp.desc
-NAME Hewlett-Packard|ScanJet Plus
-SERVER hp
-DRIVER Propietary
-LINE $DEVICE
-COMMENT Driver for HP parallel interface card required
-
-NAME Hewlett-Packard|ScanJet IIc
-SERVER hp
-DRIVER SCSI
-LINE $DEVICE
-
-NAME Hewlett-Packard|ScanJet IIp
-SERVER hp
-DRIVER SCSI
-LINE $DEVICE
-
-NAME Hewlett-Packard|ScanJet IIcx
-SERVER hp
-DRIVER SCSI
-LINE $DEVICE
-
-NAME Hewlett-Packard|ScanJet 3c
-SERVER hp
-DRIVER SCSI
-LINE $DEVICE
-
-NAME Hewlett-Packard|ScanJet 3p
-SERVER hp
-DRIVER SCSI
-LINE $DEVICE
-
-NAME Hewlett-Packard|ScanJet 4c
-SERVER hp
-DRIVER SCSI
-LINE $DEVICE
-
-NAME Hewlett-Packard|ScanJet 4p
-SERVER hp
-DRIVER SCSI
-LINE $DEVICE
-
-NAME Hewlett-Packard|ScanJet 4100C
-SERVER hp
-DRIVER USB
-USBLINE usb $VENDOR $PRODUCT
-LINE $DEVICE
-
-NAME Hewlett-Packard|ScanJet 5p
-SERVER hp
-DRIVER SCSI
-LINE $DEVICE
-
-NAME Hewlett-Packard|ScanJet 5100C
-SERVER hp
-DRIVER Parport
-LINE $DEVICE
-COMMENT Requires ppscsi driver and epst module
-
-NAME Hewlett-Packard|ScanJet 5200C
-SERVER hp
-DRIVER Parport USB
-USBLINE usb $VENDOR $PRODUCT
-LINE $DEVICE
-COMMENT Parallel interface requires ppscsi driver and epst module
-
-NAME Hewlett-Packard|ScanJet 6100C
-SERVER hp
-DRIVER SCSI
-LINE $DEVICE
-
-NAME Hewlett-Packard|ScanJet 6200C
-SERVER hp
-DRIVER SCSI USB
-USBLINE usb $VENDOR $PRODUCT
-LINE $DEVICE
-
-NAME Hewlett-Packard|ScanJet 6250C
-SERVER hp
-DRIVER SCSI USB
-USBLINE usb $VENDOR $PRODUCT
-LINE $DEVICE
-
-NAME Hewlett-Packard|ScanJet 6300C
-SERVER hp
-DRIVER SCSI USB
-USBLINE usb $VENDOR $PRODUCT
-LINE $DEVICE
-
-NAME Hewlett-Packard|ScanJet 6350C
-SERVER hp
-DRIVER SCSI USB
-USBLINE usb $VENDOR $PRODUCT
-LINE $DEVICE
-
-NAME Hewlett-Packard|ScanJet 6390C
-SERVER hp
-DRIVER SCSI USB
-USBLINE usb $VENDOR $PRODUCT
-LINE $DEVICE
-
-NAME Hewlett-Packard|PhotoSmart PhotoScanner
-SERVER hp
-DRIVER SCSI
-LINE $DEVICE
-
-# from /root/s/sane-backends-1.0.11/doc/descriptions/hpsj5s.desc
-NAME Hewlett-Packard|ScanJet 5s
-SERVER hpsj5s
-DRIVER Parport (EPP)
-LINE parport0
-COMMENT Requires libieee1284 library
-
-# from /root/s/sane-backends-1.0.11/doc/descriptions/leo.desc
-NAME Genius|FS-1130 Colorpage Scanner
-SERVER leo
-DRIVER SCSI
-LINE scsi ACROSS * Scanner * * * 0
-LINE scsi "LEO" "LEOScan-S3"
-LINE $DEVICE
-COMMENT FCC ID LUZFS1130
-
-# from /root/s/sane-backends-1.0.11/doc/descriptions/matsushita.desc
-NAME Panasonic|KV-SS25
-SERVER matsushita
-DRIVER SCSI
-LINE scsi "K.M.E.  " "KV-SS25A        "
-LINE $DEVICE
-
-NAME Panasonic|KV-SS25D
-SERVER matsushita
-DRIVER SCSI
-LINE scsi "K.M.E.  " "KV-SS25A        "
-LINE $DEVICE
-
-NAME Panasonic|KV-SS50
-SERVER matsushita
-DRIVER SCSI
-LINE scsi "K.M.E.  " "KV-SS25A        "
-LINE $DEVICE
-
-NAME Panasonic|KV-SS55
-SERVER matsushita
-DRIVER SCSI
-LINE scsi "K.M.E.  " "KV-SS25A        "
-LINE $DEVICE
-
-NAME Panasonic|KV-SS50EX
-SERVER matsushita
-DRIVER SCSI
-LINE scsi "K.M.E.  " "KV-SS25A        "
-LINE $DEVICE
-
-NAME Panasonic|KV-SS55EX
-SERVER matsushita
-DRIVER SCSI
-LINE scsi "K.M.E.  " "KV-SS25A        "
-LINE $DEVICE
-
-NAME Panasonic|KV-SS850
-SERVER matsushita
-DRIVER SCSI
-LINE scsi "K.M.E.  " "KV-SS25A        "
-LINE $DEVICE
-
-NAME Panasonic|KV-SS855
-SERVER matsushita
-DRIVER SCSI
-LINE scsi "K.M.E.  " "KV-SS25A        "
-LINE $DEVICE
-
-# from /root/s/sane-backends-1.0.11/doc/descriptions/microtek2.desc
+# from sane-backends-1.0.12/doc/descriptions/microtek2.desc
 NAME Microtek|ScanMaker E3plus
 SERVER microtek2
 DRIVER Parport
@@ -1526,125 +350,1099 @@ DRIVER SCSI
 LINE scsi * * Scanner
 LINE $DEVICE
 
-# from /root/s/sane-backends-1.0.11/doc/descriptions/microtek.desc
-NAME Microtek|Scanmaker E6
-SERVER microtek
+# from sane-backends-1.0.12/doc/descriptions/ibm.desc
+NAME Ricoh|IS-410
+SERVER ibm
 DRIVER SCSI
-LINE scsi * * Scanner
+LINE scsi IBM 2456
+LINE scsi RICOH
+LINE $DEVICE
+COMMENT Untested, please report!
+
+NAME Ricoh|IS-420
+SERVER ibm
+DRIVER SCSI
+LINE scsi IBM 2456
+LINE scsi RICOH
+LINE $DEVICE
+COMMENT Works at least in flatbed mode.
+
+NAME Ricoh|IS-430
+SERVER ibm
+DRIVER SCSI
+LINE scsi IBM 2456
+LINE scsi RICOH
+LINE $DEVICE
+COMMENT Untested, please report!
+
+# from sane-backends-1.0.12/doc/descriptions/canon630u.desc
+NAME Canon|CanoScan fb630u
+SERVER canon630u
+DRIVER USB
+LINE usb $VENDOR $PRODUCT
+COMMENT OK
+
+NAME Canon|CanoScan fb636u
+SERVER canon630u
+DRIVER USB
+LINE usb $VENDOR $PRODUCT
+COMMENT hopefully works
+
+# from sane-backends-1.0.12/doc/descriptions/pnm.desc
+# from sane-backends-1.0.12/doc/descriptions/artec.desc
+NAME Artec/Ultima|AT3
+SERVER artec
+DRIVER SCSI
+LINE scsi ULTIMA
+LINE $DEVICE
+COMMENT all modes working
+
+NAME Artec/Ultima|A6000C
+SERVER artec
+DRIVER SCSI
+LINE scsi ULTIMA
+LINE $DEVICE
+COMMENT all modes working
+
+NAME Artec/Ultima|A6000C PLUS
+SERVER artec
+DRIVER SCSI
+LINE scsi ULTIMA
+LINE $DEVICE
+COMMENT f/w <= v1.92 alpha, f/w >= v1.93 OK
+
+NAME Artec/Ultima|AT6
+SERVER artec
+DRIVER SCSI
+LINE scsi ULTIMA
+LINE $DEVICE
+COMMENT First scan works, subsequent fail until scanner power cycle.
+
+NAME Artec/Ultima|AT12
+SERVER artec
+DRIVER SCSI
+LINE scsi ULTIMA
+LINE $DEVICE
+COMMENT all modes working
+
+NAME Plustek, Inc.|OpticPro 19200S
+SERVER artec
+DRIVER SCSI
+LINE scsi ULTIMA
+LINE $DEVICE
+COMMENT rebadged Artec AM12S
+
+# from sane-backends-1.0.12/doc/descriptions/sp15c.desc
+NAME Fujitsu|SP15C
+SERVER sp15c
+DRIVER SCSI
+LINE scsi FCPA
+
+# from sane-backends-1.0.12/doc/descriptions/dc25.desc
+NAME Kodak Co.|DC25
+SERVER dc25
+DRIVER Serial port
+LINE port=$DEVICE
+
+NAME Kodak Co.|DC20
+SERVER dc25
+DRIVER Serial port
+LINE port=$DEVICE
+COMMENT DC-20 untested by author but reported to work
+
+# from sane-backends-1.0.12/doc/descriptions/dc210.desc
+NAME Kodak Co.|DC210
+SERVER dc210
+DRIVER Serial port
+LINE port=$DEVICE
+
+# from sane-backends-1.0.12/doc/descriptions/v4l.desc
+# from sane-backends-1.0.12/doc/descriptions/pint.desc
+# from sane-backends-1.0.12/doc/descriptions/qcam.desc
+NAME Connectix|Color QuickCam
+SERVER qcam
+DRIVER Parport
+COMMENT Require root privileges.
+
+NAME Connectix|Greyscale QuickCam
+SERVER qcam
+DRIVER Parport
+COMMENT Require root privileges.  Partly working.
+
+# from sane-backends-1.0.12/doc/descriptions/sceptre.desc
+NAME Komodo|S1200
+SERVER sceptre
+DRIVER SCSI
+LINE scsi "KINPO   " "Vividscan S120  "
+LINE $DEVICE
+COMMENT rebadged Sceptre S1200
+
+# from sane-backends-1.0.12/doc/descriptions/canon_pp.desc
+NAME Canon|CanoScan FB310P
+SERVER canon_pp
+DRIVER Parport (ECP)
+LINE ieee1284 parport0
+LINE init_mode AUTO parport0
+COMMENT Rebadged Avision, different command set
+
+NAME Canon|CanoScan FB610P
+SERVER canon_pp
+DRIVER Parport (ECP)
+LINE ieee1284 parport0
+LINE init_mode AUTO parport0
+COMMENT Rebadged Avision, different command set
+
+NAME Canon|CanoScan FB320P
+SERVER canon_pp
+DRIVER Parport (ECP)
+LINE ieee1284 parport0
+LINE init_mode AUTO parport0
+COMMENT Newly added support
+
+NAME Canon|CanoScan FB620P
+SERVER canon_pp
+DRIVER Parport (ECP)
+LINE ieee1284 parport0
+LINE init_mode AUTO parport0
+COMMENT Newly added support
+
+NAME Canon|CanoScan FB330P
+SERVER canon_pp
+DRIVER Parport (ECP)
+LINE ieee1284 parport0
+LINE init_mode AUTO parport0
+
+NAME Canon|CanoScan FB630P
+SERVER canon_pp
+DRIVER Parport (ECP)
+LINE ieee1284 parport0
+LINE init_mode AUTO parport0
+
+NAME Canon|CanoScan N340P
+SERVER canon_pp
+DRIVER Parport (ECP)
+LINE ieee1284 parport0
+LINE init_mode AUTO parport0
+
+NAME Canon|CanoScan N640P
+SERVER canon_pp
+DRIVER Parport (ECP)
+LINE ieee1284 parport0
+LINE init_mode AUTO parport0
+
+NAME Canon|CanoScan N640P ex
+SERVER canon_pp
+DRIVER Parport (ECP)
+LINE ieee1284 parport0
+LINE init_mode AUTO parport0
+COMMENT Just an N640P in a different box?
+
+# from sane-backends-1.0.12/doc/descriptions/pie.desc
+NAME Devcom|9636PRO
+SERVER pie
+DRIVER SCSI
+LINE scsi DEVCOM * Scanner
+LINE scsi PIE * Scanner
+LINE scsi AdLib * Scanner
 LINE $DEVICE
 
-NAME Microtek|Scanmaker E3
-SERVER microtek
+NAME Devcom|9636S
+SERVER pie
 DRIVER SCSI
-LINE scsi * * Scanner
+LINE scsi DEVCOM * Scanner
+LINE scsi PIE * Scanner
+LINE scsi AdLib * Scanner
 LINE $DEVICE
 
-NAME Microtek|Scanmaker E2
-SERVER microtek
+NAME PIE|ScanAce 1236S
+SERVER pie
 DRIVER SCSI
-LINE scsi * * Scanner
-LINE $DEVICE
-COMMENT 3-pass
-
-NAME Microtek|Scanmaker 35t+
-SERVER microtek
-DRIVER SCSI
-LINE scsi * * Scanner
-LINE $DEVICE
-COMMENT slide-scanner
-
-NAME Microtek|Scanmaker 45t
-SERVER microtek
-DRIVER SCSI
-LINE scsi * * Scanner
-LINE $DEVICE
-COMMENT slide-scanner
-
-NAME Microtek|Scanmaker 35
-SERVER microtek
-DRIVER SCSI
-LINE scsi * * Scanner
-LINE $DEVICE
-COMMENT slide-scanner
-
-NAME Microtek|Scanmaker III
-SERVER microtek
-DRIVER SCSI
-LINE scsi * * Scanner
+LINE scsi DEVCOM * Scanner
+LINE scsi PIE * Scanner
+LINE scsi AdLib * Scanner
 LINE $DEVICE
 
-NAME Microtek|Scanmaker IISP
-SERVER microtek
+NAME PIE|ScanAce 1230S
+SERVER pie
 DRIVER SCSI
-LINE scsi * * Scanner
+LINE scsi DEVCOM * Scanner
+LINE scsi PIE * Scanner
+LINE scsi AdLib * Scanner
 LINE $DEVICE
 
-NAME Microtek|Scanmaker IIHR
-SERVER microtek
+NAME PIE|ScanAce II
+SERVER pie
 DRIVER SCSI
-LINE scsi * * Scanner
-LINE $DEVICE
-COMMENT 3-pass
-
-NAME Microtek|Scanmaker IIG
-SERVER microtek
-DRIVER SCSI
-LINE scsi * * Scanner
-LINE $DEVICE
-COMMENT gray only
-
-NAME Microtek|Scanmaker II
-SERVER microtek
-DRIVER SCSI
-LINE scsi * * Scanner
-LINE $DEVICE
-COMMENT 3-pass
-
-NAME Microtek|Scanmaker 600Z(S)
-SERVER microtek
-DRIVER SCSI
-LINE scsi * * Scanner
+LINE scsi DEVCOM * Scanner
+LINE scsi PIE * Scanner
+LINE scsi AdLib * Scanner
 LINE $DEVICE
 
-NAME Microtek|Scanmaker 600G(S)
-SERVER microtek
+NAME PIE|ScanAce III
+SERVER pie
 DRIVER SCSI
-LINE scsi * * Scanner
-LINE $DEVICE
-COMMENT gray only (see manpage)
-
-NAME AGFA-Gevaert NV|Arcus II
-SERVER microtek
-DRIVER SCSI
-LINE scsi * * Scanner
-LINE $DEVICE
-COMMENT Arcus *II*, not Arcus!
-
-NAME AGFA-Gevaert NV|StudioScan
-SERVER microtek
-DRIVER SCSI
-LINE scsi * * Scanner
+LINE scsi DEVCOM * Scanner
+LINE scsi PIE * Scanner
+LINE scsi AdLib * Scanner
 LINE $DEVICE
 
-NAME AGFA-Gevaert NV|StudioScan II
-SERVER microtek
+NAME PIE|ScanAce Plus
+SERVER pie
 DRIVER SCSI
-LINE scsi * * Scanner
+LINE scsi DEVCOM * Scanner
+LINE scsi PIE * Scanner
+LINE scsi AdLib * Scanner
 LINE $DEVICE
 
-NAME AGFA-Gevaert NV|StudioScan IIsi
-SERVER microtek
+NAME PIE|ScanAce II Plus
+SERVER pie
 DRIVER SCSI
-LINE scsi * * Scanner
+LINE scsi DEVCOM * Scanner
+LINE scsi PIE * Scanner
+LINE scsi AdLib * Scanner
 LINE $DEVICE
 
-NAME AGFA-Gevaert NV|DuoScan
-SERVER microtek
+NAME PIE|ScanAce III Plus
+SERVER pie
 DRIVER SCSI
-LINE scsi * * Scanner
+LINE scsi DEVCOM * Scanner
+LINE scsi PIE * Scanner
+LINE scsi AdLib * Scanner
 LINE $DEVICE
 
-# from /root/s/sane-backends-1.0.11/doc/descriptions/mustek.desc
+NAME PIE|ScanAce V
+SERVER pie
+DRIVER SCSI
+LINE scsi DEVCOM * Scanner
+LINE scsi PIE * Scanner
+LINE scsi AdLib * Scanner
+LINE $DEVICE
+
+NAME PIE|ScanAce ScanMedia
+SERVER pie
+DRIVER SCSI
+LINE scsi DEVCOM * Scanner
+LINE scsi PIE * Scanner
+LINE scsi AdLib * Scanner
+LINE $DEVICE
+
+NAME PIE|ScanAce ScanMedia II
+SERVER pie
+DRIVER SCSI
+LINE scsi DEVCOM * Scanner
+LINE scsi PIE * Scanner
+LINE scsi AdLib * Scanner
+LINE $DEVICE
+
+NAME PIE|ScanAce 630S
+SERVER pie
+DRIVER SCSI
+LINE scsi DEVCOM * Scanner
+LINE scsi PIE * Scanner
+LINE scsi AdLib * Scanner
+LINE $DEVICE
+
+NAME Adlib|JetScan630
+SERVER pie
+DRIVER SCSI
+LINE scsi DEVCOM * Scanner
+LINE scsi PIE * Scanner
+LINE scsi AdLib * Scanner
+LINE $DEVICE
+
+NAME Adlib|JetScan636PRO
+SERVER pie
+DRIVER SCSI
+LINE scsi DEVCOM * Scanner
+LINE scsi PIE * Scanner
+LINE scsi AdLib * Scanner
+LINE $DEVICE
+
+# from sane-backends-1.0.12/doc/descriptions/as6e.desc
+NAME Artec/Ultima|AS6E
+SERVER as6e
+DRIVER Parport
+COMMENT Requires the program 'as6edriver' to run.
+
+# from sane-backends-1.0.12/doc/descriptions/avision.desc
+NAME Avision|AV100CS
+SERVER avision
+DRIVER SCSI
+LINE scsi AVISION
+LINE scsi FCPA
+LINE scsi MINOLTA
+LINE scsi MITSBISH MCA-S600C
+LINE scsi MITSBISH MCA-SS600
+LINE scsi HP
+LINE scsi hp
+LINE $DEVICE
+
+NAME Avision|AV100IIICS
+SERVER avision
+DRIVER SCSI
+LINE scsi AVISION
+LINE scsi FCPA
+LINE scsi MINOLTA
+LINE scsi MITSBISH MCA-S600C
+LINE scsi MITSBISH MCA-SS600
+LINE scsi HP
+LINE scsi hp
+LINE $DEVICE
+
+NAME Avision|AV100S
+SERVER avision
+DRIVER SCSI
+LINE scsi AVISION
+LINE scsi FCPA
+LINE scsi MINOLTA
+LINE scsi MITSBISH MCA-S600C
+LINE scsi MITSBISH MCA-SS600
+LINE scsi HP
+LINE scsi hp
+LINE $DEVICE
+
+NAME Avision|AV210
+SERVER avision
+DRIVER USB
+LINE scsi AVISION
+LINE scsi FCPA
+LINE scsi MINOLTA
+LINE scsi MITSBISH MCA-S600C
+LINE scsi MITSBISH MCA-SS600
+LINE scsi HP
+LINE scsi hp
+LINE $DEVICE
+
+NAME Avision|AV220
+SERVER avision
+DRIVER USB
+LINE scsi AVISION
+LINE scsi FCPA
+LINE scsi MINOLTA
+LINE scsi MITSBISH MCA-S600C
+LINE scsi MITSBISH MCA-SS600
+LINE scsi HP
+LINE scsi hp
+LINE $DEVICE
+
+NAME Avision|AV240SC
+SERVER avision
+DRIVER SCSI
+LINE scsi AVISION
+LINE scsi FCPA
+LINE scsi MINOLTA
+LINE scsi MITSBISH MCA-S600C
+LINE scsi MITSBISH MCA-SS600
+LINE scsi HP
+LINE scsi hp
+LINE $DEVICE
+
+NAME Avision|AV260CS
+SERVER avision
+DRIVER SCSI
+LINE scsi AVISION
+LINE scsi FCPA
+LINE scsi MINOLTA
+LINE scsi MITSBISH MCA-S600C
+LINE scsi MITSBISH MCA-SS600
+LINE scsi HP
+LINE scsi hp
+LINE $DEVICE
+
+NAME Avision|AV360CS
+SERVER avision
+DRIVER SCSI
+LINE scsi AVISION
+LINE scsi FCPA
+LINE scsi MINOLTA
+LINE scsi MITSBISH MCA-S600C
+LINE scsi MITSBISH MCA-SS600
+LINE scsi HP
+LINE scsi hp
+LINE $DEVICE
+
+NAME Avision|AV363CS
+SERVER avision
+DRIVER SCSI
+LINE scsi AVISION
+LINE scsi FCPA
+LINE scsi MINOLTA
+LINE scsi MITSBISH MCA-S600C
+LINE scsi MITSBISH MCA-SS600
+LINE scsi HP
+LINE scsi hp
+LINE $DEVICE
+
+NAME Avision|AV420CS
+SERVER avision
+DRIVER SCSI
+LINE scsi AVISION
+LINE scsi FCPA
+LINE scsi MINOLTA
+LINE scsi MITSBISH MCA-S600C
+LINE scsi MITSBISH MCA-SS600
+LINE scsi HP
+LINE scsi hp
+LINE $DEVICE
+
+NAME Avision|AV6120
+SERVER avision
+DRIVER SCSI
+LINE scsi AVISION
+LINE scsi FCPA
+LINE scsi MINOLTA
+LINE scsi MITSBISH MCA-S600C
+LINE scsi MITSBISH MCA-SS600
+LINE scsi HP
+LINE scsi hp
+LINE $DEVICE
+
+NAME Avision|AV610CU Scancopier
+SERVER avision
+DRIVER USB
+LINE scsi AVISION
+LINE scsi FCPA
+LINE scsi MINOLTA
+LINE scsi MITSBISH MCA-S600C
+LINE scsi MITSBISH MCA-SS600
+LINE scsi HP
+LINE scsi hp
+LINE $DEVICE
+COMMENT 1 pass, 600 dpi
+
+NAME Avision|AV620CS
+SERVER avision
+DRIVER SCSI
+LINE scsi AVISION
+LINE scsi FCPA
+LINE scsi MINOLTA
+LINE scsi MITSBISH MCA-S600C
+LINE scsi MITSBISH MCA-SS600
+LINE scsi HP
+LINE scsi hp
+LINE $DEVICE
+COMMENT 1 pass, 600 dpi
+
+NAME Avision|AV620CS Plus
+SERVER avision
+DRIVER SCSI
+LINE scsi AVISION
+LINE scsi FCPA
+LINE scsi MINOLTA
+LINE scsi MITSBISH MCA-S600C
+LINE scsi MITSBISH MCA-SS600
+LINE scsi HP
+LINE scsi hp
+LINE $DEVICE
+COMMENT 1 pass, 1200 dpi
+
+NAME Avision|AV630CS
+SERVER avision
+DRIVER SCSI
+LINE scsi AVISION
+LINE scsi FCPA
+LINE scsi MINOLTA
+LINE scsi MITSBISH MCA-S600C
+LINE scsi MITSBISH MCA-SS600
+LINE scsi HP
+LINE scsi hp
+LINE $DEVICE
+COMMENT 1 pass, 1200 dpi - regularly tested
+
+NAME Avision|AV630CSL
+SERVER avision
+DRIVER SCSI
+LINE scsi AVISION
+LINE scsi FCPA
+LINE scsi MINOLTA
+LINE scsi MITSBISH MCA-S600C
+LINE scsi MITSBISH MCA-SS600
+LINE scsi HP
+LINE scsi hp
+LINE $DEVICE
+COMMENT 1 pass, 1200 dpi
+
+NAME Avision|AV6240
+SERVER avision
+DRIVER SCSI
+LINE scsi AVISION
+LINE scsi FCPA
+LINE scsi MINOLTA
+LINE scsi MITSBISH MCA-S600C
+LINE scsi MITSBISH MCA-SS600
+LINE scsi HP
+LINE scsi hp
+LINE $DEVICE
+COMMENT 1 pass, ??? dpi
+
+NAME Avision|AV600U
+SERVER avision
+DRIVER USB
+LINE scsi AVISION
+LINE scsi FCPA
+LINE scsi MINOLTA
+LINE scsi MITSBISH MCA-S600C
+LINE scsi MITSBISH MCA-SS600
+LINE scsi HP
+LINE scsi hp
+LINE $DEVICE
+COMMENT 1 pass, 1200 dpi
+
+NAME Avision|AV600U Plus
+SERVER avision
+DRIVER USB
+LINE scsi AVISION
+LINE scsi FCPA
+LINE scsi MINOLTA
+LINE scsi MITSBISH MCA-S600C
+LINE scsi MITSBISH MCA-SS600
+LINE scsi HP
+LINE scsi hp
+LINE $DEVICE
+COMMENT 1 pass, 1200 dpi
+
+NAME Avision|AV660S
+SERVER avision
+DRIVER USB
+LINE scsi AVISION
+LINE scsi FCPA
+LINE scsi MINOLTA
+LINE scsi MITSBISH MCA-S600C
+LINE scsi MITSBISH MCA-SS600
+LINE scsi HP
+LINE scsi hp
+LINE $DEVICE
+COMMENT 1 pass, 1200 dpi
+
+NAME Avision|AV680S
+SERVER avision
+DRIVER USB
+LINE scsi AVISION
+LINE scsi FCPA
+LINE scsi MINOLTA
+LINE scsi MITSBISH MCA-S600C
+LINE scsi MITSBISH MCA-SS600
+LINE scsi HP
+LINE scsi hp
+LINE $DEVICE
+COMMENT 1 pass, 1200 dpi
+
+NAME Avision|AV690U
+SERVER avision
+DRIVER USB
+LINE scsi AVISION
+LINE scsi FCPA
+LINE scsi MINOLTA
+LINE scsi MITSBISH MCA-S600C
+LINE scsi MITSBISH MCA-SS600
+LINE scsi HP
+LINE scsi hp
+LINE $DEVICE
+COMMENT 1 pass, 2400 dpi
+
+NAME Avision|AV800S
+SERVER avision
+DRIVER SCSI
+LINE scsi AVISION
+LINE scsi FCPA
+LINE scsi MINOLTA
+LINE scsi MITSBISH MCA-S600C
+LINE scsi MITSBISH MCA-SS600
+LINE scsi HP
+LINE scsi hp
+LINE $DEVICE
+COMMENT 1 pass, 1200 dpi
+
+NAME Avision|AV810C
+SERVER avision
+DRIVER SCSI
+LINE scsi AVISION
+LINE scsi FCPA
+LINE scsi MINOLTA
+LINE scsi MITSBISH MCA-S600C
+LINE scsi MITSBISH MCA-SS600
+LINE scsi HP
+LINE scsi hp
+LINE $DEVICE
+COMMENT 1 pass, 1200 dpi
+
+NAME Avision|AV820
+SERVER avision
+DRIVER SCSI
+LINE scsi AVISION
+LINE scsi FCPA
+LINE scsi MINOLTA
+LINE scsi MITSBISH MCA-S600C
+LINE scsi MITSBISH MCA-SS600
+LINE scsi HP
+LINE scsi hp
+LINE $DEVICE
+COMMENT 1 pass, 1200 dpi
+
+NAME Avision|AV820C
+SERVER avision
+DRIVER SCSI
+LINE scsi AVISION
+LINE scsi FCPA
+LINE scsi MINOLTA
+LINE scsi MITSBISH MCA-S600C
+LINE scsi MITSBISH MCA-SS600
+LINE scsi HP
+LINE scsi hp
+LINE $DEVICE
+COMMENT 1 pass, 1200 dpi
+
+NAME Avision|AV820C Plus
+SERVER avision
+DRIVER SCSI
+LINE scsi AVISION
+LINE scsi FCPA
+LINE scsi MINOLTA
+LINE scsi MITSBISH MCA-S600C
+LINE scsi MITSBISH MCA-SS600
+LINE scsi HP
+LINE scsi hp
+LINE $DEVICE
+COMMENT 1 pass, 1200 dpi
+
+NAME Avision|AV830C
+SERVER avision
+DRIVER SCSI
+LINE scsi AVISION
+LINE scsi FCPA
+LINE scsi MINOLTA
+LINE scsi MITSBISH MCA-S600C
+LINE scsi MITSBISH MCA-SS600
+LINE scsi HP
+LINE scsi hp
+LINE $DEVICE
+COMMENT 1 pass, 1200 dpi
+
+NAME Avision|AV830C Plus
+SERVER avision
+DRIVER SCSI
+LINE scsi AVISION
+LINE scsi FCPA
+LINE scsi MINOLTA
+LINE scsi MITSBISH MCA-S600C
+LINE scsi MITSBISH MCA-SS600
+LINE scsi HP
+LINE scsi hp
+LINE $DEVICE
+COMMENT 1 pass, 1200 dpi
+
+NAME Avision|AV880
+SERVER avision
+DRIVER SCSI
+LINE scsi AVISION
+LINE scsi FCPA
+LINE scsi MINOLTA
+LINE scsi MITSBISH MCA-S600C
+LINE scsi MITSBISH MCA-SS600
+LINE scsi HP
+LINE scsi hp
+LINE $DEVICE
+COMMENT 1 pass, 1200 dpi
+
+NAME Avision|AV880C
+SERVER avision
+DRIVER SCSI
+LINE scsi AVISION
+LINE scsi FCPA
+LINE scsi MINOLTA
+LINE scsi MITSBISH MCA-S600C
+LINE scsi MITSBISH MCA-SS600
+LINE scsi HP
+LINE scsi hp
+LINE $DEVICE
+COMMENT 1 pass, 1200 dpi
+
+NAME Avision|AV8000S
+SERVER avision
+DRIVER SCSI
+LINE scsi AVISION
+LINE scsi FCPA
+LINE scsi MINOLTA
+LINE scsi MITSBISH MCA-S600C
+LINE scsi MITSBISH MCA-SS600
+LINE scsi HP
+LINE scsi hp
+LINE $DEVICE
+COMMENT 1 pass, 1200 dpi, A3 - regularly tested
+
+NAME Hewlett-Packard|ScanJet 5300C
+SERVER avision
+DRIVER USB
+LINE scsi AVISION
+LINE scsi FCPA
+LINE scsi MINOLTA
+LINE scsi MITSBISH MCA-S600C
+LINE scsi MITSBISH MCA-SS600
+LINE scsi HP
+LINE scsi hp
+LINE $DEVICE
+COMMENT 1 pass, 1200 dpi - regularly tested
+
+NAME Hewlett-Packard|ScanJet 5370C
+SERVER avision
+DRIVER USB
+LINE scsi AVISION
+LINE scsi FCPA
+LINE scsi MINOLTA
+LINE scsi MITSBISH MCA-S600C
+LINE scsi MITSBISH MCA-SS600
+LINE scsi HP
+LINE scsi hp
+LINE $DEVICE
+COMMENT 1 pass, 2400 dpi
+
+NAME Hewlett-Packard|ScanJet 7400c
+SERVER avision
+DRIVER USB
+LINE scsi AVISION
+LINE scsi FCPA
+LINE scsi MINOLTA
+LINE scsi MITSBISH MCA-S600C
+LINE scsi MITSBISH MCA-SS600
+LINE scsi HP
+LINE scsi hp
+LINE $DEVICE
+COMMENT 1 pass, 1200 dpi - dual USB/SCSI interface
+
+NAME Hewlett-Packard|ScanJet 7450c
+SERVER avision
+DRIVER USB
+LINE scsi AVISION
+LINE scsi FCPA
+LINE scsi MINOLTA
+LINE scsi MITSBISH MCA-S600C
+LINE scsi MITSBISH MCA-SS600
+LINE scsi HP
+LINE scsi hp
+LINE $DEVICE
+COMMENT 1 pass, 1200 dpi - dual USB/SCSI interface
+
+NAME Minolta|FS-V1
+SERVER avision
+DRIVER USB
+LINE scsi AVISION
+LINE scsi FCPA
+LINE scsi MINOLTA
+LINE scsi MITSBISH MCA-S600C
+LINE scsi MITSBISH MCA-SS600
+LINE scsi HP
+LINE scsi hp
+LINE $DEVICE
+COMMENT 1 pass, film-scanner
+
+NAME Mitsubishi|MCA-ADFC
+SERVER avision
+DRIVER SCSI
+LINE scsi AVISION
+LINE scsi FCPA
+LINE scsi MINOLTA
+LINE scsi MITSBISH MCA-S600C
+LINE scsi MITSBISH MCA-SS600
+LINE scsi HP
+LINE scsi hp
+LINE $DEVICE
+COMMENT 1 pass, film-scanner
+
+NAME Mitsubishi|S1200C
+SERVER avision
+DRIVER SCSI
+LINE scsi AVISION
+LINE scsi FCPA
+LINE scsi MINOLTA
+LINE scsi MITSBISH MCA-S600C
+LINE scsi MITSBISH MCA-SS600
+LINE scsi HP
+LINE scsi hp
+LINE $DEVICE
+
+NAME Mitsubishi|S600C
+SERVER avision
+DRIVER SCSI
+LINE scsi AVISION
+LINE scsi FCPA
+LINE scsi MINOLTA
+LINE scsi MITSBISH MCA-S600C
+LINE scsi MITSBISH MCA-SS600
+LINE scsi HP
+LINE scsi hp
+LINE $DEVICE
+
+NAME Fujitsu|ScanPartner
+SERVER avision
+DRIVER SCSI
+LINE scsi AVISION
+LINE scsi FCPA
+LINE scsi MINOLTA
+LINE scsi MITSBISH MCA-S600C
+LINE scsi MITSBISH MCA-SS600
+LINE scsi HP
+LINE scsi hp
+LINE $DEVICE
+
+NAME Fujitsu|ScanPartner 10
+SERVER avision
+DRIVER SCSI
+LINE scsi AVISION
+LINE scsi FCPA
+LINE scsi MINOLTA
+LINE scsi MITSBISH MCA-S600C
+LINE scsi MITSBISH MCA-SS600
+LINE scsi HP
+LINE scsi hp
+LINE $DEVICE
+
+NAME Fujitsu|ScanPartner 10C
+SERVER avision
+DRIVER SCSI
+LINE scsi AVISION
+LINE scsi FCPA
+LINE scsi MINOLTA
+LINE scsi MITSBISH MCA-S600C
+LINE scsi MITSBISH MCA-SS600
+LINE scsi HP
+LINE scsi hp
+LINE $DEVICE
+
+NAME Fujitsu|ScanPartner 15C
+SERVER avision
+DRIVER SCSI
+LINE scsi AVISION
+LINE scsi FCPA
+LINE scsi MINOLTA
+LINE scsi MITSBISH MCA-S600C
+LINE scsi MITSBISH MCA-SS600
+LINE scsi HP
+LINE scsi hp
+LINE $DEVICE
+
+NAME Fujitsu|ScanPartner 300C
+SERVER avision
+DRIVER SCSI
+LINE scsi AVISION
+LINE scsi FCPA
+LINE scsi MINOLTA
+LINE scsi MITSBISH MCA-S600C
+LINE scsi MITSBISH MCA-SS600
+LINE scsi HP
+LINE scsi hp
+LINE $DEVICE
+
+NAME Fujitsu|ScanPartner 600C
+SERVER avision
+DRIVER SCSI
+LINE scsi AVISION
+LINE scsi FCPA
+LINE scsi MINOLTA
+LINE scsi MITSBISH MCA-S600C
+LINE scsi MITSBISH MCA-SS600
+LINE scsi HP
+LINE scsi hp
+LINE $DEVICE
+
+NAME Fujitsu|ScanPartner Jr
+SERVER avision
+DRIVER SCSI
+LINE scsi AVISION
+LINE scsi FCPA
+LINE scsi MINOLTA
+LINE scsi MITSBISH MCA-S600C
+LINE scsi MITSBISH MCA-SS600
+LINE scsi HP
+LINE scsi hp
+LINE $DEVICE
+
+NAME Fujitsu|ScanStation
+SERVER avision
+DRIVER SCSI
+LINE scsi AVISION
+LINE scsi FCPA
+LINE scsi MINOLTA
+LINE scsi MITSBISH MCA-S600C
+LINE scsi MITSBISH MCA-SS600
+LINE scsi HP
+LINE scsi hp
+LINE $DEVICE
+
+# from sane-backends-1.0.12/doc/descriptions/leo.desc
+NAME Genius|FS-1130 Colorpage Scanner
+SERVER leo
+DRIVER SCSI
+LINE scsi ACROSS * Scanner * * * 0
+LINE scsi "LEO" "LEOScan-S3"
+LINE $DEVICE
+COMMENT FCC ID LUZFS1130
+
+# from sane-backends-1.0.12/doc/descriptions/nec.desc
+NAME NEC Systems|PC-IN500/4C
+SERVER nec
+DRIVER SCSI
+LINE $DEVICE
+COMMENT PC-IN500/4C was sold only in JAPAN
+
+# from sane-backends-1.0.12/doc/descriptions/gt68xx.desc
+NAME Mustek Systems Inc.|BearPaw 1200 CS
+SERVER gt68xx
+DRIVER USB
+LINE usb $VENDOR $PRODUCT
+COMMENT Only the USB scanners mentioned below are supported. For other Mustek BearPaws, look at the Plustek and the MA-1509 backend.
+
+NAME Mustek Systems Inc.|BearPaw 1200 CU
+SERVER gt68xx
+DRIVER USB
+LINE usb $VENDOR $PRODUCT
+
+NAME Mustek Systems Inc.|BearPaw 1200 CU Plus
+SERVER gt68xx
+DRIVER USB
+LINE usb $VENDOR $PRODUCT
+
+NAME Mustek Systems Inc.|BearPaw 1200 TA
+SERVER gt68xx
+DRIVER USB
+LINE usb $VENDOR $PRODUCT
+COMMENT Transparency adapter supported
+
+NAME Mustek Systems Inc.|BearPaw 2400 CS
+SERVER gt68xx
+DRIVER USB
+LINE usb $VENDOR $PRODUCT
+COMMENT probably works, reports are welcome
+
+NAME Mustek Systems Inc.|BearPaw 2400 CS Plus
+SERVER gt68xx
+DRIVER USB
+LINE usb $VENDOR $PRODUCT
+COMMENT works, problems with 12/16 bit modes?
+
+NAME Mustek Systems Inc.|BearPaw 2400 CU
+SERVER gt68xx
+DRIVER USB
+LINE usb $VENDOR $PRODUCT
+COMMENT works, but is slow"
+
+NAME Mustek Systems Inc.|BearPaw 2400 CU Plus
+SERVER gt68xx
+DRIVER USB
+LINE usb $VENDOR $PRODUCT
+
+NAME Mustek Systems Inc.|BearPaw 2400 TA
+SERVER gt68xx
+DRIVER USB
+LINE usb $VENDOR $PRODUCT
+COMMENT Transparency adapter supported
+
+NAME Mustek Systems Inc.|BearPaw 2400 TA Plus
+SERVER gt68xx
+DRIVER USB
+LINE usb $VENDOR $PRODUCT
+COMMENT Transparency adapter supported
+
+NAME Mustek Systems Inc.|ScanExpress 1200 UB Plus
+SERVER gt68xx
+DRIVER USB
+LINE usb $VENDOR $PRODUCT
+
+NAME Mustek Systems Inc.|ScanExpress A3 USB
+SERVER gt68xx
+DRIVER USB
+LINE usb $VENDOR $PRODUCT
+COMMENT Calibration may be wrong. Please contact me if you have such a device.
+
+NAME Plustek, Inc.|OpticPro 1248U
+SERVER gt68xx
+DRIVER USB
+LINE usb $VENDOR $PRODUCT
+COMMENT Works up to 600 dpi
+
+NAME Artec/Ultima|Ultima 2000
+SERVER gt68xx
+DRIVER USB
+LINE usb $VENDOR $PRODUCT
+COMMENT works, only product id 0x4002 is supported
+
+NAME Packard Bell|Diamond 1200
+SERVER gt68xx
+DRIVER USB
+LINE usb $VENDOR $PRODUCT
+COMMENT similar to Mustek BearPaw 1200 (Plus)
+
+NAME Medion/Lifetec/Tevion/Cytron|MD 4394
+SERVER gt68xx
+DRIVER USB
+LINE usb $VENDOR $PRODUCT
+COMMENT Product id 0x4002. If you have 0x4003, use artec_eplus48u backend.
+
+NAME Medion/Lifetec/Tevion/Cytron|MD/LT 9375
+SERVER gt68xx
+DRIVER USB
+LINE usb $VENDOR $PRODUCT
+COMMENT Untested, but is reported to have the same ids as the Artec Ultima 2000. Please test.
+
+NAME Medion/Lifetec/Tevion/Cytron|MD/LT 9385
+SERVER gt68xx
+DRIVER USB
+LINE usb $VENDOR $PRODUCT
+COMMENT Similar to Artec Ultima 2000
+
+NAME Medion/Lifetec/Tevion/Cytron|LT 9452
+SERVER gt68xx
+DRIVER USB
+LINE usb $VENDOR $PRODUCT
+COMMENT Similar to Mustek ScanExpress 1200 UB Plus
+
+NAME Trust Technologies|Flat Scan USB 19200
+SERVER gt68xx
+DRIVER USB
+LINE usb $VENDOR $PRODUCT
+COMMENT Similar to Artec Ultima 2000
+
+NAME Lexmark|X70
+SERVER gt68xx
+DRIVER USB
+LINE usb $VENDOR $PRODUCT
+COMMENT works, some resolutions fail at 16 bit
+
+NAME Genius|Colorpage Vivid3x
+SERVER gt68xx
+DRIVER USB
+LINE usb $VENDOR $PRODUCT
+COMMENT Works but has limited testing
+
+NAME Genius|Colorpage Vivid3xe
+SERVER gt68xx
+DRIVER USB
+LINE usb $VENDOR $PRODUCT
+COMMENT Works but has limited testing. Color problems? Reports are welcome.
+
+# from sane-backends-1.0.12/doc/descriptions/mustek_usb.desc
+NAME Mustek Systems Inc.|ScanExpress 600 CU
+SERVER mustek_usb
+DRIVER USB
+LINE usb $VENDOR $PRODUCT
+COMMENT Only the USB scanners mentioned below are supported. For BearPaws, look at the Plustek, MA-1509, and gt68xx backends.
+
+NAME Mustek Systems Inc.|ScanExpress 1200 CU
+SERVER mustek_usb
+DRIVER USB
+LINE usb $VENDOR $PRODUCT
+
+NAME Mustek Systems Inc.|ScanExpress 1200 CU Plus
+SERVER mustek_usb
+DRIVER USB
+LINE usb $VENDOR $PRODUCT
+
+NAME Trust Technologies|Compact Scan USB 19200
+SERVER mustek_usb
+DRIVER USB
+LINE usb $VENDOR $PRODUCT
+COMMENT Mustek 1200 UB compatible
+
+# from sane-backends-1.0.12/doc/descriptions/mustek.desc
 NAME Mustek Systems Inc.|Paragon MFS-6000CX
 SERVER mustek
 DRIVER SCSI
@@ -1833,235 +1631,22 @@ DRIVER SCSI
 LINE scsi MUSTEK * Scanner
 LINE scsi SCANNER
 LINE $DEVICE
-COMMENT Probably Mustek 600 II CD compatible
+COMMENT Mustek 600 II CD compatible
 
-# from /root/s/sane-backends-1.0.11/doc/descriptions/mustek_pp.desc
-NAME Mustek Systems Inc.|ScanExpress 6000 P
-SERVER mustek_pp
-DRIVER Parport (EPP)
-UNSUPPORTED
-COMMENT 300 dpi CCD scanner
-
-NAME Mustek Systems Inc.|ScanExpress 600 SEP
-SERVER mustek_pp
-DRIVER Parport (EPP)
-UNSUPPORTED
-COMMENT 300 dpi CCD scanner
-
-NAME Mustek Systems Inc.|ScanMagic 4800 P
-SERVER mustek_pp
-DRIVER Parport (EPP)
-UNSUPPORTED
-COMMENT 300 dpi CCD scanner
-
-NAME Mustek Systems Inc.|600 III EP Plus
-SERVER mustek_pp
-DRIVER Parport (EPP)
-UNSUPPORTED
-COMMENT 300 dpi CCD scanner
-
-NAME Mustek Systems Inc.|ScanExpress 600 CP
-SERVER mustek_pp
-DRIVER Parport (EPP)
-UNSUPPORTED
-COMMENT CIS scanner
-
-NAME Mustek Systems Inc.|ScanMagic 600 CP
-SERVER mustek_pp
-DRIVER Parport (EPP)
-UNSUPPORTED
-COMMENT CIS scanner
-
-NAME Mustek Systems Inc.|1200 CP
-SERVER mustek_pp
-DRIVER Parport (EPP)
-UNSUPPORTED
-COMMENT CIS scanner
-
-NAME Medion/Tevion/LifeTec|MD 9848
-SERVER mustek_pp
-DRIVER Parport (EPP)
-UNSUPPORTED
-COMMENT 300 dpi CCD scanner
-
-NAME Medion/Tevion/LifeTec|MD/LT 935x
-SERVER mustek_pp
-DRIVER Parport (EPP)
-UNSUPPORTED
-COMMENT CIS scanner
-
-NAME Medion/Tevion/LifeTec|MD/LT 985x
-SERVER mustek_pp
-DRIVER Parport (EPP)
-UNSUPPORTED
-COMMENT CIS scanner
-
-NAME Targa|Funline TS12 EP
-SERVER mustek_pp
-DRIVER Parport (EPP)
-UNSUPPORTED
-COMMENT CIS scanner
-
-NAME Gallery|4800
-SERVER mustek_pp
-DRIVER Parport (EPP)
-UNSUPPORTED
-COMMENT 300 dpi CCD scanner
-
-# from /root/s/sane-backends-1.0.11/doc/descriptions/mustek_usb.desc
-NAME Mustek Systems Inc.|ScanExpress 600 CU
-SERVER mustek_usb
-DRIVER USB
-LINE usb $VENDOR $PRODUCT
-COMMENT Only the USB scanners mentioned below are supported. For BearPaws, look at the Plustek and gt68xx backends.
-
-NAME Mustek Systems Inc.|ScanExpress 1200 CU
-SERVER mustek_usb
-DRIVER USB
-LINE usb $VENDOR $PRODUCT
-
-NAME Mustek Systems Inc.|ScanExpress 1200 CU Plus
-SERVER mustek_usb
-DRIVER USB
-LINE usb $VENDOR $PRODUCT
-
-NAME Trust Technologies|Compact Scan USB 19200
-SERVER mustek_usb
-DRIVER USB
-LINE usb $VENDOR $PRODUCT
-COMMENT Mustek 1200 UB compatible
-
-# from /root/s/sane-backends-1.0.11/doc/descriptions/nec.desc
-NAME NEC Systems|PC-IN500/4C
-SERVER nec
+# from sane-backends-1.0.12/doc/descriptions/ricoh.desc
+NAME Ricoh|Ricoh IS50
+SERVER ricoh
 DRIVER SCSI
-LINE $DEVICE
-COMMENT PC-IN500/4C was sold only in JAPAN
-
-# from /root/s/sane-backends-1.0.11/doc/descriptions/net.desc
-# from /root/s/sane-backends-1.0.11/doc/descriptions/pie.desc
-NAME Devcom|9636PRO
-SERVER pie
-DRIVER SCSI
-LINE scsi DEVCOM * Scanner
-LINE scsi PIE * Scanner
-LINE scsi AdLib * Scanner
+LINE scsi RICOH IS60
 LINE $DEVICE
 
-NAME Devcom|9636S
-SERVER pie
+NAME Ricoh|Ricoh IS60
+SERVER ricoh
 DRIVER SCSI
-LINE scsi DEVCOM * Scanner
-LINE scsi PIE * Scanner
-LINE scsi AdLib * Scanner
+LINE scsi RICOH IS60
 LINE $DEVICE
 
-NAME PIE|ScanAce 1236S
-SERVER pie
-DRIVER SCSI
-LINE scsi DEVCOM * Scanner
-LINE scsi PIE * Scanner
-LINE scsi AdLib * Scanner
-LINE $DEVICE
-
-NAME PIE|ScanAce 1230S
-SERVER pie
-DRIVER SCSI
-LINE scsi DEVCOM * Scanner
-LINE scsi PIE * Scanner
-LINE scsi AdLib * Scanner
-LINE $DEVICE
-
-NAME PIE|ScanAce II
-SERVER pie
-DRIVER SCSI
-LINE scsi DEVCOM * Scanner
-LINE scsi PIE * Scanner
-LINE scsi AdLib * Scanner
-LINE $DEVICE
-
-NAME PIE|ScanAce III
-SERVER pie
-DRIVER SCSI
-LINE scsi DEVCOM * Scanner
-LINE scsi PIE * Scanner
-LINE scsi AdLib * Scanner
-LINE $DEVICE
-
-NAME PIE|ScanAce Plus
-SERVER pie
-DRIVER SCSI
-LINE scsi DEVCOM * Scanner
-LINE scsi PIE * Scanner
-LINE scsi AdLib * Scanner
-LINE $DEVICE
-
-NAME PIE|ScanAce II Plus
-SERVER pie
-DRIVER SCSI
-LINE scsi DEVCOM * Scanner
-LINE scsi PIE * Scanner
-LINE scsi AdLib * Scanner
-LINE $DEVICE
-
-NAME PIE|ScanAce III Plus
-SERVER pie
-DRIVER SCSI
-LINE scsi DEVCOM * Scanner
-LINE scsi PIE * Scanner
-LINE scsi AdLib * Scanner
-LINE $DEVICE
-
-NAME PIE|ScanAce V
-SERVER pie
-DRIVER SCSI
-LINE scsi DEVCOM * Scanner
-LINE scsi PIE * Scanner
-LINE scsi AdLib * Scanner
-LINE $DEVICE
-
-NAME PIE|ScanAce ScanMedia
-SERVER pie
-DRIVER SCSI
-LINE scsi DEVCOM * Scanner
-LINE scsi PIE * Scanner
-LINE scsi AdLib * Scanner
-LINE $DEVICE
-
-NAME PIE|ScanAce ScanMedia II
-SERVER pie
-DRIVER SCSI
-LINE scsi DEVCOM * Scanner
-LINE scsi PIE * Scanner
-LINE scsi AdLib * Scanner
-LINE $DEVICE
-
-NAME PIE|ScanAce 630S
-SERVER pie
-DRIVER SCSI
-LINE scsi DEVCOM * Scanner
-LINE scsi PIE * Scanner
-LINE scsi AdLib * Scanner
-LINE $DEVICE
-
-NAME Adlib|JetScan630
-SERVER pie
-DRIVER SCSI
-LINE scsi DEVCOM * Scanner
-LINE scsi PIE * Scanner
-LINE scsi AdLib * Scanner
-LINE $DEVICE
-
-NAME Adlib|JetScan636PRO
-SERVER pie
-DRIVER SCSI
-LINE scsi DEVCOM * Scanner
-LINE scsi PIE * Scanner
-LINE scsi AdLib * Scanner
-LINE $DEVICE
-
-# from /root/s/sane-backends-1.0.11/doc/descriptions/pint.desc
-# from /root/s/sane-backends-1.0.11/doc/descriptions/plustek.desc
+# from sane-backends-1.0.12/doc/descriptions/plustek.desc
 NAME Plustek, Inc.|OpticPro 4800P
 SERVER plustek
 DRIVER Parport (SPP, EPP)
@@ -2298,11 +1883,19 @@ DRIVER USB
 USBLINE [usb]
 USBLINE device auto
 
+NAME Umax|UMAX 3450
+SERVER plustek
+DRIVER USB
+USBLINE [usb]
+USBLINE device auto
+COMMENT TPA not supported
+
 NAME Canon|CanoScan N650U/N656U
 SERVER plustek
 DRIVER USB
 USBLINE [usb]
 USBLINE device auto
+COMMENT Identical to UMAX 3400
 
 NAME Canon|CanoScan N1220U
 SERVER plustek
@@ -2339,46 +1932,39 @@ USBLINE [usb]
 USBLINE device auto
 COMMENT Poor color picture quality
 
-# from /root/s/sane-backends-1.0.11/doc/descriptions/pnm.desc
-# from /root/s/sane-backends-1.0.11/doc/descriptions/qcam.desc
-NAME Connectix|Color QuickCam
-SERVER qcam
-DRIVER Parport
-COMMENT Require root privileges.
+# from sane-backends-1.0.12/doc/descriptions/hpsj5s.desc
+NAME Hewlett-Packard|ScanJet 5s
+SERVER hpsj5s
+DRIVER Parport (EPP)
+LINE parport0
+COMMENT Requires libieee1284 library
 
-NAME Connectix|Greyscale QuickCam
-SERVER qcam
-DRIVER Parport
-COMMENT Require root privileges.  Partly working.
+# from sane-backends-1.0.12/doc/descriptions/umax_pp.desc
+NAME Umax|Astra 1220P
+SERVER umax_pp
+DRIVER Parport (EPP)
+LINE port $DEVICE
+COMMENT works
 
-# from /root/s/sane-backends-1.0.11/doc/descriptions/ricoh.desc
-NAME Ricoh|Ricoh IS50
-SERVER ricoh
-DRIVER SCSI
-LINE scsi RICOH IS60
-LINE $DEVICE
+NAME Umax|Astra 2000P
+SERVER umax_pp
+DRIVER Parport (EPP)
+LINE port $DEVICE
+COMMENT works
 
-NAME Ricoh|Ricoh IS60
-SERVER ricoh
-DRIVER SCSI
-LINE scsi RICOH IS60
-LINE $DEVICE
+NAME Umax|Astra 1600P
+SERVER umax_pp
+DRIVER Parport (EPP)
+LINE port $DEVICE
+COMMENT works
 
-# from /root/s/sane-backends-1.0.11/doc/descriptions/s9036.desc
-NAME Siemens Information and Communication Products|9036 Flatbed scanner
-SERVER s9036
-DRIVER SCSI
-LINE $DEVICE
+NAME Hewlett-Packard|Scanjet 3200C
+SERVER umax_pp
+DRIVER Parport (EPP)
+LINE port $DEVICE
+COMMENT works (relabelled 1220P and 2000P)
 
-# from /root/s/sane-backends-1.0.11/doc/descriptions/sceptre.desc
-NAME Komodo|S1200
-SERVER sceptre
-DRIVER SCSI
-LINE scsi "KINPO   " "Vividscan S120  "
-LINE $DEVICE
-COMMENT rebadged Sceptre S1200
-
-# from /root/s/sane-backends-1.0.11/doc/descriptions/sharp.desc
+# from sane-backends-1.0.12/doc/descriptions/sharp.desc
 NAME Sharp|JX-610
 SERVER sharp
 DRIVER SCSI
@@ -2415,23 +2001,39 @@ DRIVER SCSI
 LINE scsi SHARP * Scanner
 LINE $DEVICE
 
-# from /root/s/sane-backends-1.0.11/doc/descriptions/sm3600.desc
-NAME Microtek|ScanMaker 3600
-SERVER sm3600
-DRIVER USB
-COMMENT works
+# from sane-backends-1.0.12/doc/descriptions/dll.desc
+# from sane-backends-1.0.12/doc/descriptions/agfafocus.desc
+NAME AGFA-Gevaert NV|Focus GS Scanner
+SERVER agfafocus
+DRIVER SCSI
+LINE $DEVICE
+COMMENT 6 bit gray
 
-NAME Microtek|ScanMaker 3700
-SERVER sm3600
-DRIVER USB
-COMMENT works
+NAME AGFA-Gevaert NV|Focus Lineart Scanner
+SERVER agfafocus
+DRIVER SCSI
+LINE $DEVICE
+COMMENT Lineart only? Untested.
 
-NAME Microtek|ScanMaker 3750
-SERVER sm3600
-DRIVER USB
-COMMENT works (told)
+NAME AGFA-Gevaert NV|Focus II
+SERVER agfafocus
+DRIVER SCSI
+LINE $DEVICE
+COMMENT gray only
 
-# from /root/s/sane-backends-1.0.11/doc/descriptions/snapscan.desc
+NAME AGFA-Gevaert NV|Focus Color
+SERVER agfafocus
+DRIVER SCSI
+LINE $DEVICE
+COMMENT 3-pass
+
+NAME Siemens Information and Communication Products|S9036
+SERVER agfafocus
+DRIVER SCSI
+LINE $DEVICE
+COMMENT gray only
+
+# from sane-backends-1.0.12/doc/descriptions/snapscan.desc
 NAME AGFA-Gevaert NV|SnapScan 300
 SERVER snapscan
 DRIVER SCSI
@@ -2457,6 +2059,15 @@ SCSILINE scsi COLOR * Scanner
 SCSILINE scsi Color * Scanner
 SCSILINE scsi ACERPERI * Scanner
 COMMENT Optional ADF supported.
+
+NAME AGFA-Gevaert NV|Arcus 1200
+SERVER snapscan
+DRIVER SCSI
+SCSILINE scsi AGFA * Scanner
+SCSILINE scsi COLOR * Scanner
+SCSILINE scsi Color * Scanner
+SCSILINE scsi ACERPERI * Scanner
+COMMENT Optional transparency unit supported.
 
 NAME AGFA-Gevaert NV|SnapScan 1236s
 SERVER snapscan
@@ -2621,27 +2232,1331 @@ SCSILINE scsi AGFA * Scanner
 SCSILINE scsi COLOR * Scanner
 SCSILINE scsi Color * Scanner
 SCSILINE scsi ACERPERI * Scanner
-COMMENT Seems to be a repackaged SnapScan 310s.
+COMMENT Rebadged SnapScan 310s.
+
+NAME Guillemot / Hercules|Scan@home Touch 1248 (USB)
+SERVER snapscan
+DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
+COMMENT Rebadged Benq 3300.
 
 NAME Mitsubishi|Diamondview 648UT
 SERVER snapscan
 DRIVER USB
 USBLINE usb $VENDOR $PRODUCT
-COMMENT Seems to be a repackaged Benq 320u.
+COMMENT Rebadged Benq 320u.
 
-NAME Mitsubishi|Diamondview 650U
+NAME Epson Corp.|Perfection 660
 SERVER snapscan
 DRIVER USB
 USBLINE usb $VENDOR $PRODUCT
-COMMENT Seems to be a repackaged Benq 4300.
+COMMENT Rebadged Benq 4300.
 
-# from /root/s/sane-backends-1.0.11/doc/descriptions/sp15c.desc
-NAME Fujitsu|SP15C
-SERVER sp15c
+# from sane-backends-1.0.12/doc/descriptions/dmc.desc
+NAME Polaroid|DMC
+SERVER dmc
 DRIVER SCSI
-LINE scsi FCPA
+LINE $DEVICE
 
-# from /root/s/sane-backends-1.0.11/doc/descriptions/st400.desc
+# from sane-backends-1.0.12/doc/descriptions/coolscan2.desc
+NAME Nikon Corp.|LS 30
+SERVER coolscan2
+DRIVER SCSI
+LINE auto
+COMMENT working -- model available to developer
+
+NAME Nikon Corp.|LS 2000
+SERVER coolscan2
+DRIVER SCSI
+LINE auto
+
+NAME Nikon Corp.|LS 40 ED
+SERVER coolscan2
+DRIVER USB
+LINE auto
+
+NAME Nikon Corp.|LS 4000 ED
+SERVER coolscan2
+DRIVER IEEE1394
+LINE auto
+COMMENT needs linux kernel 2.4.19 or later
+
+NAME Nikon Corp.|LS 8000 ED
+SERVER coolscan2
+DRIVER IEEE1394
+LINE auto
+COMMENT needs linux kernel 2.4.19 or later
+
+# from sane-backends-1.0.12/doc/descriptions/net.desc
+# from sane-backends-1.0.12/doc/descriptions/dc240.desc
+NAME Kodak Co.|DC240
+SERVER dc240
+DRIVER Serial port
+LINE port=$DEVICE
+
+# from sane-backends-1.0.12/doc/descriptions/umax.desc
+NAME Umax|Vista S6
+SERVER umax
+DRIVER SCSI
+SCSILINE scsi UMAX * Scanner
+SCSILINE scsi LinoHell JADE
+SCSILINE scsi LinoHell Office
+SCSILINE scsi LinoHell Office2
+SCSILINE scsi LinoHell SAPHIR2
+SCSILINE scsi LinoHell SAPHIR3
+SCSILINE scsi HDM LS4H1S
+SCSILINE scsi Nikon AX-110
+SCSILINE scsi Nikon AX-210
+SCSILINE scsi KYE ColorPage-HR5
+SCSILINE scsi EPSON Perfection600
+SCSILINE scsi ESCORT "Galleria 600S"
+SCSILINE option connection-type 1
+SCSILINE $DEVICE
+COMMENT OK
+
+NAME Umax|Vista S6E
+SERVER umax
+DRIVER SCSI
+SCSILINE scsi UMAX * Scanner
+SCSILINE scsi LinoHell JADE
+SCSILINE scsi LinoHell Office
+SCSILINE scsi LinoHell Office2
+SCSILINE scsi LinoHell SAPHIR2
+SCSILINE scsi LinoHell SAPHIR3
+SCSILINE scsi HDM LS4H1S
+SCSILINE scsi Nikon AX-110
+SCSILINE scsi Nikon AX-210
+SCSILINE scsi KYE ColorPage-HR5
+SCSILINE scsi EPSON Perfection600
+SCSILINE scsi ESCORT "Galleria 600S"
+SCSILINE option connection-type 1
+SCSILINE $DEVICE
+COMMENT OK
+
+NAME Umax|UMAX S-6E
+SERVER umax
+DRIVER SCSI
+SCSILINE scsi UMAX * Scanner
+SCSILINE scsi LinoHell JADE
+SCSILINE scsi LinoHell Office
+SCSILINE scsi LinoHell Office2
+SCSILINE scsi LinoHell SAPHIR2
+SCSILINE scsi LinoHell SAPHIR3
+SCSILINE scsi HDM LS4H1S
+SCSILINE scsi Nikon AX-110
+SCSILINE scsi Nikon AX-210
+SCSILINE scsi KYE ColorPage-HR5
+SCSILINE scsi EPSON Perfection600
+SCSILINE scsi ESCORT "Galleria 600S"
+SCSILINE option connection-type 1
+SCSILINE $DEVICE
+COMMENT OK
+
+NAME Umax|UMAX S-6EG
+SERVER umax
+DRIVER SCSI
+SCSILINE scsi UMAX * Scanner
+SCSILINE scsi LinoHell JADE
+SCSILINE scsi LinoHell Office
+SCSILINE scsi LinoHell Office2
+SCSILINE scsi LinoHell SAPHIR2
+SCSILINE scsi LinoHell SAPHIR3
+SCSILINE scsi HDM LS4H1S
+SCSILINE scsi Nikon AX-110
+SCSILINE scsi Nikon AX-210
+SCSILINE scsi KYE ColorPage-HR5
+SCSILINE scsi EPSON Perfection600
+SCSILINE scsi ESCORT "Galleria 600S"
+SCSILINE option connection-type 1
+SCSILINE $DEVICE
+COMMENT OK
+
+NAME Umax|Vista-S8
+SERVER umax
+DRIVER SCSI
+SCSILINE scsi UMAX * Scanner
+SCSILINE scsi LinoHell JADE
+SCSILINE scsi LinoHell Office
+SCSILINE scsi LinoHell Office2
+SCSILINE scsi LinoHell SAPHIR2
+SCSILINE scsi LinoHell SAPHIR3
+SCSILINE scsi HDM LS4H1S
+SCSILINE scsi Nikon AX-110
+SCSILINE scsi Nikon AX-210
+SCSILINE scsi KYE ColorPage-HR5
+SCSILINE scsi EPSON Perfection600
+SCSILINE scsi ESCORT "Galleria 600S"
+SCSILINE option connection-type 1
+SCSILINE $DEVICE
+COMMENT OK
+
+NAME Umax|Supervista S-12
+SERVER umax
+DRIVER SCSI
+SCSILINE scsi UMAX * Scanner
+SCSILINE scsi LinoHell JADE
+SCSILINE scsi LinoHell Office
+SCSILINE scsi LinoHell Office2
+SCSILINE scsi LinoHell SAPHIR2
+SCSILINE scsi LinoHell SAPHIR3
+SCSILINE scsi HDM LS4H1S
+SCSILINE scsi Nikon AX-110
+SCSILINE scsi Nikon AX-210
+SCSILINE scsi KYE ColorPage-HR5
+SCSILINE scsi EPSON Perfection600
+SCSILINE scsi ESCORT "Galleria 600S"
+SCSILINE option connection-type 1
+SCSILINE $DEVICE
+COMMENT OK
+
+NAME Umax|UMAX S-12
+SERVER umax
+DRIVER SCSI
+SCSILINE scsi UMAX * Scanner
+SCSILINE scsi LinoHell JADE
+SCSILINE scsi LinoHell Office
+SCSILINE scsi LinoHell Office2
+SCSILINE scsi LinoHell SAPHIR2
+SCSILINE scsi LinoHell SAPHIR3
+SCSILINE scsi HDM LS4H1S
+SCSILINE scsi Nikon AX-110
+SCSILINE scsi Nikon AX-210
+SCSILINE scsi KYE ColorPage-HR5
+SCSILINE scsi EPSON Perfection600
+SCSILINE scsi ESCORT "Galleria 600S"
+SCSILINE option connection-type 1
+SCSILINE $DEVICE
+COMMENT OK
+
+NAME Umax|UMAX S-12G
+SERVER umax
+DRIVER SCSI
+SCSILINE scsi UMAX * Scanner
+SCSILINE scsi LinoHell JADE
+SCSILINE scsi LinoHell Office
+SCSILINE scsi LinoHell Office2
+SCSILINE scsi LinoHell SAPHIR2
+SCSILINE scsi LinoHell SAPHIR3
+SCSILINE scsi HDM LS4H1S
+SCSILINE scsi Nikon AX-110
+SCSILINE scsi Nikon AX-210
+SCSILINE scsi KYE ColorPage-HR5
+SCSILINE scsi EPSON Perfection600
+SCSILINE scsi ESCORT "Galleria 600S"
+SCSILINE option connection-type 1
+SCSILINE $DEVICE
+COMMENT OK
+
+NAME Umax|Astra 600S
+SERVER umax
+DRIVER SCSI
+SCSILINE scsi UMAX * Scanner
+SCSILINE scsi LinoHell JADE
+SCSILINE scsi LinoHell Office
+SCSILINE scsi LinoHell Office2
+SCSILINE scsi LinoHell SAPHIR2
+SCSILINE scsi LinoHell SAPHIR3
+SCSILINE scsi HDM LS4H1S
+SCSILINE scsi Nikon AX-110
+SCSILINE scsi Nikon AX-210
+SCSILINE scsi KYE ColorPage-HR5
+SCSILINE scsi EPSON Perfection600
+SCSILINE scsi ESCORT "Galleria 600S"
+SCSILINE option connection-type 1
+SCSILINE $DEVICE
+COMMENT OK
+
+NAME Umax|Astra 610S
+SERVER umax
+DRIVER SCSI
+SCSILINE scsi UMAX * Scanner
+SCSILINE scsi LinoHell JADE
+SCSILINE scsi LinoHell Office
+SCSILINE scsi LinoHell Office2
+SCSILINE scsi LinoHell SAPHIR2
+SCSILINE scsi LinoHell SAPHIR3
+SCSILINE scsi HDM LS4H1S
+SCSILINE scsi Nikon AX-110
+SCSILINE scsi Nikon AX-210
+SCSILINE scsi KYE ColorPage-HR5
+SCSILINE scsi EPSON Perfection600
+SCSILINE scsi ESCORT "Galleria 600S"
+SCSILINE option connection-type 1
+SCSILINE $DEVICE
+COMMENT OK
+
+NAME Umax|Astra 1200S
+SERVER umax
+DRIVER SCSI
+SCSILINE scsi UMAX * Scanner
+SCSILINE scsi LinoHell JADE
+SCSILINE scsi LinoHell Office
+SCSILINE scsi LinoHell Office2
+SCSILINE scsi LinoHell SAPHIR2
+SCSILINE scsi LinoHell SAPHIR3
+SCSILINE scsi HDM LS4H1S
+SCSILINE scsi Nikon AX-110
+SCSILINE scsi Nikon AX-210
+SCSILINE scsi KYE ColorPage-HR5
+SCSILINE scsi EPSON Perfection600
+SCSILINE scsi ESCORT "Galleria 600S"
+SCSILINE option connection-type 1
+SCSILINE $DEVICE
+COMMENT OK
+
+NAME Umax|Astra 1220S
+SERVER umax
+DRIVER SCSI
+SCSILINE scsi UMAX * Scanner
+SCSILINE scsi LinoHell JADE
+SCSILINE scsi LinoHell Office
+SCSILINE scsi LinoHell Office2
+SCSILINE scsi LinoHell SAPHIR2
+SCSILINE scsi LinoHell SAPHIR3
+SCSILINE scsi HDM LS4H1S
+SCSILINE scsi Nikon AX-110
+SCSILINE scsi Nikon AX-210
+SCSILINE scsi KYE ColorPage-HR5
+SCSILINE scsi EPSON Perfection600
+SCSILINE scsi ESCORT "Galleria 600S"
+SCSILINE option connection-type 1
+SCSILINE $DEVICE
+COMMENT OK
+
+NAME Umax|Astra 2100S
+SERVER umax
+DRIVER SCSI
+SCSILINE scsi UMAX * Scanner
+SCSILINE scsi LinoHell JADE
+SCSILINE scsi LinoHell Office
+SCSILINE scsi LinoHell Office2
+SCSILINE scsi LinoHell SAPHIR2
+SCSILINE scsi LinoHell SAPHIR3
+SCSILINE scsi HDM LS4H1S
+SCSILINE scsi Nikon AX-110
+SCSILINE scsi Nikon AX-210
+SCSILINE scsi KYE ColorPage-HR5
+SCSILINE scsi EPSON Perfection600
+SCSILINE scsi ESCORT "Galleria 600S"
+SCSILINE option connection-type 1
+SCSILINE $DEVICE
+COMMENT OK
+
+NAME Umax|Astra 2200 (SU)
+SERVER umax
+DRIVER SCSI
+SCSILINE scsi UMAX * Scanner
+SCSILINE scsi LinoHell JADE
+SCSILINE scsi LinoHell Office
+SCSILINE scsi LinoHell Office2
+SCSILINE scsi LinoHell SAPHIR2
+SCSILINE scsi LinoHell SAPHIR3
+SCSILINE scsi HDM LS4H1S
+SCSILINE scsi Nikon AX-110
+SCSILINE scsi Nikon AX-210
+SCSILINE scsi KYE ColorPage-HR5
+SCSILINE scsi EPSON Perfection600
+SCSILINE scsi ESCORT "Galleria 600S"
+SCSILINE option connection-type 1
+SCSILINE $DEVICE
+COMMENT OK
+
+NAME Umax|Astra 2200 (SU)
+SERVER umax
+DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
+USBLINE option connection-type 2
+COMMENT OK, needs USB control messages
+
+NAME Umax|Astra 2400S
+SERVER umax
+DRIVER SCSI
+SCSILINE scsi UMAX * Scanner
+SCSILINE scsi LinoHell JADE
+SCSILINE scsi LinoHell Office
+SCSILINE scsi LinoHell Office2
+SCSILINE scsi LinoHell SAPHIR2
+SCSILINE scsi LinoHell SAPHIR3
+SCSILINE scsi HDM LS4H1S
+SCSILINE scsi Nikon AX-110
+SCSILINE scsi Nikon AX-210
+SCSILINE scsi KYE ColorPage-HR5
+SCSILINE scsi EPSON Perfection600
+SCSILINE scsi ESCORT "Galleria 600S"
+SCSILINE option connection-type 1
+SCSILINE $DEVICE
+COMMENT OK
+
+NAME Umax|Astra 6400
+SERVER umax
+DRIVER IEEE-1394
+COMMENT will propably work one day
+
+NAME Umax|Astra 6450
+SERVER umax
+DRIVER IEEE-1394
+COMMENT will propably work one day
+
+NAME Umax|Astra MX3
+SERVER umax
+DRIVER SCSI
+SCSILINE scsi UMAX * Scanner
+SCSILINE scsi LinoHell JADE
+SCSILINE scsi LinoHell Office
+SCSILINE scsi LinoHell Office2
+SCSILINE scsi LinoHell SAPHIR2
+SCSILINE scsi LinoHell SAPHIR3
+SCSILINE scsi HDM LS4H1S
+SCSILINE scsi Nikon AX-110
+SCSILINE scsi Nikon AX-210
+SCSILINE scsi KYE ColorPage-HR5
+SCSILINE scsi EPSON Perfection600
+SCSILINE scsi ESCORT "Galleria 600S"
+SCSILINE option connection-type 1
+SCSILINE $DEVICE
+COMMENT OK
+
+NAME Umax|Astra MX3
+SERVER umax
+DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
+USBLINE option connection-type 2
+COMMENT OK, needs USB control messages
+
+NAME Umax|Mirage D-16L
+SERVER umax
+DRIVER SCSI
+SCSILINE scsi UMAX * Scanner
+SCSILINE scsi LinoHell JADE
+SCSILINE scsi LinoHell Office
+SCSILINE scsi LinoHell Office2
+SCSILINE scsi LinoHell SAPHIR2
+SCSILINE scsi LinoHell SAPHIR3
+SCSILINE scsi HDM LS4H1S
+SCSILINE scsi Nikon AX-110
+SCSILINE scsi Nikon AX-210
+SCSILINE scsi KYE ColorPage-HR5
+SCSILINE scsi EPSON Perfection600
+SCSILINE scsi ESCORT "Galleria 600S"
+SCSILINE option connection-type 1
+SCSILINE $DEVICE
+COMMENT OK
+
+NAME Umax|Mirage II
+SERVER umax
+DRIVER SCSI
+SCSILINE scsi UMAX * Scanner
+SCSILINE scsi LinoHell JADE
+SCSILINE scsi LinoHell Office
+SCSILINE scsi LinoHell Office2
+SCSILINE scsi LinoHell SAPHIR2
+SCSILINE scsi LinoHell SAPHIR3
+SCSILINE scsi HDM LS4H1S
+SCSILINE scsi Nikon AX-110
+SCSILINE scsi Nikon AX-210
+SCSILINE scsi KYE ColorPage-HR5
+SCSILINE scsi EPSON Perfection600
+SCSILINE scsi ESCORT "Galleria 600S"
+SCSILINE option connection-type 1
+SCSILINE $DEVICE
+COMMENT OK
+
+NAME Umax|Mirage IIse
+SERVER umax
+DRIVER SCSI
+SCSILINE scsi UMAX * Scanner
+SCSILINE scsi LinoHell JADE
+SCSILINE scsi LinoHell Office
+SCSILINE scsi LinoHell Office2
+SCSILINE scsi LinoHell SAPHIR2
+SCSILINE scsi LinoHell SAPHIR3
+SCSILINE scsi HDM LS4H1S
+SCSILINE scsi Nikon AX-110
+SCSILINE scsi Nikon AX-210
+SCSILINE scsi KYE ColorPage-HR5
+SCSILINE scsi EPSON Perfection600
+SCSILINE scsi ESCORT "Galleria 600S"
+SCSILINE option connection-type 1
+SCSILINE $DEVICE
+COMMENT may work, please test and give feedback
+
+NAME Umax|PSD
+SERVER umax
+DRIVER SCSI
+SCSILINE scsi UMAX * Scanner
+SCSILINE scsi LinoHell JADE
+SCSILINE scsi LinoHell Office
+SCSILINE scsi LinoHell Office2
+SCSILINE scsi LinoHell SAPHIR2
+SCSILINE scsi LinoHell SAPHIR3
+SCSILINE scsi HDM LS4H1S
+SCSILINE scsi Nikon AX-110
+SCSILINE scsi Nikon AX-210
+SCSILINE scsi KYE ColorPage-HR5
+SCSILINE scsi EPSON Perfection600
+SCSILINE scsi ESCORT "Galleria 600S"
+SCSILINE option connection-type 1
+SCSILINE $DEVICE
+COMMENT OK
+
+NAME Umax|PowerLook
+SERVER umax
+DRIVER SCSI
+SCSILINE scsi UMAX * Scanner
+SCSILINE scsi LinoHell JADE
+SCSILINE scsi LinoHell Office
+SCSILINE scsi LinoHell Office2
+SCSILINE scsi LinoHell SAPHIR2
+SCSILINE scsi LinoHell SAPHIR3
+SCSILINE scsi HDM LS4H1S
+SCSILINE scsi Nikon AX-110
+SCSILINE scsi Nikon AX-210
+SCSILINE scsi KYE ColorPage-HR5
+SCSILINE scsi EPSON Perfection600
+SCSILINE scsi ESCORT "Galleria 600S"
+SCSILINE option connection-type 1
+SCSILINE $DEVICE
+COMMENT may work, please test and give feedback
+
+NAME Umax|PL-II
+SERVER umax
+DRIVER SCSI
+SCSILINE scsi UMAX * Scanner
+SCSILINE scsi LinoHell JADE
+SCSILINE scsi LinoHell Office
+SCSILINE scsi LinoHell Office2
+SCSILINE scsi LinoHell SAPHIR2
+SCSILINE scsi LinoHell SAPHIR3
+SCSILINE scsi HDM LS4H1S
+SCSILINE scsi Nikon AX-110
+SCSILINE scsi Nikon AX-210
+SCSILINE scsi KYE ColorPage-HR5
+SCSILINE scsi EPSON Perfection600
+SCSILINE scsi ESCORT "Galleria 600S"
+SCSILINE option connection-type 1
+SCSILINE $DEVICE
+COMMENT may work, please test and give feedback
+
+NAME Umax|PowerLook III
+SERVER umax
+DRIVER SCSI
+SCSILINE scsi UMAX * Scanner
+SCSILINE scsi LinoHell JADE
+SCSILINE scsi LinoHell Office
+SCSILINE scsi LinoHell Office2
+SCSILINE scsi LinoHell SAPHIR2
+SCSILINE scsi LinoHell SAPHIR3
+SCSILINE scsi HDM LS4H1S
+SCSILINE scsi Nikon AX-110
+SCSILINE scsi Nikon AX-210
+SCSILINE scsi KYE ColorPage-HR5
+SCSILINE scsi EPSON Perfection600
+SCSILINE scsi ESCORT "Galleria 600S"
+SCSILINE option connection-type 1
+SCSILINE $DEVICE
+COMMENT OK
+
+NAME Umax|PowerLook 270
+SERVER umax
+DRIVER SCSI
+SCSILINE scsi UMAX * Scanner
+SCSILINE scsi LinoHell JADE
+SCSILINE scsi LinoHell Office
+SCSILINE scsi LinoHell Office2
+SCSILINE scsi LinoHell SAPHIR2
+SCSILINE scsi LinoHell SAPHIR3
+SCSILINE scsi HDM LS4H1S
+SCSILINE scsi Nikon AX-110
+SCSILINE scsi Nikon AX-210
+SCSILINE scsi KYE ColorPage-HR5
+SCSILINE scsi EPSON Perfection600
+SCSILINE scsi ESCORT "Galleria 600S"
+SCSILINE option connection-type 1
+SCSILINE $DEVICE
+COMMENT incompatible
+
+NAME Umax|PowerLook 270plus
+SERVER umax
+DRIVER SCSI
+SCSILINE scsi UMAX * Scanner
+SCSILINE scsi LinoHell JADE
+SCSILINE scsi LinoHell Office
+SCSILINE scsi LinoHell Office2
+SCSILINE scsi LinoHell SAPHIR2
+SCSILINE scsi LinoHell SAPHIR3
+SCSILINE scsi HDM LS4H1S
+SCSILINE scsi Nikon AX-110
+SCSILINE scsi Nikon AX-210
+SCSILINE scsi KYE ColorPage-HR5
+SCSILINE scsi EPSON Perfection600
+SCSILINE scsi ESCORT "Galleria 600S"
+SCSILINE option connection-type 1
+SCSILINE $DEVICE
+COMMENT incompatible
+
+NAME Umax|PowerLook 1100
+SERVER umax
+DRIVER IEEE-1394
+COMMENT will propably work one day
+
+NAME Umax|PowerLook 2000
+SERVER umax
+DRIVER SCSI
+SCSILINE scsi UMAX * Scanner
+SCSILINE scsi LinoHell JADE
+SCSILINE scsi LinoHell Office
+SCSILINE scsi LinoHell Office2
+SCSILINE scsi LinoHell SAPHIR2
+SCSILINE scsi LinoHell SAPHIR3
+SCSILINE scsi HDM LS4H1S
+SCSILINE scsi Nikon AX-110
+SCSILINE scsi Nikon AX-210
+SCSILINE scsi KYE ColorPage-HR5
+SCSILINE scsi EPSON Perfection600
+SCSILINE scsi ESCORT "Galleria 600S"
+SCSILINE option connection-type 1
+SCSILINE $DEVICE
+COMMENT may work, please test and give feedback
+
+NAME Umax|PowerLook 2100XL
+SERVER umax
+DRIVER SCSI
+SCSILINE scsi UMAX * Scanner
+SCSILINE scsi LinoHell JADE
+SCSILINE scsi LinoHell Office
+SCSILINE scsi LinoHell Office2
+SCSILINE scsi LinoHell SAPHIR2
+SCSILINE scsi LinoHell SAPHIR3
+SCSILINE scsi HDM LS4H1S
+SCSILINE scsi Nikon AX-110
+SCSILINE scsi Nikon AX-210
+SCSILINE scsi KYE ColorPage-HR5
+SCSILINE scsi EPSON Perfection600
+SCSILINE scsi ESCORT "Galleria 600S"
+SCSILINE option connection-type 1
+SCSILINE $DEVICE
+COMMENT OK
+
+NAME Umax|PowerLook 3000
+SERVER umax
+DRIVER SCSI
+SCSILINE scsi UMAX * Scanner
+SCSILINE scsi LinoHell JADE
+SCSILINE scsi LinoHell Office
+SCSILINE scsi LinoHell Office2
+SCSILINE scsi LinoHell SAPHIR2
+SCSILINE scsi LinoHell SAPHIR3
+SCSILINE scsi HDM LS4H1S
+SCSILINE scsi Nikon AX-110
+SCSILINE scsi Nikon AX-210
+SCSILINE scsi KYE ColorPage-HR5
+SCSILINE scsi EPSON Perfection600
+SCSILINE scsi ESCORT "Galleria 600S"
+SCSILINE option connection-type 1
+SCSILINE $DEVICE
+COMMENT OK
+
+NAME Umax|Gemini D-16
+SERVER umax
+DRIVER SCSI
+SCSILINE scsi UMAX * Scanner
+SCSILINE scsi LinoHell JADE
+SCSILINE scsi LinoHell Office
+SCSILINE scsi LinoHell Office2
+SCSILINE scsi LinoHell SAPHIR2
+SCSILINE scsi LinoHell SAPHIR3
+SCSILINE scsi HDM LS4H1S
+SCSILINE scsi Nikon AX-110
+SCSILINE scsi Nikon AX-210
+SCSILINE scsi KYE ColorPage-HR5
+SCSILINE scsi EPSON Perfection600
+SCSILINE scsi ESCORT "Galleria 600S"
+SCSILINE option connection-type 1
+SCSILINE $DEVICE
+COMMENT OK
+
+NAME Umax|UMAX VT600
+SERVER umax
+DRIVER SCSI
+SCSILINE scsi UMAX * Scanner
+SCSILINE scsi LinoHell JADE
+SCSILINE scsi LinoHell Office
+SCSILINE scsi LinoHell Office2
+SCSILINE scsi LinoHell SAPHIR2
+SCSILINE scsi LinoHell SAPHIR3
+SCSILINE scsi HDM LS4H1S
+SCSILINE scsi Nikon AX-110
+SCSILINE scsi Nikon AX-210
+SCSILINE scsi KYE ColorPage-HR5
+SCSILINE scsi EPSON Perfection600
+SCSILINE scsi ESCORT "Galleria 600S"
+SCSILINE option connection-type 1
+SCSILINE $DEVICE
+COMMENT may work, please test and give feedback
+
+NAME Umax|Vista-T630
+SERVER umax
+DRIVER SCSI
+SCSILINE scsi UMAX * Scanner
+SCSILINE scsi LinoHell JADE
+SCSILINE scsi LinoHell Office
+SCSILINE scsi LinoHell Office2
+SCSILINE scsi LinoHell SAPHIR2
+SCSILINE scsi LinoHell SAPHIR3
+SCSILINE scsi HDM LS4H1S
+SCSILINE scsi Nikon AX-110
+SCSILINE scsi Nikon AX-210
+SCSILINE scsi KYE ColorPage-HR5
+SCSILINE scsi EPSON Perfection600
+SCSILINE scsi ESCORT "Galleria 600S"
+SCSILINE option connection-type 1
+SCSILINE $DEVICE
+COMMENT OK for some firmwareversions, on others only lineart OK
+
+NAME Umax|UC 630
+SERVER umax
+DRIVER SCSI
+SCSILINE scsi UMAX * Scanner
+SCSILINE scsi LinoHell JADE
+SCSILINE scsi LinoHell Office
+SCSILINE scsi LinoHell Office2
+SCSILINE scsi LinoHell SAPHIR2
+SCSILINE scsi LinoHell SAPHIR3
+SCSILINE scsi HDM LS4H1S
+SCSILINE scsi Nikon AX-110
+SCSILINE scsi Nikon AX-210
+SCSILINE scsi KYE ColorPage-HR5
+SCSILINE scsi EPSON Perfection600
+SCSILINE scsi ESCORT "Galleria 600S"
+SCSILINE option connection-type 1
+SCSILINE $DEVICE
+COMMENT Version 2.8 OK, others only lineart OK
+
+NAME Umax|UG 630
+SERVER umax
+DRIVER SCSI
+SCSILINE scsi UMAX * Scanner
+SCSILINE scsi LinoHell JADE
+SCSILINE scsi LinoHell Office
+SCSILINE scsi LinoHell Office2
+SCSILINE scsi LinoHell SAPHIR2
+SCSILINE scsi LinoHell SAPHIR3
+SCSILINE scsi HDM LS4H1S
+SCSILINE scsi Nikon AX-110
+SCSILINE scsi Nikon AX-210
+SCSILINE scsi KYE ColorPage-HR5
+SCSILINE scsi EPSON Perfection600
+SCSILINE scsi ESCORT "Galleria 600S"
+SCSILINE option connection-type 1
+SCSILINE $DEVICE
+COMMENT OK
+
+NAME Umax|UG 80
+SERVER umax
+DRIVER SCSI
+SCSILINE scsi UMAX * Scanner
+SCSILINE scsi LinoHell JADE
+SCSILINE scsi LinoHell Office
+SCSILINE scsi LinoHell Office2
+SCSILINE scsi LinoHell SAPHIR2
+SCSILINE scsi LinoHell SAPHIR3
+SCSILINE scsi HDM LS4H1S
+SCSILINE scsi Nikon AX-110
+SCSILINE scsi Nikon AX-210
+SCSILINE scsi KYE ColorPage-HR5
+SCSILINE scsi EPSON Perfection600
+SCSILINE scsi ESCORT "Galleria 600S"
+SCSILINE option connection-type 1
+SCSILINE $DEVICE
+COMMENT OK
+
+NAME Umax|UC 840
+SERVER umax
+DRIVER SCSI
+SCSILINE scsi UMAX * Scanner
+SCSILINE scsi LinoHell JADE
+SCSILINE scsi LinoHell Office
+SCSILINE scsi LinoHell Office2
+SCSILINE scsi LinoHell SAPHIR2
+SCSILINE scsi LinoHell SAPHIR3
+SCSILINE scsi HDM LS4H1S
+SCSILINE scsi Nikon AX-110
+SCSILINE scsi Nikon AX-210
+SCSILINE scsi KYE ColorPage-HR5
+SCSILINE scsi EPSON Perfection600
+SCSILINE scsi ESCORT "Galleria 600S"
+SCSILINE option connection-type 1
+SCSILINE $DEVICE
+COMMENT Version 1.6 OK, others only lineart OK
+
+NAME Umax|UC 1200S
+SERVER umax
+DRIVER SCSI
+SCSILINE scsi UMAX * Scanner
+SCSILINE scsi LinoHell JADE
+SCSILINE scsi LinoHell Office
+SCSILINE scsi LinoHell Office2
+SCSILINE scsi LinoHell SAPHIR2
+SCSILINE scsi LinoHell SAPHIR3
+SCSILINE scsi HDM LS4H1S
+SCSILINE scsi Nikon AX-110
+SCSILINE scsi Nikon AX-210
+SCSILINE scsi KYE ColorPage-HR5
+SCSILINE scsi EPSON Perfection600
+SCSILINE scsi ESCORT "Galleria 600S"
+SCSILINE option connection-type 1
+SCSILINE $DEVICE
+COMMENT may work, please test and give feedback
+
+NAME Umax|UC 1200SE
+SERVER umax
+DRIVER SCSI
+SCSILINE scsi UMAX * Scanner
+SCSILINE scsi LinoHell JADE
+SCSILINE scsi LinoHell Office
+SCSILINE scsi LinoHell Office2
+SCSILINE scsi LinoHell SAPHIR2
+SCSILINE scsi LinoHell SAPHIR3
+SCSILINE scsi HDM LS4H1S
+SCSILINE scsi Nikon AX-110
+SCSILINE scsi Nikon AX-210
+SCSILINE scsi KYE ColorPage-HR5
+SCSILINE scsi EPSON Perfection600
+SCSILINE scsi ESCORT "Galleria 600S"
+SCSILINE option connection-type 1
+SCSILINE $DEVICE
+COMMENT Version 3.0 OK, others unknown
+
+NAME Linotype Hell|Jade
+SERVER umax
+DRIVER SCSI
+SCSILINE scsi UMAX * Scanner
+SCSILINE scsi LinoHell JADE
+SCSILINE scsi LinoHell Office
+SCSILINE scsi LinoHell Office2
+SCSILINE scsi LinoHell SAPHIR2
+SCSILINE scsi LinoHell SAPHIR3
+SCSILINE scsi HDM LS4H1S
+SCSILINE scsi Nikon AX-110
+SCSILINE scsi Nikon AX-210
+SCSILINE scsi KYE ColorPage-HR5
+SCSILINE scsi EPSON Perfection600
+SCSILINE scsi ESCORT "Galleria 600S"
+SCSILINE option connection-type 1
+SCSILINE $DEVICE
+COMMENT OK, SCSI-ID=LinoHell Office
+
+NAME Linotype Hell|Jade
+SERVER umax
+DRIVER SCSI
+SCSILINE scsi UMAX * Scanner
+SCSILINE scsi LinoHell JADE
+SCSILINE scsi LinoHell Office
+SCSILINE scsi LinoHell Office2
+SCSILINE scsi LinoHell SAPHIR2
+SCSILINE scsi LinoHell SAPHIR3
+SCSILINE scsi HDM LS4H1S
+SCSILINE scsi Nikon AX-110
+SCSILINE scsi Nikon AX-210
+SCSILINE scsi KYE ColorPage-HR5
+SCSILINE scsi EPSON Perfection600
+SCSILINE scsi ESCORT "Galleria 600S"
+SCSILINE option connection-type 1
+SCSILINE $DEVICE
+COMMENT OK, SCSI-ID=LinoHell JADE
+
+NAME Linotype Hell|Jade2
+SERVER umax
+DRIVER SCSI
+SCSILINE scsi UMAX * Scanner
+SCSILINE scsi LinoHell JADE
+SCSILINE scsi LinoHell Office
+SCSILINE scsi LinoHell Office2
+SCSILINE scsi LinoHell SAPHIR2
+SCSILINE scsi LinoHell SAPHIR3
+SCSILINE scsi HDM LS4H1S
+SCSILINE scsi Nikon AX-110
+SCSILINE scsi Nikon AX-210
+SCSILINE scsi KYE ColorPage-HR5
+SCSILINE scsi EPSON Perfection600
+SCSILINE scsi ESCORT "Galleria 600S"
+SCSILINE option connection-type 1
+SCSILINE $DEVICE
+COMMENT OK, SCSI-ID=LinoHell Office2
+
+NAME Linotype Hell|Saphir
+SERVER umax
+DRIVER SCSI
+SCSILINE scsi UMAX * Scanner
+SCSILINE scsi LinoHell JADE
+SCSILINE scsi LinoHell Office
+SCSILINE scsi LinoHell Office2
+SCSILINE scsi LinoHell SAPHIR2
+SCSILINE scsi LinoHell SAPHIR3
+SCSILINE scsi HDM LS4H1S
+SCSILINE scsi Nikon AX-110
+SCSILINE scsi Nikon AX-210
+SCSILINE scsi KYE ColorPage-HR5
+SCSILINE scsi EPSON Perfection600
+SCSILINE scsi ESCORT "Galleria 600S"
+SCSILINE option connection-type 1
+SCSILINE $DEVICE
+COMMENT support disabled until tested - please contact author
+
+NAME Linotype Hell|Saphir2
+SERVER umax
+DRIVER SCSI
+SCSILINE scsi UMAX * Scanner
+SCSILINE scsi LinoHell JADE
+SCSILINE scsi LinoHell Office
+SCSILINE scsi LinoHell Office2
+SCSILINE scsi LinoHell SAPHIR2
+SCSILINE scsi LinoHell SAPHIR3
+SCSILINE scsi HDM LS4H1S
+SCSILINE scsi Nikon AX-110
+SCSILINE scsi Nikon AX-210
+SCSILINE scsi KYE ColorPage-HR5
+SCSILINE scsi EPSON Perfection600
+SCSILINE scsi ESCORT "Galleria 600S"
+SCSILINE option connection-type 1
+SCSILINE $DEVICE
+COMMENT OK, SCSI-ID=LinoHell SAPHIR2
+
+NAME Linotype Hell|Saphir3
+SERVER umax
+DRIVER SCSI
+SCSILINE scsi UMAX * Scanner
+SCSILINE scsi LinoHell JADE
+SCSILINE scsi LinoHell Office
+SCSILINE scsi LinoHell Office2
+SCSILINE scsi LinoHell SAPHIR2
+SCSILINE scsi LinoHell SAPHIR3
+SCSILINE scsi HDM LS4H1S
+SCSILINE scsi Nikon AX-110
+SCSILINE scsi Nikon AX-210
+SCSILINE scsi KYE ColorPage-HR5
+SCSILINE scsi EPSON Perfection600
+SCSILINE scsi ESCORT "Galleria 600S"
+SCSILINE option connection-type 1
+SCSILINE $DEVICE
+COMMENT OK, SCSI-ID=LinoHell SAPHIR3
+
+NAME Linotype Hell|Saphir Ultra
+SERVER umax
+DRIVER SCSI
+SCSILINE scsi UMAX * Scanner
+SCSILINE scsi LinoHell JADE
+SCSILINE scsi LinoHell Office
+SCSILINE scsi LinoHell Office2
+SCSILINE scsi LinoHell SAPHIR2
+SCSILINE scsi LinoHell SAPHIR3
+SCSILINE scsi HDM LS4H1S
+SCSILINE scsi Nikon AX-110
+SCSILINE scsi Nikon AX-210
+SCSILINE scsi KYE ColorPage-HR5
+SCSILINE scsi EPSON Perfection600
+SCSILINE scsi ESCORT "Galleria 600S"
+SCSILINE option connection-type 1
+SCSILINE $DEVICE
+COMMENT support disabled until tested - please contact author
+
+NAME Linotype Hell|Saphir Ultra II
+SERVER umax
+DRIVER SCSI
+SCSILINE scsi UMAX * Scanner
+SCSILINE scsi LinoHell JADE
+SCSILINE scsi LinoHell Office
+SCSILINE scsi LinoHell Office2
+SCSILINE scsi LinoHell SAPHIR2
+SCSILINE scsi LinoHell SAPHIR3
+SCSILINE scsi HDM LS4H1S
+SCSILINE scsi Nikon AX-110
+SCSILINE scsi Nikon AX-210
+SCSILINE scsi KYE ColorPage-HR5
+SCSILINE scsi EPSON Perfection600
+SCSILINE scsi ESCORT "Galleria 600S"
+SCSILINE option connection-type 1
+SCSILINE $DEVICE
+COMMENT support disabled until tested - please contact author
+
+NAME Linotype Hell|Saphir HiRes
+SERVER umax
+DRIVER SCSI
+SCSILINE scsi UMAX * Scanner
+SCSILINE scsi LinoHell JADE
+SCSILINE scsi LinoHell Office
+SCSILINE scsi LinoHell Office2
+SCSILINE scsi LinoHell SAPHIR2
+SCSILINE scsi LinoHell SAPHIR3
+SCSILINE scsi HDM LS4H1S
+SCSILINE scsi Nikon AX-110
+SCSILINE scsi Nikon AX-210
+SCSILINE scsi KYE ColorPage-HR5
+SCSILINE scsi EPSON Perfection600
+SCSILINE scsi ESCORT "Galleria 600S"
+SCSILINE option connection-type 1
+SCSILINE $DEVICE
+COMMENT support disabled until tested - please contact author
+
+NAME Linotype Hell|Opal
+SERVER umax
+DRIVER SCSI
+SCSILINE scsi UMAX * Scanner
+SCSILINE scsi LinoHell JADE
+SCSILINE scsi LinoHell Office
+SCSILINE scsi LinoHell Office2
+SCSILINE scsi LinoHell SAPHIR2
+SCSILINE scsi LinoHell SAPHIR3
+SCSILINE scsi HDM LS4H1S
+SCSILINE scsi Nikon AX-110
+SCSILINE scsi Nikon AX-210
+SCSILINE scsi KYE ColorPage-HR5
+SCSILINE scsi EPSON Perfection600
+SCSILINE scsi ESCORT "Galleria 600S"
+SCSILINE option connection-type 1
+SCSILINE $DEVICE
+COMMENT support disabled until tested - please contact author
+
+NAME Linotype Hell|Opal Ultra
+SERVER umax
+DRIVER SCSI
+SCSILINE scsi UMAX * Scanner
+SCSILINE scsi LinoHell JADE
+SCSILINE scsi LinoHell Office
+SCSILINE scsi LinoHell Office2
+SCSILINE scsi LinoHell SAPHIR2
+SCSILINE scsi LinoHell SAPHIR3
+SCSILINE scsi HDM LS4H1S
+SCSILINE scsi Nikon AX-110
+SCSILINE scsi Nikon AX-210
+SCSILINE scsi KYE ColorPage-HR5
+SCSILINE scsi EPSON Perfection600
+SCSILINE scsi ESCORT "Galleria 600S"
+SCSILINE option connection-type 1
+SCSILINE $DEVICE
+COMMENT support disabled until tested - please contact author
+
+NAME Nikon Corp.|AX-110 / Scantouch 110
+SERVER umax
+DRIVER SCSI
+SCSILINE scsi UMAX * Scanner
+SCSILINE scsi LinoHell JADE
+SCSILINE scsi LinoHell Office
+SCSILINE scsi LinoHell Office2
+SCSILINE scsi LinoHell SAPHIR2
+SCSILINE scsi LinoHell SAPHIR3
+SCSILINE scsi HDM LS4H1S
+SCSILINE scsi Nikon AX-110
+SCSILINE scsi Nikon AX-210
+SCSILINE scsi KYE ColorPage-HR5
+SCSILINE scsi EPSON Perfection600
+SCSILINE scsi ESCORT "Galleria 600S"
+SCSILINE option connection-type 1
+SCSILINE $DEVICE
+COMMENT may work, please test and give feedback
+
+NAME Nikon Corp.|AX-210
+SERVER umax
+DRIVER SCSI
+SCSILINE scsi UMAX * Scanner
+SCSILINE scsi LinoHell JADE
+SCSILINE scsi LinoHell Office
+SCSILINE scsi LinoHell Office2
+SCSILINE scsi LinoHell SAPHIR2
+SCSILINE scsi LinoHell SAPHIR3
+SCSILINE scsi HDM LS4H1S
+SCSILINE scsi Nikon AX-110
+SCSILINE scsi Nikon AX-210
+SCSILINE scsi KYE ColorPage-HR5
+SCSILINE scsi EPSON Perfection600
+SCSILINE scsi ESCORT "Galleria 600S"
+SCSILINE option connection-type 1
+SCSILINE $DEVICE
+COMMENT OK
+
+# from sane-backends-1.0.12/doc/descriptions/apple.desc
+NAME Apple|Apple Scanner
+SERVER apple
+DRIVER SCSI
+LINE scsi APPLE
+LINE $DEVICE
+COMMENT 4bit, 16 shades of gray
+
+NAME Apple|OneScanner
+SERVER apple
+DRIVER SCSI
+LINE scsi APPLE
+LINE $DEVICE
+COMMENT 8bit, 256 shades of gray. The backend needs work especially in the quantization code but it may work.
+
+NAME Apple|ColorOneScanner
+SERVER apple
+DRIVER SCSI
+LINE scsi APPLE
+LINE $DEVICE
+COMMENT truecolor (needs much work) but it scans in non color modes.
+
+# from sane-backends-1.0.12/doc/descriptions/matsushita.desc
+NAME Panasonic|KV-SS25
+SERVER matsushita
+DRIVER SCSI
+LINE scsi "K.M.E.  " "KV-SS25A        "
+LINE $DEVICE
+
+NAME Panasonic|KV-SS25D
+SERVER matsushita
+DRIVER SCSI
+LINE scsi "K.M.E.  " "KV-SS25A        "
+LINE $DEVICE
+
+NAME Panasonic|KV-SS50
+SERVER matsushita
+DRIVER SCSI
+LINE scsi "K.M.E.  " "KV-SS25A        "
+LINE $DEVICE
+
+NAME Panasonic|KV-SS55
+SERVER matsushita
+DRIVER SCSI
+LINE scsi "K.M.E.  " "KV-SS25A        "
+LINE $DEVICE
+
+NAME Panasonic|KV-SS50EX
+SERVER matsushita
+DRIVER SCSI
+LINE scsi "K.M.E.  " "KV-SS25A        "
+LINE $DEVICE
+
+NAME Panasonic|KV-SS55EX
+SERVER matsushita
+DRIVER SCSI
+LINE scsi "K.M.E.  " "KV-SS25A        "
+LINE $DEVICE
+
+NAME Panasonic|KV-SS850
+SERVER matsushita
+DRIVER SCSI
+LINE scsi "K.M.E.  " "KV-SS25A        "
+LINE $DEVICE
+
+NAME Panasonic|KV-SS855
+SERVER matsushita
+DRIVER SCSI
+LINE scsi "K.M.E.  " "KV-SS25A        "
+LINE $DEVICE
+
+# from sane-backends-1.0.12/doc/descriptions/hp.desc
+NAME Hewlett-Packard|ScanJet Plus
+SERVER hp
+DRIVER Propietary
+COMMENT Driver for HP parallel interface card required
+
+NAME Hewlett-Packard|ScanJet IIc
+SERVER hp
+DRIVER SCSI
+SCSILINE $DEVICE
+
+NAME Hewlett-Packard|ScanJet IIp
+SERVER hp
+DRIVER SCSI
+SCSILINE $DEVICE
+
+NAME Hewlett-Packard|ScanJet IIcx
+SERVER hp
+DRIVER SCSI
+SCSILINE $DEVICE
+
+NAME Hewlett-Packard|ScanJet 3c
+SERVER hp
+DRIVER SCSI
+SCSILINE $DEVICE
+
+NAME Hewlett-Packard|ScanJet 3p
+SERVER hp
+DRIVER SCSI
+SCSILINE $DEVICE
+
+NAME Hewlett-Packard|ScanJet 4c
+SERVER hp
+DRIVER SCSI
+SCSILINE $DEVICE
+
+NAME Hewlett-Packard|ScanJet 4p
+SERVER hp
+DRIVER SCSI
+SCSILINE $DEVICE
+
+NAME Hewlett-Packard|ScanJet 4100C
+SERVER hp
+DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
+
+NAME Hewlett-Packard|ScanJet 5p
+SERVER hp
+DRIVER SCSI
+SCSILINE $DEVICE
+
+NAME Hewlett-Packard|ScanJet 5100C
+SERVER hp
+DRIVER Parport
+COMMENT Requires ppscsi driver and epst module
+
+NAME Hewlett-Packard|ScanJet 5200C
+SERVER hp
+DRIVER Parport USB
+USBLINE usb $VENDOR $PRODUCT
+COMMENT Parallel interface requires ppscsi driver and epst module
+
+NAME Hewlett-Packard|ScanJet 6100C
+SERVER hp
+DRIVER SCSI
+SCSILINE $DEVICE
+
+NAME Hewlett-Packard|ScanJet 6200C
+SERVER hp
+DRIVER SCSI USB
+USBLINE usb $VENDOR $PRODUCT
+SCSILINE $DEVICE
+
+NAME Hewlett-Packard|ScanJet 6250C
+SERVER hp
+DRIVER SCSI USB
+USBLINE usb $VENDOR $PRODUCT
+SCSILINE $DEVICE
+
+NAME Hewlett-Packard|ScanJet 6300C
+SERVER hp
+DRIVER SCSI USB
+USBLINE usb $VENDOR $PRODUCT
+SCSILINE $DEVICE
+
+NAME Hewlett-Packard|ScanJet 6350C
+SERVER hp
+DRIVER SCSI USB
+USBLINE usb $VENDOR $PRODUCT
+SCSILINE $DEVICE
+
+NAME Hewlett-Packard|ScanJet 6390C
+SERVER hp
+DRIVER SCSI USB
+USBLINE usb $VENDOR $PRODUCT
+SCSILINE $DEVICE
+
+NAME Hewlett-Packard|PhotoSmart PhotoScanner
+SERVER hp
+DRIVER SCSI
+SCSILINE $DEVICE
+
+# from sane-backends-1.0.12/doc/descriptions/bh.desc
+NAME Bell and Howell|COPISCAN II 6338
+SERVER bh
+DRIVER SCSI
+LINE scsi "B&H SCSI"
+LINE $DEVICE
+COMMENT Duplex Scanner with ACE - development model
+
+NAME Bell and Howell|COPISCAN II 2135
+SERVER bh
+DRIVER SCSI
+LINE scsi "B&H SCSI"
+LINE $DEVICE
+COMMENT Simplex Scanner
+
+NAME Bell and Howell|COPISCAN II 2137(A)
+SERVER bh
+DRIVER SCSI
+LINE scsi "B&H SCSI"
+LINE $DEVICE
+COMMENT Simplex Scanner (with ACE) - limited testing
+
+NAME Bell and Howell|COPISCAN II 2138A
+SERVER bh
+DRIVER SCSI
+LINE scsi "B&H SCSI"
+LINE $DEVICE
+COMMENT Simplex Scanner with ACE
+
+NAME Bell and Howell|COPISCAN II 3238
+SERVER bh
+DRIVER SCSI
+LINE scsi "B&H SCSI"
+LINE $DEVICE
+COMMENT Simplex Scanner
+
+NAME Bell and Howell|COPISCAN II 3338(A)
+SERVER bh
+DRIVER SCSI
+LINE scsi "B&H SCSI"
+LINE $DEVICE
+COMMENT Simplex Scanner (with ACE)
+
+# from sane-backends-1.0.12/doc/descriptions/hp5400.desc
+NAME Hewlett-Packard|ScanJet 5400c
+SERVER hp5400
+DRIVER USB
+LINE usb $VENDOR $PRODUCT
+COMMENT HP5400 and HP5470 scanners. Prototype backend available
+
+NAME Hewlett-Packard|ScanJet 5470c
+SERVER hp5400
+DRIVER USB
+LINE usb $VENDOR $PRODUCT
+
+NAME Hewlett-Packard|ScanJet 5490c
+SERVER hp5400
+DRIVER USB
+LINE usb $VENDOR $PRODUCT
+
+# from sane-backends-1.0.12/doc/descriptions/canon.desc
+NAME Canon|CanoScan 300
+SERVER canon
+DRIVER SCSI
+LINE $DEVICE
+
+NAME Canon|CanoScan 600
+SERVER canon
+DRIVER SCSI
+LINE $DEVICE
+
+NAME Canon|CanoScan 620S
+SERVER canon
+DRIVER SCSI
+LINE $DEVICE
+
+NAME Canon|CanoScan 1200S
+SERVER canon
+DRIVER SCSI
+LINE $DEVICE
+
+NAME Canon|CanoScan 2700F
+SERVER canon
+DRIVER SCSI
+LINE $DEVICE
+
+NAME Canon|CanoScan 2710S
+SERVER canon
+DRIVER SCSI
+LINE $DEVICE
+
+# from sane-backends-1.0.12/doc/descriptions/artec_eplus48u.desc
+NAME Medion/Lifetec/Tevion/Cytron|MD9693
+SERVER artec_eplus48u
+DRIVER USB
+LINE usb $VENDOR $PRODUCT
+COMMENT Sold by Aldi and Tchibo.
+
+NAME Medion/Lifetec/Tevion/Cytron|MD9705
+SERVER artec_eplus48u
+DRIVER USB
+LINE usb $VENDOR $PRODUCT
+
+NAME Umax|AstraSlim SE
+SERVER artec_eplus48u
+DRIVER USB
+LINE usb $VENDOR $PRODUCT
+COMMENT Different product id: 0x4009
+
+# from sane-backends-1.0.12/doc/descriptions/st400.desc
 NAME Siemens Information and Communication Products|ST400
 SERVER st400
 DRIVER SCSI
@@ -2656,7 +3571,82 @@ LINE scsi SIEMENS "ST 400" Scanner * * 3 *
 LINE scsi SIEMENS "ST 800" Scanner * * 3 *
 COMMENT 6 bit gray
 
-# from /root/s/sane-backends-1.0.11/doc/descriptions/tamarack.desc
+# from sane-backends-1.0.12/doc/descriptions/gphoto2.desc
+# from sane-backends-1.0.12/doc/descriptions/mustek_pp.desc
+NAME Mustek Systems Inc.|ScanExpress 6000 P
+SERVER mustek_pp
+DRIVER Parport (EPP)
+UNSUPPORTED
+COMMENT 300 dpi CCD scanner
+
+NAME Mustek Systems Inc.|ScanExpress 600 SEP
+SERVER mustek_pp
+DRIVER Parport (EPP)
+UNSUPPORTED
+COMMENT 300 dpi CCD scanner
+
+NAME Mustek Systems Inc.|ScanMagic 4800 P
+SERVER mustek_pp
+DRIVER Parport (EPP)
+UNSUPPORTED
+COMMENT 300 dpi CCD scanner
+
+NAME Mustek Systems Inc.|600 III EP Plus
+SERVER mustek_pp
+DRIVER Parport (EPP)
+UNSUPPORTED
+COMMENT 300 dpi CCD scanner
+
+NAME Mustek Systems Inc.|ScanExpress 600 CP
+SERVER mustek_pp
+DRIVER Parport (EPP)
+UNSUPPORTED
+COMMENT CIS scanner
+
+NAME Mustek Systems Inc.|ScanMagic 600 CP
+SERVER mustek_pp
+DRIVER Parport (EPP)
+UNSUPPORTED
+COMMENT CIS scanner
+
+NAME Mustek Systems Inc.|ScanExpress 1200 CP
+SERVER mustek_pp
+DRIVER Parport (EPP)
+UNSUPPORTED
+COMMENT CIS scanner
+
+NAME Medion/Lifetec/Tevion/Cytron|MD 9848
+SERVER mustek_pp
+DRIVER Parport (EPP)
+UNSUPPORTED
+COMMENT 300 dpi CCD scanner
+
+NAME Medion/Lifetec/Tevion/Cytron|MD/LT 935x
+SERVER mustek_pp
+DRIVER Parport (EPP)
+UNSUPPORTED
+COMMENT CIS scanner
+
+NAME Medion/Lifetec/Tevion/Cytron|MD/LT 985x
+SERVER mustek_pp
+DRIVER Parport (EPP)
+UNSUPPORTED
+COMMENT CIS scanner
+
+NAME Targa|Funline TS12 EP
+SERVER mustek_pp
+DRIVER Parport (EPP)
+UNSUPPORTED
+COMMENT CIS scanner
+
+NAME Gallery|4800
+SERVER mustek_pp
+DRIVER Parport (EPP)
+UNSUPPORTED
+COMMENT 300 dpi CCD scanner
+
+# from sane-backends-1.0.12/doc/descriptions/test.desc
+# from sane-backends-1.0.12/doc/descriptions/tamarack.desc
 NAME Tamarack|Artiscan 6000C
 SERVER tamarack
 DRIVER SCSI
@@ -2678,7 +3668,247 @@ LINE scsi TAMARACK
 LINE $DEVICE
 COMMENT 3 pass, 600 DPI
 
-# from /root/s/sane-backends-1.0.11/doc/descriptions/teco1.desc
+# from sane-backends-1.0.12/doc/descriptions/abaton.desc
+NAME Abaton|Scan 300/GS
+SERVER abaton
+DRIVER SCSI
+LINE scsi ABATON
+LINE $DEVICE
+COMMENT All known modes and functions supported
+
+NAME Abaton|Scan 300/S
+SERVER abaton
+DRIVER SCSI
+LINE scsi ABATON
+LINE $DEVICE
+COMMENT Untested, use with caution
+
+# from sane-backends-1.0.12/doc/descriptions/sm3600.desc
+NAME Microtek|ScanMaker 3600
+SERVER sm3600
+DRIVER USB
+COMMENT works
+
+NAME Microtek|ScanMaker 3700
+SERVER sm3600
+DRIVER USB
+COMMENT works
+
+NAME Microtek|ScanMaker 3750
+SERVER sm3600
+DRIVER USB
+COMMENT works (told)
+
+# from sane-backends-1.0.12/doc/descriptions/epson.desc
+NAME Epson Corp.|GT-5000
+SERVER epson
+DRIVER Parport
+PARPORTLINE pio 0x378
+PARPORTLINE pio 0x278
+PARPORTLINE pio 0x3BC
+
+NAME Epson Corp.|Actionscanner II
+SERVER epson
+DRIVER Parport
+PARPORTLINE pio 0x378
+PARPORTLINE pio 0x278
+PARPORTLINE pio 0x3BC
+COMMENT US version of GT-5000
+
+NAME Epson Corp.|GT-6000
+SERVER epson
+DRIVER SCSI Parport
+PARPORTLINE pio 0x378
+PARPORTLINE pio 0x278
+PARPORTLINE pio 0x3BC
+SCSILINE scsi EPSON
+
+NAME Epson Corp.|ES-300C
+SERVER epson
+DRIVER SCSI Parport
+PARPORTLINE pio 0x378
+PARPORTLINE pio 0x278
+PARPORTLINE pio 0x3BC
+SCSILINE scsi EPSON
+COMMENT US version of GT-6000
+
+NAME Epson Corp.|GT-5500
+SERVER epson
+DRIVER SCSI
+SCSILINE scsi EPSON
+
+NAME Epson Corp.|GT-6500
+SERVER epson
+DRIVER Parport
+PARPORTLINE pio 0x378
+PARPORTLINE pio 0x278
+PARPORTLINE pio 0x3BC
+
+NAME Epson Corp.|ES-600C
+SERVER epson
+DRIVER Parport
+PARPORTLINE pio 0x378
+PARPORTLINE pio 0x278
+PARPORTLINE pio 0x3BC
+COMMENT US version of GT-6500
+
+NAME Epson Corp.|ES-1200C
+SERVER epson
+DRIVER Parport
+PARPORTLINE pio 0x378
+PARPORTLINE pio 0x278
+PARPORTLINE pio 0x3BC
+COMMENT US version of GT-9000
+
+NAME Epson Corp.|GT-7000
+SERVER epson
+DRIVER SCSI
+SCSILINE scsi EPSON
+
+NAME Epson Corp.|GT-8000
+SERVER epson
+DRIVER SCSI
+SCSILINE scsi EPSON
+
+NAME Epson Corp.|ES-8500
+SERVER epson
+DRIVER SCSI
+SCSILINE scsi EPSON
+
+NAME Epson Corp.|Perfection 636S
+SERVER epson
+DRIVER SCSI
+SCSILINE scsi EPSON
+COMMENT US version of GT-7000
+
+NAME Epson Corp.|Perfection 636U
+SERVER epson
+DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
+
+NAME Epson Corp.|Perfection 610
+SERVER epson
+DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
+
+NAME Epson Corp.|Perfection 640
+SERVER epson
+DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
+
+NAME Epson Corp.|Perfection 1200S
+SERVER epson
+DRIVER SCSI
+SCSILINE scsi EPSON
+
+NAME Epson Corp.|Perfection 1200U
+SERVER epson
+DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
+
+NAME Epson Corp.|Perfection 1200Photo
+SERVER epson
+DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
+COMMENT with TPU
+
+NAME Epson Corp.|Perfection 1240
+SERVER epson
+DRIVER SCSI USB
+SCSILINE scsi EPSON
+USBLINE usb $VENDOR $PRODUCT
+
+NAME Epson Corp.|Perfection 1640
+SERVER epson
+DRIVER SCSI USB
+SCSILINE scsi EPSON
+USBLINE usb $VENDOR $PRODUCT
+
+NAME Epson Corp.|Perfection 1650
+SERVER epson
+DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
+
+NAME Epson Corp.|Perfection 1660
+SERVER epson
+DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
+
+NAME Epson Corp.|Perfection 2400
+SERVER epson
+DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
+
+NAME Epson Corp.|Perfection 2450
+SERVER epson
+DRIVER USB IEEE-1394
+USBLINE usb $VENDOR $PRODUCT
+
+NAME Epson Corp.|Perfection 3200
+SERVER epson
+DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
+COMMENT US version of the GT-9800
+
+NAME Epson Corp.|Expression 636
+SERVER epson
+DRIVER SCSI
+SCSILINE scsi EPSON
+COMMENT US version of GT-9500
+
+NAME Epson Corp.|Expression 800
+SERVER epson
+DRIVER SCSI
+SCSILINE scsi EPSON
+
+NAME Epson Corp.|Expression 1600
+SERVER epson
+DRIVER SCSI USB IEEE-1394
+SCSILINE scsi EPSON
+USBLINE usb $VENDOR $PRODUCT
+
+NAME Epson Corp.|Expression 1680
+SERVER epson
+DRIVER SCSI USB IEEE-1394
+SCSILINE scsi EPSON
+USBLINE usb $VENDOR $PRODUCT
+
+NAME Epson Corp.|FilmScan 200
+SERVER epson
+DRIVER SCSI
+SCSILINE scsi EPSON
+COMMENT A better backend for the FilmScan 200 can be found at <A HREF=\"http://www.vjet.demon.co.uk/scanner/\">http://www.vjet.demon.co.uk/scanner/</A>
+
+NAME Epson Corp.|CX-3200
+SERVER epson
+DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
+
+NAME Epson Corp.|CX-5200
+SERVER epson
+DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
+
+# from sane-backends-1.0.12/doc/descriptions/umax1220u.desc
+NAME Umax|Astra 1220U
+SERVER umax1220u
+DRIVER USB
+LINE usb $VENDOR $PRODUCT
+COMMENT OK
+
+NAME Umax|Astra 2000U
+SERVER umax1220u
+DRIVER USB
+LINE usb $VENDOR $PRODUCT
+COMMENT Sort of scans, but colors all messed up.
+
+NAME Umax|Astra 2200U
+SERVER umax1220u
+DRIVER USB
+LINE usb $VENDOR $PRODUCT
+COMMENT Incompatible.
+
+# from sane-backends-1.0.12/doc/descriptions/teco1.desc
 NAME Relisys|RELI 2412
 SERVER teco1
 DRIVER SCSI
@@ -2849,7 +4079,62 @@ LINE scsi "Dextra DF-600P" Scanner
 LINE $DEVICE
 COMMENT sub model VM6530+
 
-# from /root/s/sane-backends-1.0.11/doc/descriptions/teco2.desc
+# from sane-backends-1.0.12/doc/descriptions/fujitsu.desc
+NAME Fujitsu|M3096G
+SERVER fujitsu
+DRIVER SCSI
+SCSILINE scsi FUJITSU
+
+NAME Fujitsu|M3091DCd
+SERVER fujitsu
+DRIVER SCSI
+SCSILINE scsi FUJITSU
+
+NAME Fujitsu|M3092DCd
+SERVER fujitsu
+DRIVER SCSI
+SCSILINE scsi FUJITSU
+
+NAME Fujitsu|M3093GXim
+SERVER fujitsu
+DRIVER SCSI
+SCSILINE scsi FUJITSU
+
+NAME Fujitsu|M3093GDim
+SERVER fujitsu
+DRIVER SCSI
+SCSILINE scsi FUJITSU
+
+NAME Fujitsu|M4097
+SERVER fujitsu
+DRIVER SCSI
+SCSILINE scsi FUJITSU
+
+NAME Fujitsu|fi-4120C
+SERVER fujitsu
+DRIVER USB SCSI
+SCSILINE scsi FUJITSU
+USBLINE usb $VENDOR $PRODUCT
+COMMENT Probably similar to fi-4220C?
+
+NAME Fujitsu|fi-4220C
+SERVER fujitsu
+DRIVER SCSI USB
+SCSILINE scsi FUJITSU
+USBLINE usb $VENDOR $PRODUCT
+
+NAME Fujitsu|fi-4340C
+SERVER fujitsu
+DRIVER SCSI USB
+SCSILINE scsi FUJITSU
+USBLINE usb $VENDOR $PRODUCT
+
+NAME Fujitsu|ScanPartner 93GX
+SERVER fujitsu
+DRIVER SCSI
+SCSILINE scsi FUJITSU
+
+# from sane-backends-1.0.12/doc/descriptions/teco2.desc
 NAME Relisys|AVEC Super 3
 SERVER teco2
 DRIVER SCSI
@@ -2859,6 +4144,15 @@ LINE scsi "RELISYS" "SCORPIO Pro"
 LINE $DEVICE
 COMMENT sub model VM3575
 
+NAME Relisys|AVEC II S3
+SERVER teco2
+DRIVER SCSI
+LINE scsi "" "Flatbed Scanner" Scanner
+LINE scsi "RELISYS" "APOLLO Express 6"
+LINE scsi "RELISYS" "SCORPIO Pro"
+LINE $DEVICE
+COMMENT sub model VM3564
+
 NAME Relisys|SCORPIO Super 3
 SERVER teco2
 DRIVER SCSI
@@ -2867,6 +4161,15 @@ LINE scsi "RELISYS" "APOLLO Express 6"
 LINE scsi "RELISYS" "SCORPIO Pro"
 LINE $DEVICE
 COMMENT sub model VM3575
+
+NAME Relisys|APOLLO Express 3
+SERVER teco2
+DRIVER SCSI
+LINE scsi "" "Flatbed Scanner" Scanner
+LINE scsi "RELISYS" "APOLLO Express 6"
+LINE scsi "RELISYS" "SCORPIO Pro"
+LINE $DEVICE
+COMMENT sub model VM356A
 
 NAME Relisys|APOLLO Express 6
 SERVER teco2
@@ -2886,6 +4189,15 @@ LINE scsi "RELISYS" "SCORPIO Pro"
 LINE $DEVICE
 COMMENT sub model VM6575
 
+NAME Primax Electronics|Jewel 4800
+SERVER teco2
+DRIVER SCSI
+LINE scsi "" "Flatbed Scanner" Scanner
+LINE scsi "RELISYS" "APOLLO Express 6"
+LINE scsi "RELISYS" "SCORPIO Pro"
+LINE $DEVICE
+COMMENT sub model VM356A
+
 NAME Primax Electronics|Profi 9600
 SERVER teco2
 DRIVER SCSI
@@ -2904,1073 +4216,152 @@ LINE scsi "RELISYS" "SCORPIO Pro"
 LINE $DEVICE
 COMMENT sub model VM6586
 
-# from /root/s/sane-backends-1.0.11/doc/descriptions/teco3.desc
-NAME Trust Technologies|Imagery 2400 SP
-SERVER teco3
-DRIVER SCSI
-LINE scsi "" "Flat-bed scanner" Scanner
-LINE scsi "RELISYS" "Scorpio"
-LINE scsi "Aashima" "IMAGERY 2400SP" Scanner * * * 0
-LINE scsi "Aashima" "IMAGERY 4800SP +"
-LINE $DEVICE
-COMMENT sub model VM3552
+# from sane-backends-1.0.12/doc/descriptions-external/viceo.desc
+NAME Visioneer|OneTouch 6100
+SERVER viceo
+DRIVER USB
+COMMENT Supports E3 and E4 family USB scanners from Genius, Primax, IBM. The backend is not included because the license situation is unclear.
 
-NAME Trust Technologies|Imagery 4800 SP+
-SERVER teco3
-DRIVER SCSI
-LINE scsi "" "Flat-bed scanner" Scanner
-LINE scsi "RELISYS" "Scorpio"
-LINE scsi "Aashima" "IMAGERY 2400SP" Scanner * * * 0
-LINE scsi "Aashima" "IMAGERY 4800SP +"
-LINE $DEVICE
-COMMENT sub model VM3552
+NAME Visioneer|OneTouch 7600
+SERVER viceo
+DRIVER USB
 
-NAME Trust Technologies|Imagery 9600 SP
-SERVER teco3
-DRIVER SCSI
-LINE scsi "" "Flat-bed scanner" Scanner
-LINE scsi "RELISYS" "Scorpio"
-LINE scsi "Aashima" "IMAGERY 2400SP" Scanner * * * 0
-LINE scsi "Aashima" "IMAGERY 4800SP +"
-LINE $DEVICE
-COMMENT sub model VM3552
+NAME LG Electronics|Scanworks 600U
+SERVER viceo
+DRIVER USB
 
-# from /root/s/sane-backends-1.0.11/doc/descriptions/test.desc
-# from /root/s/sane-backends-1.0.11/doc/descriptions/umax1220u.desc
-NAME Umax|Astra 1220U
-SERVER umax1220u
+# from sane-backends-1.0.12/doc/descriptions-external/primax.desc
+NAME Primax Electronics|Colorado Direct 300
+SERVER primax
+DRIVER Parport
+COMMENT This backend is not included because it depends on the code of the primax command line program. Therefore the author want's to keep it in the primax CVS tree.
+
+NAME Storm|Totalscan
+SERVER primax
+DRIVER Parport
+
+NAME Genius|Colorpage-Vivid+
+SERVER primax
+DRIVER Parport
+
+# from sane-backends-1.0.12/doc/descriptions-external/v4l2.desc
+# from sane-backends-1.0.12/doc/descriptions-external/scanwit.desc
+NAME Benq|ScanWit 2720S
+SERVER scanwit
+DRIVER SCSI
+COMMENT Usable, but not complete
+
+# from sane-backends-1.0.12/doc/descriptions-external/niash.desc
+NAME Hewlett-Packard|ScanJet 3300c
+SERVER niash
+DRIVER USB
+COMMENT NIASH00014 chip. Prototype backend available
+
+NAME Hewlett-Packard|ScanJet 3400c
+SERVER niash
+DRIVER USB
+COMMENT NIASH00019 chip. Partially works.
+
+NAME Hewlett-Packard|ScanJet 3400c
+SERVER niash
+DRIVER Parport (EPP)
+COMMENT Untested
+
+NAME Hewlett-Packard|ScanJet 4300c
+SERVER niash
+DRIVER USB
+COMMENT NIASH00019 chip. Partially works.
+
+NAME AGFA-Gevaert NV|Snapscan Touch
+SERVER niash
+DRIVER USB
+COMMENT NIASH00014 chip. Untested
+
+# from sane-backends-1.0.12/doc/descriptions-external/hpoj.desc
+NAME Hewlett-Packard|Most HP OfficeJet, LaserJet, and PSC (Printer/Scanner/Copier) multi-function peripherals
+SERVER hpoj
+DRIVER Parport(ECP) USB JetDirect
+COMMENT Distributed with the HP OfficeJet Linux driver (hpoj)
+
+# from sane-backends-1.0.12/doc/descriptions-external/hp4200.desc
+NAME Hewlett-Packard|ScanJet 4200c
+SERVER hp4200
 DRIVER USB
 LINE usb $VENDOR $PRODUCT
-COMMENT OK
+COMMENT 8bpp, 150/300/600 dpi only, and scanned image needs postprocessing
 
-NAME Umax|Astra 2000U
-SERVER umax1220u
+# from sane-backends-1.0.12/doc/descriptions/unsupported.desc
+NAME Artec/Ultima|1236 USB
+SERVER unsupported
 DRIVER USB
-LINE usb $VENDOR $PRODUCT
-COMMENT Sort of scans, but colors all messed up.
+UNSUPPORTED
+COMMENT Unsupported. Vendor/product 0x05d8/0x4001. Same id as one of the Artec Ultima 2000 scanners. More information (e.g. /proc/bus/usb/devices output) would be appreciated.
 
-NAME Umax|Astra 2200U
-SERVER umax1220u
+NAME Artec/Ultima|E+ Pro
+SERVER unsupported
 DRIVER USB
-LINE usb $VENDOR $PRODUCT
-COMMENT Incompatible.
+UNSUPPORTED
+COMMENT Not supported. Vendor/product 0x05d8/0x4004. /proc/bus/usb/devices output is available. Chipset is GT6816. May work with the gt68xx backend after some work in the source code.
 
-# from /root/s/sane-backends-1.0.11/doc/descriptions/umax.desc
-NAME Umax|Vista S6
-SERVER umax
-DRIVER SCSI
-SCSILINE scsi UMAX * Scanner
-SCSILINE scsi LinoHell JADE
-SCSILINE scsi LinoHell Office
-SCSILINE scsi LinoHell Office2
-SCSILINE scsi LinoHell SAPHIR2
-SCSILINE scsi LinoHell SAPHIR3
-SCSILINE scsi HDM LS4H1S
-SCSILINE scsi Nikon AX-110
-SCSILINE scsi Nikon AX-210
-SCSILINE scsi KYE ColorPage-HR5
-SCSILINE scsi EPSON Perfection600
-SCSILINE scsi ESCORT "Galleria 600S"
-SCSILINE option connection-type 1
-LINE $DEVICE
-COMMENT OK
-
-NAME Umax|Vista S6E
-SERVER umax
-DRIVER SCSI
-SCSILINE scsi UMAX * Scanner
-SCSILINE scsi LinoHell JADE
-SCSILINE scsi LinoHell Office
-SCSILINE scsi LinoHell Office2
-SCSILINE scsi LinoHell SAPHIR2
-SCSILINE scsi LinoHell SAPHIR3
-SCSILINE scsi HDM LS4H1S
-SCSILINE scsi Nikon AX-110
-SCSILINE scsi Nikon AX-210
-SCSILINE scsi KYE ColorPage-HR5
-SCSILINE scsi EPSON Perfection600
-SCSILINE scsi ESCORT "Galleria 600S"
-SCSILINE option connection-type 1
-LINE $DEVICE
-COMMENT OK
-
-NAME Umax|UMAX S-6E
-SERVER umax
-DRIVER SCSI
-SCSILINE scsi UMAX * Scanner
-SCSILINE scsi LinoHell JADE
-SCSILINE scsi LinoHell Office
-SCSILINE scsi LinoHell Office2
-SCSILINE scsi LinoHell SAPHIR2
-SCSILINE scsi LinoHell SAPHIR3
-SCSILINE scsi HDM LS4H1S
-SCSILINE scsi Nikon AX-110
-SCSILINE scsi Nikon AX-210
-SCSILINE scsi KYE ColorPage-HR5
-SCSILINE scsi EPSON Perfection600
-SCSILINE scsi ESCORT "Galleria 600S"
-SCSILINE option connection-type 1
-LINE $DEVICE
-COMMENT OK
-
-NAME Umax|UMAX S-6EG
-SERVER umax
-DRIVER SCSI
-SCSILINE scsi UMAX * Scanner
-SCSILINE scsi LinoHell JADE
-SCSILINE scsi LinoHell Office
-SCSILINE scsi LinoHell Office2
-SCSILINE scsi LinoHell SAPHIR2
-SCSILINE scsi LinoHell SAPHIR3
-SCSILINE scsi HDM LS4H1S
-SCSILINE scsi Nikon AX-110
-SCSILINE scsi Nikon AX-210
-SCSILINE scsi KYE ColorPage-HR5
-SCSILINE scsi EPSON Perfection600
-SCSILINE scsi ESCORT "Galleria 600S"
-SCSILINE option connection-type 1
-LINE $DEVICE
-COMMENT OK
-
-NAME Umax|Vista-S8
-SERVER umax
-DRIVER SCSI
-SCSILINE scsi UMAX * Scanner
-SCSILINE scsi LinoHell JADE
-SCSILINE scsi LinoHell Office
-SCSILINE scsi LinoHell Office2
-SCSILINE scsi LinoHell SAPHIR2
-SCSILINE scsi LinoHell SAPHIR3
-SCSILINE scsi HDM LS4H1S
-SCSILINE scsi Nikon AX-110
-SCSILINE scsi Nikon AX-210
-SCSILINE scsi KYE ColorPage-HR5
-SCSILINE scsi EPSON Perfection600
-SCSILINE scsi ESCORT "Galleria 600S"
-SCSILINE option connection-type 1
-LINE $DEVICE
-COMMENT OK
-
-NAME Umax|Supervista S-12
-SERVER umax
-DRIVER SCSI
-SCSILINE scsi UMAX * Scanner
-SCSILINE scsi LinoHell JADE
-SCSILINE scsi LinoHell Office
-SCSILINE scsi LinoHell Office2
-SCSILINE scsi LinoHell SAPHIR2
-SCSILINE scsi LinoHell SAPHIR3
-SCSILINE scsi HDM LS4H1S
-SCSILINE scsi Nikon AX-110
-SCSILINE scsi Nikon AX-210
-SCSILINE scsi KYE ColorPage-HR5
-SCSILINE scsi EPSON Perfection600
-SCSILINE scsi ESCORT "Galleria 600S"
-SCSILINE option connection-type 1
-LINE $DEVICE
-COMMENT OK
-
-NAME Umax|UMAX S-12
-SERVER umax
-DRIVER SCSI
-SCSILINE scsi UMAX * Scanner
-SCSILINE scsi LinoHell JADE
-SCSILINE scsi LinoHell Office
-SCSILINE scsi LinoHell Office2
-SCSILINE scsi LinoHell SAPHIR2
-SCSILINE scsi LinoHell SAPHIR3
-SCSILINE scsi HDM LS4H1S
-SCSILINE scsi Nikon AX-110
-SCSILINE scsi Nikon AX-210
-SCSILINE scsi KYE ColorPage-HR5
-SCSILINE scsi EPSON Perfection600
-SCSILINE scsi ESCORT "Galleria 600S"
-SCSILINE option connection-type 1
-LINE $DEVICE
-COMMENT OK
-
-NAME Umax|UMAX S-12G
-SERVER umax
-DRIVER SCSI
-SCSILINE scsi UMAX * Scanner
-SCSILINE scsi LinoHell JADE
-SCSILINE scsi LinoHell Office
-SCSILINE scsi LinoHell Office2
-SCSILINE scsi LinoHell SAPHIR2
-SCSILINE scsi LinoHell SAPHIR3
-SCSILINE scsi HDM LS4H1S
-SCSILINE scsi Nikon AX-110
-SCSILINE scsi Nikon AX-210
-SCSILINE scsi KYE ColorPage-HR5
-SCSILINE scsi EPSON Perfection600
-SCSILINE scsi ESCORT "Galleria 600S"
-SCSILINE option connection-type 1
-LINE $DEVICE
-COMMENT OK
-
-NAME Umax|Astra 600S
-SERVER umax
-DRIVER SCSI
-SCSILINE scsi UMAX * Scanner
-SCSILINE scsi LinoHell JADE
-SCSILINE scsi LinoHell Office
-SCSILINE scsi LinoHell Office2
-SCSILINE scsi LinoHell SAPHIR2
-SCSILINE scsi LinoHell SAPHIR3
-SCSILINE scsi HDM LS4H1S
-SCSILINE scsi Nikon AX-110
-SCSILINE scsi Nikon AX-210
-SCSILINE scsi KYE ColorPage-HR5
-SCSILINE scsi EPSON Perfection600
-SCSILINE scsi ESCORT "Galleria 600S"
-SCSILINE option connection-type 1
-LINE $DEVICE
-COMMENT OK
-
-NAME Umax|Astra 610S
-SERVER umax
-DRIVER SCSI
-SCSILINE scsi UMAX * Scanner
-SCSILINE scsi LinoHell JADE
-SCSILINE scsi LinoHell Office
-SCSILINE scsi LinoHell Office2
-SCSILINE scsi LinoHell SAPHIR2
-SCSILINE scsi LinoHell SAPHIR3
-SCSILINE scsi HDM LS4H1S
-SCSILINE scsi Nikon AX-110
-SCSILINE scsi Nikon AX-210
-SCSILINE scsi KYE ColorPage-HR5
-SCSILINE scsi EPSON Perfection600
-SCSILINE scsi ESCORT "Galleria 600S"
-SCSILINE option connection-type 1
-LINE $DEVICE
-COMMENT OK
-
-NAME Umax|Astra 1200S
-SERVER umax
-DRIVER SCSI
-SCSILINE scsi UMAX * Scanner
-SCSILINE scsi LinoHell JADE
-SCSILINE scsi LinoHell Office
-SCSILINE scsi LinoHell Office2
-SCSILINE scsi LinoHell SAPHIR2
-SCSILINE scsi LinoHell SAPHIR3
-SCSILINE scsi HDM LS4H1S
-SCSILINE scsi Nikon AX-110
-SCSILINE scsi Nikon AX-210
-SCSILINE scsi KYE ColorPage-HR5
-SCSILINE scsi EPSON Perfection600
-SCSILINE scsi ESCORT "Galleria 600S"
-SCSILINE option connection-type 1
-LINE $DEVICE
-COMMENT OK
-
-NAME Umax|Astra 1220S
-SERVER umax
-DRIVER SCSI
-SCSILINE scsi UMAX * Scanner
-SCSILINE scsi LinoHell JADE
-SCSILINE scsi LinoHell Office
-SCSILINE scsi LinoHell Office2
-SCSILINE scsi LinoHell SAPHIR2
-SCSILINE scsi LinoHell SAPHIR3
-SCSILINE scsi HDM LS4H1S
-SCSILINE scsi Nikon AX-110
-SCSILINE scsi Nikon AX-210
-SCSILINE scsi KYE ColorPage-HR5
-SCSILINE scsi EPSON Perfection600
-SCSILINE scsi ESCORT "Galleria 600S"
-SCSILINE option connection-type 1
-LINE $DEVICE
-COMMENT OK
-
-NAME Umax|Astra 2100S
-SERVER umax
-DRIVER SCSI
-SCSILINE scsi UMAX * Scanner
-SCSILINE scsi LinoHell JADE
-SCSILINE scsi LinoHell Office
-SCSILINE scsi LinoHell Office2
-SCSILINE scsi LinoHell SAPHIR2
-SCSILINE scsi LinoHell SAPHIR3
-SCSILINE scsi HDM LS4H1S
-SCSILINE scsi Nikon AX-110
-SCSILINE scsi Nikon AX-210
-SCSILINE scsi KYE ColorPage-HR5
-SCSILINE scsi EPSON Perfection600
-SCSILINE scsi ESCORT "Galleria 600S"
-SCSILINE option connection-type 1
-LINE $DEVICE
-COMMENT OK
-
-NAME Umax|Astra 2200 (SU)
-SERVER umax
-DRIVER SCSI
-SCSILINE scsi UMAX * Scanner
-SCSILINE scsi LinoHell JADE
-SCSILINE scsi LinoHell Office
-SCSILINE scsi LinoHell Office2
-SCSILINE scsi LinoHell SAPHIR2
-SCSILINE scsi LinoHell SAPHIR3
-SCSILINE scsi HDM LS4H1S
-SCSILINE scsi Nikon AX-110
-SCSILINE scsi Nikon AX-210
-SCSILINE scsi KYE ColorPage-HR5
-SCSILINE scsi EPSON Perfection600
-SCSILINE scsi ESCORT "Galleria 600S"
-SCSILINE option connection-type 1
-LINE $DEVICE
-COMMENT OK
-
-NAME Umax|Astra 2200 (SU)
-SERVER umax
-DRIVER USB
-USBLINE usb $VENDOR $PRODUCT
-USBLINE option connection-type 2
-LINE $DEVICE
-COMMENT OK, needs USB control messages
-
-NAME Umax|Astra 2400S
-SERVER umax
-DRIVER SCSI
-SCSILINE scsi UMAX * Scanner
-SCSILINE scsi LinoHell JADE
-SCSILINE scsi LinoHell Office
-SCSILINE scsi LinoHell Office2
-SCSILINE scsi LinoHell SAPHIR2
-SCSILINE scsi LinoHell SAPHIR3
-SCSILINE scsi HDM LS4H1S
-SCSILINE scsi Nikon AX-110
-SCSILINE scsi Nikon AX-210
-SCSILINE scsi KYE ColorPage-HR5
-SCSILINE scsi EPSON Perfection600
-SCSILINE scsi ESCORT "Galleria 600S"
-SCSILINE option connection-type 1
-LINE $DEVICE
-COMMENT OK
-
-NAME Umax|Astra 6400
-SERVER umax
-DRIVER IEEE-1394
-LINE $DEVICE
-COMMENT will propably work one day
-
-NAME Umax|Astra 6450
-SERVER umax
-DRIVER IEEE-1394
-LINE $DEVICE
-COMMENT will propably work one day
-
-NAME Umax|Astra MX3
-SERVER umax
-DRIVER SCSI
-SCSILINE scsi UMAX * Scanner
-SCSILINE scsi LinoHell JADE
-SCSILINE scsi LinoHell Office
-SCSILINE scsi LinoHell Office2
-SCSILINE scsi LinoHell SAPHIR2
-SCSILINE scsi LinoHell SAPHIR3
-SCSILINE scsi HDM LS4H1S
-SCSILINE scsi Nikon AX-110
-SCSILINE scsi Nikon AX-210
-SCSILINE scsi KYE ColorPage-HR5
-SCSILINE scsi EPSON Perfection600
-SCSILINE scsi ESCORT "Galleria 600S"
-SCSILINE option connection-type 1
-LINE $DEVICE
-COMMENT OK
-
-NAME Umax|Astra MX3
-SERVER umax
-DRIVER USB
-USBLINE usb $VENDOR $PRODUCT
-USBLINE option connection-type 2
-LINE $DEVICE
-COMMENT OK, needs USB control messages
-
-NAME Umax|Mirage D-16L
-SERVER umax
-DRIVER SCSI
-SCSILINE scsi UMAX * Scanner
-SCSILINE scsi LinoHell JADE
-SCSILINE scsi LinoHell Office
-SCSILINE scsi LinoHell Office2
-SCSILINE scsi LinoHell SAPHIR2
-SCSILINE scsi LinoHell SAPHIR3
-SCSILINE scsi HDM LS4H1S
-SCSILINE scsi Nikon AX-110
-SCSILINE scsi Nikon AX-210
-SCSILINE scsi KYE ColorPage-HR5
-SCSILINE scsi EPSON Perfection600
-SCSILINE scsi ESCORT "Galleria 600S"
-SCSILINE option connection-type 1
-LINE $DEVICE
-COMMENT OK
-
-NAME Umax|Mirage II
-SERVER umax
-DRIVER SCSI
-SCSILINE scsi UMAX * Scanner
-SCSILINE scsi LinoHell JADE
-SCSILINE scsi LinoHell Office
-SCSILINE scsi LinoHell Office2
-SCSILINE scsi LinoHell SAPHIR2
-SCSILINE scsi LinoHell SAPHIR3
-SCSILINE scsi HDM LS4H1S
-SCSILINE scsi Nikon AX-110
-SCSILINE scsi Nikon AX-210
-SCSILINE scsi KYE ColorPage-HR5
-SCSILINE scsi EPSON Perfection600
-SCSILINE scsi ESCORT "Galleria 600S"
-SCSILINE option connection-type 1
-LINE $DEVICE
-COMMENT OK
-
-NAME Umax|Mirage IIse
-SERVER umax
-DRIVER SCSI
-SCSILINE scsi UMAX * Scanner
-SCSILINE scsi LinoHell JADE
-SCSILINE scsi LinoHell Office
-SCSILINE scsi LinoHell Office2
-SCSILINE scsi LinoHell SAPHIR2
-SCSILINE scsi LinoHell SAPHIR3
-SCSILINE scsi HDM LS4H1S
-SCSILINE scsi Nikon AX-110
-SCSILINE scsi Nikon AX-210
-SCSILINE scsi KYE ColorPage-HR5
-SCSILINE scsi EPSON Perfection600
-SCSILINE scsi ESCORT "Galleria 600S"
-SCSILINE option connection-type 1
-LINE $DEVICE
-COMMENT may work, please test and give feedback
-
-NAME Umax|PSD
-SERVER umax
-DRIVER SCSI
-SCSILINE scsi UMAX * Scanner
-SCSILINE scsi LinoHell JADE
-SCSILINE scsi LinoHell Office
-SCSILINE scsi LinoHell Office2
-SCSILINE scsi LinoHell SAPHIR2
-SCSILINE scsi LinoHell SAPHIR3
-SCSILINE scsi HDM LS4H1S
-SCSILINE scsi Nikon AX-110
-SCSILINE scsi Nikon AX-210
-SCSILINE scsi KYE ColorPage-HR5
-SCSILINE scsi EPSON Perfection600
-SCSILINE scsi ESCORT "Galleria 600S"
-SCSILINE option connection-type 1
-LINE $DEVICE
-COMMENT OK
-
-NAME Umax|PowerLook
-SERVER umax
-DRIVER SCSI
-SCSILINE scsi UMAX * Scanner
-SCSILINE scsi LinoHell JADE
-SCSILINE scsi LinoHell Office
-SCSILINE scsi LinoHell Office2
-SCSILINE scsi LinoHell SAPHIR2
-SCSILINE scsi LinoHell SAPHIR3
-SCSILINE scsi HDM LS4H1S
-SCSILINE scsi Nikon AX-110
-SCSILINE scsi Nikon AX-210
-SCSILINE scsi KYE ColorPage-HR5
-SCSILINE scsi EPSON Perfection600
-SCSILINE scsi ESCORT "Galleria 600S"
-SCSILINE option connection-type 1
-LINE $DEVICE
-COMMENT may work, please test and give feedback
-
-NAME Umax|PL-II
-SERVER umax
-DRIVER SCSI
-SCSILINE scsi UMAX * Scanner
-SCSILINE scsi LinoHell JADE
-SCSILINE scsi LinoHell Office
-SCSILINE scsi LinoHell Office2
-SCSILINE scsi LinoHell SAPHIR2
-SCSILINE scsi LinoHell SAPHIR3
-SCSILINE scsi HDM LS4H1S
-SCSILINE scsi Nikon AX-110
-SCSILINE scsi Nikon AX-210
-SCSILINE scsi KYE ColorPage-HR5
-SCSILINE scsi EPSON Perfection600
-SCSILINE scsi ESCORT "Galleria 600S"
-SCSILINE option connection-type 1
-LINE $DEVICE
-COMMENT may work, please test and give feedback
-
-NAME Umax|PowerLook III
-SERVER umax
-DRIVER SCSI
-SCSILINE scsi UMAX * Scanner
-SCSILINE scsi LinoHell JADE
-SCSILINE scsi LinoHell Office
-SCSILINE scsi LinoHell Office2
-SCSILINE scsi LinoHell SAPHIR2
-SCSILINE scsi LinoHell SAPHIR3
-SCSILINE scsi HDM LS4H1S
-SCSILINE scsi Nikon AX-110
-SCSILINE scsi Nikon AX-210
-SCSILINE scsi KYE ColorPage-HR5
-SCSILINE scsi EPSON Perfection600
-SCSILINE scsi ESCORT "Galleria 600S"
-SCSILINE option connection-type 1
-LINE $DEVICE
-COMMENT OK
-
-NAME Umax|PowerLook 270
-SERVER umax
-DRIVER SCSI
-SCSILINE scsi UMAX * Scanner
-SCSILINE scsi LinoHell JADE
-SCSILINE scsi LinoHell Office
-SCSILINE scsi LinoHell Office2
-SCSILINE scsi LinoHell SAPHIR2
-SCSILINE scsi LinoHell SAPHIR3
-SCSILINE scsi HDM LS4H1S
-SCSILINE scsi Nikon AX-110
-SCSILINE scsi Nikon AX-210
-SCSILINE scsi KYE ColorPage-HR5
-SCSILINE scsi EPSON Perfection600
-SCSILINE scsi ESCORT "Galleria 600S"
-SCSILINE option connection-type 1
-LINE $DEVICE
-COMMENT incompatible
-
-NAME Umax|PowerLook 270plus
-SERVER umax
-DRIVER SCSI
-SCSILINE scsi UMAX * Scanner
-SCSILINE scsi LinoHell JADE
-SCSILINE scsi LinoHell Office
-SCSILINE scsi LinoHell Office2
-SCSILINE scsi LinoHell SAPHIR2
-SCSILINE scsi LinoHell SAPHIR3
-SCSILINE scsi HDM LS4H1S
-SCSILINE scsi Nikon AX-110
-SCSILINE scsi Nikon AX-210
-SCSILINE scsi KYE ColorPage-HR5
-SCSILINE scsi EPSON Perfection600
-SCSILINE scsi ESCORT "Galleria 600S"
-SCSILINE option connection-type 1
-LINE $DEVICE
-COMMENT incompatible
-
-NAME Umax|PowerLook 1100
-SERVER umax
-DRIVER IEEE-1394
-LINE $DEVICE
-COMMENT will propably work one day
-
-NAME Umax|PowerLook 2000
-SERVER umax
-DRIVER SCSI
-SCSILINE scsi UMAX * Scanner
-SCSILINE scsi LinoHell JADE
-SCSILINE scsi LinoHell Office
-SCSILINE scsi LinoHell Office2
-SCSILINE scsi LinoHell SAPHIR2
-SCSILINE scsi LinoHell SAPHIR3
-SCSILINE scsi HDM LS4H1S
-SCSILINE scsi Nikon AX-110
-SCSILINE scsi Nikon AX-210
-SCSILINE scsi KYE ColorPage-HR5
-SCSILINE scsi EPSON Perfection600
-SCSILINE scsi ESCORT "Galleria 600S"
-SCSILINE option connection-type 1
-LINE $DEVICE
-COMMENT may work, please test and give feedback
-
-NAME Umax|PowerLook 2100XL
-SERVER umax
-DRIVER SCSI
-SCSILINE scsi UMAX * Scanner
-SCSILINE scsi LinoHell JADE
-SCSILINE scsi LinoHell Office
-SCSILINE scsi LinoHell Office2
-SCSILINE scsi LinoHell SAPHIR2
-SCSILINE scsi LinoHell SAPHIR3
-SCSILINE scsi HDM LS4H1S
-SCSILINE scsi Nikon AX-110
-SCSILINE scsi Nikon AX-210
-SCSILINE scsi KYE ColorPage-HR5
-SCSILINE scsi EPSON Perfection600
-SCSILINE scsi ESCORT "Galleria 600S"
-SCSILINE option connection-type 1
-LINE $DEVICE
-COMMENT OK
-
-NAME Umax|PowerLook 3000
-SERVER umax
-DRIVER SCSI
-SCSILINE scsi UMAX * Scanner
-SCSILINE scsi LinoHell JADE
-SCSILINE scsi LinoHell Office
-SCSILINE scsi LinoHell Office2
-SCSILINE scsi LinoHell SAPHIR2
-SCSILINE scsi LinoHell SAPHIR3
-SCSILINE scsi HDM LS4H1S
-SCSILINE scsi Nikon AX-110
-SCSILINE scsi Nikon AX-210
-SCSILINE scsi KYE ColorPage-HR5
-SCSILINE scsi EPSON Perfection600
-SCSILINE scsi ESCORT "Galleria 600S"
-SCSILINE option connection-type 1
-LINE $DEVICE
-COMMENT OK
-
-NAME Umax|Gemini D-16
-SERVER umax
-DRIVER SCSI
-SCSILINE scsi UMAX * Scanner
-SCSILINE scsi LinoHell JADE
-SCSILINE scsi LinoHell Office
-SCSILINE scsi LinoHell Office2
-SCSILINE scsi LinoHell SAPHIR2
-SCSILINE scsi LinoHell SAPHIR3
-SCSILINE scsi HDM LS4H1S
-SCSILINE scsi Nikon AX-110
-SCSILINE scsi Nikon AX-210
-SCSILINE scsi KYE ColorPage-HR5
-SCSILINE scsi EPSON Perfection600
-SCSILINE scsi ESCORT "Galleria 600S"
-SCSILINE option connection-type 1
-LINE $DEVICE
-COMMENT OK
-
-NAME Umax|UMAX VT600
-SERVER umax
-DRIVER SCSI
-SCSILINE scsi UMAX * Scanner
-SCSILINE scsi LinoHell JADE
-SCSILINE scsi LinoHell Office
-SCSILINE scsi LinoHell Office2
-SCSILINE scsi LinoHell SAPHIR2
-SCSILINE scsi LinoHell SAPHIR3
-SCSILINE scsi HDM LS4H1S
-SCSILINE scsi Nikon AX-110
-SCSILINE scsi Nikon AX-210
-SCSILINE scsi KYE ColorPage-HR5
-SCSILINE scsi EPSON Perfection600
-SCSILINE scsi ESCORT "Galleria 600S"
-SCSILINE option connection-type 1
-LINE $DEVICE
-COMMENT may work, please test and give feedback
-
-NAME Umax|Vista-T630
-SERVER umax
-DRIVER SCSI
-SCSILINE scsi UMAX * Scanner
-SCSILINE scsi LinoHell JADE
-SCSILINE scsi LinoHell Office
-SCSILINE scsi LinoHell Office2
-SCSILINE scsi LinoHell SAPHIR2
-SCSILINE scsi LinoHell SAPHIR3
-SCSILINE scsi HDM LS4H1S
-SCSILINE scsi Nikon AX-110
-SCSILINE scsi Nikon AX-210
-SCSILINE scsi KYE ColorPage-HR5
-SCSILINE scsi EPSON Perfection600
-SCSILINE scsi ESCORT "Galleria 600S"
-SCSILINE option connection-type 1
-LINE $DEVICE
-COMMENT OK for some firmwareversions, on others only lineart OK
-
-NAME Umax|UC 630
-SERVER umax
-DRIVER SCSI
-SCSILINE scsi UMAX * Scanner
-SCSILINE scsi LinoHell JADE
-SCSILINE scsi LinoHell Office
-SCSILINE scsi LinoHell Office2
-SCSILINE scsi LinoHell SAPHIR2
-SCSILINE scsi LinoHell SAPHIR3
-SCSILINE scsi HDM LS4H1S
-SCSILINE scsi Nikon AX-110
-SCSILINE scsi Nikon AX-210
-SCSILINE scsi KYE ColorPage-HR5
-SCSILINE scsi EPSON Perfection600
-SCSILINE scsi ESCORT "Galleria 600S"
-SCSILINE option connection-type 1
-LINE $DEVICE
-COMMENT Version 2.8 OK, others only lineart OK
-
-NAME Umax|UG 630
-SERVER umax
-DRIVER SCSI
-SCSILINE scsi UMAX * Scanner
-SCSILINE scsi LinoHell JADE
-SCSILINE scsi LinoHell Office
-SCSILINE scsi LinoHell Office2
-SCSILINE scsi LinoHell SAPHIR2
-SCSILINE scsi LinoHell SAPHIR3
-SCSILINE scsi HDM LS4H1S
-SCSILINE scsi Nikon AX-110
-SCSILINE scsi Nikon AX-210
-SCSILINE scsi KYE ColorPage-HR5
-SCSILINE scsi EPSON Perfection600
-SCSILINE scsi ESCORT "Galleria 600S"
-SCSILINE option connection-type 1
-LINE $DEVICE
-COMMENT OK
-
-NAME Umax|UG 80
-SERVER umax
-DRIVER SCSI
-SCSILINE scsi UMAX * Scanner
-SCSILINE scsi LinoHell JADE
-SCSILINE scsi LinoHell Office
-SCSILINE scsi LinoHell Office2
-SCSILINE scsi LinoHell SAPHIR2
-SCSILINE scsi LinoHell SAPHIR3
-SCSILINE scsi HDM LS4H1S
-SCSILINE scsi Nikon AX-110
-SCSILINE scsi Nikon AX-210
-SCSILINE scsi KYE ColorPage-HR5
-SCSILINE scsi EPSON Perfection600
-SCSILINE scsi ESCORT "Galleria 600S"
-SCSILINE option connection-type 1
-LINE $DEVICE
-COMMENT OK
-
-NAME Umax|UC 840
-SERVER umax
-DRIVER SCSI
-SCSILINE scsi UMAX * Scanner
-SCSILINE scsi LinoHell JADE
-SCSILINE scsi LinoHell Office
-SCSILINE scsi LinoHell Office2
-SCSILINE scsi LinoHell SAPHIR2
-SCSILINE scsi LinoHell SAPHIR3
-SCSILINE scsi HDM LS4H1S
-SCSILINE scsi Nikon AX-110
-SCSILINE scsi Nikon AX-210
-SCSILINE scsi KYE ColorPage-HR5
-SCSILINE scsi EPSON Perfection600
-SCSILINE scsi ESCORT "Galleria 600S"
-SCSILINE option connection-type 1
-LINE $DEVICE
-COMMENT Version 1.6 OK, others only lineart OK
-
-NAME Umax|UC 1200S
-SERVER umax
-DRIVER SCSI
-SCSILINE scsi UMAX * Scanner
-SCSILINE scsi LinoHell JADE
-SCSILINE scsi LinoHell Office
-SCSILINE scsi LinoHell Office2
-SCSILINE scsi LinoHell SAPHIR2
-SCSILINE scsi LinoHell SAPHIR3
-SCSILINE scsi HDM LS4H1S
-SCSILINE scsi Nikon AX-110
-SCSILINE scsi Nikon AX-210
-SCSILINE scsi KYE ColorPage-HR5
-SCSILINE scsi EPSON Perfection600
-SCSILINE scsi ESCORT "Galleria 600S"
-SCSILINE option connection-type 1
-LINE $DEVICE
-COMMENT may work, please test and give feedback
-
-NAME Umax|UC 1200SE
-SERVER umax
-DRIVER SCSI
-SCSILINE scsi UMAX * Scanner
-SCSILINE scsi LinoHell JADE
-SCSILINE scsi LinoHell Office
-SCSILINE scsi LinoHell Office2
-SCSILINE scsi LinoHell SAPHIR2
-SCSILINE scsi LinoHell SAPHIR3
-SCSILINE scsi HDM LS4H1S
-SCSILINE scsi Nikon AX-110
-SCSILINE scsi Nikon AX-210
-SCSILINE scsi KYE ColorPage-HR5
-SCSILINE scsi EPSON Perfection600
-SCSILINE scsi ESCORT "Galleria 600S"
-SCSILINE option connection-type 1
-LINE $DEVICE
-COMMENT Version 3.0 OK, others unknown
-
-NAME Linotype Hell|Jade
-SERVER umax
-DRIVER SCSI
-SCSILINE scsi UMAX * Scanner
-SCSILINE scsi LinoHell JADE
-SCSILINE scsi LinoHell Office
-SCSILINE scsi LinoHell Office2
-SCSILINE scsi LinoHell SAPHIR2
-SCSILINE scsi LinoHell SAPHIR3
-SCSILINE scsi HDM LS4H1S
-SCSILINE scsi Nikon AX-110
-SCSILINE scsi Nikon AX-210
-SCSILINE scsi KYE ColorPage-HR5
-SCSILINE scsi EPSON Perfection600
-SCSILINE scsi ESCORT "Galleria 600S"
-SCSILINE option connection-type 1
-LINE $DEVICE
-COMMENT OK, SCSI-ID=LinoHell Office
-
-NAME Linotype Hell|Jade
-SERVER umax
-DRIVER SCSI
-SCSILINE scsi UMAX * Scanner
-SCSILINE scsi LinoHell JADE
-SCSILINE scsi LinoHell Office
-SCSILINE scsi LinoHell Office2
-SCSILINE scsi LinoHell SAPHIR2
-SCSILINE scsi LinoHell SAPHIR3
-SCSILINE scsi HDM LS4H1S
-SCSILINE scsi Nikon AX-110
-SCSILINE scsi Nikon AX-210
-SCSILINE scsi KYE ColorPage-HR5
-SCSILINE scsi EPSON Perfection600
-SCSILINE scsi ESCORT "Galleria 600S"
-SCSILINE option connection-type 1
-LINE $DEVICE
-COMMENT OK, SCSI-ID=LinoHell JADE
-
-NAME Linotype Hell|Jade2
-SERVER umax
-DRIVER SCSI
-SCSILINE scsi UMAX * Scanner
-SCSILINE scsi LinoHell JADE
-SCSILINE scsi LinoHell Office
-SCSILINE scsi LinoHell Office2
-SCSILINE scsi LinoHell SAPHIR2
-SCSILINE scsi LinoHell SAPHIR3
-SCSILINE scsi HDM LS4H1S
-SCSILINE scsi Nikon AX-110
-SCSILINE scsi Nikon AX-210
-SCSILINE scsi KYE ColorPage-HR5
-SCSILINE scsi EPSON Perfection600
-SCSILINE scsi ESCORT "Galleria 600S"
-SCSILINE option connection-type 1
-LINE $DEVICE
-COMMENT OK, SCSI-ID=LinoHell Office2
-
-NAME Linotype Hell|Saphir
-SERVER umax
-DRIVER SCSI
-SCSILINE scsi UMAX * Scanner
-SCSILINE scsi LinoHell JADE
-SCSILINE scsi LinoHell Office
-SCSILINE scsi LinoHell Office2
-SCSILINE scsi LinoHell SAPHIR2
-SCSILINE scsi LinoHell SAPHIR3
-SCSILINE scsi HDM LS4H1S
-SCSILINE scsi Nikon AX-110
-SCSILINE scsi Nikon AX-210
-SCSILINE scsi KYE ColorPage-HR5
-SCSILINE scsi EPSON Perfection600
-SCSILINE scsi ESCORT "Galleria 600S"
-SCSILINE option connection-type 1
-LINE $DEVICE
-COMMENT support disabled until tested - please contact author
-
-NAME Linotype Hell|Saphir2
-SERVER umax
-DRIVER SCSI
-SCSILINE scsi UMAX * Scanner
-SCSILINE scsi LinoHell JADE
-SCSILINE scsi LinoHell Office
-SCSILINE scsi LinoHell Office2
-SCSILINE scsi LinoHell SAPHIR2
-SCSILINE scsi LinoHell SAPHIR3
-SCSILINE scsi HDM LS4H1S
-SCSILINE scsi Nikon AX-110
-SCSILINE scsi Nikon AX-210
-SCSILINE scsi KYE ColorPage-HR5
-SCSILINE scsi EPSON Perfection600
-SCSILINE scsi ESCORT "Galleria 600S"
-SCSILINE option connection-type 1
-LINE $DEVICE
-COMMENT OK, SCSI-ID=LinoHell SAPHIR2
-
-NAME Linotype Hell|Saphir3
-SERVER umax
-DRIVER SCSI
-SCSILINE scsi UMAX * Scanner
-SCSILINE scsi LinoHell JADE
-SCSILINE scsi LinoHell Office
-SCSILINE scsi LinoHell Office2
-SCSILINE scsi LinoHell SAPHIR2
-SCSILINE scsi LinoHell SAPHIR3
-SCSILINE scsi HDM LS4H1S
-SCSILINE scsi Nikon AX-110
-SCSILINE scsi Nikon AX-210
-SCSILINE scsi KYE ColorPage-HR5
-SCSILINE scsi EPSON Perfection600
-SCSILINE scsi ESCORT "Galleria 600S"
-SCSILINE option connection-type 1
-LINE $DEVICE
-COMMENT OK, SCSI-ID=LinoHell SAPHIR3
-
-NAME Linotype Hell|Saphir Ultra
-SERVER umax
-DRIVER SCSI
-SCSILINE scsi UMAX * Scanner
-SCSILINE scsi LinoHell JADE
-SCSILINE scsi LinoHell Office
-SCSILINE scsi LinoHell Office2
-SCSILINE scsi LinoHell SAPHIR2
-SCSILINE scsi LinoHell SAPHIR3
-SCSILINE scsi HDM LS4H1S
-SCSILINE scsi Nikon AX-110
-SCSILINE scsi Nikon AX-210
-SCSILINE scsi KYE ColorPage-HR5
-SCSILINE scsi EPSON Perfection600
-SCSILINE scsi ESCORT "Galleria 600S"
-SCSILINE option connection-type 1
-LINE $DEVICE
-COMMENT support disabled until tested - please contact author
-
-NAME Linotype Hell|Saphir Ultra II
-SERVER umax
-DRIVER SCSI
-SCSILINE scsi UMAX * Scanner
-SCSILINE scsi LinoHell JADE
-SCSILINE scsi LinoHell Office
-SCSILINE scsi LinoHell Office2
-SCSILINE scsi LinoHell SAPHIR2
-SCSILINE scsi LinoHell SAPHIR3
-SCSILINE scsi HDM LS4H1S
-SCSILINE scsi Nikon AX-110
-SCSILINE scsi Nikon AX-210
-SCSILINE scsi KYE ColorPage-HR5
-SCSILINE scsi EPSON Perfection600
-SCSILINE scsi ESCORT "Galleria 600S"
-SCSILINE option connection-type 1
-LINE $DEVICE
-COMMENT support disabled until tested - please contact author
-
-NAME Linotype Hell|Saphir HiRes
-SERVER umax
-DRIVER SCSI
-SCSILINE scsi UMAX * Scanner
-SCSILINE scsi LinoHell JADE
-SCSILINE scsi LinoHell Office
-SCSILINE scsi LinoHell Office2
-SCSILINE scsi LinoHell SAPHIR2
-SCSILINE scsi LinoHell SAPHIR3
-SCSILINE scsi HDM LS4H1S
-SCSILINE scsi Nikon AX-110
-SCSILINE scsi Nikon AX-210
-SCSILINE scsi KYE ColorPage-HR5
-SCSILINE scsi EPSON Perfection600
-SCSILINE scsi ESCORT "Galleria 600S"
-SCSILINE option connection-type 1
-LINE $DEVICE
-COMMENT support disabled until tested - please contact author
-
-NAME Linotype Hell|Opal
-SERVER umax
-DRIVER SCSI
-SCSILINE scsi UMAX * Scanner
-SCSILINE scsi LinoHell JADE
-SCSILINE scsi LinoHell Office
-SCSILINE scsi LinoHell Office2
-SCSILINE scsi LinoHell SAPHIR2
-SCSILINE scsi LinoHell SAPHIR3
-SCSILINE scsi HDM LS4H1S
-SCSILINE scsi Nikon AX-110
-SCSILINE scsi Nikon AX-210
-SCSILINE scsi KYE ColorPage-HR5
-SCSILINE scsi EPSON Perfection600
-SCSILINE scsi ESCORT "Galleria 600S"
-SCSILINE option connection-type 1
-LINE $DEVICE
-COMMENT support disabled until tested - please contact author
-
-NAME Linotype Hell|Opal Ultra
-SERVER umax
-DRIVER SCSI
-SCSILINE scsi UMAX * Scanner
-SCSILINE scsi LinoHell JADE
-SCSILINE scsi LinoHell Office
-SCSILINE scsi LinoHell Office2
-SCSILINE scsi LinoHell SAPHIR2
-SCSILINE scsi LinoHell SAPHIR3
-SCSILINE scsi HDM LS4H1S
-SCSILINE scsi Nikon AX-110
-SCSILINE scsi Nikon AX-210
-SCSILINE scsi KYE ColorPage-HR5
-SCSILINE scsi EPSON Perfection600
-SCSILINE scsi ESCORT "Galleria 600S"
-SCSILINE option connection-type 1
-LINE $DEVICE
-COMMENT support disabled until tested - please contact author
-
-NAME Nikon Corp.|AX-110 / Scantouch 110
-SERVER umax
-DRIVER SCSI
-SCSILINE scsi UMAX * Scanner
-SCSILINE scsi LinoHell JADE
-SCSILINE scsi LinoHell Office
-SCSILINE scsi LinoHell Office2
-SCSILINE scsi LinoHell SAPHIR2
-SCSILINE scsi LinoHell SAPHIR3
-SCSILINE scsi HDM LS4H1S
-SCSILINE scsi Nikon AX-110
-SCSILINE scsi Nikon AX-210
-SCSILINE scsi KYE ColorPage-HR5
-SCSILINE scsi EPSON Perfection600
-SCSILINE scsi ESCORT "Galleria 600S"
-SCSILINE option connection-type 1
-LINE $DEVICE
-COMMENT may work, please test and give feedback
-
-NAME Nikon Corp.|AX-210
-SERVER umax
-DRIVER SCSI
-SCSILINE scsi UMAX * Scanner
-SCSILINE scsi LinoHell JADE
-SCSILINE scsi LinoHell Office
-SCSILINE scsi LinoHell Office2
-SCSILINE scsi LinoHell SAPHIR2
-SCSILINE scsi LinoHell SAPHIR3
-SCSILINE scsi HDM LS4H1S
-SCSILINE scsi Nikon AX-110
-SCSILINE scsi Nikon AX-210
-SCSILINE scsi KYE ColorPage-HR5
-SCSILINE scsi EPSON Perfection600
-SCSILINE scsi ESCORT "Galleria 600S"
-SCSILINE option connection-type 1
-LINE $DEVICE
-COMMENT OK
-
-# from /root/s/sane-backends-1.0.11/doc/descriptions/umax_pp.desc
-NAME Umax|Astra 1220P
-SERVER umax_pp
-DRIVER Parport (EPP)
-LINE port $DEVICE
-COMMENT works
-
-NAME Umax|Astra 2000P
-SERVER umax_pp
-DRIVER Parport (EPP)
-LINE port $DEVICE
-COMMENT works
-
-NAME Umax|Astra 1600P
-SERVER umax_pp
-DRIVER Parport (EPP)
-LINE port $DEVICE
-COMMENT works
-
-NAME Hewlett-Packard|Scanjet 3200C
-SERVER umax_pp
-DRIVER Parport (EPP)
-LINE port $DEVICE
-COMMENT works (relabelled 1220P and 2000P)
-
-# from /root/s/sane-backends-1.0.11/doc/descriptions/unsupported.desc
-NAME Artec|AM12e+
+NAME Artec/Ultima|AM12e+
 SERVER unsupported
 DRIVER Parport
 UNSUPPORTED
 COMMENT Unsupported. Chipset unknown. Maybe similar to SCSI version or as6e?
+
+NAME Avision|iVina FB1600
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT Not supported. Is reported to use GeneScan II GL646 chipset. Same as UMAX Astra 4500.
+
+NAME Avision|iVina FB1800
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT Not supported. No chipset information available. Same as UMAX Astra 4700.
+
+NAME Brother|MFC 4600
+SERVER unsupported
+DRIVER Parport USB
+UNSUPPORTED
+COMMENT Unsupported. However there is a project to support this scanner/printer/fax combination. See link.
+
+NAME Brother|MFC 5100c
+SERVER unsupported
+DRIVER Parport USB
+UNSUPPORTED
+COMMENT Unsupported. Some information is available (see link). See also MFC 4600.
+
+NAME Canon|CanoScan D646U
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT Probably not supported. USB Vendor/product 0x04a9/0x220b. /proc/bus/usb/devices output available. Maybe Genesys USB bridge + LM9830? Maybe could be supported by canon630u backend? See link for more information.
+
+NAME Canon|CanoScan D660U
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT Unsupported. Vendor/product 0x04a9/0x2208. See link for more information.
+
+NAME Canon|CanoScan D1250U2
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT Not supported. However, someone started working on this scanner and some information is available (see link).
+
+NAME Canon|LiDE 50
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT Probably not supported. Chipset probably Genesys. Some information is available.
+
+NAME Canon|CanoScan FB620U
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT Probably not supported.  Vendor/product 0x4a9/0x2202. Some information is available.
 
 NAME Canon|CanoScan FB1210U
 SERVER unsupported
@@ -3978,59 +4369,53 @@ DRIVER USB
 UNSUPPORTED
 COMMENT Not supported. Vendor/product 0x4a9/0x2205. However, a stand-alone program for FreeBSD is available.
 
-NAME Canon|CanoScan D660U
+NAME Compaq|S200
 SERVER unsupported
 DRIVER USB
 UNSUPPORTED
-COMMENT Unsupported. Vendor/product 0x04a9/0x2208.  Nothing else is known about these scanners, any information is appreciated.
-
-NAME Canon|CanoScan D1250U2
-SERVER unsupported
-DRIVER USB
-UNSUPPORTED
-COMMENT Not supported. However, some information is available.
+COMMENT Not supported. 2400x1200 dpi. Vendor=0x049f, Product=0x0021. One bulk-in, one bulk-out and one interrupt endpoint. Type-number: U0001-HB21, another type nr on the inside:  75100512-00
 
 NAME Fujitsu|fi-4010C
 SERVER unsupported
 DRIVER USB
 UNSUPPORTED
-COMMENT Unsupported. Vendor/product: 0x04c5, 0x1029. No details about the chipset known until know.
+COMMENT Unsupported. Vendor/product: 0x04c5, 0x1029. Maybe similar to fi-4220C?
 
-NAME Fujitsu|fi-4110CU
+NAME Genius|ColorPage HR7X Slim
 SERVER unsupported
 DRIVER USB
 UNSUPPORTED
-COMMENT Unsupported. No details about the chipset known until know.
+COMMENT Not supported. Vendor/product: 0x0458/0x2018. Is reported to use the GL646 chipset. See link for more details.
 
-NAME Fujitsu|fi-4120C
+NAME Hewlett-Packard|Photo Scanner 1000
 SERVER unsupported
-DRIVER USB SCSI
+DRIVER USB
 UNSUPPORTED
-COMMENT Unsupported. Vendor/product: 0x04c5/0x1042. No details about the chipset known until know.
+COMMENT Not supported by SANE. However, it's detected as mass storage device so just mounting it is reported to work. See link for devices data.
 
 NAME Hewlett-Packard|ScanJet 2300C
 SERVER unsupported
 DRIVER USB
 UNSUPPORTED
-COMMENT No chipset information is available.
+COMMENT Unsupported. Vendor/product 0x03f0/0x0901. See link for devices output.
 
 NAME Hewlett-Packard|ScanJet 3500c
 SERVER unsupported
 DRIVER USB
 UNSUPPORTED
-COMMENT Unsupported. Seems to use RealTek RTS8801C2-6, see link. Vendor/Product ID 0x03F0/0x2205.
+COMMENT Unsupported. Seems to use RealTek RTS8801C2-6. Vendor/Product ID 0x03F0/0x2205. See link and other Scanjet 35x0c entries.
 
 NAME Hewlett-Packard|ScanJet 3530c
 SERVER unsupported
 DRIVER USB
 UNSUPPORTED
-COMMENT Unsupported. Chipset and ids unknown, but maybe it's similar to the 3500c?
+COMMENT Unsupported. Chipset is Realtek RTS8801C2-6. Vendor/Product ID 0x03F0/0x2005. See link and other Scanjet 35x0c entries.
 
 NAME Hewlett-Packard|ScanJet 3570c
 SERVER unsupported
 DRIVER USB
 UNSUPPORTED
-COMMENT Unsupported. Chipset unknown, but maybe it's similar to the 3500c? Has a TA. Vendor/product id 0x03F0/0x2005.
+COMMENT Unsupported. Probably Realtek RTS8801C2-6, same ids as Scanjet 3530c. Has a TA. Vendor/product id 0x03F0/0x2005. See link and other Scanjet 35x0c entries.
 
 NAME Hewlett-Packard|ScanJet 3570cxi
 SERVER unsupported
@@ -4050,35 +4435,65 @@ DRIVER USB
 UNSUPPORTED
 COMMENT Not supported. However, a stand-alone program is available.
 
+NAME Hewlett-Packard|ScanJet 4500C
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT Not supported. Landscape scanner. Same as 5500C, but without ADF.
+
 NAME Hewlett-Packard|ScanJet 4570C
 SERVER unsupported
 DRIVER USB
 UNSUPPORTED
-COMMENT Not supported. Vendor/product: 0x03f0/0x1305. Not much is known about this scanner. The manual says:  4500c and 5500c series.
+COMMENT Not supported. Portrait scanner with TA, similar to 4500C. Same as 5550C, but without ADF. Vendor/product: 0x03f0/0x1305. Not much is known about this scanner. The manual says:  4500c and 5500c series.
 
-NAME Hewlett-Packard|ScanJet 5400C
+NAME Hewlett-Packard|ScanJet 5500C
 SERVER unsupported
 DRIVER USB
 UNSUPPORTED
-COMMENT Not supported yet, but in development. A test program is available.
+COMMENT Not supported. Same as 4500C, but with ADF.
 
-NAME Hewlett-Packard|ScanJet 5470C
+NAME Hewlett-Packard|ScanJet 5550C
 SERVER unsupported
 DRIVER USB
 UNSUPPORTED
-COMMENT Not supported yet, but in development. A test program is available.
+COMMENT Not supported. Same as 4570C, but with ADF.
 
-NAME Hewlett-Packard|ScanJet 5490C
+NAME Hewlett-Packard|ScanJet 8200C
 SERVER unsupported
 DRIVER USB
 UNSUPPORTED
-COMMENT Not supported yet, but in development. A test program is available.
+COMMENT Not supported. SCSI optional. Includes TA. No further information.
+
+NAME Hewlett-Packard|ScanJet 8250C
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT Not supported. SCSI optional. Includes ADF and TA. Probably similar to 8200C. No further information.
+
+NAME Medion/Lifetec/Tevion/Cytron|MD 5345
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT Probably unsupported. Vendor/product 0x0461/0x0377. The vendor id is Primax. Same as MD 6228. Maybe the same as Primax Slim-Line 1200.
 
 NAME Microtek|ScanMaker 3630
 SERVER unsupported
 DRIVER USB
 UNSUPPORTED
 COMMENT Unsupported. Doesn't seem to be compatible to 3600 series, see link.
+
+NAME Microtek|ScanMaker 3800
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT Unsupported. Vendor/Product ids: 0x05da/0x30ce. Seems to be based on the SQ Scan08 chip. See link to spec sheet.
+
+NAME Microtek|ScanMaker 4800
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT Unsupported. Vendor/Product ids: 0x05da/0x30cf. Looks very similar to the ScanMaker 3800. Maybe the same chip is used?
 
 NAME Mustek Systems Inc.|BearPaw 2400 TA Pro
 SERVER unsupported
@@ -4092,11 +4507,53 @@ DRIVER USB
 UNSUPPORTED
 COMMENT Not supported. See link for some information.
 
-NAME Mustek Systems Inc.|BearPaw 1200 F
+NAME Mustek Systems Inc.|1800 A3 Pro-1
 SERVER unsupported
 DRIVER USB
 UNSUPPORTED
-COMMENT Not supported. See link for some information.
+COMMENT Not supported but someone wants to start writing a backend. See link. Vendor/Product ids: 0x055f/0x0401. No information about this scanner on any Mustek website.
+
+NAME Mustek Systems Inc.|P 3600 A3 Pro
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT Not supported. Maybe similar to the 1800 A3 Pro-1?. See link.
+
+NAME Mustek Systems Inc.|ScanExpress CardSmart
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT Probably unsupported. USB business card scanner. Maybe works as USB storage device?
+
+NAME Mustek Systems Inc.|ScanExpress 600 USB
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT Unsupported. Vendor/Product 0x055f/0x873. Programming information is available.
+
+NAME Mustek Systems Inc.|ScanExpress 1200 USB
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT Unsupported. Vendor/Product 0x055f/0x0003. Programming information is available.
+
+NAME Mustek Systems Inc.|ScanExpress 1200 USB Plus
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT Unsupported. Vendor/Product 0x055f/0x0007.
+
+NAME Mustek Systems Inc.|BearPaw 1248CU
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT Probably unsupported. No details known.
+
+NAME Mustek Systems Inc.|2400 M
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT Probably unsupported. No details known.
 
 NAME Mustek Systems Inc.|ScanExpress 12000 P
 SERVER unsupported
@@ -4104,17 +4561,23 @@ DRIVER Parport
 UNSUPPORTED
 COMMENT Not supported. Asic 1505/05.
 
+NAME Mustek Systems Inc.|Paragon 600 II ED/EP
+SERVER unsupported
+DRIVER Parport
+UNSUPPORTED
+COMMENT Not supported. SCSI over Parport.
+
 NAME Plustek, Inc.|OpticPro 1212U
 SERVER unsupported
 DRIVER USB
 UNSUPPORTED
-COMMENT Chipset unknown
+COMMENT Vendor/product: 0x07b3/0x0001. Same ids as early U12/UT12 models, maybe the same chip?
 
 NAME Plustek, Inc.|OpticPro U12/UT12
 SERVER unsupported
 DRIVER USB
 UNSUPPORTED
-COMMENT All devices using product ID 0x0001 are not supported, for others see Plustek backend.
+COMMENT All devices using product ID 0x0001 are not supported, for others see Plustek backend. The older models seem to use a P98003 parallel port ASIC and a GenesysLogic parport-over USB brigde. The P98003 is also used by the P12 and PT12 models.
 
 NAME Plustek, Inc.|OpticPro A3U
 SERVER unsupported
@@ -4134,6 +4597,12 @@ DRIVER USB
 UNSUPPORTED
 COMMENT Uses the Genesys Logic GL646 chipset.
 
+NAME Plustek, Inc.|OpticPro S24
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT Uses the Genesys Logic GL646 chipset.
+
 NAME Primax Electronics|Colorado Direct 9600
 SERVER unsupported
 DRIVER Parport
@@ -4146,17 +4615,65 @@ DRIVER Parport
 UNSUPPORTED
 COMMENT Not supported. However, a stand-alone program is available.
 
+NAME Primax Electronics|Colorado 2400U
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT Probably unsupported. ASIC EICI 10440A. Vendor/product 0x461/0x346. May work with viceo backend(?), see link.
+
 NAME Primax Electronics|Primascan Colorado 2600u
 SERVER unsupported
 DRIVER USB
 UNSUPPORTED
-COMMENT See Visioneer Primascan Colorado 2600u.
+COMMENT Unsupported. See Visioneer Primascan Onetouch 4800.
+
+NAME Spot Technology|Maxiscan A4
+SERVER unsupported
+DRIVER proprietary
+UNSUPPORTED
+COMMENT Not supported until now. Work on a backend has started, see link for more information.
+
+NAME Spot Technology|ScanTak 2c
+SERVER unsupported
+DRIVER SCSI
+UNSUPPORTED
+COMMENT Not supported. See link for more information.
+
+NAME Umax|Astra 4500
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT Not supported. Vendor/product 0x0638/0x0a10. Is reported to use GeneScan II GL646 chipset. Same as Avision iVina FB1600.
+
+NAME Umax|Astra 4700
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT Not supported. Is reported to use a Genesys Logic GL660USB chip (Parport to USB converter, see link) and the Avision B2 chipset. Same as Avision iVina FB1800.
 
 NAME Visioneer|6200
 SERVER unsupported
 DRIVER USB
 UNSUPPORTED
-COMMENT Not supported. Is reported to use the E5 chipset. Uses a Primax ID. See link for some details.
+COMMENT Not supported. Is reported to use the E5 chipset. Uses a Primax ID. See link for some details. Looks similar to Primascan Colorado 2600u.
+
+NAME Visioneer|Onetouch 4400
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT Not supported. Is reported to use LM9832 (or LM9830 + E5) (=GL640usb)???. Same scanner as Primax/visioneer Primascan Colorado 2600u. Vendor/product 0x0461/0x0347 (Primax!). One bulk-in and one bulk-out ep. See link for more details. Maybe it can be supported by the canon630u backend?
+
+NAME Visioneer|OneTouch 4800 USB
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT Unsupported. Vendor/Product ids: 0x04a7/0x0224. Seems to use Realtek RTS8801B. Same as Microtek Scanport 3000. See link for details.
+
+NAME Visioneer|OneTouch 5300 USB
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT Not supported. Vendor/product ids 0x04a7/0x0226. See link for output of /proc/bus/usb/devices. The output looks very similar to that of the 8920.
 
 NAME Visioneer|Onetouch 8920
 SERVER unsupported
@@ -4168,95 +4685,6 @@ NAME Visioneer|Primascan Colorado 2600u
 SERVER unsupported
 DRIVER USB
 UNSUPPORTED
-COMMENT Not supported. Chipset unknown, maybe `E1'. Vendor/product 0x0461/0x0347 (Primax!). One bulk-in and one bulk-out ep. See link to usenet posting for some more details.
-
-# from /root/s/sane-backends-1.0.11/doc/descriptions/v4l.desc
-# from /root/s/sane-backends-1.0.11/doc/descriptions/viceo.desc
-# from /root/s/sane-backends-1.0.11/doc/descriptions-external/hp4200.desc
-NAME Hewlett-Packard|ScanJet 4200c
-SERVER hp4200
-DRIVER USB
-LINE usb $VENDOR $PRODUCT
-LINE $DEVICE
-COMMENT 8bpp, 150/300/600 dpi only, and scanned image needs postprocessing
-
-# from /root/s/sane-backends-1.0.11/doc/descriptions-external/hpoj.desc
-NAME Hewlett-Packard|Most HP OfficeJet, LaserJet, and PSC (Printer/Scanner/Copier) multi-function peripherals
-SERVER hpoj
-DRIVER Parport(ECP) USB JetDirect
-COMMENT Distributed with the HP OfficeJet Linux driver (hpoj)
-
-# from /root/s/sane-backends-1.0.11/doc/descriptions-external/ibm.desc
-NAME Ricoh|IS-410
-SERVER ibm
-DRIVER SCSI
-COMMENT Untested, please report!
-
-# from /root/s/sane-backends-1.0.11/doc/descriptions-external/lhii.desc
-# from /root/s/sane-backends-1.0.11/doc/descriptions-external/niash.desc
-NAME Hewlett-Packard|ScanJet 3300c
-SERVER niash
-DRIVER USB
-LINE $DEVICE
-COMMENT NIASH00014 chip. Prototype backend available
-
-NAME Hewlett-Packard|ScanJet 3400c
-SERVER niash
-DRIVER USB
-LINE $DEVICE
-COMMENT NIASH00019 chip. Partially works.
-
-NAME Hewlett-Packard|ScanJet 3400c
-SERVER niash
-DRIVER Parport (EPP)
-LINE $DEVICE
-COMMENT Untested
-
-NAME Hewlett-Packard|ScanJet 4300c
-SERVER niash
-DRIVER USB
-LINE $DEVICE
-COMMENT NIASH00019 chip. Partially works.
-
-NAME AGFA-Gevaert NV|Snapscan Touch
-SERVER niash
-DRIVER USB
-LINE $DEVICE
-COMMENT NIASH00014 chip. Untested
-
-# from /root/s/sane-backends-1.0.11/doc/descriptions-external/onetouch8600.desc
-NAME Visioneer|OneTouch 8600
-SERVER onetouch8600
-DRIVER USB
-
-# from /root/s/sane-backends-1.0.11/doc/descriptions-external/primax.desc
-NAME Primax Electronics|Colorado Direct 300
-SERVER primax
-DRIVER Parport
-
-NAME Storm|Totalscan
-SERVER primax
-DRIVER Parport
-
-NAME Genius|Colorpage-Vivid+
-SERVER primax
-DRIVER Parport
-
-# from /root/s/sane-backends-1.0.11/doc/descriptions-external/scanwit.desc
-NAME Benq|ScanWit 2720S
-SERVER scanwit
-DRIVER SCSI
-COMMENT Usable, but not complete
-
-# from /root/s/sane-backends-1.0.11/doc/descriptions-external/v4l2.desc
-# from /root/s/sane-backends-1.0.11/doc/descriptions-external/viceo.desc
-NAME Visioneer|OneTouch 7600
-SERVER viceo
-DRIVER USB
-COMMENT Supports E3 and E4 family USB scanners from Genius, Primax, IBM
-
-NAME LG Electronics|Scanworks 600U
-SERVER viceo
-DRIVER USB
+COMMENT Not supported. See Visioneer Onetouch 4400.
 
 END
