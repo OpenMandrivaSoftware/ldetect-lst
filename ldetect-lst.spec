@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.7
-%define release 4mdk
+%define release 5mdk
 
 Name: %{name}
 Version: %{version}
@@ -64,6 +64,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Fri Feb 28 2003 François Pons <fpons@mandrakesoft.com> 0.1.7-5mdk
+- added LT:www.linmodems.org reference to supported ltmodem.
+
 * Thu Feb 27 2003 Pixel <pixel@mandrakesoft.com> 0.1.7-4mdk
 - updated pcitable (pci.ids, redhat pcitable, modules.pcimap, http://www.yourvote.com/pci/vendors.txt)
 
