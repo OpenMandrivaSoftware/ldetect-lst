@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.7
-%define release 14mdk
+%define release 15mdk
 
 Name: %{name}
 Version: %{version}
@@ -64,6 +64,12 @@ fi
 %{_bindir}/*
 
 %changelog
+* Fri Jun 27 2003 Nicolas Planel <nplanel@mandrakesoft.com> 0.1.7-15mdk
+- Add new ICH5 ID
+- 3com 3c940
+- Ati Radeon 9800 (ID but not declared as Card:Radeon)
+- new sis ohci1394 ID (gc)
+
 * Wed May 28 2003 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.7-14mdk
 - handle dxr3/hollywood plus cards (frederic crozat)
 - manage two previously unmanaged isdn cards (Steffen Barszus)
