@@ -1186,12 +1186,12 @@ Gateway; Gateway VX900T; gwy00c0; 30.0-96.0; 48.0-120.0; 1
 Gateway; Gateway VX920; gwy0398; 30.0-96.0; 50.0-140.0; 1
 Generic; 800x600 @ 60 Hz; 0; 31.5-37.9; 50-70
 Generic; 1024x768 @ 70 Hz; 0; 31.5-57.0; 50-70
-Generic; Laptop Display Panel 1024x768; 0; 31.5-48.5; 40-70
-Generic; Laptop Display Panel 1280x1024; 0; 31.5-67; 50-75
-Generic; Laptop Display Panel 1400x1050; 0; 31.5-90; 59-75
-Generic; Laptop Display Panel 1600x1200; 0; 31.5-90; 60 
-Generic; Laptop Display Panel 640x480; 0; 31.5; 40-70
-Generic; Laptop Display Panel 800x600; 0; 31.5-37.9; 40-70
+Generic; Flat Panel 1024x768; 0; 31.5-48.5; 40-70
+Generic; Flat Panel 1280x1024; 0; 31.5-67; 50-75
+Generic; Flat Panel 1400x1050; 0; 31.5-90; 59-75
+Generic; Flat Panel 1600x1200; 0; 31.5-90; 60 
+Generic; Flat Panel 640x480; 0; 31.5; 40-70
+Generic; Flat Panel 800x600; 0; 31.5-37.9; 40-70
 Generic; 1280x1024 @ 60 Hz; 0; 31.5-64.3; 50-70
 Generic; 1280x1024 @ 74 Hz; 0; 31.5-79.0; 50-90
 Generic; 1280x1024 @ 76 Hz; 0; 31.5-82; 50-90
