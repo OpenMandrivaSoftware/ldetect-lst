@@ -2006,7 +2006,7 @@
 0x1103	0x0008	"unknown"	"HighPoint Technologies Inc.|HPT374 UDMA/ATA133 RAID Controller"
 0x1105	0x1105	"unknown"	"Sigma Designs, Inc.|REALmagic Xcard MPEG 1/2/3/4 DVD Decoder"
 0x1105	0x5000	"unknown"	"Sigma Designs Inc|Multimedia"
-0x1105	0x8300	"unknown"	"Sigma Designs, Inc.|REALmagic Hollywood Plus DVD Decoder"
+0x1105	0x8300	"em8300"	"Sigma Designs, Inc.|REALmagic Hollywood Plus DVD Decoder"
 0x1105	0x8400	"unknown"	"Sigma Designs Inc.|EM8400 MPEG-2 Decoder"
 0x1105	0x8475	"unknown"	"Sigma Designs Inc.|EM8475 MPEG-4 Decoder"
 0x1106	0x0102	"unknown"	"VIA Technologies, Inc.|Embedded VIA Ethernet Controller"
