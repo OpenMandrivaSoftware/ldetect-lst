@@ -3102,31 +3102,41 @@ Samsung; Samsung SyncMaster 1000b (CGX1607*); sam1f14; 30-107; 50-160; 1
 Samsung; Samsung SyncMaster 1000p; sam1f13; 30-107; 50-160; 1
 Samsung; Samsung SyncMaster 1000s (CGP1607*); sam0cf1; 30-96; 50-160; 1
 Samsung; Samsung SyncMaster 14GL; samsungsm14gl; 30-62; 50-100; 1
+Samsung; Samsung SyncMaster 14GL; sam14gl; 30-62; 50-100; 1
 Samsung; Samsung SyncMaster 15GLe; sam4d50; 30-50; 50-120; 1
 Samsung; Samsung SyncMaster 15GLe; sam6d20; 30-50; 50-120; 1
 Samsung; Samsung SyncMaster 15GLi; sam4d51; 30-65; 50-120; 1
 Samsung; Samsung SyncMaster 15GL; samsungsm15gl; 30-62; 50-100; 1
+Samsung; Samsung SyncMaster 15GL; sam15gl; 30-62; 50-100; 1
 Samsung; Samsung SyncMaster 15Me; sam5450; 30.0-50.0; 50.0-120.0; 1
 Samsung; Samsung SyncMaster 15M; sam4d52; 30.0-65.0; 50.0-120.0; 1
 Samsung; Samsung SyncMaster 17GLi; sam4d70; 30-65; 50-120; 1
 Samsung; Samsung SyncMaster 17GL; samsungsm17gl; 30-65; 50-100; 1
+Samsung; Samsung SyncMaster 17GL; sam17gl; 30-65; 50-100; 1
 Samsung; Samsung SyncMaster 17GLsi; sam4d71; 30-85; 50-120; 1
 Samsung; Samsung SyncMaster 17GLs; samsungsm17gls; 30-82; 50-120; 1
 Samsung; Samsung SyncMaster 171v; samsungsm171v; 30-81; 56-75; 1 
 Samsung; Samsung SyncMaster 191T; sam0014; 30-81; 56-85; 1
+Samsung; Samsung SyncMaster 17GLs; sam17gls; 30-82; 50-120; 1
+Samsung; Samsung SyncMaster 191TFT; sam0014; 30.0-81.0; 56.0-85.0 ; 1
+Samsung; Samsung SyncMaster 191+; sam00bb; 30.0-81.0; 56.0-75.0; 1
 Samsung; Samsung SyncMaster 20GLsi; sam4690; 30.0-82.0; 50.0-120.0; 1
 Samsung; Samsung SyncMaster 20gls; samsungsm20gls; 30-82; 50-120; 1
+Samsung; Samsung SyncMaster 20gls; sam20gls; 30-82; 50-120; 1
 Samsung; Samsung SyncMaster 21GLs; sam4610; 30.0-85.0; 50.0-160.0; 1
 Samsung; Samsung SyncMaster 320TFT (LXB310*); sam6053; 30-61; 50-75; 1
 Samsung; Samsung SyncMaster 330/331TFT (LXB350*); sam6054; 30-61; 50-75; 1
 Samsung; Samsung SyncMaster 3Ne; sam0000; 31.5-48.0; 43.5-75.0; 1
 Samsung; Samsung SyncMaster 3NE; samsungsm3ne; 48.4; 60.0; 1
 Samsung; Samsung SyncMaster 3; samsungsm3; 35.5; 43.5; 1
+Samsung; Samsung SyncMaster 3NE; sam3ne; 48.4; 60.0; 1
+Samsung; Samsung SyncMaster 3; sam3; 35.5; 43.5; 1
 Samsung; Samsung SyncMaster 400b (CKA4217*); sam2c34; 30-55; 50-120; 1
 Samsung; Samsung SyncMaster 410b(CHA4217*); sam2033; 30-55; 50-120; 1
 Samsung; Samsung SyncMaster 450(N)b; sam1033; 30-55; 50-120; 1
 Samsung; Samsung SyncMaster 470S TFT; sam49d4; 30-61; 50-75; 1
 Samsung; Samsung SyncMaster 4NE; samsungsm4ne; 30-50; 50-100; 1
+Samsung; Samsung SyncMaster 4NE; sam4ne; 30-50; 50-100; 1
 Samsung; Samsung SyncMaster 4S; sam0100; 31.5-48.4; 43.5-75.0; 1
 Samsung; Samsung SyncMaster 500b Plus (CKF5607*); sam0d66; 30-69; 50-160; 1
 Samsung; Samsung SyncMaster 500b; sam1c53; 30-69; 50-160; 1
@@ -3166,6 +3176,7 @@ Samsung; Samsung SyncMaster 900p (CSH9839*); sam4f26; 30-96; 50-160; 1
 Samsung; Samsung SyncMaster 900SL (CSM92*); sam4db9; 30-96; 50-160; 1
 Samsung; Samsung SyncMaster 950in(T); sam25dc; 30-96; 50-160; 1
 Samsung; Samsung SyncMaster 955DF; SAM002d; 30-85; 50-160; 1
+Samsung; Samsung SyncMaster 955DF; sam413b; 30-85; 50-160; 1
 Samsung; Samsung SyncMaster 957p; sam002c; 30-96; 50-160; 1
 Samtron; Samtron 428PT/PTL; sdi1428; 31.5-48.0; 43.5-75.0; 1
 Samtron; Samtron SC-208DXL+; sdi4690; 30.0-82.0; 50.0-120.0; 1
