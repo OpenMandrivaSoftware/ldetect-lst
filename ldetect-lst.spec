@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.57
+%define version 0.1.58
 %define release 1mdk
 
 Name: %{name}
@@ -64,6 +64,11 @@ fi
 %{_bindir}/*
 
 %changelog
+* Tue Feb  8 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.58-1mdk
+- fix wrong qla1280 entry
+- sync with kernel-2.6.11-rc3-mm1
+- Xbox X driver support (stew)
+
 * Mon Feb  7 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.57-1mdk
 - sync with kernel-multimedia-2.6.10-1.mm.11mdk:
   o add one new ipw2200 entry
