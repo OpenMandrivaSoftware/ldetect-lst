@@ -7,7 +7,7 @@ Version: %{version}
 Release: %{release}
 Summary: Hardware list for the light detection library
 URL: http://cvs.mandrakesoft.com/cgi-bin/cvsweb.cgi/soft/ldetect-lst/
-Source: %{name}.tar.bz2
+Source: %{name}-%{version}.tar.bz2
 Group: System/Libraries
 BuildRoot: %{_tmppath}/%{name}-buildroot
 License: GPL
@@ -29,7 +29,7 @@ table to get hardware autodetection
 see ldetect-lst
 
 %prep
-%setup -q -n %{name}
+%setup -q
 
 %build
 %make
