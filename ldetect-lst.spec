@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.29
+%define version 0.1.30
 %define release 1mdk
 
 Name: %{name}
@@ -64,6 +64,11 @@ fi
 %{_bindir}/*
 
 %changelog
+* Fri Nov 26 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.30-1mdk
+- handle PCI device IDs set to PCI_ANY_ID in kernel's pcimap:
+  o this especially fix PCMCIA support on O2 Micro controllers
+  o this also add support for a couple of Adaptec SCSI controllers
+
 * Thu Nov 25 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.29-1mdk
 - MonitorsDB:
   o update, sync with hwdata-0.148
