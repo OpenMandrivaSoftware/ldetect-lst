@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.3
-%define release 1mdk
+%define release 2mdk
 
 Name: %{name}
 Version: %{version}
@@ -37,6 +37,13 @@ rm -rf $RPM_BUILD_ROOT
 %clean
 rm -rf $RPM_BUILD_ROOT
 
+# trigger is needed to upgrade from a package having
+# /usr/share/ldetect-lst/pcitable in the package to the new scheme
+%triggerpostun -- %{name}
+if [ -x /usr/sbin/update-ldetect-lst ]; then
+  /usr/sbin/update-ldetect-lst
+fi
+
 %preun -p "/usr/sbin/update-ldetect-lst --clean"
 
 %post -p /usr/sbin/update-ldetect-lst
@@ -52,6 +59,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/*
 
 %changelog
+* Thu Feb  7 2002 Pixel <pixel@mandrakesoft.com> 0.1.3-2mdk
+- upgrading the package should now work... using trigger :-(
+
 * Thu Feb  7 2002 Pixel <pixel@mandrakesoft.com> 0.1.3-1mdk
 - allow third party entries (using update-ldetect-lst)
 
