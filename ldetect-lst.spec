@@ -66,9 +66,10 @@ fi
 - various s3 changes (Erwan)
 - Thierry:
 	* fix typos
-	* add 16 new sound & TV cards
+	* add 17 new pci sound & TV cards
+	* add a lot of new sound isapnp cards
 	* update some descriptions
-	* resort the db 
+	* resort the {pci,isa} db
 
 * Thu Feb 28 2002 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.3-6mdk
 - yduret sucks and has forgotten to commit in cvs his package uploae
