@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.7
-%define release 9mdk
+%define release 10mdk
 
 Name: %{name}
 Version: %{version}
