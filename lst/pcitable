@@ -6280,6 +6280,7 @@
 0xe000	0xe000	"unknown"	"Winbond Electronics Corp|W89C940"
 0xe159	0x0001	0x0059	0x0001	"ISDN:hisax,type=20"	"Tiger Jet Network Inc|Tiger3XX Modem/ISDN interface"
 0xe159	0x0001	0x8085	0x0003	"wcfxo"	"Tiger Jet Network Inc|NETjet PCI"
+0xe159	0x0001	0xa801	0x0001	"wcfxs"	"Tiger Jet Network Inc|NETjet PCI"
 0xe159	0x0001	0xa8fd	0x0001	"wcfxo"	"Tiger Jet Network Inc|NETjet PCI"
 0xe159	0x0001	"wcte11xp"	"Tiger Jet Network Inc|NETjet PCI"
 0xe159	0x0002	"ISDN:hisax,type=28,firmware=/usr/lib/isdn/ISAR.BIN"	"Sedlbauer|Speed fax+ PCI"
