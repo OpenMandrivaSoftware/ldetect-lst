@@ -91,7 +91,7 @@
 0x046d	0x0301	"unknown"	"Logitech Inc.|M4848 mouse"
 0x046d	0x0801	"unknown"	"Logitech Inc.|QuickCam Home"
 0x046d	0x0810	"unknown"	"Logitech Inc.|QuickCam Pro"
-0x046d	0x0840	"unknown"	"Logitech Inc.|QuickCam Express"
+0x046d	0x0840	"Flag:TV"	"Logitech Inc.|QuickCam Express"
 0x046d	0xc000	"unknown"	"Logitech Inc.|N43 [Pilot Mouse]"
 0x046d	0xc001	"Mouse:USB|Wheel"	"Logitech Inc.|N48 / M-BB48 [FirstMouse Plus]"
 0x046d	0xc002	"Mouse:USB|Wheel"	"Logitech Inc.|M-BA47 [MouseMan Plus]"
