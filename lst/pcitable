@@ -950,7 +950,6 @@
 0x10b5	0x1077	"unknown"	"PLX Technology, Inc.|VScom 400 4 port serial adaptor"
 0x10b5	0x1151	"hisax"	"PLX Technology, Inc.|Gazel"
 0x10b5	0x1152	"hisax"	"PLX Technology, Inc.|Gazel"
-0x10b5	0x1187	"hisax"	"PLX Technology, Inc.|Gazel"
 0x10b5	0x2bd0	"hisax"	"PLX Technology, Inc.|Gazel"
 0x10b5	0x9036	"unknown"	"PLX Technology, Inc.|9036"
 0x10b5	0x9050	"unknown"	"PLX Technology, Inc.|PCI <-> IOBus Bridge"
