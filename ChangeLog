@@ -1,3 +1,19 @@
+2005-02-07 14:17  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.57-1mdk
+
+2005-02-07 14:16  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: sync with kernel-multimedia-2.6.10-1.mm.11mdk: -
+	  add one new ipw2200 entry - handle new driver qla4xxx - handle
+	  new sata_promise driver
+
+2005-02-07 14:08  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: add support "ARECA
+	  (ARC1110/1120/1130/1160/1210/1220/1230/1260) SATA RAID HOST
+	  Controller" (new driver in kernel-2.6.11-rc3-mm1)
+
 2005-02-07 13:36  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.56-1mdk
