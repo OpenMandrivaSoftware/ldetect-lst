@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.4
-%define release 18mdk
+%define release 19mdk
 
 Name: %{name}
 Version: %{version}
@@ -64,6 +64,12 @@ fi
 %{_bindir}/*
 
 %changelog
+* Mon Oct 21 2002 Frederic Lepied <flepied@mandrakesoft.com> 0.1.4-19mdk
+ o lst/pcitable: added missing savage id
+ o lst/usbtable: add support for usb video devices (Florent Beranger)
+ o lst/ScannerDB: fix some Hewlett-Packard scanner from niash backend (Yves Duret)
+ o lst/pcitable: move HSF/HCF modems module from "unknown" to "Bad:www.linmodems.org" (Damien)
+
 * Tue Sep 17 2002 François Pons <fpons@mandrakesoft.com> 0.1.4-18mdk
 - fix a Matrox G450 DualHead not seen as dual head.
 
