@@ -1697,6 +1697,7 @@
 "USR0002"	"unknown"	"US Robotics|Sportster 33.6 FAX"	"modem"	""
 "USR0006"	"unknown"	"US Robotics|Sportster 33600 FAX/Voice Int"	"modem"	""
 "USR0007"	"unknown"	"US Robotics|Sportster Voice 33600 Fax"	"modem"	""
+"USR0009"	"ignore"	"US Robotics|Courier V.Everything"	"modem"	""
 "USR0011"	"unknown"	"US Robotics|Sportster Voice 33600 Fax"	"modem"	""
 "USR2050"	"unknown"	"US Robotics|Sportster Voice 56k"	"modem"	""
 "USR2070"	"unknown"	"US Robotics|Sportster Voice 56k"	"modem"	""

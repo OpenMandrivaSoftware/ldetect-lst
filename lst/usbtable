@@ -128,6 +128,7 @@
 0x045e	0x0038	"unknown"	"Microsoft Corp.|SideWinder Precision 2"
 0x045e	0x0039	"Mouse:USB|Wheel"	"Microsoft Corp.|IntelliMouse Optical"
 0x045e	0x003b	"unknown"	"Microsoft Corp.|SideWinder Game Voice"
+0x045e	0x0040	"Mouse:USB|Wheel"	"Microsoft Corp.|IntelliMouse Optical"
 0x0461	0x0300	"scanner"	"Primax Electronics|G2-300 Scanner"
 0x0461	0x0301	"scanner"	"Primax Electronics|G2E-300 Scanner"
 0x0461	0x0302	"scanner"	"Primax Electronics|G2-300 #2 Scanner"
