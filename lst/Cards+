@@ -948,6 +948,7 @@ SEE S3 Savage4 (generic)
 
 NAME S3 UniChrome
 DRIVER via
+DRI_GLX
 
 # ET4000/ET6000
 
