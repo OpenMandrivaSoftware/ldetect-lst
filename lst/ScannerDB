@@ -469,6 +469,10 @@ NAME Hewlett-Packard|PhotoSmart S20
 DRIVER usb
 UNSUPPORTED
 
+#NAME Hewlett-Packard|5S
+#COMMENT hpsj5s.sourceforge.net
+#UNSUPPORTED
+
 NAME Hewlett-Packard|OfficeJet Pro 1150C
 SERVER hp
 DRIVER Parport(ECP) JetDirect
