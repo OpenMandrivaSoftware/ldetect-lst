@@ -1152,7 +1152,7 @@
 0x1033	0x0035	"usb-ohci"	"NEC|USB"
 0x1033	0x0036	"unknown"	"NEC Corp.|uPD98409 NEASCOT-S40C ATM Light SAR Controller"
 0x1033	0x003b	"unknown"	"NEC Corp.|PCI to C-bus Bridge"
-0x1033	0x003e	"yenta_socket"	"NEC|NAPCCARD Cardbus Controller"
+0x1033	0x003e	"vrc4173_cardu"	"NEC|NAPCCARD Cardbus Controller [VRC4173 CARDU]"
 0x1033	0x0046	"unknown"	"NEC|PowerVR PCX2 [midas]"
 0x1033	0x005a	"8250_pci"	"NEC|Vrc5074 [Nile 4]"
 0x1033	0x0063	"unknown"	"NEC|Firewarden"
