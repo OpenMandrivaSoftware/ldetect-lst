@@ -1,19 +1,33 @@
 include ../Makefile.config
 
+ARCH := $(patsubst i%86,i386,$(shell uname -m))
+ARCH := $(patsubst sparc%,sparc,$(ARCH))
+
+TABLES1 = pcitable usbtable
+TABLES2 = isatable pcmciatable
+TABLES = $(TABLES1) $(TABLES2)
+TMP_TABLES1 = $(TABLES1:%=%.tmp)
+TMP_TABLES2 = $(TABLES2:%=%.tmp)
+TMP_TABLES  = $(TABLES:%=%.tmp)
 
 build: CardsNames
 
 clean:
-	rm -f *~ CardsNames
+	rm -f *~ CardsNames *.tmp
 
 CardsNames: Cards+ ../convert/Cards2CardsNames.pl
 	rm -f $@
 	../convert/Cards2CardsNames.pl $< > $@
 	chmod a-w $@
 
+$(TMP_TABLES1): %.tmp: %
+	../convert/merge2pcitable.pl pcitable $< $<.$(ARCH) > $@
 
-install:
-	for i in isatable pcitable pcmciatable usbtable; do \
+$(TMP_TABLES2): %.tmp: %
+	cp -f $< $@
+
+install: $(TMP_TABLES)
+	for i in $(TABLES); do \
 	(echo "# !! The original version is available in CVS at" ; \
          echo "# export CVSROOT=:pserver:anoncvs@cvs.mandrakesoft.com:/home/cvs/cooker" ; \
 	 echo "# cvs login    (password \`\`cvs'')" ; \
@@ -22,7 +36,7 @@ install:
          echo "# export CVSROOT=:ext:LOGIN@cvs.mandrakesoft.com:/home/cvs/cooker" ; \
          echo "# export CVS_RSH=ssh" ; \
          echo "# cvs checkout soft/$(project)" ; \
-	 cat $$i \
+	 cat $$i.tmp \
 	) > $(dir)/$$i; done
 
 	install -m 644 Cards+ CardsNames MonitorsDB isdn.db $(dir)
