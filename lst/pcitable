@@ -2571,7 +2571,7 @@
 0x1106	0x3053	"via-rhine"	"VIA Technologies|VT6105M [Rhine III 10/100]"
 0x1106	0x3057	"i2c-viapro"	"VIA Technologies|VT82C686 [Apollo Super ACPI]"
 0x1106	0x3058	"snd-via82xx"	"VIA Technologies|VT82C686 [Apollo Super AC97/Audio]"
-0x1106	0x3059	"snd-via82xx"	"VIA Technologies|VT8233 [AC97 Audio Controller]"
+0x1106	0x3059	"via82cxxx_audio"	"VIA Technologies|VT8233 [AC97 Audio Controller]"
 0x1106	0x3065	"via-rhine"	"VIA Technologies|VT6102 [Rhine II 10/100]"
 0x1106	0x3068	"slamr"	"VIA Technologies|VT82C686 [Apollo Super AC97/Modem]"
 0x1106	0x3074	"via-ircc"	"VIA Technologies|VT8233 PCI to ISA Bridge"
