@@ -1172,6 +1172,7 @@
 0x103c	0x2926	"unknown"	"Hewlett-Packard Company|E2926A 64 bit PCI Bus Exerciser and Analyzer"
 0x103c	0x2927	"unknown"	"Hewlett-Packard Company|E2927A 64 Bit, 66/50MHz PCI Analyzer & Exerciser"
 0x103c	0x2940	"unknown"	"Hewlett-Packard Company|E2940A 64 bit, 66/50MHz CompactPCI Analyzer&Exerciser"
+0x103c	0x3210	"cciss"	""
 0x1042	0x1000	"rz1000"	"Micron|FDC 37C665"
 0x1042	0x1001	"rz1000"	"Micron|37C922"
 0x1042	0x3000	"unknown"	"Micron|Samurai_0"
