@@ -4206,6 +4206,7 @@
 0x8086	0x24cc	"unknown"	"Intel Corporation|82801DBM LPC Interface Bridge"
 0x8086	0x24cd	"ehci-hcd"	"Intel Corporation|82801DB USB Enhanced Controller"
 0x8086	0x24d0	"unknown"	"Intel Corp.|82801EB ISA Bridge (LPC)"
+0x8086	0x24d1	"unknown"	"Intel Corp.|82801EB ICH5 IDE (SATA)"
 0x8086	0x24d2	"usb-uhci"	"Intel Corporation|USB Controller"
 0x8086	0x24d3	"unknown"	"Intel Corp.|82801EB SMBus"
 0x8086	0x24d4	"usb-uhci"	"Intel Corporation|USB Controller"
