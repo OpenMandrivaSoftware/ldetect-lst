@@ -64,6 +64,8 @@ fi
 %{_bindir}/*
 
 %changelog
+- added DRIVER2 fglrx support.
+
 * Sun Sep  7 2003 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.8-3mdk
 - fix #1837: handle acx100_pci
 - support more monitors (#4989, ...)
