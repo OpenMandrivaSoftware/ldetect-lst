@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.7
-%define release 6mdk
+%define release 7mdk
 
 Name: %{name}
 Version: %{version}
@@ -64,6 +64,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Thu Mar  6 2003 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.7-7mdk
+- fix webcam description in harddrake2
+
 * Wed Mar  5 2003 Frederic Lepied <flepied@mandrakesoft.com> 0.1.7-6mdk
 - usbtable: tagged hisax_st5481 as ISDN
 - pcitable: integrated NVidia ids from XFree 4.3
