@@ -1,3 +1,71 @@
+2004-08-03 14:02  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.13-1mdk
+
+2004-08-03 13:44  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: update 58 northbridge description from pci.ids
+
+2004-08-03 13:41  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: merge with pci.ids from 2004-08-02
+
+2004-08-03 13:40  Pixel <pixel@mandrakesoft.com>
+
+	* convert/merge2pcitable.pl: do it a little more cleanly
+
+2004-08-03 13:27  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: more merge with kernel-2.6.8-0.rc2.2mdk
+
+2004-08-03 13:21  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* Makefile: add log alias on changelog target
+
+2004-08-03 13:20  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: sync with pci.ids (unfound by old
+	  merge2pcitable.pl)
+
+2004-08-03 13:20  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* convert/merge2pcitable.pl: import missing description later
+
+2004-08-03 13:14  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* convert/merge2pcitable.pl: do not vivicate new devices (will look
+	  later why merge2pcitable.pl does not find new devices from
+	  pci.ids)
+
+2004-08-03 13:11  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* convert/merge2pcitable.pl: get descriptions back from pci.ids if
+	  needed
+
+2004-08-03 13:09  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: one more string from pci.ids
+
+2004-08-03 13:01  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: fix duplicates
+
+2004-08-03 12:58  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: add missing strings from pci.ids
+
+2004-08-03 12:09  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: merge with kernel-2.6.8-0.rc2.2mdk
+
+2004-08-03 12:02  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: merge with pciids.sf.net
+
+2004-08-03 11:17  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: merge with pciids.sf.net
+
 2004-07-29 01:44  Frederic Lepied <flepied@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.12-1mdk
