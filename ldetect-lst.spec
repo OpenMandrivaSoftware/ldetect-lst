@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.4
-%define release 2mdk
+%define release 3mdk
 
 Name: %{name}
 Version: %{version}
@@ -62,6 +62,15 @@ fi
 %{_bindir}/*
 
 %changelog
+* Sun Jul 21 2002 Pixel <pixel@mandrakesoft.com> 0.1.4-3mdk
+- pcitable
+  - bttc -> bttv (typo fix)
+  - snd-cs461x -> snd-cs46xx (since snd-cs461x doesn't exist)
+  - fix many typos (please use make test!!)
+  - all new rh id're merged (titi)
+  - new eepro100 IDs (nplanel)
+  - new Promise 20276 (nplanel)
+
 * Wed Jul 17 2002 Pixel <pixel@mandrakesoft.com> 0.1.4-2mdk
 - pcitable: update with www.begent.co.uk/pcids.htm
   especially interesting are the G200,G400,G450 multi head categorisation
