@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.9
-%define release 12mdk
+%define release 13mdk
 
 Name: %{name}
 Version: %{version}
@@ -64,6 +64,10 @@ fi
 %{_bindir}/*
 
 %changelog
+* Thu Mar 25 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.9-13mdk
+- fix support for some mach64
+- fix wrong module for DECchip 21041 [Tulip Pass 3] (#9159)
+
 * Wed Mar 24 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.9-12mdk
 - add support for warly laptop geforce card
 - sync with rh's hwdata-0.113, thus adding support for:
