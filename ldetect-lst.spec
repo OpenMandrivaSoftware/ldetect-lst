@@ -81,7 +81,7 @@ fi
 	* some HP escanners added (but in UNSUPPORTED :(
 - François Pons:
 	* KYRO uses fbdev instead of vesa.
-	* lst/Cards+: added GD5480 as working under XF 4.2 (Juan)
+	* added GD5480 as working under XF 4.2 (Juan)
 - Juan Quintela
 	*  use new qlogic drivers by default
 
