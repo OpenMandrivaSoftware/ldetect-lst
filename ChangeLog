@@ -1,3 +1,7 @@
+2003-03-20 14:12  adelorbeau
+
+	* ldetect-lst.spec: Forgot to change the version tag
+
 2003-03-20 13:35  adelorbeau
 
 	* ldetect-lst.spec: New package for the intel sound card.
