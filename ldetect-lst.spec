@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.1
+%define version 0.1.2
 %define release 1mdk
 
 Name: %{name}
@@ -35,6 +35,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/%{name}
 
 %changelog
+* Sat Dec 16 2000 Pixel <pixel@mandrakesoft.com> 0.1.2-1mdk
+- add usbtable
+
 * Fri Dec 15 2000 Pixel <pixel@mandrakesoft.com> 0.1.1-1mdk
 - add Cards+, MonitorsDB, isdn.db
 

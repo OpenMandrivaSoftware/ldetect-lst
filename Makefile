@@ -13,16 +13,17 @@ CardsNames: Cards+ Cards2CardsNames.pl
 
 install: build
 	install -d $(dir)
+	for i in pcitable usbtable; do \
 	(echo "# !! The original version is available in CVS at" ; \
          echo "# export CVSROOT=:pserver:anoncvs@cvs.mandrakesoft.com:/home/cvs/cooker" ; \
-	 echo "# cvs login    (password ``cvs'')" ; \
+	 echo "# cvs login    (password \`\`cvs'')" ; \
          echo "# cvs checkout soft/$(project)" ; \
 	 echo "#   or" ; \
          echo "# export CVSROOT=:ext:LOGIN@cvs.mandrakesoft.com:/home/cvs/cooker" ; \
          echo "# export CVS_RSH=ssh" ; \
          echo "# cvs checkout soft/$(project)" ; \
-	 cat pcitable \
-	) > $(dir)/pcitable
+	 cat $$i \
+	) > $(dir)/$$i; done
 
 	install -m 644 Cards+ CardsNames MonitorsDB isdn.db $(dir)
 
