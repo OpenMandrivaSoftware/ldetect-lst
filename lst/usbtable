@@ -1201,6 +1201,7 @@
 0x1110	0x9021	"adiusbadsl"	"Analog Devices Inc.|USB ADSL modem"
 0x1110	0x9022	"adiusbadsl"	"Analog Devices Inc.|USB ADSL modem"
 0x1110	0x9023	"adiusbadsl"	"Analog Devices Inc.|USB ADSL modem"
+0x1110	0x9024	"adiusbadsl"	"Analog Devices Inc.|USB ADSL modem"
 0x1132	0x4331	"unknown"	"Toshiba|PDR-M4 Digital Camera"
 0x1132	0x4332	"unknown"	"Toshiba Corp., Digital Media Equipment [hex]|PDR-M60 Digital Camera"
 0x1183	0x19c7	"unknown"	"Compaq Computer Corp. [hex]|ISDN TA"
