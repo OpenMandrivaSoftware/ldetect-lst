@@ -2108,6 +2108,10 @@ SEE NVIDIA GeForce
 
 NAME NVIDIA GeForce4 (generic)
 SEE NVIDIA GeForce
+
+NAME NVIDIA GeForce (fbdev)
+SERVER FBDev
+DRIVER fbdev
 # IMS
 
 NAME IMS TwinTurbo (generic)
