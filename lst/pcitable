@@ -342,7 +342,7 @@
 0x1013	0x1204	"Card:Cirrus Logic GD754x (laptop)"	"Cirrus Logic|GD 7541 [Nordic Light]"
 0x1013	0x4400	"unknown"	"Cirrus Logic|CD 4400"
 0x1013	0x6001	"cs46xx"	"Cirrus Logic|CS 4610/11 [CrystalClear SoundFusion Audio Accelerator]"
-0x1013	0x6003	"cs46xx"	"Cirrus Logic|CS 4614/22/24 [CrystalClear SoundFusion Audio Accelerator]"
+0x1013	0x6003	"snd-cs46xx"	"Cirrus Logic|CS 4614/22/24 [CrystalClear SoundFusion Audio Accelerator]"
 0x1013	0x6004	"cs46xx"	"Cirrus Logic|unknown (? CrystalClear SoundFusion Audio Accelerator?)"
 0x1013	0x6005	"cs4281"	"Cirrus Logic|Crystal CS4281 PCI Audio"
 0x1014	0x0002	"unknown"	"IBM|PCI to MCA Bridge"
