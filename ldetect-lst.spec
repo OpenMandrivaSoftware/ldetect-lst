@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.10
+%define version 0.1.11
 %define release 1mdk
 
 Name: %{name}
@@ -64,7 +64,21 @@ fi
 %{_bindir}/*
 
 %changelog
+* Mon Jul 26 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.11-1mdk
+- monitor DB:
+  o add a Princeton monitor (#2633)
+  o add a LCD monitor (Sylvain Vignaud)
+  o fix a typo
+  o sync with rh's hwdata-0.123 (new monitors, ...)
+  o increase a few DELL monitors frequency ranges (from hwdata-0.123)
+  o remove a few old duplicated entries
+- use b44 rather than bcm4400 (nicolas, #9742)
+- use tg3 rather than bcm5700  (nicolas, #9742)
+- add NVIDIA PCI-express 5750 Card Add Matrox P750 Add NVIDIA GO 5600 (greg)
+- fix #8295 (no ADSL over Accton Ethernet card)
+
 * Tue Jun 15 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.10-1mdk
+- monitor db:
 - add madwifi_pci for 16c8 0013 (arnaud)
 - add module yenta_socket for the 0x1217 0x7114 (arnaud)
 - add slamr (slmodem) for 10b9 5457 (arnaud)
