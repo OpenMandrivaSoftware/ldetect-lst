@@ -6069,6 +6069,7 @@
 0x8086	0x24c3	"i2c-i801"	"Intel Corp.|82801DB SMBus Controller"
 0x8086	0x24c4	"usb-uhci"	"Intel Corp.|82801DB USB Controller"
 0x8086	0x24c5	"snd-intel8x0"	"Intel Corp.|ICH4 845G/GL Chipset AC'97 Audio Controller"
+0x8086	0x24c6	0x17c0	0x1069	"slamr"	"Intel Corp.|82801DB/DBL/DBM (ICH4/ICH4-L/ICH4-M) AC'97 Modem Controller"
 0x8086	0x24c6	"Hsf:www.linmodems.org"	"Intel Corp.|82801DB/DBL/DBM (ICH4/ICH4-L/ICH4-M) AC'97 Modem Controller"
 0x8086	0x24c7	"usb-uhci"	"Intel Corp.|82801DB USB Controller"
 0x8086	0x24ca	"piix"	"Intel Corp.|82801DBM IDE Controller (UltraATA/100)"
