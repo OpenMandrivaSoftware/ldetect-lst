@@ -48,8 +48,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/*
 
 %changelog
-* Fri Sep 21 2001 François Pons <fpons@mandrakesoft.com> 0.1.2-25mdk
-- added GeForce 3 Integrated (Xbox).
+* Thu Sep 20 2001 Guillaume Cottenceau <gc@mandrakesoft.com> 0.1.2-25mdk
+- remove (yet again) tulip for some DEC cards, and ensure the bug in
+  redhat pcitable won't both us again
 
 * Thu Sep 13 2001 Frederic Lepied <flepied@mandrakesoft.com> 0.1.2-24mdk
 - corrected wacom entries to support the PL500 and the Graphire2.
