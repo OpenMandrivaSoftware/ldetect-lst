@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.79
+%define version 0.1.80
 %define release 1mdk
 
 Name: %{name}
@@ -63,6 +63,14 @@ fi
 %{_bindir}/*
 
 %changelog
+* Thu Mar 31 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.80-1mdk
+- check pcitable consistency vs kernel's module.pcimap and fix:
+  o one Adaptec entry (aic79xx -> aic7xxx)
+  o one wireless entry (orinoco_plx -> hostap_plx)
+  o one Intel SATA entry (ahci -> ata_piix)
+  o two ATI SATA entries (atiixp -> sata_sil)
+- qla6322 has been obsoleted by qla6322 and no more exists
+
 * Wed Mar 30 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.79-1mdk
 - explicitely list all devices supported by megaraid_mbox (workaround
   *part* of #13855)
