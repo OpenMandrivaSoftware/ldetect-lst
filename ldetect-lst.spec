@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.3
-%define release 3mdk
+%define release 4mdk
 
 Name: %{name}
 Version: %{version}
@@ -11,6 +11,7 @@ Group: System/Libraries
 BuildRoot: %{_tmppath}/%{name}-buildroot
 License: GPL
 Prefix: %{_prefix}
+BuildRequires: perl-MDK-Common
 
 %package devel
 Summary: Devel for ldetect-lst
@@ -60,6 +61,8 @@ fi
 
 %changelog
 
+* Thu Feb 14 2002 Pixel <pixel@mandrakesoft.com> 0.1.3-4mdk
+- add BuildRequires: perl-MDK-Common
 - GeForce Integrated use fbdev driver instead of nv (freeze).
 
 * Mon Feb 11 2002 Pixel <pixel@mandrakesoft.com> 0.1.3-3mdk
