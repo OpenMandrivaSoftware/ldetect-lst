@@ -233,7 +233,7 @@
 0x046d	0x040f	"unknown"	"Logitech Inc.|Logitech/Storm PageScan"
 0x046d	0x0801	"unknown"	"Logitech Inc.|QuickCam Home"
 0x046d	0x0810	"unknown"	"Logitech Inc.|QuickCam Pro"
-0x046d	0x0840	"Flag:TV"	"Logitech Inc.|QuickCam Express"
+0x046d	0x0840	"mod_quickcam"	"Logitech Inc.|QuickCam Express"
 0x046d	0x0850	"mod_quickcam"	"Logitech Inc.|QuickCam Web"
 0x046d	0x0870	"mod_quickcam"	"Generic|Camera"
 0x046d	0x08b0	"pwc"	""
