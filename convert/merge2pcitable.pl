@@ -3,9 +3,11 @@
 use MDK::Common;
 
 
-@ignored_modules = (
+my @ignored_modules = (
 qw(alsa ignore),
 );
+
+my ($force, $all, $true_all, $keep_subids, $chk_descr);
 
 if ($0 =~ /merge2pcitable/) 
 {
@@ -13,11 +15,11 @@ if ($0 =~ /merge2pcitable/)
     $ARGV[0] eq '-a' and $all = shift;
     $ARGV[0] eq '--keep-subids' and $keep_subids = shift;
 
-    my $formats = join '|', grep {$_} map { /^read_(.*)/ ? $1 : '' } keys %main::;
+    my $formats = join '|', grep { $_ } map { /^read_(.*)/ ? $1 : '' } keys %main::;
 
     @ARGV == 3 or die "usage: $0 [-f] [-a] $formats <in_file> <mdk_pcitable>\n";
 
-    ($format, $in, $pcitable) = @ARGV;
+    my ($format, $in, $pcitable) = @ARGV;
 
     my $read = $main::{"read_$format"} or die "unknown format $format (must be one of $formats)\n";
     my $d_pci = read_pcitable($pcitable, 'strict');
@@ -39,7 +41,7 @@ sub to_string {
     @$driver >= 2 or error("error: to_string $id");
     my ($module, $text) = map { qq("$_") } @$driver;
     my ($id1, $id2, $subid1, $subid2) = map { "0x$_" } ($id =~ /(....)/g);
-    join "\t", $id1, $id2, "$subid1 $subid2" ne "0xffff 0xffff" ? ($subid1, $subid2) : (), $module, $text;
+    join "\t", $id1, $id2, if_("$subid1 $subid2" ne "0xffff 0xffff", $subid1, $subid2), $module, $text;
 }
 
 # works for RedHat's pcitable old and new format, + mdk format (alike RedHat's old one)
@@ -47,6 +49,7 @@ sub to_string {
 sub read_pcitable {
     my ($f, $strict) = @_;
     my %drivers;
+    my %class;
     my $line = 0;
     my $rm_quote_silent = sub { local ($_) = @_; s/^"//; s/"$//; $_ };
     my $rm_quote = sub {
@@ -129,7 +132,7 @@ sub read_kernel_usbmap {
 sub read_pciids {
     my ($f) = @_;
     my %drivers;
-    my ($id1, $id2, $class, $line, $text);
+    my ($id1, $id2, $class, $line, %class);
     foreach (cat_($f)) {
 	chomp; $line++;
 	next if /^#/ || /^;/ || /^\s*$/;
@@ -158,7 +161,7 @@ sub read_pciids {
 sub read_pcilst {
     my ($f) = @_;
     my %drivers;
-    my ($id, $class, $line, $text);
+    my ($class, $line, %class);
     foreach (cat_($f)) {
 	chomp; $line++;
 	next if /^#/ || /^;/ || /^\s*$/;
@@ -179,6 +182,7 @@ sub read_pcilst {
 sub read_pcitablepm {
     my ($f) = @_;
     eval cat_($f);
+    my %drivers;
 
     %pci_probing::pcitable::ids or die;
     while (my ($k, $v) = each %pci_probing::pcitable::ids) {
@@ -193,7 +197,7 @@ sub read_hwd {
     foreach (cat_($f)) {
 	next if /^\s*#/;
 	chomp;
-	my ($id1, $id2, $class, $module, $undef, $descr) = /(....):(....)\s+(\S+)\s+(\S+)(\s+(.*))/ or next;
+	my ($id1, $id2, $_class, $module, $_undef, $descr) = /(....):(....)\s+(\S+)\s+(\S+)(\s+(.*))/ or next;
 	$drivers{"$id1${id2}ffffffff"} = [ $module, $descr ];
     }
     \%drivers;
@@ -202,13 +206,14 @@ sub read_hwd {
 sub read_begent_pcids_htm {
     my ($f) = @_;
     my %drivers;
-    local *F;
-    open F, $f or die "can't open $f\n";
+    my $F;
+    open $F, $f or die "can't open $f\n";
 
     # drop until TBODY
-    while (<F>) { last if m|<TBODY>| }
+    local $_;
+    while (<$F>) { last if m|<TBODY>| }
 
-    my $get_one = sub { map { scalar <F> } 1 .. 6 };
+    my $get_one = sub { map { scalar <$F> } 1 .. 6 };
     my $from_h = sub { 
 	local $_ = lc $_[0]; 
 	/([0-9a-g]{4})h/ or die "$.: bad number $_\n";
@@ -280,9 +285,10 @@ sub merge {
 		# keep sub-entry with major-entry module
 		# will be dropped if every subids have the same module
 		# ie. if no subids already present have a different module than the main one
-		/(........)/;
-		$new->{$_}[0] = $drivers->{$1 . 'ffffffff'}[0] || "unknown" 
-		  if exists $drivers->{$1 . 'ffffffff'};
+		if (/(........)/) {
+              $new->{$_}[0] = $drivers->{$1 . 'ffffffff'}[0] || "unknown" 
+                if exists $drivers->{$1 . 'ffffffff'};
+          }
 	    }
 
 	    $drivers->{$_} = $new->{$_} 
@@ -312,7 +318,7 @@ sub cleanup_subids {
 	    $text = $e->[1] if length($e->[1]) > length($text) || $subid eq 'ffffffff'; # favour previous text
 	}
 	if (keys(%modules) == 1) {
-	    my ($module, undef) = %modules;
+	    my ($module, undef) = each %modules;
 	    			
 	    # remove others
 	    foreach my $subid (@{$m{$id}}) {
