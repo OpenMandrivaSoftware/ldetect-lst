@@ -1,3 +1,11 @@
+2003-09-17 15:14  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.8-6mdk
+
+2003-09-17 15:13  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: fix #2203 (wrong driver for one ali sound card)
+
 2003-09-12 10:37  Frederic Lepied <flepied@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.8-5mdk
