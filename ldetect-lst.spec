@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.9
-%define release 5mdk
+%define release 6mdk
 
 Name: %{name}
 Version: %{version}
@@ -64,6 +64,14 @@ fi
 %{_bindir}/*
 
 %changelog
+* Thu Feb 19 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.9-6mdk
+- fix firmware configurationç templates for SANE backend
+  "artec_eplus48u" (till)
+- update some nvidia card descriptions (gregory)
+- update some ati radeon card descriptions (arnaud)
+- mark some ati radeon card as managed by fglrx instead of fbdev
+  (arnaud)
+
 * Thu Feb 12 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.9-5mdk
 - monitor db:
   o sync with rh's hwdata-0.105
