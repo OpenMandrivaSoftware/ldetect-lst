@@ -766,7 +766,7 @@
 0x05da	0x80ac	"microtek"	"Microtek International Inc.|ScanMaker V6UL/SpicyU"
 0x05dc	0x0001	"usb-storage"	"Lexar|Jumpshot USB CF Reader"
 0x05e3	0x000a	"unknown"	"Genesys Logic, Inc.|Keyboard with PS/2 Port"
-0x05e3	0x000b	"unknown"	"Genesys Logic, Inc.|Karna Razor BoomSlang 2000 Mouse"
+0x05e3	0x000b	"Mouse:USB|Wheel"	"Genesys Logic, Inc.|Karna Razor BoomSlang 2000 Mouse"
 0x05e3	0x0120	"unknown"	"Genesys Logic, Inc.|Pacific Image Electronics PrimeFilm 1800u slide/negative scanner"
 0x05e3	0x0300	"unknown"	"Genesys Logic, Inc.|GLUSB98PT Parallel Port"
 0x05e3	0x0502	"usbnet"	""

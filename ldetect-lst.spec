@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.5
-%define release 1mdk
+%define release 2mdk
 
 Name: %{name}
 Version: %{version}
@@ -64,6 +64,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Wed Jan 22 2003 Pixel <pixel@mandrakesoft.com> 0.1.5-2mdk
+- add a mouse in usbtable
+
 * Sun Jan 12 2003 Pixel <pixel@mandrakesoft.com> 0.1.5-1mdk
   o lst/pcitable:
   - merge with modules.pcimap from kernel 2.4.21.pre2.1mdk-1-1mdk
