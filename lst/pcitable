@@ -1365,7 +1365,7 @@
 0x104c	0xac5a	"unknown"	"Texas Instruments|PCI1610 PCCard CardBus Controller w/UltraMedia"
 0x104c	0xac60	"unknown"	"Texas Instruments|PCI2040 PCI to DSP Bridge Controller"
 0x104c	0xac8d	"unknown"	"Texas Instruments|PCI 7620"
-0x104c	0xac8e	"unknown"	"Texas Instruments|PCI7420 CardBus Controller"
+0x104c	0xac8e	"yenta_socket"	"Texas Instruments|PCI7420 CardBus Controller"
 0x104c	0xac8f	"unknown"	"Texas Instruments|PCI7420 Flash Media Controller"
 0x104c	0xfe00	"unknown"	"Texas Instruments|FireWire Host Controller"
 0x104c	0xfe03	"unknown"	"Texas Instruments|12C01A FireWire Host Controller"
