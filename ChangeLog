@@ -1,3 +1,16 @@
+2004-03-23 17:24  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: these two ones need Alan Cox's new "voodoo" driver
+	  for Voodoo Graphics and Voodoo II  (which we do not have)
+
+2004-03-23 17:17  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.9-12mdk
+
+2004-03-23 17:16  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/: pcitable, usbtable: sync with rh's hwdata-0.113
+
 2004-03-22 17:27  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* ldetect-lst.spec: more changes
