@@ -3446,9 +3446,7 @@ Unisys; Unisys SVG-201-COL; svg201; 31-38.0; 60-87; 1
 Unisys; Unisys SVG-250-COL; svg250; 31-38.0; 60-87; 1
 Unisys; Unisys VGA-200-MON; vga200; 31-32; 60-70; 1
 Unisys; Unisys VGA-250-MON; vga250; 31-32; 60-70; 1
-ViewSonic; ViewSonic 14ES; vsc3141; 30-48.4; 50-100; 1
-ViewSonic; ViewSonic 14ES; vsc3141; 31-51.0; 50-75; 1
-ViewSonic; ViewSonic 15ES-2; vsc3844; 31.5-62; 50-100; 1
+ViewSonic; ViewSonic 14ES; vsc3141; 31-51.0; 50-100; 1
 ViewSonic; ViewSonic 15ES-2; vsc3844; 31-62; 50-100; 1
 ViewSonic; ViewSonic 15E; vs_15e; 30-62; 50-90; 1
 ViewSonic; ViewSonic 15EX; vs_15ex; 30-62; 50-100; 1
@@ -3460,7 +3458,6 @@ ViewSonic; ViewSonic 15GS-3; vsc3145; 30-69; 50-120; 1
 ViewSonic; ViewSonic 15GS; vsc2601; 30-69; 50-120; 1
 ViewSonic; ViewSonic 15G; vs_15g; 30-64; 50-90; 1
 ViewSonic; ViewSonic 15; vs_15; 30-64; 50-90; 1
-ViewSonic; ViewSonic 17EA; vsc384a; 30-65; 50-120; 1
 ViewSonic; ViewSonic 17EA; vsc384a; 30-69; 50-120; 1
 ViewSonic; ViewSonic 17E; vs_17e; 30-64; 50-90; 1
 ViewSonic; ViewSonic 17GA-2; vsc444a; 30-69; 50-160; 1
