@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.2
-%define release 13mdk
+%define release 14mdk
 
 Name: %{name}
 Version: %{version}
@@ -48,6 +48,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/*
 
 %changelog
+* Thu Jun 14 2001 Pixel <pixel@mandrakesoft.com> 0.1.2-14mdk
+- adds some ATI cards
+
 * Tue Apr 10 2001 Frederic Lepied <flepied@mandrakesoft.com> 0.1.2-13mdk
 - added GeForce3 and CyberBlade/Xpm entries
 
