@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.4
-%define release 14mdk
+%define release 15mdk
 
 Name: %{name}
 Version: %{version}
@@ -63,6 +63,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Thu Sep  5 2002 Guillaume Cottenceau <gc@mandrakesoft.com> 0.1.4-15mdk
+- snapshot for latest ieee1394 cards
+
 * Thu Aug 29 2002 Pixel <pixel@mandrakesoft.com> 0.1.4-14mdk
 - add "Removable:floppy", "Removable:memory_card", "Removable:camera"
 
