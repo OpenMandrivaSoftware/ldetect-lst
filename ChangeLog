@@ -120,14 +120,6 @@
 
 	* lst/MonitorsDB: -add Dell laptop 16/10 screen
 
-2004-08-27 05:04  Gwenole Beauchesne <gbeauchesne@mandrakesoft.com>
-
-	* lst/pcitable: handle 3w-9xxx
-
-2004-08-27 02:30  Olivier Thauvin <thauvin@aerov.jussieu.fr>
-
-	* lst/MonitorsDB: -add Dell laptop 16/10 screen
-
 2004-08-26 13:24  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.16-1mdk
