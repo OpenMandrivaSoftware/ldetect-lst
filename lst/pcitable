@@ -4169,7 +4169,7 @@
 0x8086	0x244a	"unknown"	"Intel Corporation|82820 820 (Camino 2) Chipset IDE U100 (-M)"
 0x8086	0x244b	"unknown"	"Intel Corporation|82820 815e (Camino 2) Chipset IDE U100"
 0x8086	0x244c	"sonypi"	"Intel Corporation|82801BAM LPC Interface Bridge"
-0x8086	0x244e	"i810_rng"	"Intel Corporation|82820 815e (Camino 2) Chipset PCI"
+0x8086	0x244e	"i810_audio"	"Intel Corporation|82820 815e (Camino 2) Chipset PCI"
 0x8086	0x2450	"i810-tco"	"Intel Corp.|82801E ISA Bridge (LPC)"
 0x8086	0x2452	"unknown"	"Intel Corp.|82801E USB"
 0x8086	0x2453	"unknown"	"Intel Corp.|82801E SMBus"
