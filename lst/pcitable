@@ -2618,7 +2618,7 @@
 0x11c1	0x0461	"Bad:www.linmodems.org"	"Agere Systems|V90 Wildfire Modem"
 0x11c1	0x0462	"Bad:www.linmodems.org"	"Agere Systems|56K.V90/ADSL Wildfire Modem"
 0x11c1	0x0464	"unknown"	"Agere Systems|Riptide Audio PCI Legacy Resources"
-0x11c1	0x0480	"Bad:www.linmodems.org"	"Lucent Microelectronics|Venus WinModem (V90, 56KFlex)"
+0x11c1	0x0480	"unknown"	"Lucent Microelectronics|Venus WinModem (V90, 56KFlex)"
 0x11c1	0x048f	"unknown"	"Agere Systems|SV92P-T00"
 0x11c1	0x5801	"usb-ohci"	"AT&T Microelectronics (Lucent)|USB Open Host Controller"
 0x11c1	0x5802	"unknown"	"Agere Systems|USS-312 2-port PCI-to-USB OpenHCI Host Ctrlr"
