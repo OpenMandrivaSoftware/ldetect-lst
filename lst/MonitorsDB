@@ -428,6 +428,71 @@ Brother; Brother BM85L; 0; 30.0-64.0; 50.0-100.0; 1
 Bus Computer Systems; Bus Computer Systems Bus_VGA; bus_vga; 31.5-38.0; 50.0-70.0; 1
 Carroll Touch; Carroll Touch CT1381A; ct1381a; 15.7-38.0; 45.0-90.0; 1
 Colorgraphic; Colorgraphic EG2040; eg2040; 20.0-40.0; 40.0-100.0; 1
+Compal; Compal BJ350; CPL9565; 31.5-61.0; 50-90
+Compal; Compal BP350; CPL9566; 24-60; 56-75
+Compal; Compal CM350; CPL1509; 24-61.0; 56-75
+Compal; Compal CM870; CPL1702; 24-80.0; 56-75
+Compal; Compal FC340; CPL24EB; 31.5-61.0; 50-90
+Compal; Compal FC350; CPL254F; 31.5-61.0; 50-90
+Compal; Compal FD350; CPL2551; 31.5-61.0; 50-90
+Compal; Compal FT340; CPL24EC; 31.5-61.0; 50-90
+Compal; Compal G450; CPL0975; 30-50; 50-100
+Compal; Compal G554; CPL09D9; 30-54; 50-120
+Compal; Compal G566; CPL09DA; 30-66; 50-120
+Compal; Compal G567; CPL09DB; 30-66; 50-120
+Compal; Compal G569; CPL09DD; 30-70; 50-120
+Compal; Compal GC220; CPL2419; 31.5-38.5; 55-85
+Compal; Compal GT220; CPL241A; 31.5-38.5; 55-85
+Compal; Compal H113; CPL1130; 30-115; 50-160
+Compal; Compal H450; CPL096B; 30-50; 50-100
+Compal; Compal H554; CPL09CF; 30-54; 50-120
+Compal; Compal H566; CPL09D0; 30-66; 50-120
+Compal; Compal H567; CPL09D1; 30-66; 50-120
+Compal; Compal H569; CPL09D3; 30-70; 50-120
+Compal; Compal H763; CPL0A9B; 30-70; 50-120
+Compal; Compal H767; CPL0A99; 30-66; 50-110
+Compal; Compal H787; CPL0A9C; 30-87; 50-120
+Compal; Compal K450; CPL097F; 30-50; 50-100
+Compal; Compal K567; CPL09E5; 30-66; 50-120
+Compal; Compal LC220; CPL240F; 31.5-38.5; 55-85
+Compal; Compal LT220; CPL2410; 31.5-38.5; 55-85
+Compal; Compal M454; CPL4541; 30-54; 50-120
+Compal; Compal M554; CPL5541; 30-54; 50-120
+Compal; Compal M557; CPL5571; 30-70; 50-120
+Compal; Compal M570; CPL5701; 30-70; 50-120
+Compal; Compal M571; CPL5711; 30-70; 50-120
+Compal; Compal M573; CPL5731; 30-70; 50-120
+Compal; Compal M576; CPL5761; 30-70; 50-120
+Compal; Compal M577; CPL5771; 30-70; 50-120
+Compal; Compal M770; CPL7701; 30-70; 50-120
+Compal; Compal M773; CPL7731; 30-70; 50-120
+Compal; Compal M787; CPL7871; 30-87; 50-120
+Compal; Compal M980; CPL9801; 30-87; 50-120
+Compal; Compal M990; CPL9901; 30-95; 50-160
+Compal; Compal M993; CPL9931; 30-95; 50-160
+Compal; Compal M999; CPL9991; 30-95; 50-120
+Compal; Compal P454; CPL4542; 30-54; 50-120
+Compal; Compal P554; CPL5542; 30-54; 50-120
+Compal; Compal P570; CPL5702; 30-70; 50-120
+Compal; Compal P571; CPL5712; 30-70; 50-120
+Compal; Compal P576; CPL5762; 30-70; 50-120
+Compal; Compal P577; CPL5772; 30-70; 50-120
+Compal; Compal P770; CPL7702; 30-70; 50-120
+Compal; Compal P773; CPL7732; 30-70; 50-120
+Compal; Compal P787; CPL7872; 30-87; 50-120
+Compal; Compal P980; CPL9802; 30-87; 50-120
+Compal; Compal P990; CPL9902; 30-95; 50-160
+Compal; Compal P993; CPL9932; 30-95; 50-160
+Compal; Compal S450; CPL0989; 30-50; 50-100
+Compal; Compal S554; CPL09ED; 30-54; 50-120
+Compal; Compal S566; CPL09EE; 30-66; 50-120
+Compal; Compal S567; CPL09EF; 30-66; 50-120
+Compal; Compal S569; CPL09F1; 30-70; 50-120
+Compal; Compal S763; CPL0AB9; 30-70; 50-120
+Compal; Compal S767; CPL0AB7; 30-66; 50-110
+Compal; Compal S787; CPL0AB5; 30-87; 50-120
+Compal; Compal V799; CPL7993; 30-70; 50-120
+Compal; Compal V999; CPL9993; 30-95; 50-120
 Compaq; Compaq 1024; cpq0011; 31.5-57.0; 50.0-90.0; 1
 Compaq; Compaq 1024; cpq0012; 31.5-57.0; 50.0-90.0; 1
 Compaq; Compaq 1024; cpq0013; 31.5-57.0; 50.0-90.0; 1
@@ -562,6 +627,20 @@ Compaq; Compaq V710 Color Monitor; cpq1382; 30.0-85.0; 50.0-160.0; 1
 Compaq; Compaq V75 Color Monitor; cpq1332; 31.5-69.0; 50.0-100.0; 1
 Compaq; Compaq V900 Color Monitor; cpq1325; 30.0-96.0; 48.0-160.0; 1
 Compaq; Compaq VGA; cvga; 31.5; 50.0-70.0; 1
+Compaq;Compaq 1520 Flat Panel Monitor;cpq1456;30.0-60.0;56.0-76.0;1
+Compaq;Compaq 7500 Color Monitor;cpq1445;30.0-70.0;50.0-140.0;1
+Compaq;Compaq FP17 Flat Panel Monito;cpq145e;30.0-81.0;56.0-76.0;1
+Compaq;Compaq P720 Color Monitor;cpq1419;31.0-96.0;55.0-160.0;1
+Compaq;Compaq TFT5030 Flat Panel Monitor;cpq1391;31.47-60.0;58.0-75.0;1
+Compaq;Compaq 1720 Flat Panel Monitor;cpq144f;30.0-81.0;56.0-76.0;1
+Compaq;Compaq 7550 Color Monitor;cpq1446;30.0-86.0;50.0-140.0;1
+Compaq;Compaq FP5315 Flat Panel Monitor;cpq1459;30.0-61.0;56.0-76.0;1
+Compaq;Compaq P920 Color Monitor;cpq1420;30.0-110.0;50.0-160.0;1
+Compaq;Compaq TFT8030 Flat Panel Monitor;cpq1395;32.0-91.0;58.0-85.0;1
+Compaq;Compaq 5500 Color Monitor;cpq1444;30.0-54.0;50.0-120.0;1
+Compaq;Compaq FP15 Flat Panel Monitor;cpq145c;30.0-61.0;56.0-76.0;1
+Compaq;Compaq FP7317 Flat Panel Monitor;cpq145b;30.0-81.0;56.0-76.0;1
+Compaq;Compaq P1220 Color Monitor;cpq1421;30.0-130.0;50.0-160.0;1
 Compdyne; Compudyne KD-1500N; 0; 30.00-66; 50-90
 Compeq USA/Focus; Compeq CT-1458; ct-1458; 15.0-48.0; 47.0-100.0; 1
 Compeq USA/Focus; Compeq CT-1958; ct-1958; 15.0-51.0; 47.0-100.0; 1
@@ -788,19 +867,21 @@ Daytek; Daytek TM-1770D; oec0707; 30.0-70.0; 50.0-120.0; 1
 Daytek; Vista v19; STC032b; 30.0-95.0; 50.0-160.0
 Dell; Dell 1024i; 0; 35.5; 87.0; 1
 Dell; Dell 1024i-P/1024i-Color; 0; 35.5; 87.0; 1
-Dell; Dell 1024X Laptop Display Panel; 0; 31.5-48.5; 59.0-75.0; 1
-Dell; Dell 1280X Laptop Display Panel; 0; 31.5-90.0; 59.0-75.0; 1
+Dell; Dell 1024x768 Laptop Display Panel; 0; 31.5-48.5; 59.0-75.0; 1
+Dell; Dell 1280x1024 Laptop Display Panel; 0; 31.5-90.0; 59.0-75.0; 1
 Dell; Dell 1400FP; del8162; 31.0-60.0; 55.0-86.0; 1
-Dell; Dell 1400X Laptop Display Panel; 0; 31.5-90.0; 59.0-75.0; 1
+Dell; Dell 1400x1050 Laptop Display Panel; 0; 31.5-90.0; 59.0-75.0; 1
 Dell; Dell 1401FP; delc0ec; 31.0-80.0; 56.0-76.0; 1
 Dell; Dell 1500FP; del715d; 30.0-61.0; 56.0-75.0; 1
 Dell; Dell 1501FP (Analog); del73a4; 30.0-61.0; 56.0-75.0; 1
 Dell; Dell 1501FP (Digital); del7140; 30.0-61.0; 56.0-75.0; 1
 Dell; Dell 1503FP (Analog); del3004; 31.0-60.0; 60.0-75.0; 1
 Dell; Dell 1503FP (Digital); del3003; 31.0-60.0; 60.0-75.0; 1
+Dell; Dell 1504FP (Digital); DEL300D; 30.0-60.0; 56.0-75.0; 1
+Dell; Dell 1504FP (Analog); DEL300C; 30.0-60.0; 56.0-75.0; 1
 Dell; Dell 1569; del1569; 30.0-69.0; 50.0-110.0; 1
 Dell; Dell 1569; del6915; 30.0-69.0; 50.0-110.0; 1
-Dell; Dell 1600X Laptop Display Panel; 0; 31.5-90.0; 59.0-85.0; 1
+Dell; Dell 1600x1200 Laptop Display Panel; 0; 31.5-90.0; 59.0-85.0; 1
 Dell; Dell 1700FP; del3092; 30.0-80.0; 56.0-76.0; 1
 Dell; Dell 1701FP (Analog); del3002; 31.0-80.0; 56.0-76.0; 1
 Dell; Dell 1701FP (Digital); del3001; 31.0-80.0; 56.0-76.0; 1
@@ -816,7 +897,7 @@ Dell; Dell 2000FP (Digital); DELA003; 31.5-80.0; 56.0-76.0; 1
 Dell; Dell 800M; del5697; 30.0-70.0; 50.0-120.0; 1
 Dell; Dell 800M; del5697; 30.0-70.0; 50.0-130.0; 1
 Dell; Dell 828FI; del3319; 30.0-70.0; 50.0-120.0; 1
-Dell; Dell D1025HE; del6124; 31.0-92.0; 50.0-120.0; 1
+Dell; Dell D1025HE; del6124; 31.5-92.0; 50.0-150.0; 1
 Dell; Dell D1025HTX; del5062; 31.0-70.0; 50.0-120.0; 1
 Dell; Dell D1025TM; del5155; 31.0-85.0; 50.0-160.0; 1
 Dell; Dell D1028L; del730b; 31.0-70.0; 50.0-120.0; 1
@@ -830,7 +911,10 @@ Dell; Dell D825HT; del5033; 31.0-70.0; 50.0-120.0; 1
 Dell; Dell D825TM; del512c; 30.0-70.0; 50.0-120.0; 1
 Dell; Dell D828L; del32fe; 31.0-54.0; 50.0-120.0; 1
 Dell; Dell E151FP; DELA004; 31.0-60.0; 56.0-75.0; 1
+Dell; Dell E151FPb; DELA005; 30.0-61.0; 56.0-76.0; 1
 Dell; Dell E151FPp; DEL7006; 30.0-61.0; 56.0-76.0; 1
+Dell; Dell E171FP; DEL300F; 30.0-80.0; 56.0-76.0; 1
+Dell; Dell E171FPb; DELA006; 31.0-80.0; 56.0-76.0
 Dell; Dell E550; dela2f1; 30.0-54.0; 50.0-120.0; 1
 Dell; Dell E550mm; dela355; 30.0-54.0; 50.0-120.0; 1
 Dell; Dell E551a; dela000; 30.0-54.0; 50.0-120.0; 1
@@ -854,6 +938,7 @@ Dell; Dell M780; del3142; 30.0-85.0; 50.0-160.0; 1
 Dell; Dell M781p; del73bd; 30.0-85.0; 50.0-160.0; 1
 Dell; Dell M781s; del32b0; 30.0-85.0; 50.0-160.0; 1
 Dell; Dell M782; DEL3008; 30.0-85.0; 50.0-160.0; 1
+Dell; Dell M782p; DEL7004; 30.0-85.0; 50.0-160.0; 1
 Dell; Dell M791; del7001; 30.0-96.0; 50.0-160.0; 1
 Dell; Dell M990; del708a; 30.0-95.0; 50.0-160.0; 1
 Dell; Dell M991; DEL7001; 30.0-96.0; 50.0-160.0; 1
@@ -868,7 +953,7 @@ Dell; Dell P791; del3000; 30.0-96.0; 50.0-160.0; 1
 Dell; Dell P792; DEL5001; 30.0-96.0; 48.0-170.0; 1
 Dell; Dell P793; DEL3005; 30.0-96.0; 50.0-160.0; 1
 Dell; Dell P990; del50dd; 30.0-96.0; 48.0-120.0; 1
-Dell; Dell P991; del5178; 30.0-95.0; 50.0-160.0; 1
+Dell; Dell P991; del5178; 30.0-107.0; 48.0-120.0; 1
 Dell; Dell P992; DEL5002; 30.0-107.0; 48.0-170.0; 1
 Dell; Dell Super VGA; 0; 30.0-38.5; 50.0-90.0; 1
 Dell; Dell Super VGA Colour; 0; 29.0-38.0; 47.0-100.0; 1
@@ -1187,6 +1272,7 @@ Gateway; Gateway EV700; gwy1b5c; 31-69; 50-110; 1
 Gateway; Gateway EV700; gwy1b5d; 31-69; 50-110; 1
 Gateway; Gateway EV700; gwy1b5e; 31-69; 50-110; 1
 Gateway; Gateway EV700; gwy1b5f; 31-69; 50-110; 1
+Gateway; Gateway EV700; GWY1B62; 30.0-70.0; 50.0-160.0
 Gateway; Gateway EV700; gwy7658; 30.0-70.0; 50.0-120.0; 1
 Gateway; Gateway EV700-H; gwy7659; 30.0-70.0; 50.0-120.0; 1
 Gateway; Gateway EV900; gwy8883; 30.0-95.0; 50.0-160.0; 1
@@ -1224,6 +1310,7 @@ Generic; Flat Panel 1400x1050; 0; 31.5-90; 59-75
 Generic; Flat Panel 1600x1200; 0; 31.5-90; 60 
 Generic; Flat Panel 640x480; 0; 31.5; 40-70
 Generic; Flat Panel 800x600; 0; 31.5-37.9; 40-70
+Geritec; Geritec PR568; BMM0238; 31-60; 60-75
 Golden Dragon; Golden Dragon TY-1411; ty-1411; 15.5-37.0; 50.0-120.0; 1
 Golden Dragon; Golden Dragon TY-2015; ty-2015; 30.0-65.0; 49.0-88.0; 1
 Goldstar; Goldstar LG StudioWorks20i; 0; 30.0-85.0; 50.0-120.0
@@ -1371,6 +1458,29 @@ Hewlett-Packard; HP M920 19-inch Display; 0; 29-107; 50-150
 Hewlett-Packard; HP P4819 HP P1130 21-inch Monitor; hwp12d3; 30.0-130.0; 48.0-170.0; 1
 Hewlett-Packard; HP P4829 L1820 18.1-inch LCD Monitor; hwp12dd; 31-80; 56-75; 1
 Hewlett-Packard; HP Pavilion M45/S40 Monitor; hwp14b2; 31.468-50.0; 56.0-75.0; 1
+Hewlett-Packard;HP F1503 Flat Panel Monitor;hwp2590;30.0-63.0;56.0-76.0;1
+Hewlett-Packard;HP 2025 Flat Panel Monitor;hwp144a;30.0-94.0;56.0-85.0;1
+Hewlett-Packard;HP 2025 Flat Panel Monitor;hwp144b;30.0-92.0;56.0-85.0;1
+Hewlett-Packard;HP 7550 color monitor;hwp2604;30.0-86.0;50.0-140.0;1
+Hewlett-Packard;HP F1723 flat panel monitor;hwp2609;30.0-81.0;56.0-76.0;1
+Hewlett-Packard;HP L1730 flat panel monitor;hwp260e;30.0-83.0;56.0-76.0;1
+Hewlett-Packard;HP MX703 Color Monitor;hwp2585;30.0-70.0;50.0-150.0;1
+Hewlett-Packard;HP VF17 flat panel monitor;hwp260a;30.0-81.0;56.0-76.0;1
+Hewlett-Packard;HP F1703 Flat Panel Monitor;hwp2594;30.0-83.0;56.0-76.0;1
+Hewlett-Packard;HP 5500 color monitor;hwp2602;30.0-54.0;50.0-120.0;1
+Hewlett-Packard;HP 9500 color monitor;hwp2605;30.0-96.0;50.0-160.0;1
+Hewlett-Packard;HP L1530 flat panel monitor;hwp260c;30.0-63.0;56.0-76.0;1
+Hewlett-Packard;HP L1925 flat panel monitor;hwp259a;30.0-82.0;56.0-76.0;1
+Hewlett-Packard;HP L1925 flat panel monitor;hwp259b;30.0-82.0;56.0-76.0;1
+Hewlett-Packard;HP P930 Color Monitor;hwp03a2;30.0-110.0;50.0-160.0;1
+Hewlett-Packard;HP L1502 Flat Panel Monitor;hwp2600;30.0-61.0;56.0-76.0;1
+Hewlett-Packard;HP 1825 Flat Panel Monitor;hwp0721;30.0-82.0;56.0-76.0;1
+Hewlett-Packard;HP 7500 color monitor;hwp2603;30.0-70.0;50.0-140.0;1
+Hewlett-Packard;HP F1523 flat panel monitor;hwp2607;30.0-61.0;56.0-76.0;1
+Hewlett-Packard;HP L1702 flat panel monitor;hwp2601;30.0-81.0;56.0-76.0;1
+Hewlett-Packard;HP M703 Color Monitor;hwp2584;30.0-70.0;50.0-140.0;1
+Hewlett-Packard;HP VF15 flat panel monitor;hwp2608;30.0-61.0;56.0-76.0;1
+Hewlett-Packard;HP P1130 Color Monitor;hwp12d3;30.0-130.0;48.0-170.0;1
 Highscreen; Highscreen LE 1024; 45; 31.4-31.6,35.1-35.2,35.5-35.6; 50-87
 Hitachi, Ltd.; Hitachi 20-AP; 20-ap; 30.0-65.0; 55.0-80.0; 1
 Hitachi, Ltd.; Hitachi 20-APF; 20-apf; 30.0-65.0; 55.0-80.0; 1
@@ -1517,6 +1627,7 @@ IBM; IBM 2237 C71; ibm08bd; 30.0-69.0; 50.0-120.0; 1
 IBM; IBM 2238; ibm2238; 31.0-38.0; 50.0-80.0; 1
 IBM; IBM 2248; ibm2248; 31.0-48.0; 50.0-100.0; 1
 IBM; IBM 2264; ibm2264; 31.0-64.0; 50.0-120.0; 1
+IBM; IBM 6307; ibm6307; 30.0-69.0; 50.0-120.0; 1
 IBM; IBM 6312; ibm6312; 31.0-50.0; 47.0-100.0; 1
 IBM; IBM 6314; ibm6314; 30.0-60.0; 50.0-120.0; 1
 IBM; IBM 6315; ibm6315; 31.0-48.5; 50.0-90.0; 1
@@ -1527,6 +1638,11 @@ IBM; IBM 6322; ibm6322; 31.0-48.5; 50.0-90.0; 1
 IBM; IBM 6324; ibm6324; 30.0-64.0; 50.0-110.0; 1
 IBM; IBM 6325; ibm6325; 30.0-64.0; 50.0-110.0; 1
 IBM; IBM 6327; ibm6327; 30.0-64.0; 50.0-130.0; 1
+IBM; IBM 6331; ibm6331; 30.0-69.0; 50.0-120.0; 1
+IBM; IBM 6332; ibm6332; 30.0-70.0; 50.0-160.0; 1
+IBM; IBM 6332 E74; IBM18BC; 30.0-69.0; 50.0-120.0; 1
+IBM; IBM 6517; ibm6517; 30.0-70.0; 50.0-160.0; 1
+IBM; IBM 6518; ibm6518; 30.0-54.0; 50.0-120.0; 1
 IBM; IBM 6540 G42; ibm198c; 30.0-50.0; 55.0-100.0; 1
 IBM; IBM 6541 G51; ibm198d; 30.0-54.0; 55.0-100.0; 1
 IBM; IBM 6546 G52; ibm1992; 30.0-69.0; 50.0-120.0; 1
@@ -1535,6 +1651,22 @@ IBM; IBM 6549 G94; ibm1995; 30.0-95.0; 50.0-160.0; 1
 IBM; IBM 6556 P72; ibm199c; 30.0-85.0; 50.0-150.0; 1
 IBM; IBM 6557 P92; ibm199d; 30.0-94.0; 50.0-160.0; 1
 IBM; IBM 6558 P202; ibm199e; 30.0-107.0; 50.0-160.0; 1
+IBM; IBM 6627; ibm6627; 30.0-85.0; 50.0-160.0; 1
+IBM; IBM 6634; ibm6634; 30.0-96.0; 50.0-160.0; 1
+IBM; IBM 6636; ibm6636; 30.0-61.0; 56.0-75.0; 1
+IBM; IBM 6637; ibm6637; 30.0-81.0; 56.0-75.0; 1
+IBM; IBM 6639; ibm6639; 30.0-94.0; 48.0-170.0; 1
+IBM; IBM 6651; ibm6651; 30.0-107.0; 48.0-170.0; 1
+IBM; IBM 6652; ibm6652; 30.0-130.0; 48.0-170.0; 1
+IBM; IBM 6656; ibm6656; 31.0-61.0; 56.0-75.0; 1
+IBM; IBM 6657; ibm6657; 30.0-81.0; 56.0-85.0; 1
+IBM; IBM 6658; ibm6658; 31.0-81.0; 56.0-85.0; 1
+IBM; IBM 6659; ibm6659; 31.0-120.0; 50.0-100.0; 1
+IBM; IBM 6737; ibm6737; 30.0-85.0; 50.0-160.0; 1
+IBM; IBM 6739; ibm6739; 30.0-96.0; 50.0-160.0; 1
+IBM; IBM 6734; ibm6734; 30.0-81.0; 55.0-75.0; 1
+IBM; IBM 6736a; ibm6736a; 31.0-94.0; 56.0-85.0; 1
+IBM; IBM 6736d; ibm6736a; 31.0-75.0; 56.0-85.0; 1
 IBM; IBM 7095; ibm1bb7; 30.0-69.0; 50.0-120.0; 1
 IBM; IBM 7097; ibm1bb9; 30.0-69.0; 50.0-120.0; 1
 IBM; IBM 8504; ibm8504; 31.5; 60.0-70.0; 1
@@ -1545,7 +1677,9 @@ IBM; IBM 8514; ibm8514; 31.5; 60.0-70.0; 1
 IBM; IBM 8515; ibm8515; 35.5; 60.0-87.0; 1
 IBM; IBM 8517; ibm8517; 35.5; 60.0-87.0; 1
 IBM; IBM 8518; ibm8518; 31.5; 60.0-70.0; 1
+IBM; IBM 9494; ibm9494; 30.0-80.0; 56.0-85.0; 1
 IBM; IBM 9504; ibm9504; 101.66; 77.1; 1
+IBM; IBM 9512; ibm9512; 31.0-61.0; 56.0-75.0; 1
 IBM; IBM 9513 T55A TFT Monitor; ibm2529; 30.0-61.0; 56.0-75.0; 1
 IBM; IBM 9514-B TFT Panel; ibm252a; 48.0-65.0; 60.0-75.0; 1
 IBM; IBM 9515; ibm9515; 61.1; 50.0-90.0; 1
@@ -1670,6 +1804,7 @@ Ikegami; Ikegami C/DM-2010A; dm-2010a; 48.0-64.0; 50.0-70.0; 1
 Ikegami; Ikegami C/DM-2060; dm-2060; 48.0-64.0; 50.0-70.0; 1
 Ikegami; Ikegami CN-20; cn-20; 45.0-68.0; 50.0-150.0; 1
 Ikegami; Ikegami CT-20; ct-20; 48.0-64.0; 50.0-70.0; 1
+ImageQuest Co., Ltd.; ImageQuest Q910; IQT2910; 30.0-110.0; 50.0-150.0; 1
 Image Systems Corp.; Image Systems C21LMAX; cs1lmax; 48.0-96.0; 60.0-80.0; 1
 Image Systems Corp.; Image Systems M24LMAX; m24lmax; 48.0-96.0; 60.0-80.0; 1
 Impression; Impression 3 3428G; dcm-1488e; 35.5; 87.0; 1
@@ -1729,27 +1864,37 @@ KFC; KFC MM/CA/CB6536DL/SL(NF); sml8819; 30-65; 50-100; 1
 KFC; KFC MM/CA/CB6746SL; sml6746; 30-70; 50-120; 1
 KLH Computers; KLH Computers MN275; mn275; 34.5-38.5; 50.0-90.0; 1
 Komodo; Komodo P571; 0; 30-70; 50-120
-Korea Data Systems; Korea Data Systems Avitron AV-5T; kds1540; 30.0-70.0; 50.0-120.0; 1
-Korea Data Systems; Korea Data Systems Avitron AV-7T; kds1740; 30.0-70.0; 50.0-120.0; 1
-Korea Data Systems; Korea Data Systems Visual Sensations VS-195; kds1980; 30.0-95.0; 50.0-120.0; 1
-Korea Data Systems; Korea Data Systems Visual Sensations VS-19; kds07d0; 31.0-95.0; 50.0-120.0; 1
-Korea Data Systems; Korea Data Systems Visual Sensations VS-19; kdsd007; 30.0-95.0; 50.0-120.0; 1
-Korea Data Systems; Korea Data Systems Visual Sensations VS-19SN; kds1981; 30.0-95.0; 50.0-120.0; 1
-Korea Data Systems; Korea Data Systems Visual Sensations VS-21; kds0834; 30.0-117.0; 50.0-160.0; 1
-Korea Data Systems; Korea Data Systems Visual Sensations VS-21; kds3408; 30.0-117.0; 50.0-160.0; 1
-Korea Data Systems; Korea Data Systems Visual Sensations VS-4D; kds05af; 28.0-55.0; 40.0-120.0; 1
-Korea Data Systems; Korea Data Systems Visual Sensations VS-4D; kdsaf05; 28.0-55.0; 50.0-120.0; 1
-Korea Data Systems; Korea Data Systems Visual Sensations VS-4(KD-1452); kds05ac; 28.0-50.0; 40.0-120.0; 1
-Korea Data Systems; Korea Data Systems Visual Sensations VS-4; kdsab05; 48.3; 60.0; 1
-Korea Data Systems; Korea Data Systems Visual Sensations VS-55; kds05f5; 28.0-55.0; 40.0-120.0; 1
-Korea Data Systems; Korea Data Systems Visual Sensations VS-55; kdsf505; 28.0-55.0; 50.0-120.0; 1
-Korea Data Systems; Korea Data Systems Visual Sensations VS-5; kdse605; 28.0-70.0; 50.0-120.0; 1
-Korea Data Systems; Korea Data Systems Visual Sensations VS-5/VS-51/VSx-5; kds05e6; 30.0-70.0; 50.0-120.0; 1
-Korea Data Systems; Korea Data Systems Visual Sensations VS-7; kdsc206; 30.0-70.0; 50.0-120.0; 1
-Korea Data Systems; Korea Data Systems Visual Sensations VS-7/VSx-7; kds06c2; 30.0-70.0; 50.0-120.0; 1
-Korea Data Systems; Korea Data Systems Visual Sensations VS-9; kds06d6; 31.0-95.0; 50.0-120.0; 1
-Korea Data Systems; Korea Data Systems Visual Sensations VS-9; kdsd606; 30.0-95.0; 50.0-120.0; 1
-Korea Data Systems; Korea Data Systems Visual Sensations VSx-5; kdsfa05; 28.0-70.0; 50.0-120.0; 1
+Korea Data Systems; KDS Avitron AV-5T; kds1540; 30.0-70.0; 50.0-120.0; 1
+Korea Data Systems; KDS Avitron AV-7T; kds1740; 30.0-70.0; 50.0-120.0; 1
+Korea Data Systems; KDS Visual Sensations VS-195; kds1980; 30.0-95.0; 50.0-120.0; 1
+Korea Data Systems; KDS Visual Sensations VS-19; kds07d0; 31.0-95.0; 50.0-120.0; 1
+Korea Data Systems; KDS Visual Sensations VS-19; kdsd007; 30.0-95.0; 50.0-120.0; 1
+Korea Data Systems; KDS Visual Sensations VS-19SN; kds1981; 30.0-95.0; 50.0-120.0; 1
+Korea Data Systems; KDS Visual Sensations VS-21; kds0834; 30.0-117.0; 50.0-160.0; 1
+Korea Data Systems; KDS Visual Sensations VS-21; kds3408; 30.0-117.0; 50.0-160.0; 1
+Korea Data Systems; KDS Visual Sensations VS-4D; kds05af; 28.0-55.0; 40.0-120.0; 1
+Korea Data Systems; KDS Visual Sensations VS-4D; kdsaf05; 28.0-55.0; 50.0-120.0; 1
+Korea Data Systems; KDS Visual Sensations VS-4(KD-1452); kds05ac; 28.0-50.0; 40.0-120.0; 1
+Korea Data Systems; KDS Visual Sensations VS-4; kdsab05; 48.3; 60.0; 1
+Korea Data Systems; KDS Visual Sensations VS-55; kds05f5; 28.0-55.0; 40.0-120.0; 1
+Korea Data Systems; KDS Visual Sensations VS-55; kdsf505; 28.0-55.0; 50.0-120.0; 1
+Korea Data Systems; KDS Visual Sensations VS-5; kdse605; 28.0-70.0; 50.0-120.0; 1
+Korea Data Systems; KDS Visual Sensations VS-5/VS-51/VSx-5; kds05e6; 30.0-70.0; 50.0-120.0; 1
+Korea Data Systems; KDS Visual Sensations VS-7; kdsc206; 30.0-70.0; 50.0-120.0; 1
+Korea Data Systems; KDS Visual Sensations VS-7/VSx-7; kds06c2; 30.0-70.0; 50.0-120.0; 1
+Korea Data Systems; KDS Visual Sensations VS-9; kds06d6; 31.0-95.0; 50.0-120.0; 1
+Korea Data Systems; KDS Visual Sensations VS-9; kdsd606; 30.0-95.0; 50.0-120.0; 1
+Korea Data Systems; KDS Visual Sensations VSx-5; kdsfa05; 28.0-70.0; 50.0-120.0; 1
+Korea Data Systems; KDS Visual Sensations VS-190is; STC0812; 30.0-96.0; 50.0-160.0
+Korea Data Systems; KDS Visual Sensations VS-190i; STC0812; 30.0-95.0; 50.0-120.0
+Korea Data Systems; KDS Visual Sensations VS-190p; STC0812; 30.0-96.0; 50.0-160.0
+Korea Data Systems; KDS Visual Sensations VS-190/VS-195e/VS-195i; STC0812; 30.0-95.0; 50.0-120.0
+Korea Data Systems; KDS Visual Sensations VS-195xp; STC0812; 30.0-96.0; 50.0-160.0
+Korea Data Systems; KDS Visual Sensations VS-450; STC01FF; 30.0-50.0; 50.0-90.0
+Korea Data Systems; KDS Visual Sensations VS-55i/VS-55p; STC01FF; 30.0-58.0; 50.0-120.0
+Korea Data Systems; KDS Visual Sensations VS-70/VS-77/VS-7b/VS-7p; STC02CE; 30.0-72.0; 50.0-160.0
+Korea Data Systems; KDS XFlat XF-70/XF-7b/XF-7e/XF-71/XF-7p; STC0777; 30.0-72.0; 50.0-160.0
+Korea Data Systems; KDS XFlat XF-9b/XF-9c/XF-9e/XF-9p; PTS03E5; 30.0-98.0; 50.0-160.0
 Leading Technology, Inc.; Leading Technology 1730S; 1730s; 21.0-50.0; 50.0-90.0; 1
 LG Electronics Inc.; LG 1455; 1455; 37.9; 72.8; 1
 LG Electronics Inc.; LG 1455D; 1455d; 37.9; 72.8; 1
@@ -1787,6 +1932,7 @@ LG Electronics Inc.; LG StudioWorks 44i; gsm36b9; 30.0-50.0; 50.0-90.0; 1
 LG Electronics Inc.; LG StudioWorks 44m; gsm36b4; 30.0-50.0; 50.0-90.0; 1
 LG Electronics Inc.; LG StudioWorks 45i; gsm36bb; 30.0-54.0; 50.0-90.0; 1
 LG Electronics Inc.; LG StudioWorks 54m; gsm3aa9; 30.0-50.0; 50.0-90.0; 1
+LG Electronics Inc.; LG StudioWorks 550m; CXO0f0f; 30.0-54.0; 50.0-90.0; 1
 LG Electronics Inc.; LG StudioWorks 55i; gsm3abd; 30.0-54.0; 50.0-90.0; 1
 LG Electronics Inc.; LG StudioWorks 56i; gsm3aa8; 30.0-65.0; 50.0-120.0; 1
 LG Electronics Inc.; LG StudioWorks 56m; gsm3aa2; 30.0-65.0; 50.0-110.0; 1
@@ -1971,6 +2117,7 @@ Maxdata Computer; Maxdata Belinea 10 40 65; max4065; 30.0-50.0; 50.0-120.0; 1
 Maxdata Computer; Maxdata Belinea 10 50 95; max3539; 30.0-64.0; 55.0-90.0; 1
 Maxdata Computer; Maxdata Belinea 10 55 75; max7555; 30.0-69.0; 50.0-120.0; 1
 MegaImage; MegaImage 17; 106; 30-64; 50-100
+Microtec; Microtec MD15-9; PBR023c; 30.0-70.0; 50.0-150.0; 1
 Microvitec, Inc.; Microvitec 1020/LP; 1020lp; 15.0-36.5; 45.0-100.0; 1
 Microvitec, Inc.; Microvitec 1020/SP; 1020sp; 15.0-36.5; 45.0-100.0; 1
 Microvitec, Inc.; Microvitec 2012/LP; 2012lp; 15.0-40.0; 45.0-100.0; 1
@@ -2613,6 +2760,7 @@ Philips; Philips 107B20(17inch/CM2317); phle003; 30.0-92.0; 50.0-160.0; 1
 Philips; Philips 107S(17inch/CM1300); phla17c; 30.0-69.0; 50.0-120.0; 1
 Philips; Philips 107S(17inch/CM6800); phl107c; 30.0-66.0; 50.0-130.0; 1
 Philips; Philips 109S; phl4109; 30.0-95.0; 50.0-160.0; 1
+Philips; Philips 109B40; PHLE00E; 30.0-97.0; 50.0-160.0
 Philips; Philips 14C(14inch/7CM5209); 0; 31.5,35.2,35.5; 50.0-100.0; 1
 Philips; Philips 14C(14inch/7CM5279); 0; 31.5,35.2,35.5; 50.0-100.0; 1
 Philips; Philips 17ACM38; phl3800; 30-82; 50-160; 1
@@ -3012,9 +3160,9 @@ Sony; Sony CPD-200SF; sny0270; 30.0-80.0; 50.0-120.0; 1
 Sony; Sony CPD-200SFT; sny0370; 30.0-80.0; 50.0-120.0; 1
 Sony; Sony CPD-200SX; sny0570; 30.0-70.0; 50.0-150.0; 1
 Sony; Sony CPD-201VS iGPE; sny0e70; 30.0-70.0; 50.0-120.0; 1
-Sony; Sony CPD-20SF2; sny0000; 30.0-85.0; 48.0-150.0; 1
+Sony; Sony CPD-20SF2; sny0000; 30.0-65.0; 50.0-120.0; 1
 Sony; Sony CPD-20SF2T5; sny00a0; 30.0-85.0; 48.0-150.0; 1
-Sony; Sony CPD-20SF2T; sny0000; 30.0-85.0; 48.0-150.0; 1
+Sony; Sony CPD-20SF2T; sny0000; 30.0-65.0; 50.0-120.0; 1
 Sony; Sony CPD-20SF3; sny01a0; 30.0-86.0; 48.0-150.0; 1
 Sony; Sony CPD-210GS/210EST/T9; sny1070; 30.0-70.0; 48.0-120.0; 1
 Sony; Sony CPD-210SFB; sny0870; 30.0-70.0; 50.0-120.0; 1
