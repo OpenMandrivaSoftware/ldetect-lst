@@ -1727,6 +1727,9 @@ SEE Trident Cyber 9525 (generic)
 
 # SiS
 
+NAME SiS
+DRIVER sis
+
 NAME SiS SG86C205
 SERVER SVGA
 DRIVER sis
