@@ -1027,6 +1027,7 @@
 0x1039	0x6306	"Card:SiS 530"	"Silicon Integrated Systems [SiS]|SiS530 3D PCI/AGP"
 0x1039	0x6325	"Card:SiS 650"	"Silicon Integrated System|SiS650/651/740 GUI 2D/3D Accelerator"
 0x1039	0x6326	"Card:SiS 6326"	"Silicon Integrated Systems [SiS]|86C326"
+0x1039	0x6330	"Card:SiS Real256E"	"Silicon Integrated Systems [SiS]|SiS Real256E"
 0x1039	0x6972	"unknown"	"Silicon Integrated System| "
 0x1039	0x7001	"usb-ohci"	"Silicon Integrated Systems [SiS]|7001 USB"
 0x1039	0x7002	"ehci-hcd"	"Silicon Integrated Systems [SiS]|7002 USB 2.0 Controller"

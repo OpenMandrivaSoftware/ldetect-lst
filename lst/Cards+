@@ -1776,6 +1776,10 @@ NAME SiS 6326 no_accel
 SEE SiS 6326
 LINE     Option "no_accel" # Use this if acceleration is causing problems
 
+NAME SiS Real256E
+SERVER SVGA
+DRIVER sis
+
 NAME SiS 530
 SERVER SVGA
 DRIVER sis
