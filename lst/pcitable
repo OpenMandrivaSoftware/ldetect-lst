@@ -334,7 +334,7 @@
 0x1013	0x00d5	"Card:Cirrus Logic GD5464"	"Cirrus Logic|GD5464BD"
 0x1013	0x00d6	"Card:Cirrus Logic GD5465"	"Cirrus Logic|GD 5465 [Laguna]"
 0x1013	0x00e8	"Card:Cirrus Logic GD543x"	"Cirrus Logic|GD 5436U"
-0x1013	0x1100	"yenta_socket"	"Cirrus Logic|CL 6729"
+0x1013	0x1100	"i82365"	"Cirrus Logic|CL 6729"
 0x1013	0x1110	"yenta_socket"	"Cirrus Logic|PD 6832"
 0x1013	0x1112	"unknown"	"Cirrus Logic|PD 6834 PCMCIA/CardBus Ctrlr"
 0x1013	0x1113	"unknown"	"Cirrus Logic|PD 6833 PCMCIA/CardBus Ctrlr"
