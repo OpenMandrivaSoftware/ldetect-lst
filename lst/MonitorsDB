@@ -807,7 +807,7 @@ Dell; Dell 1503FP(Analog); del3004; 31.0-60.0; 60.0-75.0; 1
 Dell; Dell 1503FP(Digital); del3003; 31.0-60.0; 60.0-75.0; 1
 Dell; Dell 1569; del1569; 30.0-69.0; 50.0-110.0; 1
 Dell; Dell 1569; del6915; 30.0-69.0; 50.0-110.0; 1
-Dell; Dell 1600X Laptop Display Panel; 31.5-90.0; 59.0-85.0; 1
+Dell; Dell 1600X Laptop Display Panel; 0; 31.5-90.0; 59.0-85.0; 1
 Dell; Dell 1700FP; del3092; 30.0-80.0; 56.0-76.0; 1
 Dell; Dell 1701FP(Analog); del3002; 31.0-80.0; 56.0-76.0; 1
 Dell; Dell 1701FP(Digital); del3001; 31.0-80.0; 56.0-76.0; 1
@@ -974,6 +974,7 @@ Eizo; Eizo FlexScan F764; eiz0203; 30.0-90.0; 55.0-160.0; 1
 Eizo; Eizo FlexScan F77S; eiz1018; 30.0-110.0; 50.0-160.0; 1
 Eizo; Eizo FlexScan F780iW; eiz0310; 45.0-100.0; 55.0-120.0; 1
 Eizo; Eizo FlexScan F784; eiz0204; 31.5-102.0; 55.0-160.0; 1
+Eizo; Eizo FlexScan F931; enc1630 ; 30.0-130.0; 50.0-160.0; 1
 Eizo; Eizo FlexScan L34; eiz1012; 24.0-61.0; 50.0-85.0; 1
 Eizo; Eizo FlexScan L34; eiz1412; 24.0-61.0; 50.0-85.0; 1
 Eizo; Eizo FlexScan T560i; eiz0311; 30.0-82.0; 55.0-90.0; 1
@@ -3106,6 +3107,7 @@ Toshiba; Toshiba DP566M, Equium 15-inch Monitor; tsb5002; 30.0-66.0; 50.0-100.0;
 Toshiba; Toshiba DP782M, Equium 17-inch Monitor; tsb5003; 30.0-82.0; 50.0-160.0; 1
 Toshiba; Toshiba DR569M (PV2001U); tsb5004; 30.0-69.0; 50.0-110.0; 1
 Toshiba; Toshiba DR769MF (PV2002U); tsb5005; 30.0-69.0; 50.0-110.0; 1
+Toshiba; Toshiba TOS5082; tos5082; 31.5-48.5; 50.0-70.0; 1
 Toshiba; Toshiba P17CM00; p17cm00; 30.0-65.0; 50.0-90.0; 1
 Toshiba; Toshiba P17CM01; p17cm01; 30.0-65.0; 50.0-90.0; 1
 Toshiba; Toshiba P17CS01; p17cs01; 30.0-65.0; 50.0-90.0; 1
@@ -3301,6 +3303,7 @@ ViewSonic; ViewSonic VE150; vsc5547; 30-60; 50-75; 1
 ViewSonic; ViewSonic VE151; vsc5345; 31-61; 56-75; 1
 ViewSonic; ViewSonic VG150; vsc5147; 30-62; 50-60; 1
 ViewSonic; ViewSonic VG151; vsc5a47; 24.8-61; 56-75; 1
+ViewSonic; ViewSonic VG175; vscdd00; 30-82; 50-75; 1
 ViewSonic; ViewSonic VG180-2; vsc464e; 30-80; 56-85; 1
 ViewSonic; ViewSonic VG180-3; vsc7517; 30-82; 50-75; 1
 ViewSonic; ViewSonic VG180; vsc464d; 30-80; 60-85; 1
