@@ -1,5 +1,7 @@
 include Makefile.config
 
+RPM ?= $(HOME)/rpm
+
 build: 
 	make -C lst build
 
