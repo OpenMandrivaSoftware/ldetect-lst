@@ -960,7 +960,7 @@
 0x1039	0x7002	"ehci-hcd"	"Silicon Integrated Systems [SiS]|7002 USB 2.0 Controller"
 0x1039	0x7005	"unknown"	"Silicon Integrated System|SiS551/2 Memory Stick Controller"
 0x1039	0x7007	"ohci1394"	"Silicon Integrated Systems [SiS]|OHCI Compliant FireWire Controller"
-0x1039	0x7012	"snd-intel8x0"	"Silicon Integrated Systems [SiS]|SiS7012 PCI Audio Accelerator"
+0x1039	0x7012	"i810_audio"	"Silicon Integrated Systems [SiS]|SiS7012 PCI Audio Accelerator"
 0x1039	0x7013	"unknown"	"Silicon Integrated System|SiS7013 56k Modem"
 0x1039	0x7015	"unknown"	"Silicon Integrated System|SiS550/1/2 Software Audio"
 0x1039	0x7016	"sis900"	"Silicon Integrated Systems [SiS]|SiS900 10/100 Ethernet"
