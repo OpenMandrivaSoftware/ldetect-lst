@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.55
+%define version 0.1.56
 %define release 1mdk
 
 Name: %{name}
@@ -64,6 +64,18 @@ fi
 %{_bindir}/*
 
 %changelog
+* Mon Feb  7 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.56-1mdk
+- add one new ATI graphic card
+- add one new Intel graphic card
+- add E-Tech/Amigo AMX-CA80U ADSL modem (pablo)
+- handle quite a few more Intel & ALI AGP bridges
+- handle new vrc4173_cardu PCMCIA driver (from kernel-2.6.11-rc3)
+- replace uli526x by tulip driver
+- handle new ISDN USB driver hfc4s8s_l1
+- fix support for some ISDN drivers in drakconnect (namely c4, divas,
+  hysdn and one hisax)
+- sync with kernel-2.6.11-rc3
+
 * Wed Feb  2 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.55-1mdk
 - add 2 new intel sata controllers
 - sync with kernel-multimedia-2.6.10-1.mm.9mdk
