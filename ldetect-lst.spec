@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.2
-%define release 18mdk
+%define release 19mdk
 
 Name: %{name}
 Version: %{version}
@@ -48,6 +48,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/*
 
 %changelog
+* Wed Aug 29 2001 Frederic Lepied <flepied@mandrakesoft.com> 0.1.2-19mdk
+- updated wacom usb entries.
+
 * Tue Aug 21 2001 Pixel <pixel@mandrakesoft.com> 0.1.2-18mdk
 - various updates
 
