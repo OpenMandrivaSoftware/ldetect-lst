@@ -53,7 +53,7 @@ sub read_pcitable {
 	if (my ($id1, $id2, @l) = split /\t+/) {
 	    my ($subid1, $subid2) = ('ffff', 'ffff');
 	    ($subid1, $subid2, @l) = @l if @l == 4;
-	    @l == 2 or die "$f $line: bad number of fields (in $_)\n";
+	    @l == 2 or die "$f $line: bad number of fields " . (int @l) . " (in $_)\n";
 	    my ($module, $text) = @l;
 
 	    my $class = $text =~ /(.*?)|/;

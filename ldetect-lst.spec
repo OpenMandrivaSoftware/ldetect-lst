@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.2
-%define release 16mdk
+%define release 18mdk
 
 Name: %{name}
 Version: %{version}
@@ -10,7 +10,7 @@ Source: %{name}.tar.bz2
 Group: System/Libraries
 BuildArchitectures: noarch
 BuildRoot: %{_tmppath}/%{name}-buildroot
-Copyright: GPL
+License: GPL
 Prefix: %{_prefix}
 
 %package devel
@@ -48,6 +48,13 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/*
 
 %changelog
+* Tue Aug 21 2001 Pixel <pixel@mandrakesoft.com> 0.1.2-18mdk
+- various updates
+
+* Tue Aug 14 2001 Pixel <pixel@mandrakesoft.com> 0.1.2-17mdk
+- updated usbtable and pcitable
+- added Kyro series and a few other
+
 * Tue Jul 31 2001 Guillaume Cottenceau <gc@mandrakesoft.com> 0.1.2-16mdk
 - merge with 2.4.6-5mdk pcitable and usbtable
 
