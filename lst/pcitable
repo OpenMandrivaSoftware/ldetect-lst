@@ -1636,7 +1636,7 @@
 0x10ee	0x3fc2	"snd-rme96"	"Xilinx, Inc.|RME Digi96/8 Pro"
 0x10ee	0x3fc3	"snd-rme96"	"Xilinx, Inc.|RME Digi96/8 Pad"
 0x10ee	0x3fc4	"rme96xx"	"Xilinx, Inc.|Digi9652 Hammerfall"
-0x10ee	0x3fc5	"unknown"	"Xilinx, Inc.|RME Hammerfall DSP"
+0x10ee	0x3fc5	"snd-hdsp"	"Xilinx, Inc.|RME Hammerfall DSP"
 0x10ee	0x4020	"tpam"	"Xilinx, Inc.| ISDN Adapter"
 0x10ee	0x5343	"unknown"	"Xilinx, Inc|Seamont SC100 Security Adapter"
 0x10ee	0x8130	"unknown"	"Xilinx, Inc|Durango PMC Virtex-II Bridge, XC2V1000-4FG456C"
