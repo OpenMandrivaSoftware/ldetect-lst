@@ -11,11 +11,6 @@
 	* lst/pcitable: ISDN drivers need a bit of formatting in order to
 	  be managed by drakconnect...
 
-2005-02-07 13:28  Thierry Vignaud <tvignaud@mandrakesoft.com>
-
-	* lst/pcitable: ISDN drivers need a bit of formatting in order to
-	  be managed by drakconnect...
-
 2005-02-07 13:24  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* lst/pcitable: audit drivers/char/drm/drm_pciids.h and new ATI
