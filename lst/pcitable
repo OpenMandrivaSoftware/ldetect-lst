@@ -1521,7 +1521,7 @@
 0x1142	0x6420	"unknown"	"Alliance Semiconductor|GUI Accelerator"
 0x1142	0x6422	"Card:Alliance ProMotion 6422"	"Alliance|ProVideo 6422"
 0x1142	0x6424	"unknown"	"Alliance|ProVideo 6424"
-0x1142	0x6425	"unknown"	"Alliance|ProMotion AT25"
+0x1142	0x6425	"Card:AT25"	"Alliance|ProMotion AT25"
 0x1142	0x6426	"unknown"	"Alliance Semiconductor|GUI Accelerator"
 0x1142	0x643d	"Card:AT3D"	"Alliance|ProMotion AT3D"
 0x1144	0x0001	"unknown"	"Cincinnati Milacron|Noservo controller"
