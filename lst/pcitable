@@ -3618,6 +3618,7 @@
 0x1524	0x1211	"unknown"	"ENE Technology Inc|CB1211 Cardbus Controller"
 0x1524	0x1225	"unknown"	"ENE Technology Inc|CB1225 Cardbus Controller"
 0x1524	0x1410	"unknown"	"ENE Technology Inc|Unknown CardBus bridge"
+0x1524	0x1411	"yenta_socket"	"ENE Technology Inc|CB1411 CardBus Controller"
 0x1524	0x1420	"unknown"	"ENE Technology Inc|CB1420 Cardbus Controller"
 0x153b	0x6003	"unknown"	"Terratec Electronic GMBH|CS4614/22/24 CrystalClear SoundFusion PCI Audio Accel"
 0x1543	0x3052	"unknown"	"SILICON Laboratories|Intel 537 [Winmodem]"
