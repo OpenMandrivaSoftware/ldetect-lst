@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.53
+%define version 0.1.54
 %define release 1mdk
 
 Name: %{name}
@@ -64,6 +64,12 @@ fi
 %{_bindir}/*
 
 %changelog
+* Fri Jan 28 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.54-1mdk
+- add one intel ide controller (from lkml)
+- add a new LG monitor (Angelo Naselli)
+- add 2 new apple monitors (danny)
+- sync with kernel-2.6.11-rc2-mm1
+
 * Tue Jan 25 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.53-1mdk
 - fix support for SB Live! Value EMU10k1X
 
