@@ -3637,6 +3637,7 @@
 0x151a	0x1008	"unknown"	"Globetek|PCI-1008"
 0x151f	0x0000	"unknown"	"TOPIC SEMICONDUCTOR Corp|TP560 Data/Fax/Voice 56k modem"
 0x1522	0x0100	"unknown"	"Mainpine Limited|PBridge+ PCI Interface Chip"
+0x1524	0x0510	"unknown"	"ENE Technology Inc|CB710 Cardbus Controller (4 in 1 reader)"
 0x1524	0x1211	"unknown"	"ENE Technology Inc|CB1211 Cardbus Controller"
 0x1524	0x1225	"unknown"	"ENE Technology Inc|CB1225 Cardbus Controller"
 0x1524	0x1410	"unknown"	"ENE Technology Inc|Unknown CardBus bridge"
