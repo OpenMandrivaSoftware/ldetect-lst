@@ -1287,7 +1287,7 @@
 0x104c	0xac53	"unknown"	"Texas Instruments|PCI1421 PC card Cardbus Controller"
 0x104c	0xac54	"unknown"	"Texas Instruments|PCI1620 PCCard CardBus Controller w/UltraMedia"
 0x104c	0xac55	"yenta_socket"	"Texas Instruments|PCI1250 PC card Cardbus Controller"
-0x104c	0xac56	"unknown"	"Texas Instruments|PCI1510 PCCard CardBus Controller"
+0x104c	0xac56	"yenta_socket"	"Texas Instruments|PCI1510 PCCard CardBus Controller"
 0x104c	0xac57	"unknown"	"Texas Instruments|PCI1530 PCCard CardBus Controller"
 0x104c	0xac58	"unknown"	"Texas Instruments|PCI1515 PCCard CardBus Controller"
 0x104c	0xac59	"unknown"	"Texas Instruments|PCI1621 PCCard CardBus Controller w/UltraMedia"
