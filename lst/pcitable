@@ -478,7 +478,7 @@
 0x1022	0x7469	"unknown"	"Advanced Micro Devices|AMD-8111 IDE"
 0x1022	0x746a	"unknown"	"Advanced Micro Devices|AMD-8111 SMBus 2.0"
 0x1022	0x746b	"unknown"	"Advanced Micro Devices|AMD-8111 ACPI"
-0x1022	0x746d	"unknown"	"Advanced Micro Devices|AMD-8111 AC97 Audio"
+0x1022	0x746d	"snd-intel8x0"	"Advanced Micro Devices|AMD-8111 AC97 Audio"
 0x1022	0x756b	"unknown"	"Advanced Micro Devices|AMD-8111 ACPI"
 0x1023	0x0194	"unknown"	"Trident Microsystems|82C194"
 0x1023	0x2000	"snd-trident"	"Trident Microsystems|4DWave DX"
