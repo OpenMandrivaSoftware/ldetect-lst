@@ -1,6 +1,6 @@
 %define name ldetect-lst
-%define version 0.1.8
-%define release 15mdk
+%define version 0.1.9
+%define release 1mdk
 
 Name: %{name}
 Version: %{version}
@@ -64,6 +64,11 @@ fi
 %{_bindir}/*
 
 %changelog
+* Mon Feb  2 2004 Nicolas Planel <nplanel@mandrakesoft.com> 0.1.9-1mdk
+- merge kernel 2.6.2-0.rc3.1mdk pcimap
+- add prism54 wireless cards support
+- add aureal sound cards support
+
 * Thu Jan 29 2004 Pixel <pixel@mandrakesoft.com> 0.1.8-15mdk
 - support more sata controller sata_svw ata_piix sata_promise (nplanel)
 - philippe.harrand tells his Davicom card works with dmfe module, not tulip (gc)
