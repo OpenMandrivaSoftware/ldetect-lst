@@ -1,3 +1,11 @@
+2005-03-21 17:24  Thierry Vignaud <tvignaud at mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.74-1mdk
+
+2005-03-21 17:20  Thierry Vignaud <tvignaud at mandrakesoft.com>
+
+	* lst/pcitable: add a new SATA driver: ata_adma
+
 2005-03-21 16:44  Thierry Vignaud <tvignaud at mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.73-1mdk
