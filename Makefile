@@ -1,5 +1,3 @@
-version = 0.1.0
-
 project = ldetect-lst
 prefix = /usr
 datadir = $(prefix)/share
@@ -29,10 +27,7 @@ install: build
 	install -m 644 Cards+ CardsNames MonitorsDB isdn.db $(dir)
 
 rpm: clean $(RPM)
-	perl -pi -e "s/^(%define version).*/\1 $(version)/" $(project).spec
-
 	(echo "# !! DON'T MODIFY HERE, MODIFY IN THE CVS !!" ; \
-	 echo "%define version $(version)" ; \
          cat $(project).spec \
         ) > $(RPM)/SPECS/$(project).spec
 
