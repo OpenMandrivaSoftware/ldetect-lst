@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.2
-%define release 11mdk
+%define release 12mdk
 
 Name: %{name}
 Version: %{version}
@@ -48,6 +48,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/*
 
 %changelog
+* Tue Apr 10 2001 François Pons <fpons@mandrakesoft.com> 0.1.2-12mdk
+- added Trident CyberBladeXP.
+
 * Mon Apr  9 2001 Pixel <pixel@mandrakesoft.com> 0.1.2-11mdk
 - added some usb stuff
 
