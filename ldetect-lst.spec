@@ -64,7 +64,7 @@ fi
 %{_bindir}/*
 
 %changelog
-* Mon Sep 22 2003 François Pons <fpons@mandrakesoft.com> 0.1.8-9mdk
+* Mon Sep 22 2003 Nicolas Planel <nplanel@mandrakesoft.com> 0.1.8-9mdk
 - some ATI Radeon card are not working with fglrx.
 
 * Fri Sep 19 2003 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.8-8mdk
