@@ -19,6 +19,7 @@ clean:
 check:
 	@../convert/merge2pcitable.pl pcitable pcitable pcitable > /dev/null
 	@../convert/merge2pcitable.pl pcitable usbtable usbtable > /dev/null
+	@cd ../convert; ./verify_Cards.pl
 
 CardsNames: Cards+ ../convert/Cards2CardsNames.pl
 	rm -f $@
