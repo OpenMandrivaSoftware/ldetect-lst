@@ -2067,6 +2067,7 @@
 0x4010	0x15b0	"bttv"	"Zoltrix|Genie TV / Radio"
 0x4020	0x10fc	"bttv"	"I-O Data Co.|GV-BCV3/PCI"
 0x4033	0x1360	"8139too"	"Addtron Technology|8139 10/100BaseTX"
+0x4500	0x0070	"bttv"	"Hauppauge WinTV/PVR"
 0x4916	0x1960	"unknown"	"RedCreek Communications Inc|RedCreek PCI adapter"
 0x494f	0x22c0	"wdt_pci"	""
 0x4a14	0x5000	"ne2k-pci"	"NetVin|NV5000SC"
