@@ -1,3 +1,11 @@
+2004-09-08 11:47  Frederic Lepied <flepied@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.16-4mdk
+
+2004-09-08 11:44  Frederic Lepied <flepied@mandrakesoft.com>
+
+	* lst/usbtable: prefix nut drivers by UPS
+
 2004-09-08 11:23  Frederic Lepied <flepied@mandrakesoft.com>
 
 	* lst/pcitable: added entries for slamr and rt2500
