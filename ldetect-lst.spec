@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.7
-%define release 11mdk
+%define release 12mdk
 
 Name: %{name}
 Version: %{version}
@@ -64,6 +64,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Fri Mar 28 2003 Frederic Lepied <flepied@mandrakesoft.com> 0.1.7-12mdk
+- activated 3D on i830, i845, i85x and i865
+
 * Tue Mar 25 2003 Frederic Lepied <flepied@mandrakesoft.com> 0.1.7-11mdk
 - Correction for the intel sound card (Arnaud)
 
