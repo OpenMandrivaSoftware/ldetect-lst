@@ -1,6 +1,14 @@
+2005-02-11 17:39  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/usbtable: fix bad doble quotes
+
 2005-02-11 17:17  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.62-1mdk
+
+2005-02-11 17:17  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: add a couple of Radeon graphic cards
 
 2005-02-11 17:17  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
