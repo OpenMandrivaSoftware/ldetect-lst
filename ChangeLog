@@ -1,3 +1,44 @@
+2003-03-28 17:47  Frederic Lepied <flepied@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.7-12mdk
+
+2003-03-28 17:46  Frederic Lepied <flepied@mandrakesoft.com>
+
+	* lst/Cards+: activated 3D on i830, i845, i85x and i865
+
+2003-03-27 14:58  Gwenole Beauchesne <gbeauchesne@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.4-20mdk
+
+2003-03-27 14:55  Gwenole Beauchesne <gbeauchesne@mandrakesoft.com>
+
+	* lst/pcitable: Add newer AMD-81111 USB Controller
+
+2003-03-27 14:53  Gwenole Beauchesne <gbeauchesne@mandrakesoft.com>
+
+	* lst/pcitable: Suggest "usb-ohci" for AMD-8111 USB
+
+2003-03-27 14:43  Gwenole Beauchesne <gbeauchesne@mandrakesoft.com>
+
+	* lst/pcitable: Suggest "usb-ohci" for AMD-8111 USB
+
+2003-03-27 14:15  Gwenole Beauchesne <gbeauchesne@mandrakesoft.com>
+
+	* lst/pcitable: Add BCM >= 5704 cards ("bcm5700" driver)
+
+2003-03-27 14:07  Gwenole Beauchesne <gbeauchesne@mandrakesoft.com>
+
+	* lst/pcitable: Add Adaptec U320 cards ("aic79xx" driver)
+
+2003-03-27 14:04  Gwenole Beauchesne <gbeauchesne@mandrakesoft.com>
+
+	* Makefile: Add support for standard rpm and localrpm targets from
+	HEAD
+
+2003-03-27 14:03  Gwenole Beauchesne <gbeauchesne@mandrakesoft.com>
+
+	* lst/pcitable: Merge in AMD K8 pci.ids
+
 2003-03-25 15:52  Frederic Lepied <flepied@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.7-11mdk
