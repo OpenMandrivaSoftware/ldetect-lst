@@ -260,9 +260,6 @@ sub write_pcitable {
 sub merge {
     my ($drivers, $new) = @_;
 
-    foreach (keys %$drivers) {
-	$drivers->{$_}[1] = $new->{$_}[1] if !$drivers->{$_}[1];
-    }
     foreach (keys %$new) {
 	next if $new->{$_}[0] =~ /parport_pc|i810_ng/;
 	if ($drivers->{$_}) {
@@ -291,6 +288,9 @@ sub merge {
 	      # don't keep sub-entries with unknown drivers
 	      if $all || /ffffffff$/ || $new->{$_}[0] ne "unknown";
 	}	
+    }
+    foreach (keys %$drivers) {
+	$drivers->{$_}[1] = $new->{$_}[1] if !$drivers->{$_}[1];
     }
 }
 
