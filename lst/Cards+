@@ -50,6 +50,10 @@ LINE # Option "use_modeline"
 LINE # Option "fix_panel_size"
 LINE # videoram 512
 
+NAME KYRO Series
+SERVER SVGA
+DRIVER pvr2fb 
+
 NAME Chips & Technologies CT65525
 CHIPSET ct65525
 LINE # Option "nolinear"
