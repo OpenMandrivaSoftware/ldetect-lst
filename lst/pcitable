@@ -3340,6 +3340,7 @@
 0x8086	0x1227	"eepro100"	"Intel Corporation|82865 [Ether Express Pro 100]"
 0x8086	0x1228	"eepro100"	"Intel Corporation|82556 [Ether Express Pro 100 Smart]"
 0x8086	0x1229	"eepro100"	"Intel Corporation|82559 [Ethernet Pro 100]"
+0x8086	0x1229	0x8086	0x000a	"e100"	"Intel Corporation|82559 [Ethernet Pro 100]"
 0x8086	0x122d	"unknown"	"Intel Corporation|430FX - 82437FX TSC [Triton I]"
 0x8086	0x122e	"unknown"	"Intel Corporation|82371FB PIIX ISA [Triton I]"
 0x8086	0x1230	"unknown"	"Intel Corporation|82371FB PIIX IDE [Triton I]"
