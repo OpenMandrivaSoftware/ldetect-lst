@@ -2895,6 +2895,10 @@ DRIVER glint
 LINE #Option "no_accel"
 NOCLOCKPROBE
 
+NAME 3Dlabs Permedia4 (generic)
+DRIVER glint
+NOCLOCKPROBE
+
 NAME ELSA GLoria-L/MX
 CHIPSET GLINT MX
 SERVER 3DLabs
