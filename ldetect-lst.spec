@@ -1,6 +1,6 @@
 %define name ldetect-lst
-%define version 0.1.3
-%define release 9mdk
+%define version 0.1.4
+%define release 1mdk
 
 Name: %{name}
 Version: %{version}
@@ -62,6 +62,20 @@ fi
 %{_bindir}/*
 
 %changelog
+* Wed Jul 17 2002 Pixel <pixel@mandrakesoft.com> 0.1.4-1mdk
+- Cards+ + pcitable:
+  - add "ATI Radeon 8500" with no DRI_GLX
+  - add "SiS 6326 no_accel" with Option "no_accel"
+  - add "NeoMagic 128XD" with special XaaNoScanline* options
+  - add "NeoMagic MagicMedia 256XL+" with Option "sw_cursor"
+  - add NEEDVIDEORAM for cards corresponding to /86c368|S3 Inc|Tseng.*ET6\d00/
+    (hoping it will work: since the regexp was broken, it was never done.
+     (it was applied on the module field of pcitable, instead of the description))
+  - remove CHIPSET except for cards which had needChipset
+  - add UTAH_GLX, UTAH_GLX_EXPERIMENTAL 
+    (which card have them come from Xconfigurator.pm)
+  - add BAD_FB_RESTORE & BAD_FB_RESTORE_XF3
+
 * Fri Jun 21 2002 Gwenole Beauchesne <gbeauchesne@mandrakesoft.com> 0.1.3-9mdk
 - Add nForce things from Damien.
 - s/de4x5/tulip/ thanks to juan
