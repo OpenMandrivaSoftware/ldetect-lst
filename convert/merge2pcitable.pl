@@ -1,5 +1,8 @@
 #!/usr/bin/perl
 
+use MDK::Common;
+
+
 @ignored_modules = (
 qw(alsa ignore),
 qw(tr bcm5700), # redhat have this, ignore it
@@ -24,8 +27,6 @@ if ($0 =~ /merge2pcitable/)
     write_pcitable($d_pci);
 } else { 1 }
 
-sub member { my $e = shift; foreach (@_) { $e eq $_ and return 1 } 0 }
-
 sub dummy_module { 
     my ($m) = @_;
     $m =~ s/"(.*)"/$1/;
@@ -45,9 +46,8 @@ sub read_pcitable {
     my ($f) = @_;
     my %drivers;
     my $rm_quote = sub { s/^"//; s/"$//; $_ };
-    open F, $f or die "read_pcitable: can't open $f\n";
     my $line = 0;
-    foreach (<F>) {
+    foreach (cat_($f)) {
 	chomp; $line++;
 	next if /^#/ || /^\s*$/;
 	if (my ($id1, $id2, @l) = split /\t+/) {
@@ -78,8 +78,7 @@ sub read_pcitable {
 sub read_kernel_pcimap {
     my ($f) = @_;
     my %drivers;
-    open F, $f or die "read_kernel_pcimap: can't open $f\n";
-    foreach (<F>) {
+    foreach (cat_($f)) {
 	chomp;
 	next if /^#/ || /^\s*$/;
 	my ($module, $id1, $id2, $subid1, $subid2) = split;
@@ -92,8 +91,7 @@ sub read_kernel_pcimap {
 sub read_kernel_usbmap {
     my ($f) = @_;
     my %drivers;
-    open F, $f or die "read_kernel_usbmap: can't open $f\n";
-    foreach (<F>) {
+    foreach (cat_($f)) {
 	chomp;
 	next if /^#/ || /^\s*$/;
 	my ($module, $flag, $id1, $id2) = split;
@@ -107,8 +105,7 @@ sub read_pciids {
     my ($f) = @_;
     my %drivers;
     my ($id1, $id2, $class, $line, $text);
-    open F, $f or die "read_pciids: can't open $f\n";
-    foreach (<F>) {
+    foreach (cat_($f)) {
 	chomp; $line++;
 	next if /^#/ || /^;/ || /^\s*$/;
 	if (/^C\s/) {
@@ -136,8 +133,7 @@ sub read_pcilst {
     my ($f) = @_;
     my %drivers;
     my ($id, $class, $line, $text);
-    open F, $f or die "read_pciids: can't open $f\n";
-    foreach (<F>) {
+    foreach (cat_($f)) {
 	chomp; $line++;
 	next if /^#/ || /^;/ || /^\s*$/;
 	if (/^\t\S/) {
@@ -156,12 +152,23 @@ sub read_pcilst {
 
 sub read_pcitablepm {
     my ($f) = @_;
-    open F, $f or die "read_pcitablepm: can't open $f\n";
-    eval join('', <F>);
+    eval cat_($f);
 
     %pci_probing::pcitable::ids or die;
     while (my ($k, $v) = each %pci_probing::pcitable::ids) {
 	$drivers{sprintf qq(%08xffffffff), $k >> 32} = [ $v->[1], $v->[0] ];
+    }
+    \%drivers;
+}
+
+sub read_hwd {
+    my ($f) = @_;
+    my %drivers;
+    foreach (cat_($f)) {
+	next if /^\s*#/;
+	chomp;
+	my ($id1, $id2, $class, $module, $undef, $descr) = /(....):(....)\s+(\S+)\s+(\S+)(\s+(.*))/ or next;
+	$drivers{"$id1${id2}ffffffff"} = [ $module, $descr ];
     }
     \%drivers;
 }
@@ -183,10 +190,12 @@ sub merge {
 	    if ($new->{$_}[0] ne "unknown") {
 		if ($drivers->{$_}[0] eq "unknown" || $force) {
 		    $drivers->{$_}[0] = $new->{$_}[0];
-		} elsif ($drivers->{$_}[0] ne $new->{$_}[0]) {		    
-		    print STDERR "different($drivers->{$_}[0] $new->{$_}[0]): ", to_string($_, $drivers->{$_}), "\n"
-		      # special case for framebuffer modules
-		      unless $new->{$_}[0] =~ /fb/ && $drivers->{$_}[0] =~ /^(Card|Server):/;
+		} elsif ($drivers->{$_}[0] ne $new->{$_}[0]) {
+		    my $different = 1;
+		    $different = 0 if $new->{$_}[0] =~ /fb/;
+		    $different = 0 if $drivers->{$_}[0] =~ /^(Card|Server):/;
+		    $different = 0 if $drivers->{$_}[0] =~ /^ISDN:([^,]+)/ && $new->{$_}[0] eq $1;
+		    print STDERR "different($drivers->{$_}[0] $new->{$_}[0]): ", to_string($_, $drivers->{$_}), "\n" if $different;
 		}
 	    }
 	} else {
