@@ -809,8 +809,16 @@ Dell; Dell 1569; del1569; 30.0-69.0; 50.0-110.0; 1
 Dell; Dell 1569; del6915; 30.0-69.0; 50.0-110.0; 1
 Dell; Dell 1600X Laptop Display Panel; 0; 31.5-90.0; 59.0-85.0; 1
 Dell; Dell 1700FP; del3092; 30.0-80.0; 56.0-76.0; 1
-Dell; Dell 1701FP(Analog); del3002; 31.0-80.0; 56.0-76.0; 1
-Dell; Dell 1701FP(Digital); del3001; 31.0-80.0; 56.0-76.0; 1
+Dell; Dell 1701FP (Analog); del3002; 31.0-80.0; 56.0-76.0; 1
+Dell; Dell 1701FP (Digital); del3001; 31.0-80.0; 56.0-76.0; 1
+Dell; Dell 1702FP (Analog); DEL3007; 30.0-80.0; 56.0-76.0; 1
+Dell; Dell 1702FP (Digital); DEL3006; 30.0-80.0; 56.0-76.0; 1
+Dell; Dell 1800FP (Analog); DELE000; 30.0-80.0; 56.0-85.0; 1
+Dell; Dell 1800FP (Digital); DELE001; 30.0-70.0; 56.0-85.0; 1
+Dell; Dell 1900FP (Analog); DEL300B; 30.0-80.0; 56.0-76.0; 1
+Dell; Dell 1900FP (Digital); DEL3009; 30.0-80.0; 56.0-76.0; 1
+Dell; Dell 2000FP (Analog); DELA002; 31.5-80.0; 56.0-76.0; 1
+Dell; Dell 2000FP (Digital); DELA003; 31.5-80.0; 56.0-76.0; 1
 Dell; Dell 1726T-HS/D1025HT; del5319; 31.0-85.0; 50.0-100.0; 1
 Dell; Dell 800M; del5697; 30.0-70.0; 50.0-120.0; 1
 Dell; Dell 800M; del5697; 30.0-70.0; 50.0-130.0; 1
@@ -828,6 +836,8 @@ Dell; Dell D825HR; del62ff; 31.0-70.0; 50.0-120.0; 1
 Dell; Dell D825HT; del5033; 31.0-70.0; 50.0-120.0; 1
 Dell; Dell D825TM; del512c; 30.0-70.0; 50.0-120.0; 1
 Dell; Dell D828L; del32fe; 31.0-54.0; 50.0-120.0; 1
+Dell; Dell E151FP; DELA004; 31.0-60.0; 56.0-75.0; 1
+Dell; Dell E151FPp; DEL7006; 30.0-61.0; 56.0-76.0; 1
 Dell; Dell E550; dela2f1; 30.0-54.0; 50.0-120.0; 1
 Dell; Dell E550mm; dela355; 30.0-54.0; 50.0-120.0; 1
 Dell; Dell E551a; dela000; 30.0-54.0; 50.0-120.0; 1
@@ -836,6 +846,9 @@ Dell; Dell E770p; del7340; 30.0-70.0; 50.0-160.0; 1
 Dell; Dell E770s; del300a; 30.0-70.0; 50.0-160.0; 1
 Dell; Dell E771a; delA001; 30.0-70.0; 50.0-160.0; 1
 Dell; Dell E771p; del7002; 30.0-70.0; 50.0-160.0; 1
+Dell; Dell E771mm; DEL7003; 30.0-70.0; 50.0-160.0; 1
+Dell; Dell E772c; DELD002; 30.0-70.0; 50.0-160.0; 1
+Dell; Dell E772p; DEL7005; 30.0-70.0; 50.0-160.0; 1
 Dell; Dell Eizo 9080i; 0; 30.0-64.0; 50.0-90.0; 1
 Dell; Dell ES-17; del635e; 31.0-85.0; 50.0-100.0; 1
 Dell; Dell GPD-16C; 0; 20.0-50.0; 50.0-90.0; 1
@@ -847,8 +860,11 @@ Dell; Dell M770; del71a5; 30.0-69.0; 48.0-160.0; 1
 Dell; Dell M780; del3142; 30.0-85.0; 50.0-160.0; 1
 Dell; Dell M781p; del73bd; 30.0-85.0; 50.0-160.0; 1
 Dell; Dell M781s; del32b0; 30.0-85.0; 50.0-160.0; 1
+Dell; Dell M782; DEL3008; 30.0-85.0; 50.0-160.0; 1
+Dell; Dell M791; del7001; 30.0-96.0; 50.0-160.0; 1
 Dell; Dell M990; del708a; 30.0-95.0; 50.0-160.0; 1
-Dell; Dell M991; del7001; 30.0-96.0; 50.0-160.0; 1
+Dell; Dell M991; DEL7001; 30.0-96.0; 50.0-160.0; 1
+Dell; Dell M992; DEL300E; 30.0-96.0; 50.0-160.0; 1
 Dell; Dell P1110; del50ab; 30.0-121.0; 48.0-160.0; 1
 Dell; Dell P1130; del5000; 30.0-130.0; 48.0-170.0; 1
 Dell; Dell P1690; del5348; 30.0-96.0; 50.0-160.0; 1
@@ -856,8 +872,11 @@ Dell; Dell P1690; del5348; 30.0-96.0; 50.0-160.0; 1
 Dell; Dell P780; del510f; 30.0-85.0; 48.0-120.0; 1
 Dell; Dell P790; del62f5; 30.0-92.0; 50.0-150.0; 1
 Dell; Dell P791; del3000; 30.0-96.0; 50.0-160.0; 1
+Dell; Dell P792; DEL5001; 30.0-96.0; 48.0-170.0; 1
+Dell; Dell P793; DEL3005; 30.0-96.0; 50.0-160.0; 1
 Dell; Dell P990; del50dd; 30.0-96.0; 48.0-120.0; 1
 Dell; Dell P991; del5178; 30.0-95.0; 50.0-160.0; 1
+Dell; Dell P992; DEL5002; 30.0-107.0; 48.0-170.0; 1
 Dell; Dell Super VGA; 0; 30.0-38.5; 50.0-90.0; 1
 Dell; Dell Super VGA Colour; 0; 29.0-38.0; 47.0-100.0; 1
 Dell; Dell Super VGA DL 1428 I/L; 0; 35.5; 87.0; 1
@@ -975,8 +994,14 @@ Eizo; Eizo FlexScan F77S; eiz1018; 30.0-110.0; 50.0-160.0; 1
 Eizo; Eizo FlexScan F780iW; eiz0310; 45.0-100.0; 55.0-120.0; 1
 Eizo; Eizo FlexScan F784; eiz0204; 31.5-102.0; 55.0-160.0; 1
 Eizo; Eizo FlexScan F931; enc1630 ; 30.0-130.0; 50.0-160.0; 1
+Eizo; Eizo FlexScan L23; eiz1009; 24.0-50.0; 50.0-60.0; 1
+Eizo; Eizo FlexScan L23; eiz1409; 24.0-50.0; 50.0-60.0; 1
 Eizo; Eizo FlexScan L34; eiz1012; 24.0-61.0; 50.0-85.0; 1
 Eizo; Eizo FlexScan L34; eiz1412; 24.0-61.0; 50.0-85.0; 1
+Eizo; Eizo FlexScan L360; eiz1021; 27.0-61.0; 55.0-75.0; 1
+Eizo; Eizo FlexScan L360; eiz1421; 27.0-61.0; 55.0-75.0; 1
+Eizo; Eizo FlexScan L66; eiz1019; 27.0-80.0; 50.0-75.0; 1
+Eizo; Eizo FlexScan L66; eiz1419; 27.0-80.0; 50.0-75.0; 1
 Eizo; Eizo FlexScan T560i; eiz0311; 30.0-82.0; 55.0-90.0; 1
 Eizo; Eizo FlexScan T562; eiz0313; 30.0-82.0; 55.0-90.0; 1
 Eizo; Eizo FlexScan T563; eiz0305; 24.5-86.0; 55.0-160.0; 1
@@ -1014,6 +1039,10 @@ Eizo Nanao; Eizo T760; enc1605; 30.0-96.0; 50.0-160.0; 1
 Eizo Nanao; Eizo T761; enc1613; 30.0-115.0; 50.0-160.0; 1
 Eizo Nanao; Eizo T961; enc1610; 30.0-115.0; 50.0-160.0; 1
 Eizo Nanao; Eizo T962; enc1614; 30.0-130.0; 50.0-160.0; 1
+Eizo Nanao; Eizo L351; enc1616; 30.0-50.0; 59.0-61.0; 1
+Eizo Nanao; Eizo L371D; enc1617; 27.0-65.0; 59.0-61.0; 1
+Eizo Nanao; Eizo L371; enc1618; 27.0-61.0; 50.0-75.0; 1
+Eizo Nanao; Eizo L771; enc1622; 27.0-81.0; 50.0-75.0; 1
 Elitegroup Computer Systems; ECS VERTOS 1401; ecs0001; 30.0-50.0; 50.0-100.0; 1
 Elitegroup Computer Systems; ECS VERTOS 1501; ecs0002; 24.0-64.0; 50.0-100.0; 1
 Elitegroup Computer Systems; ECS VERTOS 1502; ecs0003; 24.0-64.0; 50.0-100.0; 1
@@ -2091,6 +2120,9 @@ Nanao; Nanao FlexScan T560i; nan0511; 30.0-82.0; 55.0-90.0; 1
 Nanao; Nanao FlexScan T567; nan0991; 30.0-82.0; 55.0-90.0; 1
 Nanao; Nanao FlexScan T660iJ; nan0912; 30.0-82.0; 55.0-90.0; 1
 Nanao; Nanao FlexScan T660i; nan0512; 30.0-78.0; 55.0-90.0; 1
+Nanao; Nanao FlexScan L66; nan1219; 27.0-80.0; 50.0-75.0; 1
+Nanao; Nanao FlexScan L360; nan1221; 27.0-61.0; 55.0-75.0; 1
+Nanao; Nanao FlexScan E151L; nan1209; 24.0-61.0; 50.0-85.0; 1
 Nanao; Nanao USA F2-15; nan0400; 24.5-69.0; 55.0-120.0; 1
 Nanao; Nanao USA F2-17EX; nan0402; 24.5-86.0; 55.0-160.0; 1
 Nanao; Nanao USA F2-17; nan0401; 24.5-69.0; 55.0-120.0; 1
