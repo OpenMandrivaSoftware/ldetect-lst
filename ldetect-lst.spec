@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.2
-%define release 37mdk
+%define release 38mdk
 
 Name: %{name}
 Version: %{version}
@@ -47,6 +47,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/*
 
 %changelog
+* Wed Jan 30 2002 Pixel <pixel@mandrakesoft.com> 0.1.2-38mdk
+- replace a de4x5 with tulip
+
 * Mon Jan 28 2002 Pixel <pixel@mandrakesoft.com> 0.1.2-37mdk
 - pcitable: merge with redhat's pcitable, XFree86, vendors.txt, modules.pcimap
 - usbtable: merge with modules.usbmap, usb.ids
