@@ -2,11 +2,318 @@
 # Yves Duret <yduret at mandrakesoft.com>
 # $Id$
 
-#- Espon
+# generated from Sane by scannerdrake
+
+# from abaton.desc
+NAME Abaton|Scan 300/GS
+SERVER abaton
+DRIVER SCSI
+LINE scsi ABATON
+COMMENT All known modes and functions supported
+
+NAME Abaton|Scan 300/S
+SERVER abaton
+DRIVER SCSI
+LINE scsi ABATON
+COMMENT Untested, use with caution
+
+# from agfafocus.desc
+NAME AGFA-Gevaert NV|Focus GS Scanner
+SERVER agfafocus
+DRIVER SCSI
+LINE scsi AGFA
+COMMENT 6 bit gray
+
+NAME AGFA-Gevaert NV|Focus Lineart Scanner
+SEE AGFA-Gevaert NV|Focus GS Scanner
+COMMENT Lineart only? Untested.
+
+NAME AGFA-Gevaert NV|Focus II
+SEE AGFA-Gevaert NV|Focus GS Scanner
+COMMENT gray only
+
+NAME AGFA-Gevaert NV|Focus Color
+SEE AGFA-Gevaert NV|Focus GS Scanner
+DRIVER SCSI
+
+NAME AGFA-Gevaert NV|Focus Color Plus
+SEE AGFA-Gevaert NV|Focus GS Scanner
+COMMENT 3-pass
+
+NAME Siemens Information and Communication Products|S9036
+SEE AGFA-Gevaert NV|Focus GS Scanner
+COMMENT gray only
+
+# from apple.desc
+NAME Apple|Apple Scanner
+SERVER apple
+DRIVER SCSI
+LINE scsi APPLE
+LINE /dev/scanner
+COMMENT 4bit, 16 shades of gray
+
+NAME Apple|OneScanner
+SERVER apple
+DRIVER SCSI
+LINE scsi APPLE
+LINE /dev/scanner
+COMMENT 8bit, 256 shades of gray. The backend needs work especially in the quantization code but it may work.
+
+NAME Apple|ColorOneScanner
+SERVER apple
+DRIVER SCSI
+LINE scsi APPLE
+LINE /dev/scanner
+COMMENT truecolor (needs much work) but it scans in non color modes.
+
+# from artec.desc
+NAME Artec/Ultima|AT3
+SERVER artec
+DRIVER SCSI
+LINE scsi ULTIMA
+LINE /dev/scanner
+COMMENT all modes working
+
+NAME Artec/Ultima|A6000C
+SERVER artec
+DRIVER SCSI
+LINE scsi ULTIMA
+LINE /dev/scanner
+COMMENT all modes working
+
+NAME Artec/Ultima|A6000C PLUS
+SERVER artec
+DRIVER SCSI
+LINE scsi ULTIMA
+LINE /dev/scanner
+COMMENT f/w <= v1.92 alpha, f/w >= v1.93 OK
+
+NAME Artec/Ultima|AT6
+SERVER artec
+DRIVER SCSI
+LINE scsi ULTIMA
+LINE /dev/scanner
+COMMENT Unknown - please try
+
+NAME Artec/Ultima|AT12
+SERVER artec
+DRIVER SCSI
+LINE scsi ULTIMA
+LINE /dev/scanner
+COMMENT all modes working
+
+NAME Artec/Ultima|AM12S
+SERVER artec
+DRIVER SCSI
+LINE scsi ULTIMA
+LINE /dev/scanner
+COMMENT all modes working
+
+NAME Artec/Ultima|parallel models
+SERVER artec
+DRIVER Parport
+COMMENT Unsupported, AS6E model is supported by SANE as6e backend.
+UNSUPPORTED
+
+NAME Artec/Ultima|USB models
+SERVER artec
+DRIVER USB
+COMMENT Unsupported.
+UNSUPPORTED
+
+NAME BlackWidow|BW4800SP
+SERVER artec
+DRIVER SCSI
+LINE scsi ULTIMA
+LINE /dev/scanner
+COMMENT rebadged Artec AT3
+
+NAME Plustek, Inc.|OpticPro 19200S
+SERVER artec
+DRIVER SCSI
+LINE scsi ULTIMA
+LINE /dev/scanner
+COMMENT rebadged Artec AM12S
+
+# from as6e.desc
+NAME Artec/Ultima|AS6E
+SERVER as6e
+DRIVER Parport
+COMMENT Requires the program 'as6edriver' to run.
+
+# from avision.desc
+NAME Avision|AV 6240
+SERVER avision
+DRIVER SCSI
+LINE scsi AVISION
+LINE /dev/scanner
+COMMENT 1 pass, ??? DPI
+
+NAME Avision|AV 630 CS
+SERVER avision
+DRIVER SCSI
+LINE scsi AVISION
+LINE /dev/scanner
+COMMENT 1 pass, 1200*600 DPI
+
+NAME Avision|AV 620 CS
+SERVER avision
+DRIVER SCSI
+LINE scsi AVISION
+LINE /dev/scanner
+COMMENT 1 pass, 1200*600 DPI
+
+# from bh.desc
+NAME Bell and Howell|COPISCAN II 6338
+LINE scsi "B&H SCSI"
+LINE /dev/scanner
+COMMENT Duplex Scanner with ACE - development model
+
+NAME Bell and Howell|COPISCAN II 2135 - not tested
+SEE Bell and Howell|COPISCAN II 6338
+COMMENT Simplex Scanner
+
+NAME Bell and Howell|COPISCAN II 2137(A) - limited testing
+SEE Bell and Howell|COPISCAN II 6338
+COMMENT Simplex Scanner (with ACE)
+
+NAME Bell and Howell|COPISCAN II 2138A - not tested
+SEE Bell and Howell|COPISCAN II 6338
+COMMENT Simplex Scanner with ACE
+
+NAME Bell and Howell|COPISCAN II 3238 - not tested
+SEE Bell and Howell|COPISCAN II 6338
+COMMENT Simplex Scanner
+
+NAME Bell and Howell|COPISCAN II 3338(A) - not tested
+SEE Bell and Howell|COPISCAN II 6338
+COMMENT Simplex Scanner (with ACE)
+
+# from canon.desc
+NAME Canon|CanoScan 300
+SERVER canon
+DRIVER SCSI
+
+NAME Canon|CanoScan 600
+SERVER canon
+DRIVER SCSI
+
+NAME Canon|CanoScan 2700F
+SERVER canon
+DRIVER SCSI
+
+# from coolscan.desc
+NAME Nikon Corp.|LS-20
+SERVER coolscan
+DRIVER SCSI
+LINE scsi Nikon * Scanner
+LINE /dev/scanner
+COMMENT The LS-20 has been replaced by the LS-30
+
+NAME Nikon Corp.|LS-30
+SEE Nikon Corp.|LS-20
+COMMENT alpha: only 24/30 bit RGB + 32/40 bit RGBI
+
+NAME Nikon Corp.|LS-2000
+SEE Nikon Corp.|LS-20
+COMMENT alpha: only 24/36 bit + RGB 32/48 bit RGBI
+
+NAME Nikon Corp.|LS-1000
+SEE Nikon Corp.|LS-20
+COMMENT Doesn t support gamma correction
+
+# from dc210.desc
+NAME Kodak Co.|DC210
+SERVER dc210
+DRIVER Serial port
+LINE port=$DEVICE
+LINE baud=115200
+LINE cmdrespause=125000
+LINE breakpause=1000000
+
+# from dc25.desc
+NAME Kodak Co.|DC25
+SERVER dc25
+DRIVER Serial port
+LINE port=$DEVICE
+LINE baud=115200
+
+NAME Kodak Co.|DC20
+SERVER dc25
+DRIVER Serial port
+LINE port=$DEVICE
+LINE baud=115200
+COMMENT DC-20 untested by author but reported to work
+
+# from dmc.desc
+NAME Polaroid|DMC
+SERVER dmc
+DRIVER SCSI
+UNSUPPORTED
+
+# from epson.desc
+NAME Seiko Epson Corp.|GT-5000
+SERVER epson
+DRIVER Parport
+
+NAME Seiko Epson Corp.|Actionscanner II
+SERVER epson
+DRIVER Parport
+COMMENT US version of GT-5000
+
+NAME Seiko Epson Corp.|GT-6000
+SERVER epson
+DRIVER Parport
+
+NAME Seiko Epson Corp.|ES-300C
+SERVER epson
+DRIVER Parport
+COMMENT US version of GT-6000
+
+NAME Seiko Epson Corp.|GT-5500
+SERVER epson
+DRIVER SCSI
+LINE scsi EPSON
+
+NAME Seiko Epson Corp.|GT-6500
+SERVER epson
+DRIVER Parport
+LINE pio 0x278
+LINE pio 0x378
+LINE pio 0x3BC
+
+NAME Seiko Epson Corp.|ES-600C
+SERVER epson
+DRIVER Parport
+COMMENT US version of GT-6500
+
+NAME Seiko Epson Corp.|ES-1200C
+SERVER epson
+DRIVER Parport
+COMMENT US version of GT-9000
+
+NAME Seiko Epson Corp.|GT-7000
+SERVER epson
+DRIVER SCSI
+LINE scsi EPSON
+
+NAME Seiko Epson Corp.|GT-8000
+SEE Seiko Epson Corp.|GT-7000
+
+NAME Seiko Epson Corp.|ES-8500
+SEE Seiko Epson Corp.|GT-7000
+
+NAME Seiko Epson Corp.|Perfection 636S
+SEE Seiko Epson Corp.|GT-7000
+COMMENT US version of GT-7000
+
 NAME Seiko Epson Corp.|Perfection 636
 SERVER epson
 DRIVER usb
 LINE usb $DEVICE
+
+NAME Seiko Epson Corp.|Perfection 636U
+SEE Seiko Epson Corp.|Perfection 636
 
 NAME Seiko Epson Corp.|Perfection 610
 SEE Seiko Epson Corp.|Perfection 636
@@ -29,128 +336,474 @@ SEE Seiko Epson Corp.|Perfection 636
 NAME Seiko Epson Corp.|Perfection 640U
 SEE Seiko Epson Corp.|Perfection 636
 
-#- HP
-NAME Hewlett-Packard|ScanJet 6300c
+NAME Seiko Epson Corp.|Perfection 640
+SEE Seiko Epson Corp.|Perfection 636
+
+NAME Seiko Epson Corp.|Perfection 1200S
+SEE Seiko Epson Corp.|GT-7000
+
+NAME Seiko Epson Corp.|Perfection 1200Photo
+SEE Seiko Epson Corp.|Perfection 636
+
+NAME Seiko Epson Corp.|Perfection 1240
+SERVER epson
+DRIVER SCSI USB
+
+NAME Seiko Epson Corp.|Perfection 1640
+SERVER epson
+DRIVER SCSI USB
+
+NAME Seiko Epson Corp.|Expression 636
+SEE Seiko Epson Corp.|GT-7000
+COMMENT US version of GT-9500
+
+NAME Seiko Epson Corp.|Expression 800
+SEE Seiko Epson Corp.|GT-7000
+
+NAME Seiko Epson Corp.|Expression 1680
+SERVER epson
+DRIVER SCSI USB IEEE-1394
+
+NAME Seiko Epson Corp.|FilmScan 200
+SEE Seiko Epson Corp.|GT-7000
+COMMENT A better backend for the FilmScan 200 can be found at <A HREF=\"http://www.vjet.demon.co.uk/scanner/\">http://www.vjet.demon.cu.uk/scanner/</A>
+
+# from hp.desc
+NAME Hewlett-Packard|ScanJet Plus
+SERVER hp
+DRIVER Propietary
+COMMENT Driver for HP parallel interface card required
+UNSUPPORTED
+
+NAME Hewlett-Packard|ScanJet IIc
+SERVER hp
+DRIVER SCSI
+LINE scsi HP
+LINE /dev/scanner
+
+NAME Hewlett-Packard|ScanJet IIp
+SEE Hewlett-Packard|ScanJet IIc
+
+NAME Hewlett-Packard|ScanJet IIcx
+SEE Hewlett-Packard|ScanJet IIc
+
+NAME Hewlett-Packard|ScanJet 3c
+SEE Hewlett-Packard|ScanJet IIc
+
+NAME Hewlett-Packard|ScanJet 3p
+SEE Hewlett-Packard|ScanJet IIc
+
+NAME Hewlett-Packard|ScanJet 4c
+SEE Hewlett-Packard|ScanJet IIc
+
+NAME Hewlett-Packard|ScanJet 4p
+SEE Hewlett-Packard|ScanJet IIc
+
+NAME Hewlett-Packard|ScanJet 5p
+SEE Hewlett-Packard|ScanJet IIc
+
+NAME Hewlett-Packard|ScanJet 5100C
+SERVER hp
+DRIVER Parport
+COMMENT Requires ppscsi driver and epst module
+
+NAME Hewlett-Packard|ScanJet 6100C
+SERVER hp
+DRIVER SCSI
+COMMENT Parallel interface requires ppscsi driver and epst module
+
+NAME Hewlett-Packard|ScanJet 3300C
 SERVER hp
 DRIVER usb
 LINE option connect-device
 LINE $DEVICE
 
-NAME Hewlett-Packard|ScanJet 4100c
-SEE Hewlett-Packard|ScanJet 6300c
+NAME Hewlett-Packard|ScanJet 4100C
+SEE Hewlett-Packard|ScanJet 3300C
 
-NAME Hewlett-Packard|ScanJet 4200c
-SEE Hewlett-Packard|ScanJet 6300c
+NAME Hewlett-Packard|ScanJet 4200C
+SEE Hewlett-Packard|ScanJet 3300C
 
-NAME Hewlett-Packard|ScanJet 6200c
-SEE Hewlett-Packard|ScanJet 6300c
+NAME Hewlett-Packard|ScanJet 5200C
+SEE Hewlett-Packard|ScanJet 3300C
 
-NAME Hewlett-Packard|ScanJet 3300c
-SEE Hewlett-Packard|ScanJet 6300c
+NAME Hewlett-Packard|ScanJet 6200C
+SEE Hewlett-Packard|ScanJet 3300C
 
-NAME Hewlett-Packard|ScanJet 5200c
-SEE Hewlett-Packard|ScanJet 6300c
+NAME Hewlett-Packard|ScanJet 6250C
+SEE Hewlett-Packard|ScanJet 3300C
+
+NAME Hewlett-Packard|ScanJet 6300C
+SEE Hewlett-Packard|ScanJet 3300C
+
+NAME Hewlett-Packard|ScanJet 6350C
+SEE Hewlett-Packard|ScanJet 3300C
+
+NAME Hewlett-Packard|ScanJet 6390C
+SEE Hewlett-Packard|ScanJet 3300C
+
+NAME Hewlett-Packard|PhotoSmart PhotoScanner
+SEE Hewlett-Packard|ScanJet IIc
 
 NAME Hewlett-Packard|PhotoSmart S20
 DRIVER usb
 UNSUPPORTED
 
-NAME Mustek Systems Inc.|BearPaw 1200
-DRIVER usb
+NAME Hewlett-Packard|OfficeJet Pro 1150C
+SERVER hp
+DRIVER Parport(ECP) JetDirect
 UNSUPPORTED
 
-NAME Mustek Systems Inc.|BearPaw 2400
-DRIVER usb
+NAME Hewlett-Packard|OfficeJet Pro 1170C/1175C
+SERVER hp
+DRIVER Parport(ECP) JetDirect
 UNSUPPORTED
 
-NAME KYE Systems Corp.(Mouse Systems)|ColorPage-Vivid Pro Scanner
-DRIVER usb
+NAME Hewlett-Packard|OfficeJet R series/PSC500
+SERVER hp
+DRIVER Parport(ECP) JetDirect
 UNSUPPORTED
 
-NAME Primax Electronics|G2-300 Scanner
-DRIVER usb
+NAME Hewlett-Packard|OfficeJet G series
+SERVER hp
+DRIVER Parport(ECP) USB JetDirect
 UNSUPPORTED
 
-NAME Primax Electronics|G2E-300 Scanner
-DRIVER usb
+NAME Hewlett-Packard|PSC 700 series
+SERVER hp
+DRIVER USB JetDirect
 UNSUPPORTED
 
-NAME Primax Electronics|G2-300 #2 Scanner
-DRIVER usb
+NAME Hewlett-Packard|OfficeJet K series
+SERVER hp
+DRIVER Parport(ECP) USB JetDirect
+COMMENT partial support -- requires extra steps to scan successfully
 UNSUPPORTED
 
-NAME Primax Electronics|G2E-300 #2 Scanner
-DRIVER usb
+NAME Hewlett-Packard|OfficeJet V series
+SERVER hp
+DRIVER USB JetDirect
+COMMENT partial support -- requires extra steps to scan successfully
 UNSUPPORTED
 
-NAME Primax Electronics|Colorado 9600 Scanner
-DRIVER usb
+# from hp4200.desc
+NAME Hewlett-Packard|ScanJet 4200C
+SERVER hp4200
+DRIVER USB
+COMMENT 8bpp, 150/300/600 dpi only, and scanned image needs postprocessing
+
+# from lhii.desc
+# from m3096g.desc
+NAME Fujitsu|M3096G
+SERVER m3096g
+DRIVER SCSI
+LINE scsi FUJITSU
+
+# from microtek.desc
+NAME Microtek|Scanmaker E6
+SERVER microtek
+DRIVER SCSI
+LINE scsi * * Scanner
+LINE /dev/scanner
+
+NAME Microtek|Scanmaker E3
+SEE Microtek|Scanmaker E6
+
+NAME Microtek|Scanmaker E2
+SEE Microtek|Scanmaker E6
+COMMENT 3-pass
+
+NAME Microtek|Scanmaker 35t+
+SEE Microtek|Scanmaker E6
+COMMENT slide-scanner
+
+NAME Microtek|Scanmaker 45t
+SEE Microtek|Scanmaker E6
+COMMENT slide-scanner
+
+NAME Microtek|Scanmaker 35
+SEE Microtek|Scanmaker E6
+COMMENT slide-scanner
+
+NAME Microtek|Scanmaker III
+SEE Microtek|Scanmaker E6
+
+NAME Microtek|Scanmaker IISP
+SEE Microtek|Scanmaker E6
+COMMENT 3-pass
+
+NAME Microtek|Scanmaker IIHR
+SEE Microtek|Scanmaker E6
+COMMENT 3-pass
+
+NAME Microtek|Scanmaker IIG
+SEE Microtek|Scanmaker E6
+COMMENT gray only
+
+NAME Microtek|Scanmaker II
+SEE Microtek|Scanmaker E6
+COMMENT 3-pass
+
+NAME Microtek|Scanmaker 600Z(S)
+SEE Microtek|Scanmaker E6
+COMMENT untested (color?)
+
+NAME Microtek|Scanmaker 600G(S)
+SEE Microtek|Scanmaker E6
+COMMENT gray only (see manpage)
+
+NAME Microtek|Color PageWiz
+SEE Microtek|Scanmaker E6
+COMMENT sheet-fed (preliminary, see mapage)
+
+NAME AGFA-Gevaert NV|Arcus II
+SEE Microtek|Scanmaker E6
+COMMENT Arcus *II*, not Arcus!
+
+NAME AGFA-Gevaert NV|StudioScan
+SEE Microtek|Scanmaker E6
+
+NAME AGFA-Gevaert NV|StudioScan II
+SEE Microtek|Scanmaker E6
+
+NAME AGFA-Gevaert NV|StudioScan IIsi
+SEE Microtek|Scanmaker E6
+
+NAME AGFA-Gevaert NV|DuoScan
+SEE Microtek|Scanmaker E6
+COMMENT preliminary
+
+# from microtek2.desc
+NAME Microtek|ScanMaker E3plus
+SERVER microtek2
+DRIVER Parport
+
+NAME Microtek|ScanMaker E3plus
+LINE option dump 1
+LINE scsi * * Scanner
+
+NAME Microtek|ScanMaker X6
+SEE Microtek|ScanMaker E3plus
+
+NAME Microtek|ScanMaker X6EL
+SEE Microtek|ScanMaker E3plus
+
+NAME Microtek|ScanMaker X6USB
+SERVER microtek2
+DRIVER USB
+
+NAME Microtek|ScanMaker V300
+SEE Microtek|ScanMaker E3plus
+
+NAME Microtek|ScanMaker V300
+SERVER microtek2
+DRIVER Parport
+
+NAME Microtek|ScanMaker V310
+SEE Microtek|ScanMaker E3plus
+
+NAME Microtek|ScanMaker V310
+SERVER microtek2
+DRIVER Parport
+
+NAME Microtek|ScanMaker V600
+SEE Microtek|ScanMaker E3plus
+
+NAME Microtek|ScanMaker V600
+SERVER microtek2
+DRIVER Parport
+
+NAME Microtek|ScanMaker 330
+SEE Microtek|ScanMaker E3plus
+
+NAME Microtek|ScanMaker 630
+SEE Microtek|ScanMaker E3plus
+
+NAME Microtek|ScanMaker 636
+SEE Microtek|ScanMaker E3plus
+
+NAME Microtek|ScanMaker 9600XL
+SEE Microtek|ScanMaker E3plus
+COMMENT only flatbed mode ?
+
+NAME Microtek|Phantom 330CX
+SERVER microtek2
+DRIVER Parport
+
+NAME Microtek|SlimScan C3
+SERVER microtek2
+DRIVER Parport
+
+NAME Microtek|Phantom 636
+SEE Microtek|ScanMaker E3plus
+
+NAME Microtek|Phantom 636CX
+SERVER microtek2
+DRIVER Parport
+
+NAME Microtek|ScanMaker V6USL
+SEE Microtek|ScanMaker E3plus
+
+NAME Vobis|HighScan
+COMMENT only E3plus based models
+SEE Microtek|ScanMaker E3plus
+
+# from mustek.desc
+NAME Mustek Systems Inc.|Paragon MFS-6000CX
+SERVER mustek
+DRIVER SCSI
+LINE scsi MUSTEK * Scanner
+LINE   option lineart-fix            # lineart may be faster with this option off.
+LINE scsi SCANNER
+LINE   option lineart-fix            # lineart may be faster with this option off.
+LINE /dev/scanner
+LINE   option lineart-fix            # lineart may be faster with this option off.
+COMMENT 3-pass
+
+NAME Mustek Systems Inc.|Paragon MFS-12000CX
+COMMENT 3-pass
+SEE Mustek Systems Inc.|Paragon MFS-6000CX
+
+NAME Mustek Systems Inc.|Paragon MFC-600S
+SEE Mustek Systems Inc.|Paragon MFS-6000CX
+
+NAME Mustek Systems Inc.|Paragon 600 II CD
+SEE Mustek Systems Inc.|Paragon MFS-6000CX
+
+NAME Mustek Systems Inc.|ScanMagic 600 II SP
+SEE Mustek Systems Inc.|Paragon MFS-6000CX
+
+NAME Mustek Systems Inc.|Paragon MFC-800S
+SEE Mustek Systems Inc.|Paragon MFS-6000CX
+
+NAME Mustek Systems Inc.|Paragon 800 II SP
+SEE Mustek Systems Inc.|Paragon MFS-6000CX
+
+NAME Mustek Systems Inc.|Paragon MFS-6000SP
+SEE Mustek Systems Inc.|Paragon MFS-6000CX
+
+NAME Mustek Systems Inc.|Paragon MFS-8000SP
+SEE Mustek Systems Inc.|Paragon MFS-6000CX
+
+NAME Mustek Systems Inc.|Paragon MFS-1200SP
+SEE Mustek Systems Inc.|Paragon MFS-6000CX
+
+NAME Mustek Systems Inc.|Paragon MFS-12000SP
+SEE Mustek Systems Inc.|Paragon MFS-6000CX
+
+NAME Mustek Systems Inc.|ScanExpress 6000SP
+SEE Mustek Systems Inc.|Paragon MFS-6000CX
+
+NAME Mustek Systems Inc.|ScanExpress 12000SP
+SEE Mustek Systems Inc.|Paragon MFS-6000CX
+
+NAME Mustek Systems Inc.|ScanExpress 12000SP Plus
+SEE Mustek Systems Inc.|Paragon MFS-6000CX
+
+NAME Mustek Systems Inc.|Paragon 1200 III SP
+SEE Mustek Systems Inc.|Paragon MFS-6000CX
+
+NAME Mustek Systems Inc.|Paragon 1200 LS
+SEE Mustek Systems Inc.|Paragon MFS-6000CX
+
+NAME Mustek Systems Inc.|ScanMagic 9636S
+SEE Mustek Systems Inc.|Paragon MFS-6000CX
+
+NAME Mustek Systems Inc.|ScanMagic 9636S Plus
+SEE Mustek Systems Inc.|Paragon MFS-6000CX
+
+NAME Mustek Systems Inc.|ScanExpress A3 SP
+COMMENT Please test!
+SEE Mustek Systems Inc.|Paragon MFS-6000CX
+
+NAME Mustek Systems Inc.|Paragon 1200 SP Pro
+SEE Mustek Systems Inc.|Paragon MFS-6000CX
+
+NAME Mustek Systems Inc.|Paragon 1200 A3 Pro
+COMMENT Please test!
+SEE Mustek Systems Inc.|Paragon MFS-6000CX
+
+NAME Mustek Systems Inc.|Paragon 600 II N
+SERVER mustek
+DRIVER Proprietary
 UNSUPPORTED
 
-NAME Primax Electronics|Colorado 600u Scanner
-DRIVER usb
+NAME Trust Technologies|Imagery 1200 SP
+SEE Mustek Systems Inc.|Paragon MFS-6000CX
+
+NAME Trust Technologies|Imagery 4800 SP
+SEE Mustek Systems Inc.|Paragon MFS-6000CX
+
+NAME Trust Technologies|SCSI Connect 19200
+SEE Mustek Systems Inc.|Paragon MFS-6000CX
+
+NAME Trust Technologies|SCSI excellence series 19200
+SEE Mustek Systems Inc.|Paragon MFS-6000CX
+
+# from mustek_pp.desc
+NAME Mustek Systems Inc.|ScanExpress 6000 P
+SERVER mustek_pp
+DRIVER Parport (EPP)
+COMMENT works
+
+NAME Mustek Systems Inc.|ScanMagic 4800 P
+SERVER mustek_pp
+DRIVER Parport (EPP)
+COMMENT works
+
+NAME Mustek Systems Inc.|ScanExpress 1200 ED Plus
+SERVER mustek_pp
+DRIVER Parport (EPP)
+COMMENT works partly
+
+NAME Mustek Systems Inc.|ScanMagic 1200 ED Plus
+SERVER mustek_pp
+DRIVER Parport (EPP)
+COMMENT works partly
+
+NAME Mustek Systems Inc.|ScanExpress 12000 P
+SERVER mustek_pp
+DRIVER Parport (EPP)
+COMMENT doesn t work yet
 UNSUPPORTED
 
-NAME Primax Electronics|Colorado 19200 Scanner
-DRIVER usb
+NAME Mustek Systems Inc.|600 III EP Plus
+SERVER mustek_pp
+DRIVER Parport (SPP,EPP)
+COMMENT works
+
+NAME Mustek Systems Inc.|ScanExpress 600 SEP
+SERVER mustek_pp
+DRIVER Parport (EPP)
+COMMENT works
+
+NAME Medion|MD9848
+SERVER mustek_pp
+DRIVER Parport (SPP)
+COMMENT aka. ``Aldi Scanner'' - works
+
+NAME Medion|MD985x
+SERVER mustek_pp
+DRIVER Parport (EPP)
+COMMENT aka. ``Aldi Scanner (new version)'' - CIS scanner doesn t work
+
+NAME Tevion|MD985x
+SERVER mustek_pp
+DRIVER Parport (EPP)
+COMMENT Tevion is Medion!
+
+NAME LifeTec|LT9891
+SERVER mustek_pp
+DRIVER Parport (EPP)
+COMMENT CIS scanner - doesn t work
 UNSUPPORTED
 
-NAME Primax Electronics|Colorado 1200u Scanner
-DRIVER usb
-UNSUPPORTED
+NAME Fidelity Imaging Solutions Inc.|Gallery 4800
+SERVER mustek_pp
+DRIVER Parport (EPP)
+COMMENT works
 
-NAME Primax Electronics|G2-600 Scanner
-DRIVER usb
-UNSUPPORTED
-
-NAME Primax Electronics|ReadyScan 636i Scanner
-DRIVER usb
-UNSUPPORTED
-
-NAME Primax Electronics|G2-600 #2 Scanner
-DRIVER usb
-UNSUPPORTED
-
-NAME Primax Electronics|G2E-600 Scanner
-DRIVER usb
-UNSUPPORTED
-
-NAME Acer Peripherals Inc.|Vuego Scan Brisa 340U
-DRIVER usb
-UNSUPPORTED
-
-NAME Acer Peripherals Inc.|Prisa AcerScan 620U
-DRIVER usb
-UNSUPPORTED
-
-NAME Acer Peripherals Inc.|Prisa AcerScan 620U & 640U
-DRIVER usb
-UNSUPPORTED
-
-NAME Visioneer|OneTouch 7600 USB
-DRIVER usb
-UNSUPPORTED
-
-NAME Visioneer|OneTouch 5300 Scanner
-DRIVER usb
-UNSUPPORTED
-
-NAME Visioneer|OneTouch 6100 Scanner
-DRIVER usb
-UNSUPPORTED
-
-NAME Visioneer|OneTouch 6200 EPP/USB
-DRIVER usb
-UNSUPPORTED
-
-NAME Visioneer|OneTouch 8100 EPP/USB
-DRIVER usb
-UNSUPPORTED
-
-NAME Visioneer|OneTouch 8100 EPP/USB
-DRIVER usb
-UNSUPPORTED
-
+# from mustek_usb.desc
 NAME Mustek Systems Inc.|ScanExpress 1200 CU
 SERVER mustek_usb
 DRIVER usb
@@ -170,36 +823,386 @@ NAME Mustek Systems Inc.|ScanExpress 1200 UB
 SERVER mustek_usb
 DRIVER usb
 LINE usb 0x055f 0x0006
+COMMENT Only 1200 UB is supported, NOT UB Plus!
 
 NAME Mustek Systems Inc.|ScanExpress 1200 CU Plus
 SERVER mustek_usb
 DRIVER usb
 LINE usb 0x055f 0x0008
 
-NAME Avision, Inc.|iVina 1200U Scanner
-DRIVER usb
+NAME Trust Technologies|Compact Scan USB 19200
+SERVER mustek_usb
+DRIVER USB
+LINE $DEVICE
+
+# from nec.desc
+NAME NEC Systems|PC-IN500/4C
+SERVER nec
+DRIVER SCSI
+LINE /dev/scanner
+COMMENT PC-IN500/4C was sold only in JAPAN
+
+NAME NEC Systems|PC-IN600,700,800 series
+SERVER nec
+DRIVER SCSI, USB
+LINE /dev/scanner
+COMMENT PC-IN600,700,800 series is not supprted
+
+# from net.desc
+# from pint.desc
+# from plustek.desc
+NAME Plustek, Inc.|OpticPro 4800P
+SERVER plustek
+DRIVER Parport (SPP, EPP)
+COMMENT OK
 UNSUPPORTED
 
-NAME AGFA-Gevaert NV|SnapScan 1212U
-DRIVER usb
+NAME Plustek, Inc.|OpticPro 4830P
+SERVER plustek
+DRIVER Parport (SPP, EPP)
+COMMENT OK
 UNSUPPORTED
 
-NAME AGFA-Gevaert NV|SnapScan 1236U
-DRIVER usb
+NAME Plustek, Inc.|OpticPro 600P/6000P
+SERVER plustek
+DRIVER Parport (SPP, EPP)
+COMMENT OK
 UNSUPPORTED
 
-NAME AGFA-Gevaert NV|SnapScan Touch
-DRIVER usb
+NAME Plustek, Inc.|OpticPro 4831P
+SERVER plustek
+DRIVER Parport (SPP, EPP)
+COMMENT OK
 UNSUPPORTED
 
-NAME AGFA-Gevaert NV|SnapScan 1212U (???)
-DRIVER usb
+NAME Plustek, Inc.|OpticPro 9630P
+SERVER plustek
+DRIVER Parport (SPP, EPP)
+COMMENT OK
 UNSUPPORTED
 
-NAME Mustek Systems Inc.|BearPaw 1200F
-DRIVER usb
+NAME Plustek, Inc.|OpticPro 9630PL
+SERVER plustek
+DRIVER Parport (SPP, EPP)
+COMMENT OK - use driver-switch mov=1
 UNSUPPORTED
 
+NAME Plustek, Inc.|OpticPro 9600P
+SERVER plustek
+DRIVER Parport (SPP, EPP)
+COMMENT OK
+UNSUPPORTED
+
+NAME Plustek, Inc.|OpticPro 1236P
+SERVER plustek
+DRIVER Parport (SPP, EPP)
+COMMENT OK - reported as OpticPro 12000P/96000P
+UNSUPPORTED
+
+NAME Plustek, Inc.|OpticPro 12000P/96000P
+SERVER plustek
+DRIVER Parport (SPP, EPP)
+COMMENT OK
+UNSUPPORTED
+
+NAME Plustek, Inc.|OpticPro 9636P
+SERVER plustek
+DRIVER Parport (SPP, EPP)
+COMMENT OK - use driver-switch mov=4
+UNSUPPORTED
+
+NAME Plustek, Inc.|OpticPro 9636P+/Turbo
+SERVER plustek
+DRIVER Parport (SPP, EPP)
+COMMENT OK - use driver-switch mov=3
+UNSUPPORTED
+
+NAME Plustek, Inc.|OpticPro 9636T
+SERVER plustek
+DRIVER Parport (SPP, EPP)
+COMMENT OK
+UNSUPPORTED
+
+NAME Plustek, Inc.|OpticPro 12000T
+SERVER plustek
+DRIVER Parport (SPP, EPP)
+COMMENT OK
+UNSUPPORTED
+
+NAME Plustek, Inc.|OpticPro AI3
+SERVER plustek
+DRIVER Parport (SPP, EPP)
+COMMENT OK - use driver-switch mov=5
+UNSUPPORTED
+
+NAME Plustek, Inc.|OpticPro P8
+SERVER plustek
+DRIVER Parport
+COMMENT Not tested.
+UNSUPPORTED
+
+NAME Plustek, Inc.|OpticPro P12
+SERVER plustek
+DRIVER Parport (SPP, EPP)
+COMMENT OK
+UNSUPPORTED
+
+NAME Plustek, Inc.|OpticPro PT12
+SERVER plustek
+DRIVER Parport (SPP, EPP)
+COMMENT OK.
+
+NAME Plustek, Inc.|OpticPro 19200S
+SERVER plustek
+DRIVER SCSI
+COMMENT rebadged Artec AM12S (supported by Artec Backend)
+UNSUPPORTED
+
+NAME Plustek, Inc.|OpticPro 1212U/U12/UT12
+SERVER plustek
+DRIVER USB
+COMMENT Not supported.
+UNSUPPORTED
+
+NAME Primax Electronics|Colorado 4800
+SERVER plustek
+DRIVER Parport (SPP, EPP)
+COMMENT Not tested, (same as OP4800P)
+UNSUPPORTED
+
+NAME Primax Electronics|Compact 4800 Direct
+SERVER plustek
+DRIVER Parport (SPP, EPP)
+COMMENT OK - use driver-switch mov=2
+UNSUPPORTED
+
+NAME Primax Electronics|Compact 4800 Direct-30
+SERVER plustek
+DRIVER Parport (SPP, EPP)
+COMMENT Not tested, (same as OP4830P)
+UNSUPPORTED
+
+NAME Primax Electronics|Compact 9600 Direct-30
+SERVER plustek
+DRIVER Parport (SPP, EPP)
+COMMENT OK - (same as OP9630P)
+UNSUPPORTED
+
+NAME Aries|Scan-It Pro 4800
+SERVER plustek
+DRIVER Parport (SPP, EPP)
+COMMENT OK - use driver-switch mov=2
+UNSUPPORTED
+
+# from pnm.desc
+# from qcam.desc
+NAME Connectix|Color QuickCam
+SERVER qcam
+DRIVER Parport
+COMMENT Require root privileges.
+
+NAME Connectix|Greyscale QuickCam
+SERVER qcam
+DRIVER Parport
+COMMENT Require root privileges.  Partly working.
+
+# from ricoh.desc
+NAME Ricoh|Ricoh IS50
+SERVER ricoh
+DRIVER SCSI
+LINE scsi RICOH IS50
+LINE /dev/scanner
+COMMENT ?
+
+NAME Ricoh|Ricoh IS60
+SERVER ricoh
+DRIVER SCSI
+LINE scsi RICOH IS60
+LINE /dev/scanner
+COMMENT ?
+
+# from s9036.desc
+NAME Siemens Information and Communication Products|9036 Flatbed scanner
+SERVER s9036
+DRIVER SCSI
+LINE /dev/scanner
+
+# from sharp.desc
+NAME SHARP|JX-610
+SERVER sharp
+DRIVER SCSI
+LINE option buffers 4
+LINE option buffersize 131072
+LINE option readqueue 2
+LINE scsi SHARP * Scanner
+
+NAME SHARP|JX-250
+SEE SHARP|JX-610
+SERVER sharp
+DRIVER 
+
+NAME SHARP|JX-320
+SEE SHARP|JX-610
+
+NAME SHARP|JX-330
+SEE SHARP|JX-610
+
+NAME SHARP|JX-350
+SEE SHARP|JX-610
+
+# from snapscan.desc
+NAME AGFA-Gevaert NV|SnapScan 300
+SERVER SnapScan
+DRIVER SCSI
+COMMENT Only 8 bits/sample at present.
+
+NAME AGFA-Gevaert NV|SnapScan 310
+SERVER SnapScan
+DRIVER SCSI
+COMMENT Ditto
+
+NAME AGFA-Gevaert NV|SnapScan 600
+SERVER SnapScan
+DRIVER SCSI
+COMMENT Ditto
+
+NAME AGFA-Gevaert NV|SnapScan 1236s
+SERVER SnapScan
+DRIVER SCSI
+COMMENT Ditto. Have no specific programming info yet.
+
+NAME AGFA-Gevaert NV|SnapScan 1212u
+SERVER SnapScan
+DRIVER USB
+COMMENT Ditto. Have no specific programming info yet.
+
+NAME AGFA-Gevaert NV|SnapScan e40
+SERVER SnapScan
+DRIVER USB
+COMMENT Have no specific programming info yet.
+
+NAME AGFA-Gevaert NV|SnapScan e50
+SERVER SnapScan
+DRIVER USB
+COMMENT Have no specific programming info yet.
+
+NAME Vuego|310s
+SERVER SnapScan
+DRIVER SCSI
+COMMENT Close SnapScan 310 compatible.
+
+NAME Acer Peripherals Inc.|300f
+SERVER SnapScan
+DRIVER SCSI
+
+NAME Acer Peripherals Inc.|310s
+SERVER SnapScan
+DRIVER SCSI
+COMMENT Same thing as the Vuego 310s.
+
+NAME Acer Peripherals Inc.|610s
+SERVER SnapScan
+DRIVER SCSI
+
+NAME Acer Peripherals Inc.|610plus
+SERVER SnapScan
+DRIVER SCSI
+COMMENT Seems to be a close SnapScan 310/600 compatible.
+
+NAME Acer Peripherals Inc.|Prisa 620s
+SERVER SnapScan
+DRIVER SCSI
+COMMENT Seems to be a close SnapScan 310/600 compatible.
+
+NAME Acer Peripherals Inc.|Prisa 620u
+SERVER SnapScan
+DRIVER USB
+COMMENT Seems to be a close SnapScan 310/600 compatible.
+
+NAME Acer Peripherals Inc.|Prisa 640u
+SERVER SnapScan
+DRIVER USB
+COMMENT Seems to be a close SnapScan 310/600 compatible.
+
+NAME Acer Peripherals Inc.|Prisa 640bu
+SERVER SnapScan
+DRIVER USB
+COMMENT Seems to be a close SnapScan 310/600 compatible.
+
+NAME Guillemot International|Maxi Scan A4 Deluxe (SCSI)
+SERVER SnapScan
+DRIVER SCSI
+COMMENT May be a repackaged Vuego 310s or SnapScan 310s.
+
+# from sp15c.desc
+NAME Fujitsu|SP15C
+SERVER sp15c
+DRIVER SCSI
+LINE scsi FCPA
+
+# from st400.desc
+NAME Siemens Information and Communication Products|ST400
+SERVER st400
+DRIVER SCSI
+LINE scsi SIEMENS "ST 400" Scanner * * 3 *
+
+NAME Siemens Information and Communication Products|ST800
+SERVER st400
+DRIVER SCSI
+LINE scsi SIEMENS "ST 800" Scanner * * 3 *
+COMMENT 6 bit gray
+
+# from tamarack.desc
+NAME Tamarack|Artiscan 6000C
+SERVER tamarack
+DRIVER SCSI
+LINE scsi TAMARACK
+LINE /dev/scanner
+COMMENT 3 pass, 300 DPI
+
+NAME Tamarack|Artiscan 8000C
+SEE Tamarack|Artiscan 6000C
+COMMENT 3 pass, 400 DPI
+
+NAME Tamarack|Artiscan 12000C
+SEE Tamarack|Artiscan 6000C
+COMMENT 3 pass, 600 DPI
+
+# from template.desc.
+NAME TemPlate|Templ Z
+SERVER template
+DRIVER SCSI
+UNSUPPORTED
+
+NAME TemPlate|Templ ZS
+SERVER template
+DRIVER USB
+UNSUPPORTED
+
+NAME TemPlate|Templ ZQ
+SERVER template
+DRIVER USB
+UNSUPPORTED
+
+NAME ArmorPlate|AmplScan II
+SERVER template
+DRIVER SCSI
+COMMENT AmplScan *II*, not AmplScan!
+UNSUPPORTED
+
+# from umax.desc
+NAME Umax|parallel scanners
+SERVER umax
+DRIVER Parport
+COMMENT Not supported - see backend umax_pp
+UNSUPPORTED
+
+NAME Umax|USB scanners
+SERVER umax
+DRIVER Firewire
+COMMENT not tested
+UNSUPPORTED
+ #for hardware detection
 NAME Umax|Astra 1220U
 DRIVER usb
 UNSUPPORTED
@@ -207,5 +1210,411 @@ UNSUPPORTED
 NAME Umax|Astra 2000U
 DRIVER usb
 UNSUPPORTED
+
+NAME Umax|Vista S6
+SERVER umax
+DRIVER SCSI
+LINE scsi UMAX * Scanner
+COMMENT OK
+
+NAME Umax|Vista S6E
+SEE Umax|Vista S6
+
+NAME Umax|UMAX S-6E
+SEE Umax|Vista S6
+
+NAME Umax|UMAX S-6EG
+SEE Umax|Vista S6
+
+NAME Umax|Vista-S8
+SEE Umax|Vista S6
+
+NAME Umax|Supervista S-12
+SEE Umax|Vista S6
+
+NAME Umax|UMAX S-12
+SEE Umax|Vista S6
+
+NAME Umax|UMAX S-12G
+SEE Umax|Vista S6
+
+NAME Umax|Astra 600S
+SEE Umax|Vista S6
+
+NAME Umax|Astra 610S
+SEE Umax|Vista S6
+
+NAME Umax|Astra 1200S
+SEE Umax|Vista S6
+
+NAME Umax|Astra 1220S
+SEE Umax|Vista S6
+
+NAME Umax|Astra 2100S
+SEE Umax|Vista S6
+
+NAME Umax|Astra 2200 (SU)
+SEE Umax|Vista S6
+
+NAME Umax|Astra 2400S
+SEE Umax|Vista S6
+
+NAME Umax|Mirage D-16L
+SEE Umax|Vista S6
+
+NAME Umax|Mirage II
+SEE Umax|Vista S6
+
+NAME Umax|Mirage IIse
+SEE Umax|Vista S6
+COMMENT Not tested
+
+NAME Umax|PSD
+SEE Umax|Vista S6
+
+NAME Umax|PowerLook
+SEE Umax|Vista S6
+COMMENT Not tested
+
+NAME Umax|PL-II
+SEE Umax|Vista S6
+COMMENT Not tested
+
+NAME Umax|PowerLook III
+SEE Umax|Vista S6
+
+NAME Umax|PowerLook 2000
+SEE Umax|Vista S6
+COMMENT Not tested
+
+NAME Umax|PowerLook 3000
+SEE Umax|Vista S6
+
+NAME Umax|Gemini D-16
+SEE Umax|Vista S6
+
+NAME Umax|UMAX VT600
+SEE Umax|Vista S6
+COMMENT not tested
+
+NAME Umax|Vista-T630
+SEE Umax|Vista S6
+COMMENT OK for some firmwareversions, on others only lineart OK
+
+NAME Umax|UC 630
+SEE Umax|Vista S6
+COMMENT Version 1.6(?) or 2.8(?) OK, others only lineart OK
+
+NAME Umax|UG 630
+SEE Umax|Vista S6
+
+NAME Umax|UG 80
+SEE Umax|Vista S6
+
+NAME Umax|UC 840
+SEE Umax|Vista S6
+COMMENT Version 1.6 OK, others only lineart OK
+
+NAME Umax|UC 1200S
+SEE Umax|Vista S6
+COMMENT unknown - please try
+
+NAME Umax|UC 1200SE
+SEE Umax|Vista S6
+COMMENT unknown - please try
+
+NAME Umax|UC 1260
+SEE Umax|Vista S6
+COMMENT Version 1.6 OK, others unknown
+
+NAME Linotype Hell|Jade
+SERVER umax
+DRIVER SCSI
+LINE scsi LinoHell JADE
+LINE scsi LinoHell Office
+LINE scsi LinoHell Office2
+LINE scsi LinoHell SAPHIR2
+COMMENT OK, SCSI-ID=LinoHell Office
+
+NAME Linotype Hell|Jade2
+SEE Linotype Hell|Jade
+COMMENT OK, SCSI-ID=LinoHell Office2
+
+NAME Linotype Hell|Saphir
+SEE Linotype Hell|Jade
+COMMENT Not tested
+
+NAME Linotype Hell|Saphir2
+SEE Linotype Hell|Jade
+COMMENT OK, SCSI-ID=LinoHell SAPHIR2
+
+NAME Linotype Hell|Saphir Ultra
+SEE Linotype Hell|Jade
+COMMENT Not tested
+
+NAME Linotype Hell|Saphir Ultra II
+SEE Linotype Hell|Jade
+COMMENT Not tested
+
+NAME Linotype Hell|Saphir HiRes
+SEE Linotype Hell|Jade
+COMMENT Not tested
+
+NAME Linotype Hell|Opal
+SEE Linotype Hell|Jade
+COMMENT Not tested
+
+NAME Linotype Hell|Opal Ultra
+SEE Linotype Hell|Jade
+COMMENT Not tested
+
+NAME Linotype Hell|Linoscan 1400
+SERVER umax
+DRIVER SCSI
+LINE scsi HDM LS4H1S
+COMMENT OK, SCSI-ID=HDM LS4H1S
+
+NAME Vobis|Scanboostar Premium
+SERVER umax
+DRIVER SCSI
+LINE SCSI LinoHell Office2
+COMMENT OK, SCSI-ID=LinoHell Office2
+
+NAME Seiko Epson Corp.|Perfection 600
+SERVER umax
+DRIVER SCSI
+LINE scsi EPSON Perfection600
+COMMENT OK, SCSI-ID=EPSON Perfection600
+
+NAME Escom|Image Scanner 256
+SERVER umax
+DRIVER SCSI
+LINE scsi UMAX UG 80
+COMMENT OK, SCSI-ID=UMAX UG 80
+
+NAME Escort|Galleria 600
+SERVER umax
+DRIVER SCSI
+LINE scsi ESCORT "Galleria 600S"
+COMMENT untested, SCSI-ID=ESCORT Galleria 600S
+
+NAME Genius|ColorPage-HR5 (Pro)
+SERVER umax
+DRIVER SCSI
+LINE scsi KYE ColorPage-HR5
+COMMENT OK, SCSI-ID=KYE ColorPage-HR5
+
+NAME Nikon Corp.|AX-210
+SERVER umax
+DRIVER SCSI
+LINE scsi Nikon AX-210
+COMMENT OK SCSI-ID=Nikon AX-210
+
+# from v4l.desc
+# from v4l2.desc
+# from pie.desc
+NAME Devcom|parallel scanners
+SERVER pie
+DRIVER Parport
+COMMENT Not supported!
+UNSUPPORTED
+
+NAME Devcom|USB scanners
+SERVER pie
+DRIVER USB
+COMMENT Not supported!
+UNSUPPORTED
+
+NAME Devcom|9636PRO
+SERVER pie
+DRIVER SCSI
+LINE scsi DEVCOM * Scanner
+COMMENT OK
+
+NAME Devcom|9636S
+SEE Devcom|9636PRO
+COMMENT Untested
+
+NAME Devcom|9630S
+SEE Devcom|9636PRO
+COMMENT Untested
+
+NAME PIE|parallel scanners
+SERVER pie
+DRIVER Parport
+COMMENT Not supported!
+UNSUPPORTED
+
+NAME PIE|USB scanners
+SERVER pie
+DRIVER USB
+COMMENT Not supported!
+UNSUPPORTED
+
+NAME PIE|ScanAce 1236S
+SERVER pie
+DRIVER SCSI
+LINE scsi PIE * Scanner
+COMMENT Untested
+
+NAME PIE|ScanAce 1230S
+SEE PIE|ScanAce 1236S
+COMMENT Untested
+
+NAME PIE|ScanAce II
+SEE PIE|ScanAce 1236S
+COMMENT Untested
+
+NAME PIE|ScanAce III
+SEE PIE|ScanAce 1236S
+COMMENT Untested
+
+NAME PIE|ScanAce Plus
+SEE PIE|ScanAce 1236S
+COMMENT Untested
+
+NAME PIE|ScanAce II Plus
+SEE PIE|ScanAce 1236S
+COMMENT Untested
+
+NAME PIE|ScanAce III Plus
+SEE PIE|ScanAce 1236S
+COMMENT Untested
+
+NAME PIE|ScanAce V
+SEE PIE|ScanAce 1236S
+COMMENT Untested
+
+NAME PIE|ScanAce ScanMedia
+SEE PIE|ScanAce 1236S
+COMMENT Untested
+
+NAME PIE|ScanAce ScanMedia II
+SEE PIE|ScanAce 1236S
+COMMENT Untested
+
+NAME PIE|ScanAce 630S
+SEE PIE|ScanAce 1236S
+COMMENT Untested
+
+NAME PIE|ScanAce 636S
+SEE PIE|ScanAce 1236S
+COMMENT Untested
+
+# from dc240.desc
+NAME Kodak Co.|DC240
+SERVER dc240
+DRIVER Serial port
+
+# from m3091.desc
+NAME Fujitsu|M3091DCd
+SERVER m3091
+DRIVER SCSI
+
+# from umax_pp.desc
+NAME Umax|Astra 1220P
+SERVER umax_pp
+DRIVER Parport (EPP)
+COMMENT works
+LINE # size (in bytes) of scan buffer (default: 2 megabyte)
+LINE option buffer 2097152
+LINE # specify the port your scanner is connected to. Possible are 0x378 (lp1) 0x278 (lp2) and 0x3c8 (lp0)
+LINE port $DEVICE
+LINE # the following options are local to this scanner
+LINE # gain for red channel, if not given, will be automatically computed
+LINE # must be between 0 and 15
+LINE option red-gain 8
+LINE # gain for red channel, if not given, will be automatically computed
+LINE # must be between 0 and 15
+LINE option green-gain 4
+LINE # gain for red channel, if not given, will be automatically computed
+LINE # must be between 0 and 15
+LINE option blue-gain 8
+LINE # highlight for red channel, if not given, will default to 0
+LINE # must be between 0 and 15
+LINE option red-highlight 2
+LINE # highlight for red channel, if not given, will default to 0
+LINE # must be between 0 and 15
+LINE option green-highlight 1
+LINE # highlight for red channel, if not given, will default to 0
+LINE # must be between 0 and 15
+LINE option blue-highlight 1
+LINE # model number: valid values are 610, 1220, 1600 and 2000
+LINE option astra 1220
+
+NAME Umax|Astra 2000P
+SERVER umax_pp
+DRIVER Parport (EPP)
+COMMENT works
+LINE # size (in bytes) of scan buffer (default: 2 megabyte)
+LINE option buffer 2097152
+LINE # specify the port your scanner is connected to. Possible are 0x378 (lp1) 0x278 (lp2) and 0x3c8 (lp0)
+LINE port $DEVICE
+LINE # the following options are local to this scanner
+LINE # gain for red channel, if not given, will be automatically computed
+LINE # must be between 0 and 15
+LINE option red-gain 8
+LINE # gain for red channel, if not given, will be automatically computed
+LINE # must be between 0 and 15
+LINE option green-gain 4
+LINE # gain for red channel, if not given, will be automatically computed
+LINE # must be between 0 and 15
+LINE option blue-gain 8
+LINE # highlight for red channel, if not given, will default to 0
+LINE # must be between 0 and 15
+LINE option red-highlight 2
+LINE # highlight for red channel, if not given, will default to 0
+LINE # must be between 0 and 15
+LINE option green-highlight 1
+LINE # highlight for red channel, if not given, will default to 0
+LINE # must be between 0 and 15
+LINE option blue-highlight 1
+LINE # model number: valid values are 610, 1220, 1600 and 2000
+LINE option astra 2000
+
+NAME Umax|Astra 1600P
+SERVER umax_pp
+DRIVER Parport (EPP)
+COMMENT works
+LINE # size (in bytes) of scan buffer (default: 2 megabyte)
+LINE option buffer 2097152
+LINE # specify the port your scanner is connected to. Possible are 0x378 (lp1) 0x278 (lp2) and 0x3c8 (lp0)
+LINE port $DEVICE
+LINE # the following options are local to this scanner
+LINE # gain for red channel, if not given, will be automatically computed
+LINE # must be between 0 and 15
+LINE option red-gain 8
+LINE # gain for red channel, if not given, will be automatically computed
+LINE # must be between 0 and 15
+LINE option green-gain 4
+LINE # gain for red channel, if not given, will be automatically computed
+LINE # must be between 0 and 15
+LINE option blue-gain 8
+LINE # highlight for red channel, if not given, will default to 0
+LINE # must be between 0 and 15
+LINE option red-highlight 2
+LINE # highlight for red channel, if not given, will default to 0
+LINE # must be between 0 and 15
+LINE option green-highlight 1
+LINE # highlight for red channel, if not given, will default to 0
+LINE # must be between 0 and 15
+LINE option blue-highlight 1
+LINE # model number: valid values are 610, 1220, 1600 and 2000
+LINE option astra 1600
+
+NAME Umax|ASTRA 610 P
+SERVER umax_pp
+DRIVER Parport (EPP)
+COMMENT don t work (yet)
+UNSUPPORTED
+
+NAME Hewlett-Packard|ScanJet 3200C
+SEE Umax|Astra 2000P
+COMMENT works (relabelled 1220P and 2000P)
+
+# from sm3600.desc
+NAME Microtek|ScanMaker 3600
+SERVER sm3600
+DRIVER USB
 
 END
