@@ -2005,7 +2005,7 @@ SEE AT3D
 
 # NeoMagic
 
-NAME NeoMagic (laptop/notebook)
+NAME NeoMagic MagicGraph (laptop/notebook)
 DRIVER neomagic
 LINE #    Chipset    "NM2160"
 LINE #    IOBase     0xfea00000
@@ -2025,7 +2025,7 @@ LINE #    Option     "lcd_center"
 LINE #    Option     "no_stretch"
 
 NAME NeoMagic 128XD
-SEE NeoMagic (laptop/notebook)
+SEE NeoMagic MagicGraph (laptop/notebook)
 LINE     Option "XaaNoScanlineImageWriteRect"
 LINE     Option "XaaNoScanlineCPUToScreenColorExpandFill"
 
