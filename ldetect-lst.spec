@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.8
-%define release 12mdk
+%define release 13mdk
 
 Name: %{name}
 Version: %{version}
@@ -64,6 +64,8 @@ fi
 %{_bindir}/*
 
 %changelog
+* Fri Dec 12 2003 Pixel <pixel@mandrakesoft.com> 0.1.8-13mdk
+- use fbdev for some radeon's
 - added new usbid for compatible adiusbadsl modem. (fpons)
 
 * Fri Oct 17 2003 Nicolas Planel <nplanel@mandrakesoft.com> 0.1.8-12mdk
