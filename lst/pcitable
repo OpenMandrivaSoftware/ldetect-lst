@@ -1602,7 +1602,7 @@
 0x11c1	0x0459	"Bad:www.linmodems.org"	"Lucent Microelectronics|LT WinModem"
 0x11c1	0x045a	"Bad:www.linmodems.org"	"Lucent Microelectronics|LT WinModem"
 0x11c1	0x0480	"Bad:www.linmodems.org"	"Lucent Microelectronics|Venus WinModem (V90, 56KFlex)"
-0x11c1	0x5801	"unknown"	"AT&T Microelectronics (Lucent)|USB Open Host Controller"
+0x11c1	0x5801	"usb-ohci"	"AT&T Microelectronics (Lucent)|USB Open Host Controller"
 0x11c8	0x0658	"unknown"	"Dolphin|PSB32 SCI-Adapter D31x"
 0x11c8	0xd665	"unknown"	"Dolphin|PSB64 SCI-Adapter D32x"
 0x11c8	0xd667	"unknown"	"Dolphin|PSB66 SCI-Adapter D33x"
