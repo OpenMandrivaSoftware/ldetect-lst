@@ -1,3 +1,19 @@
+2003-09-12 10:37  Frederic Lepied <flepied@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.8-5mdk
+
+2003-09-12 10:35  Frederic Lepied <flepied@mandrakesoft.com>
+
+	* lst/usbtable: added Omnikey Carman ids
+
+2003-09-11 15:41  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: alsa oops on sis chipset, oss works better
+
+2003-09-10 20:33  Pablo Saratxaga <pablo@mandrakesoft.com>
+
+	* lst/pcitable: Added labels for AMDK82[01]1 Wireless cards
+
 2003-09-10 19:10  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* ldetect-lst.spec: update
