@@ -1,6 +1,6 @@
 %define name ldetect-lst
-%define version 0.1.16
-%define release 6mdk
+%define version 0.1.17
+%define release 1mdk
 
 Name: %{name}
 Version: %{version}
@@ -64,6 +64,12 @@ fi
 %{_bindir}/*
 
 %changelog
+* Fri Sep 24 2004 Frederic Lepied <flepied@mandrakesoft.com> 0.1.17-1mdk
+- lst/usbtable: merged kernel 2.6.8.1.10mdk entries to be able to
+ list them during install.
+- lst/pcitable: o update ATI pciids (Nicolas)
+                o add new NVidia 6800 (Nicolas)
+
 * Tue Sep 14 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.16-6mdk
 - fix some CAPI entries (blino)
 
