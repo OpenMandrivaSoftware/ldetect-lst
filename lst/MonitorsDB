@@ -58,6 +58,7 @@ Acer; Acer 7156s; api5338; 31.0-70.0; 55.0-90.0; 1
 Acer; Acer 7176ie; api454c; 31.0-70.0; 55.0-90.0; 1
 Acer; Acer 7176is; api534c; 31.0-70.0; 55.0-90.0; 1
 Acer; Acer 7178ie; api454e; 31.0-90.0; 55.0-90.0; 1
+Acer; Acer 1768i; api424c; 30.0-69.0; 50.0-110.0; 1
 Acer; Acer 76c; API9706; 30.0-72.0; 50.0-120.0
 Acer; Acer 76e; API9702; 30.0-72.0; 50.0-110.0
 Acer; Acer 76i; API494C; 30.0-64.0; 50.0-110.0
@@ -890,12 +891,18 @@ Dell; Dell 1701FP (Analog); del3002; 31.0-80.0; 56.0-76.0; 1
 Dell; Dell 1701FP (Digital); del3001; 31.0-80.0; 56.0-76.0; 1
 Dell; Dell 1702FP (Analog); DEL3007; 30.0-80.0; 56.0-76.0; 1
 Dell; Dell 1702FP (Digital); DEL3006; 30.0-80.0; 56.0-76.0; 1
+Dell; Dell 1703FP (Analog); DEL3010; 30.0-80.0; 56.0-76.0; 1
+Dell; Dell 1703FP (Digital); DEL3011; 30.0-80.0; 56.0-76.0; 1
 Dell; Dell 1726T-HS/D1025HT; del5319; 31.0-85.0; 50.0-100.0; 1
 Dell; Dell 1800FP (Analog); DELE000; 30.0-80.0; 56.0-85.0; 1
 Dell; Dell 1800FP (Digital); DELE001; 30.0-70.0; 56.0-85.0; 1
 Dell; Dell 1900FP (Analog); DEL300B; 30.0-80.0; 56.0-76.0; 1
 Dell; Dell 1900FP (Digital); DEL3009; 30.0-80.0; 56.0-76.0; 1
+Dell; Dell 1901FP (Analog); DEL4000; 30.0-80.0; 56.0-76.0; 1
+Dell; Dell 1901FP (Digital); DEL4001; 30.0-80.0; 56.0-76.0; 1
 Dell; Dell 2000FP (Analog); DELA002; 31.5-80.0; 56.0-76.0; 1
+Dell; Dell 2001FP (Analog); DELA007; 31.0-80.0; 56.0-76.0; 1
+Dell; Dell 2001FP (Digital); DELA008; 31.0-80.0; 56.0-76.0; 1
 Dell; Dell 2000FP (Digital); DELA003; 31.5-80.0; 56.0-76.0; 1
 Dell; Dell 800M; del5697; 30.0-70.0; 50.0-120.0; 1
 Dell; Dell 800M; del5697; 30.0-70.0; 50.0-130.0; 1
@@ -916,8 +923,10 @@ Dell; Dell D828L; del32fe; 31.0-54.0; 50.0-120.0; 1
 Dell; Dell E151FP; DELA004; 31.0-60.0; 56.0-75.0; 1
 Dell; Dell E151FPb; DELA005; 30.0-61.0; 56.0-76.0; 1
 Dell; Dell E151FPp; DEL7006; 30.0-61.0; 56.0-76.0; 1
+Dell; Dell E152FP; DELA009; 30.0-63.0; 56.0-76.0; 1
 Dell; Dell E171FP; DEL300F; 30.0-80.0; 56.0-76.0; 1
 Dell; Dell E171FPb; DELA006; 31.0-80.0; 56.0-76.0
+Dell; Dell E172FP; DELA00A; 31.0-80.0; 56.0-76.0; 1
 Dell; Dell E550; dela2f1; 30.0-54.0; 50.0-120.0; 1
 Dell; Dell E550mm; dela355; 30.0-54.0; 50.0-120.0; 1
 Dell; Dell E551a; dela000; 30.0-54.0; 50.0-120.0; 1
@@ -929,6 +938,8 @@ Dell; Dell E771mm; DEL7003; 30.0-70.0; 50.0-160.0; 1
 Dell; Dell E771p; del7002; 30.0-70.0; 50.0-160.0; 1
 Dell; Dell E772c; DELD002; 30.0-70.0; 50.0-160.0; 1
 Dell; Dell E772p; DEL7005; 30.0-70.0; 50.0-160.0; 1
+Dell; Dell E773c; DELD005; 30.0-70.0; 50.0-160.0; 1
+Dell; Dell E773s; DEL3012; 30.0-70.0; 50.0-160.0; 1
 Dell; Dell Eizo 9080i; 0; 30.0-64.0; 50.0-90.0; 1
 Dell; Dell ES-17; del635e; 31.0-85.0; 50.0-100.0; 1
 Dell; Dell GPD-16C; 0; 20.0-50.0; 50.0-90.0; 1
@@ -1004,6 +1015,8 @@ Dell; Dell VS17X; del3024; 30.0-65.0; 50.0-120.0; 1
 Dell; Dell VS17X; del3025; 30.0-65.0; 50.0-120.0; 1
 Dell; Dell VS17X; del3026; 30.0-65.0; 50.0-120.0; 1
 Dell; Dell VS17X; del3027; 30.0-65.0; 50.0-120.0; 1
+Dell; Dell W1700LCDTV (Analog); DEL7007; 31.0-61.0; 56.0-75.0; 1
+Dell; Dell W1700LCDTV (Digital); DEL7008; 31.0-61.0; 56.0-75.0; 1
 Delta; Delta DA-1565; dpc1565; 30-65; 50-100; 1
 Delta; Delta DA-570; dpc0570; 30-70; 50-100; 1
 Delta; Delta DA-995; dpc0995; 30.0-95.0; 50.0-180.0; 1
@@ -1040,6 +1053,7 @@ Digital Equipment Corp.; Digital 24 in. Color (FR-PCXAV-AZ); dec043a; 30.0-96.0;
 Digital Equipment Corp.; Digital FR-PCXAV-VY; dec06d9; 30.0-86.0; 50.0-130.0; 1
 Digital Equipment Corp.; Digital FR-PCXAV-WY; dec06f9; 30.0-95.0; 50.0-152.0; 1
 Digital Equipment Corp.; Digital FR-PCXAV-YY; dec0739; 30.0-85.0; 48.0-150.0; 1
+Digital Equipment Corp.; Digital FR-PCXBV-JZ; dec5a09; 30.0-69.0; 50.0-110.0; 1
 Eizo; Eizo 9060S; eiz0302; 15.5-38.5; 50.0-90.0; 1
 Eizo; Eizo 9065S; eiz0303; 30.0-50.0; 50.0-90.0; 1
 Eizo; Eizo 9070S; eiz0306; 20.0-50.0; 50.0-90.0; 1
@@ -1345,6 +1359,7 @@ Hansol Electronics; Hansol Electronics Mazellan500A; hsl05dd; 30.0-54.0; 50.0-12
 Hansol Electronics; Hansol Electronics Mazellan500P; hsl05de; 30.0-69.0; 50.0-120.0; 1
 Hansol Electronics; Hansol Electronics Mazellan700A; hsl06a6; 30.0-69.0; 50.0-120.0; 1
 Hansol Electronics; Hansol Electronics Mazellan700P; hsl06a5; 30.0-85.0; 50.0-120.0; 1
+Hansol Electronics; Hansol Electronics Mazellan710P; hsl06ab; 30-95; 47-160; 1
 Hansol Electronics; Hansol Electronics Mazellan900P; hsl076d; 30.0-96.0; 47.0-150.0; 1
 HCI; HCI Maxiscan; maxiscan; 15.0-35.0; 50.0-70.0; 1
 Hewlett-Packard; HP 1024 LCD Flat Panel 14-inch Display; 0; 32-61; 50-90
@@ -1416,6 +1431,7 @@ Hewlett-Packard; HP D5063A L1520 15-inch LCD Monitor; 0; 30.0-60.0; 56.0-75.0; 1
 Hewlett-Packard; HP D5064A L1720 17-inch LCD Monitor; 0; 30.0-80.0; 56.0-75.0; 1
 Hewlett-Packard; HP D5065 L1800 18.1-inch LCD Monitor; hwp13c9; 30.0-80.0; 56.0-85.0; 1
 Hewlett-Packard; HP D5069J L1810 18.1-inch LCD Monitor; hwp13cd; 30.0-80.0; 56.0-85.0; 1
+Hewlett-Packard; HP D5258A Pavilion F50S Monitor; hwp12d7; 31.0-60.0; 56.0-75.0; 1
 Hewlett-Packard; HP D5258A Pavilion M50 Monitor; hwp0102; 31.468-54.0; 56.0-85.0; 1
 Hewlett-Packard; HP D5258A Pavilion M50 Monitor; hwp0486; 31.468-54.0; 56.0-85.0; 1
 Hewlett-Packard; HP D5258A Pavilion M50 Monitor; hwp04ea; 31.468-54.0; 56.0-85.0; 1
@@ -1452,6 +1468,10 @@ Hewlett-Packard; HP D8910A HP P910 19-inch Monitor; hwp22ce; 29.0-107.0; 50.0-15
 Hewlett-Packard; HP D8911A HP 91 19-inch Monitor; hwp22cf; 30.0-95.0; 50.0-160.0; 1
 Hewlett-Packard; HP D8912A HP P920 19-inch Monitor; hwp22d0; 30.0-107.0; 50.0-160.0; 1
 Hewlett-Packard; HP D8915A HP P1120 21-inch Monitor; hwp22d3; 30.0-121.0; 48.0-160.0; 1
+Hewlett-Packard; HP L2035 Flat Panel Monitor; HWP2612; 30.0-94.0; 48.0-85.0;1
+Hewlett-Packard; HP L2035 Flat Panel Monitor; HWP2613; 30.0-94.0; 48.0-85.0;1
+Hewlett-Packard; HP L2335 Flat Panel Monitor; HWP2614; 30.0-107.0; 48.0-85.0;1
+Hewlett-Packard; GP L2335 Flat Panel Monitor; HWP2615; 30.0-107.0; 48.0-85.0;1
 Hewlett-Packard; HP M500 15-inch Display; 0; 30-70; 50-120
 Hewlett-Packard; HP M700 17-inch Display; 0; 30-86; 50-160
 Hewlett-Packard; HP M720 17-inch Display; 0; 30-85; 50-150
@@ -1505,9 +1525,13 @@ Hitachi, Ltd.; Hitachi CM2198M; cm2198m; 30.0-94.0; 50.0-150.0; 1
 Hitachi, Ltd.; Hitachi CM2199M; cm2199m; 31.5-107.0; 50.0-150; 1
 Hitachi, Ltd.; Hitachi CM500E; htcafce; 30.0-69.0; 50.0-100.0; 1
 Hitachi, Ltd.; Hitachi CM500; htcafc8; 30.0-69.0; 50.0-100.0; 1
+Hitachi, Ltd.; Hitachi CM515; HTCB3C5; 30-70; 50-160
+Hitachi, Ltd.; Hitachi CM615; HTCB3B3; 30-70; 50-160
 Hitachi, Ltd.; Hitachi CM600; htcafd2; 30.0-64.0; 47.0-104.0; 1
 Hitachi, Ltd.; Hitachi CM611; htcafd7; 31.0-92.0; 50.0-120.0; 1
 Hitachi, Ltd.; Hitachi CM620; htcafdd; 31.0-69.0; 47.0-130.0; 1
+Hitachi, Ltd.; Hitachi CM621F; HTC9C40; 30-70; 50-160
+Hitachi, Ltd.; Hitachi CM625; HTC7961; 30.0-95.0; 50.0-160.0
 Hitachi, Ltd.; Hitachi CM630; htcafe2; 31.0-86.0; 47.0-130.0; 1
 Hitachi, Ltd.; Hitachi CM640ET/CM640U; htcaffa; 31.0-69.0; 50.0-130.0; 1
 Hitachi, Ltd.; Hitachi CM640; htcaffa; 31.0-69.0; 50.0-130.0; 1
@@ -1516,6 +1540,8 @@ Hitachi, Ltd.; Hitachi CM643; htcb001; 31.0-95.0; 50.0-130.0; 1
 Hitachi, Ltd.; Hitachi CM650; htcb004; 31.0-69.0; 50.0-130.0; 1
 Hitachi, Ltd.; Hitachi CM651; htcb005; 31.0-95.0; 50.0-130.0; 1
 Hitachi, Ltd.; Hitachi CM701; htcabf4; 31.0-96.0; 50.0-160.0; 1
+Hitachi, Ltd.; Hitachi CM715; HTCB3BA; 30.0-95.0; 50.0-120.0
+Hitachi, Ltd.; Hitachi CM721F; HTCB3C4; 31.0-95.0; 50.0-120.0
 Hitachi, Ltd.; Hitachi CM751; htcac13; 31.0-94.0; 50.0-160.0; 1
 Hitachi, Ltd.; Hitachi CM752; htcac15; 31.0-101.0; 50.0-160.0; 1
 Hitachi, Ltd.; Hitachi CM753; htcac22; 31.0-107.0; 50.0-160.0; 1
@@ -1524,14 +1550,34 @@ Hitachi, Ltd.; Hitachi CM766; htcb00f; 31.0-96.0; 50.0-180.0; 1
 Hitachi, Ltd.; Hitachi CM768; htcb011; 31.0-107.0; 50.0-180.0; 1
 Hitachi, Ltd.; Hitachi CM769; htcb02f; 31.0-115.0; 50.0-180.0; 1
 Hitachi, Ltd.; Hitachi CM771; htcac82; 31.0-96.0; 50.0-160.0; 1
+Hitachi, Ltd.; Hitachi CM772; HTCB3C0; 31.0-115.0; 50.0-160.0
+Hitachi, Ltd.; Hitachi CM776; HTCB03B; 31.0-96.0; 50.0-160.0
 Hitachi, Ltd.; Hitachi CM800; htcabe3; 31.0-89.0; 50.0-160.0; 1
 Hitachi, Ltd.; Hitachi CM801; htcabe2; 31.0-96.0; 50.0-160.0; 1
 Hitachi, Ltd.; Hitachi CM802; htcabe0; 31.0-100.0; 50.0-160.0; 1
 Hitachi, Ltd.; Hitachi CM803; htcabea; 31.0-115.0; 50.0-160.0; 1
 Hitachi, Ltd.; Hitachi CM811; htcac46; 31.0-96.0; 50.0-160.0; 1
+Hitachi, Ltd.; Hitachi CM811PLUS; HTCAC4E; 31.0-107.0; 50.0-160.0
 Hitachi, Ltd.; Hitachi CM812; htcac47; 31.0-107.0; 50.0-160.0; 1
 Hitachi, Ltd.; Hitachi CM813; htcac48; 31.0-115.0; 50.0-160.0; 1
 Hitachi, Ltd.; Hitachi CM814; htcac49; 31.0-125.0; 50.0-160.0; 1
+Hitachi, Ltd.; Hitachi CM815; HTCAC54; 31.0-130.0; 50.0-160.0
+Hitachi, Ltd.; Hitachi CM821F; HTCB404; 31.0-107.0; 50.0-160.0
+Hitachi, Ltd.; Hitachi CM823F; HTCB3F7; 31.0-121.0; 50.0-160.0
+Hitachi, Ltd.; Hitachi CM827; HTCB3FC; 31.0-107.0; 50.0-160.0
+Hitachi, Ltd.; Hitachi CM828; HTCB3FD; 31.0-115.0; 50.0-160.0
+Hitachi, Ltd.; Hitachi CML153X; HTC1799; 24-60; 56-75
+Hitachi, Ltd.; Hitachi CML154X; HTC179C; 24-60; 56-75
+Hitachi, Ltd.; Hitachi CML155X Analog; HTC179E; 31.0-61.0; 56.0-75.0
+Hitachi, Ltd.; Hitachi CML155X Digital; HTC1F41; 31.0-49.0; 59.0-75.0
+Hitachi, Ltd.; Hitachi CML170SX; HTCDAE0; 24-80; 56-85
+Hitachi, Ltd.; Hitachi CML174SX; HTC178C; 24.0-80.0; 56.0-75.0
+Hitachi, Ltd.; Hitachi CML175SX; HTC1795; 24.0-80.0; 56.0-75.0
+Hitachi, Ltd.; Hitachi CML181SX; HTC1786; 24-80; 56-85
+Hitachi, Ltd.; Hitachi CML190SX; HTC177D; 24.0-80.0; 56.0-75.0
+Hitachi, Ltd.; Hitachi CML200UX Analog; HTC7C17; 31.0-75.0; 56.0-75.0
+Hitachi, Ltd.; Hitachi CML200UX Digital; HTC431F; 31.0-75.0; 59.0-75.0
+
 Hitachi, Ltd.; Hitachi HM1764; hit1727; 30.0-64.0; 50.0-100.0; 1
 Hitachi, Ltd.; Hitachi HM1782; hit1827; 30.0-82.0; 50.0-100.0; 1
 Hitachi, Ltd.; Hitachi HM4020; hit4020; 60.0-85.0; 60.0-120.0; 1
@@ -1543,6 +1589,9 @@ Hitachi, Ltd.; Hitachi HM4921; hit2149; 30.0-107.0; 50.0-152.0; 1
 Hitachi, Ltd.; Hitachi HM-5219; hm-5219; 88.0-90.0; 88.0-89.0; 1
 Hitachi, Ltd.; Hitachi HM6421; hit6421; 100.0-102.0; 72.0-77.0; 1
 Hitachi, Ltd.; Hitachi HM6821; hit6821; 30.0-107.0; 50.0-152.0; 1
+Hitachi, Ltd.; Hitachi V700; HTCB3CD; 30-70; 50-160
+Hitachi, Ltd.; Hitachi V810; HTCB446; 30-96; 50-160
+Hitachi, Ltd.; Hitachi V900; HTCB3CE; 30-95; 50-160Hyundai Electronics Industries Co., Ltd.; Hyundai DeluxScan 14; hn/l-4838x; 31.0-38.0; 56.0-87.0; 1
 Hyundai Electronics Industries Co., Ltd.; Hyundai DeluxScan 14; hn/l-4838x; 31.0-38.0; 56.0-87.0; 1
 Hyundai Electronics Industries Co., Ltd.; Hyundai DeluxScan 14 Plus; hn/l-4848; 31.0-48.4; 56.0-87.0; 1
 Hyundai Electronics Industries Co., Ltd.; Hyundai DeluxScan 14 Pro; hn/l-4860; 30.0-60.0; 50.0-90.0; 1
@@ -1784,6 +1833,7 @@ Iiyama; Iiyama S704HT, VisionMaster 404; ivm1744; 27.0-96.0; 50.0-160.0; 1
 Iiyama; Iiyama S705MT, VisionMaster 405; ivm1748; 30.0-86.0; 50.0-180.0; 1
 Iiyama; Iiyama S901GT, VisionMaster 450; ivm1900; 27.0-102.0; 50.0-160.0; 1
 Iiyama; Iiyama S902JT, VisionMaster Pro 451; ivm1910; 27.0-115.0; 50.0-160.0; 1
+Iiyama; Iiyama HM903DT, VisionMaster Pro 454; ivm1942; 30-132; 45-200; 1
 Iiyama; Iiyama TSA3931HT, Prolite39; ivm3900; 24.8-80.0; 56.0-85.0; 1
 Iiyama; Iiyama TSA4632HT, Prolite46; ivm4600; 24.8-80.0; 56.0-85.0; 1
 Iiyama; Iiyama TSA4633JT, Prolite46b; ivm4610; 24.8-80.0; 56.0-85.0; 1
@@ -2053,6 +2103,7 @@ MAG Technology Co., Ltd.; MAG 786FD; mag9705; 30.0-86.0; 50.0-160.0; 1
 MAG Technology Co., Ltd.; MAG 796FD; mag9706; 30.0-96.0; 50.0-160.0; 1
 MAG Technology Co., Ltd.; MAG 800V; mag9807; 30.0-95.0; 50.0-160.0; 1
 MAG Technology Co., Ltd.; MAG 810FD; mag9809; 30.0-110.0; 50.0-160.0; 1
+MAG Technology Co., Ltd.; MAG 986PF; mag03da; 30.0-86.0; 50.0-160.0; 1
 MAG Technology Co., Ltd.; MAG Computronic Colorview/15; colorview15; 30.0-68.0; 50.0-120.0; 1
 MAG Technology Co., Ltd.; MAG Computronic PMV-14AC/plus; pmv-14ac; 15.0-36.0; 45.0-90.0; 1
 MAG Technology Co., Ltd.; MAG Computronic PMV-1531; pmv-1531; 15.0-38.0; 45.0-90.0; 1
@@ -2148,6 +2199,7 @@ Mitsuba Corp.; Mitsuba Corp. 710MH; 710mh; 15.0-38.0; 50.0-90.0; 1
 Mitsubishi; Mitsubishi Diamond Plus 100 (TFW1105); mel40e1; 30.0-108.0; 50.0-152.0; 1
 Mitsubishi; Mitsubishi Diamond Plus 120u (TFA1105); mel42f0; 30.0-115.0; 50.0-160.0; 1
 Mitsubishi; Mitsubishi Diamond Plus 200u (NSH1117); mel43f0; 30.0-108.0; 50.0-160.0; 1
+Mitsubishi; Mitsubishi Diamond Plus 230SB; mel4631;  30.0-115.0; 50.0-160.0; 1
 Mitsubishi; Mitsubishi Diamond Plus 70 (TF-7700P); mel4190; 30.0-70.0; 50.0-180.0; 1
 Mitsubishi; Mitsubishi Diamond Plus 71 (TFV6708); mel4240; 30.0-69.0; 50.0-130.0; 1
 Mitsubishi; Mitsubishi Diamond Plus 72 (TFV8705); mel4160; 30.0-86.0; 50.0-130.0; 1
@@ -2756,6 +2808,7 @@ Panasonic; Panasonic TX-T1565PG1; mei2627; 30-67; 50-120; 1
 Panasonic; Panasonic TX-T1565PU1; mei2629; 30-67; 50-120; 1
 Panasonic; Panasonic TX-T1567PE1; mei261d; 30-61; 50-90; 1
 Panasonic; Panasonic TX-T1567PT1; mei2626; 30-61; 50-90; 1
+Peacock; Peacock P1796 C2; actb013; 30-97; 50-150; 1
 PC Brand; PC Brand Super_VGA; super_vga; 28.0-38.0; 50.0-90.0; 1
 Philips; Magnavox MB7000(17inch/CM6800); phla17b; 30.0-66.0; 50.0-130.0; 1
 Philips; Philips 104B(14inch/CM1300); phl104b; 30.0-54.0; 50.0-110.0; 1
@@ -3097,6 +3150,7 @@ Samsung; Samsung SyncMaster 900p (CSH9839*); sam4f26; 30-96; 50-160; 1
 Samsung; Samsung SyncMaster 900SL (CSM92*); sam4db9; 30-96; 50-160; 1
 Samsung; Samsung SyncMaster 950in(T); sam25dc; 30-96; 50-160; 1
 Samsung; Samsung SyncMaster 955DF; SAM002d; 30-85; 50-160; 1
+Samsung; Samsung SyncMaster 957p; sam002c; 30-96; 50-160; 1
 Samtron; Samtron 428PT/PTL; sdi1428; 31.5-48.0; 43.5-75.0; 1
 Samtron; Samtron SC-208DXL+; sdi4690; 30.0-82.0; 50.0-120.0; 1
 Samtron; Samtron SC-528MDL; sdi5451; 30.0-48.0; 50.0-120.0; 1
@@ -3111,6 +3165,7 @@ Seiko; Seiko CM-1450; cm-1450; 31.0-50.0; 50.0-90.0; 1
 Seiko; Seiko CM-2050; cm-2050; 31.0-50.0; 50.0-90.0; 1
 SGI; SGI 17-inch 340C; 0; 30-95; 48-180
 SGI; SGI 17-inch GDM-17E11; 0; 30.0-85.0;48.0-150.0
+SGI; SGI 17-inch GDM-17E21; 0; 30.0-85.0;48.0-160.0
 SGI; SGI 17-inch GDM-2011P; 0; 30.0-92.0;48.0-160.0
 SGI; SGI 17-inch M-7S54SG; 0; 30.0-95.0; 48.0-180.0
 SGI; SGI 19-inch CMNB024B; 0; 30-100; 48-200
@@ -3123,6 +3178,7 @@ SGI; SGI 21-inch GDM-5021PT; 0; 30.0-107.0; 48.0-160.0
 SGI; SGI 21-inch GDM-5411; 0; 30-121; 48-160
 SGI; SGI 24-inch GDM-90W11; 0; 30.0-96.0;48.0-160.0
 SGI; SGI GDM-90W11; 0; 30.0-96.0;48.0-160.0
+SGI; SGI 1600SW FlatPanel; SGX0640; 72.0; 60.0
 Siemens Nixdorf; Siemens Nixdorf MCM1402; siemens1; 30-64; 50-100; 1
 Siemens Nixdorf; Siemens Nixdorf MCM1503; siemens2; 30-64; 50-100; 1
 Siemens Nixdorf; Siemens Nixdorf MCM1702; siemens3; 30-82; 50-150; 1
@@ -3191,6 +3247,7 @@ Sony; Sony CPD-E400/E400E; sny0390; 30.0-96.0; 48.0-120.0; 1
 Sony; Sony CPD-E500/E500E; sny04b0; 30.0-96.0; 48.0-160.0; 1
 Sony; Sony CPD-G200; sny1270; 30.0-96.0; 48.0-120.0; 1
 Sony; Sony CPD-G400; sny0290; 30.0-107.0; 48.0-120.0; 1
+Sony; Sony CPD-G410R; sny0191; 30.0-110.0; 40.0-170.0; 1
 Sony; Sony CPD-G500; sny03b0; 30.0-121.0; 48.0-160.0; 1
 Sony; Sony CPD-H200; sny1170; 30.0-70.0; 48.0-120.0; 1
 Sony; Sony CPD-L100; sny0140; 30.0-61.0; 50.0-65.0; 1
@@ -3224,6 +3281,7 @@ Sony; Sony VMU-1000; sny07a0; 30.0-86.0; 48.0-150.0; 1
 Sunshine; Sunshine DM-8 CM-1433H; 0; 31.5-35.1; 55.0-66.0
 Sun; Sun 16-inch 574; sun0574; 30.0-70.0; 50.0-90.0; 1
 Sun; Sun 17-inch 447Z; 100; 31.0-72.0; 50.0-120.0
+Sun; Sun 17-inch CHB7727L (Samsung); 0; 30.0-72.0; 50.0-160.0; 1
 Sun; Sun 21-inch N3; 0; 30.0-96.0; 48.0-160.0
 Sun; Sun 24-inch; 0; 30.0-96.0; 50.0-160.0
 Sylvania; Sylvania F74; syl00f4; 30.0-70.0; 55.0-120.0; 1
@@ -3573,6 +3631,7 @@ ViewSonic; ViewSonic VP140-3; vsc7d15; 30-62; 50-75; 1
 ViewSonic; ViewSonic VP140; vsc3541; 30-61; 50-77; 1
 ViewSonic; ViewSonic VP150; vsc3845; 30-61; 50-77; 1
 ViewSonic; ViewSonic VP151; vsc5945; 30-94; 50-85; 1
+ViewSonic; ViewSonic VP171b; ; 30-82, 50-85; 1
 ViewSonic; ViewSonic VP181; vsc574d; 30-95; 50-75; 1
 ViewSonic; ViewSonic VP190; vsc474d; 30-82; 50-77; 1
 ViewSonic; ViewSonic VPA138; vsc4141; 30-62; 50-75; 1
