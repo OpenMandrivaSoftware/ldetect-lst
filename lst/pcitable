@@ -2798,7 +2798,7 @@
 0x1102	0x0002	"snd-emu10k1"	"Creative Labs|SB Live! (audio)"
 0x1102	0x0003	"unknown"	"Creative Labs|EMU8008 AWE64D OEM (CT4600)"
 0x1102	0x0004	"snd-emu10k1"	"Creative Labs|EMU10K2 Audigy Audio Processor"
-0x1102	0x0006	"snd-emu10k1"	"Creative Labs|[SB Live! Value] EMU10k1X"
+0x1102	0x0006	"snd-emu10k1x"	"Creative Labs|[SB Live! Value] EMU10k1X"
 0x1102	0x0007	"snd-ca0106"	"Creative Labs|SB Audigy LS"
 0x1102	0x0008	"snd-emu10k1"	"Creative Labs|SB0400 Audigy2 Value"
 0x1102	0x0101	"unknown"	"Creative Labs|GeForce 256 DDR Nvida Corp. Video"
