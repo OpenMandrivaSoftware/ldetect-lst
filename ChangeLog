@@ -1,3 +1,87 @@
+2003-03-05 15:07  Frederic Lepied <flepied@mandrakesoft.com>
+
+	* lst/usbtable: tagged hisax_st5481 as ISDN
+
+2003-03-04 11:57  Frederic Lepied <flepied@mandrakesoft.com>
+
+	* lst/pcitable: integrated NVidia ids from XFree 4.3
+
+2003-02-28 21:19  adelorbeau
+
+	* lst/pcitable: Modifie the 3c920 Tornado to use the module 3c90x
+	(added in the last kernel)
+
+2003-02-28 14:27  Fançois Pons <fpons@mandrakesoft.com>
+
+	* ldetect-lst.spec, lst/pcitable: added support for ltmodem
+
+2003-02-27 20:15  Pixel <pixel@mandrakesoft.com>
+
+	* ldetect-lst.spec: updated pcitable (pci.ids, redhat pcitable,
+	modules.pcimap, http://www.yourvote.com/pci/vendors.txt)
+
+2003-02-27 18:26  Pixel <pixel@mandrakesoft.com>
+
+	* convert/merge2pcitable.pl: skip module pci from modules.pcimap
+
+2003-02-27 18:24  Pixel <pixel@mandrakesoft.com>
+
+	* convert/README.pcitable: cleanup of modules.* extraction
+
+2003-02-27 17:56  Pixel <pixel@mandrakesoft.com>
+
+	* lst/pcitable: merge with 2.4.21.0.pre4.10mdk modules.pcimap
+
+2003-02-27 17:51  Pixel <pixel@mandrakesoft.com>
+
+	* lst/pcitable: merge with hwdata-0.75
+
+2003-02-27 17:50  Pixel <pixel@mandrakesoft.com>
+
+	* lst/Cards+: add "NVIDIA GeForce FX (generic)"
+
+2003-02-27 17:39  Pixel <pixel@mandrakesoft.com>
+
+	* lst/pcitable: update with http://www.yourvote.com/pci/vendors.txt
+
+2003-02-27 17:36  Pixel <pixel@mandrakesoft.com>
+
+	* lst/pcitable: merge with latest pci.ids
+
+2003-02-27 17:36  Pixel <pixel@mandrakesoft.com>
+
+	* lst/Cards+: add "SiS" generic card
+
+2003-02-25 14:00  Pixel <pixel@mandrakesoft.com>
+
+	* lst/MonitorsDB: add one
+
+2003-02-19 19:42  Pixel <pixel@mandrakesoft.com>
+
+	* lst/MonitorsDB: add some more (from Christophe Combelles)
+
+2003-02-19 19:16  Pixel <pixel@mandrakesoft.com>
+
+	* lst/MonitorsDB: some monitors (from Christophe Combelles)
+
+2003-02-18 23:25  Stefan Siegel <siegel@linux-mandrake.com>
+
+	* lst/pcitable: added 0x8086 0x1960 0x0e11 0xc000 "Compaq Computer
+	Corporation|Remote Insight Controller"
+
+2003-02-17 06:14  tkamppeter
+
+	* ldetect-lst.spec: 0.1.7-3mdk
+
+2003-02-15 00:55  tkamppeter
+
+	* lst/: ScannerDB, scannerconfigs: Added some missing drivrs to
+	ScannerDB, Updates for SANE patches.
+
+2003-02-15 00:28  adelorbeau
+
+	* lst/pcitable: Correction ohci => ehci
+
 2003-02-13 10:26  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.7-2mdk
