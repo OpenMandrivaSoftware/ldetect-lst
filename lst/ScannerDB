@@ -64,70 +64,57 @@ COMMENT gray only
 NAME Apple|Apple Scanner
 SERVER apple
 DRIVER SCSI
+ASK DEVICE
 LINE scsi APPLE
-LINE /dev/scanner
+LINE $DEVICE
 COMMENT 4bit, 16 shades of gray
 
 NAME Apple|OneScanner
 SERVER apple
 DRIVER SCSI
+ASK DEVICE
 LINE scsi APPLE
-LINE /dev/scanner
+LINE $DEVICE
 COMMENT 8bit, 256 shades of gray. The backend needs work especially in the quantization code but it may work.
 
 NAME Apple|ColorOneScanner
 SERVER apple
 DRIVER SCSI
+ASK DEVICE
 LINE scsi APPLE
-LINE /dev/scanner
+LINE $DEVICE
 COMMENT truecolor (needs much work) but it scans in non color modes.
 
 # from artec.desc
 NAME Artec/Ultima|AT3
 SERVER artec
 DRIVER SCSI
+ASK DEVICE
 LINE scsi ULTIMA
-LINE /dev/scanner
+LINE $DEVICE
 COMMENT all modes working
 
 NAME Artec/Ultima|A6000C
-SERVER artec
-DRIVER SCSI
-LINE scsi ULTIMA
-LINE /dev/scanner
+SEE Artec/Ultima|AT3
 COMMENT all modes working
 
 NAME Artec/Ultima|A6000C PLUS
-SERVER artec
-DRIVER SCSI
-LINE scsi ULTIMA
-LINE /dev/scanner
+SEE Artec/Ultima|AT3
 COMMENT f/w <= v1.92 alpha, f/w >= v1.93 OK
 
 NAME Artec/Ultima|AT6
-SERVER artec
-DRIVER SCSI
-LINE scsi ULTIMA
-LINE /dev/scanner
+SEE Artec/Ultima|AT3
 COMMENT Unknown - please try
 
 NAME Artec/Ultima|AT12
-SERVER artec
-DRIVER SCSI
-LINE scsi ULTIMA
-LINE /dev/scanner
+SEE Artec/Ultima|AT3
 COMMENT all modes working
 
 NAME Artec/Ultima|AM12S
-SERVER artec
-DRIVER SCSI
-LINE scsi ULTIMA
-LINE /dev/scanner
+SEE Artec/Ultima|AT3
 COMMENT all modes working
 
 NAME Artec/Ultima|parallel models
-SERVER artec
-DRIVER Parport
 COMMENT Unsupported, AS6E model is supported by SANE as6e backend.
 UNSUPPORTED
 
@@ -138,17 +125,11 @@ COMMENT Unsupported.
 UNSUPPORTED
 
 NAME BlackWidow|BW4800SP
-SERVER artec
-DRIVER SCSI
-LINE scsi ULTIMA
-LINE /dev/scanner
+SEE Artec/Ultima|AT3
 COMMENT rebadged Artec AT3
 
 NAME Plustek, Inc.|OpticPro 19200S
-SERVER artec
-DRIVER SCSI
-LINE scsi ULTIMA
-LINE /dev/scanner
+SEE Artec/Ultima|AT3
 COMMENT rebadged Artec AM12S
 
 # from as6e.desc
@@ -166,30 +147,26 @@ COMMENT Requires the program 'as6edriver' to run.
 NAME Avision|AV 6240
 SERVER avision
 DRIVER SCSI
+ASK DEVICE
 LINE scsi AVISION
-LINE /dev/scanner
+LINE $DEVICE
 COMMENT 1 pass, ??? DPI
 
 NAME Avision|AV 630 CS
-SERVER avision
-DRIVER SCSI
-LINE scsi AVISION
-LINE /dev/scanner
+SEE Avision|AV 6240
 COMMENT 1 pass, 1200*600 DPI
 
 NAME Avision|AV 620 CS
-SERVER avision
-DRIVER SCSI
-LINE scsi AVISION
-LINE /dev/scanner
+SEE Avision|AV 6240
 COMMENT 1 pass, 1200*600 DPI
 
 # from bh.desc
 NAME Bell and Howell|COPISCAN II 6338
 SERVER bh
 DRIVER SCSI
+ASK DEVICE
 LINE scsi "B&H SCSI"
-LINE /dev/scanner
+LINE $DEVICE
 COMMENT Duplex Scanner with ACE - development model
 
 NAME Bell and Howell|COPISCAN II 2135 - not tested
@@ -216,14 +193,14 @@ COMMENT Simplex Scanner (with ACE)
 NAME Canon|CanoScan 300
 SERVER canon
 DRIVER SCSI
+ASK DEVICE
+LINE $DEVICE
 
 NAME Canon|CanoScan 600
-SERVER canon
-DRIVER SCSI
+SEE Canon|CanoScan 300
 
 NAME Canon|CanoScan 2700F
-SERVER canon
-DRIVER SCSI
+SEE Canon|CanoScan 300
 
 # from canon_pp.desc
 NAME Canon|CanoScan FB330P
@@ -250,8 +227,9 @@ UNSUPPORTED
 NAME Nikon Corp.|LS-20
 SERVER coolscan
 DRIVER SCSI
+ASK DEVICE
 LINE scsi Nikon * Scanner
-LINE /dev/scanner
+LINE $DEVICE
 COMMENT The LS-20 has been replaced by the LS-30
 
 NAME Nikon Corp.|LS-30
@@ -427,8 +405,9 @@ UNSUPPORTED
 NAME Hewlett-Packard|ScanJet IIc
 SERVER hp
 DRIVER SCSI
+ASK DEVICE
 LINE scsi HP
-LINE /dev/scanner
+LINE $DEVICE
 
 NAME Hewlett-Packard|ScanJet IIp
 SEE Hewlett-Packard|ScanJet IIc
@@ -585,8 +564,9 @@ LINE scsi FUJITSU
 NAME Microtek|Scanmaker E6
 SERVER microtek
 DRIVER SCSI
+ASK DEVICE
 LINE scsi * * Scanner
-LINE /dev/scanner
+LINE $DEVICE
 
 NAME Microtek|Scanmaker E3
 SEE Microtek|Scanmaker E6
@@ -1056,13 +1036,15 @@ LINE $DEVICE
 NAME NEC Systems|PC-IN500/4C
 SERVER nec
 DRIVER SCSI
-LINE /dev/scanner
+ASK DEVICE
+LINE $DEVICE
 COMMENT PC-IN500/4C was sold only in JAPAN
 
 NAME NEC Systems|PC-IN600,700,800 series
 SERVER nec
 DRIVER SCSI, USB
-LINE /dev/scanner
+ASK DEVICE
+LINE $DEVICE
 COMMENT PC-IN600,700,800 series is not supprted
 
 # from net.desc
@@ -1296,22 +1278,25 @@ SEE Connectix|Color QuickCam
 NAME Ricoh|Ricoh IS50
 SERVER ricoh
 DRIVER SCSI
+ASK DEVICE
 LINE scsi RICOH IS50
-LINE /dev/scanner
+LINE $DEVICE
 COMMENT ?
 
 NAME Ricoh|Ricoh IS60
 SERVER ricoh
 DRIVER SCSI
+ASK DEVICE
 LINE scsi RICOH IS60
-LINE /dev/scanner
+LINE $DEVICE
 COMMENT ?
 
 # from s9036.desc
 NAME Siemens Information and Communication Products|9036 Flatbed scanner
 SERVER s9036
 DRIVER SCSI
-LINE /dev/scanner
+ASK DEVICE
+LINE $DEVICE
 
 # from sharp.desc
 NAME SHARP|JX-610
@@ -1325,7 +1310,7 @@ LINE scsi SHARP * Scanner
 NAME SHARP|JX-250
 SEE SHARP|JX-610
 SERVER sharp
-DRIVER 
+DRIVER SCSI
 
 NAME SHARP|JX-320
 SEE SHARP|JX-610
@@ -1511,8 +1496,9 @@ COMMENT 6 bit gray
 NAME Tamarack|Artiscan 6000C
 SERVER tamarack
 DRIVER SCSI
+ASK DEVICE
 LINE scsi TAMARACK
-LINE /dev/scanner
+LINE $DEVICE
 COMMENT 3 pass, 300 DPI
 
 NAME Tamarack|Artiscan 8000C
