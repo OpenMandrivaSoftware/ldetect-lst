@@ -1,3 +1,38 @@
+2005-03-30 14:24  Thierry Vignaud <tvignaud at mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.77-1mdk
+
+2005-03-29 16:18  Olivier Blin <oblin at mandrakesoft.com>
+
+	* lst/usbtable: add Fastrate USB 100 modem
+
+2005-03-29 15:55  Thierry Vignaud <tvignaud at mandrakesoft.com>
+
+	* lst/pcitable: add support for NX6600GT (chandra, #14977)
+
+2005-03-29 10:59  Thierry Vignaud <tvignaud at mandrakesoft.com>
+
+	* lst/pcitable: sync with kernel-2.6.12-rc1-mm2
+
+2005-03-24 12:15  Thierry Vignaud <tvignaud at mandrakesoft.com>
+
+	* lst/pcitable: sync with kernel-2.6.11-mm4
+
+2005-03-23 10:39  Pixel <pixel at mandrakesoft.com>
+
+	* ldetect-lst.spec: - force overrideValidateMode on neomagic (which
+	  has pbs detecting the size of the LCD panel) - allow 3D on S3
+	  UniChrome
+
+2005-03-23 10:39  Pixel <pixel at mandrakesoft.com>
+
+	* lst/Cards+: force overrideValidateMode on neomagic (which has pbs
+	  detecting the size of the LCD panel)
+
+2005-03-23 10:27  Pixel <pixel at mandrakesoft.com>
+
+	* lst/Cards+: DRI should be handled for S3 UniChrome cards
+
 2005-03-22 19:17  Thierry Vignaud <tvignaud at mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.75-1mdk
