@@ -3261,7 +3261,7 @@
 0x11de	0x6057	"zr36067"	"Zoran Corporation|ZR36057PQC Video cutting chipset"
 0x11de	0x6120	"ISDN:hisax"	"Zoran Corporation|ZR36120 ISDN Adapter"
 0x11de	0x9876	"unknown"	"Zoran Corporation| "
-0x11e3	0x5030	"pcwd"	"Quicklogic Corporation|PC Watchdog"
+0x11e3	0x5030	"pcwd_pci"	"Quicklogic Corporation|PC Watchdog"
 0x11ec	0x2064	"unknown"	"Coreco Inc| "
 0x11f0	0x4231	"unknown"	"Compu-Shack|FDDI"
 0x11f0	0x4232	"unknown"	"Compu-Shack|FASTline UTP Quattro"
