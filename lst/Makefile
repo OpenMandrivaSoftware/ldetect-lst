@@ -37,10 +37,11 @@ $(TABLES3):
 install: $(TMP_TABLES) $(TABLES3)
 	for i in $(TABLES); do \
 	mkdir -p $(dir)/$$i.d ; \
-	(echo "# !! The original version is available in CVS at" ; \
-         echo "# export CVS_RSH=ssh" ; \
-         echo "# export CVSROOT=:ext:anoncvs@cvs.mandrakesoft.com:/cooker" ; \
-         echo "# cvs checkout soft/$(project)    (password \`\`cvs'')" ; \
+	(echo "# This file was created:" `date '+%Y-%m-%d %H:%M:%S (%z)'` ; \
+	 echo "# !! The latest version is available via CVS at" ; \
+	 echo "# export CVS_RSH=ssh" ; \
+	 echo "# export CVSROOT=:ext:anoncvs@cvs.mandrakesoft.com:/cooker" ; \
+	 echo "# cvs checkout soft/$(project)    (password \`\`cvs'')" ; \
 	 cat $$i.tmp \
 	) > $(dir)/$$i.d/90default.lst; done
 
