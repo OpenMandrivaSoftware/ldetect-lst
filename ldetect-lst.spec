@@ -64,6 +64,8 @@ fi
 %{_bindir}/*
 
 %changelog
+- now Mach64 cards use Utah GLX in experimental mode. (fpons)
+
 * Fri Aug 29 2003 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.8-2mdk
 - add 3 more monitors (Bryan Whitehead)
 - fix 1 cardbus controller (guillaume=
