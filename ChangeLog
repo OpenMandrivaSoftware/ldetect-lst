@@ -1,3 +1,21 @@
+2005-02-21 19:15  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.65-1mdk
+
+2005-02-21 15:05  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: fill in missing Radeon descriptions from
+	  http://cvs.freedesktop.org/dri/drm/shared/drm_pciids.txt
+
+2005-02-19 04:13  Till Kamppeter <till@mandrakesoft.com>
+
+	* lst/: ScannerDB, scannerconfigs: Updated scanner database for
+	  SANE 1.0.15.
+
+2005-02-18 14:56  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: remove useless prefix
+
 2005-02-18 14:53  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.64-1mdk
