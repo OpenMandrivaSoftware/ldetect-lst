@@ -932,6 +932,11 @@ NEEDVIDEORAM
 NAME S3 Savage/MX
 SEE S3 Savage4 (generic)
 
+# S3 UniChrome (via)
+
+NAME S3 UniChrome
+DRIVER via
+
 # ET4000/ET6000
 
 NAME ET3000 (generic)
