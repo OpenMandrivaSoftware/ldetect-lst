@@ -13,6 +13,8 @@ rm -f vendors.txt ; wget http://www.yourvote.com/pci/vendors.txt
 # Another one
 rm -f pcids.html ; wget http://www.begent.co.uk/pcids.htm
 ./merge2pcitable.pl begent_pcids_htm pcids.htm pcitable > pcitable.new
+# you can also try the following. BUT be careful when choosing cards needing subids. Ask pixel@mandrakesoft.com first!
+./merge2pcitable.pl --keep-subids begent_pcids_htm pcids.htm pcitable > pcitable.new
 
 
 # with redhat's pcitable in /tmp/rh_pcitable (from kudzu or anaconda)

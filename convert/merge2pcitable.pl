@@ -12,6 +12,7 @@ if ($0 =~ /merge2pcitable/)
 {
     $ARGV[0] eq '-f' and $force = shift;
     $ARGV[0] eq '-a' and $all = shift;
+    $ARGV[0] eq '--keep-subids' and $keep_subids = shift;
 
     my $formats = join '|', grep {$_} map { /^read_(.*)/ ? $1 : '' } keys %main::;
 
@@ -23,7 +24,7 @@ if ($0 =~ /merge2pcitable/)
     my $d_pci = read_pcitable($pcitable, 'strict');
     my $d_in = $read->($in);
     merge($d_pci, $d_in);
-    cleanup_subids($d_pci);
+    cleanup_subids($d_pci) if !$keep_subids;
     write_pcitable($d_pci);
 } else { 1 }
 
