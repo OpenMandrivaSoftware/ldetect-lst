@@ -11,7 +11,7 @@ LINE scsi ULTIMA
 LINE $DEVICE
 SERVER artec_eplus48u
 LINE usb $VENDOR $PRODUCT
-FIRMWARELINE artecFirmwareFile $FIRMWARE
+FIRMWARELINE option artecFirmwareFile $FIRMWARE
 SERVER avision
 LINE scsi AVISION
 LINE scsi FCPA
