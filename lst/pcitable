@@ -1931,7 +1931,7 @@
 0x1158	0x9051	"unknown"	"Voarx R & D Inc|Lanfleet/Truevalue"
 0x1159	0x0001	"unknown"	"Mutech Corp|MV-1000"
 0x1159	0x0002	"unknown"	"Mutech|MV-1500 Frame Grabber"
-0x115d	0x0003	"tulip_cb"	"Xircom|Cardbus Ethernet 10/100"
+0x115d	0x0003	"xircom_tulip_cb"	"Xircom|Cardbus Ethernet 10/100"
 0x115d	0x0005	"xircom_cb"	"Xircom|Cardbus Ethernet 10/100"
 0x115d	0x0007	"xircom_cb"	"Xircom|Cardbus Ethernet 10/100"
 0x115d	0x000b	"xircom_cb"	"Xircom|Cardbus Ethernet 10/100"
