@@ -1,3 +1,21 @@
+2002-08-20 21:31  tvignaud
+
+	* Makefile: split rpm target into rpm and srpm target as i did for
+	ldetect
+
+2002-08-20 17:54  tkamppeter
+
+	* lst/usbtable: s/Seiko Epson/Epson/ ("Seiko" confuses the users).
+
+2002-08-20 17:26  tkamppeter
+
+	* lst/usbtable: s/Epson/Seiko Epson/ (to match with names in
+	ScannerDB).
+
+2002-08-20 12:06  tvignaud
+
+	* ChangeLog, ldetect-lst.spec: 0.1.4-9mdk
+
 2002-08-20 12:04  tvignaud
 
 	* lst/usbtable: fix broken stuff comitted by till

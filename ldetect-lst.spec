@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.4
-%define release 9mdk
+%define release 10mdk
 
 Name: %{name}
 Version: %{version}
@@ -62,6 +62,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Tue Aug 20 2002 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.4-10mdk
+- homogenize seiko/epson into epson for scanner owners
+
 * Tue Aug 20 2002 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.4-9mdk
 - 2 unknown cards were in fact "Media Vision" (reported by Danny
   Tholen)
