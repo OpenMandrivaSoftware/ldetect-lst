@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.9
-%define release 13mdk
+%define release 14mdk
 
 Name: %{name}
 Version: %{version}
@@ -64,6 +64,13 @@ fi
 %{_bindir}/*
 
 %changelog
+* Fri Apr 16 2004 Gwenole Beauchesne <gbeauchesne@mandrakesoft.com> 0.1.9-14mdk
+- add "iteraid" (IT8212) controller
+- fix GeForce FX 5700/5950, Quadro FX 1100 entries
+- fix empty strings (Erwan)
+- add a new samsung monitor (Alojz Stanich)
+- GeForce 4 => FX (cosmetic change from Thierry)
+
 * Thu Mar 25 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.9-13mdk
 - fix support for some mach64
 - fix wrong module for DECchip 21041 [Tulip Pass 3] (#9159)
