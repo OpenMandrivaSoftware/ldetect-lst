@@ -1,3 +1,97 @@
+2002-03-01 16:23  tvignaud
+
+	* lst/pcitable: - 1 new card
+	- 3 old card that hadn't any modules have one now
+	- fix one typo (s!snd-es1938!snd-card-es1938)
+
+2002-03-01 16:01  tvignaud
+
+	* lst/isatable: final batch of sb isapnp cards (alsa merge has been
+	completed)
+
+2002-03-01 15:50  tvignaud
+
+	* lst/isatable: final batch of cs423x isapnp cards
+
+2002-03-01 15:17  tvignaud
+
+	* lst/isatable: as usual, more isapnp cards...
+
+2002-03-01 14:49  tvignaud
+
+	* lst/isatable: new sound cards
+
+2002-03-01 14:44  tvignaud
+
+	* lst/isatable: many new isapnp cards
+
+2002-03-01 14:00  tvignaud
+
+	* lst/isatable: update
+
+2002-03-01 13:52  tvignaud
+
+	* ldetect-lst.spec: update my changes
+
+2002-03-01 13:51  tvignaud
+
+	* lst/isatable: - sort db - add new cards
+
+2002-03-01 13:38  tvignaud
+
+	* lst/pcitable: add one more joystick
+
+2002-03-01 13:26  tvignaud
+
+	* ldetect-lst.spec: add my changes
+
+2002-03-01 13:15  tvignaud
+
+	* lst/pcitable: - fix another typo - resort the db - add a new i810
+
+2002-03-01 13:10  prigaux
+
+	* Makefile, convert/merge2pcitable.pl, lst/Makefile: add some
+	better checking especially for titi. use "make check"!!
+
+2002-03-01 13:05  tvignaud
+
+	* lst/pcitable: - fix a typo - add 15 cards - update 1 description
+
+2002-03-01 12:43  prigaux
+
+	* ldetect-lst.spec: various s3 changes (Erwan)
+
+2002-02-28 12:17  erwan
+
+	* lst/pcitable: Modified s3 entries
+
+2002-02-28 12:16  erwan
+
+	* lst/pcitable: modified S3 supersavage
+
+2002-02-28 00:23  tvignaud
+
+	* ldetect-lst.spec: yves fsckd in the royal way and forget to
+	commit his spec changes in cvs whereas he bashed a few hours before
+	trainee doing this :-(
+
+2002-02-28 00:02  tvignaud
+
+	* ldetect-lst.spec: new package release
+
+2002-02-27 23:41  tvignaud
+
+	* ldetect-lst.spec: update
+
+2002-02-27 23:40  tvignaud
+
+	* ChangeLog: add ChangeLog
+
+2002-02-27 23:40  tvignaud
+
+	* ldetect-lst.spec: update changelog
+
 2002-02-27 23:32  tvignaud
 
 	* lst/pcitable: - fix 10 incorrect TV card names - add 15 new TV
