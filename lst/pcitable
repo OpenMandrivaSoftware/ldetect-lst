@@ -1623,7 +1623,7 @@
 0x10b7	0x1007	"unknown"	"3Com Corporation|3C556 V.90 Mini-PCI Modem"
 0x10b7	0x1201	"3c59x"	""
 0x10b7	0x1202	"3c59x"	""
-0x10b7	0x1700	"3c940"	"3Com Corporation|3C940 10/100/1000 LAN"
+0x10b7	0x1700	"sk98lin"	"3Com Corporation|3C940 10/100/1000 LAN"
 0x10b7	0x1f1f	"unknown"	"3Com Corporation|3CRWE777A AirConnect Wireless LAN PCI Card"
 0x10b7	0x3390	"tmspci"	"3Com Corporation|Token Link Velocity"
 0x10b7	0x3590	"3c559"	"3Com Corporation|3c359 TokenLink Velocity XL"
