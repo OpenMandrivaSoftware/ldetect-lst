@@ -2814,6 +2814,7 @@
 0x1106	0x3213	"unknown"	"VIA Technologies Inc|PCI to PCI Bridge"
 0x1106	0x3227	"i2c-viapro"	"VIA Technologies Inc|VT8237 PCI-to-ISA Bridge"
 0x1106	0x3238	"unknown"	"VIA Technologies Inc|K8T890 CPU-to-PCI Bridge"
+0x1106	0x3249	"sata_via"	"VIA Technologies Inc|VT6421 SATA Controller"
 0x1106	0x3258	"via-agp"	"VIA Technologies Inc|PCI to PCI Bridge"
 0x1106	0x3259	"unknown"	"VIA Technologies Inc|??? CPU to PCI Bridge"
 0x1106	0x3269	"unknown"	"VIA Technologies Inc|KT880 CPU to PCI Bridge"
