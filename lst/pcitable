@@ -5265,6 +5265,7 @@
 0x8086	0x2641	"unknown"	"Intel Corp.|I/O Controller Hub LPC"
 0x8086	0x2642	"unknown"	"Intel Corp.|I/O Controller Hub LPC"
 0x8086	0x2651	"ata_piix"	"Intel Corp.|82801FB/FW (ICH6/ICH6W) SATA Controller"
+0x8086	0x2652	"unknown"	"Intel Corp.|82801FR/FRW (ICH6R/ICH6RW) SATA Controller"
 0x8086	0x2653	"unknown"	"Intel Corp.|82801FBM (ICH6M) SATA Controller"
 0x8086	0x2658	"unknown"	"Intel Corp.|I/O Controller Hub USB"
 0x8086	0x2659	"unknown"	"Intel Corp.|I/O Controller Hub USB"
