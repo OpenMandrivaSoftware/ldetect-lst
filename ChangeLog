@@ -1,3 +1,24 @@
+2005-01-06 18:46  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.40-1mdk
+
+2005-01-06 18:45  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/usbtable: sync with latest usb.ids
+
+2005-01-06 18:24  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/MonitorsDB: add a new monitor (Marek Laane)
+
+2005-01-06 16:27  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: fix wrong driver for a wifi card (#11393)
+
+2005-01-05 13:25  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* Makefile: (localsrpm) this target doesn't need to update
+	  ChangeLog
+
 2005-01-05 13:23  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* ldetect-lst.spec: update
