@@ -1,10 +1,11 @@
 %define name ldetect-lst
+%define version 0.1.0
 %define release 1mdk
 
 Name: %{name}
 Version: %{version}
 Release: %{release}
-Summary: Hardware list for the detection library
+Summary: Hardware list for the light detection library
 Source: %{name}.tar.bz2
 Group: System/Libraries
 BuildArchitectures: noarch
