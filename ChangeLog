@@ -1,3 +1,41 @@
+2004-09-14 05:31  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.16-5mdk
+
+2004-09-14 03:18  Olivier Blin <oblin@mandrakesoft.com>
+
+	* lst/: usbtable, pcitable: modules::probe_category compliance
+
+2004-09-13 17:25  Olivier Blin <oblin@mandrakesoft.com>
+
+	* lst/: usbtable, pcitable: dsl sl cards can't use capidrv
+
+2004-09-13 17:21  Olivier Blin <oblin@mandrakesoft.com>
+
+	* lst/usbtable: fix typo in descriptions
+
+2004-09-13 08:22  Stew Benedict <sbenedict@mandrakesoft.com>
+
+	* lst/pcitable: Map some Apple hardware (Christiaan Welvaar)
+
+2004-09-13 04:49  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: sync with kernel-2.6.8.1.5mdk
+
+2004-09-09 07:53  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/usbtable: fix usbtable
+
+2004-09-09 07:36  Olivier Blin <oblin@mandrakesoft.com>
+
+	* lst/usbtable: add/update some isdn cards that support capi
+	  drivers only
+
+2004-09-09 07:28  Olivier Blin <oblin@mandrakesoft.com>
+
+	* lst/pcitable: add/update some isdn cards that support capi
+	  drivers only
+
 2004-09-08 11:47  Frederic Lepied <flepied@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.16-4mdk
