@@ -1,3 +1,15 @@
+2004-05-24 17:02  Gwenole Beauchesne <gbeauchesne@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.9-16mdk
+
+2004-05-24 17:02  Gwenole Beauchesne <gbeauchesne@mandrakesoft.com>
+
+	* Makefile: err file no longer exists
+
+2004-05-24 17:01  Gwenole Beauchesne <gbeauchesne@mandrakesoft.com>
+
+	* lst/pcitable: Add Quadro FX 1300 entries, fix Erwan changes
+
 2004-05-12 12:11  Erwan Velu <erwan@mandrakesoft.com>
 
 	* lst/pcitable: Adding some aacraid missing entries
