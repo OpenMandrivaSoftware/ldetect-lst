@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.9
-%define release 4mdk
+%define release 5mdk
 
 Name: %{name}
 Version: %{version}
@@ -64,7 +64,20 @@ fi
 %{_bindir}/*
 
 %changelog
-- update ATI fglrx id
+* Thu Feb 12 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.9-5mdk
+- monitor db:
+  o sync with rh's hwdata-0.105
+  o add support for CTL 910TF monitor (#7664)
+- fixes:
+  o use right module for Zoran ZR36057PQC device (#7654)
+  o do not use ata_piix for ich5 since it failled to handle some ATAPI
+    device in combined mode
+  o airo_mpi is dead, viva el airo (planel)
+- add support for:
+  o SiS Real256E (flepied)
+  o bluetooth USB key (arnaud delorbeau)
+  o support newer ATI (planel)
+
 * Mon Feb  9 2004 Pixel <pixel@mandrakesoft.com> 0.1.9-4mdk
 - all graphic cards now have a DRIVER
 
