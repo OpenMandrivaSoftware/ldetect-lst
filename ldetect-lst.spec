@@ -1,6 +1,6 @@
 %define name ldetect-lst
-%define version 0.1.9
-%define release 16mdk
+%define version 0.1.10
+%define release 1mdk
 
 Name: %{name}
 Version: %{version}
@@ -64,6 +64,17 @@ fi
 %{_bindir}/*
 
 %changelog
+* Tue Jun 15 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.10-1mdk
+- add madwifi_pci for 16c8 0013 (arnaud)
+- add module yenta_socket for the 0x1217 0x7114 (arnaud)
+- add slamr (slmodem) for 10b9 5457 (arnaud)
+- adding usb modules for dell PE750 (erwan)
+- CB1410 Cardbus Controller works with yenta_socket (arnaud)
+- default to tg3 instead of bcm5700 for a few chip names (arnaud)
+- list some cardbus controlers from pciids.sourceforge.net (arnaud)
+- rename "NeoMagic (laptop/notebook)" to "NeoMagic MagicGraph
+  (laptop/notebook)" (pixel) (#4686)
+
 * Mon May 24 2004 Gwenole Beauchesne <gbeauchesne@mandrakesoft.com> 0.1.9-16mdk
 - Add Quadro FX 1300 entry
 - Fix module loading initio -> a100u2w (nicolas)
