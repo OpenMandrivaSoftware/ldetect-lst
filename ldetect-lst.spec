@@ -64,6 +64,8 @@ fi
 %{_bindir}/*
 
 %changelog
+- add 2 monitors (thanks to Frederik Himpe, bugzilla #6710)
+
 * Fri Dec 12 2003 Pixel <pixel@mandrakesoft.com> 0.1.8-13mdk
 - use fbdev for some radeon's
 - added new usbid for compatible adiusbadsl modem. (fpons)
