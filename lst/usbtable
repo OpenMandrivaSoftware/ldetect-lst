@@ -1502,6 +1502,7 @@
 0x047e	0x1001	"uss720"	"Lucent Microelectronics|USS720 Parallel Port"
 0x047e	0xf101	"unknown"	"Lucent Microelectronics|Atlas Modem"
 0x0482	0x000e	"unknown"	"Kyocera Corp.|FS-1020D Printer"
+0x0483	0x0137	"unknown"	"SGS Thomson Microelectronics|Fastrate USB 100 [Unicorn] ADSL MODEM"
 0x0483	0x1307	"unknown"	"SGS Thomson Microelectronics|Cytronix 6in1 card reader"
 0x0483	0x163d	"unknown"	"SGS Thomson Microelectronics|Cool Icam Digi-MP3"
 0x0483	0x4810	"ISDN:hisax_st5481"	"Bewan/Gazel|ISDN USB card compatible"
