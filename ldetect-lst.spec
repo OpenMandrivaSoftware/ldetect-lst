@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.51
+%define version 0.1.52
 %define release 1mdk
 
 Name: %{name}
@@ -64,6 +64,10 @@ fi
 %{_bindir}/*
 
 %changelog
+* Mon Jan 24 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.52-1mdk
+- add support for one ATI and two ICH7 SATA controllers
+- add a new Samsung monitor (Albert Astals Cid)
+
 * Thu Jan 20 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.51-1mdk
 - "snd-audigyls" ALSA driver was renamed "snd-ca0106"
 - add SATA support for ICH7
