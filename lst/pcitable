@@ -2587,7 +2587,7 @@
 0x10de	0x0113	"Card:NVIDIA GeForce2 DDR (generic)"	"nVidia Corp.|NV11 Quadro2 MXR/EX/Go"
 0x10de	0x0140	"unknown"	"nVidia Corporation|NV43 [MSI NX6600GT-TD128E]"
 0x10de	0x0141	"Card:NVIDIA GeForce FX (generic)"	"nVidia Corp.|Geforce NX 6600"
-0x10de	0x014f	"Card:NVIDIA GeForce2 DDR (generic)"	"nVidia Corp.|Geforce NX 6200"
+0x10de	0x014f	"Card:NVIDIA GeForce FX (generic)"	"nVidia Corp.|Geforce NX 6200"
 0x10de	0x0150	"Card:NVIDIA GeForce2 DDR (generic)"	"nVidia Corp.|NV15 Geforce2 GTS"
 0x10de	0x0151	"Card:NVIDIA GeForce2 DDR (generic)"	"nVidia Corp.|NV15 Geforce2 Ti"
 0x10de	0x0152	"Card:NVIDIA GeForce2 DDR (generic)"	"nVidia Corp.|NV15 Bladerunner (GeForce2 Ultra)"
