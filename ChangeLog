@@ -1,3 +1,33 @@
+2005-02-09 12:48  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.60-1mdk
+
+2005-02-09 11:52  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: update bogus descriptions from pci.ids
+
+2005-02-08 20:38  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: fix support for one modem (vguardiola) and update
+	  its description from pci.ids btw
+
+2005-02-08 20:14  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: add 2 missing entries from kernel-2.6.10-1mdk
+
+2005-02-08 20:11  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: km_drv is used to capture tv on ATI cards, thus all
+	  pci ids it reclaims are gfx cards; this one is a radeon LE
+
+2005-02-08 20:01  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: fix i915 description
+
+2005-02-08 19:58  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: fill in a few ipw2200 descriptions from ipw2200.c
+
 2005-02-08 12:32  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.59-1mdk
