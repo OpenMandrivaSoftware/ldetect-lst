@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.8
-%define release 5mdk
+%define release 6mdk
 
 Name: %{name}
 Version: %{version}
@@ -64,6 +64,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Wed Sep 17 2003 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.8-6mdk
+- use right driver for ali sound card (#2203)
+
 * Fri Sep 12 2003 Frederic Lepied <flepied@mandrakesoft.com> 0.1.8-5mdk
 - added Omnikey Cardman ids
 
