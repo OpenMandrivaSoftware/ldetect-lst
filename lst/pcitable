@@ -2358,7 +2358,7 @@
 0x1223	0x000e	"unknown"	"Artesyn Communication Products|PM/PPC"
 0x122d	0x1206	"unknown"	"Aztech System Ltd|368DSP"
 0x122d	0x50dc	"unknown"	"Aztech System Ltd|3328 Audio"
-0x122d	0x80da	"unknown"	"Aztech System Ltd|3328 Audio"
+0x122d	0x80da	"snd-azt3328"	"Aztech System Ltd|3328 Audio (AZF3328, PCI168)"
 0x1236	0x0000	"unknown"	"Sigma Designs Corporation|RealMagic64/GX"
 0x1236	0x6401	"unknown"	"Sigma Designs Corporation|REALmagic 64/GX (SD 6425)"
 0x123d	0x0000	"unknown"	"Engineering Design Team, Inc.|EasyConnect 8/32"
