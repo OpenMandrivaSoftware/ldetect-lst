@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.76
+%define version 0.1.77
 %define release 1mdk
 
 Name: %{name}
@@ -63,6 +63,11 @@ fi
 %{_bindir}/*
 
 %changelog
+* Wed Mar 30 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.77-1mdk
+- add Fastrate USB 100 modem (blino)
+- add support for NX6600GT (chandra, #14977)
+- sync with kernel-2.6.12-rc1-mm2
+
 * Wed Mar 23 2005 Pixel <pixel@mandrakesoft.com> 0.1.76-1mdk
 - force overrideValidateMode on neomagic (which has pbs detecting the size of the LCD panel)
 - allow 3D on S3 UniChrome
