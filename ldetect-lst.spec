@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.2
-%define release 19mdk
+%define release 20mdk
 
 Name: %{name}
 Version: %{version}
@@ -48,8 +48,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/*
 
 %changelog
-
-- Matrox Millenium card are supported by XF4.
+* Thu Aug 30 2001 Pixel <pixel@mandrakesoft.com> 0.1.2-20mdk
+- cleanup some bttv
+- Matrox Millenium card are supported by XF4 (fpons)
 
 * Wed Aug 29 2001 Frederic Lepied <flepied@mandrakesoft.com> 0.1.2-19mdk
 - updated wacom usb entries.
