@@ -1,64 +1,170 @@
-2002-03-01 16:23  tvignaud
+2002-06-19 10:55  Guillaume Cottenceau <gc@mandrakesoft.com>
 
-	* lst/pcitable: - 1 new card
-	- 3 old card that hadn't any modules have one now
-	- fix one typo (s!snd-es1938!snd-card-es1938)
+	* lst/pcitable: s/de4x5/tulip/ thanks to juan
 
-2002-03-01 16:01  tvignaud
+2002-06-05 14:51  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: restore via8233 sound support
+
+2002-05-24 11:36  Fançois Pons <fpons@mandrakesoft.com>
+
+	* lst/pcitable: added 0x8086 0x1039
+
+2002-05-16 17:01  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: change one cirrus from oss to alsa as alsa seems to
+	be better for this one
+
+2002-05-06 20:49  Pixel <pixel@mandrakesoft.com>
+
+	* AUTHORS: [no log message]
+
+2002-04-25 19:38  Fançois Pons <fpons@mandrakesoft.com>
+
+	* ldetect-lst.spec: HP sync.
+
+2002-04-25 19:37  Fançois Pons <fpons@mandrakesoft.com>
+
+	* lst/usbtable: added HP wheel mouse and keyboard (need
+	consolidation).
+
+2002-04-25 19:36  Fançois Pons <fpons@mandrakesoft.com>
+
+	* lst/pcitable: sync with HP stuff.
+
+2002-04-07 22:11  Yves Duret <yduret@mandrakesoft.com>
+
+	* lst/ScannerDB: added Agfa Snapscan Touch and fixed HP 2200c entry
+	(unsupported both)
+
+2002-03-21 13:56  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: Provides: hwdata for newer kudzu
+
+2002-03-14 18:44  Fançois Pons <fpons@mandrakesoft.com>
+
+	* lst/pcitable: fixes ? in description (by titi)
+
+2002-03-14 18:37  Fançois Pons <fpons@mandrakesoft.com>
+
+	* ldetect-lst.spec, convert/merge2pcitable.pl: fixes for new
+	release.
+
+2002-03-14 18:32  Fançois Pons <fpons@mandrakesoft.com>
+
+	* lst/: pcitable, usbtable: fix doubles.
+
+2002-03-14 18:01  Fançois Pons <fpons@mandrakesoft.com>
+
+	* lst/pcitable: fix titi sucking
+
+2002-03-14 18:00  erwan
+
+	* lst/pcitable: Fixing wrong module for xircom pcmcia combo card
+
+2002-03-14 17:57  Fançois Pons <fpons@mandrakesoft.com>
+
+	* convert/merge2pcitable.pl: added check for verifying if a missing
+	quote has been put on module or description.
+
+2002-03-14 17:23  erwan
+
+	* lst/pcitable: Fixing SB Audigy processor and game port
+
+2002-03-14 12:51  Yves Duret <yduret@mandrakesoft.com>
+
+	* lst/ScannerDB: microtekX6 does not have Vendor string in scsi
+	ids. (scisi over usb)
+
+2002-03-13 12:26  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: disable snd-card-via8233 support because of bugs
+
+2002-03-10 16:22  Yves Duret <yduret@mandrakesoft.com>
+
+	* lst/ScannerDB: added ASK DEVICE
+
+2002-03-05 21:44  Guillaume Cottenceau <gc@mandrakesoft.com>
+
+	* lst/pcitable: seems that 0x1013 0x1100 "Cirrus Logic|CL 6729"
+	uses oldskool i82365 rather than yenta_socket :-(
+
+2002-03-05 12:45  Chmouel Boudjnah <chmouel@mandrakesoft.com>
+
+	* lst/pcitable: Add USB2.0 Controller
+
+2002-03-04 10:53  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: switch a card from alsa to oss
+
+2002-03-04 08:59  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/usbtable: add an usb mouse (Andreas Simon)
+
+2002-03-01 16:28  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: changelog
+
+2002-03-01 16:23  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: - 1 new card - 3 old card that hadn't any modules
+	have one now - fix one typo (s!snd-es1938!snd-card-es1938)
+
+2002-03-01 16:01  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* lst/isatable: final batch of sb isapnp cards (alsa merge has been
 	completed)
 
-2002-03-01 15:50  tvignaud
+2002-03-01 15:50  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* lst/isatable: final batch of cs423x isapnp cards
 
-2002-03-01 15:17  tvignaud
+2002-03-01 15:17  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* lst/isatable: as usual, more isapnp cards...
 
-2002-03-01 14:49  tvignaud
+2002-03-01 14:49  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* lst/isatable: new sound cards
 
-2002-03-01 14:44  tvignaud
+2002-03-01 14:44  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* lst/isatable: many new isapnp cards
 
-2002-03-01 14:00  tvignaud
+2002-03-01 14:00  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* lst/isatable: update
 
-2002-03-01 13:52  tvignaud
+2002-03-01 13:52  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* ldetect-lst.spec: update my changes
 
-2002-03-01 13:51  tvignaud
+2002-03-01 13:51  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* lst/isatable: - sort db - add new cards
 
-2002-03-01 13:38  tvignaud
+2002-03-01 13:38  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* lst/pcitable: add one more joystick
 
-2002-03-01 13:26  tvignaud
+2002-03-01 13:26  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* ldetect-lst.spec: add my changes
 
-2002-03-01 13:15  tvignaud
+2002-03-01 13:15  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* lst/pcitable: - fix another typo - resort the db - add a new i810
 
-2002-03-01 13:10  prigaux
+2002-03-01 13:10  Pixel <pixel@mandrakesoft.com>
 
 	* Makefile, convert/merge2pcitable.pl, lst/Makefile: add some
 	better checking especially for titi. use "make check"!!
 
-2002-03-01 13:05  tvignaud
+2002-03-01 13:05  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* lst/pcitable: - fix a typo - add 15 cards - update 1 description
 
-2002-03-01 12:43  prigaux
+2002-03-01 12:43  Pixel <pixel@mandrakesoft.com>
 
 	* ldetect-lst.spec: various s3 changes (Erwan)
 
@@ -70,113 +176,109 @@
 
 	* lst/pcitable: modified S3 supersavage
 
-2002-02-28 00:23  tvignaud
+2002-02-28 00:23  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* ldetect-lst.spec: yves fsckd in the royal way and forget to
 	commit his spec changes in cvs whereas he bashed a few hours before
 	trainee doing this :-(
 
-2002-02-28 00:02  tvignaud
+2002-02-28 00:02  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* ldetect-lst.spec: new package release
 
-2002-02-27 23:41  tvignaud
+2002-02-27 23:41  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* ldetect-lst.spec: update
 
-2002-02-27 23:40  tvignaud
-
-	* ChangeLog: add ChangeLog
-
-2002-02-27 23:40  tvignaud
+2002-02-27 23:40  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* ldetect-lst.spec: update changelog
 
-2002-02-27 23:32  tvignaud
+2002-02-27 23:32  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* lst/pcitable: - fix 10 incorrect TV card names - add 15 new TV
 	cards
 
-2002-02-27 20:32  gc
+2002-02-27 20:32  Guillaume Cottenceau <gc@mandrakesoft.com>
 
 	* lst/pcitable: remove duplicate entry (quintela sucks)
 
-2002-02-27 20:31  gc
+2002-02-27 20:31  Guillaume Cottenceau <gc@mandrakesoft.com>
 
 	* lst/pcitable: be sure to have \t everywhere
 
-2002-02-27 12:42  gc
+2002-02-27 12:42  Guillaume Cottenceau <gc@mandrakesoft.com>
 
 	* lst/pcitable: three other O2 Micro CardBus controllers
 
-2002-02-23 14:34  fpons
+2002-02-23 14:34  Fançois Pons <fpons@mandrakesoft.com>
 
 	* lst/Cards+: added SiS 640 in card supported by XFree 4.
 
-2002-02-22 16:30  prigaux
+2002-02-22 16:30  Pixel <pixel@mandrakesoft.com>
 
 	* lst/pcitable: s/53c7,8xx/sym53c8xx/
 
-2002-02-20 22:13  prigaux
+2002-02-20 22:13  Pixel <pixel@mandrakesoft.com>
 
 	* ldetect-lst.spec: lst/usbtable: add 3 mice
 
-2002-02-20 22:13  prigaux
+2002-02-20 22:13  Pixel <pixel@mandrakesoft.com>
 
 	* lst/usbtable: add 3 mice
 
-2002-02-18 18:28  yduret
+2002-02-18 18:28  Yves Duret <yduret@mandrakesoft.com>
 
 	* lst/ScannerDB: fix Connectix entries (qcam server)
 
-2002-02-18 18:24  yduret
+2002-02-18 18:24  Yves Duret <yduret@mandrakesoft.com>
 
 	* lst/ScannerDB: added support for Hewlett-Packard OfficeJet series
 
-2002-02-18 17:22  yduret
+2002-02-18 17:22  Yves Duret <yduret@mandrakesoft.com>
 
 	* lst/ScannerDB: fix Bell and Howell entries
 
-2002-02-18 15:09  fpons
+2002-02-18 15:09  Fançois Pons <fpons@mandrakesoft.com>
 
 	* lst/Cards+: KYRO uses fbdev instead of vesa.
 
-2002-02-18 10:04  fpons
+2002-02-18 10:04  Fançois Pons <fpons@mandrakesoft.com>
 
 	* lst/Cards+: added GD5480 as working under XF 4.2 (Juan)
 
-2002-02-18 03:07  yduret
+2002-02-18 03:07  Yves Duret <yduret@mandrakesoft.com>
 
 	* lst/usbtable: sync with scanner.{c,h} version 0.47 from david
 	nelson
 
-2002-02-18 03:06  yduret
+2002-02-18 03:06  Yves Duret <yduret@mandrakesoft.com>
 
 	* lst/ScannerDB: sync with sane 1.0.7
 
-2002-02-18 02:41  yduret
+2002-02-18 02:41  Yves Duret <yduret@mandrakesoft.com>
 
 	* lst/ScannerDB: ci before big merge
 
-2002-02-18 00:53  yduret
+2002-02-18 00:53  Yves Duret <yduret@mandrakesoft.com>
 
 	* lst/usbtable: - fix HP scanner entry. the trailing C need to be
 	in CAPITAL letter. i say CAPITAL.  - added some HP models
 
-2002-02-17 15:29  yduret
+2002-02-17 15:29  Yves Duret <yduret@mandrakesoft.com>
 
 	* lst/: ScannerDB, usbtable: added more snapscan escanners + some
 	add in usbtable (kbd..)
 
-2002-02-17 13:43  yduret
+2002-02-17 13:43  Yves Duret <yduret@mandrakesoft.com>
 
 	* lst/ScannerDB: mustek_pp updated
 
-2002-02-17 02:55  yduret
+2002-02-17 02:55  Yves Duret <yduret@mandrakesoft.com>
 
 	* lst/ScannerDB: one more HP escanner..
 
-2002-02-17 02:18  yduret
+2002-02-17 02:18  Yves Duret <yduret@mandrakesoft.com>
 
 	* lst/ScannerDB: some HP escanners added (but in UNSUPPORTED :(
 
@@ -184,192 +286,192 @@
 
 	* lst/pcitable: use new qlogic drivers by default
 
-2002-02-14 23:43  prigaux
+2002-02-14 23:43  Pixel <pixel@mandrakesoft.com>
 
 	* ldetect-lst.spec: - add BuildRequires: perl-MDK-Common - GeForce
 	Integrated use fbdev driver instead of nv (freeze).
 
-2002-02-14 12:06  tvignaud
+2002-02-14 12:06  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* lst/pcitable: s/cmpci/snd-card-cmipci/ since cmpci seems less
 	ususable than ALSA.
 
-2002-02-11 17:41  fpons
+2002-02-11 17:41  Fançois Pons <fpons@mandrakesoft.com>
 
 	* lst/Cards+, lst/pcitable, ldetect-lst.spec: GeForce Integrated
 	really prefer fbdev instead of nv (else freeze).
 
-2002-02-11 17:03  prigaux
+2002-02-11 17:03  Pixel <pixel@mandrakesoft.com>
 
 	* ldetect-lst.spec, lst/Makefile: fix the comment for accessing the
 	CVS version
 
-2002-02-07 23:28  prigaux
+2002-02-07 23:28  Pixel <pixel@mandrakesoft.com>
 
 	* ldetect-lst.spec, update-ldetect-lst: upgrading the package
 	should now work... using trigger :-(
 
-2002-02-07 22:09  prigaux
+2002-02-07 22:09  Pixel <pixel@mandrakesoft.com>
 
 	* Makefile, Makefile.config, ldetect-lst.spec, update-ldetect-lst,
 	lst/Makefile: adding update-ldetect-lst to take care of
 	directorized pcitable/usbtable/...
 
-2002-02-05 12:25  prigaux
+2002-02-05 12:25  Pixel <pixel@mandrakesoft.com>
 
 	* ldetect-lst.spec: fix usbtable merge with kernel usbmap
 
-2002-02-05 12:24  prigaux
+2002-02-05 12:24  Pixel <pixel@mandrakesoft.com>
 
 	* lst/usbtable: fix merge kernel usbmap
 
-2002-02-05 12:08  yduret
+2002-02-05 12:08  Yves Duret <yduret@mandrakesoft.com>
 
 	* lst/ScannerDB: 1240U Photo
 
-2002-02-05 12:07  yduret
+2002-02-05 12:07  Yves Duret <yduret@mandrakesoft.com>
 
 	* lst/usbtable: 0x04b8	0x010b	"scanner"	"Seiko Epson
 	Corp.|Perfection 1240U"
 
-2002-02-05 11:51  yduret
+2002-02-05 11:51  Yves Duret <yduret@mandrakesoft.com>
 
 	* lst/ScannerDB: fix pbs in HP scanner usb
 
-2002-02-05 11:45  yduret
+2002-02-05 11:45  Yves Duret <yduret@mandrakesoft.com>
 
 	* lst/ScannerDB: added BW4830Pro thx MdkForum
 
-2002-01-30 20:27  prigaux
+2002-01-30 20:27  Pixel <pixel@mandrakesoft.com>
 
 	* ldetect-lst.spec: replace a de4x5 with tulip
 
-2002-01-28 20:09  prigaux
+2002-01-28 20:09  Pixel <pixel@mandrakesoft.com>
 
 	* lst/pcitable: replaced de4x5 by tulip (asked by andre
 	<andre@node1583e.a2000.nl> on cooker)
 
-2002-01-28 01:18  prigaux
+2002-01-28 01:18  Pixel <pixel@mandrakesoft.com>
 
 	* ldetect-lst.spec, lst/pcitable, lst/usbtable: - pcitable: merge
 	with redhat's pcitable, XFree86, vendors.txt, modules.pcimap -
 	usbtable: merge with modules.usbmap, usb.ids
 
-2002-01-28 01:16  prigaux
+2002-01-28 01:16  Pixel <pixel@mandrakesoft.com>
 
 	* convert/merge2pcitable.pl: read_pciids: make it more bullet proof
 
-2002-01-28 00:21  prigaux
+2002-01-28 00:21  Pixel <pixel@mandrakesoft.com>
 
 	* convert/merge2pcitable.pl: keep bcm5700 module
 
-2002-01-27 23:48  prigaux
+2002-01-27 23:48  Pixel <pixel@mandrakesoft.com>
 
 	* convert/merge2pcitable.pl: we now want yenta_socket
 
-2002-01-25 16:36  prigaux
+2002-01-25 16:36  Pixel <pixel@mandrakesoft.com>
 
 	* ldetect-lst.spec, lst/pcitable: s/ncr53c8xx/sym53c8xx/
 
-2002-01-22 16:40  fpons
+2002-01-22 16:40  Fançois Pons <fpons@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.2-35mdk
 
-2002-01-22 16:37  fpons
+2002-01-22 16:37  Fançois Pons <fpons@mandrakesoft.com>
 
 	* lst/usbtable: fixed some typos (please do not use space for
 	separator, use tab).
 
-2002-01-22 16:35  fpons
+2002-01-22 16:35  Fançois Pons <fpons@mandrakesoft.com>
 
 	* lst/pcitable: fixed typo at line 664.
 
-2002-01-22 16:32  fpons
+2002-01-22 16:32  Fançois Pons <fpons@mandrakesoft.com>
 
 	* lst/pcitable: small fixes for i830 agpgart reference (does we
 	need that ?)
 
-2002-01-22 16:29  fpons
+2002-01-22 16:29  Fançois Pons <fpons@mandrakesoft.com>
 
 	* lst/Cards+: made trident driver available for card that (may?)
 	support it, but keep UNSUPPORTED flag.
 
-2002-01-22 16:25  fpons
+2002-01-22 16:25  Fançois Pons <fpons@mandrakesoft.com>
 
 	* lst/Cards+: Rendition Verite 1000, 2x00 are supported by 4.2.0.
 
-2002-01-22 16:23  fpons
+2002-01-22 16:23  Fançois Pons <fpons@mandrakesoft.com>
 
 	* lst/pcitable: new entry for Card:NeoMagic MagicMedia
 	(laptop/notebook) only supported by 4.2.0 (NM2230 and later).
 
-2002-01-22 16:22  fpons
+2002-01-22 16:22  Fançois Pons <fpons@mandrakesoft.com>
 
 	* lst/Cards+: Make some NeoMagic card running only 4.2.0.
 
-2002-01-22 16:16  fpons
+2002-01-22 16:16  Fançois Pons <fpons@mandrakesoft.com>
 
 	* lst/Cards+: cyrix driver stated as running (feedback wanted
 	though)
 
-2002-01-22 14:57  fpons
+2002-01-22 14:57  Fançois Pons <fpons@mandrakesoft.com>
 
 	* lst/Cards+: Chips and Technologies card supported by XFree86
 	4.2.0.
 
-2002-01-22 14:54  fpons
+2002-01-22 14:54  Fançois Pons <fpons@mandrakesoft.com>
 
 	* lst/Cards+: fixed an old ATI Mach8 card reference not marked as
 	UNSUPPORTED (and should be).
 
-2002-01-22 14:52  fpons
+2002-01-22 14:52  Fançois Pons <fpons@mandrakesoft.com>
 
 	* lst/Cards+: added Ark Logic card support by XFree86 4.2.0 using
 	ark driver.
 
-2002-01-22 14:50  fpons
+2002-01-22 14:50  Fançois Pons <fpons@mandrakesoft.com>
 
 	* lst/Cards+: added Card:AT25 only for XFree86 4.2.0.
 
-2002-01-22 14:49  fpons
+2002-01-22 14:49  Fançois Pons <fpons@mandrakesoft.com>
 
 	* lst/pcitable: added Alliance AT25 support.
 
-2002-01-22 14:42  fpons
+2002-01-22 14:42  Fançois Pons <fpons@mandrakesoft.com>
 
 	* lst/Cards+: SiS 300 is said to have problems with XFree 4.2.0.
 
-2002-01-22 14:39  fpons
+2002-01-22 14:39  Fançois Pons <fpons@mandrakesoft.com>
 
 	* lst/pcitable: Using new Card:3Dlabs Permedia4 (generic) for card
 	not supported by XF3.3.6.
 
-2002-01-22 14:39  fpons
+2002-01-22 14:39  Fançois Pons <fpons@mandrakesoft.com>
 
 	* lst/Cards+: Create a 3DLabs Permedia4 (generic) card (not
 	supported in 3.3.6)
 
-2002-01-22 14:28  fpons
+2002-01-22 14:28  Fançois Pons <fpons@mandrakesoft.com>
 
 	* lst/Cards+: marked all cards using 964, 968, Trio32, Trio64,
 	Trio64V+, Trio64UV+, Aurora64V+, Trio64V2, Plato/PX as running with
 	XFree 4.2.0.
 
-2002-01-21 19:37  fpons
+2002-01-21 19:37  Fançois Pons <fpons@mandrakesoft.com>
 
 	* lst/Cards+: added Card:Intel 830
 
-2002-01-21 19:34  fpons
+2002-01-21 19:34  Fançois Pons <fpons@mandrakesoft.com>
 
 	* lst/pcitable: Intel 830 support (with Card)
 
-2002-01-21 19:24  fpons
+2002-01-21 19:24  Fançois Pons <fpons@mandrakesoft.com>
 
 	* lst/Cards+: changed all S3 card to use DRIVER s3 but keep
 	UNSUPPORTED flag, waiting for detailed documentation from XFree to
 	choose the chipset supported.
 
-2002-01-21 12:02  gc
+2002-01-21 12:02  Guillaume Cottenceau <gc@mandrakesoft.com>
 
 	* lst/Cards+: 86c968 seems to work with XF4/vesa rather than XF3/s3
 
@@ -381,7 +483,7 @@
 
 	* lst/pcitable: Fixing & Adding Apple devices
 
-2002-01-15 00:08  gc
+2002-01-15 00:08  Guillaume Cottenceau <gc@mandrakesoft.com>
 
 	* lst/pcitable: 0x106b 0x002: replace "sungem" with "gmac"   (Ian
 	White <iwhite@victoria.tc.ca>) 0x104c 0x8020: use "ohci1394" (sub
@@ -395,11 +497,11 @@
 
 	* lst/pcitable: added some entries for i830 chipset
 
-2002-01-12 20:46  prigaux
+2002-01-12 20:46  Pixel <pixel@mandrakesoft.com>
 
 	* ldetect-lst.spec: [no log message]
 
-2002-01-12 18:48  prigaux
+2002-01-12 18:48  Pixel <pixel@mandrakesoft.com>
 
 	* lst/pcitable: fix bad spaces with tabulations
 
@@ -416,20 +518,20 @@
 
 	* lst/pcitable: Adding module for 1022:7414
 
-2001-12-18 18:07  yduret
+2001-12-18 18:07  Yves Duret <yduret@mandrakesoft.com>
 
 	* lst/Makefile: fix scannerDB.gz creation..
 
-2001-12-18 17:59  yduret
+2001-12-18 17:59  Yves Duret <yduret@mandrakesoft.com>
 
 	* lst/usbtable: who is the mother fucker who used space instead of
 	tab ?!
 
-2001-12-18 17:56  yduret
+2001-12-18 17:56  Yves Duret <yduret@mandrakesoft.com>
 
 	* lst/usbtable: fix typo
 
-2001-12-18 17:53  yduret
+2001-12-18 17:53  Yves Duret <yduret@mandrakesoft.com>
 
 	* lst/Makefile: compress scannerDB
 
@@ -445,64 +547,64 @@
 
 	* lst/pcitable: Adding some descriptions to CMD Technology Devices
 
-2001-12-14 17:08  gc
+2001-12-14 17:08  Guillaume Cottenceau <gc@mandrakesoft.com>
 
 	* lst/pcitable: i82365 -> yenta_socket
 
-2001-12-11 14:48  gbeauchesne
+2001-12-11 14:48  Gwenole Beauchesne <gbeauchesne@mandrakesoft.com>
 
 	* ldetect-lst.spec, lst/pcitable, lst/pcitable.ia64: - Add
 	IBM|ServeRAID-4Lx and IBM|ServeRAID-4Mx PCI IDs - On IA-64, suggest
 	"qlogicfc" for Q Logic { 2100, 2200 } cards, since we still don't
 	use qla2200 v5.31 in main kernels
 
-2001-12-04 15:03  sbenedict
+2001-12-04 15:03  Stew Benedict <sbenedict@mandrakesoft.com>
 
 	* lst/pcitable: add module identifier ohci1394 to device 104c:8019
 	Texas Instruments|TSB12LV23 OHCI Compliant IEEE-1394 Controller
 
-2001-12-04 12:26  gc
+2001-12-04 12:26  Guillaume Cottenceau <gc@mandrakesoft.com>
 
 	* lst/MonitorsDB: add monitor from thomas poindessous
 	<poinde_t@epita.fr>
 
-2001-12-02 17:43  gc
+2001-12-02 17:43  Guillaume Cottenceau <gc@mandrakesoft.com>
 
 	* lst/MonitorsDB: add Goldstar LG StudioWorks77i provided by
 	Mickael Bouillard <rylecqfd@hotmail.com>
 
-2001-11-27 18:25  yduret
+2001-11-27 18:25  Yves Duret <yduret@mandrakesoft.com>
 
 	* lst/ScannerDB: added Seiko Epson Corp.|Perfection 1650 Photo
 
-2001-11-26 16:09  damien
+2001-11-26 16:09  Dam's <damien@mandrakesoft.com>
 
 	* lst/pcitable: typo
 
-2001-11-26 16:07  damien
+2001-11-26 16:07  Dam's <damien@mandrakesoft.com>
 
 	* lst/pcitable: corrected cryo label added bewan adsl pci modem
 
-2001-11-23 14:02  siegel
+2001-11-23 14:02  Stefan Siegel <siegel@linux-mandrake.com>
 
 	* lst/pcitable: - 0x136b 0xff01 "Kawasaki Steel Corporation|MEYE
 	Video Adapter" - 0x9004 0xffff "Unknown Vendor|AIC7xxx compatible
 	SCSI controller" - 0x9005 0xffff "Unknown Vendor|AIC7xxx compatible
 	SCSI controller"
 
-2001-11-23 13:41  siegel
+2001-11-23 13:41  Stefan Siegel <siegel@linux-mandrake.com>
 
 	* lst/usbtable: added driver for Samsung MPC-C30 USB webcam
 
-2001-11-12 10:23  yduret
+2001-11-12 10:23  Yves Duret <yduret@mandrakesoft.com>
 
 	* ldetect-lst.spec: -32mdk
 
-2001-11-12 10:19  yduret
+2001-11-12 10:19  Yves Duret <yduret@mandrakesoft.com>
 
 	* lst/ScannerDB: the really big heavy fat update
 
-2001-10-16 16:11  gc
+2001-10-16 16:11  Guillaume Cottenceau <gc@mandrakesoft.com>
 
 	* lst/MonitorsDB: Dell 791 doesn't exist, this was a typo, this
 	991.  Thanks to Alexander Kirillov <kirillov@math.sunysb.edu>.
@@ -511,42 +613,42 @@
 
 	* lst/usbtable: Added Espon Perfection 1650 Photo Usb Scanner
 
-2001-10-10 15:57  yduret
+2001-10-10 15:57  Yves Duret <yduret@mandrakesoft.com>
 
 	* ldetect-lst.spec: -31 i saied !
 
-2001-10-10 15:54  yduret
+2001-10-10 15:54  Yves Duret <yduret@mandrakesoft.com>
 
 	* ldetect-lst.spec: -31mdk
 
-2001-10-10 15:54  yduret
+2001-10-10 15:54  Yves Duret <yduret@mandrakesoft.com>
 
 	* lst/Makefile: added ScannerDB in install
 
-2001-10-10 14:38  yduret
+2001-10-10 14:38  Yves Duret <yduret@mandrakesoft.com>
 
 	* lst/usbtable: added scanner entries
 
-2001-10-10 14:34  yduret
+2001-10-10 14:34  Yves Duret <yduret@mandrakesoft.com>
 
 	* lst/ScannerDB: first version
 
-2001-10-09 11:05  gbeauchesne
+2001-10-09 11:05  Gwenole Beauchesne <gbeauchesne@mandrakesoft.com>
 
 	* ldetect-lst.spec: - Now arch-dependant - Use "e100" on IA-64 for
 	drivers = { 0x1229, 0x2449 }
 
-2001-10-09 10:49  gbeauchesne
+2001-10-09 10:49  Gwenole Beauchesne <gbeauchesne@mandrakesoft.com>
 
 	* lst/pcitable.ia64: - pcitable.ia64: New. Do use "e100" driver by
 	default for devices = { 0x1229,   0x2449 }.
 
-2001-10-08 18:36  prigaux
+2001-10-08 18:36  Pixel <pixel@mandrakesoft.com>
 
 	* lst/Makefile: add handling of pcitable.$(arch) and
 	usbtable.$(arch) which overrides what's in pcitable/usbtable
 
-2001-10-03 23:12  prigaux
+2001-10-03 23:12  Pixel <pixel@mandrakesoft.com>
 
 	* lst/MonitorsDB: add some Cybervision's (Jorg <jorgp@bartnet.net>)
 
@@ -555,29 +657,29 @@
 	* lst/pcitable: Fixing lots of null entries such as 0x1023 0x1236
 	"" using www.yourvote.com/pci
 
-2001-10-02 20:33  chmouel
+2001-10-02 20:33  Chmouel Boudjnah <chmouel@mandrakesoft.com>
 
 	* convert/README.pcitable: add information about adress
 	(http://www.yourvote.com/pci/vendors.txt) where to get pci device
 	name
 
-2001-10-02 20:19  prigaux
+2001-10-02 20:19  Pixel <pixel@mandrakesoft.com>
 
 	* convert/merge2pcitable.pl: (read_pciids): lowercase ids
 
-2001-10-02 18:41  yduret
+2001-10-02 18:41  Yves Duret <yduret@mandrakesoft.com>
 
 	* ldetect-lst.spec: -28mdk
 
-2001-10-02 18:39  yduret
+2001-10-02 18:39  Yves Duret <yduret@mandrakesoft.com>
 
 	* lst/usbtable: fix typos in usb scanner
 
-2001-10-02 17:47  chmouel
+2001-10-02 17:47  Chmouel Boudjnah <chmouel@mandrakesoft.com>
 
 	* lst/pcitable: Add i830 USB Host (erwan)
 
-2001-10-01 15:01  prigaux
+2001-10-01 15:01  Pixel <pixel@mandrakesoft.com>
 
 	* lst/pcitable: add hptraid
 
@@ -600,172 +702,172 @@
 	* lst/pcitable: Adding and changing name of conexant winmodem id
 	1815 & 1803
 
-2001-09-24 17:50  damien
+2001-09-24 17:50  Dam's <damien@mandrakesoft.com>
 
 	* lst/pcitable: corrected isdn vendor id
 
-2001-09-24 16:28  prigaux
+2001-09-24 16:28  Pixel <pixel@mandrakesoft.com>
 
 	* ldetect-lst.spec: [no log message]
 
-2001-09-24 16:27  prigaux
+2001-09-24 16:27  Pixel <pixel@mandrakesoft.com>
 
 	* lst/pcitable: replace ns558 by emu10k1-gp (Planel Nicolas)
 
-2001-09-21 16:40  gc
+2001-09-21 16:40  Guillaume Cottenceau <gc@mandrakesoft.com>
 
 	* ldetect-lst.spec: fuck the world
 
-2001-09-21 16:39  gc
+2001-09-21 16:39  Guillaume Cottenceau <gc@mandrakesoft.com>
 
 	* ldetect-lst.spec: oups
 
-2001-09-21 16:36  fpons
+2001-09-21 16:36  Fançois Pons <fpons@mandrakesoft.com>
 
 	* ldetect-lst.spec, lst/pcitable: added GeForce3 missing pci id.
 
-2001-09-20 22:12  prigaux
+2001-09-20 22:12  Pixel <pixel@mandrakesoft.com>
 
 	* lst/pcitable: remove (yet again) tulip for some DEC cards, and
 	ensure the bug in redhat pcitable won't both us again
 
-2001-09-20 13:09  prigaux
+2001-09-20 13:09  Pixel <pixel@mandrakesoft.com>
 
 	* convert/merge2pcitable.pl: remove (yet again) tulip for some DEC
 	cards, and ensure the bug in redhat pcitable won't both us again
 
-2001-09-19 17:19  fpons
+2001-09-19 17:19  Fançois Pons <fpons@mandrakesoft.com>
 
 	* lst/Cards+: Rage 128 card are not supported by XF3.
 
-2001-09-13 22:25  flepied
+2001-09-13 22:25  Frederic Lepied <flepied@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.2-24mdk
 
-2001-09-13 22:24  flepied
+2001-09-13 22:24  Frederic Lepied <flepied@mandrakesoft.com>
 
 	* lst/usbtable: corrected wacom entries but wtf are these entries
 	with vendor=0x0531 ?
 
-2001-09-13 14:53  siegel
+2001-09-13 14:53  Stefan Siegel <siegel@linux-mandrake.com>
 
 	* lst/usbtable: updates
 
-2001-09-12 05:08  flepied
+2001-09-12 05:08  Frederic Lepied <flepied@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.2-23mdk
 
-2001-09-12 05:08  flepied
+2001-09-12 05:08  Frederic Lepied <flepied@mandrakesoft.com>
 
 	* lst/Cards+: added matrox G550
 
-2001-09-11 17:08  flepied
+2001-09-11 17:08  Frederic Lepied <flepied@mandrakesoft.com>
 
 	* lst/pcitable: added matrox G550.
 
-2001-09-10 18:00  fpons
+2001-09-10 18:00  Fançois Pons <fpons@mandrakesoft.com>
 
 	* lst/pcitable: fixed suckings.
 
-2001-09-10 16:58  chmouel
+2001-09-10 16:58  Chmouel Boudjnah <chmouel@mandrakesoft.com>
 
 	* lst/pcitable: Fix descriptions of some nvidia cards.
 
-2001-09-08 12:06  prigaux
+2001-09-08 12:06  Pixel <pixel@mandrakesoft.com>
 
 	* lst/MonitorsDB: add Daytek Vista (from Greg Sarsons
 	<gsarsons@home.com>)
 
-2001-09-06 18:06  chmouel
+2001-09-06 18:06  Chmouel Boudjnah <chmouel@mandrakesoft.com>
 
 	* lst/pcitable: Add firewire controller.
 
-2001-09-05 13:14  prigaux
+2001-09-05 13:14  Pixel <pixel@mandrakesoft.com>
 
 	* ldetect-lst.spec, lst/pcitable: replace AM53C974 with tmscsim
 
-2001-09-05 12:50  prigaux
+2001-09-05 12:50  Pixel <pixel@mandrakesoft.com>
 
 	* ldetect-lst.spec: [no log message]
 
-2001-09-05 12:48  prigaux
+2001-09-05 12:48  Pixel <pixel@mandrakesoft.com>
 
 	* lst/pcitable: merge with latest modules.pcimap
 
-2001-09-05 12:31  prigaux
+2001-09-05 12:31  Pixel <pixel@mandrakesoft.com>
 
 	* lst/MonitorsDB: update with redhat's version
 
-2001-09-03 04:43  flepied
+2001-09-03 04:43  Frederic Lepied <flepied@mandrakesoft.com>
 
 	* lst/pcitable: added radeon qz
 
-2001-09-03 00:29  prigaux
+2001-09-03 00:29  Pixel <pixel@mandrakesoft.com>
 
 	* lst/usbtable: merge with hwd
 
-2001-09-03 00:23  prigaux
+2001-09-03 00:23  Pixel <pixel@mandrakesoft.com>
 
 	* convert/merge2pcitable.pl: add hwd merging
 
-2001-09-03 00:17  prigaux
+2001-09-03 00:17  Pixel <pixel@mandrakesoft.com>
 
 	* lst/pcitable: small merge with hwd table
 
-2001-09-01 09:27  siegel
+2001-09-01 09:27  Stefan Siegel <siegel@linux-mandrake.com>
 
 	* lst/: isatable, usbtable: new devices added
 
-2001-08-30 21:25  prigaux
+2001-08-30 21:25  Pixel <pixel@mandrakesoft.com>
 
 	* ldetect-lst.spec: [no log message]
 
-2001-08-30 14:21  prigaux
+2001-08-30 14:21  Pixel <pixel@mandrakesoft.com>
 
 	* lst/pcitable: fix some bttv replaced by btaudio
 
-2001-08-30 13:36  prigaux
+2001-08-30 13:36  Pixel <pixel@mandrakesoft.com>
 
 	* lst/usbtable: add some Logitech mice
 
-2001-08-29 10:46  fpons
+2001-08-29 10:46  Fançois Pons <fpons@mandrakesoft.com>
 
 	* ldetect-lst.spec, lst/Cards+: Matrox Millenium card are supported
 	by XF4.
 
-2001-08-29 04:07  flepied
+2001-08-29 04:07  Frederic Lepied <flepied@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.2-19mdk
 
-2001-08-28 22:03  sbenedict
+2001-08-28 22:03  Stew Benedict <sbenedict@mandrakesoft.com>
 
 	* lst/MonitorsDB: entry for TiPowerBook - PPC
 
-2001-08-27 16:00  flepied
+2001-08-27 16:00  Frederic Lepied <flepied@mandrakesoft.com>
 
 	* lst/usbtable: oops corrected productid for wacoms.
 
-2001-08-27 15:59  flepied
+2001-08-27 15:59  Frederic Lepied <flepied@mandrakesoft.com>
 
 	* lst/usbtable: updated wacom ids.
 
-2001-08-22 00:08  prigaux
+2001-08-22 00:08  Pixel <pixel@mandrakesoft.com>
 
 	* ldetect-lst.spec, convert/merge2pcitable.pl: [no log message]
 
-2001-08-22 00:01  prigaux
+2001-08-22 00:01  Pixel <pixel@mandrakesoft.com>
 
 	* convert/README.pcitable: better error message
 
-2001-08-22 00:00  prigaux
+2001-08-22 00:00  Pixel <pixel@mandrakesoft.com>
 
 	* lst/pcitable: merge with redhat
 
-2001-08-22 00:00  prigaux
+2001-08-22 00:00  Pixel <pixel@mandrakesoft.com>
 
 	* lst/usbtable: adding an optical mouse
 
-2001-08-20 18:45  prigaux
+2001-08-20 18:45  Pixel <pixel@mandrakesoft.com>
 
 	* lst/MonitorsDB: add Belinea monitors (thanks to Alex Hulse
 	<axh0@aber.ac.uk>)
@@ -775,15 +877,15 @@
 	* lst/Cards+: changed driver for Kyro series, the previous module
 	works only for Dreamcast ! back to vesa mode !
 
-2001-08-14 20:44  sbenedict
+2001-08-14 20:44  Stew Benedict <sbenedict@mandrakesoft.com>
 
 	* lst/MonitorsDB: More Apple displays
 
-2001-08-14 12:25  prigaux
+2001-08-14 12:25  Pixel <pixel@mandrakesoft.com>
 
 	* lst/pcitable: fix format pbs
 
-2001-08-13 18:30  prigaux
+2001-08-13 18:30  Pixel <pixel@mandrakesoft.com>
 
 	* lst/Cards+: remove SERVER for "KYRO Series" as XF3 doesn't handle
 	it
@@ -793,12 +895,12 @@
 	* lst/: Cards+, pcitable: added Kyro video card familly, added also
 	in Card+ (id 104a:0010)
 
-2001-08-13 15:02  prigaux
+2001-08-13 15:02  Pixel <pixel@mandrakesoft.com>
 
 	* lst/pcitable: "Toshiba|Toshiba-4010CDT" is not a graphical card
 	(?)
 
-2001-08-13 15:02  prigaux
+2001-08-13 15:02  Pixel <pixel@mandrakesoft.com>
 
 	* lst/usbtable: merge with latest usb.ids
 
@@ -810,134 +912,134 @@
 
 	* lst/pcitable: added ohci1394 for 104d:8039
 
-2001-08-02 00:16  tvignaud
+2001-08-02 00:16  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* lst/pcitable: fix realtek description
 
-2001-08-01 23:59  gc
+2001-08-01 23:59  Guillaume Cottenceau <gc@mandrakesoft.com>
 
 	* ldetect-lst.spec, lst/pcitable, lst/usbtable: merge with
 	2.4.6-5mdk pcitable and usbtable
 
-2001-07-31 18:37  tvignaud
+2001-07-31 18:37  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* lst/pcitable: dd studioDV from pinnacle
 
-2001-07-30 15:25  damien
+2001-07-30 15:25  Dam's <damien@mandrakesoft.com>
 
 	* lst/pcitable: reverted fritz card support.
 
-2001-07-30 13:50  damien
+2001-07-30 13:50  Dam's <damien@mandrakesoft.com>
 
 	* lst/pcitable: bad driver for new fritz! card
 
-2001-07-30 13:23  damien
+2001-07-30 13:23  Dam's <damien@mandrakesoft.com>
 
 	* lst/pcitable: added new AVM fritz card
 
-2001-07-26 14:53  damien
+2001-07-26 14:53  Dam's <damien@mandrakesoft.com>
 
 	* lst/pcitable: updated Sedbauer ISDN cards + firmware
 
-2001-07-25 13:06  damien
+2001-07-25 13:06  Dam's <damien@mandrakesoft.com>
 
 	* lst/pcitable: updated ISDN detection.
 
-2001-07-24 11:59  siegel
+2001-07-24 11:59  Stefan Siegel <siegel@linux-mandrake.com>
 
 	* lst/pcitable: added Parallel controller: PCI device 1409:7268
 	(Timedia Technology Co Ltd)
 
-2001-07-20 04:05  damien
+2001-07-20 04:05  Dam's <damien@mandrakesoft.com>
 
 	* lst/pcitable: added ISDN card type in the pcitable itself.
 
-2001-07-20 02:13  damien
+2001-07-20 02:13  Dam's <damien@mandrakesoft.com>
 
 	* lst/pcitable: ISDN concept
 
-2001-07-18 12:42  tvignaud
+2001-07-18 12:42  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* lst/isatable: fix cmi8330 detection
 
-2001-07-05 13:28  fpons
+2001-07-05 13:28  Fançois Pons <fpons@mandrakesoft.com>
 
 	* ldetect-lst.spec, lst/Cards+, lst/pcitable: SiS 300 card update.
 
-2001-07-04 19:35  fpons
+2001-07-04 19:35  Fançois Pons <fpons@mandrakesoft.com>
 
 	* ldetect-lst.spec: the 15mdk is going.
 
-2001-07-04 19:33  fpons
+2001-07-04 19:33  Fançois Pons <fpons@mandrakesoft.com>
 
 	* lst/Cards+: added VMware virtual cards.
 
-2001-07-04 19:17  fpons
+2001-07-04 19:17  Fançois Pons <fpons@mandrakesoft.com>
 
 	* lst/Cards+: added some more card, notably VMware and IMS one.
 
-2001-07-04 19:13  fpons
+2001-07-04 19:13  Fançois Pons <fpons@mandrakesoft.com>
 
 	* lst/pcitable: synced with XFree 4.1.0
 
-2001-07-04 17:37  yduret
+2001-07-04 17:37  Yves Duret <yduret@mandrakesoft.com>
 
 	* lst/usbtable: merged with kaweth.c from kernel 2.4.5
 
-2001-07-04 16:59  yduret
+2001-07-04 16:59  Yves Duret <yduret@mandrakesoft.com>
 
 	* lst/usbtable: updated with kernel 2.4.5
 
-2001-06-25 14:07  tvignaud
+2001-06-25 14:07  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* lst/pcitable: fix a miro card name
 
-2001-06-22 14:51  tvignaud
+2001-06-22 14:51  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* ldetect-lst.spec: add last changes
 
-2001-06-22 14:48  tvignaud
+2001-06-22 14:48  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* lst/pcitable: es1370 doesn't work for "Ensoniq|ES1370 [AudioPCI]"
 	(ID 0x12745000) replace it by "snd-card-ens1370" wich operates
 	smoothly
 
-2001-06-22 14:34  tvignaud
+2001-06-22 14:34  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* lst/pcitable: add a new Pinnacle PCTV
 
-2001-06-22 13:38  tvignaud
+2001-06-22 13:38  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* lst/pcitable: add support for ALS4000
 
-2001-06-15 17:41  siegel
+2001-06-15 17:41  Stefan Siegel <siegel@linux-mandrake.com>
 
 	* lst/pcitable: fixed 0x8086 0x1229 driver
 
-2001-06-14 20:05  prigaux
+2001-06-14 20:05  Pixel <pixel@mandrakesoft.com>
 
 	* ldetect-lst.spec: [no log message]
 
-2001-06-14 15:18  prigaux
+2001-06-14 15:18  Pixel <pixel@mandrakesoft.com>
 
 	* lst/pcitable: merge with XF4.1
 
-2001-06-05 15:40  sbenedict
+2001-06-05 15:40  Stew Benedict <sbenedict@mandrakesoft.com>
 
 	* lst/pcitable: added module identifier to "Apple|Keylargo USB"
 
-2001-05-23 13:40  gc
+2001-05-23 13:40  Guillaume Cottenceau <gc@mandrakesoft.com>
 
 	* lst/pcitable: DEC|DECchip 21152 seems to have been wrongly marked
 	as a tulip ethernet adapter, but it seems to be a PCI bridge.
 	Thanks to Gary Brack <gbrack@huey.jpl.nasa.gov>
 
-2001-05-20 17:32  siegel
+2001-05-20 17:32  Stefan Siegel <siegel@linux-mandrake.com>
 
 	* lst/: Makefile, isatable: moved isatable here from detect to have
 	a unified database
 
-2001-05-20 00:32  siegel
+2001-05-20 00:32  Stefan Siegel <siegel@linux-mandrake.com>
 
 	* lst/: Makefile, pcmciatable: added pcmciatable (merge with
 	HardDrake)
@@ -946,142 +1048,142 @@
 
 	* lst/pcitable: Adding module snd-card-via8233 for VIA-8233 chipset
 
-2001-05-02 19:29  chmouel
+2001-05-02 19:29  Chmouel Boudjnah <chmouel@mandrakesoft.com>
 
 	* lst/pcitable: Change nm256 to nm256_audio.
 
-2001-04-30 22:26  gc
+2001-04-30 22:26  Guillaume Cottenceau <gc@mandrakesoft.com>
 
 	* lst/pcitable: Fix aureal web site (#3299)
 
-2001-04-26 15:25  tvignaud
+2001-04-26 15:25  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* lst/pcitable: add support for following tv cards :	- CyberMail
 	AV  - Leadtek WinFast TV 2000	    - AG GMV1	    - I-O Data Co.
 	GV-BCV4/PCI
 
-2001-04-21 13:44  prigaux
+2001-04-21 13:44  Pixel <pixel@mandrakesoft.com>
 
 	* lst/pcitable: remove buggy entry (thanks to Andreas Voegele)
 
-2001-04-15 01:19  prigaux
+2001-04-15 01:19  Pixel <pixel@mandrakesoft.com>
 
 	* lst/usbtable: add a Logitech mouse
 
-2001-04-14 12:34  sbenedict
+2001-04-14 12:34  Stew Benedict <sbenedict@mandrakesoft.com>
 
 	* lst/MonitorsDB: add Apple display entries to MonitorsDB
 
-2001-04-10 22:49  flepied
+2001-04-10 22:49  Frederic Lepied <flepied@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.2-13mdk
 
-2001-04-10 22:48  flepied
+2001-04-10 22:48  Frederic Lepied <flepied@mandrakesoft.com>
 
 	* lst/pcitable: added GeForce3 and CyberBlade/Xpm entries
 
-2001-04-10 11:16  fpons
+2001-04-10 11:16  Fançois Pons <fpons@mandrakesoft.com>
 
 	* ldetect-lst.spec: [no log message]
 
-2001-04-10 11:15  fpons
+2001-04-10 11:15  Fançois Pons <fpons@mandrakesoft.com>
 
 	* lst/pcitable: added Trident CyberBladeXP
 
-2001-04-09 19:54  prigaux
+2001-04-09 19:54  Pixel <pixel@mandrakesoft.com>
 
 	* ldetect-lst.spec: new release
 
-2001-04-09 19:54  chmouel
+2001-04-09 19:54  Chmouel Boudjnah <chmouel@mandrakesoft.com>
 
 	* lst/pcitable: Add ohci LUCENT host.
 
-2001-04-09 13:57  prigaux
+2001-04-09 13:57  Pixel <pixel@mandrakesoft.com>
 
 	* lst/pcitable: add missing usb-uhci's and one usb-ohci
 
-2001-04-05 00:42  chmouel
+2001-04-05 00:42  Chmouel Boudjnah <chmouel@mandrakesoft.com>
 
 	* lst/pcitable: Add i815e usb-uhci controller.
 
-2001-04-04 15:47  prigaux
+2001-04-04 15:47  Pixel <pixel@mandrakesoft.com>
 
 	* lst/pcitable: add description for some cards
 
-2001-04-04 14:13  prigaux
+2001-04-04 14:13  Pixel <pixel@mandrakesoft.com>
 
 	* lst/usbtable: merge with modules.usbmap
 
-2001-04-04 14:09  prigaux
+2001-04-04 14:09  Pixel <pixel@mandrakesoft.com>
 
 	* convert/merge2pcitable.pl: add merge with modules.usbmap
 
-2001-04-04 13:38  prigaux
+2001-04-04 13:38  Pixel <pixel@mandrakesoft.com>
 
 	* lst/usbtable: updated with modules.usbmap from the kernel
 
-2001-04-03 13:41  flepied
+2001-04-03 13:41  Frederic Lepied <flepied@mandrakesoft.com>
 
 	* lst/usbtable: added Flag:TV for Logitech QuickCam Express
 
-2001-04-02 18:32  damien
+2001-04-02 18:32  Dam's <damien@mandrakesoft.com>
 
 	* lst/pcitable: ISDN description updated Olitec updated
 
-2001-04-02 15:19  tvignaud
+2001-04-02 15:19  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* lst/pcitable: add Hauppauge WinTV/PVR
 
-2001-03-30 12:32  prigaux
+2001-03-30 12:32  Pixel <pixel@mandrakesoft.com>
 
 	* lst/MonitorsDB: addition from "R.I.P. Deaddog"
 	<maddog@linuxhall.org> on cooker
 
-2001-03-28 11:47  warly
+2001-03-28 11:47  Warly <warly@mandrakesoft.com>
 
 	* lst/MonitorsDB: fix compudyne line
 
-2001-03-24 19:18  prigaux
+2001-03-24 19:18  Pixel <pixel@mandrakesoft.com>
 
 	* ldetect-lst.spec: cleaned pcitable
 
-2001-03-24 19:18  prigaux
+2001-03-24 19:18  Pixel <pixel@mandrakesoft.com>
 
 	* lst/pcitable: cleaned
 
-2001-03-24 19:17  prigaux
+2001-03-24 19:17  Pixel <pixel@mandrakesoft.com>
 
 	* lst/usbtable: add floppy drive
 
-2001-03-24 19:16  prigaux
+2001-03-24 19:16  Pixel <pixel@mandrakesoft.com>
 
 	* convert/merge2pcitable.pl: (cleanup_subids): cleanup
 
-2001-03-23 18:11  fpons
+2001-03-23 18:11  Fançois Pons <fpons@mandrakesoft.com>
 
 	* ldetect-lst.spec, lst/usbtable: USB Wacom driver set to
 	Tablet:wacom
 
-2001-03-23 12:15  prigaux
+2001-03-23 12:15  Pixel <pixel@mandrakesoft.com>
 
 	* convert/merge2pcitable.pl: (cleanup_subids): clean the
 	unneeded/duplicated subids to keep pcitable clean (main source of
 	dirtyness is modules.pcimap of the kernel)
 
-2001-03-22 23:51  tvignaud
+2001-03-22 23:51  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* lst/pcitable: new cards for bttv
 
-2001-03-22 18:25  prigaux
+2001-03-22 18:25  Pixel <pixel@mandrakesoft.com>
 
 	* lst/MonitorsDB: add some CTX from cooker
 
-2001-03-21 19:43  fpons
+2001-03-21 19:43  Fançois Pons <fpons@mandrakesoft.com>
 
 	* ldetect-lst.spec, lst/pcitable: fixed Matrox G450 entries in
 	pcitable relative to Cards+
 
-2001-03-19 12:28  prigaux
+2001-03-19 12:28  Pixel <pixel@mandrakesoft.com>
 
 	* lst/Cards+: remove "DRIVER ati" for Mach32 cards:
 	
@@ -1101,166 +1203,169 @@
 	'try some different parameters.' I went to X 3.3.6 (THANK YOU for
 	putting it in the options) and X fires up fine.
 
-2001-03-15 10:37  fpons
+2001-03-15 10:37  Fançois Pons <fpons@mandrakesoft.com>
 
 	* ldetect-lst.spec, lst/Cards+, lst/pcitable: [no log message]
 
-2001-03-13 19:21  prigaux
+2001-03-13 19:21  Pixel <pixel@mandrakesoft.com>
 
 	* ldetect-lst.spec: updated
 
-2001-03-13 19:19  prigaux
+2001-03-13 19:19  Pixel <pixel@mandrakesoft.com>
 
 	* lst/pcitable: - add an dpt_i2o - lot of modif from jeff
 
-2001-03-11 22:24  prigaux
+2001-03-11 22:24  Pixel <pixel@mandrakesoft.com>
 
 	* lst/pcitable: change the description for some 815e entries
 
-2001-03-07 20:59  damien
+2001-03-07 20:59  Dam's <damien@mandrakesoft.com>
 
 	* lst/pcitable: removed bad isdn card
 
-2001-03-07 20:54  damien
+2001-03-07 20:54  Dam's <damien@mandrakesoft.com>
 
 	* lst/pcitable: added one isdn card
 
-2001-03-06 17:55  prigaux
+2001-03-06 17:55  Pixel <pixel@mandrakesoft.com>
 
 	* lst/pcitable: merge with /lib/modules/2.4.2-7mdk/modules.pcimap,
 	anaconda-7.1-1.200102051925's pcitable, kudzu-0.92.1-1's pcitable
 
-2001-03-06 17:54  prigaux
+2001-03-06 17:54  Pixel <pixel@mandrakesoft.com>
 
 	* convert/Makefile, ldetect-lst.spec: [no log message]
 
-2001-03-06 17:46  prigaux
+2001-03-06 17:46  Pixel <pixel@mandrakesoft.com>
 
 	* convert/merge2pcitable.pl: for merging, auto-rename yenta_socket
 	in i82365
 
-2001-03-06 13:57  prigaux
+2001-03-06 13:57  Pixel <pixel@mandrakesoft.com>
 
 	* lst/pcitable: use e100 for 0x8086	0x1229
 
-2001-02-21 16:32  gc
+2001-02-21 16:32  Guillaume Cottenceau <gc@mandrakesoft.com>
 
 	* lst/pcitable: 8129 chipset now use 8139too
 
-2001-02-04 12:37  prigaux
+2001-02-04 12:37  Pixel <pixel@mandrakesoft.com>
 
 	* lst/pcitable: merge with rh
 
-2001-02-04 12:33  prigaux
+2001-02-04 12:36  Pixel <pixel@mandrakesoft.com>
+
+	* convert/: README.pcitable, .cvsignore: [no log message]
+
+2001-02-04 12:33  Pixel <pixel@mandrakesoft.com>
 
 	* convert/README.pcitable: s/merge2pcitable/merge2pcitable.pl/
 
-2001-02-04 12:30  prigaux
+2001-02-04 12:30  Pixel <pixel@mandrakesoft.com>
 
-	* convert/: .cvsignore, README.pcitable, .cvsignore: [no log
-	message]
+	* convert/.cvsignore: [no log message]
 
-2001-01-25 16:27  gc
+2001-01-25 16:27  Guillaume Cottenceau <gc@mandrakesoft.com>
 
 	* ldetect-lst.spec, lst/pcitable: snd-card-intel8x0 -> i810_audio
 
-2001-01-25 15:08  gc
+2001-01-25 15:08  Guillaume Cottenceau <gc@mandrakesoft.com>
 
 	* ldetect-lst.spec: snapshot
 
-2001-01-23 14:53  gc
+2001-01-23 14:53  Guillaume Cottenceau <gc@mandrakesoft.com>
 
 	* lst/pcitable: add tulip Bridgecom 10/100
 
-2001-01-15 08:16  chmouel
+2001-01-15 08:16  Chmouel Boudjnah <chmouel@mandrakesoft.com>
 
 	* lst/pcitable: Use i810_audio instead of snd-card-intel8x0
 
-2001-01-15 08:03  chmouel
+2001-01-15 08:03  Chmouel Boudjnah <chmouel@mandrakesoft.com>
 
 	* lst/pcitable: Add more intel-i810-audio ids.
 
-2001-01-08 18:53  gc
+2001-01-08 18:53  Guillaume Cottenceau <gc@mandrakesoft.com>
 
 	* lst/pcitable: add network card for HP omnibook xe3
 
-2000-12-21 16:19  prigaux
+2000-12-21 16:19  Pixel <pixel@mandrakesoft.com>
 
 	* Makefile, Makefile.config, ldetect-lst.spec: add
 	ldetect-lst-devel
 
-2000-12-21 15:57  fpons
+2000-12-21 15:57  Fançois Pons <fpons@mandrakesoft.com>
 
 	* lst/Cards+: added i128 and siliconmotion driver entry.  updated
 	SiS 620 support back with XF4.0.2.
 
-2000-12-21 15:48  prigaux
+2000-12-21 15:48  Pixel <pixel@mandrakesoft.com>
 
 	* lst/pcitable: add new entries from XFree86-4.02
 
-2000-12-19 15:08  fpons
+2000-12-19 15:08  Fançois Pons <fpons@mandrakesoft.com>
 
 	* lst/pcitable: updated with new pci id provided by Erwan.
 
-2000-12-19 15:08  fpons
+2000-12-19 15:08  Fançois Pons <fpons@mandrakesoft.com>
 
 	* lst/Cards+: updated with savage driver, according to Erwan.
 
-2000-12-18 14:08  prigaux
+2000-12-18 14:08  Pixel <pixel@mandrakesoft.com>
 
 	* .cvsignore, Makefile, Makefile.config, convert/Makefile,
 	convert/merge2pcitable.pl, convert/verify_Cards.pl, lst/.cvsignore,
 	lst/Makefile: add verif
 
-2000-12-18 12:39  prigaux
+2000-12-18 12:39  Pixel <pixel@mandrakesoft.com>
 
 	* Cards+, Cards2CardsNames.pl, MonitorsDB, isdn.db, pcitable,
 	usbtable: moved in dir lst
 
-2000-12-16 19:26  prigaux
+2000-12-16 19:26  Pixel <pixel@mandrakesoft.com>
 
 	* Makefile, ldetect-lst.spec, usbtable, lst/usbtable: add usbtable
 
-2000-12-16 15:11  prigaux
+2000-12-16 15:11  Pixel <pixel@mandrakesoft.com>
 
 	* convert/merge2pcitable.pl: small fixes add read_pcilst (alex's
 	detect format)
 
-2000-12-16 13:51  prigaux
+2000-12-16 13:51  Pixel <pixel@mandrakesoft.com>
 
 	* convert/merge2pcitable.pl: replace tabs in description with
 	spaces for pciids import (otherwise ruins the format)
 
-2000-12-16 00:54  prigaux
+2000-12-16 00:54  Pixel <pixel@mandrakesoft.com>
 
 	* README.pcitable, merge2pcitable, convert/Makefile,
 	convert/README.pcitable, convert/merge2pcitable.pl,
 	convert/xf86PciInfo2pcitable.c, convert/xf86str.h: move to convert
 	directory the convert tools
 
-2000-12-15 19:19  prigaux
+2000-12-15 19:19  Pixel <pixel@mandrakesoft.com>
 
 	* Makefile, ldetect-lst.spec: [no log message]
 
-2000-12-15 17:38  prigaux
+2000-12-15 17:38  Pixel <pixel@mandrakesoft.com>
 
 	* .cvsignore, Cards2CardsNames.pl, Makefile, MonitorsDB, isdn.db,
 	convert/Cards2CardsNames.pl, lst/MonitorsDB, lst/isdn.db: added
 
-2000-12-15 17:03  prigaux
+2000-12-15 17:03  Pixel <pixel@mandrakesoft.com>
 
 	* Cards+, lst/Cards+: creation
 
-2000-12-15 16:24  prigaux
+2000-12-15 16:24  Pixel <pixel@mandrakesoft.com>
 
 	* Makefile, ldetect-lst.spec: put the version in .spec too,
 	otherwise can't use rpm C-c e :)
 
-2000-12-15 15:45  prigaux
+2000-12-15 15:45  Pixel <pixel@mandrakesoft.com>
 
 	* Makefile: add comments to installed pcitable
 
-2000-12-15 15:38  prigaux
+2000-12-15 15:38  Pixel <pixel@mandrakesoft.com>
 
 	* Makefile, README.pcitable, ldetect-lst.spec, merge2pcitable,
 	pcitable, lst/pcitable: creation, now pcitable is standalone and

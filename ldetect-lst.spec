@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.3
-%define release 8mdk
+%define release 9mdk
 
 Name: %{name}
 Version: %{version}
@@ -62,6 +62,10 @@ fi
 %{_bindir}/*
 
 %changelog
+* Fri Jun 21 2002 Gwenole Beauchesne <gbeauchesne@mandrakesoft.com> 0.1.3-9mdk
+- Add nForce things from Damien.
+- s/de4x5/tulip/ thanks to juan
+- Restore via8233 sound support (tv)
 - fpons: added various HP hardware.
 
 * Fri Mar  1 2002 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.3-8mdk
