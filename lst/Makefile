@@ -39,4 +39,4 @@ install: $(TMP_TABLES)
 	 cat $$i.tmp \
 	) > $(dir)/$$i; done
 
-	install -m 644 Cards+ CardsNames MonitorsDB isdn.db $(dir)
+	install -m 644 ScannerDB Cards+ CardsNames MonitorsDB isdn.db $(dir)
