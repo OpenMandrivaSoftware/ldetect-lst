@@ -2147,7 +2147,7 @@
 0x1106	0x3058	"snd-via82xx"	"VIA Technologies|VT82C686 [Apollo Super AC97/Audio]"
 0x1106	0x3059	"snd-via82xx"	"VIA Technologies|VT8233 [AC97 Audio Controller]"
 0x1106	0x3065	"via-rhine"	"VIA Technologies|VT6102 [Rhine II 10/100]"
-0x1106	0x3068	"unknown"	"VIA Technologies|VT82C686 [Apollo Super AC97/Modem]"
+0x1106	0x3068	"Bad:www.linmodems.org"	"VIA Technologies|VT82C686 [Apollo Super AC97/Modem]"
 0x1106	0x3074	"unknown"	"VIA Technologies|VT8233 PCI to ISA Bridge"
 0x1106	0x3086	"unknown"	"VIA Technologies Inc|VT82C686 Power management"
 0x1106	0x3091	"unknown"	"VIA Technologies|VT8633 [Apollo Pro266]"
