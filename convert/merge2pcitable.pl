@@ -67,13 +67,13 @@ sub read_pcitable {
 	if (my ($id1, $id2, @l) = split /\t+/) {
 	    my ($subid1, $subid2) = ('ffff', 'ffff');
 	    ($subid1, $subid2, @l) = @l if @l == 4;
-	    @l == 2 or die "$f $line: bad number of fields " . (int @l) . " (in $_)\n";
+	    @l == 2 or die "$f:$line: bad number of fields " . (int @l) . " (in $_)\n";
 	    my ($module, $text) = @l;
 
 	    my $class = $text =~ /(.*?)|/;
 	    my $id1_ = $rm_quote_silent->($id1);
 	    if ($class{$id1_}) {
-		print STDERR "$f $line: class $id1_ named both $class and $class{$id1_}, taking $class{$id1_}\n";
+		print STDERR "$f:$line: class $id1_ named both $class and $class{$id1_}, taking $class{$id1_}\n";
 		$class{$id1_} ||= $1;
 		$text =~ s/(.*?)|/$class{$id1_}|/;
 	    }
@@ -86,13 +86,13 @@ sub read_pcitable {
 	    $module = '"yenta_socket"' if $module =~ /i82365/;
 	    my $id = join '', map { 
 		s/^0x//;
-		length == 4 or error("$f $line: bad number $_");
+		length == 4 or error("$f:$line: bad number $_");
 		lc($_);
 	    } $id1, $id2, $subid1, $subid2;
-	    $drivers{$id} && $strict and error("$f $line: multiple entry for $id (skipping $module $text)");
+	    $drivers{$id} && $strict and error("$f:$line: multiple entry for $id (skipping $module $text)");
 	    $drivers{$id} ||= [ map &$rm_quote, $module, $text ];
 	} else {
-	    die "$f $line: bad line\n";
+	    die "$f:$line: bad line\n";
 	}
     }
     \%drivers;
@@ -136,12 +136,12 @@ sub read_pciids {
 	    last;
 	} elsif (my ($subid1, $subid2, $text) = /^\t\t(\S+)\s+(\S+)\s+(.+)/) {
 	    $text =~ s/\t/ /g;
-	    $id1 && $id2 or die "$f $line: unexpected device\n";
+	    $id1 && $id2 or die "$f:$line: unexpected device\n";
 	    $drivers{sprintf qq(%04x%04x%04x%04x), hex($id1), hex($id2), hex($subid1), hex($subid2)} = [ "unknown", "$class|$text" ];
 	} elsif (/^\t(\S+)\s+(.+)/) {
 	    ($id2, $text) = ($1, $2);
 	    $text =~ s/\t/ /g;
-	    $id1 && $id2 or die "$f $line: unexpected device\n";
+	    $id1 && $id2 or die "$f:$line: unexpected device\n";
 	    $drivers{sprintf qq(%04x%04xffffffff), hex($id1), hex($id2)} = [ "unknown", "$class|$text" ];
 	} elsif (/^(\S+)\s+(.+)/) {
 	    $id1 = $1;
