@@ -2037,6 +2037,7 @@ SEE AT3D
 
 NAME NeoMagic MagicGraph (laptop/notebook)
 DRIVER neomagic
+LINE	  Option     "overrideValidateMode"
 LINE #    Chipset    "NM2160"
 LINE #    IOBase     0xfea00000
 LINE #    MemBase    0xfd000000
