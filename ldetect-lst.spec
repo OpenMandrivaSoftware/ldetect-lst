@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.2
-%define release 9mdk
+%define release 10mdk
 
 Name: %{name}
 Version: %{version}
@@ -48,6 +48,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/*
 
 %changelog
+* Sat Mar 24 2001 Pixel <pixel@mandrakesoft.com> 0.1.2-10mdk
+- cleaned pcitable
+
 * Fri Mar 23 2001 François Pons <fpons@mandrakesoft.com> 0.1.2-9mdk
 - added Tablet:wacom for USB Wacom tablet.
 
