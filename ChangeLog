@@ -1,3 +1,7 @@
+2003-08-12 12:40  Gwenole Beauchesne <gbeauchesne@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.7-17mdk
+
 2003-08-11 16:30  Gwenole Beauchesne <gbeauchesne@mandrakesoft.com>
 
 	* lst/pcitable: Use "pdc-ultra" for Promise SATA150 Controllers
