@@ -223,6 +223,27 @@ NAME Canon|CanoScan 2700F
 SERVER canon
 DRIVER SCSI
 
+# from canon_pp.desc
+NAME Canon|CanoScan FB330P
+SERVER canon_pp
+DRIVER Parport (EPP)
+UNSUPPORTED
+
+NAME Canon|CanoScan FB630P
+SERVER canon_pp
+DRIVER Parport (EPP)
+UNSUPPORTED
+
+NAME Canon|CanoScan N340P
+SERVER canon_pp
+DRIVER Parport (EPP)
+UNSUPPORTED
+
+NAME Canon|CanoScan N640P
+SERVER canon_pp
+DRIVER Parport (EPP)
+UNSUPPORTED
+
 # from coolscan.desc
 NAME Nikon Corp.|LS-20
 SERVER coolscan
@@ -374,9 +395,10 @@ NAME Seiko Epson Corp.|Perfection 1640
 SEE Seiko Epson Corp.|Perfection 636
 DRIVER SCSI USB
 
-NAME Seiko Epson Corp.|Perfection 1650 Photo
+NAME Seiko Epson Corp.|Perfection 1650 / 1650 Photo
 SEE Seiko Epson Corp.|Perfection 636
 COMMENT usb 0x04b8 0x0110
+DRIVER SCSI usb
 
 NAME Seiko Epson Corp.|Expression 636
 SEE Seiko Epson Corp.|GT-7000
@@ -499,19 +521,9 @@ SERVER hp
 DRIVER Parport(ECP) JetDirect
 UNSUPPORTED
 
-NAME Hewlett-Packard|OfficeJet R series/PSC500
-SERVER hp
-DRIVER Parport(ECP) JetDirect
-UNSUPPORTED
-
 NAME Hewlett-Packard|OfficeJet G series
 SERVER hp
 DRIVER Parport(ECP) USB JetDirect
-UNSUPPORTED
-
-NAME Hewlett-Packard|PSC 700 series
-SERVER hp
-DRIVER USB JetDirect
 UNSUPPORTED
 
 NAME Hewlett-Packard|OfficeJet K series
@@ -526,11 +538,39 @@ DRIVER USB JetDirect
 COMMENT partial support -- requires extra steps to scan successfully
 UNSUPPORTED
 
+NAME Hewlett-Packard|OfficeJet R series
+SERVER hp
+DRIVER Parport(ECP) JetDirect
+COMMENT Parallel interface requires ppscsi driver and epst module
+UNSUPPORTED
+
+NAME Hewlett-Packard|PSC 500 series
+SERVER hp
+DRIVER Parport(ECP) JetDirect
+UNSUPPORTED
+
+NAME Hewlett-Packard|PSC 700 series
+SERVER hp
+DRIVER USB JetDirect
+UNSUPPORTED
+
+NAME Hewlett-Packard|PSC 900 series
+SERVER hp
+DRIVER USB JetDirect
+UNSUPPORTED
+
 # from hp4200.desc
 NAME Hewlett-Packard|ScanJet 4200C
 SERVER hp4200
 DRIVER USB
 COMMENT 8bpp, 150/300/600 dpi only, and scanned image needs postprocessing
+
+# from ibm.desc
+NAME Ricoh|IS-410
+SERVER ibm
+DRIVER SCSI
+COMMENT Untested, please report!
+UNSUPPORTED
 
 # from lhii.desc
 # from m3096g.desc
@@ -683,6 +723,24 @@ DRIVER Parport
 
 NAME Microtek|ScanMaker V6USL
 SEE Microtek|ScanMaker E3plus
+
+NAME Microtek|SlimScan C6
+SERVER microtek2
+DRIVER USB
+COMMENT only flatbed mode ?
+
+NAME Scanport|SQ300
+SERVER microtek2
+DRIVER Parport?
+COMMENT only E3plus based models
+
+NAME Scanport|SQ2030
+SERVER microtek2
+DRIVER Parport
+
+NAME Scanport|SQ4836
+SERVER microtek2
+DRIVER SCSI
 
 NAME Vobis|HighScan
 COMMENT only E3plus based models
@@ -960,7 +1018,6 @@ LINE # Fidelity Imaging Solutions Inc. Gallery 4800
 LINE  name Gallery-4800
 LINE  vendor Fidelity-Imaging-Solutions
 
-
 # from mustek_usb.desc
 NAME Mustek Systems Inc.|ScanExpress 1200 CU
 SERVER mustek_usb
@@ -1007,6 +1064,38 @@ LINE /dev/scanner
 COMMENT PC-IN600,700,800 series is not supprted
 
 # from net.desc
+
+# from niash.desc
+NAME ScanJet 3300c
+SERVER niash
+DRIVER USB
+COMMENT NIASH00014 chip. Prototype backend available
+UNSUPPORTED
+
+NAME ScanJet 3400c
+SERVER niash
+DRIVER USB
+COMMENT NIASH00019 chip. Partially works.
+UNSUPPORTED
+
+NAME ScanJet 3400c
+SERVER niash
+DRIVER Parport (EPP)
+COMMENT Untested
+UNSUPPORTED
+
+NAME ScanJet 4300c
+SERVER niash
+DRIVER USB
+COMMENT NIASH00019 chip. Partially works.
+UNSUPPORTED
+
+NAME AGFA-Gevaert NV|Snapscan Touch
+SERVER niash
+DRIVER USB
+COMMENT NIASH00014 chip. Untested
+UNSUPPORTED
+
 # from pint.desc
 # from plustek.desc
 NAME Plustek, Inc.|OpticPro 4800P
@@ -1152,6 +1241,30 @@ DRIVER Parport (SPP, EPP)
 COMMENT OK - use driver-switch mov=2
 UNSUPPORTED
 
+NAME KYE - Genius|Colorpage Vivid III V2
+SERVER plustek
+DRIVER Parport (SPP, EPP)
+COMMENT OK - Reported as PT12
+UNSUPPORTED
+
+NAME KYE - Genius|Colorpage Vivid Pro II Film
+SERVER plustek
+DRIVER Parport (SPP, EPP)
+COMMENT OK - Reported as OP9636T/12000T
+UNSUPPORTED
+
+NAME Mustek Systems Inc.|BearPaw 1200
+SERVER plustek
+DRIVER USB
+COMMENT Mostly OK
+UNSUPPORTED
+
+NAME HP ScanJet 2200C
+SERVER plustek
+DRIVER USB
+COMMENT Mostly OK
+UNSUPPORTED
+
 # from pnm.desc
 # from qcam.desc
 NAME Connectix|Color QuickCam
@@ -1208,6 +1321,12 @@ SEE SHARP|JX-610
 NAME SHARP|JX-350
 SEE SHARP|JX-610
 
+# from sm3600.desc
+NAME Microtek|ScanMaker 3600
+SERVER sm3600
+DRIVER USB
+UNSUPPORTED
+
 # from snapscan.desc
 NAME AGFA-Gevaert NV|SnapScan 300
 SERVER SnapScan
@@ -1228,6 +1347,13 @@ NAME AGFA-Gevaert NV|SnapScan 1236s
 SERVER SnapScan
 DRIVER SCSI
 COMMENT Ditto. Have no specific programming info yet.
+UNSUPPORTED
+
+NAME AGFA-Gevaert NV|SnapScan 1236u
+SERVER SnapScan
+DRIVER USB
+COMMENT Ditto. Have no specific programming info yet.
+UNSUPPORTED
 
 NAME AGFA-Gevaert NV|SnapScan 1212u
 SERVER SnapScan
@@ -1318,6 +1444,30 @@ NAME Acer Peripherals Inc.|Prisa 640bu
 SERVER SnapScan
 DRIVER USB
 COMMENT Seems to be a close SnapScan 310/600 compatible.
+
+NAME Acer Peripherals Inc.|Prisa 620ut
+SERVER SnapScan
+DRIVER USB
+COMMENT Seems to be a close SnapScan 310/600 compatible.
+UNSUPPORTED
+
+NAME Acer Peripherals Inc.|Prisa 1240
+SERVER SnapScan
+DRIVER USB
+COMMENT Seems to be a close SnapScan 310/600 compatible.
+UNSUPPORTED
+
+NAME Acer Peripherals Inc.|Prisa 3300
+SERVER SnapScan
+DRIVER USB
+COMMENT Have no specific programming info yet.
+UNSUPPORTED
+
+NAME Acer Peripherals Inc.|Prisa 4300
+SERVER SnapScan
+DRIVER USB
+COMMENT Have no specific programming info yet, untested.
+UNSUPPORTED
 
 NAME Guillemot International|Maxi Scan A4 Deluxe (SCSI)
 SERVER SnapScan
@@ -1701,6 +1851,19 @@ NAME Fujitsu|M3091DCd
 SERVER m3091
 DRIVER SCSI
 
+# from umax1220u.desc
+NAME Umax|Astra 2200U
+SERVER umax1220u
+DRIVER USB
+COMMENT Incompatible.
+UNSUPPORTED
+
+NAME Umax|Astra 2200US
+SERVER umax1220u
+DRIVER USB
+COMMENT Incompatible.
+UNSUPPORTED
+
 # from umax_pp.desc
 NAME Umax|Astra 1220P
 SERVER umax_pp
@@ -1801,10 +1964,5 @@ UNSUPPORTED
 NAME Hewlett-Packard|ScanJet 3200C
 SEE Umax|Astra 2000P
 COMMENT works (relabelled 1220P and 2000P)
-
-# from sm3600.desc
-NAME Microtek|ScanMaker 3600
-SERVER sm3600
-DRIVER USB
 
 END
