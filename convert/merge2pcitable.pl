@@ -89,7 +89,7 @@ sub read_pcitable {
 		length == 4 or error("$f $line: bad number $_");
 		lc($_);
 	    } $id1, $id2, $subid1, $subid2;
-	    $drivers{$id} and error("$f $line: multiple entry for $id (skipping $module $text)");
+	    $drivers{$id} && $strict and error("$f $line: multiple entry for $id (skipping $module $text)");
 	    $drivers{$id} ||= [ map &$rm_quote, $module, $text ];
 	} else {
 	    die "$f $line: bad line\n";
