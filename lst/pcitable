@@ -5,6 +5,7 @@
 0x0003	0x1461	"bttv"	"AVerMedia|TVPhone98"
 0x0004	0x1461	"bttv"	"AVerMedia|TVPhone98"
 0x003d	0x00d1	"unknown"	"Real 3D|i740 (PCI)"
+0x0012	0x11bd	"bttv"	"Pinnacle PCTV"
 0x0101	0x15cb	"bttv"	"AG GMV1"
 0x0675	0x1700	"hisax"	"Dynalink|IS64PH ISDN Adapter"
 0x0675	0x1702	"hisax"	"Dynalink|IS64PH ISDN Adapter"
