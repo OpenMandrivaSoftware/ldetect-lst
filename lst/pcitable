@@ -3459,6 +3459,8 @@
 0x14f1	0x8502	"unknown"	"Conexant|CX28500 676-channel HDLC Controller"
 0x14f1	0x8503	"unknown"	"Conexant|CX28500 1024-channel HDLC Controller"
 0x14f1	0x8563	"unknown"	"Conexant Systems, Inc.|CX28560 2047-channel HDLC Controller"
+0x14f1	0x8800	"unknown"	"Hauppauge|WinTV PCI card (88x chip based)"
+0x14f1	0x8811	"unknown"	"Hauppauge|WinTV PCI card (88x chip based) [Audio function]"
 0x14f2	0x0001	"unknown"	"Mobility Electronics, Inc.|Moselle Split Bridge"
 0x14f2	0x0002	"unknown"	"Mobility Electronics, Inc.|Capilano Split Bridge"
 0x14f2	0x0120	"unknown"	"Mobility Electronics, Inc.|Mobility Split Bridge"
