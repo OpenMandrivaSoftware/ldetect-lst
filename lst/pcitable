@@ -3188,6 +3188,7 @@
 0x8086	0x1037	"eepro100"	"Intel Corporation|82801CAM (ICH3) Chipset Ethernet Controller"
 0x8086	0x1038	"e100"	"Intel Corporation|Express Pro 100"
 0x8086	0x1039	"eepro100"	"Intel Corporation|EtherExpress PRO/100"
+0x8086	0x103a	"eepro100"	"Intel Corporation|EtherExpress PRO/100"
 0x8086	0x1100	"unknown"	"Intel Corporation|82815 Host-Hub Interface Bridge / DRAM Ctrlr"
 0x8086	0x1101	"unknown"	"Intel Corporation|82815 AGP Bridge"
 0x8086	0x1102	"unknown"	"Intel Corporation|82815 Internal Graphics Device"
