@@ -1832,7 +1832,7 @@
 0x1077	0x4000	"unknown"	"QLogic Corp.| "
 0x1077	0x4010	"qla4xxx"	"QLogic Corp.| "
 0x1077	0x6312	"qla6312"	"QLogic Corp.|QLA6312"
-0x1077	0x6322	"qla6322"	"QLogic Corp.|QLA6312"
+0x1077	0x6322	"qla6312"	"QLogic Corp.|QLA6312"
 0x1077	0x8471	"unknown"	"Q Logic|QLA12160 on AMI MegaRAID"
 0x1077	0x8493	"unknown"	"Q Logic|QLA12160 on AMI MegaRAID"
 0x1078	0x0000	"Card:MediaGX"	"Cyrix Corp.|5510 [Grappa]"
