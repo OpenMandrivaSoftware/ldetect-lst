@@ -1,3 +1,81 @@
+2003-08-11 16:30  Gwenole Beauchesne <gbeauchesne@mandrakesoft.com>
+
+	* lst/pcitable: Use "pdc-ultra" for Promise SATA150 Controllers
+
+2003-08-03 12:05  Stefan Siegel <siegel@linux-mandrake.com>
+
+	* lst/Makefile: Add creation date to the header of the generated
+	lookup files
+
+2003-08-03 11:49  Stefan Siegel <siegel@linux-mandrake.com>
+
+	* lst/.cvsignore: Added missing files
+
+2003-08-01 22:39  Pixel <pixel@mandrakesoft.com>
+
+	* lst/pcitable: Steffen Barszus says:
+	
+	There are two Eicon Cards that are false listed in ldetect-lst.
+	
+	Here the entries:
+	
+	0x1133	0xe001	"ISDN:hisax,type=11"	"Eicon|DIVA 20PRO ISDN
+	Adapter"  <=== 0x1133  0xe002  "ISDN:hisax,type=11"    "Eicon|DIVA
+	20 ISDN Adapter" 0x1133  0xe003  "ISDN:hisax,type=11"	
+	"Eicon|DIVA 20PRO_U ISDN Adapter" <=== 0x1133  0xe004 
+	"ISDN:hisax,type=11"	"Eicon|DIVA 20_U ISDN Adapter" 0x1133 
+	0xe005	"ISDN:hisax,type=11"	"Eicon|ISDN Controller" 0x1133 
+	0xe00b	"hisax" "Eicon Technology Corporation|DIVA 2.02"
+	
+	For proofread, the entries from actual kernels modules.pcimap
+	
+	hisax		     0x00001133 0x0000e002 hisax	       
+	0x00001133 0x0000e004 hisax		   0x00001133 0x0000e005
+	hisax		     0x00001133 0x0000e00b
+	
+	>From actual isdn4linux FAQ:
+	http://www.mhessler.de/i4lfaq/i4lfaq-5.html#hardware
+	
+	supported cards: ....  Eicon DIVA 2.0 ISA and PCI (S0 and U
+	interface, no PRO version) ....
+	
+	>From Vendor:
+	http://www.eicon.de/support/helpweb/software.asp?h=dp&s=l
+	
+	"Not supported" ...  "Use Diva 2.01 PCI or Diva Server - drivers
+	for these cards are included in isdn4linux."
+	
+	So this both: 0x1133  0xe001  "ISDN:hisax,type=11"    "Eicon|DIVA
+	20PRO ISDN Adapter" 0x1133  0xe003  "ISDN:hisax,type=11"   
+	"Eicon|DIVA 20PRO_U ISDN Adapter"
+	
+	should be changed to
+	
+	0x1133	0xe001	"unknown"    "Eicon|DIVA 20PRO ISDN Adapter" 0x1133
+	 0xe003  "unknown"    "Eicon|DIVA 20PRO_U ISDN Adapter"
+	
+	Only Eicon Diva and Eicon Diva Server are supported, no Pro
+	Version.  (I had a guy at de.comp.os.unix.linux.isdn with this card
+	and mandrake 9.1)
+
+2003-08-01 00:06  adelorbeau
+
+	* lst/pcitable: Changing back the sound drivers from i810_audio to
+	snd-intel8x0 for the following cards: 8086 24c5 / 8086 24d5 / 10de
+	00da / 10de 006a hoping that the sound is now unmutted by default.
+
+2003-07-28 13:11  Guillaume Cottenceau <gc@mandrakesoft.com>
+
+	* lst/pcitable: better description for audiopci creative labs
+
+2003-07-25 14:38  Fançois Pons <fpons@mandrakesoft.com>
+
+	* ldetect-lst.spec: fix bug 3029.
+
+2003-07-25 14:37  Fançois Pons <fpons@mandrakesoft.com>
+
+	* lst/Cards+: ATI Radeon 8500 now add support for DRI.
+
 2003-07-24 22:43  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.7-16mdk
