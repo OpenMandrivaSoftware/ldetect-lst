@@ -4048,7 +4048,7 @@
 0x8086	0x24d2	"usb-uhci"	"Intel Corporation|USB Controller"
 0x8086	0x24d4	"usb-uhci"	"Intel Corporation|USB Controller"
 0x8086	0x24d7	"usb-uhci"	"Intel Corporation|USB Controller"
-0x8086	0x24dd	"usb-ohci"	"Intel Corporation|USB Enhanced Controller"
+0x8086	0x24dd	"ehci-hcd"	"Intel Corporation|USB Enhanced Controller"
 0x8086	0x2500	"unknown"	"Intel Corporation|82820 820 (Camino) Chipset Host Bridge (MCH)"
 0x8086	0x2501	"unknown"	"Intel Corporation|82820 820 (Camino) Chipset Host Bridge (MCH)"
 0x8086	0x2502	"unknown"	"Intel Corporation|82820"
