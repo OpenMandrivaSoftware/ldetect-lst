@@ -1322,6 +1322,7 @@
 0x1106	0x3074	"unknown"	"VIA Technologies|VT8233 PCI to ISA Bridge"
 0x1106	0x3091	"unknown"	"VIA Technologies|VT8633 [Apollo Pro266]"
 0x1106	0x3099	"unknown"	"VIA Technologies|VT8367 [KT266]"
+0x1106	0x3128	"unknown"	"VIA Technologies|P4X266A CPU-to-PCI Bridge"
 0x1106	0x5030	"unknown"	"VIA Technologies|VT82C596 ACPI [Apollo PRO]"
 0x1106	0x6100	"via-rhine"	"VIA Technologies|VT85C100A [Rhine II]"
 0x1106	0x8231	"unknown"	"VIA Technologies|VT8231 [PCI-to-ISA Bridge]"
