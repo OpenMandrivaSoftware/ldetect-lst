@@ -25,6 +25,9 @@ install: build
 
 # rules to build a test rpm
 
+localsrpm: check changelog localdist
+	rpm -ts $(PACKAGE)-$(VERSION).tar.bz2
+
 localrpm: localdist buildrpm
 
 localdist: cleandist dir localcopy tar
