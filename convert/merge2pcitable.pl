@@ -15,6 +15,7 @@ if ($0 =~ /merge2pcitable/)
     my $d_pci = read_pcitable($pcitable);
     my $d_in = $read->($in);
     merge($d_pci, $d_in);
+    cleanup_subids($d_pci);
     write_pcitable($d_pci);
 } else { 1 }
 
@@ -169,5 +170,39 @@ sub merge {
 	      # don't keep sub-entries with unknown drivers
 	      if $all || /ffffffff$/ || $new->{$_}[0] ne "unknown";
 	}	
+    }
+}
+
+sub cleanup_subids {
+    my ($drivers) = @_;
+    my %l, %m;
+    foreach (sort keys %$drivers) {
+	my ($id, $subid) = /(........)(........)/;
+	if ($l{$id}) {
+	    push @{$m{$id}}, $l{$id}, $subid;
+	} else {
+	    $l{$id} = $subid;
+	}
+    }
+    foreach my $id (keys %m) {
+	my %modules;
+	my $text;
+	foreach my $subid (@{$m{$id}}) {
+	    my $e = $drivers->{"$id$subid"};
+	    $modules{$e->[0]} = 1;
+	    $text = $e->[1] if length($e->[1]) > length($text);
+	}
+	if (keys(%modules) == 1) {
+	    my ($module, undef) = %modules;
+	    			
+	    # remove others
+	    foreach my $subid (@{$m{$id}}) {
+		delete $drivers->{"$id$subid"};		
+	    }
+	    # add a main one
+	    $drivers->{$id . 'ffffffff'} = [ $module, $text ];
+	} else {
+#	    print STDERR "keeping subids for $id ($text) because of ", join(", ", keys %modules), "\n";
+	}
     }
 }
