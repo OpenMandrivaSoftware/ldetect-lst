@@ -5369,6 +5369,7 @@
 0x8086	0x359e	"unknown"	"Intel Corp.|Workstation Memory Controller Hub"
 0x8086	0x4000	"unknown"	"Intel Corp.|Creatix V.90 HaM Modem"
 0x8086	0x4220	"ipw2200"	"Intel Corp.|Intel(R) PRO/Wireless 2200BG"
+0x8086	0x4223	"ipw2200"	""
 0x8086	0x5001	"unknown"	"Intel Corp.|PRO/DSL 2100 Modem - PPP"
 0x8086	0x5005	"unknown"	"Intel Corp.|PRO/DSL 2200 Modem - PPPoA"
 0x8086	0x5200	"eepro100"	"Intel Corp.|EtherExpress PRO/100"
