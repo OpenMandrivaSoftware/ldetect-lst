@@ -424,6 +424,7 @@ Belinea; Belinea 108060; 0; 30.0-115.0; 50.0-160.0
 Belinea; Belinea 108090; 0; 30.0-95.0; 50.0-160.0
 Belinea; Belinea 108095; 0; 30.0-95.0; 50.0-160.0
 Bridge; Bridge BM17C; brg00ab; 30.0-70.0; 50.0-160.0; 1
+Brother; Brother BM85L; 0; 30.0-64.0; 50.0-100.0; 1
 Bus Computer Systems; Bus Computer Systems Bus_VGA; bus_vga; 31.5-38.0; 50.0-70.0; 1
 Carroll Touch; Carroll Touch CT1381A; ct1381a; 15.7-38.0; 45.0-90.0; 1
 Colorgraphic; Colorgraphic EG2040; eg2040; 20.0-40.0; 40.0-100.0; 1
