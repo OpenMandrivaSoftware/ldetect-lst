@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.27
+%define version 0.1.28
 %define release 1mdk
 
 Name: %{name}
@@ -64,6 +64,11 @@ fi
 %{_bindir}/*
 
 %changelog
+* Fri Nov 19 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.28-1mdk
+- ALI SATA controllers:
+  o fill in descriptions
+  o fix duplicated entry
+
 * Fri Nov 19 2004 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.27-1mdk
 - pcitable:
   o sync with:
