@@ -51,7 +51,7 @@ LINE # Option "fix_panel_size"
 LINE # videoram 512
 
 NAME KYRO Series
-DRIVER pvr2fb 
+DRIVER vesa 
 
 NAME Chips & Technologies CT65525
 CHIPSET ct65525
