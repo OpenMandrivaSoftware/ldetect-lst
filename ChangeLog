@@ -1,6 +1,44 @@
+2004-06-15 15:25  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.10-1mdk
+
+2004-06-15 15:23  Arnaud de Lorbeau <adelorbeau@mandrakesoft.com>
+
+	* lst/pcitable: Add madwifi_pci for 16c8 0013 and slamr (slmodem)
+	  for 10b9 5457
+
+2004-06-15 15:13  Arnaud de Lorbeau <adelorbeau@mandrakesoft.com>
+
+	* lst/pcitable: Modification of some bcm5700 in tg3 and add a few
+	  chip names.
+
+2004-06-08 19:35  Arnaud de Lorbeau <adelorbeau@mandrakesoft.com>
+
+	* lst/pcitable: Add some cardbus controleur from
+	  pciids.sourceforge.net Add module yenta_socket for the 0x1217
+	  0x7114 (tested)
+
+2004-06-08 18:14  Arnaud de Lorbeau <adelorbeau@mandrakesoft.com>
+
+	* lst/pcitable: CB1410 Cardbus Controller works with yenta_socket
+
+2004-06-08 15:14  Erwan Velu <erwan@mandrakesoft.com>
+
+	* lst/pcitable: adding usb modules for dell PE750
+
+2004-05-27 10:46  Pixel <pixel@mandrakesoft.com>
+
+	* lst/: Cards+, pcitable: rename "NeoMagic (laptop/notebook)" to
+	  "NeoMagic MagicGraph (laptop/notebook)" (cosmetic change)
+	  (bugzilla #4686)
+
 2004-05-24 17:02  Gwenole Beauchesne <gbeauchesne@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.9-16mdk
+
+2004-05-24 17:02  Gwenole Beauchesne <gbeauchesne@mandrakesoft.com>
+
+	* Makefile: err file no longer exists
 
 2004-05-24 17:02  Gwenole Beauchesne <gbeauchesne@mandrakesoft.com>
 
