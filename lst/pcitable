@@ -1467,6 +1467,7 @@
 0x10de	0x01ad	"unknown"	"Nvidia Corporation|nForce 220/420 Memory Controller"
 0x10de	0x01b0	"unknown"	"Nvidia Corporation|nForce MCP Audio Processing Unit (Dolby Digital)"
 0x10de	0x01b1	"unknown"	"Nvidia Corporation|nForce Audio Codec Interface"
+0x10de	0x01b2	"snd-card-intel8x0"	"Nvidia Corporation|nForce Joystick"
 0x10de	0x01b4	"unknown"	"Nvidia Corporation|nForce SMBus Controller"
 0x10de	0x01b7	"unknown"	"Nvidia Corporation|nForce AGP Host to PCI Bridge"
 0x10de	0x01c3	"unknown"	"Nvidia Corporation|nForce MCP Networking Adapter"
