@@ -651,7 +651,7 @@
 0x104c	0xfe00	"unknown"	"Texas Instruments|FireWire Host Controller"
 0x104c	0xfe03	"unknown"	"Texas Instruments|12C01A FireWire Host Controller"
 0x104d	0x8009	"unknown"	"Sony Corporation|CXD1947Q i.LINK Controller"
-0x104d	0x8039	"unknown"	"Sony Corporation|CXD3222 iLINK Controller"
+0x104d	0x8039	"ohci1394"	"Sony Corporation|CXD3222 iLINK Controller"
 0x104d	0x8056	"unknown"	"Sony Corporation|Rockwell HCF 56K modem"
 0x104d	0x808a	"unknown"	"Sony Corporation|Memory Stick Controller"
 0x104e	0x0017	"unknown"	"Oak Technology, Inc|OTI-64017"
