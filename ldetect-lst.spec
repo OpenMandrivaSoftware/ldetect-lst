@@ -1,6 +1,6 @@
 %define name ldetect-lst
 %define version 0.1.2
-%define release 31mdk
+%define release 32mdk
 
 Name: %{name}
 Version: %{version}
@@ -47,6 +47,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/*
 
 %changelog
+* Mon Nov 12 2001 Yves Duret <yduret@mandrakesoft.com> 0.1.2-32mdk
+- the really big fat heavy ScannerDB update (~320 scanners added)
+
 * Wed Oct 10 2001 Yves Duret <yduret@mandrakesoft.com> 0.1.2-31mdk
 - really add ScannerDB (i suck)
 
