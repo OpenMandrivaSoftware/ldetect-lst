@@ -656,6 +656,7 @@
 0x0506	0xf100	"unknown"	"3Com Corp.|3CP4218 ADSL Modem (pre-init)"
 0x050d	0x0004	"usbnet"	"Belkin Components|"
 0x050d	0x0050	"at76c503-rfmd"	""
+0x050d	0x0084	"hci_usb"	"Belkin Components|Bluetooth USB Adapter"
 0x050d	0x0103	"belkin_sa"	"Belkin Components|F5U103 Serial Adapter"
 0x050d	0x0109	"mct_u232"	"Belkin Components|PDA Adapter"
 0x050d	0x0115	"usb-storage"	"Belkin Components|SCSI Adapter"
