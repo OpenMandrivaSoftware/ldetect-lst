@@ -1928,6 +1928,9 @@ SEE NVIDIA GeForce
 NAME NVIDIA GeForce3 (generic)
 SEE NVIDIA GeForce
 
+NAME NVIDIA GeForce3 (xbox)
+DRIVER nvxbox
+
 NAME NVIDIA GeForce4 (generic)
 SEE NVIDIA GeForce
 
