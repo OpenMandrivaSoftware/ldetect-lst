@@ -75,7 +75,7 @@ fi
   o one wireless entry (orinoco_plx -> hostap_plx)
   o one Intel SATA entry (ahci -> ata_piix)
   o two ATI SATA entries (atiixp -> sata_sil)
-- qla6322 has been obsoleted by qla6322 and no more exists
+- qla6322 has been obsoleted by qla6312 and no more exists
 
 * Wed Mar 30 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.79-1mdk
 - explicitely list all devices supported by megaraid_mbox (workaround
