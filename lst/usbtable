@@ -2769,7 +2769,7 @@
 0x0846	0x1020	"pegasus"	""
 0x0846	0x1040	"usbnet"	""
 0x0846	0x4110	"prism2_usb"	"NetGear, Inc.|MA111"
-0x0846	0x4230	"unknown"	"NetGear, Inc.|MA111 WiFi"
+0x0846	0x4230	"prism2_usb"	"NetGear, Inc.|MA111 WiFi"
 0x084d	0x0003	"unknown"	"Minton Optic Industry Co., Inc.|S-Cam F5 Digital Camera"
 0x084d	0x0011	"unknown"	"Minton Optic Industry Co., Inc.|Argus DC3500 Digital Camera"
 0x084e	0x1001	"kbtab"	""
