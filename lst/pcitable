@@ -5487,6 +5487,7 @@
 0x5053	0x2010	"unknown"	"Voyetra Technologies|Daytona Audio Adapter"
 0x5112	0x0001	"unknown"	"Sigmatek GmbH & CoKG|DCP401 Intelligent Dias Master"
 0x5145	0x3031	"unknown"	"Ensoniq (Old)|Concert AudioPCI"
+0x5213	0x0510	"snd-fm801"	"Gallant|Odyssey Sound 4"
 0x5301	0x0001	"Card:AT3D"	"Alliance Semiconductor|ProMotion aT3D"
 0x5333	0x0551	"Card:S3 Trio3D"	"S3 Inc.|Plato/PX (system)"
 0x5333	0x0e11	"Card:VESA driver (generic)"	"S3 Inc.|86c775/86c785 [Trio 64V2/DX or /GX]"
