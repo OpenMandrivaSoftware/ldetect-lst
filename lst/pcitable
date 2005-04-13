@@ -4698,7 +4698,7 @@
 0x1420	0x8002	"unknown"	"Psion Dacom plc|Gold Card NetGlobal 56k+10/100Mb CardBus (Ethernet part)"
 0x1420	0x8003	"unknown"	"Psion Dacom plc|Gold Card NetGlobal 56k+10/100Mb CardBus (Modem part)"
 0x1425	0x0007	"cxgb"	"Chelsio|10Gb Ethernet N110"
-0x1425	0x0010	"cxgb"	"Chelsio|10Gb Ethernet N210"
+0x1425	0x000a	"cxgb"	"Chelsio|10Gb Ethernet N210"
 0x142e	0x4020	"unknown"	"Vitec Multimedia|VM2-2 [Video Maker 2] MPEG1/2 Encoder"
 0x1432	0x9130	"8139too"	"Edimax Computer Co.|RTL81xx Fast Ethernet"
 0x1448	0x0001	"unknown"	"Alesis Studio|ADAT/EDIT Audio Editing"
