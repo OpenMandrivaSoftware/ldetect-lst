@@ -2992,6 +2992,7 @@
 0x0c45	0x602a	"sn9c102"	"Microdia|Meade ETX-105EC Camera"
 0x0c45	0x602c	"sn9c102"	""
 0x0c45	0x6030	"sn9c102"	""
+0x0c45	0x60af	"unknown"	"Trust|WB-3100P Portable Webcam"
 0x0c4b	0x0100	"cyberjack"	"Reiner SCT Kartensysteme GmbH|cyberJack e-com/pinpad"
 0x0c4b	0x0300	"unknown"	"Reiner SCT Kartensysteme GmbH|cyberJack pinpad(a)"
 0x0c52	0x2101	"ftdi_sio"	""
