@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.82
+%define version 0.1.83
 %define release 1mdk
 
 Name: %{name}
@@ -63,6 +63,16 @@ fi
 %{_bindir}/*
 
 %changelog
+* Fri Apr 15 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.83-1mdk
+- add support for Gallant Odyssey Sound 4
+- add full support for Intel ESB2 DID
+- fix a cxgb entry
+- fix install on new Dell laptops
+- update ata_adma entries from kernel-multimedia-2.6.10-3.mm.25mdk
+- update a couple void descriptions from pci.ids
+- sync with kernel-2.6.12-rc2-mm2
+- add D-Link DWL-G510 Rev B (blino)
+
 * Tue Apr  5 2005 Olivier Blin <oblin@mandrakesoft.com> 0.1.82-1mdk
 - use slmodem driver for some ICH4 modems (Arnaud de Lorbeau)
 
