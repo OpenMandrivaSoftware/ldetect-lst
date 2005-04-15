@@ -1,3 +1,72 @@
+2005-04-15 17:53  Thierry Vignaud <tvignaud at mandrakesoft.com>
+
+	* ldetect-lst.spec: 0.1.83-1mdk
+
+2005-04-15 15:52  Thierry Vignaud <tvignaud at mandrakesoft.com>
+
+	* lst/pcitable: fix install on new Dell laptops
+
+2005-04-14 22:37  Pablo Saratxaga <pablo at mandrakesoft.com>
+
+	* lst/usbtable: new usb id (currently unsupported webcam)
+
+2005-04-14 14:36  Thierry Vignaud <tvignaud at mandrakesoft.com>
+
+	* lst/pcitable: sync with kernel-multimedia-2.6.10-3.mm.25mdk
+
+2005-04-14 10:36  Thierry Vignaud <tvignaud at mandrakesoft.com>
+
+	* lst/pcitable: manually fill in descriptions for ITE RAID
+	  controllers
+
+2005-04-13 12:51  Thierry Vignaud <tvignaud at mandrakesoft.com>
+
+	* lst/pcitable: fix a cxgb entry (10 really is 0xa...)
+
+2005-04-11 18:53  Thierry Vignaud <tvignaud at mandrakesoft.com>
+
+	* lst/pcitable: update a couple void descriptions from pci.ids
+
+2005-04-11 18:51  Thierry Vignaud <tvignaud at mandrakesoft.com>
+
+	* lst/pcitable: sort
+
+2005-04-11 15:36  Thierry Vignaud <tvignaud at mandrakesoft.com>
+
+	* lst/pcitable: add support for Gallant Odyssey Sound 4
+
+2005-04-11 12:10  Thierry Vignaud <tvignaud at mandrakesoft.com>
+
+	* lst/pcitable: sync with kernel-2.6.12-rc2-mm2
+
+2005-04-10 18:59  Olivier Blin <oblin at mandrakesoft.com>
+
+	* lst/pcitable: add D-Link DWL-G510 (Rev B)
+
+2005-04-10 00:40  Olivier Blin <oblin at mandrakesoft.com>
+
+	* lst/usbtable: revert latest commit, wrong user input
+
+2005-04-10 00:24  Olivier Blin <oblin at mandrakesoft.com>
+
+	* lst/usbtable: use prism2_usb for "NetGear, Inc.|MA111 WiFi"
+
+2005-04-08 18:44  Thierry Vignaud <tvignaud at mandrakesoft.com>
+
+	* lst/pcitable: add full support for Intel ESB2 DID
+
+2005-04-08 18:40  Thierry Vignaud <tvignaud at mandrakesoft.com>
+
+	* lst/pcitable: fix ESB2 sound entry
+
+2005-04-08 12:19  Thierry Vignaud <tvignaud at mandrakesoft.com>
+
+	* ldetect-lst.spec: fix 0.1.80-1mdk's changelog
+
+2005-04-07 12:46  Thierry Vignaud <tvignaud at mandrakesoft.com>
+
+	* lst/pcitable: add support for ESB2 southbridge (from alsa CVS)
+
 2005-04-05 19:46  Olivier Blin <oblin at mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.82-1mdk
