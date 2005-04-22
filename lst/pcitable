@@ -4128,7 +4128,7 @@
 0x125d	0x2838	"Bad:www.linmodems.org"	"ESS Technology|ES2838/2839 SuperLink Modem"
 0x125d	0x2898	"unknown"	"ESS Technology|ES2898 Modem"
 0x1260	0x3872	"orinoco_pci"	"Intersil Corporation|Prism 2.5 Wavelan chipset"
-0x1260	0x3873	"hostap_pci"	"Intersil Corp.|ISL3874A PRISMII.5 IEE802.11B Wireless LAN"
+0x1260	0x3873	"orinoco_pci"	"Intersil Corp.|ISL3874A PRISMII.5 IEE802.11B Wireless LAN"
 0x1260	0x3877	"prism54"	"Intersil Corp.|Prism Indigo Wavelan chipset"
 0x1260	0x3886	"prism54"	"Intersil Corp.|ISL3886 [Prism Javelin/Prism Xbow]"
 0x1260	0x3890	"prism54"	"Intersil Corp.|PRISM GT 802.11g 54Mbps Wireless Controller"
