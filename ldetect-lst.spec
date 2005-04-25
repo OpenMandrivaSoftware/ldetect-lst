@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.83
+%define version 0.1.84
 %define release 1mdk
 
 Name: %{name}
@@ -63,6 +63,12 @@ fi
 %{_bindir}/*
 
 %changelog
+* Mon Apr 25 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.84-1mdk
+- sync with kernel-multimedia-2.6.11-7.mm.1mdk
+- sync with latest pci.ids
+- use orinoco instead of hostap for a Prism 2.5 card (blino, #15566)
+- hfc_usb is an ISDN driver
+
 * Fri Apr 15 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.83-1mdk
 - add support for Gallant Odyssey Sound 4
 - add full support for Intel ESB2 DID
