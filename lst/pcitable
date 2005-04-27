@@ -6190,6 +6190,7 @@
 0x8086	0x24c6	0x1025	0x005a	"Hsf:www.linmodems.org"	"Intel Corporation|TravelMate 290"
 0x8086	0x24c6	0x103c	0x0890	"Hsf:www.linmodems.org"	"Intel Corporation|NC6000 laptop"
 0x8086	0x24c6	0x1071	0x8160	"Hsf:www.linmodems.org"	"Intel Corporation|MIM2000"
+0x8086	0x24c6	0x14c0	0x0012	"slamr" "Intel Corp.|82801DB/DBL/DBM (ICH4/ICH4-L/ICH4-M) AC'97 Modem Controller"
 0x8086	0x24c6	0x17c0	0x1069	"slamr"	"Intel Corp.|82801DB/DBL/DBM (ICH4/ICH4-L/ICH4-M) AC'97 Modem Controller"
 0x8086	0x24c6	"Hsf:www.linmodems.org"	"Intel Corp.|82801DB/DBL/DBM (ICH4/ICH4-L/ICH4-M) AC'97 Modem Controller"
 0x8086	0x24c7	"usb-uhci"	"Intel Corp.|82801DB USB Controller"
