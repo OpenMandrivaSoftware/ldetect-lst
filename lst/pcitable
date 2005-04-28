@@ -2871,6 +2871,7 @@
 0x10df	0xfa00	"lpfcdd"	"Emulex Corp.|LP10000 Fibre Channel Adapter"
 0x10df	0xfa01	"lpfcdd"	"Emulex Corporation|LP101"
 0x10df	0xfb00	"lpfcdd"	"Emulex Corporation|LightPulse Fibre Channel Adapter"
+0x10df	0xfc00	"lpfc"	"Emulex Corporation|LP10000-S 2"
 0x10df	0xfd00	"lpfcdd"	"Emulex Corporation|LP11000"
 0x10df	0xfe00	"lpfc"	""
 0x10e0	0x5026	"unknown"	"Integrated Micro|IMS5026/27/28"
