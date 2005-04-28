@@ -279,7 +279,7 @@
 0x1002	0x4372	"unknown"	"ATI Technologies Inc|ATI SMBus"
 0x1002	0x4376	"atiixp"	"ATI Technologies Inc|Standard Dual Channel PCI IDE Controller ATI"
 0x1002	0x4379	"sata_sil"	"ATI Technologies Inc|ATI 4379 Serial ATA Controller"
-0x1002	0x437a	"unknown"	"ATI Technologies Inc|ATI 437A Serial ATA Controller"
+0x1002	0x437a	"sata_sil"	"ATI Technologies Inc|ATI 437A Serial ATA Controller"
 0x1002	0x4437	"Card:ATI Radeon (fglrx)"	"ATI|Radeon Mobility 7000 IGP 4437"
 0x1002	0x4554	"Card:ATI Mach64"	"ATI|210888ET [Mach64 ET]"
 0x1002	0x4654	"Card:ATI Mach64"	"ATI|Mach64 VT"
