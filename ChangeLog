@@ -1,3 +1,29 @@
+2005-05-04 04:05  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* ldetect-lst.spec: 0.1.85-1mdk
+
+2005-05-04 04:04  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable:
+	  add a new tg3 network card from kernel-2.6.12-rc3-mm2
+
+2005-04-28 21:49  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: sync with kernel-2.6.12-rc3
+
+2005-04-28 20:20  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: add a new ATI SATA controller from
+	  kernel-2.6.11.8mdk
+
+2005-04-27 17:09  Olivier Blin <oblin at mandriva.com>
+
+	* lst/pcitable: fix typo (me sux)
+
+2005-04-27 17:02  Olivier Blin <oblin at mandriva.com>
+
+	* lst/pcitable: use slmodem on X-Book
+
 2005-04-25 16:01  Thierry Vignaud <tvignaud at mandriva.com>
 
 	* ldetect-lst.spec: 0.1.84-1mdk
