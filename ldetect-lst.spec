@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.84
+%define version 0.1.85
 %define release 1mdk
 
 Name: %{name}
@@ -63,6 +63,12 @@ fi
 %{_bindir}/*
 
 %changelog
+* Wed May  4 2005 Thierry Vignaud <tvignaud@mandriva.com> 0.1.85-1mdk
+- add a new tg3 network card from kernel-2.6.12-rc3-mm2
+- add a new ATI SATA controller from kernel-2.6.11.8mdk
+- sync with kernel-2.6.12-rc3
+- use slmodem on X-Book (blino)
+
 * Mon Apr 25 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.1.84-1mdk
 - sync with kernel-multimedia-2.6.11-7.mm.1mdk
 - sync with latest pci.ids
