@@ -4912,7 +4912,7 @@
 0x14e4	0x080f	"unknown"	"Broadcom Corp.|Sentry5 DDR/SDR RAM Controller"
 0x14e4	0x0811	"unknown"	"Broadcom Corp.|Sentry5 External Interface Core"
 0x14e4	0x0816	"unknown"	"Broadcom Corp.|BCM3302 Sentry5 MIPS32 CPU"
-0x14e4	0x1600	"unknown"	"Broadcom Corporation|NetXtreme BCM5752 Gigabit Ethernet PCI Express"
+0x14e4	0x1600	"tg3"	"Broadcom Corporation|NetXtreme BCM5752 Gigabit Ethernet PCI Express"
 0x14e4	0x1601	"unknown"	"Broadcom Corporation|NetXtreme BCM5752M Gigabit Ethernet PCI Express"
 0x14e4	0x1644	"tg3"	"Broadcom Corp.|BCM5700 1000BaseTX"
 0x14e4	0x1645	"tg3"	"Broadcom Corp.|BCM5701 1000BaseTX"
