@@ -3221,7 +3221,7 @@
 0x1106	0x3259	"unknown"	"VIA Technologies Inc|??? CPU to PCI Bridge"
 0x1106	0x3269	"unknown"	"VIA Technologies Inc|KT880 CPU to PCI Bridge"
 0x1106	0x3282	"unknown"	"VIA Technologies Inc|K8T880Pro CPU to PCI Bridge"
-0x1106	0x3288	"unknown"	"VIA Technologies, Inc.|VIA High Definition Audio Controller"
+0x1106	0x3288	"snd-hda-intel"	"VIA Technologies, Inc.|VIA High Definition Audio Controller"
 0x1106	0x3290	"unknown"	"VIA Technologies, Inc.|K8M890 Host Bridge"
 0x1106	0x3296	"unknown"	"VIA Technologies, Inc.|P4M800 Host Bridge"
 0x1106	0x3337	"unknown"	"VIA Technologies, Inc.|VT8237A PCI to ISA Bridge"
