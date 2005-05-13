@@ -85,23 +85,43 @@ Acer; Acer 99g; API9804; 30.0-107.0; 50.0-160.0
 Acer; Acer 99sl; API9721; 30.0-98.0; 50.0-160.0
 Acer; Acer F31; api1035; 31.5-60.0; 56.0-75.0; 1
 Acer; Acer F31e; api7601; 31.5-60.0; 56.0-85.0; 1
+Acer; Acer FP350; API7614; 31.5-60.0; 56.0-75.0
+Acer; Acer FP450; API761C; 31.5-60.0; 56.0-75.0
 Acer; Acer F50p; api7604; 48.4; 60; 1
 Acer; Acer F51; api7602; 31.5-60.0; 56.0-85.0; 1
 Acer; Acer FP500; API7606; 48.4; 60
+Acer; Acer FP501; API7616; 49; 61
 Acer; Acer FP502; API760D; 48.4; 60
+Acer; Acer FP503; API7617; 31.5-60.0; 56.0-75.0
 Acer; Acer FP51e; API760A; 31.5-60.0; 56.0-75.0
 Acer; Acer FP550; API7612; 31.5-60.0; 56.0-75.0
 Acer; Acer FP551; API7607; 31.5-60.0; 56.0-85.0
+Acer; Acer FP553; API761F; 31.5-60.0; 56.0-75.0
 Acer; Acer FP555; API7609; 31.5-60.0; 56.0-75.0
+Acer; Acer FP556; API7613; 31.5-60.0; 56.0-75.0
+Acer; Acer FP558; API7615; 31.5-60.0; 56.0-75.0
+Acer; Acer FP559; API761b; 31.5-60.0; 56.0-75.0
 Acer; Acer FP560; API7608; 48.4; 60
 Acer; Acer FP561; API760B; 31.5-60.0; 56.0-75.0
+Acer; Acer FP563; API761E; 31.5-60.0; 56.0-75.0
+Acer; Acer FP581; API7621; 31.5-60.0; 56.0-75.0
+Acer; Acer FP730; API761A; 31.5-81.0; 56.0-75.0
+Acer; Acer FP750; API7619; 31.5-81.0; 56.0-75.0
+Acer; Acer FP751; API7618; 31.5-81.0; 56.0-75.0
 Acer; Acer FP850; API7605; 31.5-80.0; 56.0-75.0
 Acer; Acer FP851; API760C; 31.5-80.0; 56.0-75.0
 Acer; Acer FP855; API7611; 31.5-80.0; 56.0-75.0
+Acer; Acer G571; API0004; 30.0-70.0; 50.0-120.0
 Acer; Acer G772; API9902; 30.0-72.0; 50.0-120.0
+Acer; Acer G991; API9903; 30.0-98.0; 50.0-160.0
 Acer; Acer LM551; API760E; 31.5-60.0; 56.0-85.0
 Acer; Acer LM552; API760F; 48.4; 60
 Acer; Acer LM554; API7610; 48.4; 60
+Acer; Acer P211; API0003; 30.0-115.0; 50.0-160.0
+Acer; Acer V551; API0002; 30.0-54.0; 50.0-120.0
+Acer; Acer V771; API0001; 30.0-72.0; 50.0-120.0
+Acer; Acer V772; API0102; 30.0-72.0; 50.0-120.0
+Acer; Acer V991; API0105; 30.0-98.0; 50.0-160.0
 Acer; Aspire 33s; API5321; 31.0-35.5; 50.0-100.0
 Acer; Aspire 34Ts; API5322; 31.0-48.0; 50.0-100.0
 Acer; Aspire 54s; API5336; 30.0-54.0; 50.0-110.0
@@ -355,6 +375,7 @@ Apple; Apple Studio Display 15 LCD; APP1592; 28.0-49.0; 60
 Apple; Apple Studio Display 15 LCD (pre-2001); APPf401; 48-60; 60-75
 Apple; Apple Studio Display 17 LCD; APP1792; 30-130; 48.0-160.0
 Apple; Apple Studio Display 20 LCD; APP1992; 30-130; 60
+Apple; Apple Cinema Display 20 LCD; APP1d92; 30-75; 60
 Apple; Apple Cinema Display 22 LCD; APP1692; 30-130; 60
 Apple; Apple Cinema Display 23 LCD; APP1892; 30-130; 60
 Apple; Apple AudioVision 14; 0; 35.0; 66.7
@@ -477,7 +498,38 @@ Belinea; Belinea 108050; 0; 30.0-95.0; 50.0-160.0
 Belinea; Belinea 108060; 0; 30.0-115.0; 50.0-160.0
 Belinea; Belinea 108090; 0; 30.0-95.0; 50.0-160.0
 Belinea; Belinea 108095; 0; 30.0-95.0; 50.0-160.0
-Benq; Benq FP767; 0; 31.5-83; 56.0-76.0; 1
+BenQ; BenQ FP231W (Analog); BNQ7669; 31.0-80.0; 56.0-76.0; 1
+BenQ; BenQ FP231W (Digital); BNQ766A; 31.0-80.0; 56.0-76.0; 1
+BenQ; BenQ FP531; BNQ765E; 31-63.0; 56.0-75.0; 1
+BenQ; BenQ FP547; BNQ7652; 31-63.0; 56.0-75.0; 1
+BenQ; BenQ FP556ms; BNQ765D; 31.5-63.0; 56.0-75.0; 1
+BenQ; BenQ FP556s; BNQ765C; 31.5-63.0; 56.0-75.0; 1
+BenQ; BenQ FP557s; BNQ7650; 31.0-63.0; 56.0-75.0; 1
+BenQ; BenQ FP567s ver.2; BNQ7664; 31.5-63.0; 56.0-75.0; 1
+BenQ; BenQ FP567s; BNQ7651; 31.5-63.0; 56.0-75.0; 1
+BenQ; BenQ FP581s; BNQ7643; 31.5-60.0; 56.0-75.0; 1
+BenQ; BenQ FP591; BNQ7641; 31.0-60.0; 56.0-75.0; 1
+BenQ; BenQ FP71E; BNQ7683; 31-83.0; 56.0-76.0; 1
+BenQ; BenQ FP731; BNQ7659; 31.5-83.0; 60.0-76.0; 1
+BenQ; BenQ FP747; BNQ765A; 31.0-83.0; 56.0-76.0; 1
+BenQ; BenQ FP752-T; BNQ7635; 31.5-83.0; 56.0-76.0; 1
+BenQ; BenQ FP756ms; BNQ7661; 31.5-83.0; 60.0-76.0; 1
+BenQ; BenQ FP757 ver.2; BNQ7660; 31.5-83.0; 60.0-76.0; 1
+BenQ; BenQ FP767; BNQ7638; 31.5-83.0; 56.0-76.0; 1
+BenQ; BenQ FP781s (Analog); BNQ7652; 31.0-83.0; 56.0-76.0; 1
+BenQ; BenQ FP781s (Digital); BNQ7653; 31.0-73.0; 56.0-76.0; 1
+BenQ; BenQ FP783; BNQ7668; 31-83.0; 56.0-76.0; 1
+BenQ; BenQ FP785; BNQ7678; 31-83.0; 56.0-76.0; 1
+BenQ; BenQ FP791; BNQ7640; 31.5-83.0; 60.0-76.0; 1
+BenQ; BenQ FP882 (Analog); BNQ7633; 31.5-83.0; 56.0-76.0; 1
+BenQ; BenQ FP882 (Digital); BNQ763D; 31.5-71.0; 56.0-76.0; 1
+BenQ; BenQ FP937s; BNQ7685; 31-83.0; 56.0-76.0; 1
+BenQ; BenQ FP991; BNQ7646; 31.0-83.0; 56.0-76.0; 1
+BenQ; BenQ FP992; BNQ7276; 31.0-83.0; 56.0-76.0; 1
+BenQ; BenQ P992; BNQ0106; 30.0-98.0; 50.0-160.0; 1
+BenQ; BenQ T720; BNQ7659; 31.5-83.0; 60.0-76.0; 1
+BenQ; BenQ T903; BNQ7680; 31-83.0; 56.0-76.0; 1
+BenQ; BenQ T904; BNQ7681; 31-83.0; 56.0-76.0; 1
 Bridge; Bridge BM17C; brg00ab; 30.0-70.0; 50.0-160.0; 1
 Brother; Brother BM85L; 0; 30.0-64.0; 50.0-100.0; 1
 Bus Computer Systems; Bus Computer Systems Bus_VGA; bus_vga; 31.5-38.0; 50.0-70.0; 1
@@ -512,6 +564,7 @@ Compal; Compal K567; CPL09E5; 30-66; 50-120
 Compal; Compal LC220; CPL240F; 31.5-38.5; 55-85
 Compal; Compal LT220; CPL2410; 31.5-38.5; 55-85
 Compal; Compal M454; CPL4541; 30-54; 50-120
+Compal; Compal M500; CPL5001; 30-54; 50-120
 Compal; Compal M554; CPL5541; 30-54; 50-120
 Compal; Compal M557; CPL5571; 30-70; 50-120
 Compal; Compal M570; CPL5701; 30-70; 50-120
@@ -939,6 +992,8 @@ Dell; Dell 1503FP (Analog); del3004; 30.0-60.0; 60.0-75.0; 1
 Dell; Dell 1503FP (Digital); del3003; 30.0-60.0; 60.0-75.0; 1
 Dell; Dell 1504FP (Digital); DEL300D; 30.0-60.0; 56.0-75.0; 1
 Dell; Dell 1504FP (Analog); DEL300C; 30.0-60.0; 56.0-75.0; 1
+Dell; Dell 1505FP (Analog); DEL4006; 30.0-61.0; 56.0-76.0; 1
+Dell; Dell 1505FP (Digital); DEL4007; 30.0-61.0; 56.0-76.0; 1
 Dell; Dell 1569; del1569; 30.0-69.0; 50.0-110.0; 1
 Dell; Dell 1569; del6915; 30.0-69.0; 50.0-110.0; 1
 Dell; Dell 1600x1200 Laptop Display Panel; 0; 31.5-90.0; 59.0-85.0; 1
@@ -952,19 +1007,26 @@ Dell; Dell 1703FP (Analog); DEL3010; 30.0-80.0; 56.0-76.0; 1
 Dell; Dell 1703FP (Digital); DEL3011; 30.0-80.0; 56.0-76.0; 1
 Dell; Dell 1704FPV (Analog); DEL3015; 30.0-81.0; 56.0-76.0; 1
 Dell; Dell 1704FPV (Digital); DEL3016; 30.0-81.0; 56.0-76.0; 1
+Dell; Dell 1704FPT (Digital); DEL4005; 30.0-81.0; 56.0-76.0; 1
+Dell; Dell 1704FPT (Analog); DEL4004; 30.0-81.0; 56.0-76.0; 1
 Dell; Dell 1726T-HS/D1025HT; del5319; 31.0-85.0; 50.0-100.0; 1
 Dell; Dell 1800FP (Analog); DELE000; 30.0-80.0; 56.0-85.0; 1
 Dell; Dell 1800FP (Digital); DELE001; 30.0-70.0; 56.0-85.0; 1
+Dell; Dell 1801FP (Analog); DELE004; 30.0-80.0; 56.0-75.0; 1
+Dell; Dell 1801FP (Digital); DELE005; 30.0-80.0; 56.0-75.0; 1
 Dell; Dell 1900FP (Analog); DEL300B; 30.0-80.0; 56.0-76.0; 1
 Dell; Dell 1900FP (Digital); DEL3009; 30.0-80.0; 56.0-76.0; 1
 Dell; Dell 1901FP (Analog); DEL4000; 30.0-80.0; 56.0-76.0; 1
 Dell; Dell 1901FP (Digital); DEL4001; 30.0-80.0; 56.0-76.0; 1
+Dell; Dell 1905FP (Analog); DEL400C; 30.0-81.0; 56.0-76.0; 1
+Dell; Dell 1905FP (Digital); DEL400D; 30.0-81.0; 56.0-76.0; 1
 Dell; Dell 1920x1200 Laptop Display Panel (16/10); 0; 30.0-107.0; 50.0-185.0; 1
 Dell; Dell 2000FP (Analog); DELA002; 31.5-80.0; 56.0-76.0; 1
+Dell; Dell 2000FP (Digital); DELA003; 31.5-80.0; 56.0-76.0; 1
 Dell; Dell 2001FP (Analog); DELA007; 31.0-80.0; 56.0-76.0; 1
 Dell; Dell 2001FP (Digital); DELA008; 31.0-80.0; 56.0-76.0; 1
-Dell; Dell 2000FP (Digital); DELA003; 31.5-80.0; 56.0-76.0; 1
-Dell; Dell 800M; del5697; 30.0-70.0; 50.0-120.0; 1
+Dell; Dell 2005FPW (Analog); DELE008; 30.0-83.0; 56.0-75.0; 1
+Dell; Dell 2005FPW (Digital); DELE009; 30.0-83.0; 56.0-75.0; 1
 Dell; Dell 800M; del5697; 30.0-70.0; 50.0-130.0; 1
 Dell; Dell 828FI; del3319; 30.0-70.0; 50.0-120.0; 1
 Dell; Dell D1025HE; del6124; 31.5-92.0; 50.0-150.0; 1
@@ -984,9 +1046,12 @@ Dell; Dell E151FP; DELA004; 31.0-60.0; 56.0-75.0; 1
 Dell; Dell E151FPb; DELA005; 30.0-61.0; 56.0-76.0; 1
 Dell; Dell E151FPp; DEL7006; 30.0-61.0; 56.0-76.0; 1
 Dell; Dell E152FP; DELA009; 30.0-63.0; 56.0-76.0; 1
+Dell; Dell E153FP; DELA00C; 30.0-63.0; 56.0-76.0; 1
 Dell; Dell E171FP; DEL300F; 30.0-80.0; 56.0-76.0; 1
 Dell; Dell E171FPb; DELA006; 31.0-80.0; 56.0-76.0
 Dell; Dell E172FP; DELA00A; 31.0-80.0; 56.0-76.0; 1
+Dell; Dell E173FP; DELA00B; 31.0-80.0; 56.0-76.0; 1
+Dell; Dell E193FP; DEL700E; 31.0-83.0; 56.0-76.0; 1
 Dell; Dell E550; dela2f1; 30.0-54.0; 50.0-120.0; 1
 Dell; Dell E550mm; dela355; 30.0-54.0; 50.0-120.0; 1
 Dell; Dell E551a; dela000; 30.0-54.0; 50.0-120.0; 1
@@ -1000,6 +1065,7 @@ Dell; Dell E772c; DELD002; 30.0-70.0; 50.0-160.0; 1
 Dell; Dell E772p; DEL7005; 30.0-70.0; 50.0-160.0; 1
 Dell; Dell E773c; DELD005; 30.0-70.0; 50.0-160.0; 1
 Dell; Dell E773s; DEL3012; 30.0-70.0; 50.0-160.0; 1
+Dell; Dell E773p; DEL700B; 30.0-70.0; 50.0-160.0; 1
 Dell; Dell Eizo 9080i; 0; 30.0-64.0; 50.0-90.0; 1
 Dell; Dell ES-17; del635e; 31.0-85.0; 50.0-100.0; 1
 Dell; Dell GPD-16C; 0; 20.0-50.0; 50.0-90.0; 1
@@ -1013,10 +1079,14 @@ Dell; Dell M781p; del73bd; 30.0-85.0; 50.0-160.0; 1
 Dell; Dell M781s; del32b0; 30.0-85.0; 50.0-160.0; 1
 Dell; Dell M782; DEL3008; 30.0-85.0; 50.0-160.0; 1
 Dell; Dell M782p; DEL7004; 30.0-85.0; 50.0-160.0; 1
+Dell; Dell M783p; DEL700D; 30.0-85.0; 50.0-160.0; 1
+Dell; Dell M783s; DEL3013; 30.0-85.0; 50.0-160.0; 1
 Dell; Dell M791; del7001; 30.0-96.0; 50.0-160.0; 1
 Dell; Dell M990; del708a; 30.0-95.0; 50.0-160.0; 1
 Dell; Dell M991; DEL7001; 30.0-96.0; 50.0-160.0; 1
 Dell; Dell M992; DEL300E; 30.0-96.0; 50.0-160.0; 1
+Dell; Dell M993c; DELD006; 30.0-96.0; 50.0-160.0; 1
+Dell; Dell M993s; DEL3014; 30.0-96.0; 50.0-160.0; 1
 Dell; Dell P1110; del50ab; 30.0-121.0; 48.0-160.0; 1
 Dell; Dell P1130; del5000; 30.0-130.0; 48.0-170.0; 1
 Dell; Dell P1690; del5348; 30.0-96.0; 50.0-160.0; 1
@@ -1028,6 +1098,7 @@ Dell; Dell P793; DEL3005; 30.0-96.0; 50.0-160.0; 1
 Dell; Dell P990; del50dd; 30.0-96.0; 48.0-120.0; 1
 Dell; Dell P991; del5178; 30.0-107.0; 48.0-120.0; 1
 Dell; Dell P992; DEL5002; 30.0-107.0; 48.0-170.0; 1
+Dell; Dell P1230; DEL700C; 30.0-130.0; 50.0-160.0; 1
 Dell; Dell Super VGA; 0; 30.0-38.5; 50.0-90.0; 1
 Dell; Dell Super VGA Colour; 0; 29.0-38.0; 47.0-100.0; 1
 Dell; Dell Super VGA DL 1428 I/L; 0; 35.5; 87.0; 1
@@ -1076,6 +1147,12 @@ Dell; Dell VS17X; del3026; 30.0-65.0; 50.0-120.0; 1
 Dell; Dell VS17X; del3027; 30.0-65.0; 50.0-120.0; 1
 Dell; Dell W1700LCDTV (Analog); DEL7007; 31.0-61.0; 56.0-75.0; 1
 Dell; Dell W1700LCDTV (Digital); DEL7008; 31.0-61.0; 56.0-75.0; 1
+Dell; Dell W2300LCDTV (Analog); DEL7009; 30.0-61.0; 56.0-75.0; 1
+Dell; Dell W2300LCDTV (Digital); DEL700A; 30.0-61.0; 56.0-75.0; 1
+Dell; Dell W2600LCDTV (Analog); DEL4002; 31.0-64.0; 56.0-75.0; 1
+Dell; Dell W2600LCDTV (Digital); DEL4003; 31.0-64.0; 56.0-75.0; 1
+Dell; Dell W3000 (Analog); DELE006; 30.0-61.0; 56.0-120.0; 1
+Dell; Dell W3000 (Digital); DELE007; 30.0-61.0; 56.0-120.0; 1
 Delta; Delta DA-1565; dpc1565; 30-65; 50-100; 1
 Delta; Delta DA-570; dpc0570; 30-70; 50-100; 1
 Delta; Delta DA-995; dpc0995; 30.0-95.0; 50.0-180.0; 1
@@ -1221,6 +1298,7 @@ Falco Data Products, Inc.; Falco Data Products, Inc. FMS; fms; 15.0-38.0; 47.0-9
 Fora, Inc.; Fora, Inc. MON-7C5; mon-7c5; 15.0-36.0; 45.0-90.0; 1
 Forefront Technology Corp.; Forefront Technology MTS-9608S; mts-9608s; 15.0-38.0; 50.0-90.0; 1
 Fujikama O.A. Distribution; Fujikama PVGA-1024A; pvga-1024a; 31.5-38.5; 50.0-90.0; 1
+Fujitsu; Fujitsu 151E; FUS0170; 30.0-54.0; 50.0-120.0; 1
 Fujitsu; Fujitsu 1554G+; fpa0612; 30-54; 50-120; 1
 Fujitsu; Fujitsu 1568G1; fpa2d30; 30-69; 50-120; 1
 Fujitsu; Fujitsu 1769G; fpa2df9; 30-69; 50-120; 1
@@ -1852,6 +1930,7 @@ ICL; ICL VE17C; icl-ve17c; 30.0-64.0; 48.0-100.0; 1
 Iiyama; Iiyama A101GT, VisionMasterPro 501; ivm2118; 27.0-96.0; 50.0-160.0; 1
 Iiyama; Iiyama A102GT, VisionMasterPro 502; ivm2128; 27.0-110.0; 50.0-160.0; 1
 Iiyama; Iiyama A201HT, VisionMaster Pro 510; ivm2140; 30.0-130.0; 50.0-160.0; 1
+Iiyama; Iiyama MA201D, VisionMaster Pro 511; ivm2150; 30.0-110.0; 50.0-180.0; 1
 Iiyama; Iiyama A701GT, VisionMasterPro 400; ivm1711; 27.0-96.0; 50.0-160.0; 1
 Iiyama; Iiyama A702HT, VisionMaster Pro 410; ivm1740; 27.0-96.0; 50.0-160.0; 1
 Iiyama; Iiyama A705MT, VisionMaster Pro 411 /i70A; ivm174a; 30.0-86.0; 50.0-180.0; 1
@@ -2275,15 +2354,32 @@ MiTAC; MiTAC 1450FD; mtc0003; 31.0-50.0; 50.0-90.0; 1
 MiTAC; MiTAC 1450FV; mtc0001; 31.0-50.0; 50.0-90.0; 1
 MiTAC; MiTAC 1564FD/1564FS; mtc0002; 30.0-66.0; 50.0-100.0; 1
 Mitsuba Corp.; Mitsuba Corp. 710MH; 710mh; 15.0-38.0; 50.0-90.0; 1
+Mitsubishi; Mitsubishi E55LCD; MEL464E; 31.0-60.0; 55.0-75.0; 1
+Mitsubishi; Mitsubishi E85LCD; MEL4344; 31.0-82.0; 55.0-85.0; 1
+Mitsubishi; Mitsubishi DiamondPoint NXM56LCD; MEL4651; 31.0-63.0; 55.0-75.0; 1
+Mitsubishi; Mitsubishi DiamondPoint NXM76LCD (Analog); MEL464F; 31.0-83.0; 56.0-75.0; 1
+Mitsubishi; Mitsubishi DiamondPoint NXM76LCD (Digital); MEL4650; 31.0-70.0; 56.0-75.0; 1
+Mitsubishi; Mitsubishi DiamondPoint M55LCD; MEL4647; 31.0-63.0; 55.0-75.0; 1
+Mitsubishi; Mitsubishi DiamondPoint NX85 LCD (Analog); MEL4638; 31.0-83.0; 56.0-75.0; 1
+Mitsubishi; Mitsubishi DiamondPoint NX85 LCD (Digital); MEL4639; 31.0-67.0; 56.0-75.0; 1
+Mitsubishi; Mitsubishi DiamondPoint NX86LCD (Analog); MEL4659; 31.0-84.0; 55.0-85.0; 1
+Mitsubishi; Mitsubishi DiamondPoint NX86LCD (Digital); MEL4658; 31.0-84.0; 55.0-85.0; 1
+Mitsubishi; Mitsubishi DiamondPoint V50LCD; MEL466C; 31.0-63.0; 55.0-75.0; 1
 Mitsubishi; Mitsubishi Diamond Plus 100 (TFW1105); mel40e1; 30.0-108.0; 50.0-152.0; 1
 Mitsubishi; Mitsubishi Diamond Plus 120u (TFA1105); mel42f0; 30.0-115.0; 50.0-160.0; 1
-Mitsubishi; Mitsubishi Diamond Plus 200u (NSH1117); mel43f0; 30.0-108.0; 50.0-160.0; 1
+Mitsubishi; Mitsubishi Diamond Plus 200 (NSH1117); mel43f0; 30.0-108.0; 50.0-160.0; 1
 Mitsubishi; Mitsubishi Diamond Plus 230SB; mel4631;  30.0-115.0; 50.0-160.0; 1
 Mitsubishi; Mitsubishi Diamond Plus 70 (TF-7700P); mel4190; 30.0-70.0; 50.0-180.0; 1
 Mitsubishi; Mitsubishi Diamond Plus 71 (TFV6708); mel4240; 30.0-69.0; 50.0-130.0; 1
 Mitsubishi; Mitsubishi Diamond Plus 72 (TFV8705); mel4160; 30.0-86.0; 50.0-130.0; 1
 Mitsubishi; Mitsubishi Diamond Plus 73 (N9705); mel4460; 31.0-69.0; 59.0-86.0; 1
+Mitsubishi; Mitsubishi Diamond Plus 74SB; MEL4623; 30.0-70.0; 50.0-120.0; 1
 Mitsubishi; Mitsubishi Diamond Plus 91 (NFL9905); mel43a0; 30.0-96.0; 50.0-140.0; 1
+Mitsubishi; Mitsubishi Diamond Plus 93SB; MEL4625; 30.0-96.0; 50.0-160.0; 1
+Mitsubishi; Mitsubishi Diamond Plus 100 (TFW1105); MEL40E1; 30.0-108.0; 50.0-152.0; 1
+Mitsubishi; Mitsubishi Diamond Plus 120u (TFA1105); MEL42F0; 30.0-115.0; 50.0-160.0; 1
+Mitsubishi; Mitsubishi Diamond Plus 200 (NSH1117); MEL43F0; 30.0-108.0; 50.0-160.0; 1
+Mitsubishi; Mitsubishi Diamond Plus 230SB; MEL4631; 30.0-115.0; 50.0-160.0; 1
 Mitsubishi; Mitsubishi Diamond Pro 1000 (TFX1105); mel4100; 30.0-115.0; 50.0-152.0; 1
 Mitsubishi; Mitsubishi Diamond Pro 1010 (TUX1107); mel4101; 30.0-115.0; 50.0-152.0; 1
 Mitsubishi; Mitsubishi Diamond Pro 14 (FW6405); mel6405; 30.0-58; 50.0-90.0; 1
@@ -2293,6 +2389,9 @@ Mitsubishi; Mitsubishi Diamond Pro 17 (TFS6705); mel6705; 30.0-64.0; 50.0-130.0;
 Mitsubishi; Mitsubishi Diamond Pro 17TX (TFG8705); mel4040; 30.0-86.0; 50.0-152.0; 1
 Mitsubishi; Mitsubishi Diamond Pro 2020u (NUB1107); mel4310; 30.0-121.0; 50.0-160.0; 1
 Mitsubishi; Mitsubishi Diamond Pro 2040u (NSB1107); mel4311; 30.0-121.0; 50.0-160.0; 1
+Mitsubishi; Mitsubishi Diamond Pro 2045u (NSH1157); MEL43F3; 30.0-121.0; 50.0-160.0; 1
+Mitsubishi; Mitsubishi Diamond Pro 2060u (NSZ1207); MEL4511; 30.0-121.0; 50.0-160.0; 1
+Mitsubishi; Mitsubishi Diamond Pro 2070SB; MEL4632; 30.0-140.0; 50.0-160.0; 1
 Mitsubishi; Mitsubishi Diamond Pro 20 (HL7955); mel7955; 30.0-78.0; 50.0-130.0; 0
 Mitsubishi; Mitsubishi Diamond Pro 20X (FR8905); mel2040; 30.0-82.0; 50.0-120.0; 1
 Mitsubishi; Mitsubishi Diamond Pro 21FS (FFL7165); mel7165b; 30.0-78.0; 50.0-130.0; 0
@@ -2305,9 +2404,14 @@ Mitsubishi; Mitsubishi Diamond Pro 37 (XC3725); mel3725; 24.0-64.0; 40.0-120.0; 
 Mitsubishi; Mitsubishi Diamond Pro 67TXV (TFV6705); mel4064; 30.0-69.0; 50.0-130.0; 1
 Mitsubishi; Mitsubishi Diamond Pro 700 (TFK9705); mel4110; 30.0-95.0; 50.0-152.0; 1
 Mitsubishi; Mitsubishi Diamond Pro 710 (NFF8705); mel4360; 30.0-86.0; 50.0-130.0; 1
+Mitsubishi; Mitsubishi Diamond Pro 710s (NFN8705); MEL4380; 30.0-86.0; 50.0-130.0; 1
 Mitsubishi; Mitsubishi Diamond Pro 720 (NFN9705); mel4381; 30.0-96.0; 50.0-130.0; 1
+Mitsubishi; Mitsubishi Diamond Pro 740SB; MEL4521; 31.0-96.0; 55.0-160.0; 1
+Mitsubishi; Mitsubishi Diamond Pro 750SB; MEL4624; 30.0-96.0; 50.0-160.0; 1
 Mitsubishi; Mitsubishi Diamond Pro 87TXM (TFM8705); mel40c0; 30.0-86.0; 50.0-130.0; 1
 Mitsubishi; Mitsubishi Diamond Pro 900u (NFJ9905); mel42c0; 30.0-95.0; 50.0-152.0; 1
+Mitsubishi; Mitsubishi Diamond Pro 920 (NUR1905); MEL4440; 30.0-108.0; 50.0-140.0; 1
+Mitsubishi; Mitsubishi Diamond Pro 930SB; MEL463D; 30.0-110.0; 50.0-160.0; 1
 Mitsubishi; Mitsubishi Diamond Pro 91TXM (TFW9105); mel40e0; 30.0-95.0; 50.0-130.0; 1
 Mitsubishi; Mitsubishi Diamond Pro SVGA (SD43xx); mel4300; 30.0-38.5; 50.0-70.0; 1
 Mitsubishi; Mitsubishi Diamond Pro VGA (SD41xx); mel4100; 31.5; 60.0-70.0; 1
@@ -2325,8 +2429,16 @@ Mitsubishi; Mitsubishi Diamond Scan 37 (XC3715); mel3715; 15.0-36.5; 40.0-120.0;
 Mitsubishi; Mitsubishi Diamond Scan 50 (SD5904); mel41f0; 30.0-70.0; 50.0-100.0; 1
 Mitsubishi; Mitsubishi Diamond Scan 70 (SD7704); mel4210; 30.0-70.0; 50.0-100.0; 1
 Mitsubishi; Mitsubishi Diamond Scan 90e (FFT9905); mel4220; 30.0-95.0; 50.0-152.0; 1
+Mitsubishi; Mitsubishi LCD 151A (LXA572WB); MEL41D4; 31.0-63.0; 56.0-76.0; 1
 Mitsubishi; Mitsubishi LCD 40 (LXA420W); mel41c0; 31.5-60.2; 56.3-85.1; 1
 Mitsubishi; Mitsubishi LCD 50 (LXA520W); mel41d0; 31.5-60.2; 56.3-85.1; 1
+Mitsubishi; Mitsubishi LCD 51 (LXA530W); MEL41D1; 31.0-63.0; 30.0-85.1; 1
+Mitsubishi; Mitsubishi LCD 52 (LXA550W/WB); MEL41D2; 31.5-60.5; 56.0-75.0; 1
+Mitsubishi; Mitsubishi LCD 52 (LXA565W); MEL41D3; 31.5-60.5; 56.0-75.0; 1
+Mitsubishi; Mitsubishi LCD 580 (LXA580W); MEL41D6; 31.0-60.0; 56.0-75.0; 1
+Mitsubishi; Mitsubishi LCD 80 (LSA810W); MEL4340; 31.0-83.0; 30.0-85.1; 1
+Mitsubishi; Mitsubishi LCD 80 (LSA820W/WB); MEL4341; 31.0-81.5; 30.0-85.1; 1
+Mitsubishi; Mitsubishi LCD 80 (LSA831W); MEL4343; 24.0-80.0; 30.0-85.0; 1
 Mitsubishi; Mitsubishi LVP-X300 Projector (LVP-X300); mel3001; 15.0-91.0; 50.0-85.0; 1
 Mitsubishi; Mitsubishi MegaView 29 (AM2752); mel2752; 15.0-39.0; 45.0-100.0; 0
 Mitsubishi; Mitsubishi MegaView 33 (XC3315); mel3315; 15.0-38.0; 40.0-120.0; 0
@@ -2348,6 +2460,9 @@ Mitsubishi; Mitsubishi RD21GH; mel4141; 30.0-115.0; 50.0-152.0; 1
 Mitsubishi; Mitsubishi RD21GIII; mel4140; 30.0-115.0; 50.0-152.0; 1
 Mitsubishi; Mitsubishi RD21GII; mel40f0; 30.0-95.0; 50.0-152.0; 1
 Mitsubishi; Mitsubishi RD21GX; mel40f1; 30.0-86.0; 50.0-132.0; 1
+Mitsubishi; Mitsubishi RDF173H; MEL4627; 30.0-96.0; 50.0-160.0; 1
+Mitsubishi; Mitsubishi RDF193H; MEL4628; 30.0-96.0; 50.0-160.0; 1
+Mitsubishi; Mitsubishi RDS173X; MEL4626; 30.0-70.0; 50.0-120.0; 1
 Mitsubishi; Mitsubishi RDT151; mel41b0; 24.8-60.2; 56.3-85.1; 1
 Mitsubishi; Mitsubishi SpectraView 1000; mel4120; 30.0-95.0; 50.0-130.0; 1
 Mitsubishi; Mitsubishi SpectraView 700; mel4130; 30.0-95.0; 50.0-152.0; 1
@@ -2438,6 +2553,16 @@ NEC; NEC AccuSync 70; nec5dc4; 31.0-70.0; 55.0-120.0; 1
 NEC; NEC AccuSync 75F; nec5dcf; 31.0-70.0; 55.0-120.0; 1
 NEC; NEC AccuSync 90; nec5dc5; 31.0-96.0; 55.0-160.0; 1
 NEC; NEC AccuSync 95F; nec5dd0; 31.0-96.0; 55.0-160.0; 1
+NEC; NEC AccuSync 125F; NEC61D4; 30.0-96.0; 50.0-160.0; 1
+NEC; NEC AccuSync 500; NEC61DF; 30.0-71.0; 55.0-120.0; 1
+NEC; NEC AccuSync 700; NEC61E0; 30.0-71.0; 55.0-120.0; 1
+NEC; NEC AccuSync 700M; NEC61E1; 30.0-71.0; 55.0-120.0; 1
+NEC; NEC AccuSync 750F; NEC61E2; 30.0-71.0; 55.0-120.0; 1
+NEC; NEC AccuSync 900; NEC61E3; 30.0-98.0; 55.0-160.0; 1
+NEC; NEC AccuSync LCD5V; NEC6615; 30.0-63.0; 55.0-76.0; 1
+NEC; NEC AccuSync LCD7V; NEC6617; 30.0-83.0; 55.0-76.0; 1
+NEC; NEC AccuSync LCD9V; NEC6619; 31.0-84.0; 56.0-75.0; 1
+NEC; NEC AccuSync LCD200VX; NEC665C; 31.0-95.0; 56.0-85.0; 1
 NEC; NEC C510; necea6b; 30.0-70.0; 50.0-120.0; 1
 NEC; NEC C550; necea65; 30.0-70.0; 50.0-90.0; 1
 NEC; NEC C700; necea67; 30.0-70.0; 50.0-90.0; 1
@@ -2464,9 +2589,17 @@ NEC; NEC F14T2; nec00b4; 30.0-63.0; 60.0-75.0; 1
 NEC; NEC F15T1; nec00d2; 31.0-61.0; 59.0-76.0; 1
 NEC; NEC LCD1280; 0; 29.5-33.5; 60.0-62.0; 1
 NEC; NEC LCD200; nec2fb2; 24.0-62.0; 53.0-85.0; 1
-NEC; NEC LCD2080UX; NEC6605; 30.0-96.0; 48.0-87.0; 1
 NEC; NEC LCD300; 0; 30.8-38.0; 55.0-72.8; 1
 NEC; NEC LCD300; nec-lcd300; 30.8-38.0; 55.0-72.8; 1
+NEC; NEC LCD51V; NEC661B; 31.0-63.0; 56.0-75.0; 1
+NEC; NEC LCD51VM; NEC661A; 31.0-63.0; 56.0-75.0; 1
+NEC; NEC LCD52V; NEC6656; 31.0-63.0; 56.0-75.0; 1
+NEC; NEC LCD52VM; NEC6657; 31.0-63.0; 56.0-75.0; 1
+NEC; NEC LCD71V; NEC661D; 31.0-83.0; 56.0-75.0; 1
+NEC; NEC LCD71VM; NEC661C; 31.0-83.0; 56.0-75.0; 1
+NEC; NEC LCD72V; NEC6658; 31.0-83.0; 56.0-75.0; 1
+NEC; NEC LCD72VM; NEC6659; 31.0-83.0; 56.0-75.0; 1
+NEC; NEC LCD92V; NEC6966; 31.0-83.0; 56.0-75.0; 1
 NEC; NEC MultiSync 125; nec61b2; 31.0-96.0; 55.0-200.0; 1
 NEC; NEC MultiSync 2A; nec-2a; 31.5-35.0; 50.0-70.0; 1
 NEC; NEC MultiSync 2V; nec-2v; 30-57; 50-100; 1
@@ -2509,36 +2642,108 @@ NEC; NEC MultiSync E900; nec4bd2; 31.0-92.0; 55.0-120.0; 1
 NEC; NEC MultiSync E900+; nec4bdc; 31.0-96.0; 55.0-160.0; 1
 NEC; NEC MultiSync E950; nec4bfa; 31.0-96.0; 55.0-160.0; 1
 NEC; NEC MultiSync FE1250; nec61ab; 31.0-110.0; 50.0-160.0; 1
+NEC; NEC MultiSync FE1250+; NEC61B6; 30.0-110.0; 50.0-160.0; 1
 NEC; NEC MultiSync FE700; nec4272; 31.0-70.0; 55.0-120.0; 1
+NEC; NEC MultiSync FE700+; NEC61BA; 31.0-70.0; 55.0-120.0; 1
 NEC; NEC MultiSync FE750; nec61ad; 31.0-92.0; 55.0-160.0; 1
-NEC; NEC MultiSync FP912SB; nec61dd; 30.0-110.0; 50.0-160.0
+NEC; NEC MultiSync FE750+; NEC61B3; 31.0-96.0; 55.0-160.0; 1
+NEC; NEC MultiSync FE770; NEC61D5; 30.0-70.0; 50.0-120.0; 1
+NEC; NEC MultiSync FE771SB; NEC61D6; 30.0-70.0; 50.0-120.0; 1
+NEC; NEC MultiSync FE791SB; NEC61D7; 30.0-96.0; 50.0-160.0; 1
 NEC; NEC MultiSync FE950; nec61ae; 31.0-96.0; 55.0-160.0; 1
+NEC; NEC MultiSync FE950+; NEC61B4; 30.0-96.0; 50.0-160.0; 1
+NEC; NEC MultiSync FE990; NEC61DC; 30.0-96.0; 50.0-160.0; 1
+NEC; NEC MultiSync FE991SB; NEC61D8; 30.0-96.0; 50.0-160.0; 1
+NEC; NEC MultiSync FE2111SB; NEC61DA; 30.0-115.0; 50.0-160.0; 1
+NEC; NEC MultiSync FP912SB; nec61dd; 30.0-110.0; 50.0-160.0; 1
+NEC; NEC MultiSync FP950; nec4c04; 31.0-110.0; 55.0-160.0; 1
 NEC; NEC MultiSync FP1350; nec578a; 31.0-115.0; 55.0-160.0; 1
 NEC; NEC MultiSync FP1370; nec61a8; 31.0-130.0; 55.0-160.0; 1
-NEC; NEC MultiSync FP950; nec4c04; 31.0-110.0; 55.0-160.0; 1
 NEC; NEC MultiSync HR17; 0; 31.0-96.0; 55.0-160.0; 1
 NEC; NEC MultiSync HR19; 0; 31.0-110.0; 55.0-160.0; 1
 NEC; NEC MultiSync LCD1500M; nec3b88; 30.0-61.0; 50.0-77.0; 1
+NEC; NEC MultiSync LCD1501; NEC65FB; 31.0-63.0; 55.0-75.0; 1
 NEC; NEC MultiSync LCD1510; nec3b6a; 24.0-60.0; 55.0-86.0; 1
 NEC; NEC MultiSync LCD1510+; nec3d5f; 24.0-60.0; 55.0-75.0; 1
 NEC; NEC MultiSync LCD1510V; nec3b74; 24.0-60.0; 55.0-86.0; 1
 NEC; NEC MultiSync LCD1510V+; nec3d73; 24.0-60.0; 55.0-75.0; 1
+NEC; NEC MultiSync LCD1511M; NEC6607; 31.0-63.0; 56.0-75.0; 1
+NEC; NEC MultiSync LCD1512; NEC660D; 30.0-63.0; 55.0-76.0; 1
+NEC; NEC MultiSync LCD1515; NEC6616; 30.0-63.0; 55.0-76.0; 1
 NEC; NEC MultiSync LCD1525M; nec3bb0; 24.0-60.0; 55.0-75.0; 1
 NEC; NEC MultiSync LCD1525S; nec3bce; 24.0-80.0; 56.0-76.0; 1
 NEC; NEC MultiSync LCD1525V; nec3ba6; 24.0-49.0; 55.0-75.0; 1
 NEC; NEC MultiSync LCD1525X; nec6591; 24.0-60.0; 55.0-75.0; 1
 NEC; NEC MultiSync LCD1530V; nec65a8; 31.0-60.0; 56.0-75.0; 1
+NEC; NEC MultiSync LCD1550M; NEC65C7; 31.0-60.0; 55.0-75.0; 1
+NEC; NEC MultiSync LCD1550V; NEC65C6; 31.0-60.0; 55.0-75.0; 1
+NEC; NEC MultiSync LCD1550X; NEC65C8; 30.0-60.0; 50.0-75.0; 1
+NEC; NEC MultiSync LCD1560V; NEC65F0; 31.0-63.0; 55.0-75.0; 1
+NEC; NEC MultiSync LCD1560M; NEC65F2; 31.0-63.0; 55.0-75.0; 1
+NEC; NEC MultiSync LCD1560NX; NEC65FA; 31.0-63.0; 55.0-75.0; 1
+NEC; NEC MultiSync LCD1560VM; NEC65F1; 31.0-63.0; 55.0-75.0; 1
+NEC; NEC MultiSync LCD1560V+; NEC660F; 31.0-63.0; 55.0-75.0; 1
+NEC; NEC MultiSync LCD1565; NEC6620; 31.0-63.0; 56.0-75.0; 1
+NEC; NEC MultiSync LCD1570NX; NEC667E; 31.0-63.0; 56.0-75.0; 1
 NEC; NEC MultiSync LCD15T; nec6590; 24.0-60.0; 55.0-85.0; 1
+NEC; NEC MultiSync LCD1700M; NEC65A9; 31.0-81.0; 56.0-75.0; 1
+NEC; NEC MultiSync LCD1700M+; NEC65B5; 31.0-81.0; 56.0-75.0; 1
+NEC; NEC MultiSync LCD1700V; NEC65D2; 31.0-80.0; 56.0-75.0; 1
+NEC; NEC MultiSync LCD1700NX (Analog); NEC65E0; 31.0-80.0; 56.0-75.0; 1
+NEC; NEC MultiSync LCD1700NX (Digital); NEC65DF; 31.0-68.0; 56.0-75.0; 1
+NEC; NEC MultiSync LCD1701; NEC65EF; 31.0-83.0; 56.0-75.0; 1
+NEC; NEC MultiSync LCD1711M; NEC6606; 31.0-83.0; 56.0-75.0; 1
+NEC; NEC MultiSync LCD1712; NEC660E; 30.0-83.0; 55.0-76.0; 1
+NEC; NEC MultiSync LCD1715; NEC6618; 31.0-83.0; 56.0-75.0; 1
+NEC; NEC MultiSync LCD1720M; NEC----; 31.0-82.0; 50.0-85.0; 1
+NEC; NEC MultiSync LCD1760NX (Analog); NEC65ED; 31.0-83.0; 56.0-75.0; 1
+NEC; NEC MultiSync LCD1760NX (Digital); NEC6604; 31.0-69.0; 56.0-75.0; 1
+NEC; NEC MultiSync LCD1760V; NEC65EE; 31.0-83.0; 56.0-75.0; 1
+NEC; NEC MultiSync LCD1760VM (Analog); NEC65EA; 31.0-83.0; 56.0-75.0; 1
+NEC; NEC MultiSync LCD1760VM (Digital); NEC6603; 31.0-70.0; 56.0-75.0; 1
+NEC; NEC MultiSync LCD1765; NEC6621; 31.0-83.0; 56.0-75.0; 1
 NEC; NEC MultiSync LCD1800; nec65a1; 24.0-80.0; 55.0-86.0; 1
 NEC; NEC MultiSync LCD1810; nec4786; 31.0-80.0; 56.0-76.0; 1
 NEC; NEC MultiSync LCD1810X; nec6594; 31.0-82.0; 56.0-85.0; 1
-NEC; NEC MultiSync LCD1860NX; nec65e8; 31.0-82.0; 55.0-85.0; 1
-NEC; NEC MultiSync LCD1880SX; nec65d4; 31.0-82.0; 50.0-85.0; 1
+NEC; NEC MultiSync LCD1830; NEC65B1; 24.0-82.0; 55.0-85.0; 1
+NEC; NEC MultiSync LCD1850DX; NEC65B3; 31.0-82.0; 50.0-85.0; 1
+NEC; NEC MultiSync LCD1850X; NEC65C0; 31.0-82.0; 50.0-85.0; 1
+NEC; NEC MultiSync LCD1850E; NEC65D1; 31.0-82.0; 55.0-85.0; 1
+NEC; NEC MultiSync LCD1850E; NEC65D1; 31.0-82.0; 55.0-85.0; 1
+NEC; NEC MultiSync LCD1855NX (Analog); NEC65F7; 31.0-83.0; 56.0-75.0; 1
+NEC; NEC MultiSync LCD1855NX (Digital); NEC65F8; 31.0-68.0; 56.0-75.0; 1
+NEC; NEC MultiSync LCD1860NX (Analog); NEC65E8; 31.0-82.0; 55.0-85.0; 1
+NEC; NEC MultiSync LCD1860NX (Digital); NEC65E9; 31.0-80.0; 55.0-85.0; 1
+NEC; NEC MultiSync LCD1880SX; NEC65D4; 31.0-82.0; 50.0-85.0; 1
+NEC; NEC MultiSync LCD1912; NEC6614; 31.0-84.0; 56.0-75.0; 1
+NEC; NEC MultiSync LCD1915X (Analog); NEC663A; 31.0-83.0; 56.0-76.0; 1
+NEC; NEC MultiSync LCD1915X (Digital); NEC663B; 31.0-83.0; 56.0-76.0; 1
+NEC; NEC MultiSync LCD1920NX; NEC65DE; 31.0-80.0; 56.0-75.0; 1
+NEC; NEC MultiSync LCD1960NXi (Analog); NEC6632; 31.0-84.0; 56.0-75.0; 1
+NEC; NEC MultiSync LCD1960NXi (Digital); NEC6633; 31.0-84.0; 56.0-75.0; 1
+NEC; NEC MultiSync LCD1960NX (Analog); NEC661E; 31.0-84.0; 56.0-75.0; 1
+NEC; NEC MultiSync LCD1960NX (Digital); NEC661F; 31.0-84.0; 56.0-75.0; 1
+NEC; NEC MultiSync LCD1970GX; NEC6685; 31.0-84.0; 56.0-75.0; 1
+NEC; NEC MultiSync LCD1980SXi (Analog); NEC6649; 31.0-84.0; 48.0-85.0; 1
+NEC; NEC MultiSync LCD1980SXi (Digital); NEC664A; 31.0-84.0; 48.0-85.0; 1
+NEC; NEC MultiSync LCD1980SX (Analog); NEC660C; 31.0-84.0; 50.0-85.0; 1
+NEC; NEC MultiSync LCD1980SX (Digital); NEC660B; 31.0-84.0; 50.0-85.0; 1
+NEC; NEC MultiSync LCD1980SX TCO-03 (Analog); NEC6627; 31.0-84.0; 50.0-85.0; 1
+NEC; NEC MultiSync LCD1980SX TCO-03 (Digital); NEC6626; 31.0-84.0; 50.0-85.0; 1
 NEC; NEC MultiSync LCD2000; nec4f56; 24.0-81.0; 55.0-85.0; 1
-NEC; NEC MultiSync LCD2010; nec4f60; 24.0-80.0; 56.0-76.0; 1
 NEC; NEC MultiSync LCD2010; nec4f60; 24.0-81.0; 55.0-85.0; 1
 NEC; NEC MultiSync LCD2010X; nec65a2; 31.0-80.0; 56.0-85.0; 1
+NEC; NEC MultiSync LCD2060NX; NEC6637; 31.0-95.0; 56.0-85.0; 1
+NEC; NEC MultiSync LCD2070NX; NEC667B; 31.0-95.0; 56.0-85.0; 1
+NEC; NEC MultiSync LCD2080UX; NEC6605; 30.0-98.0; 48.0-87.0; 1
 NEC; NEC MultiSync LCD2110; nec6597; 24.0-82.0; 56.0-76.0; 1
+NEC; NEC MultiSync LCD2180UX; NEC662C; 30.0-96.0; 48.0-87.0; 1
+NEC; NEC MultiSync LCD2335WXM (Analog); NEC667F; 31.0-63.0; 56.0-75.0
+NEC; NEC MultiSync LCD2335WXM (Digital); NEC6680; 31.0-63.0; 56.0-75.0; 1
+NEC; NEC MultiSync LCD3000 (Analog); NEC65E6; 30.0-75.0; 58.0-62.0; 1
+NEC; NEC MultiSync LCD3000 (Digital); NEC65E7; 30.0-48.0; 58.0-62.0; 1
+NEC; NEC MultiSync LCD4000 (Analog); NEC6609; 30.0-75.0; 58.0-62.0
+NEC; NEC MultiSync LCD4000 (Digital); NEC6608; 30.0-48.0; 58.0-62.0; 1
 NEC; NEC MultiSync LCD400; nec3782; 24.0-60.0; 55.0-86.0; 1
 NEC; NEC MultiSync LCD400V; nec378c; 24.0-60.0; 55.0-86.0; 1
 NEC; NEC MultiSync LT80; nec0320; 15.0-60.0; 50.0-85.0; 1
@@ -3150,6 +3355,7 @@ Samsung; Samsung Samtron 50(M)E; sam2036; 30-61; 50-120; 1
 Samsung; Samsung Samtron 55B (Plus); sam1056; 30-70; 50-160; 1
 Samsung; Samsung Samtron 55(M)E (Plus); sam1036; 30-61; 50-120; 1
 Samsung; Samsung Samtron 55v; sam12b7; 30-55; 50-120; 1
+Samsung; Samsung Samtron 56E/57E/56V; STN0002; 30-55; 50-120
 Samsung; Samsung Samtron 5Bi; sam2c55; 30-70; 50-120; 1
 Samsung; Samsung Samtron 5Ei; sam2c35; 30-55; 50-120; 1
 Samsung; Samsung Samtron 5(M)B (CGB5617*); sam1c54; 30-69; 50-160; 1
@@ -3173,6 +3379,7 @@ Samsung; Samsung SyncMaster 1000b (CGX1607*); sam1f14; 30-107; 50-160; 1
 Samsung; Samsung SyncMaster 1000p; sam1f13; 30-107; 50-160; 1
 Samsung; Samsung SyncMaster 1000s (CGP1607*); sam0cf1; 30-96; 50-160; 1
 Samsung; Samsung SyncMaster 14GL; samsungsm14gl; 30-62; 50-100; 1
+Samsung; Samsung SyncMaster 1100DF/2100DF/CD210C; SAM006D; 30-121; 50-160; 1
 Samsung; Samsung SyncMaster 14GL; sam14gl; 30-62; 50-100; 1
 Samsung; Samsung SyncMaster 15GLe; sam4d50; 30-50; 50-120; 1
 Samsung; Samsung SyncMaster 15GLe; sam6d20; 30-50; 50-120; 1
@@ -3181,6 +3388,11 @@ Samsung; Samsung SyncMaster 15GL; samsungsm15gl; 30-62; 50-100; 1
 Samsung; Samsung SyncMaster 15GL; sam15gl; 30-62; 50-100; 1
 Samsung; Samsung SyncMaster 15Me; sam5450; 30.0-50.0; 50.0-120.0; 1
 Samsung; Samsung SyncMaster 15M; sam4d52; 30.0-65.0; 50.0-120.0; 1
+Samsung; Samsung SyncMaster 150N/152N/153N; SAM00A4; 30-61; 56-75; 1
+Samsung; Samsung SyncMaster 151MP/155MP/RB1500MP; SAM0004; 31-70; 50-85; 1
+Samsung; Samsung SyncMaster 152MP/156MP/CX510MP/CX500MB; SAM00A8; 30-71; 56-75; 1
+Samsung; Samsung SyncMaster 153T; SAM00CD; 30-61; 56-75; 1
+Samsung; Samsung SyncMaster 153V/153S/153B; SAM00A2; 30-61; 56-75; 1
 Samsung; Samsung SyncMaster 17GLi; sam4d70; 30-65; 50-120; 1
 Samsung; Samsung SyncMaster 17GL; samsungsm17gl; 30-65; 50-100; 1
 Samsung; Samsung SyncMaster 17GL; sam17gl; 30-65; 50-100; 1
@@ -3188,14 +3400,45 @@ Samsung; Samsung SyncMaster 17GLsi; sam4d71; 30-85; 50-120; 1
 Samsung; Samsung SyncMaster 171v; samsungsm171v; 30-81; 56-75; 1 
 Samsung; Samsung SyncMaster 17GLs; sam17gls; 30-82; 50-120; 1
 Samsung; Samsung SyncMaster 17GLs; samsungsm17gls; 30-82; 50-120; 1
+Samsung; Samsung SyncMaster 171MP/175MP/RB1700MP; SAM000A; 31-80; 50-85; 1
+Samsung; Samsung SyncMaster 171S/175S/170S/CX175S-AZ/LX175S; SAM001B; 30-81; 56-85; 1
+Samsung; Samsung SyncMaster 171N/175N/171Np/171Nm/CX174N/CX171N/MX174N; SAM006B; 30-81; 56-76; 1
+Samsung; Samsung SyncMaster 172MP/176MP/CX710MP/CX700MB; SAM00A7; 30-81; 56-75; 1
+Samsung; Samsung SyncMaster 172X/177X/CX710X (Analog); SAM00C8; 30-81; 56-75; 1
+Samsung; Samsung SyncMaster 172X/177X/CX710X (Digital); SAM00E5; 30-81; 56-75; 1
+Samsung; Samsung SyncMaster 172T/176T/CX176T/CX171T (Analog); SAM006E; 30-81; 56-75; 1
+Samsung; Samsung SyncMaster 172T/176T/CX176T/CX171T (Digital); SAM006F; 30-81; 56-75; 1
+Samsung; Samsung SyncMaster 173P/CX710P (Digital); SAM00E2; 30-81; 56-75; 1
+Samsung; Samsung SyncMaster 173P/CX710P (Analog); SAM00D3; 30-81; 56-75; 1
+Samsung; Samsung SyncMaster 173T/177T/CX700T/CX710T; SAM00BA; 30-81; 56-75; 1
+Samsung; Samsung SyncMaster 173V/172V/173S/173B/174V/175V; SAM00A3; 30-81; 56-76; 1
+Samsung; Samsung SyncMaster 177MP/710MP/CX711MP/CX710MP; SAM00D2; 30-81; 56-75; 1
 Samsung; Samsung SyncMaster 181T; sam0020; 30-81; 56-85; 1
+Samsung; Samsung SyncMaster 190N(M)/192N(M)/193N(M); SAM00A6; 30-81; 56-85; 1
 Samsung; Samsung SyncMaster 191+; sam00bb; 30.0-81.0; 56.0-75.0; 1
 Samsung; Samsung SyncMaster 191T; sam0014; 30-81; 56-85; 1
 Samsung; Samsung SyncMaster 191TFT; sam0014; 30.0-81.0; 56.0-85.0 ; 1
+Samsung; Samsung SyncMaster 191Tplus/193T/197T/CX900T; SAM00BB; 30-81; 56-75; 1
+Samsung; Samsung SyncMaster 192T/196T/CX910T(M); SAM00B6; 30-81; 56-75; 1
+Samsung; Samsung SyncMaster 192MPplus/930MP (Analog); SAM015B; 30-81; 56-85; 1
+Samsung; Samsung SyncMaster 192MPplus/930MP (Digital); SAM015C; 30-81; 56-85; 1
+Samsung; Samsung SyncMaster 193P/CX910P (Analog); SAM00EC; 30-81; 56-75
+Samsung; Samsung SyncMaster 193P/CX910P (Digital); SAM00ED; 30-81; 56-75
+Samsung; Samsung SyncMaster 198T/910T/CX901T (Analog); SAM010E; 30-81; 56-75; 1
+Samsung; Samsung SyncMaster 198T/910T/CX901T (Digital); SAM010F; 30-81; 56-75; 1
 Samsung; Samsung SyncMaster 20GLsi; sam4690; 30.0-82.0; 50.0-120.0; 1
 Samsung; Samsung SyncMaster 20gls; samsungsm20gls; 30-82; 50-120; 1
 Samsung; Samsung SyncMaster 20gls; sam20gls; 30-82; 50-120; 1
 Samsung; Samsung SyncMaster 21GLs; sam4610; 30.0-85.0; 50.0-160.0; 1
+Samsung; Samsung SyncMaster 210T/LXA210T (Analog); SAM4251; 30-93; 50-85; 1
+Samsung; Samsung SyncMaster 210T/LXA210T (Digital); SAM4252; 30-81; 50-85; 1
+Samsung; Samsung SyncMaster 211MP/215MP/CX211MP; SAMOO56; 30-85; 55-85; 1
+Samsung; Samsung SyncMaster 213T/CX210T; SAMOO91; 30-81; 56-75; 1
+Samsung; Samsung SyncMaster 240T (Analog); SAM4254; 30-93; 50-85; 1
+Samsung; Samsung SyncMaster 240T (Digital); SAM4255; 30-81; 50-85; 1
+Samsung; Samsung SyncMaster 241MP/245MP; SAMOO4B; 30-85; 50-85; 1
+Samsung; Samsung SyncMaster 243T/CX240T (Analog); SAM00D9; 30-80; 55-75; 1
+Samsung; Samsung SyncMaster 243T/CX240T (Digital); SAM00F7; 30-80; 55-75; 1
 Samsung; Samsung SyncMaster 320TFT (LXB310*); sam6053; 30-61; 50-75; 1
 Samsung; Samsung SyncMaster 330/331TFT (LXB350*); sam6054; 30-61; 50-75; 1
 Samsung; Samsung SyncMaster 3Ne; sam0000; 31.5-48.0; 43.5-75.0; 1
@@ -3217,6 +3460,8 @@ Samsung; Samsung SyncMaster 500(M)s (CGK5507*); sam1d73; 30-54; 50-120; 1
 Samsung; Samsung SyncMaster 500(M)s Plus (CKE5507*); sam0d65; 30-60; 50-120; 1
 Samsung; Samsung SyncMaster 510b(CHB5707*); sam2055; 30-70; 50-160; 1
 Samsung; Samsung SyncMaster 510(M)s (CHA5807*); sam2035; 30-61; 50-120; 1
+Samsung; Samsung SyncMaster 510N/512N/CX511N/CX501N; SAM011D; 30-61; 56-75; 1
+Samsung; Samsung SyncMaster 515V; SAM0172; 30-61; 56-75; 1
 Samsung; Samsung SyncMaster 520TFT (LXB530*); sam6055; 30-61; 50-75; 1
 Samsung; Samsung SyncMaster 530/531TFT (LXB550*); sam6056; 30-61; 50-75; 1
 Samsung; Samsung SyncMaster 550b; sam1055; 30-70; 50-160; 1
@@ -3233,27 +3478,41 @@ Samsung; Samsung SyncMaster 700(M)s Plus (CKG7507*); sam0d67; 30-69; 50-160; 1
 Samsung; Samsung SyncMaster 700NF; sam38d7; 30-96; 50-160; 1
 Samsung; Samsung SyncMaster 700p Plus (CSH7839*); sam4ee6; 30-96; 50-160; 1
 Samsung; Samsung SyncMaster 700TFT; sam6057; 61.5-81.0; 59.0-76.0; 1
+Samsung; Samsung SyncMaster 700DF; SAM00B3; 30-71; 50-160; 1
 Samsung; Samsung SyncMaster 701 IFT; sam4eeb; 30-96; 50-160; 1
 Samsung; Samsung SyncMaster 710(M)b (CHB7709*); sam2059; 30-70; 50-160; 1
 Samsung; Samsung SyncMaster 710(M)s (CHB7707*); sam2057; 30-70; 50-160; 1
+Samsung; Samsung SyncMaster 710N/177N/CX711N/CX701N; SAM011E; 30-81; 56-85; 1
+Samsung; Samsung SyncMaster 710Tplus/711T/712T (Digital); SAM0166; 30-81; 56-75; 1
+Samsung; Samsung SyncMaster 710Tplus/711T/712T (Analog); SAM0165; 30-81; 56-75; 1
+Samsung; Samsung SyncMaster 711N/712N; SAM0124; 30-81; 56-85; 1
+Samsung; Samsung SyncMaster 712V/713V/710S/715V; SAM0125; 30-81; 56-75; 1
 Samsung; Samsung SyncMaster 750(M)b; sam1059; 30-70; 50-160; 1
 Samsung; Samsung SyncMaster 750(M)s(T); sam1057; 30-70; 50-160; 1
-Samsung; Samsung SyncMaster 753DFX; SAM0022; 30.0-71.0; 50.0-160.0; 1
-Samsung; Samsung SyncMaster 757NF; sam002a; 30-96; 50-160; 1
-Samsung; Samsung SyncMaster 765MB; sam0048; 30.0-85.0; 50.0-160.0; 1
-Samsung; Samsung SyncMaster 793DF; sam0107; 30-70; 50-160; 1
+Samsung; Samsung SyncMaster 750s(T); SAM12B6; 30-70; 50-160; 1
+Samsung; Samsung SyncMaster 753DF(X)/703DF(X)/783DF(X)/CD173A(T); SAM0022; 30-71; 50-160; 1
+Samsung; Samsung SyncMaster 763MB/713MB/CD173D(P); SAM0045; 30-71; 50-160; 1
+Samsung; Samsung SyncMaster 765MB/715MB/CD175D(P); SAM0048; 30-85; 50-160; 1
+Samsung; Samsung SyncMaster 790DF; SAM0126; 30-71; 50-160; 1
+Samsung; Samsung SyncMaster 793S/793V/CM173G; SAM0117; 30-71; 50-160; 1
+Samsung; Samsung SyncMaster 793DF/793MB; SAM0107; 30-71; 50-160; 1
 Samsung; Samsung SyncMaster 800TFT; sam6058; 61.5-81.0; 59.0-76.0; 1
 Samsung; Samsung SyncMaster 900IFT; sam4f29; 30-96; 50-160; 1
 Samsung; Samsung SyncMaster 900 In; sam25d9; 30-96; 50-160; 1
 Samsung; Samsung SyncMaster 900NF; sam38d9; 30-110; 50-160; 1
 Samsung; Samsung SyncMaster 900p (CSH9839*); sam4f26; 30-96; 50-160; 1
 Samsung; Samsung SyncMaster 900SL (CSM92*); sam4db9; 30-96; 50-160; 1
-Samsung; Samsung SyncMaster 910N/912N; sam011f; 30-81; 56-75; 1
+Samsung; Samsung SyncMaster 905DF(X)/955DF(X)/CD195A; SAM002D; 30-85; 50-160; 1
+Samsung; Samsung SyncMaster 910N/912N; SAM011F; 30-81; 56-85; 1
+Samsung; Samsung SyncMaster 910MP; SAM0187; 30-81; 56-75; 1
+Samsung; Samsung SyncMaster 917MB/950MB/957MB/CD197D(P); SAM0070; 30-96; 50-160; 1
+Samsung; Samsung SyncMaster 920T/CX911T (Digital); SAM014B; 30-81; 56-75; 1
+Samsung; Samsung SyncMaster 920T/CX911T (Analog); SAM014A; 30-81; 56-75; 1
 Samsung; Samsung SyncMaster 950in(T); sam25dc; 30-96; 50-160; 1
-Samsung; Samsung SyncMaster 955DF; SAM002d; 30-85; 50-160; 1
-Samsung; Samsung SyncMaster 955DF; sam413b; 30-85; 50-160; 1
+Samsung; Samsung SyncMaster 955df; sam413b; 30-85; 50-160; 1
 Samsung; Samsung SyncMaster 957p; sam002c; 30-96; 50-160; 1
-Samsung; Samsung SyncMaster 957DF; SAM002e; 30.0-96.0; 50.0-160.0; 1
+Samsung; Samsung SyncMaster 997DF/927DF/997MB/927MB/927DFI/927MBI; SAM0109; 30-96; 50-160; 1
+Samsung; Samsung SyncMaster 1200NF/2200NF/CPN22NF; SAM38D2; 30-121; 50-185; 1
 Samtron; Samtron 428PT/PTL; sdi1428; 31.5-48.0; 43.5-75.0; 1
 Samtron; Samtron SC-208DXL+; sdi4690; 30.0-82.0; 50.0-120.0; 1
 Samtron; Samtron SC-528MDL; sdi5451; 30.0-48.0; 50.0-120.0; 1
@@ -3344,8 +3603,8 @@ Sony; Sony CPD-300SFT5; sny04a0; 30.0-86.0; 48.0-150.0; 1
 Sony; Sony CPD-300SFT; sny03a0; 30.0-86.0; 48.0-150.0; 1
 Sony; Sony CPD-420GS/GST/19GS2; sny0091; 30.0-96.0; 48.0-120.0; 1
 Sony; Sony CPD-520GS/520GST/21GS2; sny02b0; 30.0-96.0; 48.0-160.0; 1
-Sony; Sony CPD-A100; sny0e50; 30.0-70.0; 48.0-120.0; 1
-Sony; Sony CPD-A200; sny1370; 30.0-70.0; 48.0-120.0; 1
+Sony; Sony CPD-A100/HMD-A100; sny0e50; 30.0-70.0; 48.0-120.0; 1
+Sony; Sony CPD-A200/HMD-A200; sny1370; 30.0-70.0; 48.0-120.0; 1
 Sony; Sony CPD-E100/E100E; sny0d50; 30.0-70.0; 48.0-120.0; 1
 Sony; Sony CPD-E200/E200E; sny1470; 30.0-85.0; 48.0-120.0; 1
 Sony; Sony CPD-E400/E400E; sny0390; 30.0-96.0; 48.0-120.0; 1
@@ -3371,19 +3630,87 @@ Sony; Sony GDM-2038; cpd-2038; 28.0-85.0; 50.0-160.0; 1
 Sony; Sony GDM-20SE2T5; sny05a0; 30.0-96.0; 48.0-160.0; 1
 Sony; Sony GDM-20SE3T; sny06a0; 30.0-96.0; 48.0-160.0; 1
 Sony; Sony GDM-20SHT(NEW); sny08a0; 30.0-107.0; 50.0-160.0; 1
-Sony; Sony GDM-20SHT; sny0000; 30.0-107.0; 50.0-160.0; 1
+Sony; Sony GDM-20SHT; sny0000; 30.0-65.0; 50.0-120.0; 1
 Sony; Sony GDM-400PS/400PST/19PS; sny0090; 30.0-95.0; 48.0-160.0; 1
 Sony; Sony GDM-500PS/T/T9/21PS; sny00b0; 30.0-107.0; 48.0-160.0; 1
 Sony; Sony GDM-F400/F400T9; sny0190; 30.0-107.0; 48.0-160.0; 1
 Sony; Sony GDM-F500/F500T9; sny01b0; 30.0-121.0; 48.0-160.0; 1
+Sony; Sony GDM-C520; SNY01B1; 30.0-130.0; 48.0-170.0; 1
 Sony; Sony GDM-W900; sny00e0; 30.0-96.0; 50.0-160.0; 1
 Sony; Sony GVM-2020; cpd-2020; 15.7-36.0; 50.0-100.0; 1
+Sony; Sony HMD-A240; SNY0871; 30.0-70.0; 48.0-120.0; 1
+Sony; Sony HMD-A440; SNY0E90; 30.0-96.0; 48.0-170.0; 1
+Sony; Sony HMD-V200; SNY1570; 30.0-70.0; 48.0-120.0; 1
+Sony; Sony HMD-H200; SNY1170; 30.0-70.0; 48.0-120.0; 1
 Sony; Sony KL-W7000; sny01f2; 30.0-50.0; 50.0-85.0; 1
+Sony; Sony MFM-HT75W (Analog); SNY1200; 28.0-64.0; 57.0-75.0; 1
+Sony; Sony MFM-HT75W (Digital); SNY1400; 28.0-64.0; 57.0-63.0; 1
+Sony; Sony MFM-HT95 (Analog); SNY1300; 28.0-81.0; 57.0-75.0; 1
+Sony; Sony MFM-HT95 (Digital); SNY1500; 28.0-65.0; 57.0-63.0; 1
 Sony; Sony Multiscan 15sf; ms-15sf; 31.0-64.0; 50.0-120.0; 1
 Sony; Sony Multiscan 17sf; ms-17sf; 31.0-64.0; 50.0-120.0; 1
 Sony; Sony Multiscan 20se; ms-20se; 31.5-85; 50-150; 1
-Sony; Sony SDM-HS93; SNY1190; 28-80; 48-75; 1" 
-Sony; Sony SDM-S73; SNY2770; 28-80; 48-75; 1
+Sony; Sony SDM-HS53; SNY2250; 28.0-49.0; 57.0-63.0; 1
+Sony; Sony SDM-HS73; SNY2270; 28.0-65.0; 48.0-65.0; 1
+Sony; Sony SDM-HX73 (Analog); SNY2870; 28.0-81.0; 57.0-75.0; 1
+Sony; Sony SDM-HX73 (Digital); SNY2970; 28.0-65.0; 57.0-63.0; 1
+Sony; Sony SDM-HS73P; SNY2B70; 28.0-80.0; 48.0-75.0; 1
+Sony; Sony SDM-HS74P (Analog); SNY3070; 28.0-81.0; 48.0-75.0; 1
+Sony; Sony SDM-HS74P (Digital); SNY3170; 28.0-65.0; 57.0-63.0; 1
+Sony; Sony SDM-HS75; SNY2400; 28.0-81.0; 48.0-75.0; 1
+Sony; Sony SDM-HS75P (Analog); SNY2200; 28.0-81.0; 48.0-75.0; 1
+Sony; Sony SDM-HS75P (Digital); SNY2300; 28.0-65.0; 57.0-63.0; 1
+Sony; Sony SDM-HS93; SNY1190; 28.0-65.0; 48.0-65.0; 1
+Sony; Sony SDM-HX93 (Analog); SNY1490; 28.0-81.0; 57.0-75.0; 1
+Sony; Sony SDM-HX93 (Digital); SNY1590; 28.0-65.0; 57.0-63.0; 1
+Sony; Sony SDM-HS94P (Analog); SNY1B90; 28.0-81.0; 48.0-75.0; 1
+Sony; Sony SDM-HS94P (Digital); SNY1C90; 28.0-65.0; 57.0-63.0; 1
+Sony; Sony SDM-M51; SNY1650; 28.0-61.0; 48.0-65.0; 1
+Sony; Sony SDM-M51D (Analog); SNY1850; 28.0-61.0; 48.0-65.0; 1
+Sony; Sony SDM-M51D (Digital); SNY1950; 28.0-61.0; 59.0-61.0; 1
+Sony; Sony SDM-M61 (Analog); SNY0060; 28.0-80.0; 48.0-75.0; 1
+Sony; Sony SDM-M61 (Digital); SNY0160; 28.0-65.0; 59.0-61.0; 1
+Sony; Sony SDM-M81 (Analog); SNY0380; 28.0-80.0; 48.0-75.0; 1
+Sony; Sony SDM-M81 (Digital); SNY0480; 28.0-65.0; 59.0-61.0; 1
+Sony; Sony SDM-N50PS; SNY1150; 30.0-60.0; 50.0-65.0; 1
+Sony; Sony SDM-N50TV; SNY1550; 30.0-60.0; 50.0-65.0; 1
+Sony; Sony SDM-N50; SNY1050; 30.0-60.0; 50.0-65.0; 1
+Sony; Sony SDM-N80 (Analog); SNY0180; 28.0-107.0; 48.0-65.0; 1
+Sony; Sony SDM-N80 (Digital); SNY0280; 28.0-92.0; 48.0-65.0; 1
+Sony; Sony SDM-P82 (Analog); SNY0880; 28.0-65.0; 57.0-63.0; 1
+Sony; Sony SDM-P82 (Digital); SNY0980; 28.0-65.0; 57.0-63.0; 1
+Sony; Sony SDM-P232W (Analog); SNY00D0; 30.0-95.0; 55.0-65.0; 1
+Sony; Sony SDM-P232W (Digital); SNY01D0; 30.0-92.0; 55.0-65.0; 1
+Sony; Sony SDM-P234 (Analog); SNY03D0; 28.0-92.0; 57.0-85.0; 1
+Sony; Sony SDM-P234 (Digital); SNY02D0; 28.0-75.0; 57.0-63.0; 1
+Sony; Sony SDM-S51; SNY1E50; 28.0-61.0; 48.0-65.0; 1
+Sony; Sony SDM-S53; SNY2450; 28.0-62.0; 57.0-75.0; 1
+Sony; Sony SDM-S71; SNY1F70; 28.0-65.0; 48.0-65.0; 1
+Sony; Sony SDM-S73; SNY2770; 28.0-65.0; 57.0-75.0; 1
+Sony; Sony SDM-S74 (Analog); SNY2C70; 28.0-81.0; 48.0-75.0; 1
+Sony; Sony SDM-S74 (Digital); SNY2D70; 28.0-65.0; 57.0-63.0; 1
+Sony; Sony SDM-S81; SNY0580; 28.0-65.0; 48.0-65.0; 1
+Sony; Sony SDM-S91; SNY1090; 28.0-65.0; 55.0-65.0; 1
+Sony; Sony SDM-S93; SNY1390; 28.0-65.0; 57.0-75.0; 1
+Sony; Sony SDM-S94 (Analog); SNY1790; 28.0-65.0; 57.0-75.0; 1
+Sony; Sony SDM-S94 (Digital); SNY1890; 28.0-65.0; 57.0-63.0; 1
+Sony; Sony SDM-S204 (Analog); SNY0EA0; 28.0-92.0; 57.0-85.0; 1
+Sony; Sony SDM-S204 (Digital); SNY0FA0; 28.0-75.0; 57.0-63.0; 1
+Sony; Sony SDM-V72W; SNY0B71; 28.0-70.0; 59.0-61.0; 1
+Sony; Sony SDM-X52 (Analog); SNY1F50; 28.0-49.0; 57.0-63.0; 1
+Sony; Sony SDM-X52 (Digital); SNY2050; 28.0-49.0; 57.0-63.0; 1
+Sony; Sony SDM-X53 (Analog); SNY2350; 28.0-52.0; 57.0-75.0; 1
+Sony; Sony SDM-X53 (Digital); SNY2550; 28.0-52.0; 57.0-63.0; 1
+Sony; Sony SDM-X72 (Analog); SNY1D70; 28.0-65.0; 57.0-63.0; 1
+Sony; Sony SDM-X72 (Digital); SNY1E70; 28.0-65.0; 57.0-63.0; 1
+Sony; Sony SDM-X73 (Analog); SNY2670; 28.0-65.0; 57.0-75.0; 1
+Sony; Sony SDM-X73 (Digital); SNY2A70; 28.0-65.0; 57.0-63.0; 1
+Sony; Sony SDM-X82 (Analog); SNY0680; 28.0-63.0; 57.0-63.0; 1
+Sony; Sony SDM-X82 (Digital); SNY0780; 28.0-63.0; 57.0-63.0; 1
+Sony; Sony SDM-X93 (Analog); SNY1290; 28.0-65.0; 57.0-75.0; 1
+Sony; Sony SDM-X93 (Digital); SNY1690; 28.0-65.0; 57.0-63.0; 1
+Sony; Sony SDM-X202 (Analog); SNY09A0; 30.0-92.0; 55.0-65.0; 1
+Sony; Sony SDM-X202 (Digital); SNY0AA0; 30.0-92.0; 55.0-65.0; 1
 Sony; Sony VMU-1000; sny07a0; 30.0-86.0; 48.0-150.0; 1
 Sunshine; Sunshine DM-8 CM-1433H; 0; 31.5-35.1; 55.0-66.0
 Sun; Sun 16-inch 574; sun0574; 30.0-70.0; 50.0-90.0; 1
@@ -3689,6 +4016,7 @@ ViewSonic; ViewSonic MB50; vsc4845; 30-70; 50-160; 1
 ViewSonic; ViewSonic MB70; vsc4644; 30-70; 50-160; 1
 ViewSonic; ViewSonic MB90; vsc444d; 30-95; 50-180; 1
 ViewSonic; ViewSonic N1700w; VSC5C0B; 24-82; 60-75
+ViewSonic; ViewSonic N3000w; VSC5A16; 30-83; 59-75; 1
 ViewSonic; ViewSonic OptiQuest 1000S; oqi3234; 48.4; 0-60; 1
 ViewSonic; ViewSonic OptiQuest 1562A-2; oqi3232; 31.5-62; 50-90; 1
 ViewSonic; ViewSonic OptiQuest 1769DC; oqi4637; 30-69; 50-120; 1
