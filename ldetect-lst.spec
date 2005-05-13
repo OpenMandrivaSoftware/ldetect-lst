@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.86
+%define version 0.1.87
 %define release 1mdk
 
 Name: %{name}
@@ -63,6 +63,13 @@ fi
 %{_bindir}/*
 
 %changelog
+* Fri May 13 2005 Thierry Vignaud <tvignaud@mandriva.com> 0.1.87-1mdk
+- add support for VIA VT8251/VT8237A HD-Audio controllers
+- add support for ATI HD Audio support in SB450 south bridge
+- sync with kernel-2.6.12-rc4-mm1 (mainly DVB updates)
+- sync with hwdata-0.157 (monitors & 2 video cards)
+- sync with latest pci.ids
+
 * Mon May  9 2005 Thierry Vignaud <tvignaud@mandriva.com> 0.1.86-1mdk
 - sync with latest pci.ids
 - sync with kernel-multimedia-2.6.11-7.mm.11mdk (1 more gigabit card
