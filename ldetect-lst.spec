@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.87
+%define version 0.1.88
 %define release 1mdk
 
 Name: %{name}
@@ -63,6 +63,11 @@ fi
 %{_bindir}/*
 
 %changelog
+* Thu May 19 2005 Thierry Vignaud <tvignaud@mandriva.com> 0.1.88-1mdk
+- fix hostap_pci vs orinoco_pci conflict by using sub ids (blino, #11393)
+- pcitable: sync with kernel-multimedia-2.6.11-7.mm.16mdk
+- usbtable: sync with kernel-2.6.11-8mdk
+
 * Fri May 13 2005 Thierry Vignaud <tvignaud@mandriva.com> 0.1.87-1mdk
 - add support for VIA VT8251/VT8237A HD-Audio controllers
 - add support for ATI HD Audio support in SB450 south bridge
