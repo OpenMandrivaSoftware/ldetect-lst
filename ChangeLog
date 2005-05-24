@@ -1,3 +1,22 @@
+2005-05-24 13:52  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* ldetect-lst.spec: 0.1.89-1mdk
+
+2005-05-24 10:18  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: add more subids for orinoco (in order to ease
+	  future conflicts between orinoco vs hostap conflicts)
+
+2005-05-24 10:11  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: add suport for SII 32xx SATA controllers
+
+2005-05-24 09:39  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: replate an ata_piix by a piix (both claims to
+	  support it bug piis wins since it's in kernel's core whereas
+	  ata_piix is a module thus configusing vmware) (Pascal Terjan)
+
 2005-05-19 07:51  Thierry Vignaud <tvignaud at mandriva.com>
 
 	* ldetect-lst.spec: 0.1.88-1mdk
