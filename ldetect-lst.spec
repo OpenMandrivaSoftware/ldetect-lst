@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.88
+%define version 0.1.89
 %define release 1mdk
 
 Name: %{name}
@@ -63,6 +63,13 @@ fi
 %{_bindir}/*
 
 %changelog
+* Tue May 24 2005 Thierry Vignaud <tvignaud@mandriva.com> 0.1.89-1mdk
+- add more subids for orinoco (in order to ease future conflicts
+  between orinoco vs hostap conflicts)
+- add suport for SII 32xx SATA controllers (needs to patch the kernel)
+- replate an ata_piix by a piix (incore ide driver was winning anyway
+  and it confuesed vmware) (Pascal Terjan)
+
 * Thu May 19 2005 Thierry Vignaud <tvignaud@mandriva.com> 0.1.88-1mdk
 - fix hostap_pci vs orinoco_pci conflict by using sub ids (blino, #11393)
 - pcitable: sync with kernel-multimedia-2.6.11-7.mm.16mdk
