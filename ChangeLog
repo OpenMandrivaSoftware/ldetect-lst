@@ -1,3 +1,16 @@
+2005-05-27 11:02  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* ldetect-lst.spec: 0.1.90-1mdk
+
+2005-05-27 08:57  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: add support for Broadcom NetXtreme II BCM5706
+	  1000Base-T
+
+2005-05-25 01:44  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: sync SATA drivers with kernel-multimedia
+
 2005-05-24 13:52  Thierry Vignaud <tvignaud at mandriva.com>
 
 	* ldetect-lst.spec: 0.1.89-1mdk
