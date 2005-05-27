@@ -65,6 +65,7 @@ fi
 %changelog
 * Fri May 27 2005 Thierry Vignaud <tvignaud@mandriva.com> 0.1.90-1mdk
 - add support for Broadcom NetXtreme II BCM5706 1000Base-T
+- add support for PDC40519 (FastTrak TX4200)
 - sync SATA drivers with kernel-multimedia
 
 * Tue May 24 2005 Thierry Vignaud <tvignaud@mandriva.com> 0.1.89-1mdk
