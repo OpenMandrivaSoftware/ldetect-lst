@@ -4975,7 +4975,7 @@
 0x14e4	0x16a6	"tg3"	"Broadcom Corp.|NetXtreme BCM5702X Gigabit Ethernet"
 0x14e4	0x16a7	"tg3"	"Broadcom Corp.|NetXtreme BCM5703X Gigabit Ethernet"
 0x14e4	0x16a8	"tg3"	"Broadcom Corp.|NetXtreme BCM5704X Gigabit Ethernet"
-0x14e4	0x16aa	"unknown"	"Broadcom Corporation|NetXtreme II BCM5706S Gigabit Ethernet"
+0x14e4	0x16aa	"bnx2"	"Broadcom Corp.|NetXtreme II BCM5706S Gigabit Ethernet"
 0x14e4	0x16c6	"tg3"	"Broadcom Corp.|NetXtreme BCM5702 Gigabit Ethernet"
 0x14e4	0x16c7	"tg3"	"Broadcom Corp.|NetXtreme BCM5703 Gigabit Ethernet"
 0x14e4	0x16dd	"tg3"	"Broadcom Corporation|NetLink BCM5781 Gigabit Ethernet PCI Express"
