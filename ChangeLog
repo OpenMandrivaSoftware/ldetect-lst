@@ -1,3 +1,11 @@
+2005-05-27 11:15  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* ldetect-lst.spec: one more change for 0.1.90-1mdk
+
+2005-05-27 11:15  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: add support for PDC40519 (FastTrak TX4200)
+
 2005-05-27 11:02  Thierry Vignaud <tvignaud at mandriva.com>
 
 	* ldetect-lst.spec: 0.1.90-1mdk
