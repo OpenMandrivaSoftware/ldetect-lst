@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.90
+%define version 0.1.91
 %define release 1mdk
 
 Name: %{name}
@@ -63,6 +63,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Mon May 30 2005 Thierry Vignaud <tvignaud@mandriva.com> 0.1.91-1mdk
+- sync with kernel-2.6.12-rc5-mm1
+
 * Fri May 27 2005 Thierry Vignaud <tvignaud@mandriva.com> 0.1.90-1mdk
 - add support for Broadcom NetXtreme II BCM5706 1000Base-T
 - add support for PDC40519 (FastTrak TX4200)
