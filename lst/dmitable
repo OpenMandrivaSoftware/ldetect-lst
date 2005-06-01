@@ -59,7 +59,10 @@ System/Manufacturer: Hewlett-Packard
 
   System/Product Name: Compaq nx7010 (DJ342A#ABB) 
   => XkbModel: hp5185
-  
+
+  System/Product Name: compaq nx9030 (PG574EA#ABB)
+  => XkbModel: hp5185
+
   System/Product Name: HP Pavilion dv1000 (PS600EA#ABF)
   => Diagonal_size: 14.1
   => Resolution: 1280x768
