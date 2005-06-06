@@ -1,3 +1,21 @@
+2005-06-06 09:56  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* ldetect-lst.spec: 0.1.92-1mdk
+
+2005-06-06 04:28  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/: pcitable, usbtable: fix detection of some ISDN modems by
+	  drakconnect
+
+2005-06-03 14:57  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: sync with kernel-2.6.12-rc5-mm2
+
+2005-06-01 10:33  Pixel <pixel at mandriva.com>
+
+	* lst/dmitable, test/dmidecode.Laptop.HP-nx9030: add XkbModel for
+	  HP-nx9030 (thanks to Buchan)~
+
 2005-05-30 08:11  Thierry Vignaud <tvignaud at mandriva.com>
 
 	* ldetect-lst.spec: 0.1.91-1mdk
