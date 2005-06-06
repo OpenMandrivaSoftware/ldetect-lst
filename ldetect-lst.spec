@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.91
+%define version 0.1.92
 %define release 1mdk
 
 Name: %{name}
@@ -63,6 +63,10 @@ fi
 %{_bindir}/*
 
 %changelog
+* Mon Jun  6 2005 Thierry Vignaud <tvignaud@mandriva.com> 0.1.92-1mdk
+- fix detection of some ISDN modems by drakconnect
+- sync with kernel-2.6.12-rc5-mm2
+
 * Mon May 30 2005 Thierry Vignaud <tvignaud@mandriva.com> 0.1.91-1mdk
 - sync with kernel-2.6.12-rc5-mm1
 
