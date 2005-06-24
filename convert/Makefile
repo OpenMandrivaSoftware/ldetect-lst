@@ -8,5 +8,4 @@ verif:
 	./verify_Cards.pl
 
 clean:
-	rm -f $(FILES) modules.pcimap modules.usbmap vendors.txt pcitable.new usbtable.new
-
+	rm -f $(FILES) modules.pcimap modules.usbmap vendors.txt *.new
