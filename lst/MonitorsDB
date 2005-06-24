@@ -83,6 +83,7 @@ Acer; Acer 98i; API4962; 30.0-82.0; 50.0-120.0
 Acer; Acer 99c; API9718; 30.0-95.0; 50.0-160.0
 Acer; Acer 99g; API9804; 30.0-107.0; 50.0-160.0
 Acer; Acer 99sl; API9721; 30.0-98.0; 50.0-160.0
+Acer; Acer AL1921; ACRad25; 30-83; 55-75; 1280x1024
 Acer; Acer F31; api1035; 31.5-60.0; 56.0-75.0; 1
 Acer; Acer F31e; api7601; 31.5-60.0; 56.0-85.0; 1
 Acer; Acer FP350; API7614; 31.5-60.0; 56.0-75.0
@@ -429,9 +430,12 @@ Belinea; Belinea 101525; MAX05f5; 30.0-61.0; 56.0-75.0; 1
 Belinea; Belinea 101530; 0; 30.0-70.0; 50.0-85.0
 Belinea; Belinea 101536; MAX0600; 30.0-61.0; 56.0-75.0; 1
 Belinea; Belinea 101550; 0; 30.0-70.0; 50.0-85.0
-Belinea; Belinea 101715; MAX06b3; 30.0-61.0; 56.0-75.0; 1
+Belinea; Belinea 101715 6b3; MAX06b3; 30.0-61.0; 56.0-75.0; 1
+Belinea; Belinea 101715; MAX06b5; 31-83; 56-75; 
 Belinea; Belinea 101740; MAX06CC; 30.0-80.0; 50.0-75.0; 1
+Belinea; Belinea 101750; MAX06ac; 30-84; 56-75; 1280x1024
 Belinea; Belinea 101810; 0; 31.0-80.0; 60.0-85.0
+Belinea; Belinea 102005; MAX07d3; 30-83; 50-85; 1600x1200
 Belinea; Belinea 102010; 0; 30.0-54.0; 50.0-120.0
 Belinea; Belinea 102020; 0; 30.0-70.0; 50.0-120.0
 Belinea; Belinea 102030; 0; 30.0-70.0; 50.0-120.0
@@ -441,13 +445,14 @@ Belinea; Belinea 103020; 0; 30.0-70.0; 50.0-120.0
 Belinea; Belinea 103030; 0; 30.0-70.0; 50.0-150.0
 Belinea; Belinea 103040; 0; 30.0-86.0; 50.0-150.0
 Belinea; Belinea 103050; 0; 30.0-95.0; 50.0-160.0
+Belinea; Belinea 103052; max06b9; 30.0-97.0; 50.0-150.0; 1
 Belinea; Belinea 103060; 0; 30.0-95.0; 50.0-150.0
 Belinea; Belinea 103070; 0; 30.0-95.0; 50.0-160.0
 Belinea; Belinea 104010; 0; 30.0-54.0; 50.0-120.0
 Belinea; Belinea 104040; 0; 30.0-38.0; 50.0-90.0
 Belinea; Belinea 104050; 0; 31.5-50.0; 50.0-100.0
 Belinea; Belinea 104060; 0; 30.0-50.0; 50.0-100.0
-Belinea; Belinea 104065; 0; 30.0-50.0; 50.0-120.0
+Belinea; Belinea 104065; max4065; 30.0-50.0; 50.0-120.0; 1
 Belinea; Belinea 104070; 0; 30.0-38.0; 50.0-90.0
 Belinea; Belinea 105030; 0; 30.0-64.0; 50.0-100.0
 Belinea; Belinea 105035; 0; 30.0-69.0; 50.0-120.0
@@ -462,13 +467,14 @@ Belinea; Belinea 105075; 0; 30.0-69.0; 50.0-120.0
 Belinea; Belinea 105076; 0; 30.0-69.0; 50.0-120.0
 Belinea; Belinea 105080; 0; 30.0-69.0; 50.0-120.0
 Belinea; Belinea 105090; 0; 30.0-64.0; 55.0-90.0
-Belinea; Belinea 105095; 0; 30.0-64.0; 55.0-120.0
+Belinea; Belinea 105095 (high); 0; 30.0-64.0; 55.0-120.0
+Belinea; Belinea 105095; max3539; 30.0-64.0; 55.0-90.0; 1
 Belinea; Belinea 105520; 0; 30.0-64.0; 50.0-100.0
 Belinea; Belinea 105540; 0; 30.0-64.0; 50.0-90.0
 Belinea; Belinea 105550; 0; 24.0-69.0; 50.0-120.0
 Belinea; Belinea 105560; 0; 24.0-68.0; 50.0-100.0
 Belinea; Belinea 105570; 0; 30.0-69.0; 50.0-120.0
-Belinea; Belinea 105575; 0; 30.0-69.0; 50.0-120.0
+Belinea; Belinea 105575; max7555; 30.0-69.0; 50.0-120.0; 1
 Belinea; Belinea 105576; 0; 30.0-69.0; 50.0-120.0
 Belinea; Belinea 105586; 0; 30.0-69.0; 50.0-120.0
 Belinea; Belinea 105590; 0; 30.0-85.0; 50.0-120.0
@@ -529,11 +535,12 @@ BenQ; BenQ FP992; BNQ7276; 31.0-83.0; 56.0-76.0; 1
 BenQ; BenQ P992; BNQ0106; 30.0-98.0; 50.0-160.0; 1
 BenQ; BenQ T720; BNQ7659; 31.5-83.0; 60.0-76.0; 1
 BenQ; BenQ T903; BNQ7680; 31-83.0; 56.0-76.0; 1
-BenQ; BenQ T904; BNQ7681; 31-83.0; 56.0-76.0; 1
+BenQ; BenQ T904; BNQ7681; 31-83; 56-76; 
 Bridge; Bridge BM17C; brg00ab; 30.0-70.0; 50.0-160.0; 1
 Brother; Brother BM85L; 0; 30.0-64.0; 50.0-100.0; 1
 Bus Computer Systems; Bus Computer Systems Bus_VGA; bus_vga; 31.5-38.0; 50.0-70.0; 1
 Carroll Touch; Carroll Touch CT1381A; ct1381a; 15.7-38.0; 45.0-90.0; 1
+CMC; CMC 17 AD; CMO7801; 30-82; 50-75; 1280x1024
 Colorgraphic; Colorgraphic EG2040; eg2040; 20.0-40.0; 40.0-100.0; 1
 Compal; Compal BJ350; CPL9565; 31.5-61.0; 50-90
 Compal; Compal BP350; CPL9566; 24-60; 56-75
@@ -653,12 +660,13 @@ Compaq; Compaq 171FS; cpq0549; 31.5-57.0; 50.0-90.0; 1
 Compaq; Compaq 172; cpq_172; 31.5-82.0; 50.0-90.0; 1
 Compaq; Compaq Advanced Graphics; ags; 54.0; 50.0-75.0; 1
 Compaq; Compaq Internal VGA Panel; ivga; 31.5; 50.0-70.0; 1
+Compaq; Compaq MV920; CPQ3027; 30-96; 50-160; 1600x1200
 Compaq; Compaq P110 Color Monitor; cpq1321; 30.0-107.0; 48.0-160.0; 1
 Compaq; Compaq P1210 Color Monitor; cpq1386; 30.0-121.0; 50.0-160.0; 1
 Compaq; Compaq P1610 Color Monitor; cpq1327; 30.0-96.0; 48.0-160.0; 1
 Compaq; Compaq P50 Color Monitor; cpq1323; 30.0-69.0; 50.0-125.0; 1
 Compaq; Compaq P70 Color Monitor; cpq1320; 30.0-92.0; 48.0-150.0; 1
-Compaq; Compaq P710 Color Monitor; cpq1384; 30.0-96.0; 50.0-130.0; 1
+Compaq; Compaq P710; CPQ1384; 30-96; 50-140; 1600x1200
 Compaq; Compaq P75 Color Monitor; cpq1330; 30.0-85.0; 50.0-150.0; 1
 Compaq; Compaq P900 Color Monitor; cpq1353; 30.0-107.0; 50.0-120.0; 1
 Compaq; Compaq P910 Color Monitor; cpq1385; 30.0-108.0; 50.0-140.0; 1
@@ -1023,7 +1031,7 @@ Dell; Dell 1905FP (Digital); DEL400D; 30.0-81.0; 56.0-76.0; 1
 Dell; Dell 1920x1200 Laptop Display Panel (16/10); 0; 30.0-107.0; 50.0-185.0; 1
 Dell; Dell 2000FP (Analog); DELA002; 31.5-80.0; 56.0-76.0; 1
 Dell; Dell 2000FP (Digital); DELA003; 31.5-80.0; 56.0-76.0; 1
-Dell; Dell 2001FP (Analog); DELA007; 31.0-80.0; 56.0-76.0; 1
+Dell; Dell 2001FP (Analog); DELa007; 31-80; 56-76; 1600x1200
 Dell; Dell 2001FP (Digital); DELA008; 31.0-80.0; 56.0-76.0; 1
 Dell; Dell 2005FPW (Analog); DELE008; 30.0-83.0; 56.0-75.0; 1
 Dell; Dell 2005FPW (Digital); DELE009; 30.0-83.0; 56.0-75.0; 1
@@ -1035,7 +1043,7 @@ Dell; Dell D1025TM; del5155; 31.0-85.0; 50.0-160.0; 1
 Dell; Dell D1028L; del730b; 31.0-70.0; 50.0-120.0; 1
 Dell; Dell D1226H; del7077; 30.0-95.0; 50.0-160.0; 1
 Dell; Dell D1428L; del3276; 31.0-48.0; 43.0-75.0; 1
-Dell; Dell D1626HT; del515b; 31.0-107.0; 50.0-160.0; 1
+Dell; Dell D1626HT; DEL515b; 30-107; 50-160; 
 Dell; Dell D2026T; del5314; 31.0-96.0; 50.0-100.0; 1
 Dell; Dell D2128-TCO; del602f; 31.0-102.0; 50.0-150.0; 1
 Dell; Dell D825HR; del62ff; 31.0-70.0; 50.0-120.0; 1
@@ -1087,11 +1095,11 @@ Dell; Dell M991; DEL7001; 30.0-96.0; 50.0-160.0; 1
 Dell; Dell M992; DEL300E; 30.0-96.0; 50.0-160.0; 1
 Dell; Dell M993c; DELD006; 30.0-96.0; 50.0-160.0; 1
 Dell; Dell M993s; DEL3014; 30.0-96.0; 50.0-160.0; 1
-Dell; Dell P1110; del50ab; 30.0-121.0; 48.0-160.0; 1
+Dell; Dell P1110; DEL50ab; 30-121; 48-160; 1280x1024
 Dell; Dell P1130; del5000; 30.0-130.0; 48.0-170.0; 1
 Dell; Dell P1690; del5348; 30.0-96.0; 50.0-160.0; 1
 Dell; Dell P780; del510f; 30.0-85.0; 48.0-120.0; 1
-Dell; Dell P790; del62f5; 30.0-92.0; 50.0-150.0; 1
+Dell; Dell P790; DEL62f5; 30-92; 50-150; 1024x768
 Dell; Dell P791; del3000; 30.0-96.0; 50.0-160.0; 1
 Dell; Dell P792; DEL5001; 30.0-96.0; 48.0-170.0; 1
 Dell; Dell P793; DEL3005; 30.0-96.0; 50.0-160.0; 1
@@ -1190,6 +1198,7 @@ Digital Equipment Corp.; Digital FR-PCXAV-VY; dec06d9; 30.0-86.0; 50.0-130.0; 1
 Digital Equipment Corp.; Digital FR-PCXAV-WY; dec06f9; 30.0-95.0; 50.0-152.0; 1
 Digital Equipment Corp.; Digital FR-PCXAV-YY; dec0739; 30.0-85.0; 48.0-150.0; 1
 Digital Equipment Corp.; Digital FR-PCXBV-JZ; dec5a09; 30.0-69.0; 50.0-110.0; 1
+Eizo Nanao; Eizo Nanao L557; ENC1689; 31-64; 59-61; 1280x1024
 Eizo; Eizo 9060S; eiz0302; 15.5-38.5; 50.0-90.0; 1
 Eizo; Eizo 9065S; eiz0303; 30.0-50.0; 50.0-90.0; 1
 Eizo; Eizo 9070S; eiz0306; 20.0-50.0; 50.0-90.0; 1
@@ -1930,6 +1939,7 @@ ICL; ICL VE17C; icl-ve17c; 30.0-64.0; 48.0-100.0; 1
 Iiyama; Iiyama A101GT, VisionMasterPro 501; ivm2118; 27.0-96.0; 50.0-160.0; 1
 Iiyama; Iiyama A102GT, VisionMasterPro 502; ivm2128; 27.0-110.0; 50.0-160.0; 1
 Iiyama; Iiyama A201HT, VisionMaster Pro 510; ivm2140; 30.0-130.0; 50.0-160.0; 1
+Iiyama; Iiyama LS902U; IVM1938; 30-96; 50-160; 
 Iiyama; Iiyama MA201D, VisionMaster Pro 511; ivm2150; 30.0-110.0; 50.0-180.0; 1
 Iiyama; Iiyama A701GT, VisionMasterPro 400; ivm1711; 27.0-96.0; 50.0-160.0; 1
 Iiyama; Iiyama A702HT, VisionMaster Pro 410; ivm1740; 27.0-96.0; 50.0-160.0; 1
@@ -2131,6 +2141,7 @@ LG Electronics Inc.; LG 1730DM; 1730dm; 30.0-82.0; 50.0-120.0; 1
 LG Electronics Inc.; LG 2010; 2010; 30.0-85.0; 50.0-120.0; 1
 LG Electronics Inc.; LG 575MS; GSM3b06; 31-69; 56-85; 1
 LG Electronics Inc.; LG 786LS; GSM4353; 31-83; 55-75; 1
+LG Electronics Inc.; LG Electronics Inc. N 2200P; GSM55f3; 30-124; 50-160; 1600x1200
 LG Electronics Inc.; LG Flatron 775 FT; GSM42d1; 30-70; 50-160; 1
 LG Electronics Inc.; LG Flatron 795FT; gsm42c6; 30.0-96.0; 50.0-160.0; 1
 LG Electronics Inc.; LG Flatron 915FT; gsm4a4d; 30.0-107.0; 50.0-200.0; 1
@@ -2169,7 +2180,7 @@ Lite-On; Lite-On 1570; ltn1570; 30.0-70.0; 50.0-120.0; 1
 Lite-On; Lite-On 1770NSL; ltn1770; 30.0-70.0; 50.0-120.0; 1
 Lite-On; Lite-On A1454NEL; ltna443; 30.0-54.0; 50.0-100.0; 1
 Lite-On; Lite-On A1454NE; ltna442; 30.0-54.0; 50.0-100.0; 1
-Lite-On; Lite-On A1554NEL; ltna543; 30.0-54.0; 50.0-100.0; 1
+Lite-On; Lite-On A1554NEL; LTNa543; 30-54; 50-100; 
 Lite-On; Lite-On A1554NE; ltna542; 30.0-54.0; 50.0-100.0; 1
 Lite-On; Lite-On A1570NSL; ltna595; 30.0-69.0; 50.0-120.0; 1
 Lite-On; Lite-On A1570NST(92); ltna596; 30.0-69.0; 50.0-120.0; 1
@@ -2326,10 +2337,7 @@ MAG Technology Co., Ltd.; MAG xj770; mag9702; 30.0-70.0; 50.0-130.0; 1
 MAG Technology Co., Ltd.; MAG XJ796; mag9703; 30.0-96.0; 50.0-160.0; 1
 MAG Technology Co., Ltd.; MAG XJ810; mag8997; 30.0-95.0; 50.0-160.0; 1
 MAG Technology Co., Ltd.; MAG XJ910; mag9158; 30.0-110.0; 50.0-160.0; 1
-Maxdata Computer; Maxdata Belinea 10 30 52; max06b9; 30.0-97.0; 50.0-150.0; 1
-Maxdata Computer; Maxdata Belinea 10 40 65; max4065; 30.0-50.0; 50.0-120.0; 1
-Maxdata Computer; Maxdata Belinea 10 50 95; max3539; 30.0-64.0; 55.0-90.0; 1
-Maxdata Computer; Maxdata Belinea 10 55 75; max7555; 30.0-69.0; 50.0-120.0; 1
+MED; MED 2914; MED2914; 30-98; 50-120
 MegaImage; MegaImage 17; 106; 30-64; 50-100
 Megavision; MV173 LCD; ate8506;  31.0-80.0; 58.0-75.0;
 Microtec; Microtec MD15-9; PBR023c; 30.0-70.0; 50.0-150.0; 1
@@ -2969,6 +2977,7 @@ Packard Bell; Packard Bell PnP 7480; pbn7481; 30.0-69.0; 50.0-90.0; 1
 Packard Bell; Packard Bell PnP 7480; pbn7483; 30.0-69.0; 50.0-90.0; 1
 Packard Bell; Packard Bell PnP 7680; pbn7683; 30.0-69.0; 50.0-90.0; 1
 Packard Bell; Packard Bell Pnp LCD15; pbn5105; 60.0; 75.0; 1
+Panasonic; Panasonic 264a; MEI264a; 30-61; 50-120; 
 Panasonic; Panasonic C1491; mp2; 30-49; 50-90; 1
 Panasonic; Panasonic C-1591E; 7e_f; 30-69; 50-160; 1
 Panasonic; Panasonic C-1591EA; 7e_e; 30-69; 50-160; 1
@@ -3096,6 +3105,7 @@ Panasonic; Panasonic TX-T1567PT1; mei2626; 30-61; 50-90; 1
 Peacock; Peacock P1796 C2; actb013; 30-97; 50-150; 1
 PC Brand; PC Brand Super_VGA; super_vga; 28.0-38.0; 50.0-90.0; 1
 Philips; Magnavox MB7000(17inch/CM6800); phla17b; 30.0-66.0; 50.0-130.0; 1
+Philips; Philips 150S; PHL0805; 30-61; 56-75; 1024x768
 Philips; Philips 104B(14inch/CM1300); phl104b; 30.0-54.0; 50.0-110.0; 1
 Philips; Philips 104B(14inch/CM2300); phlb14b; 30.0-54.0; 50.0-120.0; 1
 Philips; Philips 105B(15inch/CM1200); phla15b; 30.0-66.0; 50.0-110.0; 1
@@ -3114,6 +3124,7 @@ Philips; Philips 14C(14inch/7CM5279); 0; 31.5,35.2,35.5; 50.0-100.0; 1
 Philips; Philips 17ACM38; phl3800; 30-82; 50-160; 1
 Philips; Philips 17BCM28; phl2800; 30-66; 50-130; 1
 Philips; Philips 17TCM26; phl2600; 30-66; 50-100; 1
+Philips; Philips 180B2; PHL0810; 30-82; 56-76; 1280x1024
 Philips; Philips 200T(20inch/CM0700); phl200d; 30.0-90.0; 50.0-160.0; 1
 Philips; Philips 201B(21inch/CM0770); phl201b; 30.0-94.0; 48.0-160.0; 1
 Philips; Philips 20CM64; 20cm64; 30.0-64.0; 50.0-90.0; 1
@@ -3266,6 +3277,8 @@ Proview; Proview 770; pts0302; 30.0-76.0; 50.0-150.0; 1
 Proview; Proview 786N; 0; 30.0-70.0; 50.0-160.0; 1
 Proview; Proview 860; pts035c; 30.0-54.0; 50.0-150.0; 1
 Proview; Proview 996N; pts025c; 30.0-98.0; 50.0-160.0; 1
+QDS; QDS 0014; QDS0014; 48-50; 57-62; 1280x800
+Proview; Proview CY965; PTS03c5; 30-80; 60-75; 1280x1024
 Quantex; Quantex TE1564M - Super View 1280; 75; 30-64; 50-100
 Qume; Qume QM835; qm835; 30.0-36.5; 50.0-90.0; 1
 Radius; Radius PrecisionColor Display/19; pcd19; 30.0-67.0; 72; 1
@@ -3375,6 +3388,7 @@ Samsung; Samsung Samtron 95P; sam4f28; 30-96; 50-160; 1
 Samsung; Samsung Samtron 9B; sam4f23; 30-96; 50-160; 1
 Samsung; Samsung Samtron 9 In; sam25da; 30-96; 50-160; 1
 Samsung; Samsung Samtron 9P; sam4f27; 30-96; 50-160; 1
+Samsung; Samsung SyncMaster; SAM0080; 30-81; 56-85; 1280x1024
 Samsung; Samsung SyncMaster 1000b (CGX1607*); sam1f14; 30-107; 50-160; 1
 Samsung; Samsung SyncMaster 1000p; sam1f13; 30-107; 50-160; 1
 Samsung; Samsung SyncMaster 1000s (CGP1607*); sam0cf1; 30-96; 50-160; 1
@@ -3612,6 +3626,7 @@ Sony; Sony CPD-E500/E500E; sny04b0; 30.0-96.0; 48.0-160.0; 1
 Sony; Sony CPD-G200; sny1270; 30.0-96.0; 48.0-120.0; 1
 Sony; Sony CPD-G400; sny0290; 30.0-107.0; 48.0-120.0; 1
 Sony; Sony CPD-G410R; sny0191; 30.0-110.0; 40.0-170.0; 1
+Sony; Sony CPD-G420; SNY0490; 30-110; 48-170; 
 Sony; Sony CPD-G500; sny03b0; 30.0-121.0; 48.0-160.0; 1
 Sony; Sony CPD-H200; sny1170; 30.0-70.0; 48.0-120.0; 1
 Sony; Sony CPD-L100; sny0140; 30.0-61.0; 50.0-65.0; 1
@@ -3631,7 +3646,7 @@ Sony; Sony GDM-20SE2T5; sny05a0; 30.0-96.0; 48.0-160.0; 1
 Sony; Sony GDM-20SE3T; sny06a0; 30.0-96.0; 48.0-160.0; 1
 Sony; Sony GDM-20SHT(NEW); sny08a0; 30.0-107.0; 50.0-160.0; 1
 Sony; Sony GDM-20SHT; sny0000; 30.0-65.0; 50.0-120.0; 1
-Sony; Sony GDM-400PS/400PST/19PS; sny0090; 30.0-95.0; 48.0-160.0; 1
+Sony; Sony GDM-400PS/400PST/19PS; SNY0090; 30-95; 48-160;
 Sony; Sony GDM-500PS/T/T9/21PS; sny00b0; 30.0-107.0; 48.0-160.0; 1
 Sony; Sony GDM-F400/F400T9; sny0190; 30.0-107.0; 48.0-160.0; 1
 Sony; Sony GDM-F500/F500T9; sny01b0; 30.0-121.0; 48.0-160.0; 1
