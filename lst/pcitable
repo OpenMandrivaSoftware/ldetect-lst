@@ -6438,7 +6438,7 @@
 0x8086	0x269a	"snd-hda-intel"	"Intel Corp.|ESB2 Southbridge HDA DID"
 0x8086	0x269b	"i2c-i801"	"Intel Corporation|Enterprise Southbridge SMBus"
 0x8086	0x269e	"piix"	"Intel Corporation|Enterprise Southbridge PATA"
-0x8086	0x2770	"unknown"	"Intel Corporation|Memory Controller Hub"
+0x8086	0x2770	"intel-agp"	"Intel Corporation|Memory Controller Hub"
 0x8086	0x2771	"unknown"	"Intel Corporation|PCI Express Graphics Port"
 0x8086	0x2772	"unknown"	"Intel Corporation|Integrated Graphics Controller"
 0x8086	0x2774	"unknown"	"Intel Corporation|Workstation Memory Controller Hub"
