@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.92
+%define version 0.1.93
 %define release 1mdk
 
 Name: %{name}
@@ -63,6 +63,13 @@ fi
 %{_bindir}/*
 
 %changelog
+* Fri Jul  1 2005 Thierry Vignaud <tvignaud@mandriva.com> 0.1.93-1mdk
+- add another ATI modem managed by ALSA
+- add more USB DVB devices
+- add support for more ISDN USB devices
+- sync with kernels 2.6.12-mm1 & 2.6.12-rc6
+- fix slmodem wrongly detected as hsfmodem (blino)
+
 * Mon Jun  6 2005 Thierry Vignaud <tvignaud@mandriva.com> 0.1.92-1mdk
 - fix detection of some ISDN modems by drakconnect
 - sync with kernel-2.6.12-rc5-mm2
