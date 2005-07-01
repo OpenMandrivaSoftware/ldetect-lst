@@ -1,3 +1,44 @@
+2005-07-01 16:04  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* ldetect-lst.spec: 0.1.93-1mdk
+
+2005-06-26 09:54  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/usbtable: add more USB DVB devices (from
+	  kernel-2.6.12-rc6-RT-V0.7.48-33)
+
+2005-06-26 09:51  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/usbtable: support more ISDN USB devices (from
+	  kernel-2.6.12-mm1)
+
+2005-06-26 09:50  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: sync with kernel-2.6.12-mm1
+
+2005-06-24 12:20  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: add another ATI modem managed by ALSA
+
+2005-06-24 08:16  Pixel <pixel at mandriva.com>
+
+	* lst/MonitorsDB: merge in entries from monitor-edid test files
+
+2005-06-24 08:16  Pixel <pixel at mandriva.com>
+
+	* convert/: Makefile, merge_MonitorsDB.pl, verify_MonitorsDB: - new
+	  code to merge in MonitorsDB entries (esp. coming from
+	  monitor-parse-edid --MonitorsDB) - verify_MonitorsDB has been
+	  merged in merge_MonitorsDB
+
+2005-06-21 05:22  Pixel <pixel at mandriva.com>
+
+	* test/dmidecode.Laptop.Toshiba-Satellite-2805: [no log message]
+
+2005-06-09 12:07  Olivier Blin <oblin at mandriva.com>
+
+	* lst/pcitable: fix slmodem wrongly detected as hsfmodem
+
 2005-06-06 09:56  Thierry Vignaud <tvignaud at mandriva.com>
 
 	* ldetect-lst.spec: 0.1.92-1mdk
