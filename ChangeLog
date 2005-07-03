@@ -1,3 +1,20 @@
+2005-07-03 17:34  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* ldetect-lst.spec:  0.1.94-1mdk
+
+2005-07-03 17:34  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: sync with kernel-2.6.12.3mdk-1-1mdk
+
+2005-07-03 17:32  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: fix a few entries b/c of some kernel changes
+
+2005-07-03 17:30  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: sync with kernel-2.6.13-rc1-mm1 (mainly SATA, DVB,
+	  SCSI, ALSA, NET)
+
 2005-07-01 16:04  Thierry Vignaud <tvignaud at mandriva.com>
 
 	* ldetect-lst.spec: 0.1.93-1mdk
