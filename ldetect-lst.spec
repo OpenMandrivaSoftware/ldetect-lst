@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.93
+%define version 0.1.94
 %define release 1mdk
 
 Name: %{name}
@@ -63,6 +63,10 @@ fi
 %{_bindir}/*
 
 %changelog
+* Mon Jul  4 2005 Thierry Vignaud <tvignaud@mandriva.com> 0.1.94-1mdk
+- fix a few entries b/c of some kernel changes
+- sync with kernels 2.6.12.3mdk-1-1mdk and 2.6.13-rc1-mm1
+
 * Fri Jul  1 2005 Thierry Vignaud <tvignaud@mandriva.com> 0.1.93-1mdk
 - add another ATI modem managed by ALSA
 - add more USB DVB devices
