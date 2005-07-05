@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.94
+%define version 0.1.95
 %define release 1mdk
 
 Name: %{name}
@@ -63,6 +63,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Tue Jul  5 2005 Thierry Vignaud <tvignaud@mandriva.com> 0.1.95-1mdk
+- add support for ATI on x86_64
+
 * Mon Jul  4 2005 Thierry Vignaud <tvignaud@mandriva.com> 0.1.94-1mdk
 - fix a few entries b/c of some kernel changes
 - sync with kernels 2.6.12.3mdk-1-1mdk and 2.6.13-rc1-mm1
