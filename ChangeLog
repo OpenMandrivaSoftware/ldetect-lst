@@ -14,10 +14,6 @@
 
 	* lst/pcitable: sync with kernel-2.6.12.3mdk-1-1mdk
 
-2005-07-03 17:34  Thierry Vignaud <tvignaud at mandriva.com>
-
-	* lst/pcitable: sync with kernel-2.6.12.3mdk-1-1mdk
-
 2005-07-03 17:32  Thierry Vignaud <tvignaud at mandriva.com>
 
 	* lst/pcitable: fix a few entries b/c of some kernel changes
