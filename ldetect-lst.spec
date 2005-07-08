@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.95
+%define version 0.1.96
 %define release 1mdk
 
 Name: %{name}
@@ -63,6 +63,11 @@ fi
 %{_bindir}/*
 
 %changelog
+* Fri Jul  8 2005 Thierry Vignaud <tvignaud@mandriva.com> 0.1.96-1mdk
+- sync with kernel-2.6.13-rc2-mm1
+- add support for more SATA cards
+- fix a few entries
+
 * Tue Jul  5 2005 Thierry Vignaud <tvignaud@mandriva.com> 0.1.95-1mdk
 - add support for ATI on x86_64
 
