@@ -2287,6 +2287,10 @@ NAME Intel 915
 DRIVER i810
 DRI_GLX
 
+NAME Intel 945
+DRIVER i810
+DRI_GLX
+
 # Alan Cox's new "voodoo" driver for Voodoo Graphics and Voodoo II
 #0x121a  0x0001  "Card:Voodoo Graphics"  "3Dfx Interactive, Inc.|Voodoo"
 NAME Voodoo Graphics
