@@ -1,12 +1,12 @@
 %define name ldetect-lst
-%define version 0.1.96
+%define version 0.1.97
 %define release 1mdk
 
 Name: %{name}
 Version: %{version}
 Release: %{release}
 Summary: Hardware list for the light detection library
-URL: http://cvs.mandrakesoft.com/cgi-bin/cvsweb.cgi/soft/ldetect-lst/
+URL: http://cvs.mandriva.com/cgi-bin/cvsweb.cgi/soft/ldetect-lst/
 Source: %{name}-%{version}.tar.bz2
 Group: System/Libraries
 BuildRoot: %{_tmppath}/%{name}-buildroot
@@ -63,6 +63,10 @@ fi
 %{_bindir}/*
 
 %changelog
+* Mon Jul 11 2005 Frederic Lepied <flepied@mandriva.com> 0.1.97-1mdk
+- fixed URL
+- added a few Intel ids (i945...)
+
 * Fri Jul  8 2005 Thierry Vignaud <tvignaud@mandriva.com> 0.1.96-1mdk
 - sync with kernel-2.6.13-rc2-mm1
 - add support for more SATA cards
