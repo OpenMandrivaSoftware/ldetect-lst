@@ -1,3 +1,11 @@
+2005-07-11 01:53  Frederic Lepied <flepied at mandriva.com>
+
+	* ldetect-lst.spec: 0.1.97-1mdk
+
+2005-07-11 01:52  Frederic Lepied <flepied at mandriva.com>
+
+	* lst/: Cards+, pcitable: Added i945
+
 2005-07-08 11:15  Thierry Vignaud <tvignaud at mandriva.com>
 
 	* ldetect-lst.spec: 0.1.96-1mdk
