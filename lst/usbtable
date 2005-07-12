@@ -7051,7 +7051,7 @@
 0x22b8	0x3802	"unknown"	"Motorola PCS|C330 GSM Phone"
 0x22b8	0x4002	"unknown"	"Motorola PCS|A920/A925 UMTS Phone"
 0x22b8	0x4810	"unknown"	"Motorola PCS|E398 Storage"
-0x22b8	0x4902	"unknown"	"Motorola PCS|E398 GSM Phone"
+0x22b8	0x4902	"cdc-acm"	"Motorola PCS|E398 GSM Phone"
 0x22b8	0x600c	"unknown"	"Motorola PCS|A768i GSM Phone"
 0x22b8	0x6604	"unknown"	"Motorola PCS|Washington CDMA Phone"
 0x22b8	0x6631	"unknown"	"Motorola PCS|CDC Modem"
