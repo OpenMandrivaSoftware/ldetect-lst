@@ -1,3 +1,23 @@
+2005-07-18 14:22  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* ldetect-lst.spec: 0.1.98-1mdk
+
+2005-07-18 08:47  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: describe nvidia MCP55
+
+2005-07-18 08:46  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: add support for nvidia MCP51
+
+2005-07-18 05:28  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: sync with kernel-2.6.13-rc3-mm1
+
+2005-07-12 09:09  Stew Benedict <sbenedict at mandriva.com>
+
+	* lst/usbtable: Motorola V180 Cell Phone
+
 2005-07-11 01:53  Frederic Lepied <flepied at mandriva.com>
 
 	* ldetect-lst.spec: 0.1.97-1mdk
