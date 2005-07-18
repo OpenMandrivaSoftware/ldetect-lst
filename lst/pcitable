@@ -2869,7 +2869,7 @@
 0x10de	0x034c	"Card:NVIDIA GeForce FX (generic)"	"nVidia Corporation|NV36 [Quadro FX Go1000]"
 0x10de	0x034e	"Card:NVIDIA GeForce FX (generic)"	"nVidia Corp.|NV36 [Quadro FX 1100]"
 0x10de	0x034f	"Card:NVIDIA GeForce"	"nVidia Corporation|NV36GL"
-0x10de	0x036e	"amd74xx"	""
+0x10de	0x036e	"amd74xx"	"nVidia Corporation|MCP55 Serial ATA Controller"
 0x10de	0x0372	"forcedeth"	""
 0x10de	0x0373	"forcedeth"	""
 0x10df	0x10df	"lpfc"	"Emulex Corp.|Light Pulse Fibre Channel Adapter"
