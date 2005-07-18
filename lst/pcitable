@@ -2776,7 +2776,7 @@
 0x10de	0x0263	"unknown"	"nVidia Corporation|MCP51 LPC Bridge"
 0x10de	0x0264	"unknown"	"nVidia Corporation|MCP51 SMBus"
 0x10de	0x0265	"amd74xx"	"nVidia Corporation|MCP51 IDE"
-0x10de	0x0266	"unknown"	"nVidia Corporation|MCP51 Serial ATA Controller"
+0x10de	0x0266	"sata_nv"	"nVidia Corporation|MCP51 Serial ATA Controller"
 0x10de	0x0267	"unknown"	"nVidia Corporation|MCP51 Serial ATA Controller"
 0x10de	0x0268	"forcedeth"	"nVidia Corporation|MCP51 Ethernet Controller"
 0x10de	0x0269	"forcedeth"	"nVidia Corporation|MCP51 Ethernet Controller"
