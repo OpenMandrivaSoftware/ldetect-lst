@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.97
+%define version 0.1.98
 %define release 1mdk
 
 Name: %{name}
@@ -63,6 +63,12 @@ fi
 %{_bindir}/*
 
 %changelog
+* Mon Jul 18 2005 Thierry Vignaud <tvignaud@mandriva.com> 0.1.98-1mdk
+- add support for nvidia MCP51
+- describe nvidia MCP55
+- sync with kernel-2.6.13-rc3-mm1
+- add Motorola V180 Cell Phone (stew)
+
 * Mon Jul 11 2005 Frederic Lepied <flepied@mandriva.com> 0.1.97-1mdk
 - fixed URL
 - added a few Intel ids (i945...)
