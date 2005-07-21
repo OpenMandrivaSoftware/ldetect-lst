@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.98
+%define version 0.1.99
 %define release 1mdk
 
 Name: %{name}
@@ -63,6 +63,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Thu Jul 21 2005 Thierry Vignaud <tvignaud@mandriva.com> 0.1.99-1mdk
+- fix two adaptec entries (arnaud patard)
+
 * Mon Jul 18 2005 Thierry Vignaud <tvignaud@mandriva.com> 0.1.98-1mdk
 - add support for nvidia MCP51
 - describe nvidia MCP55
