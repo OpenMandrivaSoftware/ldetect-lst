@@ -4315,6 +4315,7 @@
 0x1282	0x9009	"dmfe"	"Davicom|Ethernet Adpater"
 0x1282	0x9100	"tulip"	"Davicom|DM9100"
 0x1282	0x9102	0x3030	0x5032	"dmfe"	"Davicom|Ethernet 100/10 MBit"
+0x1282	0x9102	0x4554	0x434e	"dmfe"	"Davicom|Ethernet 100/10 MBit"
 0x1282	0x9102	"tulip"	"Davicom|Ethernet 100/10 MBit DM9102"
 0x1282	0x9132	"dmfe"	"Davicom|Ethernet Adapter"
 0x1283	0x0801	"unknown"	"Integrated Technology Express Inc.|IT8152F/G Audio Digital Controller"
