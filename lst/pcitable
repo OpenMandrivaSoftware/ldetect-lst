@@ -5385,7 +5385,7 @@
 0x168c	0x1014	"ath_pci"	"Atheros Communications, Inc.|AR5212 802.11abg NIC"
 0x1693	0x0212	"unknown"	"FERMA|PLX PCI9054 EPONINE ESR-PCI Board"
 0x1693	0x0213	"unknown"	"FERMA|Motorola MPC8245 EPONINE MTM120 PCI Board"
-0x169c	0x0044	"unknown"	"Netcell Corporation|SyncRAID SR3000/5000 Series SATA RAID Controllers"
+0x169c	0x0044	"generic"	"Netcell Corporation|SyncRAID SR3000/5000 Series SATA RAID Controllers"
 0x16ab	0x1100	"orinoco_plx"	"Global Sun Tech|GL24110P"
 0x16ab	0x1101	"orinoco_plx"	"Unknown|Prism2"
 0x16ab	0x1102	"orinoco_plx"	"Linksys|WDT11"
