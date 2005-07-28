@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.99
+%define version 0.1.100
 %define release 1mdk
 
 Name: %{name}
@@ -63,6 +63,12 @@ fi
 %{_bindir}/*
 
 %changelog
+* Thu Jul 28 2005 Thierry Vignaud <tvignaud@mandriva.com> 0.1.100-1mdk
+- sync with kernel-2.6.13-rc3-mm2
+- fix a cople SCSI entry
+- fix frequency range of Belinea 101715 (#15158)
+- fix a network card (#15393)
+
 * Thu Jul 21 2005 Thierry Vignaud <tvignaud@mandriva.com> 0.1.99-1mdk
 - fix two adaptec entries (arnaud patard)
 
