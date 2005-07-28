@@ -1,3 +1,36 @@
+2005-07-28 07:08  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* ldetect-lst.spec: 0.1.100-1mdk
+
+2005-07-27 10:31  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: sync with kernel-2.6.13-rc3-mm2
+
+2005-07-27 06:20  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: fix a cople SCSI entry
+
+2005-07-26 10:10  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/MonitorsDB: fix frequency range of Belinea 101715 (#15158)
+
+2005-07-25 11:01  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: fix #15393 for another card
+
+2005-07-21 07:13  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: fix missing quote and remove sub devices to please
+	  make check
+
+2005-07-21 07:11  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* ldetect-lst.spec: 0.1.99-1mdk
+
+2005-07-20 08:22  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: fix two adaptec entries (arnaud patard)
+
 2005-07-18 14:22  Thierry Vignaud <tvignaud at mandriva.com>
 
 	* ldetect-lst.spec: 0.1.98-1mdk
