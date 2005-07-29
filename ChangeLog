@@ -1,3 +1,19 @@
+2005-07-29 08:17  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* ldetect-lst.spec: 0.1.101-1mdk
+
+2005-07-28 18:55  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: better description for RS480 chips
+
+2005-07-28 18:53  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: add support for RS480 5955
+
+2005-07-28 18:53  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: describe somewhat ATI|RS480 5954
+
 2005-07-28 07:08  Thierry Vignaud <tvignaud at mandriva.com>
 
 	* ldetect-lst.spec: 0.1.100-1mdk
