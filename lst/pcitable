@@ -5412,7 +5412,7 @@
 0x1734	0x1013	"unknown"	"Fujitsu-Siemens Computers GmbH|BCM5703 Broadcom Corp. NetXtreme Gigabyte Ethernet"
 0x1737	0x0013	"unknown"	"Linksys|WMP54G Wireless Pci Card"
 0x1737	0x0015	"unknown"	"Linksys|WMP54GS Wireless Pci Card"
-0x1737	0x1032	"sk98lin"	"Linksys|Gigabit Network Adapter"
+0x1737	0x1032	"sk98lin"	"Linksys|EG1032 Gigabit Network Adapter"
 0x1737	0x1064	"sk98lin"	"Linksys|Gigabit Network Adapter"
 0x1737	0xab08	"tulip"	"Linksys|21x4x DEC-Tulip compatible 10/100 Ethernet"
 0x1737	0xab09	"tulip"	"Linksys|21x4x DEC-Tulip compatible 10/100 Ethernet"
