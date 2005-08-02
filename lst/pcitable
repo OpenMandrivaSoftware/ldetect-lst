@@ -6803,6 +6803,7 @@
 0x9005	0x00ce	"aic7xxx"	""
 0x9005	0x00cf	"aic7xxx"	"Adaptec|7899P"
 0x9005	0x0200	0x9005	0x0200	"aacraid"	""
+0x9005	0x0241	"unknown"	"Adaptec|AAR-1420SA"
 0x9005	0x0250	"ips"	"Adaptec|ServeRAID Controller"
 0x9005	0x0258	"aic79xx"	"Adaptec|AAC-RAID RAID Controller"
 0x9005	0x0279	"aic79xx"	"Adaptec|ServeRAID 6M"
