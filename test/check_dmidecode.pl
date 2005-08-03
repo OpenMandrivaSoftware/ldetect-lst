@@ -17,7 +17,7 @@ foreach my $file (glob("dmidecode.*")) {
 
     my @surprise = difference2([ keys %got ], [ keys %wanted ]);
     if (@surprise) {
-	warn "for $file, surprise: ", join(' ', map { "$_ => $got{$_}" } @surprise), "\n";
+	warn "for $file, surprise: ", join(' ', map { "(=> $_: $got{$_})" } @surprise), "\n";
     }
 
     my @bad = grep { $wanted{$_} ne $got{$_} } intersection([ keys %wanted ], [ keys %got ]);

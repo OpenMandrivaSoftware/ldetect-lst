@@ -1,4 +1,4 @@
-# dmidecode 2.5
+# dmidecode 2.5 (=> Module: toshiba) (=> Pkg: toshutils)
 SMBIOS 2.3 present.
 43 structures occupying 1374 bytes.
 Table at 0x000EC000.
