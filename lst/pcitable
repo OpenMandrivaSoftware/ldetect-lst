@@ -1700,6 +1700,7 @@
 0x105a	0x3519	"sata_promise"	"Promise Technology, Inc.|PDC40519 (FastTrak TX4200)"
 0x105a	0x3571	"sata_promise"	"Promise Technology, Inc.|PDC20571 (FastTrak TX2200)"
 0x105a	0x3574	"sata_promise"	"Promise Technology, Inc.|PDC20579 SATAII 150 IDE Controller"
+0x105a	0x3d17	"sata_promise"	"Promise Technology, Inc.|SATA300 TX4 Controller"
 0x105a	0x3d18	"sata_promise"	"Promise Technology, Inc.|PDC20518 SATAII 150 IDE Controller"
 0x105a	0x3d75	"sata_promise"	"Promise Technology, Inc.|PDC20575 (SATAII150 TX2plus)"
 0x105a	0x4d30	"pdc202xx_old"	"Promise Technology, Inc.|20267"
