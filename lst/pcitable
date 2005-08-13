@@ -1367,6 +1367,7 @@
 0x1039	0x7018	"snd-trident"	"Silicon Integrated Systems [SiS]|7018 PCI Audio"
 0x1039	0x7019	"unknown"	"Silicon Integrated System|SiS550/1/2 Hardware Audio"
 0x1039	0x7300	"unknown"	"Silicon Integrated System|SiS730 GUI Accelerator+3D"
+0x1039	0x7502	"snd-hda-intel"	"Silicon Integrated System|SiS966"
 0x1039	0x8139	"unknown"	"Silicon Integrated System| "
 0x103c	0x1005	"unknown"	"HP|A4977A Visualize EG"
 0x103c	0x1006	"unknown"	"HP|Visualize FX6"
