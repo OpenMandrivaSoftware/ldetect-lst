@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.101
+%define version 0.1.102
 %define release 1mdk
 
 Name: %{name}
@@ -11,7 +11,8 @@ Source: %{name}-%{version}.tar.bz2
 Group: System/Libraries
 BuildRoot: %{_tmppath}/%{name}-buildroot
 License: GPL
-PreReq: perl-base
+Requires(post): perl-base gzip
+Requires(preun): perl-base
 BuildRequires: perl-MDK-Common
 Provides: hwdata
 
@@ -63,6 +64,11 @@ fi
 %{_bindir}/*
 
 %changelog
+* Wed Aug 24 2005 Pixel <pixel@mandriva.com> 0.1.102-1mdk
+- gzip pcitable, usbtable and dmitable (to win space), 
+  use a hard link when possible to win even more room
+- update prereq
+
 * Fri Jul 29 2005 Thierry Vignaud <tvignaud@mandriva.com> 0.1.101-1mdk
 - add support for RS480 5955
 - describe ATI|RS480 5954
