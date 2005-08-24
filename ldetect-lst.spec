@@ -68,6 +68,14 @@ fi
 - gzip pcitable, usbtable and dmitable (to win space), 
   use a hard link when possible to win even more room
 - update prereq
+- add a cople new monitor
+- add support for a new SiS SATA controller (tv)
+- add support for SiS966 (tv)
+- add support for SATA300 TX4 Controller (tv)
+- add support for AAR-1420SA (tv)
+- add support for snd-riptide (tv)
+- add support for 3 new tg3 netwrod cards (tv)
+- add support for a slamr modem (blino)
 
 * Fri Jul 29 2005 Thierry Vignaud <tvignaud@mandriva.com> 0.1.101-1mdk
 - add support for RS480 5955
