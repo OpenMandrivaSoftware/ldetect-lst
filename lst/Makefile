@@ -45,4 +45,6 @@ install: $(TMP_TABLES) $(TABLES3)
 	 cat $$i.tmp \
 	) > $(dir)/$$i.d/90default.lst; done
 
+	gzip -9 $(dir)/{pcitable,usbtable,dmitable}.d/90default.lst
+
 	install -m 644 ScannerDB.gz scannerconfigs Cards+ MonitorsDB isdn.db $(dir)
