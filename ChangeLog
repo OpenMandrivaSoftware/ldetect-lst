@@ -1,4 +1,14 @@
-2005-08-24 15:16  Pixel <pixel@mandrakesoft.com>
+2005-08-24 18:24  Till Kamppeter <till at mandriva.com>
+
+	* lst/: ScannerDB, scannerconfigs: - Updated scanner database for
+	  SANE 1.0.16.
+
+2005-08-24 17:52  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: switch a cople network cards from eepro100 to e100
+	  due to driver bugs (Nicolas Chipaux)
+
+2005-08-24 15:16  Pixel <pixel at mandriva.com>
 
 	* ldetect-lst.spec: [no log message]
 
