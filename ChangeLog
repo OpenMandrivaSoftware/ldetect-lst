@@ -1,4 +1,72 @@
-2005-07-29 08:17  Thierry Vignaud <tvignaud at mandriva.com>
+2005-08-24 15:16  Pixel <pixel@mandrakesoft.com>
+
+	* ldetect-lst.spec: [no log message]
+
+2005-08-24 15:12  Pixel <pixel@mandrakesoft.com>
+
+	* update-ldetect-lst: - handle compressed .lst - compress the
+	  result - use a hard link when possible to win even more room
+
+2005-08-24 15:11  Pixel <pixel@mandrakesoft.com>
+
+	* lst/Makefile: gzip pcitable, usbtable and dmitable (to win space)
+
+2005-08-24 14:32  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: add support for a new SiS SATA controller
+
+2005-08-13 23:26  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: add support for SiS966
+
+2005-08-09 04:03  Pixel <pixel@mandrakesoft.com>
+
+	* test/dmidecode.Desktop.Shuttle-ST62K: [no log message]
+
+2005-08-08 11:18  Pixel <pixel@mandrakesoft.com>
+
+	* test/dmidecode.Laptop-Presario-R4000: [no log message]
+
+2005-08-08 05:11  Pixel <pixel@mandrakesoft.com>
+
+	* lst/MonitorsDB: add monitor from Manchot on cooker
+
+2005-08-07 17:07  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: add support for SATA300 TX4 Controller (from
+	  2.6.13-rc5-mm1)
+
+2005-08-03 11:07  Pixel <pixel@mandrakesoft.com>
+
+	* test/: check_dmidecode.pl, dmidecode.Laptop.ASUS-W5G00,
+	  dmidecode.Laptop.HP-nx9030,
+	  dmidecode.Laptop.Toshiba-Satellite-2805: add and cleanup
+
+2005-08-03 10:10  Pixel <pixel@mandrakesoft.com>
+
+	* lst/MonitorsDB: add Flat Panel 1280x768
+
+2005-08-02 09:56  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: add "Adaptec|AAR-1420SA"
+
+2005-07-31 12:49  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: improve a linksys card description
+
+2005-07-29 12:02  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: add support for snd-riptide
+
+2005-07-29 10:08  oblin
+
+	* lst/pcitable: add a slamr modem
+
+2005-07-29 08:44  Thierry Vignaud <tvignaud@mandrakesoft.com>
+
+	* lst/pcitable: add 3 tg3 network card from kernel-2.6.13-rc4
+
+2005-07-29 08:17  Thierry Vignaud <tvignaud@mandrakesoft.com>
 
 	* ldetect-lst.spec: 0.1.101-1mdk
 
