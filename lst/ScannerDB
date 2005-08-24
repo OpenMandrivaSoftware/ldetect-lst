@@ -1,6 +1,6 @@
 # generated from Sane by scannerdrake
 
-# from sane-backends-1.0.15/doc/descriptions/tamarack.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions/tamarack.desc
 NAME Tamarack|Artiscan 6000C
 SERVER tamarack
 DRIVER SCSI
@@ -22,13 +22,13 @@ LINE scsi TAMARACK
 LINE $DEVICE
 COMMENT 3 pass, 600 DPI
 
-# from sane-backends-1.0.15/doc/descriptions/dmc.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions/dmc.desc
 NAME Polaroid|DMC
 SERVER dmc
 DRIVER SCSI
 LINE $DEVICE
 
-# from sane-backends-1.0.15/doc/descriptions/umax.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions/umax.desc
 NAME Umax|Vista S6
 SERVER umax
 DRIVER SCSI
@@ -1179,7 +1179,7 @@ SCSILINE option connection-type 1
 SCSILINE $DEVICE
 COMMENT OK
 
-# from sane-backends-1.0.15/doc/descriptions/microtek.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions/microtek.desc
 NAME Microtek|Scanmaker E6
 SERVER microtek
 DRIVER SCSI
@@ -1305,7 +1305,7 @@ LINE scsi * * Scanner
 LINE $DEVICE
 COMMENT Same as Microtek Scanmaker E3
 
-# from sane-backends-1.0.15/doc/descriptions/ricoh.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions/ricoh.desc
 NAME Ricoh|Ricoh IS50
 SERVER ricoh
 DRIVER SCSI
@@ -1318,7 +1318,26 @@ DRIVER SCSI
 LINE scsi RICOH IS60
 LINE $DEVICE
 
-# from sane-backends-1.0.15/doc/descriptions/canon.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions/genesys.desc
+NAME Medion/Lifetec/Tevion/Cytron|MD5345
+SERVER genesys
+DRIVER USB
+LINE usb $VENDOR $PRODUCT
+COMMENT Has a Primax USB ID
+
+NAME Medion/Lifetec/Tevion/Cytron|MD6228
+SERVER genesys
+DRIVER USB
+LINE usb $VENDOR $PRODUCT
+COMMENT Has a Primax USB ID. Same as MD5345
+
+NAME Hewlett-Packard|ScanJet 2300C
+SERVER genesys
+DRIVER USB
+LINE usb $VENDOR $PRODUCT
+COMMENT 600x1200 dpi max
+
+# from /home/test/sane-backends-1.0.16//doc/descriptions/canon.desc
 NAME Canon|CanoScan 300
 SERVER canon
 DRIVER SCSI
@@ -1349,7 +1368,7 @@ SERVER canon
 DRIVER SCSI
 LINE $DEVICE
 
-# from sane-backends-1.0.15/doc/descriptions/pie.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions/pie.desc
 NAME Devcom|9636PRO
 SERVER pie
 DRIVER SCSI
@@ -1470,7 +1489,7 @@ LINE scsi PIE * Scanner
 LINE scsi AdLib * Scanner
 LINE $DEVICE
 
-# from sane-backends-1.0.15/doc/descriptions/teco2.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions/teco2.desc
 NAME Relisys|AVEC Super 3
 SERVER teco2
 DRIVER SCSI
@@ -1606,7 +1625,7 @@ LINE scsi "Primax" "Profi 19200"
 LINE $DEVICE
 COMMENT sub model VM3575
 
-# from sane-backends-1.0.15/doc/descriptions/snapscan.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions/snapscan.desc
 NAME AGFA-Gevaert NV|SnapScan
 SERVER snapscan
 DRIVER SCSI
@@ -1728,7 +1747,7 @@ USBLINE usb $VENDOR $PRODUCT
 FIRMWARELINE firmware $FIRMWARE
 COMMENT Optional tranparency unit supported
 
-NAME Benq|300f
+NAME Benq (Acer)|300f
 SERVER snapscan
 DRIVER SCSI
 SCSILINE scsi AGFA * Scanner
@@ -1738,7 +1757,7 @@ SCSILINE scsi ACERPERI * Scanner
 FIRMWARELINE firmware $FIRMWARE
 COMMENT Formerly Acer Peripherals
 
-NAME Benq|310s
+NAME Benq (Acer)|310s
 SERVER snapscan
 DRIVER SCSI
 SCSILINE scsi AGFA * Scanner
@@ -1747,7 +1766,7 @@ SCSILINE scsi Color * Scanner
 SCSILINE scsi ACERPERI * Scanner
 FIRMWARELINE firmware $FIRMWARE
 
-NAME Benq|610s
+NAME Benq (Acer)|610s
 SERVER snapscan
 DRIVER SCSI
 SCSILINE scsi AGFA * Scanner
@@ -1756,7 +1775,7 @@ SCSILINE scsi Color * Scanner
 SCSILINE scsi ACERPERI * Scanner
 FIRMWARELINE firmware $FIRMWARE
 
-NAME Benq|610plus
+NAME Benq (Acer)|610plus
 SERVER snapscan
 DRIVER SCSI
 SCSILINE scsi AGFA * Scanner
@@ -1765,7 +1784,7 @@ SCSILINE scsi Color * Scanner
 SCSILINE scsi ACERPERI * Scanner
 FIRMWARELINE firmware $FIRMWARE
 
-NAME Benq|620s
+NAME Benq (Acer)|620s
 SERVER snapscan
 DRIVER SCSI
 SCSILINE scsi AGFA * Scanner
@@ -1774,71 +1793,71 @@ SCSILINE scsi Color * Scanner
 SCSILINE scsi ACERPERI * Scanner
 FIRMWARELINE firmware $FIRMWARE
 
-NAME Benq|310u
+NAME Benq (Acer)|310u
 SERVER snapscan
 DRIVER USB
 USBLINE usb $VENDOR $PRODUCT
 FIRMWARELINE firmware $FIRMWARE
 
-NAME Benq|320u
+NAME Benq (Acer)|320u
 SERVER snapscan
 DRIVER USB
 USBLINE usb $VENDOR $PRODUCT
 FIRMWARELINE firmware $FIRMWARE
 
-NAME Benq|340u
+NAME Benq (Acer)|340u
 SERVER snapscan
 DRIVER USB
 USBLINE usb $VENDOR $PRODUCT
 FIRMWARELINE firmware $FIRMWARE
 
-NAME Benq|620u
-SERVER snapscan
-DRIVER USB
-USBLINE usb $VENDOR $PRODUCT
-FIRMWARELINE firmware $FIRMWARE
-COMMENT Optional tranparency unit supported
-
-NAME Benq|640u
+NAME Benq (Acer)|620u
 SERVER snapscan
 DRIVER USB
 USBLINE usb $VENDOR $PRODUCT
 FIRMWARELINE firmware $FIRMWARE
 COMMENT Optional tranparency unit supported
 
-NAME Benq|640bu
-SERVER snapscan
-DRIVER USB
-USBLINE usb $VENDOR $PRODUCT
-FIRMWARELINE firmware $FIRMWARE
-
-NAME Benq|640BT
+NAME Benq (Acer)|640u
 SERVER snapscan
 DRIVER USB
 USBLINE usb $VENDOR $PRODUCT
 FIRMWARELINE firmware $FIRMWARE
 COMMENT Optional tranparency unit supported
 
-NAME Benq|1240
+NAME Benq (Acer)|640bu
+SERVER snapscan
+DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
+FIRMWARELINE firmware $FIRMWARE
+
+NAME Benq (Acer)|640BT
 SERVER snapscan
 DRIVER USB
 USBLINE usb $VENDOR $PRODUCT
 FIRMWARELINE firmware $FIRMWARE
 COMMENT Optional tranparency unit supported
 
-NAME Benq|3300
+NAME Benq (Acer)|1240
+SERVER snapscan
+DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
+FIRMWARELINE firmware $FIRMWARE
+COMMENT Optional tranparency unit supported
+
+NAME Benq (Acer)|3300
 SERVER snapscan
 DRIVER USB
 USBLINE usb $VENDOR $PRODUCT
 FIRMWARELINE firmware $FIRMWARE
 
-NAME Benq|4300
+NAME Benq (Acer)|4300
 SERVER snapscan
 DRIVER USB
 USBLINE usb $VENDOR $PRODUCT
 FIRMWARELINE firmware $FIRMWARE
 
-NAME Benq|5000
+NAME Benq (Acer)|5000
 SERVER snapscan
 DRIVER USB
 USBLINE usb $VENDOR $PRODUCT
@@ -1883,28 +1902,32 @@ USBLINE usb $VENDOR $PRODUCT
 FIRMWARELINE firmware $FIRMWARE
 COMMENT Rebadged Benq 4300.
 
+NAME Epson Corp.|Perfection 1270
+SERVER snapscan
+DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
+FIRMWARELINE firmware $FIRMWARE
+
 NAME Epson Corp.|Perfection 1670
 SERVER snapscan
 DRIVER USB
 USBLINE usb $VENDOR $PRODUCT
 FIRMWARELINE firmware $FIRMWARE
-COMMENT Scanning with 1600dpi does not work correctly.
 
 NAME Epson Corp.|Perfection 2480
 SERVER snapscan
 DRIVER USB
 USBLINE usb $VENDOR $PRODUCT
 FIRMWARELINE firmware $FIRMWARE
-COMMENT Some people reported problems after firmware upload, scanning with 2400dpi does not work correctly.
 
 NAME Epson Corp.|Perfection 2580
 SERVER snapscan
 DRIVER USB
 USBLINE usb $VENDOR $PRODUCT
 FIRMWARELINE firmware $FIRMWARE
-COMMENT Problems after firmware upload reported
+COMMENT Problems with preview scans reported, unplugging transparency unit seems to help
 
-# from sane-backends-1.0.15/doc/descriptions/mustek_usb.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions/mustek_usb.desc
 NAME Mustek Systems Inc.|ScanExpress 600 CU
 SERVER mustek_usb
 DRIVER USB
@@ -1927,7 +1950,7 @@ DRIVER USB
 LINE usb $VENDOR $PRODUCT
 COMMENT Mustek 1200 UB compatible
 
-# from sane-backends-1.0.15/doc/descriptions/mustek.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions/mustek.desc
 NAME Mustek Systems Inc.|Paragon MFS-6000CX
 SERVER mustek
 DRIVER SCSI
@@ -1975,6 +1998,13 @@ LINE $DEVICE
 COMMENT Not tested yet but should work. Please contact me if you own such a device.
 
 NAME Mustek Systems Inc.|ScanMagic 600 II SP
+SERVER mustek
+DRIVER SCSI
+LINE scsi MUSTEK * Scanner
+LINE scsi SCANNER
+LINE $DEVICE
+
+NAME Mustek Systems Inc.|TwainScan II SP
 SERVER mustek
 DRIVER SCSI
 LINE scsi MUSTEK * Scanner
@@ -2143,7 +2173,7 @@ LINE scsi SCANNER
 LINE $DEVICE
 COMMENT Mustek 600 II CD compatible
 
-# from sane-backends-1.0.15/doc/descriptions/microtek2.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions/microtek2.desc
 NAME Microtek|ScanMaker E3plus
 SERVER microtek2
 DRIVER Parport
@@ -2296,8 +2326,8 @@ DRIVER Parport
 LINE scsi * * Scanner
 LINE $DEVICE
 
-# from sane-backends-1.0.15/doc/descriptions/dll.desc
-# from sane-backends-1.0.15/doc/descriptions/hp.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions/dll.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions/hp.desc
 NAME Hewlett-Packard|ScanJet Plus
 SERVER hp
 DRIVER Propietary
@@ -2414,14 +2444,14 @@ DRIVER SCSI
 SCSILINE scsi HP
 SCSILINE $DEVICE
 
-# from sane-backends-1.0.15/doc/descriptions/dc210.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions/dc210.desc
 NAME Kodak Co.|DC210
 SERVER dc210
 DRIVER Serial port
 LINE port=$DEVICE
 LINE baud=115200
 
-# from sane-backends-1.0.15/doc/descriptions/mustek_pp.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions/mustek_pp.desc
 NAME Mustek Systems Inc.|ScanExpress 6000 P
 SERVER mustek_pp
 DRIVER Parport (EPP)
@@ -2513,27 +2543,29 @@ MANUALREQUIRED
 UNSUPPORTED
 COMMENT 300x600 dpi CIS scanner
 
-NAME Gallery|4800
+NAME Network|Easy Plus 30 Bit
 SERVER mustek_pp
 DRIVER Parport (EPP)
 MANUALREQUIRED
 UNSUPPORTED
 COMMENT 300 dpi CCD scanner
 
-# from sane-backends-1.0.15/doc/descriptions/epson.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions/epson.desc
 NAME Epson Corp.|GT-5000
 SERVER epson
-DRIVER Parport
+DRIVER SCSI Parport
 PARPORTLINE pio 0x378
 PARPORTLINE pio 0x278
 PARPORTLINE pio 0x3BC
+SCSILINE scsi EPSON
 
 NAME Epson Corp.|Actionscanner II
 SERVER epson
-DRIVER Parport
+DRIVER SCSI Parport
 PARPORTLINE pio 0x378
 PARPORTLINE pio 0x278
 PARPORTLINE pio 0x3BC
+SCSILINE scsi EPSON
 COMMENT US version of GT-5000
 
 NAME Epson Corp.|GT-6000
@@ -2711,6 +2743,21 @@ SERVER epson
 DRIVER USB
 USBLINE usb $VENDOR $PRODUCT
 
+NAME Epson Corp.|CX-3600
+SERVER epson
+DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
+
+NAME Epson Corp.|CX-3650
+SERVER epson
+DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
+
+NAME Epson Corp.|CX-4600
+SERVER epson
+DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
+
 NAME Epson Corp.|CX-5200
 SERVER epson
 DRIVER USB
@@ -2736,7 +2783,12 @@ SERVER epson
 DRIVER USB
 USBLINE usb $VENDOR $PRODUCT
 
-# from sane-backends-1.0.15/doc/descriptions/abaton.desc
+NAME Epson Corp.|RX-425
+SERVER epson
+DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
+
+# from /home/test/sane-backends-1.0.16//doc/descriptions/abaton.desc
 NAME Abaton|Scan 300/GS
 SERVER abaton
 DRIVER SCSI
@@ -2751,7 +2803,7 @@ LINE scsi ABATON
 LINE $DEVICE
 COMMENT Untested, use with caution
 
-# from sane-backends-1.0.15/doc/descriptions/plustek.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions/plustek.desc
 NAME Plustek, Inc.|OpticPro U12
 SERVER plustek
 DRIVER USB
@@ -2827,6 +2879,12 @@ DRIVER USB
 LINE [usb]
 COMMENT there are some UMAX 3400 outside the U.S. which are not supported, as they use another chipset than the LM983x
 
+NAME Umax|UMAX Astranet ia101
+SERVER plustek
+DRIVER USB
+LINE [usb]
+COMMENT seems to be a renamed UMAX 3400
+
 NAME Umax|UMAX 3450
 SERVER plustek
 DRIVER USB
@@ -2869,8 +2927,8 @@ DRIVER USB
 LINE [usb]
 COMMENT TPA scans not perfect
 
-# from sane-backends-1.0.15/doc/descriptions/gphoto2.desc
-# from sane-backends-1.0.15/doc/descriptions/bh.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions/gphoto2.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions/bh.desc
 NAME Bell and Howell|COPISCAN II 6338
 SERVER bh
 DRIVER SCSI
@@ -2913,7 +2971,7 @@ LINE scsi "B&H SCSI"
 LINE $DEVICE
 COMMENT Simplex Scanner (with ACE)
 
-# from sane-backends-1.0.15/doc/descriptions/sharp.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions/sharp.desc
 NAME Sharp|JX-610
 SERVER sharp
 DRIVER SCSI
@@ -2956,7 +3014,7 @@ LINE scsi SHARP * Scanner
 LINE $DEVICE
 MANUAL
 
-# from sane-backends-1.0.15/doc/descriptions/leo.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions/leo.desc
 NAME Genius|FS-1130 Colorpage Scanner
 SERVER leo
 DRIVER SCSI
@@ -2965,14 +3023,14 @@ LINE scsi "LEO" "LEOScan-S3"
 LINE $DEVICE
 COMMENT FCC ID LUZFS1130
 
-# from sane-backends-1.0.15/doc/descriptions/hp4200.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions/hp4200.desc
 NAME Hewlett-Packard|ScanJet 4200C
 SERVER hp4200
 DRIVER USB
 LINE usb $VENDOR $PRODUCT
 COMMENT 8bpp, 150/300/600 dpi only, and scanned image needs postprocessing
 
-# from sane-backends-1.0.15/doc/descriptions/umax1220u.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions/umax1220u.desc
 NAME Umax|Astra 1220U
 SERVER umax1220u
 DRIVER USB
@@ -2991,14 +3049,20 @@ DRIVER USB
 LINE usb $VENDOR $PRODUCT
 COMMENT Sort of scans, but colors all messed up.
 
-# from sane-backends-1.0.15/doc/descriptions/ma1509.desc
+NAME Umax|Astra 2100 U
+SERVER umax1220u
+DRIVER USB
+LINE usb $VENDOR $PRODUCT
+COMMENT Colours are distorted, there are vertical colour stripes, and the image is shadowed inches to its left.
+
+# from /home/test/sane-backends-1.0.16//doc/descriptions/ma1509.desc
 NAME Fujitsu|fi-4110EOX2
 SERVER ma1509
 DRIVER USB
 LINE usb $VENDOR $PRODUCT
 COMMENT Uses ma1509 chip, but very different from other scanners supported by backend
 
-# from sane-backends-1.0.15/doc/descriptions/coolscan2.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions/coolscan2.desc
 NAME Nikon Corp.|LS 30
 SERVER coolscan2
 DRIVER SCSI
@@ -3027,7 +3091,7 @@ DRIVER IEEE-1394
 LINE auto
 COMMENT needs linux kernel 2.4.19 or later
 
-# from sane-backends-1.0.15/doc/descriptions/avision.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions/avision.desc
 NAME Avision|AV100CS
 SERVER avision
 DRIVER SCSI
@@ -3064,15 +3128,35 @@ SCSILINE scsi HP
 SCSILINE scsi hp
 SCSILINE scsi $DEVICE
 
+NAME Avision|AV120
+SERVER avision
+DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
+COMMENT sheetfed scanner
+
 NAME Avision|AV210
 SERVER avision
 DRIVER USB
 USBLINE usb $VENDOR $PRODUCT
+COMMENT sheetfed scanner
+
+NAME Avision|AV210-2
+SERVER avision
+DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
+COMMENT sheetfed scanner
 
 NAME Avision|AV220
 SERVER avision
 DRIVER USB
 USBLINE usb $VENDOR $PRODUCT
+COMMENT duplex! sheetfed scanner
+
+NAME Avision|AV220-C2
+SERVER avision
+DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
+COMMENT duplex! sheetfed scanner
 
 NAME Avision|AV240SC
 SERVER avision
@@ -3148,28 +3232,20 @@ SCSILINE scsi $DEVICE
 
 NAME Avision|AV610
 SERVER avision
-DRIVER SCSI
-SCSILINE scsi AVISION
-SCSILINE scsi FCPA
-SCSILINE scsi MINOLTA
-SCSILINE scsi MITSBISH MCA-S600C
-SCSILINE scsi MITSBISH MCA-SS600
-SCSILINE scsi HP
-SCSILINE scsi hp
-SCSILINE scsi $DEVICE
-COMMENT test at CeBIT 2004 USB 2.0 problems with my laptop used
+DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 
 NAME Avision|AVA6
 SERVER avision
 DRIVER USB
 USBLINE usb $VENDOR $PRODUCT
-COMMENT probably a non-CPU device
+COMMENT probably a CPU-less device
 
-NAME Avision|AV610CU Scancopier
+NAME Avision|DS610CU Scancopier
 SERVER avision
 DRIVER USB
 USBLINE usb $VENDOR $PRODUCT
-COMMENT 1 pass, 600 dpi
+COMMENT 1 pass, 600 dpi, A4
 
 NAME Avision|AV620CS
 SERVER avision
@@ -3250,20 +3326,41 @@ COMMENT 1 pass, ??? dpi
 
 NAME Avision|AV660S
 SERVER avision
-DRIVER USB
-USBLINE usb $VENDOR $PRODUCT
+DRIVER SCSI
+SCSILINE scsi AVISION
+SCSILINE scsi FCPA
+SCSILINE scsi MINOLTA
+SCSILINE scsi MITSBISH MCA-S600C
+SCSILINE scsi MITSBISH MCA-SS600
+SCSILINE scsi HP
+SCSILINE scsi hp
+SCSILINE scsi $DEVICE
 COMMENT 1 pass, ??? dpi
 
 NAME Avision|AV680S
 SERVER avision
-DRIVER USB
-USBLINE usb $VENDOR $PRODUCT
+DRIVER SCSI
+SCSILINE scsi AVISION
+SCSILINE scsi FCPA
+SCSILINE scsi MINOLTA
+SCSILINE scsi MITSBISH MCA-S600C
+SCSILINE scsi MITSBISH MCA-SS600
+SCSILINE scsi HP
+SCSILINE scsi hp
+SCSILINE scsi $DEVICE
 COMMENT 1 pass, ??? dpi
 
 NAME Avision|AV690U
 SERVER avision
-DRIVER USB
-USBLINE usb $VENDOR $PRODUCT
+DRIVER SCSI
+SCSILINE scsi AVISION
+SCSILINE scsi FCPA
+SCSILINE scsi MINOLTA
+SCSILINE scsi MITSBISH MCA-S600C
+SCSILINE scsi MITSBISH MCA-SS600
+SCSILINE scsi HP
+SCSILINE scsi hp
+SCSILINE scsi $DEVICE
 COMMENT 1 pass, 2400 dpi
 
 NAME Avision|AV800S
@@ -3383,6 +3480,32 @@ SCSILINE scsi hp
 SCSILINE scsi $DEVICE
 COMMENT 1 pass, ??? dpi
 
+NAME Avision|AV3200C
+SERVER avision
+DRIVER SCSI
+SCSILINE scsi AVISION
+SCSILINE scsi FCPA
+SCSILINE scsi MINOLTA
+SCSILINE scsi MITSBISH MCA-S600C
+SCSILINE scsi MITSBISH MCA-SS600
+SCSILINE scsi HP
+SCSILINE scsi hp
+SCSILINE scsi $DEVICE
+COMMENT 1 pass, ??? dpi
+
+NAME Avision|AV3800C
+SERVER avision
+DRIVER SCSI
+SCSILINE scsi AVISION
+SCSILINE scsi FCPA
+SCSILINE scsi MINOLTA
+SCSILINE scsi MITSBISH MCA-S600C
+SCSILINE scsi MITSBISH MCA-SS600
+SCSILINE scsi HP
+SCSILINE scsi hp
+SCSILINE scsi $DEVICE
+COMMENT 1 pass, ??? dpi
+
 NAME Avision|AV8000S
 SERVER avision
 DRIVER SCSI
@@ -3396,18 +3519,17 @@ SCSILINE scsi hp
 SCSILINE scsi $DEVICE
 COMMENT 1 pass, 1200 dpi, A3 - regularly tested
 
-NAME Avision|AVA3
+NAME Avision|AV8300
 SERVER avision
-DRIVER SCSI
-SCSILINE scsi AVISION
-SCSILINE scsi FCPA
-SCSILINE scsi MINOLTA
-SCSILINE scsi MITSBISH MCA-S600C
-SCSILINE scsi MITSBISH MCA-SS600
-SCSILINE scsi HP
-SCSILINE scsi hp
-SCSILINE scsi $DEVICE
-COMMENT 1 pass, 600 dpi, A3
+DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
+COMMENT 1 pass, 1200 dpi, A3 - duplex!
+
+NAME Avision|AV8350
+SERVER avision
+DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
+COMMENT 1 pass, 1200 dpi, A3 - duplex!
 
 NAME Hewlett-Packard|ScanJet 5300C
 SERVER avision
@@ -3439,7 +3561,44 @@ DRIVER USB
 USBLINE usb $VENDOR $PRODUCT
 COMMENT 1 pass, 1200 dpi - dual USB/SCSI interface
 
+NAME Hewlett-Packard|ScanJet 8200
+SERVER avision
+DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
+COMMENT 1 pass, 4800 (?) dpi - USB 2.0
+
+NAME Hewlett-Packard|ScanJet 8250
+SERVER avision
+DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
+COMMENT 1 pass, 4800 (?) dpi - USB 2.0
+
+NAME Minolta|Dimage Scan Dual I
+SERVER avision
+DRIVER SCSI
+SCSILINE scsi AVISION
+SCSILINE scsi FCPA
+SCSILINE scsi MINOLTA
+SCSILINE scsi MITSBISH MCA-S600C
+SCSILINE scsi MITSBISH MCA-SS600
+SCSILINE scsi HP
+SCSILINE scsi hp
+SCSILINE scsi $DEVICE
+COMMENT 1 pass, 4800 (?) dpi - USB 2.0 and SCSI - only SCSI tested so far
+
 NAME Minolta|Dimage Scan Dual II
+SERVER avision
+DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
+COMMENT 1 pass, film-scanner
+
+NAME Minolta|Elite II
+SERVER avision
+DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
+COMMENT 1 pass, film-scanner
+
+NAME Minolta-QMS|SC-110
 SERVER avision
 DRIVER USB
 USBLINE usb $VENDOR $PRODUCT
@@ -3456,7 +3615,6 @@ SCSILINE scsi MITSBISH MCA-SS600
 SCSILINE scsi HP
 SCSILINE scsi hp
 SCSILINE scsi $DEVICE
-COMMENT 1 pass, film-scanner
 
 NAME Mitsubishi|S1200C
 SERVER avision
@@ -3554,6 +3712,18 @@ SCSILINE scsi HP
 SCSILINE scsi hp
 SCSILINE scsi $DEVICE
 
+NAME Fujitsu|ScanPartner 620C
+SERVER avision
+DRIVER SCSI
+SCSILINE scsi AVISION
+SCSILINE scsi FCPA
+SCSILINE scsi MINOLTA
+SCSILINE scsi MITSBISH MCA-S600C
+SCSILINE scsi MITSBISH MCA-SS600
+SCSILINE scsi HP
+SCSILINE scsi hp
+SCSILINE scsi $DEVICE
+
 NAME Fujitsu|ScanPartner Jr
 SERVER avision
 DRIVER SCSI
@@ -3566,7 +3736,7 @@ SCSILINE scsi HP
 SCSILINE scsi hp
 SCSILINE scsi $DEVICE
 
-NAME Fujitsu|ScanStation
+NAME Kodak Co.|i30
 SERVER avision
 DRIVER SCSI
 SCSILINE scsi AVISION
@@ -3578,7 +3748,53 @@ SCSILINE scsi HP
 SCSILINE scsi hp
 SCSILINE scsi $DEVICE
 
-# from sane-backends-1.0.15/doc/descriptions/teco3.desc
+NAME Kodak Co.|i40
+SERVER avision
+DRIVER SCSI
+SCSILINE scsi AVISION
+SCSILINE scsi FCPA
+SCSILINE scsi MINOLTA
+SCSILINE scsi MITSBISH MCA-S600C
+SCSILINE scsi MITSBISH MCA-SS600
+SCSILINE scsi HP
+SCSILINE scsi hp
+SCSILINE scsi $DEVICE
+
+NAME Kodak Co.|i50
+SERVER avision
+DRIVER SCSI
+SCSILINE scsi AVISION
+SCSILINE scsi FCPA
+SCSILINE scsi MINOLTA
+SCSILINE scsi MITSBISH MCA-S600C
+SCSILINE scsi MITSBISH MCA-SS600
+SCSILINE scsi HP
+SCSILINE scsi hp
+SCSILINE scsi $DEVICE
+
+NAME Kodak Co.|i60
+SERVER avision
+DRIVER SCSI
+SCSILINE scsi AVISION
+SCSILINE scsi FCPA
+SCSILINE scsi MINOLTA
+SCSILINE scsi MITSBISH MCA-S600C
+SCSILINE scsi MITSBISH MCA-SS600
+SCSILINE scsi HP
+SCSILINE scsi hp
+SCSILINE scsi $DEVICE
+
+NAME Xerox|DocuMate252
+SERVER avision
+DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
+
+NAME Xerox|DocuMate262
+SERVER avision
+DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
+
+# from /home/test/sane-backends-1.0.16//doc/descriptions/teco3.desc
 NAME Trust Technologies|Imagery 2400 SP
 SERVER teco3
 DRIVER SCSI
@@ -3609,7 +3825,7 @@ LINE scsi "Aashima" "IMAGERY 4800SP +"
 LINE $DEVICE
 COMMENT sub model VM3552
 
-# from sane-backends-1.0.15/doc/descriptions/agfafocus.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions/agfafocus.desc
 NAME AGFA-Gevaert NV|Focus GS Scanner
 SERVER agfafocus
 DRIVER SCSI
@@ -3640,8 +3856,8 @@ DRIVER SCSI
 LINE $DEVICE
 COMMENT gray only
 
-# from sane-backends-1.0.15/doc/descriptions/test.desc
-# from sane-backends-1.0.15/doc/descriptions/matsushita.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions/test.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions/matsushita.desc
 NAME Panasonic|KV-SS25
 SERVER matsushita
 DRIVER SCSI
@@ -3701,6 +3917,7 @@ LINE scsi "K.M.E.  " "KV-S2025C       "
 LINE scsi "K.M.E.  " "KV-S2045C       "
 LINE scsi "K.M.E.  " "KV-S2065L       "
 LINE $DEVICE
+COMMENT no color, no high resolution, no automatic cropping
 
 NAME Panasonic|KV-SS850
 SERVER matsushita
@@ -3731,6 +3948,7 @@ LINE scsi "K.M.E.  " "KV-S2025C       "
 LINE scsi "K.M.E.  " "KV-S2045C       "
 LINE scsi "K.M.E.  " "KV-S2065L       "
 LINE $DEVICE
+COMMENT no color, no high resolution, no automatic cropping
 
 NAME Panasonic|KV-S2045C
 SERVER matsushita
@@ -3741,6 +3959,7 @@ LINE scsi "K.M.E.  " "KV-S2025C       "
 LINE scsi "K.M.E.  " "KV-S2045C       "
 LINE scsi "K.M.E.  " "KV-S2065L       "
 LINE $DEVICE
+COMMENT no color, no high resolution, no automatic cropping
 
 NAME Panasonic|KV-S2065L
 SERVER matsushita
@@ -3751,9 +3970,10 @@ LINE scsi "K.M.E.  " "KV-S2025C       "
 LINE scsi "K.M.E.  " "KV-S2045C       "
 LINE scsi "K.M.E.  " "KV-S2065L       "
 LINE $DEVICE
+COMMENT no color, no high resolution, no automatic cropping
 
-# from sane-backends-1.0.15/doc/descriptions/pint.desc
-# from sane-backends-1.0.15/doc/descriptions/fujitsu.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions/pint.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions/fujitsu.desc
 NAME Fujitsu|M3096G
 SERVER fujitsu
 DRIVER SCSI
@@ -3814,7 +4034,7 @@ SCSILINE scsi FUJITSU
 USBLINE usb $VENDOR $PRODUCT
 COMMENT USB untested
 
-# from sane-backends-1.0.15/doc/descriptions/artec.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions/artec.desc
 NAME Artec/Ultima|AT3
 SERVER artec
 DRIVER SCSI
@@ -3857,7 +4077,7 @@ LINE scsi ULTIMA
 LINE $DEVICE
 COMMENT rebadged Artec AM12S
 
-# from sane-backends-1.0.15/doc/descriptions/coolscan.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions/coolscan.desc
 NAME Nikon Corp.|LS-20
 SERVER coolscan
 DRIVER SCSI
@@ -3886,7 +4106,7 @@ LINE scsi Nikon * Scanner
 LINE $DEVICE
 COMMENT Doesn't support gamma correction
 
-# from sane-backends-1.0.15/doc/descriptions/canon_pp.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions/canon_pp.desc
 NAME Canon|CanoScan FB310P
 SERVER canon_pp
 DRIVER Parport (ECP)
@@ -3964,7 +4184,7 @@ MANUAL
 KERNEL ppdev
 COMMENT Just an N640P in a different box?
 
-# from sane-backends-1.0.15/doc/descriptions/niash.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions/niash.desc
 NAME Hewlett-Packard|ScanJet 3300c
 SERVER niash
 DRIVER USB
@@ -3978,7 +4198,7 @@ NAME AGFA-Gevaert NV|Snapscan Touch
 SERVER niash
 DRIVER USB
 
-# from sane-backends-1.0.15/doc/descriptions/u12.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions/u12.desc
 NAME Plustek, Inc.|OpticPro U12
 SERVER u12
 DRIVER USB
@@ -4003,14 +4223,14 @@ DRIVER USB
 LINE [usb]
 COMMENT Note: Device has Plustek vendor and product ID (0x07b3/0x0001)
 
-# from sane-backends-1.0.15/doc/descriptions/nec.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions/nec.desc
 NAME NEC Systems|PC-IN500/4C
 SERVER nec
 DRIVER SCSI
 LINE $DEVICE
 COMMENT PC-IN500/4C was sold only in JAPAN
 
-# from sane-backends-1.0.15/doc/descriptions/plustek_pp.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions/plustek_pp.desc
 NAME Plustek, Inc.|OpticPro 4800P
 SERVER plustek_pp
 DRIVER Parport (SPP, EPP)
@@ -4198,7 +4418,7 @@ MANUAL
 KERNEL ppdev
 COMMENT Reported as P12
 
-# from sane-backends-1.0.15/doc/descriptions/sm3600.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions/sm3600.desc
 NAME Microtek|ScanMaker 3600
 SERVER sm3600
 DRIVER USB
@@ -4214,7 +4434,7 @@ SERVER sm3600
 DRIVER USB
 COMMENT works (told)
 
-# from sane-backends-1.0.15/doc/descriptions/ibm.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions/ibm.desc
 NAME Ricoh|IS-410
 SERVER ibm
 DRIVER SCSI
@@ -4239,7 +4459,7 @@ LINE scsi RICOH
 LINE $DEVICE
 COMMENT Untested, please report!
 
-# from sane-backends-1.0.15/doc/descriptions/umax_pp.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions/umax_pp.desc
 NAME Umax|Astra 1220P
 SERVER umax_pp
 DRIVER Parport (EPP/ECP)
@@ -4272,7 +4492,7 @@ LINE port safe-auto
 KERNEL ppdev
 COMMENT works (relabelled 1220P and 2000P)
 
-# from sane-backends-1.0.15/doc/descriptions/dc240.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions/dc240.desc
 NAME Kodak Co.|DC240
 SERVER dc240
 DRIVER Serial port
@@ -4280,20 +4500,25 @@ LINE port=$DEVICE
 LINE baud=115200
 COMMENT Use gphoto2 backend to get USB support
 
-# from sane-backends-1.0.15/doc/descriptions/hpsj5s.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions/hpsj5s.desc
 NAME Hewlett-Packard|ScanJet 5s
 SERVER hpsj5s
 DRIVER Parport (EPP)
 LINE parport0
 COMMENT Requires libieee1284 library. Only gray mode.
 
-# from sane-backends-1.0.15/doc/descriptions/sp15c.desc
-NAME Fujitsu|SP15C
+# from /home/test/sane-backends-1.0.16//doc/descriptions/sp15c.desc
+NAME Fujitsu|ScanPartner 15C
 SERVER sp15c
 DRIVER SCSI
 LINE scsi FCPA
 
-# from sane-backends-1.0.15/doc/descriptions/artec_eplus48u.desc
+NAME Fujitsu|ScanPartner 600C
+SERVER sp15c
+DRIVER SCSI
+LINE scsi FCPA
+
+# from /home/test/sane-backends-1.0.16//doc/descriptions/artec_eplus48u.desc
 NAME Medion/Lifetec/Tevion/Cytron|MD9693
 SERVER artec_eplus48u
 DRIVER USB
@@ -4314,21 +4539,27 @@ LINE usb $VENDOR $PRODUCT
 FIRMWARELINE option artecFirmwareFile $FIRMWARE
 COMMENT Experimental! Different product id: 0x4004. Please report your results!
 
-# from sane-backends-1.0.15/doc/descriptions/sm3840.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions/sm3840.desc
 NAME Microtek|ScanMaker 3840
 SERVER sm3840
 DRIVER USB
 LINE usb $VENDOR $PRODUCT
 COMMENT 8 and 16 bit, color and grayscale
 
-# from sane-backends-1.0.15/doc/descriptions/as6e.desc
+NAME Microtek|ScanMaker 4800
+SERVER sm3840
+DRIVER USB
+LINE usb $VENDOR $PRODUCT
+COMMENT Same hardware as SM3840, different color box
+
+# from /home/test/sane-backends-1.0.16//doc/descriptions/as6e.desc
 NAME Artec/Ultima|AS6E
 SERVER as6e
 DRIVER Parport
 COMMENT Requires the program 'as6edriver' to run.
 
-# from sane-backends-1.0.15/doc/descriptions/v4l.desc
-# from sane-backends-1.0.15/doc/descriptions/st400.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions/v4l.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions/st400.desc
 NAME Siemens Information and Communication Products|ST400
 SERVER st400
 DRIVER SCSI
@@ -4343,7 +4574,7 @@ LINE scsi SIEMENS "ST 400" Scanner * * 3 *
 LINE scsi SIEMENS "ST 800" Scanner * * 3 *
 COMMENT 6 bit gray
 
-# from sane-backends-1.0.15/doc/descriptions/qcam.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions/qcam.desc
 NAME Connectix|Color QuickCam
 SERVER qcam
 DRIVER Parport
@@ -4356,13 +4587,13 @@ DRIVER Parport
 MANUALREQUIRED
 COMMENT Requires root privileges.  Partly working.
 
-# from sane-backends-1.0.15/doc/descriptions/s9036.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions/s9036.desc
 NAME Siemens Information and Communication Products|9036 Flatbed scanner
 SERVER s9036
 DRIVER SCSI
 LINE $DEVICE
 
-# from sane-backends-1.0.15/doc/descriptions/canon630u.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions/canon630u.desc
 NAME Canon|CanoScan fb630u
 SERVER canon630u
 DRIVER USB
@@ -4375,7 +4606,7 @@ DRIVER USB
 LINE usb $VENDOR $PRODUCT
 COMMENT hopefully works
 
-# from sane-backends-1.0.15/doc/descriptions/hp_rts88xx.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions/hp_rts88xx.desc
 NAME Hewlett-Packard|HP4400C
 SERVER hp_rts88xx
 DRIVER USB
@@ -4406,7 +4637,7 @@ DRIVER USB
 MANUAL
 COMMENT not tested
 
-# from sane-backends-1.0.15/doc/descriptions/hp5400.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions/hp5400.desc
 NAME Hewlett-Packard|ScanJet 5400c
 SERVER hp5400
 DRIVER USB
@@ -4423,7 +4654,7 @@ SERVER hp5400
 DRIVER USB
 LINE usb $VENDOR $PRODUCT
 
-# from sane-backends-1.0.15/doc/descriptions/teco1.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions/teco1.desc
 NAME Relisys|RELI 2412
 SERVER teco1
 DRIVER SCSI
@@ -4611,7 +4842,7 @@ LINE scsi "Dextra DF-600P" Scanner
 LINE $DEVICE
 COMMENT sub model VM6530+
 
-# from sane-backends-1.0.15/doc/descriptions/dc25.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions/dc25.desc
 NAME Kodak Co.|DC25
 SERVER dc25
 DRIVER Serial port
@@ -4625,7 +4856,7 @@ LINE port=$DEVICE
 LINE baud=115200
 COMMENT DC-20 untested by author but reported to work
 
-# from sane-backends-1.0.15/doc/descriptions/gt68xx.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions/gt68xx.desc
 NAME Artec/Ultima|Ultima 2000
 SERVER gt68xx
 DRIVER USB
@@ -4734,7 +4965,7 @@ SERVER gt68xx
 DRIVER USB
 LINE usb $VENDOR $PRODUCT
 FIRMWARELINE firmware "$FIRMWARE"
-COMMENT Procuct id 0x021b. Scans but images are garbled.
+COMMENT Procuct id 0x021b.
 
 NAME Mustek Systems Inc.|BearPaw 1200 TA
 SERVER gt68xx
@@ -4796,7 +5027,7 @@ SERVER gt68xx
 DRIVER USB
 LINE usb $VENDOR $PRODUCT
 FIRMWARELINE firmware "$FIRMWARE"
-COMMENT Transparency adapter supported. Brightness depends on resolution?
+COMMENT Transparency adapter supported. Slow. Brightness depends on resolution?
 
 NAME Mustek Systems Inc.|Plug-n-Scan 2400 MT
 SERVER gt68xx
@@ -4823,7 +5054,6 @@ SERVER gt68xx
 DRIVER USB
 LINE usb $VENDOR $PRODUCT
 FIRMWARELINE firmware "$FIRMWARE"
-COMMENT Woeks but image quality is not perfect yet (stripes). Please contact me if you want to help fixing that.
 
 NAME Mustek Systems Inc.|ScanExpress A3 USB
 SERVER gt68xx
@@ -4851,7 +5081,14 @@ SERVER gt68xx
 DRIVER USB
 LINE usb $VENDOR $PRODUCT
 FIRMWARELINE firmware "$FIRMWARE"
-COMMENT Similar to Mustek BearPaw 1200 Plus
+COMMENT Product id 0x021c. Similar to Mustek BearPaw 1200 Plus
+
+NAME Packard Bell|Diamond 1200 Plus
+SERVER gt68xx
+DRIVER USB
+LINE usb $VENDOR $PRODUCT
+FIRMWARELINE firmware "$FIRMWARE"
+COMMENT Product id 0x021b. Similar to Mustek BearPaw 1200 Plus
 
 NAME Plustek, Inc.|OpticPro 1248U
 SERVER gt68xx
@@ -4903,10 +5140,10 @@ SERVER gt68xx
 DRIVER USB
 LINE usb $VENDOR $PRODUCT
 FIRMWARELINE firmware "$FIRMWARE"
-COMMENT Works but may need some fine tuning concerning calibration.
+COMMENT Works upto 1200 dpi and 12 bits/color.
 
-# from sane-backends-1.0.15/doc/descriptions/net.desc
-# from sane-backends-1.0.15/doc/descriptions/apple.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions/net.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions/apple.desc
 NAME Apple|Apple Scanner
 SERVER apple
 DRIVER SCSI
@@ -4928,7 +5165,7 @@ LINE scsi APPLE
 LINE $DEVICE
 COMMENT truecolor (needs much work) but it scans in non color modes.
 
-# from sane-backends-1.0.15/doc/descriptions/sceptre.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions/sceptre.desc
 NAME Komodo|S1200
 SERVER sceptre
 DRIVER SCSI
@@ -4936,285 +5173,242 @@ LINE scsi "KINPO   " "Vividscan S120  "
 LINE $DEVICE
 COMMENT rebadged Sceptre S1200
 
-# from sane-backends-1.0.15/doc/descriptions/pnm.desc
-# from sane-backends-1.0.15/doc/descriptions-external/genesys.desc
-NAME Avision|iVina FB1600
-SERVER genesys
-DRIVER USB
-COMMENT Same as UMAX Astra 4500.
-
-NAME Canon|CanoScan LiDE 35
-SERVER genesys
-DRIVER USB
-COMMENT Same as LiDE 50.
-
-NAME Canon|CanoScan LiDE 50
-SERVER genesys
-DRIVER USB
-
-NAME Genius|ColorPage HR6X Slim
-SERVER genesys
-DRIVER USB
-
-NAME Genius|ColorPage HR7X
-SERVER genesys
-DRIVER USB
-
-NAME Hewlett-Packard|ScanJet 2300c
-SERVER genesys
-DRIVER USB
-
-NAME Hewlett-Packard|ScanJet 2400c
-SERVER genesys
-DRIVER USB
-
-NAME Hewlett-Packard|ScanJet 3670c
-SERVER genesys
-DRIVER USB
-
-NAME Hewlett-Packard|ScanJet 3690c
-SERVER genesys
-DRIVER USB
-COMMENT possible support by this backend not confirmed
-
-NAME Hewlett-Packard|ScanJet 4500C
-SERVER genesys
-DRIVER USB
-COMMENT Maybe GL841_HP, but not confirmed. Landscape scanner. Same as 5500C, but without ADF. Same ID as 5550c.
-
-NAME Hewlett-Packard|ScanJet 4570C
-SERVER genesys
-DRIVER USB
-COMMENT Maybe GL841_HP, but not confirmed. See link for details.
-
-NAME Hewlett-Packard|ScanJet 5500C
-SERVER genesys
-DRIVER USB
-COMMENT Maybe GL841_HP, but not confirmed. See link for details.
-
-NAME Hewlett-Packard|ScanJet 5530C Photosmart
-SERVER genesys
-DRIVER USB
-COMMENT Maybe GL841_HP, but not confirmed. See link for details.
-
-NAME Medion/Lifetec/Tevion/Cytron|MD 5345
-SERVER genesys
-DRIVER USB
-COMMENT Maybe GL841_HP, but not confirmed. Same as 4570C, but with ADF. See link for details.
-
-NAME Medion/Lifetec/Tevion/Cytron|MD 6228
-SERVER genesys
-DRIVER USB
-
-NAME Plustek, Inc.|OpticFilm 7200
-SERVER genesys
-DRIVER USB
-
-NAME Plustek, Inc.|OpticPro S12
-SERVER genesys
-DRIVER USB
-
-NAME Plustek, Inc.|OpticPro ST12
-SERVER genesys
-DRIVER USB
-
-NAME Plustek, Inc.|OpticPro ST16
-SERVER genesys
-DRIVER USB
-
-NAME Plustek, Inc.|OpticPro S24
-SERVER genesys
-DRIVER USB
-
-NAME Plustek, Inc.|OpticPro ST24
-SERVER genesys
-DRIVER USB
-
-NAME Plustek, Inc.|OpticPro S28
-SERVER genesys
-DRIVER USB
-
-NAME Plustek, Inc.|OpticPro ST28
-SERVER genesys
-DRIVER USB
-
-NAME Umax|Astra 4500
-SERVER genesys
-DRIVER USB
-COMMENT Avision iVina FB1600 clone
-
-NAME Visioneer|Onetouch 7100
-SERVER genesys
-DRIVER USB
-COMMENT Avision iVina FB1800 clone
-
-# from sane-backends-1.0.15/doc/descriptions-external/brother.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions/pnm.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions-external/brother.desc
 NAME Brother|DCP-1000
 SERVER brother
 DRIVER USB
-COMMENT Nobody has reported any success with any scanner supported by this backend. If the backend works for you, please tell us.
+COMMENT No report yet.
 
 NAME Brother|DCP-1400
 SERVER brother
 DRIVER USB
-COMMENT Nobody has reported any success with any scanner supported by this backend. If the backend works for you, please tell us.
+COMMENT No report yet.
+
+NAME Brother|DCP-4020C
+SERVER brother
+DRIVER USB
+COMMENT No report yet.
 
 NAME Brother|DCP-8020
 SERVER brother
 DRIVER USB
-COMMENT Nobody has reported any success with any scanner supported by this backend. If the backend works for you, please tell us.
+COMMENT No report yet.
 
 NAME Brother|DCP-8025D
 SERVER brother
 DRIVER USB
-COMMENT Nobody has reported any success with any scanner supported by this backend. If the backend works for you, please tell us.
+
+NAME Brother|DCP-8040
+SERVER brother
+DRIVER USB
+COMMENT No report yet.
+
+NAME Brother|DCP-8045D
+SERVER brother
+DRIVER USB
+
+NAME Brother|FAX1800C
+SERVER brother
+DRIVER USB
+COMMENT No report yet.
 
 NAME Brother|FAX1815C
 SERVER brother
 DRIVER USB
-COMMENT Nobody has reported any success with any scanner supported by this backend. If the backend works for you, please tell us.
+COMMENT No report yet.
 
 NAME Brother|FAX1820C
 SERVER brother
 DRIVER USB
-COMMENT Nobody has reported any success with any scanner supported by this backend. If the backend works for you, please tell us.
+COMMENT No report yet.
 
 NAME Brother|FAX1920CN
 SERVER brother
 DRIVER USB
-COMMENT Nobody has reported any success with any scanner supported by this backend. If the backend works for you, please tell us.
+COMMENT No report yet.
 
 NAME Brother|FAX-2850
 SERVER brother
 DRIVER USB
-COMMENT Nobody has reported any success with any scanner supported by this backend. If the backend works for you, please tell us.
+COMMENT No report yet.
 
 NAME Brother|FAX-2900
 SERVER brother
 DRIVER USB
-COMMENT Nobody has reported any success with any scanner supported by this backend. If the backend works for you, please tell us.
+COMMENT No report yet.
 
 NAME Brother|FAX-3800
 SERVER brother
 DRIVER USB
-COMMENT Nobody has reported any success with any scanner supported by this backend. If the backend works for you, please tell us.
+COMMENT No report yet.
 
 NAME Brother|FAX-4100
 SERVER brother
 DRIVER USB
-COMMENT Nobody has reported any success with any scanner supported by this backend. If the backend works for you, please tell us.
+COMMENT No report yet.
 
 NAME Brother|FAX-4750e
 SERVER brother
 DRIVER USB
-COMMENT Nobody has reported any success with any scanner supported by this backend. If the backend works for you, please tell us.
+COMMENT No report yet.
 
 NAME Brother|FAX-5750e
 SERVER brother
 DRIVER USB
-COMMENT Nobody has reported any success with any scanner supported by this backend. If the backend works for you, please tell us.
+COMMENT No report yet.
 
-NAME Brother|MFC3220C
+NAME Brother|MFC-3100C
 SERVER brother
 DRIVER USB
-COMMENT Nobody has reported any success with any scanner supported by this backend. If the backend works for you, please tell us.
+COMMENT No report yet.
 
-NAME Brother|MFC3320CN
+NAME Brother|MFC-3200C
 SERVER brother
 DRIVER USB
-COMMENT Nobody has reported any success with any scanner supported by this backend. If the backend works for you, please tell us.
+COMMENT No report yet.
 
-NAME Brother|MFC3420C
+NAME Brother|MFC-3220C
 SERVER brother
 DRIVER USB
-COMMENT Is reported to work well with the bother backend.
+COMMENT No report yet.
 
-NAME Brother|MFC3820CN
+NAME Brother|MFC-3320CN
 SERVER brother
 DRIVER USB
-COMMENT Nobody has reported any success with any scanner supported by this backend. If the backend works for you, please tell us.
+COMMENT No report yet.
+
+NAME Brother|MFC-3420C
+SERVER brother
+DRIVER USB
+
+NAME Brother|MFC-3820CN
+SERVER brother
+DRIVER USB
+COMMENT No report yet.
+
+NAME Brother|MFC-4420C
+SERVER brother
+DRIVER USB
+COMMENT No report yet.
 
 NAME Brother|MFC-4800
 SERVER brother
 DRIVER USB
-COMMENT Nobody has reported any success with any scanner supported by this backend. If the backend works for you, please tell us.
+
+NAME Brother|MFC-4820C
+SERVER brother
+DRIVER USB
+
+NAME Brother|MFC-5100C
+SERVER brother
+DRIVER USB
+
+NAME Brother|MFC-5200C
+SERVER brother
+DRIVER USB
+
+NAME Brother|MFC-580
+SERVER brother
+DRIVER USB
+
+NAME Brother|MFC-590
+SERVER brother
+DRIVER USB
 
 NAME Brother|MFC-6800
 SERVER brother
 DRIVER USB
-COMMENT Nobody has reported any success with any scanner supported by this backend. If the backend works for you, please tell us.
+COMMENT No report yet.
 
 NAME Brother|MFC-8220
 SERVER brother
 DRIVER USB
-COMMENT Nobody has reported any success with any scanner supported by this backend. If the backend works for you, please tell us.
+COMMENT No report yet.
 
 NAME Brother|MFC-8420
 SERVER brother
 DRIVER USB
-COMMENT Nobody has reported any success with any scanner supported by this backend. If the backend works for you, please tell us.
+
+NAME Brother|MFC-8440
+SERVER brother
+DRIVER USB
 
 NAME Brother|MFC-8500
 SERVER brother
 DRIVER USB
-COMMENT Nobody has reported any success with any scanner supported by this backend. If the backend works for you, please tell us.
+COMMENT No report yet.
 
 NAME Brother|MFC-8820D
 SERVER brother
 DRIVER USB
-COMMENT Is reported to work well with backend version 0.0.12 (which is not yet on the brother website).
+COMMENT Is reported to work well with backend version 0.0.12.
+
+NAME Brother|MFC-8840D
+SERVER brother
+DRIVER USB
+COMMENT No report yet.
+
+NAME Brother|MFC-890
+SERVER brother
+DRIVER USB
 
 NAME Brother|MFC-9030
 SERVER brother
 DRIVER USB
-COMMENT Nobody has reported any success with any scanner supported by this backend. If the backend works for you, please tell us.
+COMMENT No report yet.
 
 NAME Brother|MFC-9070
 SERVER brother
 DRIVER USB
-COMMENT Nobody has reported any success with any scanner supported by this backend. If the backend works for you, please tell us.
+COMMENT No report yet.
 
 NAME Brother|MFC-9160
 SERVER brother
 DRIVER USB
-COMMENT Nobody has reported any success with any scanner supported by this backend. If the backend works for you, please tell us.
+COMMENT Is reported to work well with backend version 0.0.12.
+
+NAME Brother|MFC-9160
+SERVER brother
+DRIVER USB
+COMMENT No report yet.
 
 NAME Brother|MFC-9180
 SERVER brother
 DRIVER USB
-COMMENT Nobody has reported any success with any scanner supported by this backend. If the backend works for you, please tell us.
+COMMENT No report yet.
 
 NAME Brother|MFC-9660
 SERVER brother
 DRIVER USB
-COMMENT Nobody has reported any success with any scanner supported by this backend. If the backend works for you, please tell us.
+COMMENT No report yet.
 
 NAME Brother|MFC-9700
 SERVER brother
 DRIVER USB
-COMMENT Nobody has reported any success with any scanner supported by this backend. If the backend works for you, please tell us.
+COMMENT No report yet.
 
 NAME Brother|MFC-9760
 SERVER brother
 DRIVER USB
-COMMENT Nobody has reported any success with any scanner supported by this backend. If the backend works for you, please tell us.
+COMMENT No report yet.
 
 NAME Brother|MFC-9800
 SERVER brother
 DRIVER USB
-COMMENT Nobody has reported any success with any scanner supported by this backend. If the backend works for you, please tell us.
+COMMENT No report yet.
 
 NAME Brother|MFC-9860
 SERVER brother
 DRIVER USB
-COMMENT Nobody has reported any success with any scanner supported by this backend. If the backend works for you, please tell us.
+COMMENT No report yet.
 
 NAME Brother|MFC-9880
 SERVER brother
 DRIVER USB
-COMMENT Nobody has reported any success with any scanner supported by this backend. If the backend works for you, please tell us.
+COMMENT No report yet.
 
-# from sane-backends-1.0.15/doc/descriptions-external/geniusvp2.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions-external/geniusvp2.desc
 NAME Genius|ColorPage-Vivid Pro II
 SERVER geniusvp2
 DRIVER Parport (EPP)
@@ -5222,128 +5416,728 @@ LINE device $DEVICE
 KERNEL ppdev
 COMMENT Similar to Primax Colorado Direct 9600, but with EICI 091000 ASIC
 
-# from sane-backends-1.0.15/doc/descriptions-external/hp4200.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions-external/hp8200.desc
+NAME Hewlett Packard|ScanJet 8200
+SERVER hp8200
+DRIVER USB
+COMMENT This backend can't be added to the SANE distribution because it contains non-free code.
+
+# from /home/test/sane-backends-1.0.16//doc/descriptions-external/hp4200.desc
 NAME Hewlett-Packard|ScanJet 4200c
 SERVER hp4200
 DRIVER USB
 LINE usb $VENDOR $PRODUCT
 COMMENT 8bpp, 150/300/600 dpi only, and scanned image needs postprocessing
 
-# from sane-backends-1.0.15/doc/descriptions-external/epkowa.desc
-NAME Epson Corp.|Expression 1600
-SERVER epkowa
-DRIVER SCSI USB IEEE-1394
-COMMENT This backend is not included in the sane-backends distribution because it uses code that is not open-source.
+# from /home/test/sane-backends-1.0.16//doc/descriptions-external/hp3770.desc
+NAME Hewlett Packard|ScanJet 3770
+SERVER hp3770
+DRIVER USB
+COMMENT This backend can't be added to the SANE distribution because it contains non-free code.
 
-NAME Epson Corp.|Expression 1640XL
+# from /home/test/sane-backends-1.0.16//doc/descriptions-external/epkowa.desc
+NAME EPSON|Actionscanner II
 SERVER epkowa
-DRIVER SCSI USB IEEE-1394
+DRIVER parallel
+COMMENT overseas version of the GT-5000
 
-NAME Epson Corp.|Expression 1680
-SERVER epkowa
-DRIVER SCSI USB IEEE-1394
-
-NAME Epson Corp.|GT-10000
-SERVER epkowa
-DRIVER SCSI IEEE-1394
-
-NAME Epson Corp.|GT-10000+
-SERVER epkowa
-DRIVER SCSI IEEE-1394
-
-NAME Epson Corp.|GT-30000
-SERVER epkowa
-DRIVER SCSI IEEE-1394
-
-NAME Epson Corp.|Perfection 610
+NAME EPSON|AcuLaser CX11
 SERVER epkowa
 DRIVER USB
+COMMENT overseas version of the LP-A500
 
-NAME Epson Corp.|Perfection 640U
+NAME EPSON|CC-500L
 SERVER epkowa
 DRIVER USB
+COMMENT all-in-one
 
-NAME Epson Corp.|Perfection 1200S
+NAME EPSON|CC-550L
+SERVER epkowa
+DRIVER USB
+COMMENT all-in-one
+
+NAME EPSON|CC-570L
+SERVER epkowa
+DRIVER USB
+COMMENT all-in-one
+
+NAME EPSON|CC-600PX
+SERVER epkowa
+DRIVER USB
+COMMENT all-in-one
+
+NAME EPSON|CC-700
+SERVER epkowa
+DRIVER USB
+COMMENT all-in-one
+
+NAME EPSON|ES-300C
+SERVER epkowa
+DRIVER SCSI parallel
+COMMENT overseas version of the GT-6000
+
+NAME EPSON|ES-600C
+SERVER epkowa
+DRIVER parallel
+COMMENT overseas version of the GT-5400
+
+NAME EPSON|ES-800C
+SERVER epkowa
+DRIVER SCSI
+COMMENT overseas version of the GT-8000
+
+NAME EPSON|ES-1000C
+SERVER epkowa
+DRIVER SCSI
+COMMENT overseas version of the GT-8500
+
+NAME EPSON|ES-1200C
+SERVER epkowa
+DRIVER parallel
+COMMENT overseas version of the GT-9000
+
+NAME EPSON|ES-2000
+SERVER epkowa
+DRIVER SCSI USB
+COMMENT IEEE1394 untested
+
+NAME EPSON|ES-2200
+SERVER epkowa
+DRIVER SCSI USB
+COMMENT IEEE1394 untested
+
+NAME EPSON|ES-6000
 SERVER epkowa
 DRIVER SCSI
 
-NAME Epson Corp.|Perfection 1200U
+NAME EPSON|ES-6000H
 SERVER epkowa
-DRIVER USB
+DRIVER SCSI
+COMMENT IEEE1394 untested
 
-NAME Epson Corp.|Perfection 1200U PHOTO
+NAME EPSON|ES-6000HS
 SERVER epkowa
-DRIVER USB
+DRIVER SCSI
+COMMENT IEEE1394 untested
 
-NAME Epson Corp.|Perfection 1240U
-SERVER epkowa
-DRIVER USB
-
-NAME Epson Corp.|Perfection 1250
-SERVER epkowa
-DRIVER USB
-
-NAME Epson Corp.|Perfection 1250 PHOTO
-SERVER epkowa
-DRIVER USB
-
-NAME Epson Corp.|Perfection 1260
-SERVER epkowa
-DRIVER USB
-
-NAME Epson Corp.|Perfection 1260 PHOTO
-SERVER epkowa
-DRIVER USB
-COMMENT The transparency unit doesn't work currently.
-
-NAME Epson Corp.|Perfection 1640SU
+NAME EPSON|ES-7000H
 SERVER epkowa
 DRIVER SCSI USB
 
-NAME Epson Corp.|Perfection 1640SU PHOTO
+NAME EPSON|ES-8000
+SERVER epkowa
+DRIVER SCSI
+
+NAME EPSON|ES-8500
+SERVER epkowa
+DRIVER SCSI USB
+COMMENT IEEE1394 untested
+
+NAME EPSON|ES-9000H
+SERVER epkowa
+DRIVER SCSI
+COMMENT IEEE1394 untested
+
+NAME EPSON|ES-10000G
+SERVER epkowa
+DRIVER USB
+COMMENT IEEE1394 untested<br>100Base-TX/10Base-T unsupported
+
+NAME EPSON|Expression 636
+SERVER epkowa
+DRIVER SCSI
+COMMENT overseas version of the GT-9500
+
+NAME EPSON|Expression 800
+SERVER epkowa
+DRIVER SCSI
+COMMENT overseas version of the GT-9600
+
+NAME EPSON|Expression 836XL
+SERVER epkowa
+DRIVER SCSI
+COMMENT overseas version of the ES-8000
+
+NAME EPSON|Expression 1600
+SERVER epkowa
+DRIVER SCSI USB
+COMMENT overseas version of the ES-2000<br>IEEE1394 untested
+
+NAME EPSON|Expression 1640XL
+SERVER epkowa
+DRIVER SCSI USB
+COMMENT overseas version of the ES-8500<br>IEEE1394 untested
+
+NAME EPSON|Expression 1680
+SERVER epkowa
+DRIVER SCSI USB
+COMMENT overseas version of the ES-2200<br>IEEE1394 untested
+
+NAME EPSON|Expression 10000XL
+SERVER epkowa
+DRIVER USB
+
+NAME EPSON|F-3200
+SERVER epkowa
+DRIVER USB IEEE1394
+COMMENT Film scanner
+
+NAME EPSON|FilmScan 200
+SERVER epkowa
+DRIVER SCSI
+COMMENT A better backend for the FilmScan 200 can be found at <A HREF=\"http://www.vjet.demon.co.uk/scanner/\">http://www.vjet.demon.co.uk/scanner/</A>.
+
+NAME EPSON|GT-4000
+SERVER epkowa
+DRIVER SCSI
+
+NAME EPSON|GT-5000
+SERVER epkowa
+DRIVER parallel
+
+NAME EPSON|GT-5400
+SERVER epkowa
+DRIVER parallel
+
+NAME EPSON|GT-5500
+SERVER epkowa
+DRIVER SCSI
+
+NAME EPSON|GT-6000
+SERVER epkowa
+DRIVER SCSI Parport
+
+NAME EPSON|GT-6500
+SERVER epkowa
+DRIVER parallel
+COMMENT overseas version of the GT-5400
+
+NAME EPSON|GT-6600U
+SERVER epkowa
+DRIVER USB
+
+NAME EPSON|GT-6700U
+SERVER epkowa
+DRIVER USB
+
+NAME EPSON|GT-7000S
+SERVER epkowa
+DRIVER SCSI
+
+NAME EPSON|GT-7000U
+SERVER epkowa
+DRIVER USB
+
+NAME EPSON|GT-7200U
+SERVER epkowa
+DRIVER USB
+COMMENT requires a DFSG non-free module<br>also supported by the plustek backend
+
+NAME EPSON|GT-7300U
+SERVER epkowa
+DRIVER USB
+COMMENT requires a DFSG non-free module<br>also supported by the plustek backend
+
+NAME EPSON|GT-7400U
+SERVER epkowa
+DRIVER USB
+COMMENT may be supported by the snapscan backend
+
+NAME EPSON|GT-7600S
+SERVER epkowa
+DRIVER SCSI
+COMMENT SCSI version of the GT-7600U
+
+NAME EPSON|GT-7600U
+SERVER epkowa
+DRIVER USB
+COMMENT USB version of the GT-7600S
+
+NAME EPSON|GT-7600UF
+SERVER epkowa
+DRIVER USB
+COMMENT GT-7600U with TPU option bundled
+
+NAME EPSON|GT-7700U
+SERVER epkowa
+DRIVER USB
+
+NAME EPSON|GT-8000
+SERVER epkowa
+DRIVER SCSI
+
+NAME EPSON|GT-8200U
+SERVER epkowa
+DRIVER USB
+
+NAME EPSON|GT-8200UF
+SERVER epkowa
+DRIVER USB
+
+NAME EPSON|GT-8300UF
+SERVER epkowa
+DRIVER USB
+
+NAME EPSON|GT-8400UF
+SERVER epkowa
+DRIVER USB
+
+NAME EPSON|GT-8500
+SERVER epkowa
+DRIVER USB
+
+NAME EPSON|GT-8700
 SERVER epkowa
 DRIVER SCSI USB
 
-NAME Epson Corp.|Perfection 1650
+NAME EPSON|GT-8700F
+SERVER epkowa
+DRIVER SCSI USB
+COMMENT GT-8700U with TPU option bundled
+
+NAME EPSON|GT-9000
+SERVER epkowa
+DRIVER parallel
+
+NAME EPSON|GT-9300UF
 SERVER epkowa
 DRIVER USB
 
-NAME Epson Corp.|Perfection 1650 PHOTO
+NAME EPSON|GT-9400UF
+SERVER epkowa
+DRIVER USB
+COMMENT requires a DFSG non-free module
+
+NAME EPSON|GT-9500
+SERVER epkowa
+DRIVER SCSI
+
+NAME EPSON|GT-9600
+SERVER epkowa
+DRIVER SCSI
+
+NAME EPSON|GT-9700F
+SERVER epkowa
+DRIVER USB
+COMMENT IEEE1394 untested
+
+NAME EPSON|GT-9800F
+SERVER epkowa
+DRIVER USB
+COMMENT IEEE1394 untested
+
+NAME EPSON|GT-10000
+SERVER epkowa
+DRIVER SCSI
+COMMENT overseas version of the ES-6000
+
+NAME EPSON|GT-10000+
+SERVER epkowa
+DRIVER SCSI
+COMMENT overseas version of the ES-6000H<br>IEEE1394 untested
+
+NAME EPSON|GT-12000
+SERVER epkowa
+DRIVER SCSI
+COMMENT overseas version of the ES-8000
+
+NAME EPSON|GT-15000
+SERVER epkowa
+DRIVER SCSI USB
+COMMENT overseas version of the ES-7000H<br>IEEE1394 untested
+
+NAME EPSON|GT-30000
+SERVER epkowa
+DRIVER SCSI
+COMMENT overseas version of the ES-9000H<br>IEEE1394 untested
+
+NAME EPSON|GT-F500
 SERVER epkowa
 DRIVER USB
 
-NAME Epson Corp.|Perfection 1660 PHOTO
+NAME EPSON|GT-F550
 SERVER epkowa
 DRIVER USB
 
-NAME Epson Corp.|Perfection 1670
+NAME EPSON|GT-F600
 SERVER epkowa
 DRIVER USB
-COMMENT Is not and will not be supported by the epkowa backend. Use the SnapScan backend instead.
+COMMENT only scans up to 2400dpi<br>requires a DFSG non-free module
 
-NAME Epson Corp.|Perfection 2400 PHOTO
+NAME EPSON|GT-X700
+SERVER epkowa
+DRIVER USB
+COMMENT IEEE1394 untested
+
+NAME EPSON|GT-X800
+SERVER epkowa
+DRIVER USB IEEE1394
+
+NAME EPSON|LP-7900CS
+SERVER epkowa
+DRIVER USB IEEE1394
+
+NAME EPSON|LP-9000CCH
+SERVER epkowa
+DRIVER USB IEEE1394
+
+NAME EPSON|LP-9000CCS
+SERVER epkowa
+DRIVER USB IEEE1394
+
+NAME EPSON|LP-9000CFH
+SERVER epkowa
+DRIVER USB IEEE1394
+
+NAME EPSON|LP-9500CCS
+SERVER epkowa
+DRIVER USB IEEE1394
+
+NAME EPSON|LP-9500CFH
+SERVER epkowa
+DRIVER USB IEEE1394
+
+NAME EPSON|LP-9500CH2
+SERVER epkowa
+DRIVER USB IEEE1394
+
+NAME EPSON|LP-9800CCH
+SERVER epkowa
+DRIVER USB IEEE1394
+
+NAME EPSON|LP-9800CCS
+SERVER epkowa
+DRIVER USB IEEE1394
+
+NAME EPSON|LP-9800CFH
+SERVER epkowa
+DRIVER USB IEEE1394
+
+NAME EPSON|LP-A500
+SERVER epkowa
+DRIVER USB
+COMMENT business all-in-one
+
+NAME EPSON|PM-A700
+SERVER epkowa
+DRIVER USB
+COMMENT all-in-one
+
+NAME EPSON|PM-A850
+SERVER epkowa
+DRIVER USB
+COMMENT all-in-one
+
+NAME EPSON|PM-A870
+SERVER epkowa
+DRIVER USB
+COMMENT all-in-one
+
+NAME EPSON|PM-A900
+SERVER epkowa
+DRIVER USB
+COMMENT all-in-one
+
+NAME EPSON|PX-A550
+SERVER epkowa
+DRIVER USB
+COMMENT all-in-one
+
+NAME EPSON|Perfection 600
+SERVER epkowa
+DRIVER SCSI
+COMMENT rebadged UMAX Astra 1200S<br>supported by the umax backend
+
+NAME EPSON|Perfection 610
+SERVER epkowa
+DRIVER USB
+COMMENT overseas version of the GT-6600U
+
+NAME EPSON|Perfection 636S
+SERVER epkowa
+DRIVER SCSI
+COMMENT overseas version of the GT-7000S
+
+NAME EPSON|Perfection 636U
+SERVER epkowa
+DRIVER USB
+COMMENT overseas version of the GT-7000U
+
+NAME EPSON|Perfection 640U
+SERVER epkowa
+DRIVER USB
+COMMENT overseas version of the GT-6700U
+
+NAME EPSON|Perfection 660
+SERVER epkowa
+DRIVER USB
+COMMENT supported by the snapscan backend
+
+NAME EPSON|Perfection 1200S
+SERVER epkowa
+DRIVER SCSI
+COMMENT overseas version of the GT-7600S
+
+NAME EPSON|Perfection 1200U
+SERVER epkowa
+DRIVER USB
+COMMENT overseas version of the GT-7600U
+
+NAME EPSON|Perfection 1200U PHOTO
+SERVER epkowa
+DRIVER USB
+COMMENT overseas version of the GT-7600UF
+
+NAME EPSON|Perfection 1240U
+SERVER epkowa
+DRIVER USB
+COMMENT overseas version of the GT-7700U
+
+NAME EPSON|Perfection 1250
+SERVER epkowa
+DRIVER USB
+COMMENT overseas version of the GT-7200U<br>requires a DFSG non-free module<br>also supported by the plustek backend
+
+NAME EPSON|Perfection 1250 PHOTO
+SERVER epkowa
+DRIVER USB
+COMMENT Perfection 1250 with TPU option bundled<br>requires a DFSG non-free module<br>also supported by the plustek backend
+
+NAME EPSON|Perfection 1260
+SERVER epkowa
+DRIVER USB
+COMMENT overseas version of the GT-7300U<br>requires a DFSG non-free module<br>also supported by the plustek backend
+
+NAME EPSON|Perfection 1260 PHOTO
+SERVER epkowa
+DRIVER USB
+COMMENT Perfection 1260 with TPU option bundled<br>requires a DFSG non-free module<br>also supported by the plustek backend
+
+NAME EPSON|Perfection 1270
+SERVER epkowa
+DRIVER USB
+COMMENT may be supported by the snapscan backend
+
+NAME EPSON|Perfection 1640SU
+SERVER epkowa
+DRIVER SCSI USB
+COMMENT overseas version of the GT-8700
+
+NAME EPSON|Perfection 1640SU PHOTO
+SERVER epkowa
+DRIVER SCSI USB
+COMMENT overseas version of the GT-8700F
+
+NAME EPSON|Perfection 1650
+SERVER epkowa
+DRIVER USB
+COMMENT overseas version of the GT-8200U
+
+NAME EPSON|Perfection 1650 PHOTO
+SERVER epkowa
+DRIVER USB
+COMMENT overseas version of the GT-8200UF
+
+NAME EPSON|Perfection 1660 PHOTO
+SERVER epkowa
+DRIVER USB
+COMMENT overseas version of the GT-8300UF
+
+NAME EPSON|Perfection 1670
+SERVER epkowa
+DRIVER USB
+COMMENT supported by the snapscan backend
+
+NAME EPSON|Perfection 2400 PHOTO
+SERVER epkowa
+DRIVER USB
+COMMENT overseas version of the GT-9300UF
+
+NAME EPSON|Perfection 2450 PHOTO
+SERVER epkowa
+DRIVER USB
+COMMENT overseas version of the GT-9700F<br>IEEE1394 untested
+
+NAME EPSON|Perfection 2480 PHOTO
+SERVER epkowa
+DRIVER USB
+COMMENT overseas version of the GT-F500<br>requires a DFSG non-free module<br>also supported by the snapscan backend
+
+NAME EPSON|Perfection 2580 PHOTO
+SERVER epkowa
+DRIVER USB
+COMMENT overseas version of the GT-F550<br>requires a DFSG non-free module<br>also supported by the snapscan backend
+
+NAME EPSON|Perfection 3170 PHOTO
+SERVER epkowa
+DRIVER USB
+COMMENT overseas version of the GT-9400UF<br>requires a DFSG non-free module
+
+NAME EPSON|Perfection 3200 PHOTO
+SERVER epkowa
+DRIVER USB
+COMMENT overseas version of the GT-9800F<br>IEEE1394 untested
+
+NAME EPSON|Perfection 4180 PHOTO
+SERVER epkowa
+DRIVER USB
+COMMENT overseas version of the GT-F600<br>only scans up to 2400dpi<br>requires a DFSG non-free module
+
+NAME EPSON|Perfection 4870 PHOTO
+SERVER epkowa
+DRIVER USB
+COMMENT overseas version of the GT-X700<br>IEEE1394 untested
+
+NAME EPSON|Perfection 4990 PHOTO
+SERVER epkowa
+DRIVER USB
+COMMENT overseas version of the GT-X800<br>IEEE1394 untested
+
+NAME EPSON|Stylus CX1500
+SERVER epkowa
+DRIVER USB
+COMMENT all-in-one
+
+NAME EPSON|Stylus CX3100
+SERVER epkowa
+DRIVER USB
+COMMENT overseas version of the CC-570<br>all-in-one
+
+NAME EPSON|Stylus CX3200
+SERVER epkowa
+DRIVER USB
+COMMENT overseas version of the CC-570<br>all-in-one
+
+NAME EPSON|Stylus CX3500
+SERVER epkowa
+DRIVER USB
+COMMENT all-in-one
+
+NAME EPSON|Stylus CX3600
+SERVER epkowa
+DRIVER USB
+COMMENT all-in-one
+
+NAME EPSON|Stylus CX3650
+SERVER epkowa
+DRIVER USB
+COMMENT all-in-one
+
+NAME EPSON|Stylus CX4500
+SERVER epkowa
+DRIVER USB
+COMMENT all-in-one
+
+NAME EPSON|Stylus CX4600
+SERVER epkowa
+DRIVER USB
+COMMENT all-in-one
+
+NAME EPSON|Stylus CX5100
+SERVER epkowa
+DRIVER USB
+COMMENT overseas version of the CC-600PX<br>all-in-one
+
+NAME EPSON|Stylus CX5200
+SERVER epkowa
+DRIVER USB
+COMMENT overseas version of the CC-600PX<br>all-in-one
+
+NAME EPSON|Stylus CX5300
+SERVER epkowa
+DRIVER USB
+COMMENT overseas version of the CC-600PX<br>all-in-one
+
+NAME EPSON|Stylus CX5400
+SERVER epkowa
+DRIVER USB
+COMMENT overseas version of the CC-600PX<br>all-in-one
+
+NAME EPSON|Stylus CX6300
+SERVER epkowa
+DRIVER USB
+COMMENT all-in-one
+
+NAME EPSON|Stylus CX6400
+SERVER epkowa
+DRIVER USB
+COMMENT all-in-one
+
+NAME EPSON|Stylus CX6500
+SERVER epkowa
+DRIVER USB
+COMMENT all-in-one
+
+NAME EPSON|Stylus CX6600
+SERVER epkowa
+DRIVER USB
+COMMENT all-in-one
+
+NAME EPSON|Stylus Photo RX420
+SERVER epkowa
+DRIVER USB
+COMMENT all-in-one
+
+NAME EPSON|Stylus Photo RX425
+SERVER epkowa
+DRIVER USB
+COMMENT all-in-one
+
+NAME EPSON|Stylus Photo RX430
+SERVER epkowa
+DRIVER USB
+COMMENT all-in-one
+
+NAME EPSON|Stylus Photo RX500
+SERVER epkowa
+DRIVER USB
+COMMENT all-in-one
+
+NAME EPSON|Stylus Photo RX510
+SERVER epkowa
+DRIVER USB
+COMMENT all-in-one
+
+NAME EPSON|Stylus Photo RX600
+SERVER epkowa
+DRIVER USB
+COMMENT overseas version of the PM-A850<br>all-in-one
+
+NAME EPSON|Stylus Photo RX610
+SERVER epkowa
+DRIVER USB
+COMMENT overseas version of the PM-A850<br>all-in-one
+
+NAME EPSON|Stylus Photo RX620
+SERVER epkowa
+DRIVER USB
+COMMENT overseas version of the PM-A870<br>all-in-one
+
+NAME EPSON|Stylus Photo RX630
+SERVER epkowa
+DRIVER USB
+COMMENT overseas version of the PM-A870<br>all-in-one
+
+NAME EPSON|Stylus Photo RX700
+SERVER epkowa
+DRIVER USB
+COMMENT overseas version of the PM-A900<br>all-in-one
+
+NAME EPSON|Stylus Scan 2000
 SERVER epkowa
 DRIVER USB
 
-NAME Epson Corp.|Perfection 2450 PHOTO
+NAME EPSON|Stylus Scan 2500
 SERVER epkowa
 DRIVER USB
 
-NAME Epson Corp.|Perfection 3200 PHOTO
-SERVER epkowa
-DRIVER USB IEEE-1394
-
-NAME Epson Corp.|Perfection 3170 PHOTO
-SERVER epkowa
-DRIVER USB
-
-# from sane-backends-1.0.15/doc/descriptions-external/lhii.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions-external/lhii.desc
 NAME Mustek Systems Inc.|CG-6000
 SERVER lhii
 DRIVER Proprietary
 COMMENT Old handscanner. Hasn't been tested for a long time but once worked. See link for the linux kernel driver that's necessary to run the scanner.
 
-# from sane-backends-1.0.15/doc/descriptions-external/primax.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions-external/primax.desc
 NAME Primax Electronics|Colorado Direct 300
 SERVER primax
 DRIVER Parport
@@ -5357,14 +6151,14 @@ NAME Genius|Colorpage-Vivid+
 SERVER primax
 DRIVER Parport
 
-# from sane-backends-1.0.15/doc/descriptions-external/hpoj.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions-external/hpoj.desc
 NAME Hewlett-Packard|Most HP OfficeJet, LaserJet, and PSC (Printer/Scanner/Copier) multi-function peripherals
 SERVER hpoj
 DRIVER Parport(ECP) USB JetDirect
 COMMENT Distributed with the HP OfficeJet Linux driver (hpoj)
 
-# from sane-backends-1.0.15/doc/descriptions-external/v4l2.desc
-# from sane-backends-1.0.15/doc/descriptions-external/hp_rts88xx.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions-external/v4l2.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions-external/hp_rts88xx.desc
 NAME Hewlett-Packard|HP4400C
 SERVER hp_rts88xx
 DRIVER USB
@@ -5377,31 +6171,161 @@ DRIVER USB
 MANUAL
 COMMENT grayscale 300DPI only, XPA/bed mode
 
-NAME Hewlett-Packard|HP3500C
-SERVER hp_rts88xx
-DRIVER USB
-MANUAL
-COMMENT Doesn't work yet but support by the hp_rts88x backend is planned.
+# from /home/test/sane-backends-1.0.16//doc/descriptions-external/samsung.desc
+NAME Samsung|SCX-4016
+SERVER samsung
+DRIVER Parport USB
+COMMENT No information received about supported status
 
-NAME Hewlett-Packard|HP3530C
-SERVER hp_rts88xx
-DRIVER USB
-MANUAL
-COMMENT Doesn't work yet but support by the hp_rts88x backend is planned.
+NAME Samsung|SCX-4100
+SERVER samsung
+DRIVER Parport USB
+COMMENT Is reported to work.
 
-NAME Hewlett-Packard|HP3570C
-SERVER hp_rts88xx
-DRIVER USB
-MANUAL
-COMMENT Doesn't work yet but support by the hp_rts88x backend is planned.
+NAME Samsung|SCX-4216F
+SERVER samsung
+DRIVER Parport USB
+COMMENT No information received about supported status
 
-# from sane-backends-1.0.15/doc/descriptions-external/scanwit.desc
+NAME Samsung|SCX-4720F
+SERVER samsung
+DRIVER Parport USB
+COMMENT No information received about supported status
+
+NAME Samsung|SCX-6220
+SERVER samsung
+DRIVER Parport USB
+COMMENT No information received about supported status
+
+NAME Samsung|SCX-6320F
+SERVER samsung
+DRIVER Parport USB
+COMMENT No information received about supported status
+
+NAME Samsung|SF-565P
+SERVER samsung
+DRIVER Parport USB
+COMMENT No information received about supported status
+
+NAME Samsung|SF-755P
+SERVER samsung
+DRIVER Parport USB
+COMMENT No information received about supported status
+
+NAME Samsung|For models not mentioned, check their website
+SERVER samsung
+DRIVER USB
+COMMENT No information received about supported status
+
+# from /home/test/sane-backends-1.0.16//doc/descriptions-external/stv680.desc
+NAME Digital Dream|l' espion XS
+SERVER stv680
+DRIVER USB
+COMMENT usb vid 0x1183 pid 0x0001
+
+# from /home/test/sane-backends-1.0.16//doc/descriptions-external/scanwit.desc
 NAME Benq|ScanWit 2720S
 SERVER scanwit
 DRIVER SCSI
 COMMENT Usable, but not complete
 
-# from sane-backends-1.0.15/doc/descriptions-external/viceo.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions-external/brother2.desc
+NAME Brother|DCP-110C
+SERVER brother2
+DRIVER USB
+COMMENT No report yet.
+
+NAME Brother|DCP-310CN
+SERVER brother2
+DRIVER USB
+COMMENT No report yet.
+
+NAME Brother|DCP-7010
+SERVER brother2
+DRIVER USB
+COMMENT No report yet.
+
+NAME Brother|DCP-7020
+SERVER brother2
+DRIVER USB
+COMMENT No report yet.
+
+NAME Brother|DCP-7025
+SERVER brother2
+DRIVER USB
+
+NAME Brother|MFC-210C
+SERVER brother2
+DRIVER USB
+COMMENT No report yet.
+
+NAME Brother|MFC-3240C
+SERVER brother2
+DRIVER USB
+COMMENT No report yet.
+
+NAME Brother|MFC-3340CN
+SERVER brother2
+DRIVER USB
+COMMENT No report yet.
+
+NAME Brother|MFC-410CN
+SERVER brother2
+DRIVER USB
+COMMENT No report yet.
+
+NAME Brother|MFC-420CN
+SERVER brother2
+DRIVER USB
+COMMENT No report yet.
+
+NAME Brother|MFC-5440CN
+SERVER brother2
+DRIVER USB
+COMMENT No report yet.
+
+NAME Brother|MFC-5840CN
+SERVER brother2
+DRIVER USB
+COMMENT No report yet.
+
+NAME Brother|MFC-620CN
+SERVER brother2
+DRIVER USB
+COMMENT No report yet.
+
+NAME Brother|MFC-7220
+SERVER brother2
+DRIVER USB
+COMMENT No report yet.
+
+NAME Brother|MFC-7225N
+SERVER brother2
+DRIVER USB
+COMMENT No report yet.
+
+NAME Brother|MFC-7420
+SERVER brother2
+DRIVER USB
+COMMENT No report yet.
+
+NAME Brother|MFC-7820N
+SERVER brother2
+DRIVER USB
+COMMENT No report yet.
+
+# from /home/test/sane-backends-1.0.16//doc/descriptions-external/hpaio.desc
+NAME Hewlett-Packard|Most HP OfficeJet, LaserJet, and PSC (Printer/Scanner/Copier) multi-function peripherals
+SERVER hpaio
+DRIVER Parport(ECP) USB JetDirect
+COMMENT Distributed with the HP Linux Imaging and Printing Project (hplip), see table on website for product support status
+
+# from /home/test/sane-backends-1.0.16//doc/descriptions-external/viceo.desc
+NAME Primax Electronics|Colorado USB 19200
+SERVER viceo
+DRIVER USB
+COMMENT Linux 2.4 only, needs a kernel patch.
+
 NAME Visioneer|OneTouch 6100
 SERVER viceo
 DRIVER USB
@@ -5417,7 +6341,7 @@ SERVER viceo
 DRIVER USB
 COMMENT Linux 2.4 only, needs a kernel patch.
 
-# from sane-backends-1.0.15/doc/descriptions/unsupported.desc
+# from /home/test/sane-backends-1.0.16//doc/descriptions/unsupported.desc
 NAME AGFA-Gevaert NV|1212 P
 SERVER unsupported
 DRIVER Parport
@@ -5449,67 +6373,79 @@ UNSUPPORTED
 COMMENT Unsupported. Chipset unknown. Maybe similar to SCSI version or as6e?
 # Artec/Ultima|E+ Pro already supported!
 
-NAME Benq|310p
+NAME Avision|DS310F
 SERVER unsupported
 DRIVER Parport
 UNSUPPORTED
-COMMENT Unsupported. No details about the protocol known.
+COMMENT Probably not supported. Scanner/printer/copier combination.
 
-NAME Benq|610p
-SERVER unsupported
-DRIVER Parport
-UNSUPPORTED
-COMMENT Unsupported. No details about the protocol known.
-
-NAME Benq|620p
-SERVER unsupported
-DRIVER Parport
-UNSUPPORTED
-COMMENT Unsupported. No details about the protocol known.
-
-NAME Benq|620pt
-SERVER unsupported
-DRIVER Parport
-UNSUPPORTED
-COMMENT Unsupported. No details about the protocol known.
-
-NAME Brother|DCP 8020
+NAME Avision|iVina FB2400
 SERVER unsupported
 DRIVER USB
 UNSUPPORTED
-COMMENT Unsupported. See link for details.
+COMMENT Not supported. No chipset information available. Same as UMAX Astra 6700.
 
-NAME Brother|MFC 4600
-SERVER unsupported
-DRIVER Parport USB
-UNSUPPORTED
-COMMENT Unsupported. However there is a project to support this scanner/printer/fax combination. See link.
-
-NAME Brother|MFC 5100c
-SERVER unsupported
-DRIVER Parport USB
-UNSUPPORTED
-COMMENT Unsupported. Some information is available (see link). See also MFC 4600.
-
-NAME Brother|MFC 6800
+NAME Avision|iVina 1600
 SERVER unsupported
 DRIVER USB
 UNSUPPORTED
-COMMENT Unsupported. A backend is under development (see link). Vendor/product 0x04f9/0x0111. See also MFC 4600.
+COMMENT GL646 based, to be added to genesys backend. Same as UMAX Astra 4500.
+
+NAME Benq (Acer)|310p
+SERVER unsupported
+DRIVER Parport
+UNSUPPORTED
+COMMENT Unsupported. No details about the protocol known.
+
+NAME Benq (Acer)|320p
+SERVER unsupported
+DRIVER Parport
+UNSUPPORTED
+COMMENT Unsupported. No details about the protocol known.
+
+NAME Benq (Acer)|610p
+SERVER unsupported
+DRIVER Parport
+UNSUPPORTED
+COMMENT Unsupported. No details about the protocol known.
+
+NAME Benq (Acer)|620p
+SERVER unsupported
+DRIVER Parport
+UNSUPPORTED
+COMMENT Unsupported. No details about the protocol known.
+
+NAME Benq (Acer)|620pt
+SERVER unsupported
+DRIVER Parport
+UNSUPPORTED
+COMMENT Unsupported. No details about the protocol known.
 
 NAME Canon|CanoScan 3000
 SERVER unsupported
 DRIVER USB
 UNSUPPORTED
-COMMENT Probably unsupported. See link.
+COMMENT GL660+GL646 based.
+
+NAME Canon|CanoScan 3000ex
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT GL660+GL646 based.
 
 NAME Canon|CanoScan 3000F
 SERVER unsupported
 DRIVER USB
 UNSUPPORTED
-COMMENT Probably unsupported. See link.
+COMMENT GL660+GL646 based.
 
 NAME Canon|CanoScan 3200F
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT Probably unsupported. See link.
+
+NAME Canon|CanoScan 4200F
 SERVER unsupported
 DRIVER USB
 UNSUPPORTED
@@ -5519,7 +6455,7 @@ NAME Canon|CanoScan 5000F
 SERVER unsupported
 DRIVER USB
 UNSUPPORTED
-COMMENT Probably unsupported. See link for details.
+COMMENT Unsupported. See link for details.
 
 NAME Canon|CanoScan 5200F
 SERVER unsupported
@@ -5532,6 +6468,12 @@ SERVER unsupported
 DRIVER USB
 UNSUPPORTED
 COMMENT Not supported. USB Vendor/product 0x04a9/0x220f. See link for more information. With transparency adapter.
+
+NAME Canon|CanoScan 8400F
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT GL841 based, to be added to genesys backend
 
 NAME Canon|CanoScan 9900F
 SERVER unsupported
@@ -5575,6 +6517,36 @@ DRIVER USB
 UNSUPPORTED
 COMMENT Not supported. Vendor/product 0x4a9/0x2205. However, a stand-alone program for FreeBSD is available.
 
+NAME Canon|CanoScan LiDE 35
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT GL841 based, to be added to genesys backend. Same as LiDE 50.
+
+NAME Canon|CanoScan LiDE 40
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT GL841 based, to be added to genesys backend. Same as LiDE 50.
+
+NAME Canon|CanoScan LiDE 50
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT GL841 based, to be added to genesys backend
+
+NAME Canon|CanoScan LiDE 80
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT GL841 based, to be added to genesys backend
+
+NAME Canon|CanoScan LiDE 500F
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT GL841 based, to be added to genesys backend
+
 NAME Canon|DR-2080C
 SERVER unsupported
 DRIVER USB SCSI
@@ -5601,7 +6573,7 @@ COMMENT Probably not supported. High-speed pass-trough (ADF) color scanner.
 
 NAME Canon|DR-6080
 SERVER unsupported
-DRIVER SCSI
+DRIVER USB SCSI
 UNSUPPORTED
 COMMENT Probably not supported. High-speed pass-trough (ADF) scanner.
 
@@ -5635,29 +6607,35 @@ DRIVER USB
 UNSUPPORTED
 COMMENT Probably not supported. Scanner cardridge for Canon inkjet printers.
 
+NAME Canon|IS 52
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT Probably not supported. Scanner cardridge for Canon inkjet printers.
+
 NAME Dell|A920
 SERVER unsupported
 DRIVER USB
 UNSUPPORTED
-COMMENT Probably not supported. Probably a relabelled Lexmark X1150.
+COMMENT Probably not supported. See link for details.
 
-NAME Epson Corp.|GT-7400U
+NAME Dell|A960
 SERVER unsupported
 DRIVER USB
 UNSUPPORTED
-COMMENT Probably unsupported. May work with snapscan backend after some modification. See link for details.
+COMMENT Probably not supported. See link for details.
+
+NAME Dell|922
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT Probably not supported. See link for details.
 
 NAME Epson Corp.|GT-F600
 SERVER unsupported
 DRIVER USB
 UNSUPPORTED
 COMMENT Unsupported. Doesn't speak ESC/I. Closely related to the GT-9400. It will be supported by epkowa backeend in future.
-
-NAME Epson Corp.|Perfection 1270
-SERVER unsupported
-DRIVER USB
-UNSUPPORTED
-COMMENT Probably unsupported. May work with snapscan backend after some modification. See link for details.
 
 NAME Enhans|j-6121
 SERVER unsupported
@@ -5670,6 +6648,36 @@ SERVER unsupported
 DRIVER USB
 UNSUPPORTED
 COMMENT Unsupported. Vendor/product: 0x04c5, 0x1029. Maybe similar to fi-4220C?
+
+NAME Genius|ColorPage-Slim 1200 USB2
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT Unsupported. See link for details.
+
+NAME Genius|ColorPage HR6X Slim
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT GL646 based, to be added to genesys backend
+
+NAME Genius|ColorPage HR7X
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT GL646 based, to be added to genesys backend
+
+NAME Genius|ColorPage HR8
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT GL841 based, to be added to genesys backend
+
+NAME Guillemot|SCAN@HOME 48 USB
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT Probably unsupported. See link for details.
 
 NAME Hewlett-Packard|Photo Scanner 1000
 SERVER unsupported
@@ -5695,11 +6703,50 @@ DRIVER USB
 UNSUPPORTED
 COMMENT Not supported yet by SANE, but a backend is under development. See link for details.
 
+NAME Hewlett-Packard|ScanJet 2400c
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT GL646 based, to be added to genesys backend
+# Hewlett-Packard|HP3500C already supported!
+# Hewlett-Packard|HP3530C already supported!
+# Hewlett-Packard|HP3570C already supported!
+
+NAME Hewlett-Packard|ScanJet 3670c
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT GL646 based, to be added to genesys backend
+
+NAME Hewlett-Packard|ScanJet 3690c
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT Probably GL646_HP based, maybe can be added to genesys backend
+
 NAME Hewlett-Packard|ScanJet 3970c
 SERVER unsupported
 DRIVER USB
 UNSUPPORTED
 COMMENT Unsupported. See link for details.
+
+NAME Hewlett-Packard|ScanJet 4070 Photosmart
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT Unsupported. See link for details.
+
+NAME Hewlett-Packard|ScanJet 4500C
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT Maybe GL841_HP, but not confirmed, maybe can be added to genesys backend 
+
+NAME Hewlett-Packard|ScanJet 4570C
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT Maybe GL841_HP, but not confirmed, maybe can be added to genesys backend 
 
 NAME Hewlett-Packard|ScanJet 4600
 SERVER unsupported
@@ -5713,17 +6760,30 @@ DRIVER USB
 UNSUPPORTED
 COMMENT Not supported. See link for details.
 
-NAME Hewlett-Packard|ScanJet 8200C
+NAME Hewlett-Packard|ScanJet 5500C
 SERVER unsupported
 DRIVER USB
 UNSUPPORTED
-COMMENT Not supported. See link for details.
+COMMENT Maybe GL841_HP, but not confirmed, maybe can be added to genesys backend
 
-NAME Hewlett-Packard|ScanJet 8250C
+NAME Hewlett-Packard|ScanJet 5530C Photosmart
 SERVER unsupported
 DRIVER USB
 UNSUPPORTED
-COMMENT Not supported. SCSI optional. Includes ADF and TA. Probably similar to 8200C. No further information.
+COMMENT Maybe GL841_HP, but not confirmed, maybe can be added to genesys backend
+
+NAME Hewlett-Packard|ScanJet 5550C
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT Maybe GL841_HP, but not confirmed, maybe can be added to genesys backend
+# Kodak Co.|i30 already supported!
+
+NAME Lexmark|Photo 3150
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT Unsupported. See link for details.
 
 NAME Lexmark|X74
 SERVER unsupported
@@ -5732,6 +6792,12 @@ UNSUPPORTED
 COMMENT Unsupported. See link for details.
 
 NAME Lexmark|X75
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT Unsupported. See link for details.
+
+NAME Lexmark|X75 PrinTrio
 SERVER unsupported
 DRIVER USB
 UNSUPPORTED
@@ -5767,6 +6833,12 @@ DRIVER USB
 UNSUPPORTED
 COMMENT Unsupported.
 
+NAME Lexmark|X5130
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT Unsupported.
+
 NAME Logitech|PageScan Color
 SERVER unsupported
 DRIVER Parport
@@ -5791,11 +6863,35 @@ DRIVER USB
 UNSUPPORTED
 COMMENT Probably unsupported. See link for details.
 
+NAME Medion/Lifetec/Tevion/Cytron|MD 41985
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT Probably unsupported. See link for details.
+
+NAME Medion/Lifetec/Tevion/Cytron|MD 42666
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT Probably unsupported. See link for details.
+
 NAME Memorex|6136u
 SERVER unsupported
 DRIVER USB
 UNSUPPORTED
 COMMENT Probably unsupported.
+
+NAME Memorex|6142u
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT Probably unsupported. Same as Visioneer Onetouch 4400. See link for details.
+
+NAME Memorex|MaxxScan 6122
+SERVER unsupported
+DRIVER USB Parport
+UNSUPPORTED
+COMMENT Unsupported. See link for details.
 
 NAME Microtek|ArtixScan 2020
 SERVER unsupported
@@ -5850,7 +6946,6 @@ SERVER unsupported
 DRIVER USB
 UNSUPPORTED
 COMMENT Unsupported. See link for more details.
-# Microtek|ScanMaker 3840 already supported!
 
 NAME Microtek|ScanMaker 4700
 SERVER unsupported
@@ -5858,17 +6953,11 @@ DRIVER USB
 UNSUPPORTED
 COMMENT Unsupported. See link for more details.
 
-NAME Microtek|ScanMaker 4800
-SERVER unsupported
-DRIVER USB
-UNSUPPORTED
-COMMENT Unsupported. Vendor/Product ids: 0x05da/0x30cf. SQ Scan08? See link for more details.
-
 NAME Microtek|ScanMaker 4850
 SERVER unsupported
 DRIVER USB
 UNSUPPORTED
-COMMENT Probably unsupported. 
+COMMENT Probably unsupported. See link for details.
 
 NAME Microtek|ScanMaker 4900
 SERVER unsupported
@@ -5894,6 +6983,12 @@ DRIVER USB
 UNSUPPORTED
 COMMENT Unsupported. Uses ALI M5615 like the ScanMaker 4700.
 
+NAME Microtek|ScanMaker 5800
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT Unsupported. See link for details.
+
 NAME Microtek|ScanMaker 5900
 SERVER unsupported
 DRIVER USB
@@ -5901,6 +6996,12 @@ UNSUPPORTED
 COMMENT Unsupported. See link for more details.
 
 NAME Microtek|ScanMaker 6000
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT Unsupported. See link for more details.
+
+NAME Microtek|ScanMaker 6100
 SERVER unsupported
 DRIVER USB
 UNSUPPORTED
@@ -5937,11 +7038,29 @@ DRIVER USB
 UNSUPPORTED
 COMMENT Unsupported. See link.
 
-NAME Minolta|Dual Scan III
+NAME Konica Minolta|Dual Scan III
 SERVER unsupported
 DRIVER USB
 UNSUPPORTED
 COMMENT Unsupported. May work with vuescan. See link for details.
+
+NAME Konica Minolta|Dual Scan IV
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT Unsupported. Works with vuescan. See link for details.
+
+NAME Konica Minolta|DiMAGE Scan Elite 5400
+SERVER unsupported
+DRIVER USB IEEE-1394
+UNSUPPORTED
+COMMENT Probably unsupported. May work with vuescan. See link for details.
+
+NAME Konica Minolta|DiMAGE Scan Elite 5400 2
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT Probably unsupported. See link for details.
 
 NAME Mustek Systems Inc.|1200 III EP
 SERVER unsupported
@@ -6005,7 +7124,7 @@ COMMENT Not supported. Maybe similar to the 1800 A3 Pro-1?. See link.
 
 NAME Mustek Systems Inc.|Paragon 800 II EP
 SERVER unsupported
-DRIVER USB
+DRIVER Parport
 UNSUPPORTED
 COMMENT Not supported. Maybe similar to 600 II EP (SCSI_over-parport)? In this case it could be supported by the mustek SCSI backend.
 
@@ -6057,6 +7176,90 @@ DRIVER USB
 UNSUPPORTED
 COMMENT Most probably unsupported. See link for details.
 
+NAME Panasonic|KV-SS905C
+SERVER unsupported
+DRIVER Parport
+UNSUPPORTED
+COMMENT might be supported by matsushita backend.
+
+NAME Panasonic|KV-S2026C
+SERVER unsupported
+DRIVER Parport
+UNSUPPORTED
+COMMENT might be supported by matsushita backend.
+
+NAME Panasonic|KV-S2046C
+SERVER unsupported
+DRIVER Parport
+UNSUPPORTED
+COMMENT might be supported by matsushita backend.
+
+NAME Panasonic|KV-S2055W
+SERVER unsupported
+DRIVER Parport
+UNSUPPORTED
+COMMENT might be supported by matsushita backend.
+
+NAME Panasonic|KV-S2055L
+SERVER unsupported
+DRIVER Parport
+UNSUPPORTED
+COMMENT might be supported by matsushita backend.
+
+NAME Panasonic|KV-S2065W
+SERVER unsupported
+DRIVER Parport
+UNSUPPORTED
+COMMENT might be supported by matsushita backend.
+
+NAME Panasonic|KV-S3065CW
+SERVER unsupported
+DRIVER Parport
+UNSUPPORTED
+COMMENT might be supported by matsushita backend.
+
+NAME Panasonic|KV-S3065CL
+SERVER unsupported
+DRIVER Parport
+UNSUPPORTED
+COMMENT might be supported by matsushita backend.
+
+NAME Panasonic|KV-S3085
+SERVER unsupported
+DRIVER Parport
+UNSUPPORTED
+COMMENT might be supported by matsushita backend.
+
+NAME Panasonic|KV-S3105C
+SERVER unsupported
+DRIVER Parport
+UNSUPPORTED
+COMMENT might be supported by matsushita backend.
+
+NAME Panasonic|KV-S6040W
+SERVER unsupported
+DRIVER Parport
+UNSUPPORTED
+COMMENT might be supported by matsushita backend.
+
+NAME Panasonic|KV-S6045W
+SERVER unsupported
+DRIVER Parport
+UNSUPPORTED
+COMMENT might be supported by matsushita backend.
+
+NAME Panasonic|KV-S6050W
+SERVER unsupported
+DRIVER Parport
+UNSUPPORTED
+COMMENT might be supported by matsushita backend.
+
+NAME Panasonic|KV-S6055W
+SERVER unsupported
+DRIVER Parport
+UNSUPPORTED
+COMMENT might be supported by matsushita backend.
+
 NAME PIE|Primefilm 1800u
 SERVER unsupported
 DRIVER USB
@@ -6069,17 +7272,23 @@ DRIVER USB IEEE-1394
 UNSUPPORTED
 COMMENT Probably not supported. 
 
+NAME Plustek, Inc.|OpticBook 3600
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT GL842 based (similar to GL841?), maybe ca be added to genesys backend. Bookscanner.
+
+NAME Plustek, Inc.|OpticFilm 7200
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT GL841 based, to be added to genesys backend
+
 NAME Plustek, Inc.|OpticPro A3U
 SERVER unsupported
 DRIVER USB
 UNSUPPORTED
 COMMENT Uses Plustek ASIC P99002
-
-NAME Plustek, Inc.|OpticSlim M12
-SERVER unsupported
-DRIVER USB
-UNSUPPORTED
-COMMENT Uses the GT6816 chipset. May be supported by the gt68xx backend in future. See link for details.
 
 NAME Plustek, Inc.|OpticPro S6
 SERVER unsupported
@@ -6087,11 +7296,57 @@ DRIVER USB
 UNSUPPORTED
 COMMENT Uses RealTek chipset (RTL8801D)
 
+NAME Plustek, Inc.|OpticPro S12
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+
+NAME Plustek, Inc.|OpticPro ST12
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+
+NAME Plustek, Inc.|OpticPro ST16
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT GL646 based, to be added to genesys backend
+
 NAME Plustek, Inc.|OpticPro UA18
 SERVER unsupported
 DRIVER USB
 UNSUPPORTED
 COMMENT Probably LM983x based.
+
+NAME Plustek, Inc.|OpticPro S24
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT GL646 based, to be added to genesys backend
+
+NAME Plustek, Inc.|OpticPro ST24
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT GL646 based, to be added to genesys backend
+
+NAME Plustek, Inc.|OpticPro S28
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT GL841 based, to be added to genesys backend
+
+NAME Plustek, Inc.|OpticPro ST28
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT GL841 based, to be added to genesys backend
+
+NAME Plustek, Inc.|OpticPro ST48
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT GL841 based, to be added to genesys backend
 
 NAME Plustek, Inc.|OpticPro ST64
 SERVER unsupported
@@ -6103,19 +7358,19 @@ NAME Plustek, Inc.|OpticSlim 2420
 SERVER unsupported
 DRIVER USB
 UNSUPPORTED
-COMMENT No further information available.
+COMMENT GL841 based, to be added to genesys backend
+
+NAME Plustek, Inc.|OpticSlim M12
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT Uses the GT6816 chipset. May be supported by the gt68xx backend in future. See link for details.
 
 NAME Plustek, Inc.|OpticWorks 2000
 SERVER unsupported
 DRIVER Parport
 UNSUPPORTED
 COMMENT Multifunction device. No further information available.
-
-NAME Plustek, Inc.|OpticBook 3600
-SERVER unsupported
-DRIVER USB
-UNSUPPORTED
-COMMENT Bookscanner. No further information available.
 
 NAME Plustek, Inc.|OptiCard 600+
 SERVER unsupported
@@ -6153,6 +7408,18 @@ DRIVER Parport
 UNSUPPORTED
 COMMENT Not supported. However, a stand-alone program is available.
 
+NAME Primax Electronics|Colorado USB 9600
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT Not supported. See link for details.
+
+NAME Primax Electronics|OneTouch 5300
+SERVER unsupported
+DRIVER Parport
+UNSUPPORTED
+COMMENT Not supported.
+
 NAME Quato|X-Finity
 SERVER unsupported
 DRIVER SCSI
@@ -6163,7 +7430,7 @@ NAME Reflecta|DigitDia 3600
 SERVER unsupported
 DRIVER USB IEEE-1394
 UNSUPPORTED
-COMMENT Probably unsupported. Film scanner that can scan directly from the magazine.
+COMMENT GL841 based, to be added to genesys backend. Film scanner that can scan directly from the magazine.
 
 NAME Reflecta|iScan 1800
 SERVER unsupported
@@ -6225,11 +7492,11 @@ DRIVER USB
 UNSUPPORTED
 COMMENT Not supported. Some information is available.
 
-NAME Umax|Astra 2100 U
+NAME Trust Technologies|CombiScan 19200
 SERVER unsupported
-DRIVER USB
+DRIVER Parport USB
 UNSUPPORTED
-COMMENT Probably not supported. See link for details.
+COMMENT Unsupported. See link for details.
 
 NAME Umax|Astra 3000
 SERVER unsupported
@@ -6253,7 +7520,7 @@ NAME Umax|Astra 4000
 SERVER unsupported
 DRIVER USB
 UNSUPPORTED
-COMMENT Probably not supported, no details known.
+COMMENT Not supported. See link for details.
 
 NAME Umax|Astra 4400
 SERVER unsupported
@@ -6267,11 +7534,23 @@ DRIVER USB
 UNSUPPORTED
 COMMENT Probably not supported. See link for details.
 
+NAME Umax|Astra 4500
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT GL646 based, to be added to genesys backend. Avision iVina FB1600 clone
+
 NAME Umax|Astra 4600
 SERVER unsupported
 DRIVER USB
 UNSUPPORTED
 COMMENT Probably not supported, no details known.
+
+NAME Umax|Astra 4700
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT GL646/GL660 based. Avision iVina FB1800 clone.
 
 NAME Umax|Astra 6700
 SERVER unsupported
@@ -6290,6 +7569,18 @@ SERVER unsupported
 DRIVER USB
 UNSUPPORTED
 COMMENT Probably not supported currently. May be supported in future. See link for more details.
+
+NAME Umax|AstraSlim 6000
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT Probably not supported currently. See link for more details.
+
+NAME Umax|Powerlook 180
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT Probably not supported. See link for details.
 
 NAME Visioneer|6200
 SERVER unsupported
@@ -6321,6 +7612,18 @@ DRIVER USB
 UNSUPPORTED
 COMMENT Unsupported. 48 bit scanner, doesn't work with viceo backend. RTS8801C. Vendor/product 0x04a7/0x0226.
 
+NAME Visioneer|OneTouch 6600
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT Unsupported. See link for details.
+
+NAME Visioneer|Onetouch 7100
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT GL646 based, to be added to genesys backend
+
 NAME Visioneer|OneTouch 8100
 SERVER unsupported
 DRIVER USB
@@ -6345,11 +7648,23 @@ DRIVER USB
 UNSUPPORTED
 COMMENT Not supported. Same as 8700 and 8900 but includes a TA. Uses a Primax ID. Chipset is RTS8801C. See link for output of /proc/bus/usb/devices.
 
+NAME Visioneer|Onetouch 9000
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT Not supported. See link for details.
+
 NAME Visioneer|Onetouch 9020
 SERVER unsupported
 DRIVER USB
 UNSUPPORTED
-COMMENT Not supported. Vendor/product: 0x04a7/0x022c.
+COMMENT Not supported. See link for details.
+
+NAME Visioneer|Onetouch Pro 8800
+SERVER unsupported
+DRIVER USB
+UNSUPPORTED
+COMMENT Probably not supported. See link for details.
 
 NAME Visioneer|Onetouch Pro 8820
 SERVER unsupported
@@ -6369,6 +7684,12 @@ DRIVER Parport
 UNSUPPORTED
 COMMENT Most probably not supported. More details would be appreciated.
 
+NAME Visioneer|PaperPort OneTouch
+SERVER unsupported
+DRIVER Parport
+UNSUPPORTED
+COMMENT Most probably not supported. See link for details.
+
 NAME Visioneer|Primascan Colorado 2600u
 SERVER unsupported
 DRIVER USB
@@ -6379,11 +7700,17 @@ NAME Xerox|2400 Onetouch
 SERVER unsupported
 DRIVER USB
 UNSUPPORTED
-COMMENT Not supported. See link for more details.
+COMMENT Probably GL646_HP based, maybe can be added to genesys backend
 
 NAME Xerox|DocuImage 620S
 SERVER unsupported
 DRIVER SCSI
+UNSUPPORTED
+COMMENT Not supported. See link for more details.
+
+NAME Xerox|WorkCentre 470cx
+SERVER unsupported
+DRIVER Parport
 UNSUPPORTED
 COMMENT Not supported. See link for more details.
 
