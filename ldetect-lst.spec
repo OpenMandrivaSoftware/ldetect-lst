@@ -11,7 +11,8 @@ Source: %{name}-%{version}.tar.bz2
 Group: System/Libraries
 BuildRoot: %{_tmppath}/%{name}-buildroot
 License: GPL
-PreReq: perl-base
+Requires(post): perl-base gzip
+Requires(preun): perl-base
 BuildRequires: perl-MDK-Common
 Provides: hwdata
 
