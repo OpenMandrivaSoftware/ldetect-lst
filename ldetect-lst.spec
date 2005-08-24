@@ -11,8 +11,7 @@ Source: %{name}-%{version}.tar.bz2
 Group: System/Libraries
 BuildRoot: %{_tmppath}/%{name}-buildroot
 License: GPL
-Requires(post): perl-base gzip
-Requires(preun): perl-base
+PreReq: perl-base
 BuildRequires: perl-MDK-Common
 Provides: hwdata
 
@@ -64,6 +63,7 @@ fi
 %{_bindir}/*
 
 %changelog
+
 * Wed Aug 24 2005 Pixel <pixel@mandriva.com> 0.1.102-1mdk
 - gzip pcitable, usbtable and dmitable (to win space), 
   use a hard link when possible to win even more room
