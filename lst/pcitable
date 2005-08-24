@@ -1265,6 +1265,7 @@
 0x1039	0x0018	"i2c-sis630"	"Silicon Integrated Systems [SiS]|SiS85C503/5513 (LPC Bridge)"
 0x1039	0x0180	"sata_sis"	"Silicon Integrated Systems [SiS]|RAID bus controller 180 SATA/PATA  [SiS]"
 0x1039	0x0181	"sata_sis"	"Silicon Integrated Systems [SiS]|SiS SATA"
+0x1039	0x0182	"sata_sis"	"Silicon Integrated Systems [SiS]|SiS SATA"
 0x1039	0x0190	"sis190"	"Silicon Integrated Systems [SiS]|"
 0x1039	0x0200	"Card:SiS 5598"	"Silicon Integrated Systems [SiS]|5597/5598/6326 VGA"
 0x1039	0x0204	"Card:VESA driver (generic)"	"Silicon Integrated Systems [SiS]|82C204"
