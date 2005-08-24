@@ -3,17 +3,24 @@
 my $dir = '/usr/share/ldetect-lst';
 my @files = qw(pcitable usbtable isatable pcmciatable dmitable);
 
-unlink "$dir/$_" foreach @files;
+unlink("$dir/$_", "$dir/$_.gz") foreach @files;
 
 $ARGV[0] eq '--clean' and exit 0;
 
 foreach (@files) {
     my $d = "$dir/$_.d";
     -d $d or next;
-    my @l = sort glob("$d/*.lst") or next;
-    open(my $OUT, " > $dir/$_");
-    foreach (@l) {
-	open(my $IN, $_) or next;
-	print $OUT $_ foreach <$IN>;
+    my @l = sort glob("$d/*.lst");
+    my @l_gz = sort glob("$d/*.lst.gz");
+    @l || @l_gz or next;
+    if (@l == 0 && @l_gz == 1) {
+	link $l_gz[0], "$dir/$_.gz";
+    } else {
+	open(my $OUT, "| gzip -9 > $dir/$_.gz");
+	push @l, map { "gzip -dc $_ |" } @l_gz;
+	foreach (@l) {
+	    open(my $IN, $_) or next;
+	    print $OUT $_ foreach <$IN>;
+	}
     }
 }
