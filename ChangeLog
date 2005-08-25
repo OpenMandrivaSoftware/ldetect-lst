@@ -1,3 +1,8 @@
+2005-08-25 11:49  Pixel <pixel at mandriva.com>
+
+	* convert/merge2pcitable.pl: keep previous behaviour (silently
+	  ignore missing file)
+
 2005-08-25 11:31  Pixel <pixel at mandriva.com>
 
 	* ldetect-lst.spec, convert/merge2pcitable.pl: modify
