@@ -65,7 +65,7 @@ sub read_pcitable {
 	    /"/ && $strict and error("$f:$line: bad double quote");
 	    $_;
     };
-    foreach (cat_($f)) {
+    foreach (catMaybeCompressed($f)) {
 	chomp; $line++;
 	next if /^#/ || /^\s*$/;
 

@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.103
+%define version 0.1.104
 %define release 1mdk
 
 Name: %{name}
@@ -64,6 +64,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Thu Aug 25 2005 Pixel <pixel@mandriva.com> 0.1.104-1mdk
+- modify merge2pcitable.pl to handle compressed pcitable
+
 * Wed Aug 24 2005 Thierry Vignaud <tvignaud@mandriva.com> 0.1.103-1mdk
 - updated scanner database for SANE 1.0.16 (till)
 - switch a cople network cards from eepro100 to e100
