@@ -1,3 +1,12 @@
+2005-08-25 11:31  Pixel <pixel at mandriva.com>
+
+	* ldetect-lst.spec, convert/merge2pcitable.pl: modify
+	  merge2pcitable.pl to handle compressed pcitable
+
+2005-08-24 19:12  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* ldetect-lst.spec: revert bogus changes (fscking cvs!!!)
+
 2005-08-24 19:04  Thierry Vignaud <tvignaud at mandriva.com>
 
 	* ldetect-lst.spec: 0.1.103-1mdk
