@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.104
+%define version 0.1.105
 %define release 1mdk
 
 Name: %{name}
@@ -64,6 +64,15 @@ fi
 %{_bindir}/*
 
 %changelog
+* Mon Aug 29 2005 Olivier Blin <oblin@mandriva.com> 0.1.105-1mdk
+- add some ATI X700 pro and X850 cards
+- from Thierry Vignaud:
+  o switch one i810 from OSS to ALSA (#17905)
+  o add support for snd-asihpi
+  o sanitize: use the same driver than the device w/o sub
+    ids for this device with sub ids
+  o lst/pcitable: sync with latest pci.ids
+
 * Thu Aug 25 2005 Pixel <pixel@mandriva.com> 0.1.104-1mdk
 - modify merge2pcitable.pl to handle compressed pcitable
 
