@@ -1,6 +1,10 @@
-2005-08-29 16:10  Olivier Blin <oblin at mandriva.com>
+2005-08-29 16:39  Frederic Lepied <flepied at mandriva.com>
 
-	* ldetect-lst.spec: 0.1.105-1mdk
+	* ldetect-lst.spec: 0.1.106-1mdk
+
+2005-08-29 16:30  Frederic Lepied <flepied at mandriva.com>
+
+	* lst/Cards+: use the ati driver for the radeon and r128 cards
 
 2005-08-29 16:08  Olivier Blin <oblin at mandriva.com>
 
