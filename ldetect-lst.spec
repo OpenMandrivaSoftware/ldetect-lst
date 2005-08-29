@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.105
+%define version 0.1.106
 %define release 1mdk
 
 Name: %{name}
@@ -64,6 +64,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Mon Aug 29 2005 Frederic Lepied <flepied@mandriva.com> 0.1.106-1mdk
+- use the ati driver for the radeon and r128 video cards
+
 * Mon Aug 29 2005 Olivier Blin <oblin@mandriva.com> 0.1.105-1mdk
 - add some ATI X700 pro and X850 cards
 - from Thierry Vignaud:
