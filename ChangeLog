@@ -1,3 +1,26 @@
+2005-08-29 16:08  Olivier Blin <oblin at mandriva.com>
+
+	* lst/pcitable: add some ATI x700 pro and x850 cards
+
+2005-08-26 18:04  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: switch one i810 from OSS to ALSA (#17905)
+
+2005-08-26 00:42  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: add support for snd-asihpi
+
+2005-08-25 14:38  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: sanitize: use the same driver the device w/o sub
+	  ids for this device with sub ids (anyway, the driver field is
+	  filled with it on build by the update script b/c it's set to
+	  "unknown')
+
+2005-08-25 14:24  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: sync with latest pci.ids
+
 2005-08-25 11:49  Pixel <pixel at mandriva.com>
 
 	* convert/merge2pcitable.pl: keep previous behaviour (silently
