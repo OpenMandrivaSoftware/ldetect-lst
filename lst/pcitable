@@ -1691,6 +1691,7 @@
 0x1057	0x1802	"unknown"	"Motorola|DSP56305 24-Bit Digital Signal Processor"
 0x1057	0x18c0	"unknown"	"Motorola|MPC8265A/MPC8266"
 0x1057	0x18c1	"unknown"	"Motorola|MPC8271/MPC8272"
+0x1057	0x3052	"sm56"	"Motorola|SM56 PCI Modem"
 0x1057	0x3410	0xecc0	0x0050	"snd-gina24"	"Motorola|Gina24 rev.0"
 0x1057	0x3410	0xecc0	0x0051	"snd-gina24"	"Motorola|Gina24 rev.1"
 0x1057	0x3410	0xecc0	0x0060	"snd-layla24"	"Motorola|Layla24"
