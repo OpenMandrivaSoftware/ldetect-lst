@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.106
+%define version 0.1.107
 %define release 1mdk
 
 Name: %{name}
@@ -64,6 +64,12 @@ fi
 %{_bindir}/*
 
 %changelog
+* Mon Sep  5 2005 Thierry Vignaud <tvignaud@mandriva.com> 0.1.107-1mdk
+- replace all "mptspi" references by "mptscsih" (the former is a
+  subfile of the latter)
+- fix on a laptop with fglxrc (pixel)
+- add brazilian Motorola SM56 modem (blino)
+
 * Mon Aug 29 2005 Frederic Lepied <flepied@mandriva.com> 0.1.106-1mdk
 - use the ati driver for the radeon and r128 video cards
 
