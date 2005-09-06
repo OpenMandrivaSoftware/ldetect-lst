@@ -7071,6 +7071,7 @@
 0x2375	0x0001	"unknown"	"Digit@lway, Inc.|Digital Audio Player"
 0x2478	0x2008	"pl2303"	""
 0x2632	0x3209	"unknown"	"TwinMOS|7-in-1 Card Reader"
+0x2735	0x4104	"usb-storage"	""
 0x2770	0x9120	"unknown"	"NHJ, Ltd|Che-ez! Snap / iClick Tiny VGA Digital Camera"
 0x2821	0x3300	"prism2_usb"	""
 0x2c02	0x14ea	"prism2_usb"	""
