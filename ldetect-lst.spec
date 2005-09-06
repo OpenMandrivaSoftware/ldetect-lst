@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.107
+%define version 0.1.108
 %define release 1mdk
 
 Name: %{name}
@@ -64,6 +64,10 @@ fi
 %{_bindir}/*
 
 %changelog
+* Tue Sep  6 2005 Thierry Vignaud <tvignaud@mandriva.com> 0.1.108-1mdk
+- sync with latest pci.ids
+- workaround kernel failling to report the proper driver to use (#17688)
+
 * Mon Sep  5 2005 Thierry Vignaud <tvignaud@mandriva.com> 0.1.107-1mdk
 - replace all "mptspi" references by "mptscsih" (the former is a
   subfile of the latter)
