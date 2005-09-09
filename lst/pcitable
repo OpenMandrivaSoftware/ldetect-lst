@@ -6620,6 +6620,8 @@
 0x8086	0x2776	"unknown"	"Intel Corporation|Integrated Graphics Controller"
 0x8086	0x2778	"unknown"	"Intel Corporation|Server Memory Controller Hub"
 0x8086	0x2779	"unknown"	"Intel Corporation|PCI Express Root Port"
+0x8086	0x277a	"unknown"	"Intel Corporation|PCI Express Graphics Port"
+0x8086	0x277d	"unknown"	"Intel Corporation|PCI Express Graphics Port"
 0x8086	0x2782	"unknown"	"Intel Corp.|Graphics Controller"
 0x8086	0x2792	"unknown"	"Intel Corp.|Mobile Graphics Controller"
 0x8086	0x27a0	"unknown"	"Intel Corporation|Mobile Memory Controller Hub"
