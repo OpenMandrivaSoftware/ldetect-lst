@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.109
+%define version 0.1.110
 %define release 1mdk
 
 Name: %{name}
@@ -64,6 +64,10 @@ fi
 %{_bindir}/*
 
 %changelog
+* Fri Sep  9 2005 Thierry Vignaud <tvignaud@mandriva.com> 0.1.110-1mdk
+- sync with latest pci.ids
+- add sata_mv
+
 * Wed Sep  7 2005 Thierry Vignaud <tvignaud@mandriva.com> 0.1.109-1mdk
 - sync with kernel-2.6.13-mm1
 
