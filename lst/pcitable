@@ -1453,6 +1453,7 @@
 0x103c	0x3220	"unknown"	"Hewlett-Packard Company|Hewlett-Packard Smart Array P600"
 0x103c	0x3222	0x103c	0x3223	"cciss"	""
 0x103c	0x3230	"cciss"	"Hewlett-Packard Company|Smart Array"
+0x103c	0x3238	"cciss"	"Hewlett-Packard Company|Smart Array P400/E200"
 0x1042	0x1000	"rz1000"	"Micron|FDC 37C665"
 0x1042	0x1001	"rz1000"	"Micron|37C922"
 0x1042	0x3000	"unknown"	"Micron|Samurai_0"
