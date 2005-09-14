@@ -5208,7 +5208,7 @@
 0x14f1	0x1025	"Hcf:www.linmodems.org"	"Conexant Systems, Inc.|HCF 56k Modem"
 0x14f1	0x1026	"Hcf:www.linmodems.org"	"Conexant Systems, Inc.|HCF 56k Modem"
 0x14f1	0x1032	"Hcf:www.linmodems.org"	"Conexant Systems, Inc.|HCF 56k Modem"
-0x14f1	0x1033	"unknown"	"CONEXANT|56K Winmodem"
+0x14f1	0x1033	"Hcf:www.linmodems.org"	"Conexant Systems, Inc.|HCF 56k Data/Fax Modem"
 0x14f1	0x1034	"Hcf:www.linmodems.org"	"Conexant|HCF 56k Data/Fax/Voice Modem"
 0x14f1	0x1035	"unknown"	"Conexant|PCI Modem Enumerator"
 0x14f1	0x1036	"Hcf:www.linmodems.org"	"Conexant|HCF 56k Data/Fax/Voice/Spkp Modem"
