@@ -1,3 +1,19 @@
+2005-09-14 22:16  Olivier Blin <oblin at mandriva.com>
+
+	* lst/pcitable: add a conexant modem (chandra)
+
+2005-09-14 21:40  Olivier Blin <oblin at mandriva.com>
+
+	* lst/Cards+: use nvidia legacy drivers for TNT2/GeForce/GeForce2
+
+2005-09-13 20:05  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: Add support for NVidia azalia controller
+
+2005-09-13 14:56  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: add support for Smart Array P400/E200
+
 2005-09-09 19:47  Thierry Vignaud <tvignaud at mandriva.com>
 
 	* ldetect-lst.spec: 0.1.110-1mdk
