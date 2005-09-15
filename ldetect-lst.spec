@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.110
+%define version 0.1.111
 %define release 1mdk
 
 Name: %{name}
@@ -64,6 +64,10 @@ fi
 %{_bindir}/*
 
 %changelog
+* Thu Sep 15 2005 Pixel <pixel@mandriva.com> 0.1.111-1mdk
+- fix entries for Acer Aspire 1362: we had Card for bridges and unknown for the card
+  (thanks to Torbjorn Turpeinen)
+
 * Fri Sep  9 2005 Thierry Vignaud <tvignaud@mandriva.com> 0.1.110-1mdk
 - sync with latest pci.ids
 - add sata_mv
