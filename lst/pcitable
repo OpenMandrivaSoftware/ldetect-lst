@@ -2955,7 +2955,6 @@
 0x10de	0x036d	"unknown"	"nVidia Corporation|MCP55 USB Controller"
 0x10de	0x036e	"amd74xx"	"nVidia Corporation|MCP55 Serial ATA Controller"
 0x10de	0x036f	"sata_nv"	"nVidia Corporation|MCP55 Serial ATA Controller"
-0x10de	0x026c	"snd-hda-intel"	""
 0x10de	0x0372	"forcedeth"	"nVidia Corporation|MCP55 Ethernet"
 0x10de	0x0373	"forcedeth"	"nVidia Corporation|MCP55 Ethernet"
 0x10de	0x037a	"unknown"	"nVidia Corporation|MCP55 Memory Controller"
