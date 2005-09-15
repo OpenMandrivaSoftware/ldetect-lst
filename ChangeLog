@@ -1,3 +1,13 @@
+2005-09-15 15:26  Pixel <pixel at mandriva.com>
+
+	* lst/pcitable: fix bad entry
+
+2005-09-15 15:25  Pixel <pixel at mandriva.com>
+
+	* ldetect-lst.spec, lst/pcitable: fix entries for Acer Aspire 1362:
+	  we had Card for bridges and unknown for the card (thanks to
+	  Torbjorn Turpeinen)
+
 2005-09-14 22:16  Olivier Blin <oblin at mandriva.com>
 
 	* lst/pcitable: add a conexant modem (chandra)
