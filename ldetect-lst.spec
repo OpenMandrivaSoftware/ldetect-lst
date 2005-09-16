@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.111
+%define version 0.1.112
 %define release 1mdk
 
 Name: %{name}
@@ -64,6 +64,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Fri Sep 16 2005 Olivier Blin <oblin@mandriva.com> 0.1.112-1mdk
+- use slamr or hsf instead of snd-intel8x0m on some Dell laptops
+
 * Thu Sep 15 2005 Pixel <pixel@mandriva.com> 0.1.111-1mdk
 - fix entries for Acer Aspire 1362: we had Card for bridges and unknown for the card
   (thanks to Torbjorn Turpeinen)
