@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.112
+%define version 0.1.113
 %define release 1mdk
 
 Name: %{name}
@@ -64,6 +64,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Sun Sep 18 2005 Thierry Vignaud <tvignaud@mandriva.com> 0.1.113-1mdk
+- prevent writing unparsable xorg.conf files
+
 * Fri Sep 16 2005 Olivier Blin <oblin@mandriva.com> 0.1.112-1mdk
 - use slamr or hsf instead of snd-intel8x0m on some Dell laptops
 
