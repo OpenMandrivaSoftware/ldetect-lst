@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.113
+%define version 0.1.114
 %define release 1mdk
 
 Name: %{name}
@@ -64,6 +64,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Mon Sep 19 2005 Pixel <pixel@mandriva.com> 0.1.114-1mdk
+- fix update-ldetect-lst ordering of mixed *.lst and *.lst.gz
+
 * Sun Sep 18 2005 Thierry Vignaud <tvignaud@mandriva.com> 0.1.113-1mdk
 - prevent writing unparsable xorg.conf files
 

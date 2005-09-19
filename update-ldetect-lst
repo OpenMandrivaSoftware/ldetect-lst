@@ -10,16 +10,14 @@ $ARGV[0] eq '--clean' and exit 0;
 foreach (@files) {
     my $d = "$dir/$_.d";
     -d $d or next;
-    my @l = sort glob("$d/*.lst");
-    my @l_gz = sort glob("$d/*.lst.gz");
-    @l || @l_gz or next;
-    if (@l == 0 && @l_gz == 1) {
-	link $l_gz[0], "$dir/$_.gz";
+    my @l = sort(glob("$d/*.lst"), glob("$d/*.lst.gz")) or next;
+
+    if (@l == 1 && $l[0] =~ /gz$/) {
+	link $l[0], "$dir/$_.gz";
     } else {
 	open(my $OUT, "| gzip -9 > $dir/$_.gz");
-	push @l, map { "gzip -dc $_ |" } @l_gz;
 	foreach (@l) {
-	    open(my $IN, $_) or next;
+	    open(my $IN, /gz$/ ? "gzip -dc $_ |" : $_) or next;
 	    print $OUT $_ foreach <$IN>;
 	}
     }
