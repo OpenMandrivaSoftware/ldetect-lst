@@ -6593,6 +6593,7 @@
 0x8086	0x266c	"unknown"	"Intel Corp.|82801FB/FBM/FR/FW/FRW (ICH6 Family) LAN Controller"
 0x8086	0x266d	0x103c	0x0934	"slamr"	"Intel Corp.|I/OController Hub Modem"
 0x8086	0x266d	0x103c	0x0944	"slamr"	"Intel Corp.|I/OController Hub Modem"
+0x8086	0x266d	0x103c	0x099c	"slamr"	"Intel Corp.|I/OController Hub Modem"
 0x8086	0x266d	0x14f1	0x5423	"Hsf:www.linmodems.org"	"Intel Corp.|I/OController Hub Modem"
 0x8086	0x266d	0x17c0	0x10ab	"slamr"	"Intel Corp.|I/OController Hub Modem"
 0x8086	0x266d	"snd-intel8x0m"	"Intel Corp.|I/O Controller Hub Modem"
