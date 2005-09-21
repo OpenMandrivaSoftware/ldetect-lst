@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.115
+%define version 0.1.114
 %define release 1mdk
 
 Name: %{name}
@@ -64,9 +64,6 @@ fi
 %{_bindir}/*
 
 %changelog
-* Tue Sep 20 2005 Olivier Blin <oblin@mandriva.com> 0.1.115-1mdk
-- add a new slamr modem
-
 * Mon Sep 19 2005 Pixel <pixel@mandriva.com> 0.1.114-1mdk
 - fix update-ldetect-lst ordering of mixed *.lst and *.lst.gz
 
