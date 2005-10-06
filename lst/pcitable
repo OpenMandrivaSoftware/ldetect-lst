@@ -6591,6 +6591,7 @@
 0x8086	0x2668	"snd-hda-intel"	"Intel Corp.|I/O Controller Hub Audio"
 0x8086	0x266a	"i2c-i801"	"Intel Corp.|I/O Controller Hub SMBus"
 0x8086	0x266c	"unknown"	"Intel Corp.|82801FB/FBM/FR/FW/FRW (ICH6 Family) LAN Controller"
+0x8086	0x266d	0x1014	0x0574	"Hsf:www.linmodems.org"	"Intel Corp.|I/OController Hub Modem"
 0x8086	0x266d	0x103c	0x0934	"slamr"	"Intel Corp.|I/OController Hub Modem"
 0x8086	0x266d	0x103c	0x0944	"slamr"	"Intel Corp.|I/OController Hub Modem"
 0x8086	0x266d	0x103c	0x099c	"slamr"	"Intel Corp.|I/OController Hub Modem"
