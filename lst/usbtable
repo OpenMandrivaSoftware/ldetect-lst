@@ -1520,7 +1520,7 @@
 0x0471	0x030b	"se401"	"Philips|USB WebCam"
 0x0471	0x030c	"pwc"	"Philips|PCVC690K WebCam"
 0x0471	0x0310	"pwc"	"Philips|PCVC730K WebCam"
-0x0471	0x0311	"pwc"	"Philips|PCVC740K ToUcam Pro"
+0x0471	0x0311	"pwc"	""
 0x0471	0x0312	"pwc"	"Philips|PCVC750K WebCam"
 0x0471	0x0313	"pwc"	""
 0x0471	0x0471	"unknown"	"Philips|Digital Speaker System"
