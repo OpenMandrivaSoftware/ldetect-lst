@@ -8,7 +8,7 @@ Release: %{release}
 Summary: Hardware list for the light detection library
 URL: http://cvs.mandriva.com/cgi-bin/cvsweb.cgi/soft/ldetect-lst/
 Source: %{name}-%{version}.tar.bz2
-Group: System/Libraries
+Group: System/Kernel and hardware
 BuildRoot: %{_tmppath}/%{name}-buildroot
 License: GPL
 Requires(post): perl-base gzip
