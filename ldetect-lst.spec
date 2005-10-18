@@ -64,7 +64,7 @@ fi
 %{_bindir}/*
 
 %changelog
-* Tue Oct 18 2005 Thierry Vignaud <tvignaud@mandriva.com> 0.1.115-1mdk
+* Tue Oct 18 2005 Thierry Vignaud <tvignaud@mandriva.com> 0.1.116-1mdk
 - add 5 pci modem entries (blino)
 - sync with kernel-2.6.14-rc4-mm1 and with latest pci.ids
 - usbtable: remove description of 0x0471:0x0311 as both PCVC740K and
