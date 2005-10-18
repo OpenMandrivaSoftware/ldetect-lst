@@ -64,6 +64,13 @@ fi
 %{_bindir}/*
 
 %changelog
+* Tue Oct 18 2005 Thierry Vignaud <tvignaud@mandriva.com> 0.1.114-1mdk
+- add 5 pci modem entries (blino)
+- sync with kernel-2.6.14-rc4-mm1 and with latest pci.ids
+- usbtable: remove description of 0x0471:0x0311 as both PCVC740K and
+  PCVC840K share the same ids; let the kernel extract the right name
+  out of the USB device (#18946)
+
 * Mon Sep 19 2005 Pixel <pixel@mandriva.com> 0.1.114-1mdk
 - fix update-ldetect-lst ordering of mixed *.lst and *.lst.gz
 
