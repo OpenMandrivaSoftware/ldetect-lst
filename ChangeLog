@@ -1,3 +1,53 @@
+2005-10-18 14:41  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* ldetect-lst.spec: 0.1.114-1mdk
+
+2005-10-18 14:38  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: sync with latest pci.ids
+
+2005-10-18 14:08  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: sync with kernel-2.6.14-rc4-mm1
+
+2005-10-17 10:32  Pixel <pixel at mandriva.com>
+
+	* ldetect-lst.spec: fix rpm Group
+
+2005-10-12 16:38  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: sync with kernel-2.6.14-rc2-mm1
+
+2005-10-07 16:38  Olivier Blin <oblin at mandriva.com>
+
+	* ldetect-lst.spec: use mkrel
+
+2005-10-07 16:15  Olivier Blin <oblin at mandriva.com>
+
+	* lst/pcitable: add another slamr entry (X-Book)
+
+2005-10-06 21:53  Olivier Blin <oblin at mandriva.com>
+
+	* lst/pcitable: add a new Hsf modem entry (IBM R52)
+
+2005-10-06 21:05  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/usbtable: remove description of 0x0471:0x0311 as both
+	  PCVC740K and PCVC840K share the same ids; let the kernel extract
+	  the right name out of the USB device (#18946)
+
+2005-09-21 13:54  Olivier Blin <oblin at mandriva.com>
+
+	* ldetect-lst.spec: revert not uploaded 0.1.115 modifications
+
+2005-09-21 13:54  Olivier Blin <oblin at mandriva.com>
+
+	* lst/pcitable: add yet another slamr modem
+
+2005-09-21 13:45  Olivier Blin <oblin at mandriva.com>
+
+	* lst/pcitable: add another slamr modem
+
 2005-09-20 20:23  Olivier Blin <oblin at mandriva.com>
 
 	* ldetect-lst.spec: 0.1.115-1mdk
