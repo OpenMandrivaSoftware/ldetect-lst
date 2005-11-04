@@ -2308,7 +2308,7 @@
 0x10b5	0x9050	0xd84d	0x4038	"unknown"	"PLX Technology Inc.|EX-4038 2S(16C850) RS-232"
 0x10b5	0x9050	0xd84d	0x4052	"unknown"	"PLX Technology Inc.|EX-4052 1S(16C550) RS-422/485"
 0x10b5	0x9050	0xd84d	0x4053	"unknown"	"PLX Technology Inc.|EX-4053 2S(16C550) RS-422/485"
-0x10b5	0x9050	0xd84d	0x4055	"unknown"	"PLX Technology Inc.|EX-4055 4S(16C550) RS-232"
+0x10b5	0x9050	0xd84d	0x4055	"8250_pci"	"PLX Technology Inc.|EX-4055 4S(16C550) RS-232"
 0x10b5	0x9050	0xd84d	0x4058	"unknown"	"PLX Technology Inc.|EX-4055 4S(16C650) RS-232"
 0x10b5	0x9050	0xd84d	0x4065	"unknown"	"PLX Technology Inc.|EX-4065 8S(16C550) RS-232"
 0x10b5	0x9050	0xd84d	0x4068	"unknown"	"PLX Technology Inc.|EX-4068 8S(16C650) RS-232"
