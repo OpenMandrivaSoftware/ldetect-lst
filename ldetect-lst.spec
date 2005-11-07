@@ -66,7 +66,7 @@ fi
 %changelog
 * Mon Nov  7 2005 Thierry Vignaud <tvignaud@mandriva.com> 0.1.117-1mdk
 - sync with latest pciutils
-- sync with kernel-multimedia-2.6.12-12.mm.7mdk and  kernel-2.6.14
+- sync with kernel-multimedia-2.6.12-12.mm.7mdk and kernel-2.6.14
 - homogeneize companies names (erwan)
 - fill a cople void decriptions (erwan)
 - add 2 ATI entries (erwan)
