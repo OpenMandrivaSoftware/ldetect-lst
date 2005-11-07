@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.116
+%define version 0.1.117
 %define release %mkrel 1
 
 Name: %{name}
@@ -64,6 +64,13 @@ fi
 %{_bindir}/*
 
 %changelog
+* Mon Nov  7 2005 Thierry Vignaud <tvignaud@mandriva.com> 0.1.117-1mdk
+- sync with latest pciutils
+- sync with kernel-multimedia-2.6.12-12.mm.7mdk and  kernel-2.6.14
+- homogeneize companies names (erwan)
+- fill a cople void decriptions (erwan)
+- add 2 ATI entries (erwan)
+
 * Tue Oct 18 2005 Thierry Vignaud <tvignaud@mandriva.com> 0.1.116-1mdk
 - add 5 pci modem entries (blino)
 - sync with kernel-2.6.14-rc4-mm1 and with latest pci.ids
