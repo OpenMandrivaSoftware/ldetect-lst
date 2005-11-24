@@ -3215,7 +3215,7 @@
 0x1106	0x0296	"via-agp"	"VIA Technologies Inc.|P4M800 Host Bridge"
 0x1106	0x0305	"via-agp"	"VIA Technologies Inc.|VT8363/8365 [KT133/KM133]"
 0x1106	0x0308	"unknown"	"VIA Technologies Inc.|PT894 Host Bridge"
-0x1106	0x0314	"unknown"	"VIA Technologies Inc.|P4M800CE Host Bridge"
+0x1106	0x0314	"via-agp"	"VIA Technologies Inc.|P4M800CE Host Bridge"
 0x1106	0x0391	"via-agp"	"VIA Technologies Inc.|VT8371 [KX133]"
 0x1106	0x0501	"via-agp"	"VIA Technologies Inc.|VT8501"
 0x1106	0x0505	"unknown"	"VIA Technologies Inc.|VT82C505"
