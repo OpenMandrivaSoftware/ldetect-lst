@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.117
+%define version 0.1.118
 %define release %mkrel 1
 
 Name: %{name}
@@ -64,6 +64,12 @@ fi
 %{_bindir}/*
 
 %changelog
+* Fri Nov 25 2005 Thierry Vignaud <tvignaud@mandriva.com> 0.1.118-1mdk
+- sync with latest pci.ids
+- sync with kernel-2.6.15-rc2-mm1
+- fill in some descriptions
+- kill some buggy entries
+
 * Mon Nov  7 2005 Thierry Vignaud <tvignaud@mandriva.com> 0.1.117-1mdk
 - sync with latest pciutils
 - sync with kernel-multimedia-2.6.12-12.mm.7mdk and kernel-2.6.14
