@@ -942,6 +942,7 @@
 0x1022	0x2020	"tmscsim"	"Advanced Micro Devices|53c974 [PCscsi]"
 0x1022	0x2040	"unknown"	"Advanced Micro Devices|79c974"
 0x1022	0x208f	"unknown"	"Advanced Micro Devices|CS5536 GeodeLink PCI South Bridge"
+0x1022	0x2093	"snd-cs5535audio"	"Advanced Micro Devices|CS5536 Audio"
 0x1022	0x209a	"pata_amd"	""
 0x1022	0x3000	"unknown"	"Advanced Micro Devices|ELanSC520 Microcontroller"
 0x1022	0x7004	"unknown"	"Advanced Micro Devices|AMD-751 CPU to PCI Bridge"
