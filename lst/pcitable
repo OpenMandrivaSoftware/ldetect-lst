@@ -6190,7 +6190,6 @@
 0x8086	0x1040	"unknown"	"Intel Corp.|536EP v.92 modem (MD5628D-L-C ?)"
 0x8086	0x1042	"unknown"	"Intel Corp.|PRO/Wireless 2011 LAN PCI Card"
 0x8086	0x1043	0x103c	0x2741	"ipw2200"	"Intel Corp.|PRO/Wireless LAN 2200"
-0x8086	0x1043	0x8086	0x2527	"ipw2100"	"Intel Corp.|MIM2000/Centrino"
 0x8086	0x1043	0x8086	0x2701	"ipw2200"	"Intel Corp.|PRO/Wireless LAN 2200"
 0x8086	0x1043	0x8086	0x2702	"ipw2200"	"Intel Corp.|PRO/Wireless LAN 2200"
 0x8086	0x1043	0x8086	0x2711	"ipw2200"	"Intel Corp.|PRO/Wireless LAN 2200"
