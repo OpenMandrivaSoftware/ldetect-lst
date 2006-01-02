@@ -1749,7 +1749,7 @@
 0x1057	0x1801	0xecc0	0x0070	"snd-mona"	"Motorola|Mona rev.0"
 0x1057	0x1801	0xecc0	0x0071	"snd-mona"	"Motorola|Mona rev.1"
 0x1057	0x1801	0xecc0	0x0072	"snd-mona"	"Motorola|Mona rev.2"
-0x1057	0x1801	"snd-gina20"	"Motorola|Audio I/O Controller (MIDI)"
+0x1057	0x1801	"snd-asihpi"	"Motorola|Audio I/O Controller (MIDI)"
 0x1057	0x1802	"unknown"	"Motorola|DSP56305 24-Bit Digital Signal Processor"
 0x1057	0x18c0	"unknown"	"Motorola|MPC8265A/MPC8266"
 0x1057	0x18c1	"unknown"	"Motorola|MPC8271/MPC8272"
