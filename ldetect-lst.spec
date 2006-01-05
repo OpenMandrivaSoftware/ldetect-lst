@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.118
+%define version 0.1.119
 %define release %mkrel 1
 
 Name: %{name}
@@ -64,6 +64,13 @@ fi
 %{_bindir}/*
 
 %changelog
+* Thu Jan  5 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.119-1mdk
+- add support for AMD CS5536
+- clean some ALSA entries
+- sync with kernel-2.6.15-mm1
+- sync with kernel-multimedia-2.6.14-0.mm.3mdk
+- sync with latest pci.ids
+
 * Fri Nov 25 2005 Thierry Vignaud <tvignaud@mandriva.com> 0.1.118-1mdk
 - sync with latest pci.ids
 - sync with kernel-2.6.15-rc2-mm1
