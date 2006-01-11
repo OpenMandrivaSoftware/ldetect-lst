@@ -6829,7 +6829,7 @@
 0x8086	0x2828	"ata_piix"	""
 0x8086	0x2829	"ahci"	""
 0x8086	0x282a	"ahci"	""
-0x8086	0x284b	"unknown"	"Intel Corp.|ICH8 HD Audio DID"
+0x8086	0x284b	"snd-hda-intel"	"Intel Corp.|ICH8 HD Audio DID"
 0x8086	0x2850	"piix"	""
 0x8086	0x2982	"Card:Intel 915"	"Intel Corp.|Intel Corp.|i915 Graphics Controller"
 0x8086	0x3092	"i2o_block"	"Intel Corp.|Integrated RAID"
