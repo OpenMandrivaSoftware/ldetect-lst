@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.119
+%define version 0.1.120
 %define release %mkrel 1
 
 Name: %{name}
@@ -64,6 +64,11 @@ fi
 %{_bindir}/*
 
 %changelog
+* Wed Jan 11 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.120-1mdk
+- add support for Intel ICH8
+- add HIQ500a (Andres Kaaber)
+- sync with kernel-2.6.15-mm3 and latest pci.ids
+
 * Thu Jan  5 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.119-1mdk
 - add support for AMD CS5536
 - clean some ALSA entries
