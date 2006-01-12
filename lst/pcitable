@@ -6843,7 +6843,7 @@
 0x8086	0x2835	"unknown"	"Intel Corporation|USB UHCI Controller #5"
 0x8086	0x2836	"unknown"	"Intel Corporation|USB2 EHCI Controller #1"
 0x8086	0x283a	"unknown"	"Intel Corporation|USB2 EHCI Controller #2"
-0x8086	0x283e	"unknown"	"Intel Corporation|SMBus Controller"
+0x8086	0x283e	"i2c-i801"	"Intel Corporation|SMBus Controller"
 0x8086	0x283f	"unknown"	"Intel Corporation|PCI Express Port 1"
 0x8086	0x2841	"unknown"	"Intel Corporation|PCI Express Port 2"
 0x8086	0x2843	"unknown"	"Intel Corporation|PCI Express Port 3"
