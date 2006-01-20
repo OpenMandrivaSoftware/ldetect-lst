@@ -5709,13 +5709,13 @@ DRIVER USB
 COMMENT Reports about scanning problems. 1800 dpi seems to work if only small scan areas are selected.
 
 # from /home/test/sane-backends-1.0.17/doc/descriptions-external/hp8200.desc
-NAME Hewlett Packard|ScanJet 8200
+NAME Hewlett-Packard|ScanJet 8200
 SERVER hp8200
 DRIVER USB
 COMMENT External backend. Binary-only code. Not supported by the SANE developers.
 
 # from /home/test/sane-backends-1.0.17/doc/descriptions-external/hp3770.desc
-NAME Hewlett Packard|ScanJet 3770
+NAME Hewlett-Packard|ScanJet 3770
 SERVER hp3770
 DRIVER USB
 COMMENT External backend. Binary-only code. Not supported by the SANE developers. Is reported to scan only a small area?
