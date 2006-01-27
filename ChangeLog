@@ -1,3 +1,44 @@
+2006-01-27 21:44  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* ldetect-lst.spec: 0.1.121-1mdk
+
+2006-01-27 21:31  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: add support for new snd-als300 sound driver
+
+2006-01-27 21:29  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: add support for nVidia MCP51
+
+2006-01-27 21:20  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: sync with kernel-2.6.16-rc1-mm1
+
+2006-01-20 17:49  Till Kamppeter <till at mandriva.com>
+
+	* lst/ScannerDB: - s/Hewlett Packard/Hewlett-Packard/ in ScannerDB.
+
+2006-01-20 16:05  Till Kamppeter <till at mandriva.com>
+
+	* lst/: ScannerDB, scannerconfigs: - Updated for SANE 1.0.17 -
+	  Added lines for SCSI-over-parallel scanner kernel modules
+
+2006-01-18 20:54  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: sync with kernel-2.6.16-rc1-mm1
+
+2006-01-17 19:53  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: sync with kernel-linus-2.6.15.5mdk
+
+2006-01-17 15:40  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: sync with kernel-2.6.15-mm4
+
+2006-01-12 14:49  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: sync with kernel-2.6.15-mm3
+
 2006-01-11 20:20  Thierry Vignaud <tvignaud at mandriva.com>
 
 	* ldetect-lst.spec: 0.1.120-1mdk
