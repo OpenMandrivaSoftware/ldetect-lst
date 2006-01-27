@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.120
+%define version 0.1.121
 %define release %mkrel 1
 
 Name: %{name}
@@ -64,6 +64,13 @@ fi
 %{_bindir}/*
 
 %changelog
+* Fri Jan 27 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.121-1mdk
+- add support for new snd-als300 sound driver
+- add support for nVidia MCP51
+- sync with kernel-2.6.16-rc1-mm1
+- updated for SANE 1.0.17 (till)
+- added lines for SCSI-over-parallel scanner kernel modules (till)
+
 * Wed Jan 11 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.120-1mdk
 - add support for Intel ICH8
 - add HIQ500a (Andres Kaaber)
