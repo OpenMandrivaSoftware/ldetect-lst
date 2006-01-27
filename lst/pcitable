@@ -2933,7 +2933,7 @@
 0x10de	0x0268	"forcedeth"	"nVidia Corp.|MCP51 Ethernet Controller"
 0x10de	0x0269	"forcedeth"	"nVidia Corp.|MCP51 Ethernet Controller"
 0x10de	0x026a	"unknown"	"nVidia Corp.|MCP51 MCI"
-0x10de	0x026b	"unknown"	"nVidia Corp.|MCP51 AC97 Audio Controller"
+0x10de	0x026b	"snd-intel8x0"	"nVidia Corp.|MCP51 AC97 Audio Controller"
 0x10de	0x026c	"snd-hda-intel"	"nVidia Corp.|MCP51 High Definition Audio"
 0x10de	0x026d	"unknown"	"nVidia Corp.|MCP51 USB Controller"
 0x10de	0x026e	"unknown"	"nVidia Corp.|MCP51 USB Controller"
