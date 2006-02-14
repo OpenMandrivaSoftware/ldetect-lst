@@ -1,3 +1,43 @@
+2006-02-14 22:28  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* ldetect-lst.spec: 0.1.122-1mdk
+
+2006-02-14 22:28  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: partial revert of 1.688 (only SIS_5517 was right)
+
+2006-02-14 22:23  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: sync with latest pci.ids
+
+2006-02-14 13:55  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: sync with kernel-2.6.16-rc2-mm1
+
+2006-02-08 14:54  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: add support for more SIS devices
+
+2006-02-08 14:18  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: add suppor for Leadtek Winfast TV 2000xp delux
+
+2006-02-03 20:17  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: sync with kernel-linus-2.6.16.rc2.8mdk
+
+2006-02-03 17:02  Pixel <pixel at mandriva.com>
+
+	* test/dmidecode.Laptop.Compal-CL50: unexpand tabs
+
+2006-02-03 15:12  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: sync with latest pci.ids
+
+2006-02-03 15:10  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: sync with kernel-2.6.16-rc1-mm5
+
 2006-01-27 21:44  Thierry Vignaud <tvignaud at mandriva.com>
 
 	* ldetect-lst.spec: 0.1.121-1mdk
