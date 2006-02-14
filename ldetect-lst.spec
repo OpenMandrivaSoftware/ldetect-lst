@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.121
+%define version 0.1.122
 %define release %mkrel 1
 
 Name: %{name}
@@ -64,6 +64,12 @@ fi
 %{_bindir}/*
 
 %changelog
+* Tue Feb 14 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.122-1mdk
+- sync with latest pci.ids
+- sync with kernel-2.6.16-rc2-mm1
+- add support for more SIS devices
+- add support for Leadtek Winfast TV 2000xp delux
+
 * Fri Jan 27 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.121-1mdk
 - add support for new snd-als300 sound driver
 - add support for nVidia MCP51
