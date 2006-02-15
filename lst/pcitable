@@ -971,7 +971,7 @@
 0x1022	0x2095	"unknown"	"Advanced Micro Devices|CS5536 [Geode companion] EHC"
 0x1022	0x2096	"unknown"	"Advanced Micro Devices|CS5536 [Geode companion] UDC"
 0x1022	0x2097	"unknown"	"Advanced Micro Devices|CS5536 [Geode companion] UOC"
-0x1022	0x209a	"pata_amd"	"Advanced Micro Devices|CS5536 [Geode companion] IDE"
+0x1022	0x209a	"amd74xx"	"Advanced Micro Devices|CS5536 [Geode companion] IDE"
 0x1022	0x3000	"unknown"	"Advanced Micro Devices|ELanSC520 Microcontroller"
 0x1022	0x7004	"unknown"	"Advanced Micro Devices|AMD-751 CPU to PCI Bridge"
 0x1022	0x7006	"amd-k7-agp"	"Advanced Micro Devices|AMD-751 [Irongate] System Controller"
