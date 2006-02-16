@@ -2320,6 +2320,10 @@ NAME Voodoo3 (generic)
 DRIVER tdfx
 DRI_GLX
 
+NAME Voodoo4 (generic)
+DRIVER tdfx
+DRI_GLX
+
 NAME Voodoo5 (generic)
 DRIVER tdfx
 DRI_GLX
