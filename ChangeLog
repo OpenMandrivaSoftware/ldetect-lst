@@ -1,6 +1,41 @@
+2006-02-16 22:18  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* ldetect-lst.spec: 0.1.123-1mdk
+
+2006-02-16 22:18  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: reapply r1.694 ("handle two new i945GM (from drm's
+	  CVS)") that got mistakely reverted in r1.695 :-(
+
+2006-02-16 22:08  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: add 2 new cards from DRI's CVS
+
+2006-02-16 22:03  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/Cards+: add "Voodoo4 (generic)"
+
+2006-02-16 21:34  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: handle two new i945GM (from drm's CVS)
+
+2006-02-15 17:57  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: kill a few bogus description (and autofill one from
+	  pci.ids)
+
+2006-02-15 17:55  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: better use old ide driver rather than the new
+	  libata one (which is not yet in our kernel btw...)
+
 2006-02-14 22:28  Thierry Vignaud <tvignaud at mandriva.com>
 
 	* ldetect-lst.spec: 0.1.122-1mdk
+
+2006-02-14 22:28  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: partial revert of 1.688 (only SIS_5517 was right)
 
 2006-02-14 22:28  Thierry Vignaud <tvignaud at mandriva.com>
 
