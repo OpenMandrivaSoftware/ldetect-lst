@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.122
+%define version 0.1.123
 %define release %mkrel 1
 
 Name: %{name}
@@ -64,6 +64,12 @@ fi
 %{_bindir}/*
 
 %changelog
+* Thu Feb 16 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.123-1mdk
+- sanitize some PATA entries (aka prefer standard ide drivers over
+  their ported over libata version)
+- add 4 new cards from DRI's CVS: 2 i945GM, 1 voodoo & 1 SiS
+- kill a few bogus description
+
 * Tue Feb 14 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.122-1mdk
 - sync with latest pci.ids
 - sync with kernel-2.6.16-rc2-mm1
