@@ -7066,6 +7066,7 @@
 0x8086	0x8671	"unknown"	"Intel Corp.| "
 0x8086	0x9000	"unknown"	"Intel Corp.|Intel IXP2000 Familly Network Processor"
 0x8086	0x9001	"unknown"	"Intel Corp.|IXP2400 Network Processor"
+0x8086	0x9002	"unknown"	"Intel Corporation|IXP2300 Network Processor"
 0x8086	0x9004	"unknown"	"Intel Corp.|IXP2800 Network Processor"
 0x8086	0x9620	"unknown"	"Intel Corp.|I2O RAID PCI to PCI Bridge"
 0x8086	0x9621	"i2o_block"	"Intel Corp.|Integrated RAID"
