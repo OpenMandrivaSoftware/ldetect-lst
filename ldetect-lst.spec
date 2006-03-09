@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.123
+%define version 0.1.124
 %define release %mkrel 1
 
 Name: %{name}
@@ -64,6 +64,12 @@ fi
 %{_bindir}/*
 
 %changelog
+* Thu Mar  9 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.124-1mdk
+- add one more ATI card
+- handle Intel PRO/Wireless 3945ABG
+- sync with kernel-2.6.16-rc5-mm3
+- sync with latest pci.ids
+
 * Thu Feb 16 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.123-1mdk
 - sanitize some PATA entries (aka prefer standard ide drivers over
   their ported over libata version)
