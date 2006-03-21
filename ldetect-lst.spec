@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.124
+%define version 0.1.125
 %define release %mkrel 1
 
 Name: %{name}
@@ -64,6 +64,11 @@ fi
 %{_bindir}/*
 
 %changelog
+* Tue Mar 21 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.125-1mdk
+- add EMC EF-836 monitor (pablo)
+- sync with latest pci.ids
+- sync with kernel-2.6.16
+
 * Thu Mar  9 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.124-1mdk
 - add one more ATI card
 - handle Intel PRO/Wireless 3945ABG
