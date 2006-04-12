@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.125
+%define version 0.1.126
 %define release %mkrel 1
 
 Name: %{name}
@@ -64,6 +64,11 @@ fi
 %{_bindir}/*
 
 %changelog
+* Thu Apr 13 2006 Gwenole Beauchesne <gbeauchesne@mandriva.com> 0.1.126-1mdk
+### UNRELEASED YET ###
+- merge new nvidia ids from 1.0-8756 driver
+- migrate some mptscsih to mptspi and mptfc
+
 * Tue Mar 21 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.125-1mdk
 - add EMC EF-836 monitor (pablo)
 - sync with latest pci.ids
