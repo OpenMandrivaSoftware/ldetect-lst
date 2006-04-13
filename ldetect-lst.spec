@@ -66,9 +66,13 @@ fi
 %changelog
 * Thu Apr 13 2006 Gwenole Beauchesne <gbeauchesne@mandriva.com> 0.1.126-1mdk
 ### UNRELEASED YET ###
+- add 2 geforce cards (Pierre Brieudes)
 - add realtek RTL-8168 id
+- add support for SB600 (tv)
 - merge new nvidia ids from 1.0-8756 driver
 - migrate some mptscsih to mptspi and mptfc
+- sync with kernel-2.6.17-rc1-mm2 (tv)
+- sync with latest pci.ids (tv)
 
 * Tue Mar 21 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.125-1mdk
 - add EMC EF-836 monitor (pablo)
