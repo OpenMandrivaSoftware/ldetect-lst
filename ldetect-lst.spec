@@ -66,6 +66,7 @@ fi
 %changelog
 * Thu Apr 13 2006 Gwenole Beauchesne <gbeauchesne@mandriva.com> 0.1.126-1mdk
 ### UNRELEASED YET ###
+- add realtek RTL-8168 id
 - merge new nvidia ids from 1.0-8756 driver
 - migrate some mptscsih to mptspi and mptfc
 
