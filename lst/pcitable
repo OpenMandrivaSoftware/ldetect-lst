@@ -6921,7 +6921,7 @@
 0x8086	0x277d	"unknown"	"Intel Corp.|PCI Express Graphics Port"
 0x8086	0x2782	"unknown"	"Intel Corp.|Graphics Controller"
 0x8086	0x2792	"unknown"	"Intel Corp.|Mobile Graphics Controller"
-0x8086	0x27a0	"Card:Intel 945"	"Intel Corp.|Mobile Memory Controller Hub"
+0x8086	0x27a0	"intel-agp"	"Intel Corp.|Mobile Memory Controller Hub"
 0x8086	0x27a1	"unknown"	"Intel Corp.|Mobile PCI Express Graphics Port"
 0x8086	0x27a2	"Card:Intel 945"	"Intel Corp.|Mobile Integrated Graphics Controller"
 0x8086	0x27a6	"unknown"	"Intel Corp.|Mobile Integrated Graphics Controller"

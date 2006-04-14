@@ -64,10 +64,11 @@ fi
 %{_bindir}/*
 
 %changelog
-* Thu Apr 13 2006 Gwenole Beauchesne <gbeauchesne@mandriva.com> 0.1.126-1mdk
+* Fri Apr 14 2006 Gwenole Beauchesne <gbeauchesne@mandriva.com> 0.1.126-1mdk
 ### UNRELEASED YET ###
 - add 2 geforce cards (Pierre Brieudes)
 - add realtek RTL-8168 id
+- fix i945GM id for intel-agp
 - add support for SB600 (tv)
 - merge new nvidia ids from 1.0-8756 driver
 - migrate some mptscsih to mptspi and mptfc
