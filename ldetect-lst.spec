@@ -64,16 +64,25 @@ fi
 %{_bindir}/*
 
 %changelog
-* Fri Apr 14 2006 Gwenole Beauchesne <gbeauchesne@mandriva.com> 0.1.126-1mdk
-### UNRELEASED YET ###
+* Mon Apr 24 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.126-1mdk
+- add MCP61 support
 - add 2 geforce cards (Pierre Brieudes)
-- add realtek RTL-8168 id
-- add support for SB600 (tv)
-- fix i945GM id for intel-agp
-- merge new nvidia ids from 1.0-8756 driver
-- migrate some mptscsih to mptspi and mptfc
-- sync with kernel-2.6.17-rc1-mm2 (tv)
-- sync with latest pci.ids (tv)
+- add realtek RTL-8168 id (gb)
+- add support for SB600
+- fix i945GM id for intel-agp (gb)
+- merge new nvidia ids from 1.0-8756 driver (gb)
+- migrate some mptscsih to mptspi and mptfc (gb)
+- sync with kernel-linus-2.6.17.rc2.17mdk
+- sync with kernel-2.6.17-rc1-mm2
+- sync with latest pci.ids
+- sync with xorg-7+'s main drivers:
+  o add quite a lot of new ati & nvidia cards
+  o add support for nsc driver
+  o fix some entries (wrongly listing their kernel FB driver instead
+    of their X driver)
+  o fix a bogus entry (it's nsc, not ATI)
+- update a description
+- update a card entry (Samuel Clara)
 
 * Tue Mar 21 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.125-1mdk
 - add EMC EF-836 monitor (pablo)
