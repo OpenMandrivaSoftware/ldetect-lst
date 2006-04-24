@@ -68,8 +68,8 @@ fi
 ### UNRELEASED YET ###
 - add 2 geforce cards (Pierre Brieudes)
 - add realtek RTL-8168 id
-- fix i945GM id for intel-agp
 - add support for SB600 (tv)
+- fix i945GM id for intel-agp
 - merge new nvidia ids from 1.0-8756 driver
 - migrate some mptscsih to mptspi and mptfc
 - sync with kernel-2.6.17-rc1-mm2 (tv)
