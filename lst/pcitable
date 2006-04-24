@@ -686,7 +686,7 @@
 0x100b	0x002d	"cs5535"	"National Semiconductor|CS5535 IDE"
 0x100b	0x002e	"snd-cs5535audio"	"National Semiconductor|CS5535 Audio"
 0x100b	0x002f	"unknown"	"National Semiconductor|CS5535 USB"
-0x100b	0x0030	"Card:NSC"	"National Semiconductor|CS5535 Video"
+0x100b	0x0030	"Card:NSC"	"National Semiconductor|CS5535 Video [Redcloud]"
 0x100b	0x0035	"cassini"	"National Semiconductor|DP83065 [Saturn] 10/100/1000 Ethernet Controller"
 0x100b	0x0500	"Card:ATI Mach64"	"National Semiconductor|SCx200 Bridge"
 0x100b	0x0501	"Card:ATI Mach64"	"National Semiconductor|SCx200 SMI"
