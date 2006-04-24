@@ -1583,6 +1583,9 @@ SEE Trident Cyber 9525 (generic)
 
 # SiS
 
+NAME SiS USB
+DRIVER sisusb
+
 NAME SiS
 DRIVER sis
 
