@@ -688,6 +688,7 @@
 0x100b	0x002f	"unknown"	"National Semiconductor|CS5535 USB"
 0x100b	0x0030	"Card:NSC"	"National Semiconductor|CS5535 Video [Redcloud]"
 0x100b	0x0035	"cassini"	"National Semiconductor|DP83065 [Saturn] 10/100/1000 Ethernet Controller"
+0x100b	0x0104	"Card:NSC"	"National Semiconductor|SC1400 Video"
 0x100b	0x0500	"unknown"	"National Semiconductor|SCx200 Bridge"
 0x100b	0x0501	"unknown"	"National Semiconductor|SCx200 SMI"
 0x100b	0x0502	"unknown"	"National Semiconductor|SCx200 IDE"
