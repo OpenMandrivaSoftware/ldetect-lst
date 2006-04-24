@@ -1469,6 +1469,12 @@ DRIVER vga
 NAME Diamond Viper Pro Video
 SEE Weitek P9100 (generic)
 
+
+# National Semiconductor (NSC)
+
+NAME NSC
+DRIVER nsc
+
 # Trident
 
 NAME Trident (generic)
