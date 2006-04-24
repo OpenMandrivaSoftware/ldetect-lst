@@ -1,3 +1,74 @@
+2006-04-24 17:56  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* ldetect-lst.spec: final 0.1.126-1mdk
+
+2006-04-24 17:53  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* ldetect-lst.spec: sort 0.1.126-1mdk's changelog
+
+2006-04-24 17:43  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/Cards+: add support for "sisusb" driver
+
+2006-04-24 17:11  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: add 28 missing ati card ids from xorg's sources
+
+2006-04-24 16:34  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: add support for 3 more nvidia cards from xorg's
+	  sources
+
+2006-04-24 16:20  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: add a new ID from nsc sources
+
+2006-04-24 16:17  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: according to xorg' sources,  0x100b:0x0504 is
+	  managed by nsc driver, not ati one. since the surrounding ids
+	  don't appear in xorg sources and were all imported in the same
+	  merge with rh, let's fix them too
+
+2006-04-24 16:14  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: update a description from xorg's sources
+
+2006-04-24 15:58  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: cards managed by kernel driver XXXXfb obviously are
+	  graphic cards; let's tell XFdrake so after doble checked the ids
+	  and pick one missing description from xorg's sources
+
+2006-04-24 15:54  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/Cards+: add support for National Semiconductor xorg driver
+
+2006-04-21 15:42  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: sync with kernel-linus-2.6.17.rc2.17mdk
+
+2006-04-21 14:51  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: add MCP61 support
+
+2006-04-21 13:25  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: update a card entry (Samuel Clara)
+
+2006-04-14 14:52  Gwenole Beauchesne <gbeauchesne at mandriva.com>
+
+	* ldetect-lst.spec, lst/pcitable: fix i945GM id for intel-agp
+
+2006-04-14 08:42  Gwenole Beauchesne <gbeauchesne at mandriva.com>
+
+	* lst/pcitable: Dell Latitude D820 has Quadro 110M/120M, though
+	  nVidia docs tell otherwise.
+
+2006-04-13 16:29  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* ldetect-lst.spec: update 0.1.126-1mdk's changelog
+
 2006-04-13 15:37  Gwenole Beauchesne <gbeauchesne at mandriva.com>
 
 	* ldetect-lst.spec, lst/pcitable: add realtek RTL-8168 id
