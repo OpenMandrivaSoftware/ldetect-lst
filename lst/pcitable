@@ -6717,6 +6717,7 @@
 0x8086	0x24c3	"i2c-i801"	"Intel Corp.|82801DB SMBus Controller"
 0x8086	0x24c4	"usb-uhci"	"Intel Corp.|82801DB USB Controller"
 0x8086	0x24c5	"snd-intel8x0"	"Intel Corp.|ICH4 845G/GL Chipset AC'97 Audio Controller"
+0x8086	0x24c6	0x1014	0x0525	"slamr"	"Intel Corp.|82801DB/DBL/DBM (ICH4/ICH4-L/ICH4-M) AC'97 Modem Controller"
 0x8086	0x24c6	0x003c	0x1025	"snd-intel8x0m"	"Intel Corporation|Acer Aspire 2001WLCi (Compal CL50 motherboard) implementation"
 0x8086	0x24c6	0x1025	0x005a	"Hsf:www.linmodems.org"	"Intel Corp.|TravelMate 290"
 0x8086	0x24c6	0x1028	0x0196	"snd-intel8x0m"	"Intel Corp.|Inspiron 5160"
