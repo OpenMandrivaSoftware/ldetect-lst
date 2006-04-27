@@ -5924,6 +5924,7 @@
 0x18f7	0x0005	"unknown"	"Commtech Inc.|Fastcom IGESCC-PCI-ISO/1"
 0x18f7	0x000a	"unknown"	"Commtech Inc.|Fastcom 232/4-PCI-335"
 0x1923	0x0100	"unknown"	"Sangoma Technologies Corp.|A104d QUAD T1/E1 AFT card"
+0x1931	0x000c	"nozomi"	"Option|GlobeTrotter 3G/EDGE"
 0x1942	0xe511	"unknown"	"ClearSpeed Technology plc|CSX600 Advance Accelerator Board"
 0x1957	0x0080	"unknown"	"Freescale Semiconductor Inc|MPC8349E"
 0x1957	0x0081	"unknown"	"Freescale Semiconductor Inc|MPC8349"
