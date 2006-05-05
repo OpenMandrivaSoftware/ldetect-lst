@@ -291,7 +291,7 @@
 0x1002	0x4171	"unknown"	"ATI Technologies Inc.|RV350 AQ [Radeon 9600] (Secondary)"
 0x1002	0x4172	"unknown"	"ATI Technologies Inc.|RV350 AR [Radeon 9600] (Secondary)"
 0x1002	0x4173	"unknown"	"ATI Technologies Inc.|RV350 ?? [Radeon 9550] (Secondary)"
-0x1002	0x4237	"Card:ATI Radeon)"	"ATI Technologies Inc.|Radeon 7000 IGP (A4+) 4237"
+0x1002	0x4237	"Card:ATI Radeon"	"ATI Technologies Inc.|Radeon 7000 IGP (A4+) 4237"
 0x1002	0x4242	"Card:ATI Radeon (fglrx)"	"ATI Technologies Inc.|Radeon 8500 AIW BB (AGP)"
 0x1002	0x4243	"Card:ATI Radeon (fglrx)"	"ATI Technologies Inc.|Radeon 8500 AIW BC (AGP)"
 0x1002	0x4336	"Card:ATI Radeon (fglrx)"	"ATI Technologies Inc.|Radeon IGP320M (U1) 4336"
