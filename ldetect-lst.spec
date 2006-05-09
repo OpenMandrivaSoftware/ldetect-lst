@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.126
+%define version 0.1.127
 %define release %mkrel 1
 
 Name: %{name}
@@ -64,6 +64,14 @@ fi
 %{_bindir}/*
 
 %changelog
+* Tue May  9 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.127-1mdk
+- add another slamr modem (ThinkPad R50) (blino)
+- add Option GlobeTrotter 3G/EDGE (nozomi driver) (blino)
+- disable DRI on old ATI cards (Damien Lallement)
+- sync with latest pci.ids
+- sync with kernel-tmb-desktop-2.6.16.13
+- sync with kernel-2.6.17-rc3-mm1
+
 * Mon Apr 24 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.126-1mdk
 - add MCP61 support
 - add 2 geforce cards (Pierre Brieudes)
