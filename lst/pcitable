@@ -5547,7 +5547,7 @@
 0x14e4	0x4313	"unknown"	"Broadcom Corp.|BCM4310 Ethernet Controller"
 0x14e4	0x4315	"unknown"	"Broadcom Corp.|BCM4310 USB Controller"
 0x14e4	0x4318	"bcm43xx"	"Broadcom Corp.|BCM4318 [AirForce One 54g] 802.11g Wireless LAN Controller"
-0x14e4	0x4319	"unknown"	"Broadcom Corporation|Dell Wireless 1470 DualBand WLAN"
+0x14e4	0x4319	"bcm43xx"	"Broadcom Corporation|Dell Wireless 1470 DualBand WLAN"
 0x14e4	0x4320	"bcm43xx"	"Broadcom Corp.|BCM94306 802.11g NIC"
 0x14e4	0x4321	"unknown"	"Broadcom Corp.|BCM4306 802.11a Wireless LAN Controller"
 0x14e4	0x4322	"unknown"	"Broadcom Corp.|BCM4306 UART"
