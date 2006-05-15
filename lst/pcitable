@@ -1676,6 +1676,7 @@
 0x104c	0x8035	"unknown"	"Texas Instruments|Texas Instruments PCI6411, PCI6421, PCI6611, PCI6621, PCI7411, PCI7421, PCI7611, PCI7621 Smart Card Controller (SMC)"
 0x104c	0x8036	"yenta_socket"	"Texas Instruments|PCI6515 Cardbus Controller"
 0x104c	0x8038	"unknown"	"Texas Instruments|PCI6515 SmartCard Controller"
+0x104c	0x8039	"yenta_socket"	"Texas Instruments|PCIxx12 CardBus Controller"
 0x104c	0x803b	"unknown"	"Texas Instruments|5-in-1 Multimedia Card Reader (SD/MMC/MS/MS PRO/xD)"
 0x104c	0x8201	"unknown"	"Texas Instruments|PCI1620 Firmware Loading Function"
 0x104c	0x8204	"unknown"	"Texas Instruments|4610, 4515, 4610FM TI UltraMedia Firmware Loader Device"
