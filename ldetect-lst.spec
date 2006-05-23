@@ -1,5 +1,5 @@
 %define name ldetect-lst
-%define version 0.1.127
+%define version 0.1.128
 %define release %mkrel 1
 
 Name: %{name}
@@ -64,6 +64,14 @@ fi
 %{_bindir}/*
 
 %changelog
+* Tue May 23 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.128-1mdk
+- add support for Broadcom 4319 802.11a/b/g
+- add support for HighPoint RocketRAID 3xxx Controller
+- cleanup MonitorsDB to match what XFdrake generates (pixel)
+- fix detecting the cardbus bridge on an HP nc6320
+- handle the new drivers that replace sk98lin (#22669)
+- ueagle-atm replaced eagle-usb
+
 * Tue May  9 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.127-1mdk
 - add another slamr modem (ThinkPad R50) (blino)
 - add Option GlobeTrotter 3G/EDGE (nozomi driver) (blino)
