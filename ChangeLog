@@ -1,3 +1,44 @@
+2006-05-23 17:48  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* ldetect-lst.spec: 0.1.128-1mdk
+
+2006-05-23 17:45  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: handle the new drivers that replace sk98lin
+	  (#22669)
+
+2006-05-18 13:39  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/usbtable: remove eagle-usb references (replaced by
+	  ueagle-atm)
+
+2006-05-15 13:56  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: fix detecting the cardbus bridge on an HP nc6320
+	  (will need a 2.6.17 kernel though)
+
+2006-05-11 16:44  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* AUTHORS: kill another dead email address
+
+2006-05-11 16:33  Pixel <pixel at mandriva.com>
+
+	* lst/MonitorsDB: cleanup to match what we generate in XFdrake
+
+2006-05-11 16:31  Pixel <pixel at mandriva.com>
+
+	* AUTHORS, convert/README.pcitable, lst/Makefile:
+	  s/mandrakesoft/mandriva/
+
+2006-05-10 15:23  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: add support for HighPoint RocketRAID 3xxx
+	  Controller
+
+2006-05-10 15:09  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: add support for Broadcom 4319 802.11a/b/g
+
 2006-05-09 15:14  Thierry Vignaud <tvignaud at mandriva.com>
 
 	* ldetect-lst.spec: 0.1.127-1mdk
