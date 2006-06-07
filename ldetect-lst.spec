@@ -1,3 +1,5 @@
+# EDIT IN CVS NOT IN SOURCE PACKAGE (NO PATCH ALLOWED).
+
 %define name ldetect-lst
 %define version 0.1.128
 %define release %mkrel 1
