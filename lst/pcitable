@@ -7274,7 +7274,7 @@
 0x8086	0x7191	"agpgart"	"Intel Corp.|440BX/ZX - 82443BX/ZX AGP bridge"
 0x8086	0x7192	"unknown"	"Intel Corp.|440BX/ZX - 82443BX/ZX Host bridge (AGP disabled)"
 0x8086	0x7194	"unknown"	"Intel Corp.|82440MX CPU to I/O Controller"
-0x8086	0x7195	"i810_audio"	"Intel Corp.|440MX 810 Chipset AC'97 Audio Controller"
+0x8086	0x7195	"snd-intel8x0"	"Intel Corp.|440MX 810 Chipset AC'97 Audio Controller"
 0x8086	0x7196	"slamr"	"Intel Corp.|82440 - 443MX AC97 Modem Controller (Winmodem)"
 0x8086	0x7198	"unknown"	"Intel Corp.|82440MX PCI to ISA Bridge"
 0x8086	0x7199	"piix"	"Intel Corp.|82440MX EIDE Controller"
