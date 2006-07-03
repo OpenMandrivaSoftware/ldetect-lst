@@ -6519,51 +6519,64 @@ COMMENT Backend is in experimental CVS.
 NAME EPSON|Actionscanner II
 SERVER epkowa
 DRIVER parallel SCSI
+SCSILINE scsi EPSON
+SCSILINE scsi "EPSON SC"
 COMMENT overseas version of the GT-5000
 
 NAME EPSON|AcuLaser CX11
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT overseas version of the LP-A500
 
 NAME EPSON|AcuLaser CX11NF
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT AcuLaser CX11 with network interface and fax<br>network interface not supported
 
 NAME EPSON|CC-500L
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT all-in-one
 
 NAME EPSON|CC-550L
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT all-in-one
 
 NAME EPSON|CC-570L
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT all-in-one
 
 NAME EPSON|CC-600PX
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT all-in-one
 
 NAME EPSON|CC-700
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT all-in-one
 
 NAME EPSON|ES-300C
 SERVER epkowa
 DRIVER SCSI parallel
+SCSILINE scsi EPSON
+SCSILINE scsi "EPSON SC"
 COMMENT overseas version of the GT-6000
 
 NAME EPSON|ES-300GS
 SERVER epkowa
 DRIVER SCSI
+SCSILINE scsi EPSON
+SCSILINE scsi "EPSON SC"
 
 NAME EPSON|ES-600C
 SERVER epkowa
@@ -6573,11 +6586,15 @@ COMMENT overseas version of the GT-5400
 NAME EPSON|ES-800C
 SERVER epkowa
 DRIVER SCSI
+SCSILINE scsi EPSON
+SCSILINE scsi "EPSON SC"
 COMMENT overseas version of the GT-8000
 
 NAME EPSON|ES-1000C
 SERVER epkowa
 DRIVER SCSI
+SCSILINE scsi EPSON
+SCSILINE scsi "EPSON SC"
 COMMENT overseas version of the GT-8500
 
 NAME EPSON|ES-1200C
@@ -6588,128 +6605,183 @@ COMMENT overseas version of the GT-9000
 NAME EPSON|ES-2000
 SERVER epkowa
 DRIVER SCSI USB
+SCSILINE scsi EPSON
+SCSILINE scsi "EPSON SC"
+USBLINE usb $VENDOR $PRODUCT
 COMMENT IEEE1394 untested
 
 NAME EPSON|ES-2200
 SERVER epkowa
 DRIVER SCSI USB
+SCSILINE scsi EPSON
+SCSILINE scsi "EPSON SC"
+USBLINE usb $VENDOR $PRODUCT
 COMMENT IEEE1394 untested
 
 NAME EPSON|ES-6000
 SERVER epkowa
 DRIVER SCSI
+SCSILINE scsi EPSON
+SCSILINE scsi "EPSON SC"
 
 NAME EPSON|ES-6000H
 SERVER epkowa
 DRIVER SCSI
+SCSILINE scsi EPSON
+SCSILINE scsi "EPSON SC"
 COMMENT IEEE1394 untested
 
 NAME EPSON|ES-6000HS
 SERVER epkowa
 DRIVER SCSI
+SCSILINE scsi EPSON
+SCSILINE scsi "EPSON SC"
 COMMENT IEEE1394 untested
 
 NAME EPSON|ES-7000H
 SERVER epkowa
 DRIVER SCSI USB
+SCSILINE scsi EPSON
+SCSILINE scsi "EPSON SC"
+USBLINE usb $VENDOR $PRODUCT
 
 NAME EPSON|ES-8000
 SERVER epkowa
 DRIVER SCSI
+SCSILINE scsi EPSON
+SCSILINE scsi "EPSON SC"
 
 NAME EPSON|ES-8500
 SERVER epkowa
 DRIVER SCSI USB
+SCSILINE scsi EPSON
+SCSILINE scsi "EPSON SC"
+USBLINE usb $VENDOR $PRODUCT
 COMMENT IEEE1394 untested
 
 NAME EPSON|ES-9000H
 SERVER epkowa
 DRIVER SCSI
+SCSILINE scsi EPSON
+SCSILINE scsi "EPSON SC"
 COMMENT IEEE1394 untested
 
 NAME EPSON|ES-10000G
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT IEEE1394 untested<br>100Base-TX/10Base-T unsupported
 
 NAME EPSON|Expression 636
 SERVER epkowa
 DRIVER SCSI
+SCSILINE scsi EPSON
+SCSILINE scsi "EPSON SC"
 COMMENT overseas version of the GT-9500
 
 NAME EPSON|Expression 800
 SERVER epkowa
 DRIVER SCSI
+SCSILINE scsi EPSON
+SCSILINE scsi "EPSON SC"
 COMMENT overseas version of the GT-9600
 
 NAME EPSON|Expression 836XL
 SERVER epkowa
 DRIVER SCSI
+SCSILINE scsi EPSON
+SCSILINE scsi "EPSON SC"
 COMMENT overseas version of the ES-8000
 
 NAME EPSON|Expression 1600
 SERVER epkowa
 DRIVER SCSI USB
+SCSILINE scsi EPSON
+SCSILINE scsi "EPSON SC"
+USBLINE usb $VENDOR $PRODUCT
 COMMENT overseas version of the ES-2000<br>IEEE1394 untested
 
 NAME EPSON|Expression 1640XL
 SERVER epkowa
 DRIVER SCSI USB
+SCSILINE scsi EPSON
+SCSILINE scsi "EPSON SC"
+USBLINE usb $VENDOR $PRODUCT
 COMMENT overseas version of the ES-8500<br>IEEE1394 untested
 
 NAME EPSON|Expression 1680
 SERVER epkowa
 DRIVER SCSI USB
+SCSILINE scsi EPSON
+SCSILINE scsi "EPSON SC"
+USBLINE usb $VENDOR $PRODUCT
 COMMENT overseas version of the ES-2200<br>IEEE1394 untested
 
 NAME EPSON|Expression 1680 Pro
 SERVER epkowa
 DRIVER SCSI USB
+SCSILINE scsi EPSON
+SCSILINE scsi "EPSON SC"
+USBLINE usb $VENDOR $PRODUCT
 COMMENT IEEE1394 option
 
 NAME EPSON|Expression 1680XL Pro
 SERVER epkowa
 DRIVER SCSI USB
+SCSILINE scsi EPSON
+SCSILINE scsi "EPSON SC"
+USBLINE usb $VENDOR $PRODUCT
 
 NAME EPSON|Expression 10000XL
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 
 NAME EPSON|Expression 10000XL Graphic Arts
 SERVER epkowa
 DRIVER USB IEEE1394
+USBLINE usb $VENDOR $PRODUCT
 COMMENT Ethernet option
 
 NAME EPSON|Expression 10000XL Photo
 SERVER epkowa
 DRIVER USB IEEE1394
+USBLINE usb $VENDOR $PRODUCT
 COMMENT Ethernet option
 
 NAME EPSON|F-3200
 SERVER epkowa
 DRIVER USB IEEE1394
+USBLINE usb $VENDOR $PRODUCT
 COMMENT Film scanner
 
 NAME EPSON|F-3200 Photo
 SERVER epkowa
 DRIVER USB IEEE1394
+USBLINE usb $VENDOR $PRODUCT
 
 NAME EPSON|FilmScan 200
 SERVER epkowa
 DRIVER SCSI
+SCSILINE scsi EPSON
+SCSILINE scsi "EPSON SC"
 COMMENT A better backend for the FilmScan 200 can be found at <A HREF=\"http://www.vjet.demon.co.uk/scanner/\">http://www.vjet.demon.co.uk/scanner/</A>.
 
 NAME EPSON|GT-2200
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 
 NAME EPSON|GT-4000
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 
 NAME EPSON|GT-5000
 SERVER epkowa
 DRIVER parallel SCSI
+SCSILINE scsi EPSON
+SCSILINE scsi "EPSON SC"
 
 NAME EPSON|GT-5400
 SERVER epkowa
@@ -6718,10 +6790,17 @@ DRIVER parallel
 NAME EPSON|GT-5500
 SERVER epkowa
 DRIVER SCSI
+SCSILINE scsi EPSON
+SCSILINE scsi "EPSON SC"
 
 NAME EPSON|GT-6000
 SERVER epkowa
 DRIVER SCSI Parport
+PARPORTLINE pio 0x378
+PARPORTLINE pio 0x278
+PARPORTLINE pio 0x3BC
+SCSILINE scsi EPSON
+SCSILINE scsi "EPSON SC"
 
 NAME EPSON|GT-6500
 SERVER epkowa
@@ -6731,84 +6810,110 @@ COMMENT overseas version of the GT-5400
 NAME EPSON|GT-6600U
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 
 NAME EPSON|GT-6700U
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 
 NAME EPSON|GT-7000S
 SERVER epkowa
 DRIVER SCSI
+SCSILINE scsi EPSON
+SCSILINE scsi "EPSON SC"
 
 NAME EPSON|GT-7000U
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 
 NAME EPSON|GT-7200U
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT requires a DFSG non-free module<br>also supported by the plustek backend
 
 NAME EPSON|GT-7300U
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT requires a DFSG non-free module<br>also supported by the plustek backend
 
 NAME EPSON|GT-7400U
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT may be supported by the snapscan backend
 
 NAME EPSON|GT-7600S
 SERVER epkowa
 DRIVER SCSI
+SCSILINE scsi EPSON
+SCSILINE scsi "EPSON SC"
 COMMENT SCSI version of the GT-7600U
 
 NAME EPSON|GT-7600U
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT USB version of the GT-7600S
 
 NAME EPSON|GT-7600UF
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT GT-7600U with TPU option bundled
 
 NAME EPSON|GT-7700U
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 
 NAME EPSON|GT-8000
 SERVER epkowa
 DRIVER SCSI
+SCSILINE scsi EPSON
+SCSILINE scsi "EPSON SC"
 
 NAME EPSON|GT-8200U
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 
 NAME EPSON|GT-8200UF
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 
 NAME EPSON|GT-8300UF
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 
 NAME EPSON|GT-8400UF
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 
 NAME EPSON|GT-8500
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 
 NAME EPSON|GT-8700
 SERVER epkowa
 DRIVER SCSI USB
+SCSILINE scsi EPSON
+SCSILINE scsi "EPSON SC"
+USBLINE usb $VENDOR $PRODUCT
 
 NAME EPSON|GT-8700F
 SERVER epkowa
 DRIVER SCSI USB
+SCSILINE scsi EPSON
+SCSILINE scsi "EPSON SC"
+USBLINE usb $VENDOR $PRODUCT
 COMMENT GT-8700U with TPU option bundled
 
 NAME EPSON|GT-9000
@@ -6818,632 +6923,777 @@ DRIVER parallel
 NAME EPSON|GT-9300UF
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 
 NAME EPSON|GT-9400UF
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT requires a DFSG non-free module
 
 NAME EPSON|GT-9500
 SERVER epkowa
 DRIVER SCSI
+SCSILINE scsi EPSON
+SCSILINE scsi "EPSON SC"
 
 NAME EPSON|GT-9600
 SERVER epkowa
 DRIVER SCSI
+SCSILINE scsi EPSON
+SCSILINE scsi "EPSON SC"
 
 NAME EPSON|GT-9700F
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT IEEE1394 untested
 
 NAME EPSON|GT-9800F
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT IEEE1394 untested
 
 NAME EPSON|GT-10000
 SERVER epkowa
 DRIVER SCSI
+SCSILINE scsi EPSON
+SCSILINE scsi "EPSON SC"
 COMMENT overseas version of the ES-6000
 
 NAME EPSON|GT-10000+
 SERVER epkowa
 DRIVER SCSI
+SCSILINE scsi EPSON
+SCSILINE scsi "EPSON SC"
 COMMENT overseas version of the ES-6000H<br>IEEE1394 untested
 
 NAME EPSON|GT-12000
 SERVER epkowa
 DRIVER SCSI
+SCSILINE scsi EPSON
+SCSILINE scsi "EPSON SC"
 COMMENT overseas version of the ES-8000
 
 NAME EPSON|GT-15000
 SERVER epkowa
 DRIVER SCSI USB
+SCSILINE scsi EPSON
+SCSILINE scsi "EPSON SC"
+USBLINE usb $VENDOR $PRODUCT
 COMMENT overseas version of the ES-7000H<br>IEEE1394 untested
 
 NAME EPSON|GT-30000
 SERVER epkowa
 DRIVER SCSI
+SCSILINE scsi EPSON
+SCSILINE scsi "EPSON SC"
 COMMENT overseas version of the ES-9000H<br>IEEE1394 untested
 
 NAME EPSON|GT-F500
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT multi photo feeder not supported<br>requires a DFSG non-free module<br>should also be supported by the snapscan backend
 
 NAME EPSON|GT-F520
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT multi photo feeder not supported<br>requires a DFSG non-free module<br>may be supported by the snapscan backend
 
 NAME EPSON|GT-F550
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT auto film loader not supported<br>requires a DFSG non-free module<br>should also be supported by the snapscan backend
 
 NAME EPSON|GT-F570
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT auto film loader not supported<br>requires a DFSG non-free module<br>may be supported by the snapscan backend
 
 NAME EPSON|GT-F600
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT only scans up to 2400dpi<br>requires a DFSG non-free module
 
 NAME EPSON|GT-X700
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT IEEE1394 untested
 
 NAME EPSON|GT-X750
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT requires a DFSG non-free module
 
 NAME EPSON|GT-X800
 SERVER epkowa
 DRIVER USB IEEE1394
+USBLINE usb $VENDOR $PRODUCT
 COMMENT IEEE1394 untested<br>film area guide mode not supported
 
 NAME EPSON|GT-X900
 SERVER epkowa
 DRIVER USB IEEE1394
+USBLINE usb $VENDOR $PRODUCT
 COMMENT IEEE1394 untested
 
 NAME EPSON|LP-7900CS
 SERVER epkowa
 DRIVER USB IEEE1394
+USBLINE usb $VENDOR $PRODUCT
 
 NAME EPSON|LP-9000CCH
 SERVER epkowa
 DRIVER USB IEEE1394
+USBLINE usb $VENDOR $PRODUCT
 
 NAME EPSON|LP-9000CCS
 SERVER epkowa
 DRIVER USB IEEE1394
+USBLINE usb $VENDOR $PRODUCT
 
 NAME EPSON|LP-9000CFH
 SERVER epkowa
 DRIVER USB IEEE1394
+USBLINE usb $VENDOR $PRODUCT
 
 NAME EPSON|LP-9500CCS
 SERVER epkowa
 DRIVER USB IEEE1394
+USBLINE usb $VENDOR $PRODUCT
 
 NAME EPSON|LP-9500CFH
 SERVER epkowa
 DRIVER USB IEEE1394
+USBLINE usb $VENDOR $PRODUCT
 
 NAME EPSON|LP-9500CH2
 SERVER epkowa
 DRIVER USB IEEE1394
+USBLINE usb $VENDOR $PRODUCT
 
 NAME EPSON|LP-9800CCH
 SERVER epkowa
 DRIVER USB IEEE1394
+USBLINE usb $VENDOR $PRODUCT
 
 NAME EPSON|LP-9800CCS
 SERVER epkowa
 DRIVER USB IEEE1394
+USBLINE usb $VENDOR $PRODUCT
 
 NAME EPSON|LP-9800CFH
 SERVER epkowa
 DRIVER USB IEEE1394
+USBLINE usb $VENDOR $PRODUCT
 
 NAME EPSON|LP-A500
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT business all-in-one<br>network interface not supported
 
 NAME EPSON|LP-M5500
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT business all-in-one<br>network interface not supported
 
 NAME EPSON|LP-M5500F
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT business all-in-one<br>LP-M5500 with the fax option bundled<br>network interface not supported
 
 NAME EPSON|PM-A700
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT all-in-one
 
 NAME EPSON|PM-A750
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT all-in-one
 
 NAME EPSON|PM-A850
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT all-in-one
 
 NAME EPSON|PM-A870
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT all-in-one
 
 NAME EPSON|PM-A890
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT all-in-one
 
 NAME EPSON|PM-A900
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT all-in-one
 
 NAME EPSON|PM-A950
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT all-in-one
 
 NAME EPSON|PX-A550
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT all-in-one
 
 NAME EPSON|PX-A650
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT all-in-one
 
 NAME EPSON|Perfection 600
 SERVER epkowa
 DRIVER SCSI
+SCSILINE scsi EPSON
+SCSILINE scsi "EPSON SC"
 COMMENT rebadged UMAX Astra 1200S<br>supported by the umax backend
 
 NAME EPSON|Perfection 610
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT overseas version of the GT-6600U
 
 NAME EPSON|Perfection 636S
 SERVER epkowa
 DRIVER SCSI
+SCSILINE scsi EPSON
+SCSILINE scsi "EPSON SC"
 COMMENT overseas version of the GT-7000S
 
 NAME EPSON|Perfection 636U
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT overseas version of the GT-7000U
 
 NAME EPSON|Perfection 640U
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT overseas version of the GT-6700U
 
 NAME EPSON|Perfection 660
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT supported by the snapscan backend
 
 NAME EPSON|Perfection 1200S
 SERVER epkowa
 DRIVER SCSI
+SCSILINE scsi EPSON
+SCSILINE scsi "EPSON SC"
 COMMENT overseas version of the GT-7600S
 
 NAME EPSON|Perfection 1200U
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT overseas version of the GT-7600U
 
 NAME EPSON|Perfection 1200U PHOTO
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT overseas version of the GT-7600UF<br>Perfection 1200U with TPU option bundled
 
 NAME EPSON|Perfection 1240U
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT overseas version of the GT-7700U
 
 NAME EPSON|Perfection 1250
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT overseas version of the GT-7200U<br>requires a DFSG non-free module<br>also supported by the plustek backend
 
 NAME EPSON|Perfection 1250 PHOTO
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT Perfection 1250 with TPU option bundled<br>requires a DFSG non-free module<br>also supported by the plustek backend
 
 NAME EPSON|Perfection 1260
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT overseas version of the GT-7300U<br>requires a DFSG non-free module<br>also supported by the plustek backend
 
 NAME EPSON|Perfection 1260 PHOTO
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT Perfection 1260 with TPU option bundled<br>requires a DFSG non-free module<br>also supported by the plustek backend
 
 NAME EPSON|Perfection 1270
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT may be supported by the snapscan backend
 
 NAME EPSON|Perfection 1600
 SERVER epkowa
 DRIVER SCSI
+SCSILINE scsi EPSON
+SCSILINE scsi "EPSON SC"
 
 NAME EPSON|Perfection 1640SU
 SERVER epkowa
 DRIVER SCSI USB
+SCSILINE scsi EPSON
+SCSILINE scsi "EPSON SC"
+USBLINE usb $VENDOR $PRODUCT
 COMMENT overseas version of the GT-8700
 
 NAME EPSON|Perfection 1640SU PHOTO
 SERVER epkowa
 DRIVER SCSI USB
+SCSILINE scsi EPSON
+SCSILINE scsi "EPSON SC"
+USBLINE usb $VENDOR $PRODUCT
 COMMENT overseas version of the GT-8700F
 
 NAME EPSON|Perfection 1650
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT overseas version of the GT-8200U
 
 NAME EPSON|Perfection 1650 PHOTO
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT overseas version of the GT-8200UF
 
 NAME EPSON|Perfection 1660 PHOTO
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT overseas version of the GT-8300UF
 
 NAME EPSON|Perfection 1670
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT supported by the snapscan backend
 
 NAME EPSON|Perfection 1670 PHOTO
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT may be supported by the snapscan backend
 
 NAME EPSON|Perfection 2400 PHOTO
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT overseas version of the GT-9300UF
 
 NAME EPSON|Perfection 2450 PHOTO
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT overseas version of the GT-9700F<br>IEEE1394 untested
 
 NAME EPSON|Perfection 2480 PHOTO
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT overseas version of the GT-F500<br>multi photo feeder not supported<br>requires a DFSG non-free module<br>also supported by the snapscan backend
 
 NAME EPSON|Perfection 2580 PHOTO
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT overseas version of the GT-F550<br>auto film loader not supported<br>requires a DFSG non-free module<br>also supported by the snapscan backend
 
 NAME EPSON|Perfection 3170 PHOTO
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT overseas version of the GT-9400UF<br>requires a DFSG non-free module
 
 NAME EPSON|Perfection 3200 PHOTO
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT overseas version of the GT-9800F<br>IEEE1394 untested
 
 NAME EPSON|Perfection 3490 PHOTO
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT overseas version of the GT-F520<br>multi photo feeder not supported<br>requires a DFSG non-free module<br>may be supported by the snapscan backend
 
 NAME EPSON|Perfection 3590 PHOTO
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT overseas version of the GT-F570<br>auto film loader not supported<br>requires a DFSG non-free module<br>may be supported by the snapscan backend
 
 NAME EPSON|Perfection 4180 PHOTO
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT overseas version of the GT-F600<br>only scans up to 2400dpi<br>requires a DFSG non-free module
 
 NAME EPSON|Perfection 4490 PHOTO
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT overseas version of the GT-X750<br>requires a DFSG non-free module
 
 NAME EPSON|Perfection 4870 PHOTO
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT overseas version of the GT-X700<br>IEEE1394 untested
 
 NAME EPSON|Perfection 4990 PHOTO
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT overseas version of the GT-X800<br>IEEE1394 untested<br>film area guide mode not supported
 
 NAME EPSON|Perfection 4990 Pro
 SERVER epkowa
 DRIVER USB IEEE1394
+USBLINE usb $VENDOR $PRODUCT
 COMMENT seems to be a 4990 PHOTO with additional software
 
 NAME EPSON|Perfection V700
 SERVER epkowa
 DRIVER USB IEEE1394
+USBLINE usb $VENDOR $PRODUCT
 COMMENT overseas version of the GT-X900<br>IEEE1394 untested
 
 NAME EPSON|Perfection V750
 SERVER epkowa
 DRIVER USB IEEE1394
+USBLINE usb $VENDOR $PRODUCT
 COMMENT overseas version of the GT-X900<br>IEEE1394 untested
 
 NAME EPSON|Stylus CX1500
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT all-in-one
 
 NAME EPSON|Stylus CX3100
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT overseas version of the CC-570<br>all-in-one
 
 NAME EPSON|Stylus CX3200
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT overseas version of the CC-570<br>all-in-one
 
 NAME EPSON|Stylus CX3500
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT all-in-one
 
 NAME EPSON|Stylus CX3600
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT all-in-one
 
 NAME EPSON|Stylus CX3650
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT all-in-one
 
 NAME EPSON|Stylus CX3700
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT all-in-one
 
 NAME EPSON|Stylus CX3800
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT all-in-one
 
 NAME EPSON|Stylus CX3810
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT all-in-one
 
 NAME EPSON|Stylus CX4100
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT all-in-one
 
 NAME EPSON|Stylus CX4200
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT all-in-one
 
 NAME EPSON|Stylus CX4500
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT all-in-one
 
 NAME EPSON|Stylus CX4600
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT all-in-one
 
 NAME EPSON|Stylus CX4700
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT all-in-one<br>overseas version of the PX-A650
 
 NAME EPSON|Stylus CX4800
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT all-in-one<br>overseas version of the PX-A650
 
 NAME EPSON|Stylus CX5100
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT overseas version of the CC-600PX<br>all-in-one
 
 NAME EPSON|Stylus CX5200
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT overseas version of the CC-600PX<br>all-in-one
 
 NAME EPSON|Stylus CX5300
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT overseas version of the CC-600PX<br>all-in-one
 
 NAME EPSON|Stylus CX5400
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT overseas version of the CC-600PX<br>all-in-one<br>epson backend claims 0x0808 USB product ID
 
 NAME EPSON|Stylus CX5700F
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT all-in-one
 
 NAME EPSON|Stylus CX5800F
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT all-in-one
 
 NAME EPSON|Stylus CX6300
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT all-in-one<br>mistakenly thinks its a PX-A650
 
 NAME EPSON|Stylus CX6400
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT all-in-one<br>mistakenly thinks its a PX-A650
 
 NAME EPSON|Stylus CX6500
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT all-in-one
 
 NAME EPSON|Stylus CX6600
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT all-in-one
 
 NAME EPSON|Stylus CX6600
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT all-in-one
 
 NAME EPSON|Stylus CX7700
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT all-in-one
 
 NAME EPSON|Stylus CX7800
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT all-in-one
 
 NAME EPSON|Stylus DX3800
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT all-in-one
 
 NAME EPSON|Stylus DX3850
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT all-in-one
 
 NAME EPSON|Stylus DX4200
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT all-in-one
 
 NAME EPSON|Stylus DX4800
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT all-in-one<br>overseas version of the PX-A650
 
 NAME EPSON|Stylus DX4850
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT DX4800 + card reader<br>all-in-one
 
 NAME EPSON|Stylus Photo RX420
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT all-in-one
 
 NAME EPSON|Stylus Photo RX425
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT all-in-one
 
 NAME EPSON|Stylus Photo RX430
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT all-in-one
 
 NAME EPSON|Stylus Photo RX500
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT all-in-one
 
 NAME EPSON|Stylus Photo RX510
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT all-in-one
 
 NAME EPSON|Stylus Photo RX520
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT all-in-one
 
 NAME EPSON|Stylus Photo RX530
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT all-in-one
 
 NAME EPSON|Stylus Photo RX600
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT overseas version of the PM-A850<br>all-in-one
 
 NAME EPSON|Stylus Photo RX610
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT overseas version of the PM-A850<br>all-in-one
 
 NAME EPSON|Stylus Photo RX620
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT overseas version of the PM-A870<br>all-in-one
 
 NAME EPSON|Stylus Photo RX630
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT overseas version of the PM-A870<br>all-in-one
 
 NAME EPSON|Stylus Photo RX640
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT all-in-one<br>overseas version of the PM-A890
 
 NAME EPSON|Stylus Photo RX650
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT all-in-one<br>overseas version of the PM-A890
 
 NAME EPSON|Stylus Photo RX700
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT overseas version of the PM-A900<br>all-in-one
 
 NAME EPSON|Stylus Scan 2000
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT apparently mostly the same as the Stylus Scan 2500
 
 NAME EPSON|Stylus Scan 2500
 SERVER epkowa
 DRIVER USB
+USBLINE usb $VENDOR $PRODUCT
 COMMENT scanner is apparently a GT-7000
 
 # from sane-backends-1.0.18/doc/descriptions-external/geniusvp2.desc
