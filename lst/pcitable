@@ -415,7 +415,7 @@
 0x1002	0x4c52	"Card:ATI Rage Mobility"	"ATI Technologies Inc.|Rage Mobility P/M"
 0x1002	0x4c53	"Card:ATI Rage Mobility"	"ATI Technologies Inc.|Rage Mobility L"
 0x1002	0x4c54	"Card:ATI Mach64 Utah"	"ATI Technologies Inc.|264LT [Mach64 LT]"
-0x1002	0x4c57	"Card:ATI Radeon (fglrx)"	"ATI Technologies Inc.|Radeon Mobility M7 LW (AGP)"
+0x1002	0x4c57	"Card:ATI Radeon"	"ATI Technologies Inc.|Radeon Mobility M7 LW (AGP)"
 0x1002	0x4c58	"Card:ATI Radeon"	"ATI Technologies Inc.|Mobility FireGL 7800 M7 LX (AGP)"
 0x1002	0x4c59	"Card:ATI Radeon (fglrx)"	"ATI Technologies Inc.|Radeon Mobility M6 LY (AGP)"
 0x1002	0x4c5a	"Card:ATI Radeon (fglrx)"	"ATI Technologies Inc.|Radeon Mobility M6 LZ (AGP)"
