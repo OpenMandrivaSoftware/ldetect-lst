@@ -1,3 +1,35 @@
+2006-07-07 15:33  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* ldetect-lst.spec: 0.1.129-1mdv2007.0
+
+2006-07-07 15:32  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: fix 2 other ATI entries (#22666)
+
+2006-07-07 14:25  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: fix an ATI card (#23349)
+
+2006-07-03 17:20  Till Kamppeter <till at mandriva.com>
+
+	* lst/ScannerDB: ScannerDB for Epson's "epkowa" backend.
+
+2006-07-03 17:18  Till Kamppeter <till at mandriva.com>
+
+	* lst/scannerconfigs: Added Epson's "epkowa" SANE backend.
+
+2006-07-03 15:04  Till Kamppeter <till at mandriva.com>
+
+	* lst/: ScannerDB, scannerconfigs: Scanner data for SANE 1.0.18.
+
+2006-06-17 12:39  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: switch an Intel card from OSS to ALSA
+
+2006-06-07 18:17  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* ldetect-lst.spec: add standard cvs warning
+
 2006-05-23 17:48  Thierry Vignaud <tvignaud at mandriva.com>
 
 	* ldetect-lst.spec: 0.1.128-1mdk
