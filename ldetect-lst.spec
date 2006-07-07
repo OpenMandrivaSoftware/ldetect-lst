@@ -1,7 +1,7 @@
 # EDIT IN CVS NOT IN SOURCE PACKAGE (NO PATCH ALLOWED).
 
 %define name ldetect-lst
-%define version 0.1.128
+%define version 0.1.129
 %define release %mkrel 1
 
 Name: %{name}
@@ -66,6 +66,12 @@ fi
 %{_bindir}/*
 
 %changelog
+* Fri Jul  7 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.129-1mdv2007.0
+- fix 3 ATI entries (#22666, #23349)
+- switch an Intel card from OSS to ALSA
+- scanner data for SANE 1.0.18 (till)
+- handle Epson's "epkowa" SANE backend (till)
+
 * Tue May 23 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.128-1mdk
 - add support for Broadcom 4319 802.11a/b/g
 - add support for HighPoint RocketRAID 3xxx Controller
