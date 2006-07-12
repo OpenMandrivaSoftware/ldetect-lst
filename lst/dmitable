@@ -9,6 +9,12 @@ System/Manufacturer: ACER
   => Diagonal_size: 14.1
 
 
+System/Manufacturer: Acer.*
+
+  System/Product Name: Aspire.*
+  => Type: laptop
+
+
 Base Board/Manufacturer: COMPAL
 
   Base Board/Product Name: ACL10
