@@ -1,14 +1,14 @@
 # EDIT IN CVS NOT IN SOURCE PACKAGE (NO PATCH ALLOWED).
 
 %define name ldetect-lst
-%define version 0.1.129
+%define version 0.1.130
 %define release %mkrel 1
 
 Name: %{name}
 Version: %{version}
 Release: %{release}
 Summary: Hardware list for the light detection library
-URL: http://cvs.mandriva.com/cgi-bin/cvsweb.cgi/soft/ldetect-lst/
+URL: http://svn.mandriva.com/cgi-bin/viewvc.cgi/soft/ldetect-lst/trunk/
 Source: %{name}-%{version}.tar.bz2
 Group: System/Kernel and hardware
 BuildRoot: %{_tmppath}/%{name}-buildroot
@@ -66,6 +66,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Wed Jul 12 2006 Olivier Blin <oblin@mandriva.com> 0.1.130-1mdv2007.0
+- tag Acer.* Aspire.* systems with "laptop" type (#23197)
+
 * Fri Jul  7 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.129-1mdv2007.0
 - fix 3 ATI entries (#22666, #23349)
 - switch an Intel card from OSS to ALSA
