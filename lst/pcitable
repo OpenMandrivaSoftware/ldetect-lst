@@ -1233,7 +1233,7 @@
 0x102b	0x0521	0x102b	0xff04	"Card:Matrox Millennium G200"	"Matrox Electronic Systems Ltd.|Marvel G200 AGP"
 0x102b	0x0521	0x110a	0x0032	"Card:Matrox Millennium G200"	"Matrox Electronic Systems Ltd.|MGA-G200 AGP"
 0x102b	0x0521	"Card:Matrox Millennium G200"	"Matrox Electronic Systems Ltd.|MGA G200 AGP [Millennium] AGP"
-0x102b	0x0522	"unknown"	"Matrox Graphics, Inc.|MGA G200e [Pilot] ServerEngines (SEP1)"
+0x102b	0x0522	"Card:Matrox Millennium G200"	"Matrox Graphics, Inc.|MGA G200e [Pilot] ServerEngines (SEP1)"
 0x102b	0x0525	0x0e11	0xb16f	"Card:Matrox Millennium G400"	"Matrox Electronic Systems Ltd.|MGA-G400 AGP"
 0x102b	0x0525	0x102b	0x0328	"Card:Matrox Millennium G400"	"Matrox Electronic Systems Ltd.|Millennium G400 16Mb SDRAM"
 0x102b	0x0525	0x102b	0x0338	"Card:Matrox Millennium G400"	"Matrox Electronic Systems Ltd.|Millennium G400 16Mb SDRAM"
