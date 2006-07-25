@@ -1,7 +1,7 @@
 # EDIT IN CVS NOT IN SOURCE PACKAGE (NO PATCH ALLOWED).
 
 %define name ldetect-lst
-%define version 0.1.130
+%define version 0.1.131
 %define release %mkrel 1
 
 Name: %{name}
@@ -66,6 +66,11 @@ fi
 %{_bindir}/*
 
 %changelog
+* Tue Jul 25 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.131-1mdv2007.0
+- add support for Matrox G200SE
+- fix support for "MGA G200e [Pilot] ServerEngines (SEP1)" (#23912)
+- sync with kernel-2.6.17.1mdk
+
 * Wed Jul 12 2006 Olivier Blin <oblin@mandriva.com> 0.1.130-1mdv2007.0
 - tag Acer.* Aspire.* systems with "laptop" type (#23197)
 
