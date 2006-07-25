@@ -1,3 +1,56 @@
+2006-07-25 14:26  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* soft/ldetect-lst/trunk/lst/pcitable: sync with kernel-2.6.17.1mdk
+
+2006-07-25 14:14  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* soft/ldetect-lst/trunk/lst/pcitable: add support for Matrox
+	  G200SE (needs x11-driver-video-mga > 1.4.0)
+
+2006-07-25 14:12  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* soft/ldetect-lst/trunk/lst/pcitable: fix support for "MGA G200e
+	  [Pilot] ServerEngines (SEP1)" (needs x11-driver-video-mga >
+	  1.4.0)
+
+2006-07-25 14:26  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* soft/ldetect-lst/trunk/lst/pcitable: sync with kernel-2.6.17.1mdk
+
+2006-07-25 14:14  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* soft/ldetect-lst/trunk/lst/pcitable: add support for Matrox
+	  G200SE (needs x11-driver-video-mga > 1.4.0)
+
+2006-07-25 14:12  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* soft/ldetect-lst/trunk/lst/pcitable: fix support for "MGA G200e
+	  [Pilot] ServerEngines (SEP1)" (needs x11-driver-video-mga >
+	  1.4.0)
+
+2006-07-12 19:01  Olivier Blin <oblin at mandriva.com>
+
+	* soft/ldetect-lst/trunk/ldetect-lst.spec: 0.1.130-1mdv2007.0
+
+2006-07-12 16:55  Olivier Blin <oblin at mandriva.com>
+
+	* soft/ldetect-lst/trunk/test/dmidecode.Laptop.Acer-Aspire-1524-WLMi,
+	  
+	  soft/ldetect-lst/trunk/test/dmidecode.Laptop.Acer-Aspire-1650z-WLMi:
+	  add "laptop" type check for Acer Aspire laptops
+
+2006-07-12 16:16  Olivier Blin <oblin at mandriva.com>
+
+	* soft/ldetect-lst/trunk/lst/dmitable: tag Acer.* Aspire.* systems
+	  with "laptop" type (#23197)
+
+2006-07-12 14:28  Olivier Blin <oblin at mandriva.com>
+
+	* soft/ldetect-lst/trunk/test/dmidecode.Laptop.Acer-Aspire-1524-WLMi,
+	  
+	  soft/ldetect-lst/trunk/test/dmidecode.Laptop.Acer-Aspire-1650z-WLMi:
+	  add Acer Aspire dmidecode (from #23197)
+
 2006-07-07 15:33  Thierry Vignaud <tvignaud at mandriva.com>
 
 	* ldetect-lst.spec: 0.1.129-1mdv2007.0
