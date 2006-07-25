@@ -13,21 +13,6 @@
 	  [Pilot] ServerEngines (SEP1)" (needs x11-driver-video-mga >
 	  1.4.0)
 
-2006-07-25 14:26  Thierry Vignaud <tvignaud at mandriva.com>
-
-	* soft/ldetect-lst/trunk/lst/pcitable: sync with kernel-2.6.17.1mdk
-
-2006-07-25 14:14  Thierry Vignaud <tvignaud at mandriva.com>
-
-	* soft/ldetect-lst/trunk/lst/pcitable: add support for Matrox
-	  G200SE (needs x11-driver-video-mga > 1.4.0)
-
-2006-07-25 14:12  Thierry Vignaud <tvignaud at mandriva.com>
-
-	* soft/ldetect-lst/trunk/lst/pcitable: fix support for "MGA G200e
-	  [Pilot] ServerEngines (SEP1)" (needs x11-driver-video-mga >
-	  1.4.0)
-
 2006-07-12 19:01  Olivier Blin <oblin at mandriva.com>
 
 	* soft/ldetect-lst/trunk/ldetect-lst.spec: 0.1.130-1mdv2007.0
