@@ -1,7 +1,7 @@
 # EDIT IN CVS NOT IN SOURCE PACKAGE (NO PATCH ALLOWED).
 
 %define name ldetect-lst
-%define version 0.1.131
+%define version 0.1.132
 %define release %mkrel 1
 
 Name: %{name}
@@ -66,6 +66,14 @@ fi
 %{_bindir}/*
 
 %changelog
+* Tue Jul 25 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.132-1mdv2007.0
+- sync with kernel-multimedia-desktop-2.6.17.6-1mdv
+- sync with kernel-tmb-desktop-2.6.17.7-1mdv
+- sync with latest pci.ids
+- fix entries for which the kernel driver has changed over the last
+  monthes
+- tag some ISDN cards as such
+
 * Tue Jul 25 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.131-1mdv2007.0
 - add support for Matrox G200SE
 - fix support for "MGA G200e [Pilot] ServerEngines (SEP1)" (#23912)
