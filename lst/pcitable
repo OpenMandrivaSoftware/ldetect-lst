@@ -3559,7 +3559,7 @@
 0x1106	0x0576	"unknown"	"VIA Technologies Inc.|VT82C576 3V [Apollo Master]"
 0x1106	0x0585	"unknown"	"VIA Technologies Inc.|VT82C585VP [Apollo VP1/VPX]"
 0x1106	0x0586	"unknown"	"VIA Technologies Inc.|VT82C586/A/B PCI-to-ISA [Apollo VP]"
-0x1106	0x0591	"unknown"	"VIA Technologies Inc.|VT8237A SATA 2-Port Controller"
+0x1106	0x0591	"sata_via"	"VIA Technologies Inc.|VT8237A SATA 2-Port Controller"
 0x1106	0x0595	"unknown"	"VIA Technologies Inc.|VT82C595 [Apollo VP2]"
 0x1106	0x0596	"unknown"	"VIA Technologies Inc.|VT82C596 ISA [Apollo PRO]"
 0x1106	0x0597	"via-agp"	"VIA Technologies Inc.|VT82C597 [Apollo VP3]"
