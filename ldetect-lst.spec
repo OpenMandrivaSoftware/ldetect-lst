@@ -1,7 +1,7 @@
 # EDIT IN CVS NOT IN SOURCE PACKAGE (NO PATCH ALLOWED).
 
 %define name ldetect-lst
-%define version 0.1.132
+%define version 0.1.133
 %define release %mkrel 1
 
 Name: %{name}
@@ -66,6 +66,12 @@ fi
 %{_bindir}/*
 
 %changelog
+* Sat Aug 12 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.133-1mdv2007.0
+- fix "S3 UniChrome" entry (pixel, #24021)
+- prefer dmfe over tulip (#23813)
+- sync with kernel-2.6.17.2mdv
+- sync with latest pci.ids
+
 * Tue Jul 25 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.132-1mdv2007.0
 - sync with kernel-multimedia-desktop-2.6.17.6-1mdv
 - sync with kernel-tmb-desktop-2.6.17.7-1mdv
