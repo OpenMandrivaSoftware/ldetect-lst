@@ -17,6 +17,7 @@ Requires(post): perl-base gzip
 Requires(preun): perl-base
 BuildRequires: perl-MDK-Common
 Provides: hwdata
+BuildArch: noarch
 
 %package devel
 Summary: Devel for ldetect-lst
