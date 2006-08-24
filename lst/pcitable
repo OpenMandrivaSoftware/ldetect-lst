@@ -499,7 +499,7 @@
 0x1002	0x5149	"Card:ATI Radeon"	"ATI Technologies Inc.|Radeon R200 QI"
 0x1002	0x514a	"Card:ATI Radeon"	"ATI Technologies Inc.|Radeon R200 QJ"
 0x1002	0x514b	"Card:ATI Radeon"	"ATI Technologies Inc.|Radeon R200 QK"
-0x1002	0x514c	"Card:ATI Radeon (fglrx)"	"ATI Technologies Inc.|Radeon 8500 QL (AGP)"
+0x1002	0x514c	"Card:ATI Radeon (EXA)"	"ATI Technologies Inc.|Radeon 8500 QL (AGP)"
 0x1002	0x514d	"Card:ATI Radeon (fglrx)"	"ATI Technologies Inc.|Radeon 9100 QM (AGP)"
 0x1002	0x514e	"Card:ATI Radeon (fglrx)"	"ATI Technologies Inc.|Radeon 8500 QN R200"
 0x1002	0x514f	"Card:ATI Radeon (fglrx)"	"ATI Technologies Inc.|Radeon 8500 QO R200"
