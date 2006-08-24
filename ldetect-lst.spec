@@ -1,7 +1,7 @@
 # EDIT IN CVS NOT IN SOURCE PACKAGE (NO PATCH ALLOWED).
 
 %define name ldetect-lst
-%define version 0.1.133
+%define version 0.1.134
 %define release %mkrel 1
 
 Name: %{name}
@@ -66,6 +66,15 @@ fi
 %{_bindir}/*
 
 %changelog
+* Thu Aug 24 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.134-1mdv2007.0
+- add GeForce FX 350 (chandra, #24678)
+- add some nvidia cards (pixel)
+- add support for ATI Radeon X1400 (Danny Tholen)
+- fix driver for V370 Radeon X600 (chandra, #24676)
+- fix 2nd card of dual head radeon X600 (chandra, #24676)
+- use EXA by default on ATI Radeon 8500 QL in order to have working
+  composite
+
 * Sat Aug 12 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.133-1mdv2007.0
 - fix "S3 UniChrome" entry (pixel, #24021)
 - prefer dmfe over tulip (#23813)
