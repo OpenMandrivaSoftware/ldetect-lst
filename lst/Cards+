@@ -1287,6 +1287,10 @@ NAME ATI Radeon (fbdev)
 DRIVER fbdev
 DRIVER2 fglrx
 
+NAME ATI Radeon (EXA)
+SEE ATI Radeon
+LINE Option "AccelMethod" "exa"
+
 # AGX
 
 NAME AGX (generic)
