@@ -608,7 +608,7 @@
 0x1002	0x5b64	"Card:ATI Radeon (fglrx)"	"ATI Technologies Inc.|RV370 GL Radeon"
 0x1002	0x5b65	"Card:ATI Radeon"	"ATI Technologies Inc.|RV370 FireGL D1100 (PCI-E)"
 0x1002	0x5b70	"Card:ATI Radeon (fglrx)"	"ATI Technologies Inc.|Radeon RV370"
-0x1002	0x5b72	"unknown"	"ATI Technologies Inc.|Radeon X600(RV380)"
+0x1002	0x5b72	"Card:ATI Radeon (fglrx)"	"ATI Technologies Inc.|Radeon X600(RV380)"
 0x1002	0x5b73	"unknown"	"ATI Technologies Inc|RV370 secondary [ATI Sapphire X550 Silent]"
 0x1002	0x5b74	"Card:ATI Radeon (fglrx)"	"ATI Technologies Inc.|Radeon RV370 GL (Secondary)"
 0x1002	0x5c61	"Card:ATI Radeon (fglrx)"	"ATI Technologies Inc.|Radeon Mobility 9200 (M9+) 5C61 (AGP)"
