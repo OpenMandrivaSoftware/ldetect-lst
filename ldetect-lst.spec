@@ -1,7 +1,7 @@
 # EDIT IN CVS NOT IN SOURCE PACKAGE (NO PATCH ALLOWED).
 
 %define name ldetect-lst
-%define version 0.1.134
+%define version 0.1.135
 %define release %mkrel 1
 
 Name: %{name}
@@ -66,6 +66,13 @@ fi
 %{_bindir}/*
 
 %changelog
+* Fri Aug 25 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.135-1mdv2007.0
+- add Proview 775N (#19874)
+- add support for X1300 (#24287)
+- blindly set driver for a few scores of radeon cards
+- fix driver for a DVB card (#15118)
+- fix support for X1600 (#24286)
+
 * Thu Aug 24 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.134-1mdv2007.0
 - add GeForce FX 350 (chandra, #24678)
 - add some nvidia cards (pixel)
