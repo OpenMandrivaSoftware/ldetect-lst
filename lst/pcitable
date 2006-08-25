@@ -648,7 +648,7 @@
 0x1002	0x7129	"unknown"	"ATI Technologies Inc|R520 [Radeon X1800] (Secondary)"
 0x1002	0x7142	"unknown"	"ATI Technologies Inc|RV515 [Radeon X1300]"
 0x1002	0x7145	"Card:ATI Radeon (fglrx)"	"ATI Technologies Inc|Radeon Mobility X1400"
-0x1002	0x7146	"unknown"	"ATI Technologies Inc|RV515 [Radeon X1300]"
+0x1002	0x7146	"Card:ATI Radeon (fglrx)"	"ATI Technologies Inc|RV515 [Radeon X1300]"
 0x1002	0x7149	"unknown"	"ATI Technologies Inc|M52 [ATI Mobility Radeon X1300]"
 0x1002	0x714a	"unknown"	"ATI Technologies Inc|M52 [ATI Mobility Radeon X1300]"
 0x1002	0x714b	"unknown"	"ATI Technologies Inc|M52 [ATI Mobility Radeon X1300]"
