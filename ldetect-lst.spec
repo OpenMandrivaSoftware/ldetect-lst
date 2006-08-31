@@ -1,7 +1,7 @@
 # EDIT IN CVS NOT IN SOURCE PACKAGE (NO PATCH ALLOWED).
 
 %define name ldetect-lst
-%define version 0.1.135
+%define version 0.1.136
 %define release %mkrel 1
 
 Name: %{name}
@@ -66,6 +66,10 @@ fi
 %{_bindir}/*
 
 %changelog
+* Thu Aug 31 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.136-1mdv2007.0
+- don't use anymore on ATI Radeon 8500 QL
+- fix 2 ATI entries (#24981)
+
 * Fri Aug 25 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.135-1mdv2007.0
 - add Proview 775N (#19874)
 - add support for X1300 (#24287)
