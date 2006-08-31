@@ -67,7 +67,7 @@ fi
 
 %changelog
 * Thu Aug 31 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.136-1mdv2007.0
-- don't use anymore on ATI Radeon 8500 QL
+- don't use EXA anymore on ATI Radeon 8500 QL
 - fix 2 ATI entries (#24981)
 
 * Fri Aug 25 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.135-1mdv2007.0
