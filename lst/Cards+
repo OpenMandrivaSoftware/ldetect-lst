@@ -1287,6 +1287,10 @@ NAME ATI Radeon (fbdev)
 DRIVER fbdev
 DRIVER2 fglrx
 
+NAME ATI Radeon (vesa)
+DRIVER vesa
+DRIVER2 fglrx
+
 # AGX
 
 NAME AGX (generic)
