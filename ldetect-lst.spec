@@ -72,6 +72,7 @@ fi
 - do not favor fbdev over ati for a couple of r[23]0 ati cards
 - free driver doesn't manage ati r5xx (eg: X1600 & X7600): use either
   fglrx or fbdev instead (#24992)
+- use vesa rather than fbdev for "ATI M56P [Radeon Mobility X1600]" (#24992)
 
 * Thu Aug 31 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.136-1mdv2007.0
 - don't use EXA anymore on ATI Radeon 8500 QL
