@@ -1,7 +1,7 @@
 # EDIT IN CVS NOT IN SOURCE PACKAGE (NO PATCH ALLOWED).
 
 %define name ldetect-lst
-%define version 0.1.136
+%define version 0.1.137
 %define release %mkrel 1
 
 Name: %{name}
@@ -66,6 +66,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Fri Sep  1 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.137-1mdv2007.0
+- free driver doesn't support X1600 & X7600
+
 * Thu Aug 31 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.136-1mdv2007.0
 - don't use EXA anymore on ATI Radeon 8500 QL
 - fix 2 ATI entries (#24981)
