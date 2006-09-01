@@ -69,7 +69,7 @@ fi
 * Fri Sep  1 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.137-1mdv2007.0
 - use evdev+imwheel for logitech MX700 & MX1000 (pixel)
 - free driver doesn't manage ati r5xx (eg: X1600 & X7600): use either
-  fglrx or vesa instead (#24992)
+  fglrx or fbdev instead (#24992)
 
 * Thu Aug 31 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.136-1mdv2007.0
 - don't use EXA anymore on ATI Radeon 8500 QL
