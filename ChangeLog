@@ -99,14 +99,6 @@
 
 	* soft/ldetect-lst/trunk/ldetect-lst.spec: 0.1.136-1mdv2007.0
 
-2006-08-31 15:36  Thierry Vignaud <tvignaud at mandriva.com>
-
-	* soft/ldetect-lst/trunk/lst/pcitable: fix 2 ATI entries (#24981)
-
-2006-08-31 15:36  Thierry Vignaud <tvignaud at mandriva.com>
-
-	* soft/ldetect-lst/trunk/lst/pcitable: fix 2 ATI entries (#24981)
-
 2006-08-30 18:26  Thierry Vignaud <tvignaud at mandriva.com>
 
 	* soft/ldetect-lst/trunk/lst/Cards+: kill now unused "ATI Radeon
