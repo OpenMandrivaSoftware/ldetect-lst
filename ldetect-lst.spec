@@ -68,6 +68,8 @@ fi
 %changelog
 * Fri Sep  1 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.137-1mdv2007.0
 - use evdev+imwheel for logitech MX700 & MX1000 (pixel)
+- a couple of r[23]50 are not (yet?) managed by xorg ati driver
+- do not favor fbdev over ati for a couple of r[23]0 ati cards
 - free driver doesn't manage ati r5xx (eg: X1600 & X7600): use either
   fglrx or fbdev instead (#24992)
 
