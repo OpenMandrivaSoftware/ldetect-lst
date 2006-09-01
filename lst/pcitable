@@ -271,7 +271,7 @@
 0x1002	0x0162	"Card:ATI Radeon"	"ATI Technologies Inc.|FireGL 8700 32Mb"
 0x1002	0x0172	"Card:ATI Radeon"	"ATI Technologies Inc.|FireGL 8700 64Mb"
 0x1002	0x1002	"Card:ATI Radeon"	"ATI Technologies Inc.|FireGL 8800 64Mb"
-0x1002	0x3150	"Card:ATI Radeon (fgrlx)"	"ATI Technologies Inc.|M24 1P [Radeon Mobility X600]"
+0x1002	0x3150	"Card:ATI Radeon (fglrx)"	"ATI Technologies Inc.|M24 1P [Radeon Mobility X600]"
 0x1002	0x3152	"Card:ATI Radeon (fglrx)"	"ATI Technologies Inc|M22 [Radeon Mobility X300]"
 0x1002	0x3154	"Card:ATI Radeon"	"ATI Technologies Inc.|M24 1T [FireGL M24 GL]"
 0x1002	0x3e50	"Card:ATI Radeon (fglrx)"	"ATI Technologies Inc.|Radeon X600 Pro (PCI-Express)"
