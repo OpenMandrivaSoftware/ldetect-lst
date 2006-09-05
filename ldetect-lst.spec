@@ -1,7 +1,7 @@
 # EDIT IN CVS NOT IN SOURCE PACKAGE (NO PATCH ALLOWED).
 
 %define name ldetect-lst
-%define version 0.1.139
+%define version 0.1.140
 %define release %mkrel 1
 
 Name: %{name}
@@ -66,6 +66,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Tue Sep  5 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.140-1mdv2007.0
+- sync with kernel-2.6.17.4mdv
+
 * Tue Sep  5 2006 Pixel <pixel@mandriva.com> 0.1.139-1mdv2007.0
 - add entry for Logitech MX510 mouse
 
