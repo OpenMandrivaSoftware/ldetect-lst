@@ -66,6 +66,10 @@ fi
 %{_bindir}/*
 
 %changelog
+* Tue Sep  5 2006 Pixel <pixel@mandriva.com> 0.1.138-1mdv2007.0
+- change the format used for "imwheel" mice: imwheel:MX700 instead of imwheel|MX700 
+- add entries for MX310 (no evdev (?), generic imwheel), MX500, MX518, MX1000
+
 * Fri Sep  1 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.137-1mdv2007.0
 - use evdev+imwheel for logitech MX700 & MX1000 (pixel)
 - a couple of r[23]50 are not (yet?) managed by xorg ati driver
