@@ -1468,6 +1468,7 @@
 0x046d	0xc012	"unknown"	"Logitech Inc.|Optical Mouse"
 0x046d	0xc016	"unknown"	"Logitech, Inc.|Optical Mouse"
 0x046d	0xc01b	"Mouse:imwheel:generic"	"Logitech, Inc.|MX310 Optical Mouse"
+0x046d	0xc01d	"Mouse:evdev|imwheel:MX500"	"Logitech, Inc.|MX510 Optical Mouse"
 0x046d	0xc01e	"Mouse:evdev|imwheel:MX500"	"Logitech, Inc.|MX518 Optical Mouse"
 0x046d	0xc025	"Mouse:evdev|imwheel:MX500"	"Logitech, Inc.|MX500 Optical Mouse"
 0x046d	0xc030	"Mouse:USB|Generic"	"Logitech Inc.|iFeel Mouse"

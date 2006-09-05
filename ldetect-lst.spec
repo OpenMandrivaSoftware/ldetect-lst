@@ -1,7 +1,7 @@
 # EDIT IN CVS NOT IN SOURCE PACKAGE (NO PATCH ALLOWED).
 
 %define name ldetect-lst
-%define version 0.1.138
+%define version 0.1.139
 %define release %mkrel 1
 
 Name: %{name}
@@ -66,6 +66,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Tue Sep  5 2006 Pixel <pixel@mandriva.com> 0.1.139-1mdv2007.0
+- add entry for Logitech MX510 mouse
+
 * Tue Sep  5 2006 Pixel <pixel@mandriva.com> 0.1.138-1mdv2007.0
 - change the format used for "imwheel" mice: imwheel:MX700 instead of imwheel|MX700 
 - add entries for MX310 (no evdev (?), generic imwheel), MX500, MX518, MX1000
