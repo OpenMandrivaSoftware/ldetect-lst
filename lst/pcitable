@@ -634,7 +634,7 @@
 0x1002	0x5e4c	"Card:ATI Radeon"	"ATI Technologies Inc|RV410 [Radeon X700SE]"
 0x1002	0x5e4d	"Card:ATI Radeon"	"ATI Technologies Inc.|RV410 Radeon X700 (PCI-E)"
 0x1002	0x5e4f	"Card:ATI Radeon"	"ATI Technologies Inc|RV410 [Radeon X700]"
-0x1002	0x5e6b	"Card:ATI Radeon"	"ATI Technologies Inc.|RV410 Radeon X700 Pro (PCI-E) (Secondary)"
+0x1002	0x5e6b	"unknown"	"ATI Technologies Inc.|RV410 Radeon X700 Pro (PCI-E) (Secondary)"
 0x1002	0x5e6d	"unknown"	"ATI Technologies Inc.|RV410 Radeon X700 (PCI-E) (Secondary)"
 0x1002	0x5f57	"Card:ATI Radeon"	"ATI Technologies Inc|R423 [Radeon X800XT (PCIE)]"
 0x1002	0x700f	"unknown"	"ATI Technologies Inc.|U1/A3 AGP Bridge [IGP 320M]"
