@@ -630,7 +630,7 @@
 0x1002	0x5e48	"Card:ATI Radeon"	"ATI Technologies Inc|RV410 [FireGL V5000]"
 0x1002	0x5e49	"Card:ATI Radeon"	"ATI Technologies Inc|RV410 [FireGL V3300]"
 0x1002	0x5e4a	"Card:ATI Radeon"	"ATI Technologies Inc|RV410 [Radeon X700XT]"
-0x1002	0x5e4b	"Card:ATI Radeon"	"ATI Technologies Inc.|RV410 Radeon X700 Pro (PCI-E)"
+0x1002	0x5e4b	"Card:ATI Radeon (fglrx)"	"ATI Technologies Inc.|RV410 Radeon X700 Pro (PCI-E)"
 0x1002	0x5e4c	"Card:ATI Radeon"	"ATI Technologies Inc|RV410 [Radeon X700SE]"
 0x1002	0x5e4d	"Card:ATI Radeon"	"ATI Technologies Inc.|RV410 Radeon X700 (PCI-E)"
 0x1002	0x5e4f	"Card:ATI Radeon"	"ATI Technologies Inc|RV410 [Radeon X700]"
