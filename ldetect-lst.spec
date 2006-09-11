@@ -1,7 +1,7 @@
 # EDIT IN CVS NOT IN SOURCE PACKAGE (NO PATCH ALLOWED).
 
 %define name ldetect-lst
-%define version 0.1.140
+%define version 0.1.141
 %define release %mkrel 1
 
 Name: %{name}
@@ -66,6 +66,11 @@ fi
 %{_bindir}/*
 
 %changelog
+* Mon Sep 11 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.141-1mdv2007.0
+- add "Samsung SyncMaster 757NF" (Jure Repinc)
+- ati x700 is supported by fglrx
+- do not set a drver for a secondary ATI head
+
 * Tue Sep  5 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.140-1mdv2007.0
 - sync with kernel-2.6.17.4mdv
 
