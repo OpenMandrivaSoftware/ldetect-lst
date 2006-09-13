@@ -69,7 +69,7 @@ fi
 * Wed Sep 13 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.143-1mdv2007.0
 - add support for more new ATI cards
 - fix a bogus ATI secondary entry (#25399)
-- kill all secondary entries with an ati driver (which suprinsingly :-)
+- kill all secondary entries with an ati driver (which surprisingly :-)
   are all unknown to the ati driver) since they're likely to break
   systems
 - sync with latest pci.ids
