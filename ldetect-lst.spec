@@ -1,7 +1,7 @@
 # EDIT IN CVS NOT IN SOURCE PACKAGE (NO PATCH ALLOWED).
 
 %define name ldetect-lst
-%define version 0.1.142
+%define version 0.1.143
 %define release %mkrel 1
 
 Name: %{name}
@@ -66,6 +66,14 @@ fi
 %{_bindir}/*
 
 %changelog
+* Wed Sep 13 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.143-1mdv2007.0
+- add support for more new ATI cards
+- fix a bogus ATI secondary entry (#25399)
+- kill all secondary entries with an ati driver (which suprinsingly :-)
+  are all unknown to the ati driver) since they're likely to break
+  systems
+- sync with latest pci.ids
+
 * Tue Sep 12 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.142-1mdv2007.0
 - use ati for 0x1002:0x4c59 (#25562)
 
