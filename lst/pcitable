@@ -383,7 +383,7 @@
 0x1002	0x4967	"Card:ATI Radeon (fglrx)"	"ATI Technologies Inc.|Radeon 9000 Ig (AGP/PCI)"
 0x1002	0x496c	"Card:ATI Radeon (fbdev)"	"ATI Technologies Inc.|Radeon ????"
 0x1002	0x496d	"Card:ATI Radeon (fbdev)"	"ATI Technologies Inc.|Radeon ????"
-0x1002	0x496e	"Card:ATI Radeon (fbdev)"	"ATI Technologies Inc.|Radeon R250 [Radeon 9000] (Secondary)"
+0x1002	0x496e	"unknown"	"ATI Technologies Inc.|Radeon R250 [Radeon 9000] (Secondary)"
 0x1002	0x496f	"Card:ATI Radeon (fbdev)"	"ATI Technologies Inc.|Radeon R250 [Radeon 9000] (Secondary)"
 0x1002	0x4a48	"Card:ATI Radeon (fglrx)"	"ATI Technologies Inc.|Radeon X800 (R420)"
 0x1002	0x4a49	"Card:ATI Radeon (fglrx)"	"ATI Technologies Inc.|Radeon X800 Pro"
