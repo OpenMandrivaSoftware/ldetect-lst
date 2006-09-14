@@ -119,9 +119,3 @@ System/Manufacturer: TOSHIBA
   BIOS/Vendor: TOSHIBA
   => Module: toshiba
   => Pkg: toshutils
-
-System/Manufacturer: IBM
-
-  System/Product Name: T.*
-  => Module: ibm-acpi
-
