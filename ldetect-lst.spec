@@ -1,7 +1,7 @@
 # EDIT IN CVS NOT IN SOURCE PACKAGE (NO PATCH ALLOWED).
 
 %define name ldetect-lst
-%define version 0.1.143
+%define version 0.1.144
 %define release %mkrel 1
 
 Name: %{name}
@@ -66,6 +66,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Thu Sep 14 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.144-1mdv2007.0
+- add zd1211rw device IDs because of kernel issues (blino)
+
 * Wed Sep 13 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.143-1mdv2007.0
 - add support for more new ATI cards
 - fix a bogus ATI secondary entry (#25399)
