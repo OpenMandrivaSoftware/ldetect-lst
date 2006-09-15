@@ -950,6 +950,11 @@ NAME S3 UniChrome
 DRIVER via
 DRI_GLX
 
+NAME OpenChrome
+DRIVER openchrome
+# 3D needs a DRM driver in kernel:
+#DRI_GLX
+
 # ET4000/ET6000
 
 NAME ET3000 (generic)
