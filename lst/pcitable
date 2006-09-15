@@ -7342,7 +7342,7 @@
 0x8086	0x266d	0x1014	0x0574	"Hsf:www.linmodems.org"	"Intel Corp.|I/OController Hub Modem"
 0x8086	0x266d	0x1025	0x006a	"snd-intel8x0m"	"Intel Corporation|Conexant AC'97 CoDec (in Acer TravelMate 2410 serie laptop)"
 0x8086	0x266d	0x103c	0x0934	"slamr"	"Intel Corp.|I/OController Hub Modem"
-0x8086	0x266d	0x103c	0x0944	"slamr"	"Intel Corp.|I/OController Hub Modem"
+0x8086	0x266d	0x103c	0x0944	"snd-intel8x0m"	"Intel Corp.|I/OController Hub Modem"
 0x8086	0x266d	0x103c	0x099c	"slamr"	"Intel Corp.|I/OController Hub Modem"
 0x8086	0x266d	0x14c0	0x0012	"slamr"	"Intel Corp.|I/OController Hub Modem"
 0x8086	0x266d	0x14f1	0x5423	"Hsf:www.linmodems.org"	"Intel Corp.|I/OController Hub Modem"
