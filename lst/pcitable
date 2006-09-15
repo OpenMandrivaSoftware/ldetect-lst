@@ -6371,7 +6371,7 @@
 0x1a08	0x0000	"unknown"	"Sierra semiconductor|SC15064"
 0x1c1c	0x0001	"unknown"	"Symphony|82C101"
 0x1d44	0xa400	"eata"	"DPT|PM2x24/PM3224"
-0x1de1	0x0391	"dc395x_trm"	"Tekram|TRM-S1040"
+0x1de1	0x0391	"dc395x"	"Tekram|TRM-S1040"
 0x1de1	0x2020	"tmscsim"	"Tekram|DC-390"
 0x1de1	0x690c	"unknown"	"Tekram|690c"
 0x1de1	0xdc29	"trm290"	"Tekram|DC290"
