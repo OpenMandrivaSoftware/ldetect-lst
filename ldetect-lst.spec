@@ -68,7 +68,7 @@ fi
 %changelog
 * Fri Sep 15 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.146-1mdv2007.0
 - add support for openchrome driver (#24021)
-- use snd-intel8x0m on nc6220
+- use snd-intel8x0m on nc6220 (blino)
 
 * Fri Sep 15 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.145-1mdv2007.0
 - do not use anymore kernel-2.4.x module names since:
