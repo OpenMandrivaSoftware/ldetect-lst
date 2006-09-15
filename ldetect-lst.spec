@@ -1,7 +1,7 @@
 # EDIT IN CVS NOT IN SOURCE PACKAGE (NO PATCH ALLOWED).
 
 %define name ldetect-lst
-%define version 0.1.145
+%define version 0.1.146
 %define release %mkrel 1
 
 Name: %{name}
@@ -66,6 +66,9 @@ fi
 %{_bindir}/*
 
 %changelog
+* Fri Sep 15 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.146-1mdv2007.0
+- add support for openchrome driver (#24021)
+
 * Fri Sep 15 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.145-1mdv2007.0
 - do not use anymore kernel-2.4.x module names since:
   o we cannot rely on /lib/module-init-tools/modprobe.compat at
