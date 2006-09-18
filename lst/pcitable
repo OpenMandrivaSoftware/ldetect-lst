@@ -7150,7 +7150,7 @@
 0x8086	0x2482	"uhci-hcd"	"Intel Corp.|82801 USB Controller"
 0x8086	0x2483	"i2c-i801"	"Intel Corp.|82801 SMBus Controller"
 0x8086	0x2484	"uhci-hcd"	"Intel Corp.|82801 USB Controller"
-0x8086	0x2485	"i810_audio"	"Intel Corp.|82801 AC97 Audio Controller"
+0x8086	0x2485	"snd-intel8x0"	"Intel Corp.|82801 AC97 Audio Controller"
 0x8086	0x2486	"slamr"	"Intel Corp.|PCTEL 2304 WT V.92 MDC Modem"
 0x8086	0x2487	"uhci-hcd"	"Intel Corp.|82801 USB Controller"
 0x8086	0x248a	"piix"	"Intel Corp.|82801 UltraATA IDE Controller"
