@@ -68,6 +68,8 @@ fi
 %changelog
 * Tue Sep 19 2006 Pixel <pixel@mandriva.com> 0.1.147-1mdv2007.0
 - add "Intel 965" in Cards+
+- add LiveBox USB id (blino)
+- switch a intel sound card from OSS to ALSA (thierry)
 
 * Fri Sep 15 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.146-1mdv2007.0
 - add support for openchrome driver (#24021)
