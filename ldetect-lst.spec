@@ -1,7 +1,7 @@
 # EDIT IN CVS NOT IN SOURCE PACKAGE (NO PATCH ALLOWED).
 
 %define name ldetect-lst
-%define version 0.1.148
+%define version 0.1.149
 %define release %mkrel 1
 
 Name: %{name}
@@ -67,6 +67,11 @@ fi
 %{_bindir}/*
 
 %changelog
+* Tue Sep 19 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.149-1mdv2007.0
+- * Tue Sep 19 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.149-1mdv2007.0
+- rename "SiS" as "SiS generic", thus fixing vendor tree in XFdrake (#25981)
+- tag Acer TravelMate systems as laptops (blino, #25915)
+
 * Tue Sep 19 2006 Olivier Blin <oblin@mandriva.com> 0.1.148-1mdv2007.0
 - add /etc/modprobe.d/ldetect-lst.conf support
 - add explicit alias to hostap_cs for an USR Wireless PC Card (#25911)
