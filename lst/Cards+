@@ -1595,7 +1595,7 @@ SEE Trident Cyber 9525 (generic)
 NAME SiS USB
 DRIVER sisusb
 
-NAME SiS
+NAME SiS generic
 DRIVER sis
 
 NAME SiS SG86C205
