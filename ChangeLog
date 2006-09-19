@@ -100,20 +100,6 @@
 
 	* soft/ldetect-lst/trunk/lst/usbtable: add zd1211rw device IDs
 
-2006-09-14 18:50  Thierry Vignaud <tvignaud at mandriva.com>
-
-	* soft/ldetect-lst/trunk/lst/dmitable: revert r61494 (better
-	  managed by drakx)
-
-2006-09-14 17:49  Thierry Vignaud <tvignaud at mandriva.com>
-
-	* soft/ldetect-lst/trunk/lst/dmitable: load ibm-acpi for some (dmi
-	  being unreliable) ibm-acpi (#21597)
-
-2006-09-14 17:04  Olivier Blin <oblin at mandriva.com>
-
-	* soft/ldetect-lst/trunk/lst/usbtable: add zd1211rw device IDs
-
 2006-09-13 17:10  Thierry Vignaud <tvignaud at mandriva.com>
 
 	* soft/ldetect-lst/trunk/ldetect-lst.spec: fix typo fix in
