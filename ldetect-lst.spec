@@ -58,6 +58,7 @@ fi
 %defattr(-,root,root)
 %doc AUTHORS ChangeLog
 %{_datadir}/%{name}
+%{_sysconfdir}/modprobe.d/%{name}.conf
 %{_sbindir}/*
 
 %files devel

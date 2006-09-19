@@ -48,3 +48,6 @@ install: $(TMP_TABLES) $(TABLES3)
 	gzip -9 $(dir)/{pcitable,usbtable,dmitable}.d/90default.lst
 
 	install -m 644 ScannerDB.gz scannerconfigs Cards+ MonitorsDB isdn.db $(dir)
+
+	mkdir -p $(modprobe_dir)
+	install -m 644 modprobe.conf $(modprobe_dir)/$(project).conf
