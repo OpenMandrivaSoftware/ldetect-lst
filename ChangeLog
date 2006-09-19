@@ -1,3 +1,58 @@
+2006-09-19 16:59  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* soft/ldetect-lst/trunk/lst/pcitable: "Card:SiS" was renamed as
+	  "Card:SiS generic"
+
+2006-09-19 16:55  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* soft/ldetect-lst/trunk/lst/Cards+: rename "SiS" as "SiS
+	  generic", thus fixing vendor tree in XFdrake (#25981)
+
+2006-09-19 16:51  Olivier Blin <oblin at mandriva.com>
+
+	* soft/ldetect-lst/trunk/lst/dmitable: tag Acer TravelMate systems
+	  as laptops (#25915)
+
+2006-09-19 10:59  Olivier Blin <oblin at mandriva.com>
+
+	* soft/ldetect-lst/trunk/ChangeLog,
+	  soft/ldetect-lst/trunk/Makefile: fix changelog and revert
+	  unwanted commit
+
+2006-09-19 10:57  Olivier Blin <oblin at mandriva.com>
+
+	* soft/ldetect-lst/trunk/ChangeLog,
+	  soft/ldetect-lst/trunk/Makefile,
+	  soft/ldetect-lst/trunk/ldetect-lst.spec: 0.1.148-1mdv2007.0
+
+2006-09-19 10:55  Olivier Blin <oblin at mandriva.com>
+
+	* soft/ldetect-lst/trunk/lst/modprobe.conf: add explicit alias to
+	  hostap_cs for an USR Wireless PC Card (#25911)
+
+2006-09-19 10:53  Olivier Blin <oblin at mandriva.com>
+
+	* soft/ldetect-lst/trunk/Makefile.config,
+	  soft/ldetect-lst/trunk/ldetect-lst.spec,
+	  soft/ldetect-lst/trunk/lst/Makefile,
+	  soft/ldetect-lst/trunk/lst/modprobe.conf: add
+	  /etc/modprobe.d/ldetect-lst.conf support
+
+2006-09-19 09:57  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* soft/ldetect-lst/trunk/ldetect-lst.spec: log more stuff into
+	  0.1.147-1mdv2007.0
+
+2006-09-19 09:29  Pixel <pixel at mandriva.com>
+
+	* soft/ldetect-lst/trunk/lst/pcitable: add 4 entries for "Intel
+	  965" (and take description from http://pci-ids.ucw.cz/pci.ids)
+
+2006-09-19 09:06  Pixel <pixel at mandriva.com>
+
+	* soft/ldetect-lst/trunk/ldetect-lst.spec,
+	  soft/ldetect-lst/trunk/lst/Cards+: add "Intel 965" in Cards+
+
 2006-09-19 10:55  Olivier Blin <oblin at mandriva.com>
 
 	* soft/ldetect-lst/trunk/lst/modprobe.conf: add explicit alias to
