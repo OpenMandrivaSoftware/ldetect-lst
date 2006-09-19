@@ -1,7 +1,7 @@
 # EDIT IN CVS NOT IN SOURCE PACKAGE (NO PATCH ALLOWED).
 
 %define name ldetect-lst
-%define version 0.1.147
+%define version 0.1.148
 %define release %mkrel 1
 
 Name: %{name}
@@ -67,6 +67,10 @@ fi
 %{_bindir}/*
 
 %changelog
+* Tue Sep 19 2006 Olivier Blin <oblin@mandriva.com> 0.1.148-1mdv2007.0
+- add /etc/modprobe.d/ldetect-lst.conf support
+- add explicit alias to hostap_cs for an USR Wireless PC Card (#25911)
+
 * Tue Sep 19 2006 Pixel <pixel@mandriva.com> 0.1.147-1mdv2007.0
 - add "Intel 965" in Cards+
 - add LiveBox USB id (blino)
