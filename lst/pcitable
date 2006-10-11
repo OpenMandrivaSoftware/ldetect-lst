@@ -4869,7 +4869,7 @@
 0x125d	0x1948	"maestro"	"ESS Technology|ES1948 Maestro 1"
 0x125d	0x1968	"radio-maestro"	"ESS Technology|ES1968 Maestro 2"
 0x125d	0x1969	"snd-es1938"	"ESS Technology|ES1969 Solo-1 Audiodrive"
-0x125d	0x1978	"radio-maestro"	"ESS Technology|ES1978 Maestro 2E"
+0x125d	0x1978	"snd-es1968"	"ESS Technology|ES1978 Maestro 2E"
 0x125d	0x1988	"maestro3"	"ESS Technology|ES1988 Allegro-1"
 0x125d	0x1989	"snd-maestro3"	"ESS Technology|ESS Modem"
 0x125d	0x1990	"snd-maestro3"	"ESS Technology|Canyon3D-2"
