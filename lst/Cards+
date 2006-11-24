@@ -1279,8 +1279,6 @@ DRI_GLX
 
 NAME ATI Radeon 8500
 DRIVER ati
-# no DRI_GLX for now (XF 4.2)
-# but XF 4.3 add DRI
 DRI_GLX
 
 NAME ATI Radeon (fglrx)
