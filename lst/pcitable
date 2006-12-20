@@ -583,7 +583,7 @@
 0x1002	0x5944	"unknown"	"ATI Technologies Inc.|RV280 Radeon 9200 SE (PCI)"
 0x1002	0x5950	"unknown"	"ATI Technologies Inc.|RS480 Host Bridge"
 0x1002	0x5951	"unknown"	"ATI Technologies Inc.|Radeon Xpress 200 (RS480/RS482/RX480/RX482) Chipset - Host bridge"
-0x1002	0x5954	"Card:ATI Radeon (fglrx)"	"ATI Technologies Inc.|Radeon XPRESS 200 (RS480 5954)"
+0x1002	0x5954	"Card:ATI Radeon"	"ATI Technologies Inc.|Radeon XPRESS 200 (RS480 5954)"
 0x1002	0x5955	"Card:ATI Radeon (fglrx)"	"ATI Technologies Inc.|Radeon XPRESS 200M (RS480 5955)"
 0x1002	0x5960	"Card:ATI Radeon (fglrx)"	"ATI Technologies Inc.|Radeon 9200PRO 5960 (AGP)"
 0x1002	0x5961	"Card:ATI Radeon (fglrx)"	"ATI Technologies Inc.|Radeon 9200 5961 (AGP)"
