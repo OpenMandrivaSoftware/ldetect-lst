@@ -68,7 +68,6 @@ fi
 
 %changelog
 * Tue Sep 19 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.149-1mdv2007.0
-- * Tue Sep 19 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.149-1mdv2007.0
 - rename "SiS" as "SiS generic", thus fixing vendor tree in XFdrake (#25981)
 - tag Acer TravelMate systems as laptops (blino, #25915)
 
