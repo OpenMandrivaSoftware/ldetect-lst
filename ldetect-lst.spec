@@ -1,7 +1,7 @@
 # EDIT IN CVS NOT IN SOURCE PACKAGE (NO PATCH ALLOWED).
 
 %define name ldetect-lst
-%define version 0.1.149
+%define version 0.1.150
 %define release %mkrel 1
 
 Name: %{name}
@@ -67,6 +67,17 @@ fi
 %{_bindir}/*
 
 %changelog
+* Fri Dec 22 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.150-1mdv2007.1
+- add "Acer; ACR AL2023" monitor (#26294)
+- add "Acer AL1722" monitor (#26294)
+- add monitor (#26713)
+- ati xpress200 rs480 is unworkable with ati proprietary driver
+- GL apps make X crash with Voodoo cards (Gerard Delafond)
+- defaulting to ALSA driver instead of radio driver for 0x125d:0x1978
+  (#26119)
+- switch 0x1274:0x5880 from OSS to ALSA (#26045)
+- sync at76 IDs for at76_usb module (blino, #26125)
+
 * Tue Sep 19 2006 Thierry Vignaud <tvignaud@mandriva.com> 0.1.149-1mdv2007.0
 - rename "SiS" as "SiS generic", thus fixing vendor tree in XFdrake (#25981)
 - tag Acer TravelMate systems as laptops (blino, #25915)
