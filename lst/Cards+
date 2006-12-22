@@ -2335,7 +2335,6 @@ DRIVER voodoo
 
 NAME Voodoo Banshee (generic)
 DRIVER tdfx
-DRI_GLX
 # DRI_GLX 16bit only
 
 NAME Voodoo Rush (generic)
@@ -2344,15 +2343,12 @@ LINE Option	"nodri"
 
 NAME Voodoo3 (generic)
 DRIVER tdfx
-DRI_GLX
 
 NAME Voodoo4 (generic)
 DRIVER tdfx
-DRI_GLX
 
 NAME Voodoo5 (generic)
 DRIVER tdfx
-DRI_GLX
 
 NAME Elsa Victory II
 SEE Voodoo Banshee (generic)
