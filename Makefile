@@ -36,7 +36,7 @@ dir:
 	mkdir $(PACKAGE)-$(VERSION)
 
 localcopy:
-	tar c $(FILES) | tar x -C $(PACKAGE)-$(VERSION)
+	tar c --exclude=.svn $(FILES) | tar x -C $(PACKAGE)-$(VERSION)
 
 tar:
 	tar cvf $(PACKAGE)-$(VERSION).tar $(PACKAGE)-$(VERSION)
