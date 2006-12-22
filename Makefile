@@ -3,7 +3,6 @@ include Makefile.config
 PACKAGE = ldetect-lst
 VERSION := $(shell rpm -q --qf '%{VERSION}\n' --specfile $(PACKAGE).spec | head -1)
 RELEASE := $(shell rpm -q --qf '%{RELEASE}\n' --specfile $(PACKAGE).spec | head -1)
-TAG := $(shell echo "V$(VERSION)_$(RELEASE)" | tr -- '-.' '__')
 
 SVN_URL  := $(shell svn info | grep ^URL: | cut -f2 -d\ )
 SVN_BASE := $(shell svn info | sed -n '/^URL: \(.*\/$(PACKAGE)\).*/s//\1/p')
@@ -30,13 +29,6 @@ install: build
 
 # rules to build a test rpm
 
-localsrpm: check localdist
-	rpm -ts $(PACKAGE)-$(VERSION).tar.bz2
-
-localrpm: localdist buildrpm
-
-localdist: cleandist dir localcopy tar
-
 cleandist:
 	rm -rf $(PACKAGE)-$(VERSION) $(PACKAGE)-$(VERSION).tar.bz2
 
@@ -51,23 +43,10 @@ tar:
 	bzip2 -9vf $(PACKAGE)-$(VERSION).tar
 	rm -rf $(PACKAGE)-$(VERSION)
 
-buildrpm:
-	rpm -ta $(PACKAGE)-$(VERSION).tar.bz2
 
 # rules to build a distributable rpm
 
-srpm: check changelog svntag dist
-	rpm -ts $(PACKAGE)-$(VERSION).tar.bz2
-
-rpm: srpm buildrpm
-
-dist: cleandist dir export tar
-
-export:
-	echo svn co $(SVN_BASE)/tags/$(TAG) $(PACKAGE)-$(VERSION)
-
-svntag:
-	echo svn cp -m "tagged as $(TAG)" $(SVNTAGOPT) $(SVN_URL) $(SVN_BASE)/tags/$(TAG)
+dist: cleandist dir localcopy tar
 
 log: changelog
 
