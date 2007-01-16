@@ -23,22 +23,35 @@ Base Board/Manufacturer: COMPAL
   => Resolution: 1400x1050
 
 
-System/Manufacturer: Dell Computer .*
+System/Manufacturer: Dell .*
 
   System/Product Name: Inspiron 8600 
   => Resolution: 1280x800
-
-
-System/Manufacturer: Dell Computer .*
 
   System/Product Name: Inspiron.*
   => Module: i8k
   => Pkg: i8kutils
 
+  System/Product Name: Latitude D410
+  => XkbModel: inspiron
+
+  System/Product Name: Latitude D600
+  => XkbModel: inspiron
+
+  System/Product Name: Latitude D620
+  => XkbModel: inspiron
+
   System/Product Name: Latitude.*
   => Module: i8k
   => Pkg: i8kutils
 
+  System/Product Name: Precision M60
+  => Resolution: 1920x1200
+  => XkbModel: inspiron
+
+  System/Product Name: Precision M90
+  => Resolution: 1920x1200
+  => XkbModel: inspiron
 
 System/Manufacturer: IBM
 
@@ -70,6 +83,12 @@ System/Manufacturer: Hewlett-Packard
 
   System/Product Name: compaq nx9030 (PG574EA#ABB)
   => XkbModel: hp5185
+
+  System/Product Name: HP Compaq nc4400 (EN004AV)
+  => XkbModel: inspiron
+
+  System/Product Name: HP Compaq nc8000 (PF196AA#ABZ) 
+  => XkbModel: inspiron
 
   System/Product Name: HP Pavilion dv1000 (PS600EA#ABF)
   => Diagonal_size: 14.1
