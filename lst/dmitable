@@ -78,19 +78,19 @@ System/Manufacturer: MAXDATA
 
 System/Manufacturer: Hewlett-Packard
 
-  System/Product Name: Compaq nx7010 (DJ342A#ABB) 
+  System/Product Name: Compaq nx7010 (DJ342A.*
   => XkbModel: hp5185
 
-  System/Product Name: compaq nx9030 (PG574EA#ABB)
+  System/Product Name: compaq nx9030 (PG574EA.*
   => XkbModel: hp5185
 
   System/Product Name: HP Compaq nc4400 (EN004AV)
   => XkbModel: inspiron
 
-  System/Product Name: HP Compaq nc8000 (PF196AA#ABZ) 
+  System/Product Name: HP Compaq nc8000 (PF196AA.*
   => XkbModel: inspiron
 
-  System/Product Name: HP Pavilion dv1000 (PS600EA#ABF)
+  System/Product Name: HP Pavilion dv1000 (PS600EA.*
   => Diagonal_size: 14.1
   => Resolution: 1280x768
 
