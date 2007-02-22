@@ -32,11 +32,8 @@ install: build
 cleandist:
 	rm -rf $(PACKAGE)-$(VERSION) $(PACKAGE)-$(VERSION).tar.bz2
 
-dir:
-	mkdir $(PACKAGE)-$(VERSION)
-
 localcopy:
-	tar c --exclude=.svn $(FILES) | tar x -C $(PACKAGE)-$(VERSION)
+	svn export -q . $(PACKAGE)-$(VERSION)
 
 tar:
 	tar cvf $(PACKAGE)-$(VERSION).tar $(PACKAGE)-$(VERSION)
@@ -46,7 +43,7 @@ tar:
 
 # rules to build a distributable rpm
 
-dist: cleandist dir localcopy tar
+dist: cleandist localcopy tar
 
 log: changelog
 
