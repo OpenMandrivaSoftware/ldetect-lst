@@ -1,13 +1,12 @@
 include Makefile.config
 
 PACKAGE = ldetect-lst
-VERSION := $(shell rpm -q --qf '%{VERSION}\n' --specfile $(PACKAGE).spec | head -1)
-RELEASE := $(shell rpm -q --qf '%{RELEASE}\n' --specfile $(PACKAGE).spec | head -1)
+VERSION := 0.1.150
 
 SVN_URL  := $(shell svn info | grep ^URL: | cut -f2 -d\ )
 SVN_BASE := $(shell svn info | sed -n '/^URL: \(.*\/$(PACKAGE)\).*/s//\1/p')
 
-FILES = AUTHORS ChangeLog Makefile Makefile.config convert ldetect-lst.spec lst update-ldetect-lst
+FILES = AUTHORS ChangeLog Makefile Makefile.config convert lst update-ldetect-lst
 
 .PHONY: changelog log
 
