@@ -1822,151 +1822,26 @@ BAD_FB_RESTORE
 NAME Diamond Edge 3D
 DRIVER vga
 
-NAME RIVA128
+NAME NVIDIA RIVA 128 / TNT
 DRIVER nv
 BAD_FB_RESTORE
 
-NAME RIVA TNT
-DRIVER nv
-BAD_FB_RESTORE
-
-NAME NVIDIA Legacy
+NAME NVIDIA RIVA TNT2 to GeForce 2 (71xx)
 DRIVER nv
 DRIVER2 nvidia71xx
 
-NAME RIVA TNT2
-SEE NVIDIA Legacy
+NAME NVIDIA GeForce 3 to GeForce 4 (96xx)
+DRIVER nv
+DRIVER2 nvidia96xx
 
-NAME NVIDIA GeForce
+NAME NVIDIA GeForce FX and later
 DRIVER nv
 DRIVER2 nvidia97xx
-
-NAME RIVA Ultra TNT2 
-SEE RIVA TNT2
-
-NAME Elsa VICTORY ERAZOR
-SEE RIVA128
-
-NAME Elsa VICTORY ERAZOR LT
-SEE RIVA128
-
-NAME Elsa Winner 1000 R3D
-SEE RIVA128
-
-NAME Elsa ERAZOR II
-SEE RIVA TNT
-
-NAME Elsa ERAZOR III
-SEE RIVA TNT2
-
-NAME Elsa Synergy II
-SEE RIVA TNT2
-
-NAME Leadtek WinFast 3D S320II
-SEE RIVA TNT2
-
-NAME Leadtek WinFast 3D S320
-SEE RIVA TNT
-
-NAME Leadtek WinFast 3D S3500
-SEE RIVA128
-
-NAME Diamond Viper 330
-SEE RIVA128
-
-NAME Diamond Viper 550
-SEE RIVA TNT
-
-NAME Diamond Viper 770
-SEE RIVA TNT2
-
-NAME AOpen PS3010
-SEE RIVA TNT2
-
-NAME STB Velocity 128
-SEE RIVA128
-
-NAME STB nvidia 128
-SEE RIVA128
-
-NAME STB Velocity 4400
-SEE RIVA TNT
-
-NAME ASUS 3Dexplorer
-SEE RIVA128
-
-NAME Guillemot Maxi Gamer Xentor
-SEE RIVA TNT2
-
-NAME Guillemot Maxi Gamer Xentor 32
-SEE RIVA TNT2
-
-NAME Creative Labs Graphics Blaster TNT
-SEE RIVA TNT
-
-NAME Creative Labs Graphics Blaster TNT2
-SEE RIVA TNT2
-
-NAME Chaintech Desperado RI20
-SEE RIVA128
-
-NAME Chaintech Desperado RI30
-SEE RIVA TNT
-
-NAME Chaintech Desperado RI40/41
-SEE RIVA TNT2
-
-NAME Chaintech Desperado RI50
-SEE RIVA TNT2
-
-NAME Chaintech Desperado RI60
-SEE RIVA TNT2
-
-NAME Hercules Dynamite TNT
-SEE RIVA TNT
-
-NAME MELCO WGA-TS 
-SEE RIVA TNT2 
-
-NAME NVIDIA GeForce (fbdev)
-DRIVER fbdev
-DRIVER2 nvidia97xx
-
-NAME NVIDIA GeForce 256 (generic)
-SEE NVIDIA Legacy
-
-NAME NVIDIA GeForce DDR (generic)
-CHIPSET GeForce DDR
-SEE NVIDIA Legacy
-
-NAME NVIDIA GeForce2 DDR (generic)
-SEE NVIDIA GeForce DDR (generic)
-
-NAME NVIDIA GeForce2 Integrated (generic)
-SEE NVIDIA Legacy
-
-NAME NVIDIA GeForce3 (generic)
-SEE NVIDIA GeForce
 
 NAME NVIDIA GeForce3 (xbox)
 DRIVER nvxbox
 LINE Option "UseFBDev" "1"
 LINE Option "HWCursor" "0"
-
-NAME NVIDIA GeForce4 (generic)
-SEE NVIDIA GeForce
-
-NAME NVIDIA GeForce FX (generic)
-SEE NVIDIA GeForce
-
-NAME NVIDIA GeForce 6800 (generic)
-SEE NVIDIA GeForce
-
-NAME NVIDIA GeForce 6 Series
-SEE NVIDIA GeForce
-
-NAME NVIDIA GeForce 7 Series
-SEE NVIDIA GeForce
 
 # IMS
 
