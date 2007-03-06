@@ -1762,7 +1762,7 @@
 0x1048	0x8901	"unknown"	"ELSA|GLoria XL"
 0x104a	0x0008	"unknown"	"SGS Thomson|STG 2000X"
 0x104a	0x0009	"unknown"	"SGS Thomson|STG 1764X"
-0x104a	0x0010	"Card:KYRO Series"	"ST Microelectronics|Kyro series"
+0x104a	0x0010	"Card:FrameBuffer (generic)"	"ST Microelectronics|Kyro series"
 0x104a	0x0209	"unknown"	"ST Microelectronics|STPC Consmr/Indstrl North/South Bridges"
 0x104a	0x020a	"unknown"	"ST Microelectronics|STPC Atlas/Elite North Bridge"
 0x104a	0x0210	"unknown"	"ST Microelectronics|STPC Atlas ISA Bridge"

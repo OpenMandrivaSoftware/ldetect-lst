@@ -50,9 +50,6 @@ LINE # Option "use_modeline"
 LINE # Option "fix_panel_size"
 LINE # videoram 512
 
-NAME KYRO Series
-DRIVER fbdev
-
 NAME Chips & Technologies CT65525
 LINE # Option "nolinear"
 LINE # MemBase 0x03b00000
