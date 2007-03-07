@@ -244,14 +244,8 @@ LINE      #Option "xaa_benchmark"
 
 # S3 UniChrome (via)
 
-NAME S3 UniChrome
-DRIVER via
-DRI_GLX
-
-NAME OpenChrome
+NAME S3 UniChrome-based cards
 DRIVER openchrome
-# 3D needs a DRM driver in kernel:
-#DRI_GLX
 
 # ET4000/ET6000
 
