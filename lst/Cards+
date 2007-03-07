@@ -106,7 +106,7 @@ SEE Chips & Technologies CT64200
 # Cirrus Logic
 
 #tested
-NAME Cirrus Logic GD542x
+NAME Cirrus Logic GD542x-based cards
 DRIVER vga
 LINE # Device section for Cirrus Logic GD5420/2/4/6/8/9-based cards.
 LINE     #MemBase 0x00e00000
@@ -114,7 +114,7 @@ LINE     #MemBase 0x04e00000
 LINE     #Option "linear"
 
 #tested
-NAME Cirrus Logic GD543x
+NAME Cirrus Logic GD543x-based cards
 DRIVER cirrus
 LINE # Device section for Cirrus Logic GD5430/34-based cards.
 LINE     #MemBase 0x00e00000		# ISA card that maps to 14Mb
@@ -123,60 +123,22 @@ LINE     #MemBase 0x80000000		# VLB card that maps to 2048Mb
 LINE     #MemBase 0x02000000		# VLB card that maps to 32Mb
 LINE     #Option "linear"
 
-NAME Cirrus Logic GD544x
+NAME Cirrus Logic GD544x-based cards
 DRIVER cirrus
-
-NAME Creative Labs Graphics Blaster MA201
-SEE Cirrus Logic GD544x
-
-NAME Creative Labs Graphics Blaster MA202
-SEE Cirrus Logic GD544x
 
 #tested
-NAME Cirrus Logic GD5462
+NAME Cirrus Logic GD546x-based cards
 DRIVER cirrus
 LINE #Option "fifo_conservative"
-
-#tested
-NAME Cirrus Logic GD5464
-DRIVER cirrus
-LINE #Option "fifo_conservative"
-
-#tested
-NAME Cirrus Logic GD5465
-DRIVER cirrus
-LINE #Option "fifo_conservative"
-
-NAME Creative Labs Graphics Blaster MA302
-SEE Cirrus Logic GD5462
-
-NAME Creative Labs Graphics Blaster MA334
-SEE Cirrus Logic GD5464
-
-NAME Creative Labs Graphics Blaster 3D
-SEE Cirrus Logic GD5464
 
 # reported not working on SGI 1200 as of 02/22/2001 (RH)
 # reported working on XF 4.2.0 by Juan (MDK)
 NAME Cirrus Logic GD5480
 DRIVER cirrus
 
-#tested
-NAME Diamond SpeedStar 64
-SEE Cirrus Logic GD543x
-
-NAME Diamond SpeedStar64 Graphics 2000/2200
-SEE Cirrus Logic GD543x
-
-NAME Diamond SpeedStar Pro SE (CL-GD5430/5434)
-SEE Cirrus Logic GD543x
-
-NAME Diamond SpeedStar Pro 1100
-SEE Cirrus Logic GD542x
-
-NAME Orchid Kelvin 64 VLB Rev A
+NAME Orchid Kelvin 64 VLB
 DRIVER cirrus
-LINE # Device section for Orchid Kelvin 64 VLB Rev A
+LINE # Device section for Orchid Kelvin 64 VLB
 LINE # Linear framebuffer maps at 2048Mb. Some motherboards make linear addressing
 LINE # impossible. Some cards map at 32Mb.
 LINE     #MemBase 0x02000000		# VLB card that maps to 32Mb
@@ -184,70 +146,8 @@ LINE     #MemBase 0x04000000		# VLB card that maps to 64Mb
 LINE     MemBase 0x80000000		# VLB card that maps to 2048Mb
 LINE     #Option "linear"
 
-NAME Orchid Kelvin 64 VLB Rev B
-DRIVER cirrus
-LINE # Device section for Orchid Kelvin 64 VLB Rev B
-LINE # Linear framebuffer maps at 32Mb. Some motherboards make linear addressing
-LINE # impossible. Some cards map at 2048Mb.
-LINE     MemBase 0x02000000		# VLB card that maps to 32Mb
-LINE     #MemBase 0x04000000		# VLB card that maps to 64Mb
-LINE     #MemBase 0x80000000		# VLB card that maps to 2048Mb
-LINE     #Option "linear"
-
-NAME Orchid Kelvin 64
-SEE Cirrus Logic GD543x
-
-NAME Intel 5430
-SEE Cirrus Logic GD543x
-
-NAME STB Nitro (64)
-SEE Cirrus Logic GD543x
-
-NAME STB Nitro 64 Video
-SEE Cirrus Logic GD544x
-
-NAME STB Horizon
-SEE Cirrus Logic GD542x
-
-NAME STB Horizon Video
-SEE Cirrus Logic GD544x
-
-NAME Genoa 8500VL(-28)
-SEE Cirrus Logic GD542x
-
-NAME Diamond SpeedStar Pro (not SE)
-SEE Cirrus Logic GD542x
-
-NAME ALG-5434(E)
-SEE Cirrus Logic GD543x
-
-#tested
-NAME Acumos AVGA3
-SEE Cirrus Logic GD542x
-
-NAME DFI-WG1000
-SEE Cirrus Logic GD542x
-
-NAME VI720
-SEE Cirrus Logic GD543x
-
-NAME Cirrus Logic GD62xx (laptop)
+NAME Cirrus Logic GD6xxx / GD7xxx (laptop)
 DRIVER vga
-
-NAME Cirrus Logic GD64xx (laptop)
-DRIVER vga
-
-NAME Cirrus Logic GD754x (laptop)
-DRIVER vga
-
-NAME Techworks Ultimate 3D
-SEE Cirrus Logic GD5464
-
-NAME VideoLogic GrafixStar 550
-SEE Cirrus Logic GD5464
-
-NAME Jaton Video-70P
-SEE Cirrus Logic GD5464
 
 NAME PixelView Combo TV Pro (Prolink)
 DRIVER vga
@@ -257,364 +157,51 @@ NAME PixelView Combo TV 3D AGP (Prolink)
 DRIVER vga
 LINE # COMMENT on card TV+FM Tuner
 
-NAME Creative Labs Graphics Blaster Eclipse (OEM Model CT6510)
-SEE Cirrus Logic GD5465
+# S3
 
-NAME VideoLogic GrafixStar 560 (PCI/AGP)
-SEE Cirrus Logic GD5465
-
-NAME Cirrus Logic GD5446 (noname card)
-DRIVER vga
-
-# S3 801/805
-
-NAME S3 801/805 (generic)
+NAME S3 8xx / 9xx / Trio-based cards
 DRIVER s3
 NEEDVIDEORAM
 
-NAME S3 86C801 (generic)
-SEE S3 801/805 (generic)
-
-NAME S3 86C805 (generic)
-SEE S3 801/805 (generic)
-
-NAME Orchid Fahrenheit 1280
-DRIVER s3
-NEEDVIDEORAM
-LINE     #Probable clocks:
-LINE     #Clocks 25.20 28.32 32.50 0.00 40.00 44.90 50.40 65.00
-LINE     #Clocks 78.00 56.70 63.10 75.10 80.00 89.90 100.90 31.50
-
-NAME Miro Crystal 8S
-SEE S3 801/805 (generic)
-
-NAME Dell S3 805
-SEE S3 801/805 (generic)
-
-# S3 864/Trio64/Trio32/868
-
-NAME S3 864 (generic)
-DRIVER s3
-NEEDVIDEORAM
-
-NAME S3 86C864 (generic)
-SEE S3 864 (generic)
-
-NAME S3 Vision864 (generic)
-SEE S3 864 (generic)
-
-NAME S3 868 (generic)
-DRIVER s3
-NEEDVIDEORAM
-
-NAME S3 86C868 (generic)
-SEE S3 868 (generic)
-
-NAME S3 Vision868 (generic)
-SEE S3 868 (generic)
-
-NAME S3 868 with SDAC (86C716)
-DRIVER s3
-NEEDVIDEORAM
-
-NAME S3 Trio64 (generic)
-DRIVER s3
-NEEDVIDEORAM
-
-NAME S3 86C764 (Trio64)
-SEE S3 Trio64 (generic)
-
-NAME S3 Trio64V+ (generic)
-DRIVER s3
-NEEDVIDEORAM
-
-NAME S3 86C765 (Trio64V+)
-SEE S3 Trio64V+ (generic)
-
-NAME S3 Trio32 (generic)
-DRIVER s3
-NEEDVIDEORAM
-
-NAME Number Nine GXE64 with S3 Trio64
-SEE S3 Trio64 (generic)
-
-NAME Diamond Stealth 64 DRAM with S3 Trio64
-SEE S3 Trio64 (generic)
-
-NAME Diamond Stealth64 Graphics 2xx0 series (Trio64)
-SEE S3 Trio64 (generic)
-
-NAME Diamond Stealth 64 DRAM SE
-SEE S3 Trio32 (generic)
-
-NAME Diamond Stealth64 Video 2001 series (2121/2201)
-SEE S3 Trio64V+ (generic)
-
-NAME Miro Crystal 12SD
-SEE S3 Trio32 (generic)
-
-NAME Miro Crystal 22SD
-SEE S3 Trio64 (generic)
-
-NAME Diamond Stealth Video DRAM
-SEE S3 868 with SDAC (86C716)
-
-NAME Diamond Stealth64 Video 2120/2200
-SEE S3 868 with SDAC (86C716)
-
-NAME Number Nine FX Vision 330
-SEE S3 Trio64 (generic)
-
-NAME Number Nine FX Motion 331
-SEE S3 Trio64V+ (generic)
-
-NAME ASUS Video Magic PCI V864
-SEE S3 864 (generic)
-
-NAME ASUS Video Magic PCI VT64
-SEE S3 Trio64 (generic)
-
-NAME VidTech FastMax P20
-SEE S3 864 (generic)
-
-NAME VideoLogic GrafixStar 500
-SEE S3 868 with SDAC (86C716)
-
-NAME VideoLogic GrafixStar 400
-SEE S3 Trio64V+ (generic)
-
-NAME VideoLogic GrafixStar 300
-SEE S3 Trio64 (generic)
-
-NAME 2 the Max MAXColor S3 Trio64V+
-SEE S3 Trio64V+ (generic)
-
-NAME DataExpert DSV3365
-SEE S3 Trio64V+ (generic)
-
-NAME ExpertColor DSV3365
-SEE S3 Trio64V+ (generic)
-
-NAME DSV3326
-SEE S3 Trio64V+ (generic)
-
-# S3 Trio64V2
-
-NAME S3 Trio64V2 (generic)
-DRIVER s3
-NEEDVIDEORAM
-
-NAME S3 Trio64V2/DX (generic)
-SEE S3 Trio64V2 (generic)
-
-NAME S3 Trio64V2/GX (generic)
-SEE S3 Trio64V2 (generic)
-
-NAME S3 86C775 (Trio64V2/DX)
-SEE S3 Trio64V2/DX (generic)
-
-NAME S3 86C785 (Trio64V2/GX)
-SEE S3 Trio64V2/GX (generic)
-
-NAME Elsa WINNER 1000/T2D
-SEE S3 Trio64V2/DX (generic)
-
-
-# S3 Aurora64V+
-
-NAME S3 Aurora64V+ (generic)
+NAME S3 Aurora64V+-based cards
 DRIVER s3
 NEEDVIDEORAM
 LINE     # Option "lcd_center"
 LINE     # Set_LCDClk  <pixel_clock_for_LCD>
 
-NAME S3 86CM65 (Aurora64V+)
-SEE S3 Aurora64V+ (generic)
-
-NAME SHARP 9080
-SEE S3 Aurora64V+ (generic)
-
-NAME SHARP 9090
-SEE S3 Aurora64V+ (generic)
-
-NAME Compaq Armada 7730MT
-SEE S3 Aurora64V+ (generic)
-
-NAME Compaq Armada 7380DMT
-SEE S3 Aurora64V+ (generic)
-
-
-# S3 964/968
-
-NAME S3 964 (generic)
-DRIVER s3
-NEEDVIDEORAM
-
-NAME S3 86C964 (generic)
-SEE S3 964 (generic)
-
-NAME S3 Vision964 (generic)
-SEE S3 964 (generic)
-
-NAME S3 968 (generic)
-DRIVER s3
-NEEDVIDEORAM
-
-NAME S3 86C968 (generic)
-SEE S3 968 (generic)
-
-NAME S3 Vision968 (generic)
-SEE S3 968 (generic)
-
-NAME Diamond Stealth64 Video 3200
-LINE    #Option "slow_vram"
-SEE S3 968 (generic)
-
 NAME Genoa VideoBlitz III AV
 LINE    #s3RefClk  50
 LINE    #DACspeed 170
-SEE S3 968 (generic)
+SEE S3 8xx / 9xx / Trio-based cards
 
 NAME STB Velocity 64 Video
 LINE    #s3RefClk  24
 LINE    #DACspeed 220
-SEE S3 968 (generic)
-
-NAME STB Powergraph 64 Video
-SEE S3 Trio64V+ (generic)
-
-NAME STB Powergraph 64
-SEE S3 Trio64 (generic)
-
-NAME Elsa Winner 1000TRIO
-SEE S3 Trio64 (generic)
-
-NAME Elsa Winner 1000TRIO/V
-SEE S3 Trio64V+ (generic)
-
-NAME Hercules Graphite Terminator 64
-LINE     Option "slow_vram"
-LINE    #s3RefClk  50
-LINE    #DACspeed 170
-SEE S3 964 (generic)
-
-NAME Hercules Terminator 64/Video
-SEE S3 Trio64V+ (generic)
-
-NAME Hercules Graphite Terminator 64/DRAM
-SEE S3 Trio64 (generic)
+SEE S3 8xx / 9xx / Trio-based cards
 
 NAME Hercules Graphite Terminator Pro 64
 LINE    #s3RefClk  16
 LINE    #DACspeed 220
-SEE S3 968 (generic)
+SEE S3 8xx / 9xx / Trio-based cards
 
 NAME Number Nine FX Motion 771
 LINE    #s3RefClk  16
-SEE S3 968 (generic)
+SEE S3 8xx / 9xx / Trio-based cards
 
-NAME Miro Crystal 80SV
-DRIVER s3
-NEEDVIDEORAM
-
-NAME Elsa Winner 2000PRO-2
+NAME Elsa Winner 2000PRO-2 / 2000PRO-4
 DRIVER s3
 NEEDVIDEORAM
 LINE     #Option "ELSA_w2000pro"
 
-NAME Elsa Winner 2000PRO-4
-DRIVER s3
-NEEDVIDEORAM
-LINE     #Option "ELSA_w2000pro"
-
-NAME Elsa Winner 2000PRO/X-2
+NAME Elsa Winner 2000PROX-2 / X-4 / X-8 / AVI
 DRIVER s3
 NEEDVIDEORAM
 LINE     #Option "sync_on_green"
 
-NAME Elsa Winner 2000PRO/X-4
+NAME Elsa Gloria-4 / Gloria-8
 DRIVER s3
 NEEDVIDEORAM
 LINE     #Option "sync_on_green"
-
-NAME Elsa Winner 2000PRO/X-8
-DRIVER s3
-NEEDVIDEORAM
-LINE     #Option "sync_on_green"
-
-NAME Elsa Winner 2000AVI
-DRIVER s3
-NEEDVIDEORAM
-LINE     #Option "sync_on_green"
-
-NAME Elsa Gloria-4
-DRIVER s3
-NEEDVIDEORAM
-LINE     #Option "sync_on_green"
-
-NAME Elsa Gloria-8
-DRIVER s3
-NEEDVIDEORAM
-LINE     #Option "sync_on_green"
-
-NAME VideoLogic GrafixStar 700
-DRIVER s3
-NEEDVIDEORAM
-
-NAME Leadtek WinFast S430
-DRIVER s3
-NEEDVIDEORAM
-
-NAME WinFast S430
-SEE Leadtek WinFast S430
-
-NAME Leadtek WinFast S510
-DRIVER s3
-NEEDVIDEORAM
-
-NAME WinFast S510
-SEE Leadtek WinFast S510
-
-# S3 928
-
-NAME S3 928 (generic)
-DRIVER s3
-NEEDVIDEORAM
-
-NAME S3 86C928 (generic)
-SEE S3 928 (generic)
-
-NAME Elsa Winner 1000VL
-DRIVER s3
-NEEDVIDEORAM
-LINE     # the following settings should be detected and set automatically by XF86_S3
-LINE     # if the serial number of the Elsa card is printed correctly:
-LINE     #ClockChip "icd2061a"
-LINE     #Membase 0xf8000000
-
-NAME Elsa Winner 1000TwinBus
-SEE Elsa Winner 1000VL
-
-NAME Elsa Winner 2000
-SEE S3 928 (generic)
-
-NAME Miro Crystal 16S
-SEE S3 928 (generic)
-
-# S3 911/924
-
-NAME S3 911/924 (generic)
-DRIVER s3
-NEEDVIDEORAM
-
-NAME S3 86C911 (generic)
-SEE S3 911/924 (generic)
-
-NAME S3 86C924 (generic)
-SEE S3 911/924 (generic)
-
-#NAME Orchid Fahrenheit 1280
-#SEE S3 911/924 (generic)
 
 NAME S3 924 with SC1148 DAC
 DRIVER s3
@@ -623,13 +210,7 @@ LINE     #Probable clocks:
 LINE     #Clocks 25.2 28.3 39.7 1.7 49.9 76.7 35.7 44
 LINE     #Clocks 130.2 119.5 79.4 31.2 110.0 65.2 74.9 71.3
 
-# S3 ViRGE,/DX,/GX and ViRGE/VX
-
-NAME S3 ViRGE (old S3V server)
-DRIVER s3virge
-NEEDVIDEORAM
-
-NAME S3 ViRGE (generic)
+NAME S3 ViRGE-based cards
 DRIVER s3virge
 NEEDVIDEORAM
 LINE      #Option "xaa_benchmark"
@@ -637,32 +218,7 @@ LINE      #Option "fifo_moderate"
 LINE      #Option "pci_burst_on"
 LINE      #Option "pci_retry"
 
-NAME S3 ViRGE/DX (generic)
-DRIVER s3virge
-NEEDVIDEORAM
-LINE      #Option "xaa_benchmark"
-LINE      #Option "fifo_moderate"
-LINE      #Option "pci_burst_on"
-LINE      #Option "pci_retry"
-
-NAME S3 ViRGE/GX (generic)
-DRIVER s3virge
-NEEDVIDEORAM
-LINE      #Option "xaa_benchmark"
-LINE      #Option "fifo_moderate"
-LINE      #Option "pci_burst_on"
-LINE      #Option "pci_retry"
-
-
-NAME S3 ViRGE/GX2 (generic)
-DRIVER s3virge
-NEEDVIDEORAM
-LINE      #Option "xaa_benchmark"
-LINE      #Option "fifo_moderate"
-LINE      #Option "pci_burst_on"
-LINE      #Option "pci_retry"
-
-NAME S3 ViRGE/MX (generic)
+NAME S3 ViRGE/MX-based cards
 DRIVER s3virge
 NEEDVIDEORAM
 LINE      #Option "lcd_center"
@@ -672,250 +228,19 @@ LINE      #Option "fifo_moderate"
 LINE      #Option "pci_burst_on"
 LINE      #Option "pci_retry"
 
-NAME S3 ViRGE/MX+ (generic)
-SEE S3 ViRGE/MX (generic)
-
-NAME S3 Trio3D
+NAME S3 Trio3D-based cards
 DRIVER s3virge
 LINE Option "sw_cursor"
-
-NAME S3 86C365 (Trio3D)
-SEE S3 Trio3D
-
-NAME Elsa Winner T3D
-SEE S3 Trio3D
-
-NAME Hercules Terminator 128/3D
-SEE S3 Trio3D
-
-NAME AOpen PG128
-SEE S3 Trio3D
-
-NAME S3 86C368 (Trio3D/2X)
-NEEDVIDEORAM
-LINE      # Option "no_accel"	# You may enable this if there are timeouts when starting X
-SEE S3 Trio3D
-
-NAME S3 Trio3D/2X
-LINE      # Option "no_accel"	# You may enable this if there are timeouts when starting X
-SEE S3 Trio3D
-
-NAME S3 86C325 (ViRGE)
-SEE S3 ViRGE (generic)
-
-NAME S3 86C375 (ViRGE/DX)
-SEE S3 ViRGE/DX (generic)
-
-NAME S3 86C385 (ViRGE/GX)
-SEE S3 ViRGE/GX (generic)
-
-NAME S3 86C357 (ViRGE/GX2)
-SEE S3 ViRGE/GX2 (generic)
-
-NAME S3 86C260 (ViRGE/MX)
-SEE S3 ViRGE/MX (generic)
-
-NAME S3 86C280 (ViRGE/MX+)
-SEE S3 ViRGE/MX+ (generic)
-
-
-NAME Elsa Victory 3D
-SEE S3 ViRGE (generic)
-
-NAME Elsa Victory 3DX
-SEE S3 ViRGE/DX (generic)
-
-NAME Elsa Winner 3000-S
-SEE S3 ViRGE (generic)
-
-NAME Number Nine Visual 9FX Reality 332
-SEE S3 ViRGE (generic)
-
-NAME Number Nine FX Motion 332
-SEE S3 ViRGE (generic)
-
-NAME Diamond Stealth 3D 2000
-SEE S3 ViRGE (generic)
-
-NAME Diamond Stealth 3D 2000 PRO
-SEE S3 ViRGE/DX (generic)
-
-NAME Diamond Multimedia Stealth 3D 2000
-SEE S3 ViRGE (generic)
-
-NAME Diamond Multimedia Stealth 3D 2000 PRO
-SEE S3 ViRGE/DX (generic)
-
-NAME DataExpert DSV3325
-SEE S3 ViRGE (generic)
-
-NAME ExpertColor DSV3325
-SEE S3 ViRGE (generic)
-
-NAME DSV3325
-SEE S3 ViRGE (generic)
-
-NAME Hercules Terminator 64/3D
-SEE S3 ViRGE (generic)
-
-NAME Hercules Terminator 3D/DX
-SEE S3 ViRGE/DX (generic)
-
-NAME AOpen PT70
-SEE S3 ViRGE/DX (generic)
-
-NAME AOpen PT75
-SEE S3 ViRGE/DX (generic)
-
-NAME Leadtek WinFast 3D S600
-SEE S3 ViRGE (generic)
-
-NAME WinFast 3D S600
-SEE Leadtek WinFast 3D S600
-
-NAME Leadtek WinFast 3D S680
-SEE S3 ViRGE/GX2 (generic)
-
-NAME Miro MiroMedia 3D
-SEE S3 ViRGE (generic)
-
-NAME Orchid Technology Fahrenheit Video 3D
-SEE S3 ViRGE (generic)
-
-NAME STB Systems Powergraph 3D
-SEE S3 ViRGE (generic)
-
-NAME STB Nitro 3D
-SEE S3 ViRGE/GX (generic)
 
 NAME MELCO WGP-VG4S
 LINE      #DACSpeed  191 162 111 83
 LINE      #SetMClck  75
-SEE S3 ViRGE (generic)
+SEE S3 ViRGE-based cards
 
-
-
-NAME S3 ViRGE/VX (generic)
-DRIVER s3virge
-NEEDVIDEORAM
-LINE      #Option "xaa_benchmark"
-LINE      #Option "fifo_moderate"
-LINE      #Option "pci_burst_on"
-LINE      #Option "pci_retry"
-
-
-NAME S3 86C988 (ViRGE/VX)
-SEE S3 ViRGE/VX (generic)
-
-NAME Elsa Winner 3000
-SEE S3 ViRGE/VX (generic)
-
-NAME Elsa Winner 3000-M-22
-SEE S3 ViRGE/VX (generic)
-
-NAME Elsa Winner 3000-L-42
-SEE S3 ViRGE/VX (generic)
-
-NAME Elsa Winner 2000AVI/3D
-SEE S3 ViRGE/VX (generic)
-
-NAME Diamond Stealth 3D 3000
-SEE S3 ViRGE/VX (generic)
-
-NAME STB Systems Velocity 3D
-SEE S3 ViRGE/VX (generic)
-
-NAME MELCO WGP-VX8
-SEE S3 ViRGE/VX (generic)
-
-NAME Number Nine FX Reality 772
-SEE S3 ViRGE/VX (generic)
-
-NAME Diamond Stealth 3D 4000
-SEE S3 ViRGE/GX2 (generic)
-
-NAME Toshiba Tecra 750CDT
-SEE S3 ViRGE/MX (generic)
-
-NAME Toshiba Tecra 750DVD
-SEE S3 ViRGE/MX (generic)
-
-NAME Toshiba Tecra 540CDT
-SEE S3 ViRGE/MX (generic)
-
-NAME Toshiba Tecra 550CDT
-SEE S3 ViRGE/MX (generic)
-
-# currently unsupported S3
-
-NAME Toshiba Satellite 2050 CDS
-SEE S3 ViRGE/MX (generic)
-
-NAME Toshiba Satellite 2520 CDS
-SEE S3 ViRGE/MX (generic)
-
-NAME Compaq Armada 7400
-SEE S3 ViRGE/MX (generic)
-
-NAME Compaq Armada 7800
-SEE S3 ViRGE/MX (generic)
-
-
-NAME S3 Savage (generic)
+NAME S3 Savage-based cards
 DRIVER savage
 NEEDVIDEORAM
 LINE      #Option "xaa_benchmark"
-
-# see bug #730
-NAME S3 Savage (generic, sw_cursor)
-SEE S3 Savage (generic)
-LINE Option "sw_cursor"
-LINE Option "ForceInit"
-
-NAME S3 86C390 (Savage3D)
-SEE S3 Savage (generic)
-
-NAME S3 86C391 (Savage3D)
-SEE S3 Savage (generic)
-
-NAME S3 Savage3D
-SEE S3 Savage (generic)
-
-NAME Aristo ART-390-G  S3 Savage3D
-SEE S3 Savage (generic)
-
-
-NAME S3 Savage4 (generic)
-LINE      # Option "no_accel"	# You may enable this if there are timeouts when starting X
-SEE S3 Savage (generic)
-
-NAME S3 86C395 (Savage4 Pro+)
-SEE S3 Savage4 (generic)
-
-NAME S3 86C396 (Savage4)
-SEE S3 Savage4 (generic)
-
-NAME S3 86C397 (Savage4)
-SEE S3 Savage4 (generic)
-
-NAME S3 Savage4
-SEE S3 Savage4 (generic)
-
-NAME S3 Savage4 Pro+
-SEE S3 Savage4 (generic)
-
-NAME Diamond Stealth III (S520/S540)
-SEE S3 Savage4 (generic)
-
-NAME Creative Labs Savage 4  3D Blaster
-SEE S3 Savage4 (generic)
-
-NAME S3 Savage2000 (generic)
-DRIVER savage
-NEEDVIDEORAM
-
-NAME S3 Savage/MX
-SEE S3 Savage4 (generic)
 
 # S3 UniChrome (via)
 
