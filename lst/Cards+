@@ -247,343 +247,44 @@ LINE      #Option "xaa_benchmark"
 NAME S3 UniChrome-based cards
 DRIVER openchrome
 
-# ET4000/ET6000
+# Tseng
 
-NAME ET3000 (generic)
+# All potential driver options, and non-PCI-based cards, dropped (2007/03/08) on 
+# advice of current Tseng maintainer, Luc Verhaegen. Non-PCI cards are no longer 
+# supported, and no options should be necessary for remaining supported cards.
+
+NAME Tseng ET4000W32p / ET6x00-based cards
 DRIVER tseng
-
-NAME Genoa 5400
-SEE ET3000 (generic)
-
-NAME ET4000 (generic)
-DRIVER tseng
-
-NAME ET4000/W32 (generic)
-DRIVER tseng
-
-NAME ET4000 W32i, W32p (generic)
-DRIVER tseng
-LINE     #Option "linear"       # for linear mode at 8bpp
-LINE     #Option "noaccel"      # when problems with accelerator
-LINE     #Option "power_saver"  # enable VESA DPMS
-LINE     #Option "fast_dram"
-LINE     #Option "pci_retry"    # faster, but problematic for ISA DMA
-LINE     #Option "hibit_high"   # see README.tseng -- most cards need this
-LINE     #Option "hibit_low"    # see README.tseng -- mostly for older ET4000 cards
-LINE     #MemBase 0x3C00000     # when automatic MemBase detection doesn't work
-LINE         # -- see README.tseng for more (important) information on MemBase
-
-NAME ET6000 (generic)
-DRIVER tseng
-NEEDVIDEORAM
-LINE     #videoram 2304         # 2.25 MB, when memory probe is incorrect
-LINE     #Option "linear"       # for linear mode at 8bpp
-LINE     #Option "noaccel"      # when problems with accelerator
-LINE     #Option "power_saver"  # enable VESA DPMS
-LINE     #Option "pci_retry"    # faster, but problematic for ISA DMA
-LINE     #Option "hw_cursor"    # Use hardware cursor (see docs for limitations)
-LINE     #Option "xaa_no_color_exp"  # When text (or bitmap) is not rendered correctly
-
-NAME ET6100 (generic)
-SEE ET6000 (generic)
-
-NAME ET6300 (generic)
-SEE ET6000 (generic)
-
-NAME Colorgraphic Dual Lightning
-SEE ET4000 W32i, W32p (generic)
-
-NAME Dell onboard ET4000
-SEE ET4000 (generic)
-
-NAME DFI-WG5000
-SEE ET4000 W32i, W32p (generic)
-
-NAME Diamond SpeedStar (Plus)
-SEE ET4000 (generic)
-
-NAME Diamond SpeedStar 24
-SEE ET4000 (generic)
-
-NAME Diamond SpeedStar HiColor
-SEE ET4000 (generic)
-
-NAME Genoa 8900 Phantom 32i
-SEE ET4000 W32i, W32p (generic)
-
-NAME Hercules Dynamite
-SEE ET4000/W32 (generic)
-
-NAME Hercules Dynamite Power
-SEE ET4000 W32i, W32p (generic)
-
-NAME Hercules Dynamite Pro
-SEE ET4000 W32i, W32p (generic)
-
-NAME Integral FlashPoint
-SEE ET4000 W32i, W32p (generic)
-
-NAME Leadtek WinFast S200
-SEE ET4000 W32i, W32p (generic)
-
-NAME Matrox Comet
-SEE ET4000 W32i, W32p (generic)
-
-NAME Matrox Marvel II
-SEE ET4000 W32i, W32p (generic)
-
-NAME Miro MiroVideo 20TD
-SEE ET4000 W32i, W32p (generic)
-
-NAME WinFast S200
-SEE Leadtek WinFast S200
-
-NAME Sigma Concorde
-SEE ET4000/W32 (generic)
-
-NAME Sigma Legend
-SEE ET4000 (generic)
-
-NAME STB LightSpeed
-SEE ET4000 W32i, W32p (generic)
-
-NAME STB MVP-2
-SEE ET4000 (generic)
-
-NAME STB MVP-2 PCI
-SEE ET4000 W32i, W32p (generic)
-
-NAME STB MVP-2X
-SEE ET4000 W32i, W32p (generic)
-
-NAME STB MVP-4 PCI
-SEE ET4000 W32i, W32p (generic)
-
-NAME STB MVP-4X
-SEE ET4000 W32i, W32p (generic)
-
-NAME TechWorks Thunderbolt
-SEE ET4000/W32 (generic)
-
-NAME ViewTop PCI
-SEE ET4000 W32i, W32p (generic)
-
-NAME Hercules Dynamite 128/Video
-SEE ET6000 (generic)
-
-NAME STB LightSpeed 128
-SEE ET6000 (generic)
-
-NAME VideoLogic GrafixStar 600
-SEE ET6000 (generic)
-
-NAME Jazz Multimedia G-Force 128
-SEE ET6000 (generic)
-
-NAME Mirage Z-128
-SEE ET6000 (generic)
-
-NAME California Graphics SunTracer 6000
-SEE ET6000 (generic)
-
-NAME Binar Graphics AnyView
-SEE ET6000 (generic)
-
-NAME MediaVision Proaxcel 128
-SEE ET6000 (generic)
-
-NAME Interay PMC Viper
-SEE ET6000 (generic)
-
-NAME 2-the-Max MAXColor 6000
-SEE ET6000 (generic)
-
-NAME Gainward Challenger EV
-SEE ET6000 (generic)
-
-NAME MachSpeed VGA ET6000
-SEE ET6000 (generic)
-
-NAME KouTech KeyVision 128 EV
-SEE ET6000 (generic)
-
-NAME Jaton Video-58P
-SEE ET6000 (generic)
 
 # ATI
 
-NAME ATI 8514 Ultra (no VGA)
-DRIVER vga
-
-NAME ATI Graphics Ultra
-DRIVER vga
-
-NAME ATI Wonder SVGA
-DRIVER ati
-
-NAME ATI Mach64
+NAME ATI Mach / Rage-based cards
 DRIVER ati
 DRI_GLX
 
-NAME ATI Mach64 Utah
-SEE ATI Mach64
-
-NAME ATI Mach64 CT (264CT)
-SEE ATI Mach64
-
-NAME ATI Mach64 VT (264VT)
-SEE ATI Mach64
-
-NAME ATI Mach64 GT (264GT), aka 3D RAGE
-SEE ATI Mach64
-
-NAME ATI Mach64 3D RAGE II
-SEE ATI Mach64
-
-NAME ATI Mach64 3D RAGE II+DVD
-SEE ATI Mach64
-
-NAME ATI Mach64 3D Rage IIC
-SEE ATI Mach64
-
-NAME ATI Mach64 3D Rage Pro
-SEE ATI Mach64
-
-NAME ATI 3D Pro Turbo
-SEE ATI Mach64
-
-NAME ATI 3D Pro Turbo PC2TV
-SEE ATI Mach64
-
-NAME ATI 3D Xpression
-SEE ATI Mach64
-
-NAME ATI 3D Xpression+
-SEE ATI Mach64
-
-NAME ATI 3D Xpression+ PC2TV
-SEE ATI Mach64
-
-NAME ATI All-in-Wonder
-SEE ATI Mach64
-
-NAME ATI All-in-Wonder Pro
-SEE ATI Mach64
-
-NAME ATI Graphics Pro Turbo
-SEE ATI Mach64
-
-NAME ATI Graphics Pro Turbo 1600
-SEE ATI Mach64
-
-NAME ATI Graphics Xpression
-SEE ATI Mach64
-
-NAME ATI Video Boost
-SEE ATI Mach64
-
-NAME ATI Video Charger
-SEE ATI Mach64
-
-NAME ATI Video Xpression
-SEE ATI Mach64
-
-NAME ATI Video Xpression+
-SEE ATI Mach64
-
-NAME ATI WinBoost
-SEE ATI Mach64
-
-NAME ATI WinCharger
-SEE ATI Mach64
-
-NAME ATI WinTurbo
-SEE ATI Mach64
-
-NAME ATI Xpert 98
-SEE ATI Mach64
-
-NAME ATI Xpert XL
-SEE ATI Mach64
-
-NAME ATI Xpert@Play
-SEE ATI Mach64
-
-NAME ATI Xpert@Play 98
-SEE ATI Mach64
-
-NAME ATI Xpert@Work
-SEE ATI Mach64
-
-NAME ATI integrated on Intel Maui MU440EX motherboard
-SEE ATI Mach64
-
-NAME ATI Rage LT
-SEE ATI Mach64
-
-NAME ATI Rage LT PRO
-SEE ATI Mach64
-
-NAME ATI Rage Mobility
-SEE ATI Mach64
-BAD_FB_RESTORE
-
-NAME ATI Rage Mobility P
-SEE ATI Mach64
-
-NAME ASUS PCI-V264CT
-SEE ATI Mach64
-
-NAME ASUS PCI-AV264CT
-SEE ATI Mach64
-
-NAME ATI Rage XL
+NAME ATI Mach / Rage-based cards (no 3D acceleration)
 DRIVER ati
 
-NAME ATI Rage XL AGP
-SEE ATI Rage XL
-
-NAME ATI Rage 128
-DRIVER ati
-DRI_GLX
-# DRI_GLX: 16 and 32 bits, prefer 16bit as no DMA.
-
-NAME ATI Rage 128 Mobility
-SEE ATI Rage 128
-
-NAME ATI Rage 128 TVout
-SEE ATI Rage 128
+NAME ATI Rage 128 TV-out
+SEE ATI Mach / Rage-based cards
 FB_TVOUT
 
-NAME ATI Rage Fury AGP
-SEE ATI Rage 128
-
-NAME ATI XPERT 128 AGP
-SEE ATI Rage 128
-
-NAME ATI XPERT 99 AGP
-SEE ATI Rage 128
-
-NAME ATI Radeon
-DRIVER ati
-DRI_GLX
-# DRI_GLX: 16bits preferable ?
-
-NAME ATI Radeon 8500
+# Radeon cards not supported by proprietary driver: update name as support changes
+NAME ATI Radeon 9250 and earlier
 DRIVER ati
 DRI_GLX
 
-NAME ATI Radeon (fglrx)
+# Radeon cards supported by proprietary driver and free driver: update name as
+# support changes
+NAME ATI Radeon 9500 - X850
 DRIVER ati
 DRI_GLX
 DRIVER2 fglrx
 
-NAME ATI Radeon (fbdev)
+# Radeon cards supported by proprietary driver but not free driver: update name as
+# support changes
+NAME ATI Radeon X1300 - X1950
 DRIVER fbdev
-DRIVER2 fglrx
-
-NAME ATI Radeon (vesa)
-DRIVER vesa
 DRIVER2 fglrx
 
 # AGX
