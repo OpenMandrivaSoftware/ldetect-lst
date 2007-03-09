@@ -291,28 +291,8 @@ DRIVER2 fglrx
 
 # ARK Logic
 
-NAME Ark Logic ARK1000PV (generic)
+NAME Ark Logic ARKx000-based cards
 DRIVER ark
-
-# For now, treat the VL as a PV.  This may be changed later
-NAME Ark Logic ARK1000VL (generic)
-LINE Chipset "ark1000pv"
-DRIVER ark
-
-NAME Ark Logic ARK2000PV (generic)
-DRIVER ark
-
-NAME Ark Logic ARK2000MT (generic)
-DRIVER ark
-
-NAME Hercules Stingray Pro
-SEE Ark Logic ARK1000PV (generic)
-
-NAME Hercules Stingray Pro/V
-SEE Ark Logic ARK1000PV (generic)
-
-NAME Hercules Stingray 64/V with ZoomDAC
-SEE Ark Logic ARK2000PV (generic)
 
 # Oak
 
