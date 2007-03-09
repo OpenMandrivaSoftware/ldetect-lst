@@ -107,7 +107,6 @@ SEE Chips & Technologies CT64200
 
 # Cirrus Logic
 
-#tested
 NAME Cirrus Logic GD542x-based cards
 DRIVER vga
 LINE # Device section for Cirrus Logic GD5420/2/4/6/8/9-based cards.
@@ -115,49 +114,8 @@ LINE     #MemBase 0x00e00000
 LINE     #MemBase 0x04e00000
 LINE     #Option "linear"
 
-#tested
-NAME Cirrus Logic GD543x-based cards
+NAME Cirrus Logic GD54xx-based cards
 DRIVER cirrus
-LINE # Device section for Cirrus Logic GD5430/34-based cards.
-LINE     #MemBase 0x00e00000		# ISA card that maps to 14Mb
-LINE     #MemBase 0x04000000		# VLB card that maps to 64Mb
-LINE     #MemBase 0x80000000		# VLB card that maps to 2048Mb
-LINE     #MemBase 0x02000000		# VLB card that maps to 32Mb
-LINE     #Option "linear"
-
-NAME Cirrus Logic GD544x-based cards
-DRIVER cirrus
-
-#tested
-NAME Cirrus Logic GD546x-based cards
-DRIVER cirrus
-LINE #Option "fifo_conservative"
-
-# reported not working on SGI 1200 as of 02/22/2001 (RH)
-# reported working on XF 4.2.0 by Juan (MDK)
-NAME Cirrus Logic GD5480
-DRIVER cirrus
-
-NAME Orchid Kelvin 64 VLB
-DRIVER cirrus
-LINE # Device section for Orchid Kelvin 64 VLB
-LINE # Linear framebuffer maps at 2048Mb. Some motherboards make linear addressing
-LINE # impossible. Some cards map at 32Mb.
-LINE     #MemBase 0x02000000		# VLB card that maps to 32Mb
-LINE     #MemBase 0x04000000		# VLB card that maps to 64Mb
-LINE     MemBase 0x80000000		# VLB card that maps to 2048Mb
-LINE     #Option "linear"
-
-NAME Cirrus Logic GD6xxx / GD7xxx (laptop)
-DRIVER vga
-
-NAME PixelView Combo TV Pro (Prolink)
-DRIVER vga
-LINE # COMMENT on card TV Tuner
-
-NAME PixelView Combo TV 3D AGP (Prolink)
-DRIVER vga
-LINE # COMMENT on card TV+FM Tuner
 
 # S3
 
@@ -215,20 +173,12 @@ LINE     #Clocks 130.2 119.5 79.4 31.2 110.0 65.2 74.9 71.3
 NAME S3 ViRGE-based cards
 DRIVER s3virge
 NEEDVIDEORAM
-LINE      #Option "xaa_benchmark"
-LINE      #Option "fifo_moderate"
-LINE      #Option "pci_burst_on"
-LINE      #Option "pci_retry"
 
 NAME S3 ViRGE/MX-based cards
 DRIVER s3virge
 NEEDVIDEORAM
 LINE      #Option "lcd_center"
 LINE      #Set_LCDClk  <pixel_clock_for_LCD>
-LINE      #Option "xaa_benchmark"
-LINE      #Option "fifo_moderate"
-LINE      #Option "pci_burst_on"
-LINE      #Option "pci_retry"
 
 NAME S3 Trio3D-based cards
 DRIVER s3virge
@@ -242,7 +192,6 @@ SEE S3 ViRGE-based cards
 NAME S3 Savage-based cards
 DRIVER savage
 NEEDVIDEORAM
-LINE      #Option "xaa_benchmark"
 
 # S3 UniChrome (via)
 
