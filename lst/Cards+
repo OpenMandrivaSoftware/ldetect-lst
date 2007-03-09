@@ -289,67 +289,6 @@ NAME ATI Radeon X1300 - X1950
 DRIVER fbdev
 DRIVER2 fglrx
 
-# WD
-
-NAME Paradise/WD 90CXX
-DRIVER vga
-
-NAME DFI-WG6000
-DRIVER vga
-
-NAME Diamond SpeedStar 24X (not fully supported)
-DRIVER vga
-
-NAME WD 90C24 (laptop)
-DRIVER vga
-LINE     #Chipset "wd90c24"
-LINE     #Option "noaccel" # Use this if acceleration is causing problems
-LINE     #Clocks 25.175 28.322 65     36     # These are not programmable
-LINE     #Clocks 29.979 77.408 62.195 59.957 # These are programmable
-LINE     #Clocks 31.5   35.501 75.166 50.114 # These are not programmable
-LINE     #Clocks 39.822 72.038 44.744 80.092 # These are programmable
-LINE     #Clocks 44.297                      # Must match Mclk
-
-
-NAME WD 90C24A or 90C24A2 (laptop)
-DRIVER vga
-LINE     #Chipset "wd90c24"
-LINE     #Clocks 25.175 28.322 65     36     # These are not programmable
-LINE     #Clocks 29.979 77.408 62.195 59.957 # These are programmable
-LINE     #Clocks 31.5   35.501 75.166 50.114 # These are not programmable
-LINE     #Clocks 39.822 72.038 44.744 80.092 # These are programmable
-LINE     #Clocks 44.297                      # Must match Mclk
-
-# Avance Logic
-
-NAME Avance Logic 2101
-LINE   #chipset "al2101"
-DRIVER vga
-
-NAME Avance Logic 2228
-LINE   #chipset "ali2228"
-DRIVER vga
-
-NAME Avance Logic 2301
-LINE   #chipset "ali2301"
-DRIVER vga
-
-NAME Avance Logic 2302
-LINE   #chipset "ali2302"
-DRIVER vga
-
-NAME Avance Logic 2308
-LINE   #chipset "ali2308"
-DRIVER vga
-
-NAME Avance Logic 2401
-LINE   #chipset "ali2401"
-DRIVER vga
-
-NAME Hercules Stingray
-LINE   #chipset "ali2228"
-DRIVER vga
-
 # ARK Logic
 
 NAME Ark Logic ARK1000PV (generic)
