@@ -3122,6 +3122,8 @@
 0x10de	0x018d	"Card:NVIDIA GeForce 3 to GeForce 4 (96xx)"	"nVidia Corp.|GeForce4 448 Go"
 0x10de	0x0191	"Card:NVIDIA GeForce FX and later"	"nVidia Corporation|GeForce 8800 GTX"
 0x10de	0x0193	"Card:NVIDIA GeForce FX and later"	"nVidia Corporation|GeForce 8800 GTS"
+0x10de	0x019d	"Card:NVIDIA GeForce FX and later"	"nVidia Corp.|Quadro FX 5600"
+0x10de	0x019e	"Card:NVIDIA GeForce FX and later"	"nVidia Corp.|Quadro FX 4600"
 0x10de	0x01a0	"Card:NVIDIA GeForce 3 to GeForce 4 (96xx)"	"nVidia Corp.|GeForce2 Integrated GPU"
 0x10de	0x01a4	"nvidia-agp"	"nVidia Corp.|nForce AGP Controller"
 0x10de	0x01a5	"unknown"	"nVidia Corp.|nForce AGP Controller"
