@@ -294,37 +294,6 @@ DRIVER2 fglrx
 NAME Ark Logic ARKx000-based cards
 DRIVER ark
 
-# P9000
-
-NAME Diamond Viper VLB 2Mb
-DRIVER vga
-LINE     #Clocks must match the mode clocks (XFree86 3.1 P9000 server)
-LINE     #Versions later than 3.1 do not require a clocks line
-LINE     Chipset "vipervlb" # Required for some cards which autodetect as PCI
-LINE     Videoram 2048      # Required
-LINE     Membase 0x80000000 # Optional (0x80000000 is default)
-
-NAME Diamond Viper PCI 2Mb
-DRIVER vga
-LINE     #Clocks must match the mode clocks (XFree86 3.1 P9000 server)
-LINE     #Versions later than 3.1 do not require a clocks line
-LINE     Videoram 2048      # Required
-LINE     #Membase 0x80000000 # Use scanpci to get the correct Membase
-
-NAME Orchid P9000 VLB
-DRIVER vga
-LINE     Chipset "orchid_p9000"
-LINE     Membase 0xE0000000
-
-# P9100
-
-NAME Weitek P9100 (generic)
-DRIVER vga
-
-NAME Diamond Viper Pro Video
-SEE Weitek P9100 (generic)
-
-
 # National Semiconductor (NSC)
 
 NAME NSC
