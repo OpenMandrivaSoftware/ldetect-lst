@@ -294,25 +294,6 @@ DRIVER2 fglrx
 NAME Ark Logic ARKx000-based cards
 DRIVER ark
 
-# Oak
-
-NAME Oak ISA Card (generic)
-DRIVER vga
-
-NAME Oak 87 VLB (generic)
-DRIVER vga
-LINE Option "fifo_aggressive" # Comment this if you experience streaks.
-LINE Option "no_wait"         # Comment this if you find problems.        
-LINE #Option "enable_bitblt"  # You may enable this and see if it works (see README.Oak file)
-
-NAME Oak 87 ISA (generic)
-DRIVER vga
-LINE Option "noaccel"        # ISA cards seem to have Color Expansion support broken
-LINE #Option "enable_bitblt" # This should work on ISA, but lets not make it default just in case.
-
-NAME Paradise Accelerator Value
-SEE Oak 87 ISA (generic)
-
 # P9000
 
 NAME Diamond Viper VLB 2Mb

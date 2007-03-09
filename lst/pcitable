@@ -1883,7 +1883,7 @@
 0x104d	0x8056	"Hcf:www.linmodems.org"	"Sony Corp.|Rockwell HCF 56K modem"
 0x104d	0x808a	"unknown"	"Sony Corp.|Memory Stick Controller"
 0x104e	0x0017	"unknown"	"Oak Technology Inc.|OTI-64017"
-0x104e	0x0107	"Card:Paradise Accelerator Value"	"Oak Technology Inc.|OTI-107 [Spitfire]"
+0x104e	0x0107	"Card:VGA driver (generic)"	"Oak Technology Inc.|OTI-107 [Spitfire]"
 0x104e	0x0109	"unknown"	"Oak Technology Inc.|Video Adapter"
 0x104e	0x0111	"unknown"	"Oak Technology Inc.|OTI-64111 [Spitfire]"
 0x104e	0x0217	"unknown"	"Oak Technology Inc.|OTI-64217"
