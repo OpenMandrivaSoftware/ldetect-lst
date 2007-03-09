@@ -2075,7 +2075,7 @@
 0x1060	0xe886	"unknown"	"United Microelectronics [UMC]|UM8886N"
 0x1060	0xe88a	"unknown"	"United Microelectronics [UMC]|UM8886N"
 0x1060	0xe891	"unknown"	"United Microelectronics [UMC]|UM8891N"
-0x1061	0x0001	"Card:AGX (generic)"	"I.I.T.|AGX016"
+0x1061	0x0001	"Card:VGA driver (generic)"	"I.I.T.|AGX016"
 0x1061	0x0002	"unknown"	"I.I.T.|IIT3204/3501"
 0x1065	0x8139	"unknown"	"Texas Microsystems|Realtek 8139C Network Card"
 0x1066	0x0000	"unknown"	"PicoPower Technology|PT80C826"

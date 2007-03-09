@@ -31,6 +31,8 @@ NAME VESA driver (generic)
 CHIPSET VESA VBE 2.0
 DRIVER vesa
 
+NAME VGA driver (generic)
+DRIVER vga
 
 NAME FrameBuffer (generic)
 DRIVER fbdev
@@ -286,53 +288,6 @@ DRIVER2 fglrx
 NAME ATI Radeon X1300 - X1950
 DRIVER fbdev
 DRIVER2 fglrx
-
-# AGX
-
-NAME AGX (generic)
-DRIVER vga
-
-NAME EIZO (VRAM)
-SEE AGX (generic)
-
-NAME Hercules Graphite Pro
-DRIVER vga
-# Card specific DAC, doesn't appear in ramdac menu
-LINE     Ramdac "herc_dual_dac"
-LINE     Chipset "AGX-015"
-LINE     Option "dac_8_bit"
-LINE     Option "no_wait_state"
-LINE     #Option "fifo_moderate"   # 2x bus bw - may result in random pixels
-LINE     #Probable clocks:
-LINE     #Clocks 25.0  28.0  32.0  36.0  40.0  45.0  50.0  65.0
-LINE     #Clocks 70.0  75.0  80.0  85.0  90.0  95.0 100.0 110.0
-
-NAME Hercules Graphite Power
-DRIVER vga
-# Card specific DAC, doesn't appear in ramdac menu
-#   The glue logic state machine for RAMDAC switching doesn't work as
-#   documented, for now we're stuck with the small RAMDAC
-LINE     Ramdac "herc_small_dac"
-LINE     Chipset "AGX-016"
-LINE     Option "dac_8_bit"
-LINE     Option "no_wait_state"
-LINE     #Option "fifo_moderate"   # 2x bus bw - may result in random pixels
-LINE     #Option "fifo_aggressive" # 3x bus bw - may result in random pixels
-LINE     #Probable clocks:
-LINE     #Clocks 25.0  28.0  32.0  36.0  40.0  45.0  50.0  65.0
-LINE     #Clocks 70.0  75.0  80.0  85.0  90.0  95.0 100.0 110.0
-
-NAME XGA-2  (ISA bus)
-DRIVER vga
-LINE     #Instance  7           # XGA instance 0-7
-LINE     #COPbase   0xC8F00     # XGA memory-mapped register address
-LINE     #POSbase   0           # Disable probing if above are specified
-
-NAME XGA-1  (ISA bus)
-DRIVER vga
-LINE     #Instance  7           # XGA instance 0-7
-LINE     #COPbase   0xC8F00     # XGA memory-mapped register address
-LINE     #POSbase   0           # Disable probing if above are specified
 
 # WD
 
