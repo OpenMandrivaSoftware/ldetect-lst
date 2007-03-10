@@ -6154,7 +6154,7 @@
 0x1524	0x0510	"yenta_socket"	"ENE Technology Inc.|CB710 Cardbus Controller (4 in 1 reader)"
 0x1524	0x0520	"unknown"	"ENE Technology Inc|FLASH memory: ENE Technology Inc:"
 0x1524	0x0530	"unknown"	"ENE Technology Inc.|ENE PCI Memory Stick Card Reader Controller"
-0x1524	0x0550	"unknown"	"ENE Technology Inc.|ENE PCI Secure Digital Card Reader Controller"
+0x1524	0x0550	"sdhci"	"ENE Technology Inc.|ENE PCI Secure Digital Card Reader Controller"
 0x1524	0x0610	"unknown"	"ENE Technology Inc.|PCI Smart Card Reader Controller"
 0x1524	0x1211	"yenta_socket"	"ENE Technology Inc.|CB1211 Cardbus Controller"
 0x1524	0x1225	"yenta_socket"	"ENE Technology Inc.|CB1225 Cardbus Controller"
