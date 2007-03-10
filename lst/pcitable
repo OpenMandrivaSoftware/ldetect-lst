@@ -2220,7 +2220,7 @@
 0x1077	0x6312	"qla2xxx"	"QLogic Corp.|QLA6312"
 0x1077	0x6322	"qla2xxx"	"QLogic Corp.|QLA6312"
 0x1078	0x0000	"Card:MediaGX"	"Cyrix Corp.|5510 [Grappa]"
-0x1078	0x0001	"Card:MediaGX"	"Cyrix Corp.|PCI Master [MEDIAGX]"
+0x1078	0x0001	"unknown"	"Cyrix Corp.|PCI Master [MEDIAGX]"
 0x1078	0x0002	"Card:MediaGX"	"Cyrix Corp.|5520 [Cognac]"
 0x1078	0x0100	"unknown"	"Cyrix Corp.|5530 Legacy [Kahlua]"
 0x1078	0x0101	"unknown"	"Cyrix Corp.|5530 SMI [Kahlua]"
