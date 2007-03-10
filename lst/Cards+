@@ -339,16 +339,21 @@ NAME NVIDIA RIVA 128
 DRIVER nv
 BAD_FB_RESTORE
 
-NAME NVIDIA RIVA TNT to GeForce 2 (71xx)
+NAME NVIDIA RIVA TNT - GeForce 2 (71xx)
 DRIVER nv
 DRIVER2 nvidia71xx
 
-NAME NVIDIA GeForce 3 to GeForce 4 (96xx)
+NAME NVIDIA GeForce 3 - GeForce 4 (96xx)
 DRIVER nv
 DRIVER2 nvidia96xx
 
-NAME NVIDIA GeForce FX and later
+NAME NVIDIA GeForce FX - GeForce 7950
 DRIVER nv
+DRIVER2 nvidia97xx
+
+# not supported by nv in 2007.1
+NAME NVIDIA GeForce 8300 - 8800
+DRIVER fbdev
 DRIVER2 nvidia97xx
 
 NAME NVIDIA GeForce3 (xbox)
