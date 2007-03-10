@@ -258,147 +258,15 @@ DRIVER trident
 NAME SiS USB
 DRIVER sisusb
 
-NAME SiS generic
+NAME SiS (old series)
 DRIVER sis
 
-NAME SiS SG86C205
+NAME SiS (300 series)
 DRIVER sis
-BAD_FB_RESTORE
-LINE     # Option "no_accel" # Use this if acceleration is causing problems
-LINE     # Option "fifo_moderate" 
-LINE     # Option "fifo_conserv" 
-LINE     # Option "fifo_aggresive" 
+DRI_GLX
 
-NAME SiS SG86C215
+NAME SiS / XGI (315 / 330 / 340 series)
 DRIVER sis
-BAD_FB_RESTORE
-LINE     # This is a cheap version of 86c205. I am not sure if acceleration works
-LINE     # Option "no_accel" # Use this if acceleration is causing problems
-LINE     # Option "no_BitBlt" # Use this if acceleration is causing problems
-LINE     # Option "fifo_moderate" 
-LINE     # Option "fifo_conserv" 
-LINE     # Option "fifo_aggresive" 
-
-NAME SiS SG86C225
-DRIVER sis
-BAD_FB_RESTORE
-LINE     # Option "no_accel" # Use this if acceleration is causing problems
-LINE     # Option "fifo_moderate" 
-LINE     # Option "fifo_conserv" 
-LINE     # Option "fifo_aggresive" 
-
-NAME SiS 5597
-DRIVER sis
-BAD_FB_RESTORE
-LINE     # Option "no_accel" # Use this if acceleration is causing problems
-LINE     # Option "fifo_moderate" 
-LINE     # Option "fifo_conserv" 
-LINE     # Option "fifo_aggresive" 
-LINE     # Option "fast_vram"
-LINE     # Option "pci_burst_on"
-LINE     # Option "xaa_benchmark" # DON'T use with "ext_eng_queue" !!!
-LINE     # Option "ext_eng_queue" # Turbo-queue. This can cause drawing
-LINE                              # errors, but gives some accel
-
-NAME SiS 5598
-DRIVER sis
-BAD_FB_RESTORE
-LINE     # Option "no_accel" # Use this if acceleration is causing problems
-LINE     # Option "fifo_moderate" 
-LINE     # Option "fifo_conserv" 
-LINE     # Option "fifo_aggresive" 
-LINE     # Option "fast_vram"
-LINE     # Option "pci_burst_on"
-LINE     # Option "xaa_benchmark" # DON'T use with "ext_eng_queue" !!!
-LINE     # Option "ext_eng_queue" # Turbo-queue. This can cause drawing
-LINE                              # errors, but gives some accel
-
-NAME SiS 6326
-DRIVER sis
-DRI_GLX_EXPERIMENTAL
-BAD_FB_RESTORE
-LINE     Option "sw_cursor"
-LINE     # Option "no_accel" # Use this if acceleration is causing problems
-LINE     # Option "fifo_moderate" 
-LINE     # Option "fifo_conserv" 
-LINE     # Option "fifo_aggresive" 
-LINE     # Option "fast_vram"
-LINE     # Option "pci_burst_on"
-LINE     # Option "xaa_benchmark" # DON'T use with "ext_eng_queue" !!!
-LINE     # Option "ext_eng_queue" # Turbo-queue. This can cause drawing 
-LINE                              # errors, but gives some accel
-
-NAME SiS 6326 no_accel
-SEE SiS 6326
-LINE     Option "no_accel" # Use this if acceleration is causing problems
-
-NAME SiS Real256E
-DRIVER sis
-
-NAME SiS 530
-DRIVER sis
-
-NAME SiS 540
-DRIVER sis
-BAD_FB_RESTORE
-
-NAME SiS 620
-DRIVER sis
-
-NAME SiS 630
-DRIVER sis
-DRI_GLX_EXPERIMENTAL
-
-NAME SiS 650
-DRIVER sis
-
-NAME SiS 300
-DRIVER sis
-BAD_FB_RESTORE
-
-NAME MSI MS-4417
-SEE SiS 6326
-
-NAME SiS 3D PRO AGP
-SEE SiS 6326
-
-NAME Miro Crystal DVD
-SEE SiS 6326
-
-NAME PC-Chips M567 Mainboard
-SEE SiS 5597
-
-NAME Diamond SpeedStar A50
-SEE SiS 6326
-LINE     Option "no_imageblt"
-LINE     Option "no_bitblt"
-
-NAME AOpen PA50D
-SEE SiS 6326
-
-NAME AOpen PA50V
-SEE SiS 6326
-
-NAME AOpen PA50E
-SEE SiS 6326
-
-NAME AOpen PA80/DVD
-SEE SiS 6326
-
-NAME AOpen PA45
-SEE SiS 6326
-
-NAME AOpen PT80
-SEE SiS 6326
-
-NAME Chaintech Tornado S6000
-SEE SiS 6326
-
-NAME Chaintech Desperado SI21
-SEE SiS 6326
-
-NAME Chaintech Desperado SI31
-SEE SiS 6326
 
 # Cyrix
 
