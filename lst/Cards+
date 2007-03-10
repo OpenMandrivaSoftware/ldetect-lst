@@ -273,26 +273,9 @@ DRIVER sis
 NAME MediaGX
 DRIVER cyrix
 
-# Alliance ProMotion
-
-NAME Alliance ProMotion 6422
-DRIVER vga
-
 # Number 9 I128
 
-NAME Number Nine Imagine I-128 (2-8MB)
-DRIVER i128
-
-NAME Number Nine Imagine I-128 Series 2 (2-4MB)
-DRIVER i128
-
-NAME Revolution 3D (T2R)
-DRIVER i128
-
-NAME Number Nine Revolution 3D AGP (4-8MB SGRAM)
-DRIVER i128
-
-NAME Number Nine Imagine-128-T2R
+NAME Number Nine I-128-based cards
 DRIVER i128
 
 # Matrox
