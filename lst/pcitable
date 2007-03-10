@@ -3824,7 +3824,7 @@
 0x1106	0x287c	"unknown"	"VIA Technologies Inc.|VT8251 PCIE Root Port"
 0x1106	0x287d	"unknown"	"VIA Technologies Inc.|VT8251 PCIE Root Port"
 0x1106	0x287e	"unknown"	"VIA Technologies Inc.|VT8251 Ultra VLINK Controller"
-0x1106	0x3022	"Card:S3 UniChrome-based cards"	"VIA Technologies Inc.|CLE266"
+0x1106	0x3022	"Card:FrameBuffer (generic)"	"VIA Technologies Inc.|CLE266"
 0x1106	0x3038	"uhci-hcd"	"VIA Technologies Inc.|VT82C586B USB"
 0x1106	0x3040	"i2c-via"	"VIA Technologies Inc.|VT82C586B ACPI"
 0x1106	0x3043	"via-rhine"	"VIA Technologies Inc.|VT86C100A [Rhine 10/100]"
