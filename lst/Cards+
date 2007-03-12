@@ -505,97 +505,27 @@ DRI_GLX
 NAME Silicon Motion Lynx-based cards
 DRIVER siliconmotion
 
-# Sun Cards / Servers (added by Red Hat Software 02/1999)
+# Sun
 
 NAME Sun Monochrome (bwtwo)
 DRIVER sunbw2
  
 NAME Sun Color3 (cgthree)
 DRIVER suncg3
- 
-NAME Sun CG8/RasterOps
- 
-NAME Sun GS (cgtwelve)
- 
-NAME Sun Graphics Tower
 
-NAME Quantum 3D MGXplus with 4M VRAM
- 
-NAME Quantum 3D MGXplus
- 
-NAME Sun Unknown GX
+NAME Sun GX-based cards
 DRIVER suncg6
  
-NAME Sun Double width GX
-DRIVER suncg6
- 
-NAME Sun Single width GX
-DRIVER suncg6
-
-NAME Sun Turbo GX with 1M VSIMM
-DRIVER suncg6
- 
-NAME Sun Turbo GX Plus
-DRIVER suncg6
- 
-NAME Sun Turbo GX
-DRIVER suncg6
- 
-NAME Sun SX with 4M VSIMM
-DRIVER suncg14
- 
-NAME Sun SX with 8M VSIMM
-DRIVER suncg14
- 
-NAME Sun SX
+NAME Sun SX-based cards
 DRIVER suncg14
 
-NAME Sun Turbo ZX
-DRIVER sunleo
- 
-NAME Sun ZX or Turbo ZX
+NAME Sun ZX-based cards
 DRIVER sunleo
 
-NAME Sun TCX (8bit)
+NAME Sun TCX-based cards
 DRIVER suntcx
- 
-NAME Sun TCX (S24)
-DRIVER suntcx
- 
-NAME Sun Elite3D-M6 Horizontal
-DRIVER sunffb
- 
-NAME Sun Elite3D
-DRIVER sunffb
 
-NAME Sun FFB 67MHz Creator
-DRIVER sunffb
- 
-NAME Sun FFB 67MHz Creator 3D
-DRIVER sunffb
- 
-NAME Sun FFB 75MHz Creator 3D
-DRIVER sunffb
- 
-NAME Sun FFB2 Vertical Creator
-DRIVER sunffb
- 
-NAME Sun FFB2 Vertical Creator 3D
-DRIVER sunffb
- 
-NAME Sun FFB2Vertical Creator
-DRIVER sunffb
-
-NAME Sun FFB2Vertical Creator 3D
-DRIVER sunffb
- 
-NAME Sun FFB2 Horizontal Creator
-DRIVER sunffb
- 
-NAME Sun FFB2 Horizontal Creator 3D
-DRIVER sunffb
- 
-NAME Sun FFB
+NAME Sun Elite3D- / FFB-based cards
 DRIVER sunffb
 
 # VMware virtual video cards
