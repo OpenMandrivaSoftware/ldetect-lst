@@ -280,58 +280,22 @@ DRIVER i128
 
 # Matrox
 
-NAME Matrox Millennium
-DRIVER mga
-BAD_FB_RESTORE
-LINE Option	"sw_cursor"
-
-NAME Matrox Millennium II
+NAME Matrox Millennium / II / Productiva G100
 DRIVER mga
 BAD_FB_RESTORE
 
-NAME Matrox Millennium G200
+NAME Matrox Millennium G series (single head)
 DRIVER mga
 DRI_GLX
-# DRI_GLX prefer 16bit with AGP only
 BAD_FB_RESTORE
 
-NAME Matrox Millennium G200 DualHead
-SEE Matrox Millennium G200
+NAME Matrox Millennium G series (dual head)
+SEE Matrox Millennium G series (single head)
 MULTI_HEAD 2
 
-NAME Matrox Millennium G200 QuadHead
-SEE Matrox Millennium G200
+NAME Matrox Millennium G200 (quad head)
+SEE Matrox Millennium G series (single head)
 MULTI_HEAD 4
-
-NAME Matrox Millennium G400
-SEE Matrox Millennium G200
-
-NAME Matrox Millennium G400 DualHead
-SEE Matrox Millennium G400
-MULTI_HEAD 2
-
-NAME Matrox Millennium G450
-DRIVER mga
-DRI_GLX
-BAD_FB_RESTORE
-
-NAME Matrox Millennium G450 DualHead
-SEE Matrox Millennium G450
-MULTI_HEAD 2
-
-NAME Matrox Millennium G550
-SEE Matrox Millennium G450
-
-NAME Matrox Millennium G550 DualHead
-SEE Matrox Millennium G550
-MULTI_HEAD 2
-
-NAME Matrox Mystique
-SEE Matrox Millennium G200
-
-NAME Matrox Productiva G100
-DRIVER mga
-BAD_FB_RESTORE
 
 # NVIDIA
 
