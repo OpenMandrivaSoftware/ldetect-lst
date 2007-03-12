@@ -207,6 +207,10 @@ DRIVER openchrome
 NAME Tseng ET4000W32p / ET6x00-based cards
 DRIVER tseng
 
+# AMD
+NAME AMD Geode GX/LX 
+DRIVER amd
+
 # ATI
 
 NAME ATI Mach / Rage-based cards
