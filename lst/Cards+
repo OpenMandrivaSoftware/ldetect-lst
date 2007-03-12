@@ -317,7 +317,7 @@ DRIVER2 nvidia97xx
 
 # not supported by nv in 2007.1
 NAME NVIDIA GeForce 8300 - 8800
-DRIVER fbdev
+DRIVER vesa
 DRIVER2 nvidia97xx
 
 NAME NVIDIA GeForce3 (xbox)
