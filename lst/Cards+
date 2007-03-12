@@ -491,46 +491,14 @@ NAME Intel 830 - 965
 DRIVER i810
 DRI_GLX
 
-# Alan Cox's new "voodoo" driver for Voodoo Graphics and Voodoo II
-#0x121a  0x0001  "Card:Voodoo Graphics"  "3Dfx Interactive, Inc.|Voodoo"
-NAME Voodoo Graphics
-CHIPSET Voodoo Graphics
+# 3DFX
+
+NAME 3DFX Voodoo / Voodoo II
 DRIVER voodoo
 
-# Alan Cox's new "voodoo" driver for Voodoo Graphics and Voodoo II
-#0x121a  0x0002  "Card:Voodoo II"    "3Dfx Interactive, Inc.|Voodoo 2"
-NAME Voodoo II
-CHIPSET Voodoo II
-DRIVER voodoo
-
-NAME Voodoo Banshee (generic)
+NAME 3DFX Voodoo 3 - 5 / Banshee / Rush
 DRIVER tdfx
-# DRI_GLX 16bit only
-
-NAME Voodoo Rush (generic)
-DRIVER tdfx
-LINE Option	"nodri"
-
-NAME Voodoo3 (generic)
-DRIVER tdfx
-
-NAME Voodoo4 (generic)
-DRIVER tdfx
-
-NAME Voodoo5 (generic)
-DRIVER tdfx
-
-NAME Elsa Victory II
-SEE Voodoo Banshee (generic)
-
-NAME Diamond Monster Fusion
-SEE Voodoo Banshee (generic)
-
-NAME AOpen PA2010
-SEE Voodoo Banshee (generic)
-
-NAME Chaintech Desperado 3F10
-SEE Voodoo Banshee (generic)
+DRI_GLX
 
 # Silicon Motion, Inc.
 
