@@ -402,18 +402,8 @@ LINE Option     "SWcursor"
 
 # Alliance Semiconductor
 
-NAME Diamond Stealth Video 2500
+NAME Alliance ProMotion-based cards
 DRIVER apm
-
-NAME AT3D
-DRIVER apm
-LINE #Option "no_accel"
-
-NAME AT25
-DRIVER apm
-
-NAME Hercules Stingray 128 3D
-SEE AT3D
 
 # NeoMagic
 
