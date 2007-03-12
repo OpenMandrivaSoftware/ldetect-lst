@@ -327,7 +327,7 @@ LINE Option "HWCursor" "0"
 
 # IMS
 
-NAME IMS TwinTurbo (generic)
+NAME IMS TwinTurbo-based cards
 DRIVER imstt
 
 # 3DLabs
@@ -357,7 +357,7 @@ DRIVER glint
 NAME Diamond Fire GL 3000
 LINE Option     "SWcursor"
 DRIVER glint
-LINE Option "firegl_3000"
+LINE Option "FireGL3000" "true"
 
 NAME Elsa GLoria-S
 DRIVER glint
