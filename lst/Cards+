@@ -466,19 +466,6 @@ CHIPSET TGA
 DRIVER tga
 LINE     Ramdac "Bt463"
 
-# Epson SPC8110
-
-NAME Epson SPC8110 (CardPC)
-DRIVER vga
-LINE #    Chipset    "spc8110"
-LINE #    MemBase    0x03e00000
-LINE #    VideoRam   1024
-LINE #    Option     "nolinear"
-LINE #    Option     "sw_cursor"
-LINE #    Option     "noaccel"
-LINE #    Option     "fifo_moderate"
-LINE #    Option     "fifo_conservative"
-
 # Rendition
 
 NAME Rendition Verite 1000
