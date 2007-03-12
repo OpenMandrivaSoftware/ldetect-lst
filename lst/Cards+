@@ -502,30 +502,8 @@ DRI_GLX
 
 # Silicon Motion, Inc.
 
-NAME Silicon Motion Lynx (generic)
+NAME Silicon Motion Lynx-based cards
 DRIVER siliconmotion
-
-NAME Silicon Motion LynxEM
-DRIVER siliconmotion
-
-NAME Silicon Motion Lynx (generic)
-DRIVER siliconmotion
-
-NAME Silicon Motion LynxE (generic)
-DRIVER siliconmotion
-
-NAME Silicon Motion Lynx3D (generic)
-DRIVER siliconmotion
-
-NAME Silicon Motion LynxEM (generic)
-DRIVER siliconmotion
-
-NAME Silicon Motion LynxEM+ (generic)
-DRIVER siliconmotion
-
-NAME Silicon Motion Lynx3DM (generic)
-DRIVER siliconmotion
-
 
 # Sun Cards / Servers (added by Red Hat Software 02/1999)
 
