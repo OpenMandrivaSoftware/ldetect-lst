@@ -468,152 +468,19 @@ LINE     Ramdac "Bt463"
 
 # Rendition
 
-NAME Rendition Verite 1000
+NAME Rendition Verite-based cards
 DRIVER rendition
 LINE # Option "sw_cursor"
-
-NAME Rendition Verite 2x00
-DRIVER rendition
-LINE # Option "sw_cursor"
-
-NAME Creative Labs 3D Blaster PCI (Verite 1000)
-SEE Rendition Verite 1000
-
-NAME Sierra Screaming 3D
-SEE Rendition Verite 1000
-
-NAME Miro CRYSTAL VRX
-SEE Rendition Verite 1000
-
-NAME Diamond Stealth II S220
-SEE Rendition Verite 2x00
-
-NAME Hercules Thriller3D
-SEE Rendition Verite 2x00
-
-# Digital
-
-# Epson
-
-NAME Epson CardPC (onboard)
 
 # Intel
 
-NAME Intel 740 (generic)
+NAME Intel 740-based cards
 DRIVER i740
 LINE     #Option     "no_accel"
 LINE     #Option     "sw_cursor"
 LINE     #Option     "hw_cursor"
 LINE     #Option     "sgram"
 LINE     #Option     "sdram"
-
-NAME Real3D Starfighter AGP
-SEE Intel 740 (generic)
-
-NAME Real3D Starfighter PCI
-SEE Intel 740 (generic)
-
-NAME Diamond Stealth II/G460 AGP
-SEE Intel 740 (generic)
-
-NAME 3DVision-i740 AGP
-SEE Intel 740 (generic)
-
-NAME ABIT G740 8MB SDRAM
-SEE Intel 740 (generic)
-
-NAME Acorp AGP i740
-SEE Intel 740 (generic)
-
-NAME AGP 2D/3D V. 1N, AGP-740D
-SEE Intel 740 (generic)
-
-NAME AOpen AGP 2X 3D Navigator PA740
-SEE Intel 740 (generic)
-
-NAME ARISTO i740 AGP (ART-i740-G)
-SEE Intel 740 (generic)
-
-NAME ASUS AGP-V2740
-SEE Intel 740 (generic)
-
-NAME Chaintech AGP-740D
-SEE Intel 740 (generic)
-
-NAME Chaintech Tornado I7000
-SEE Intel 740 (generic)
-
-NAME EliteGroup(ECS) 3DVision-i740 AGP
-SEE Intel 740 (generic)
-
-NAME EONtronics Picasso 740
-SEE Intel 740 (generic)
-
-NAME EONtronics Van Gogh
-SEE Intel 740 (generic)
-
-NAME Everex MVGA i740/AG
-SEE Intel 740 (generic)
-
-NAME Flagpoint Shocker i740 8MB
-SEE Intel 740 (generic)
-
-NAME Gainward CardExpert 740 8MB
-SEE Intel 740 (generic)
-
-NAME Genoa Systems Phantom 740
-SEE Intel 740 (generic)
-
-NAME Gigabyte Predator i740 8MB AGP
-SEE Intel 740 (generic)
-
-NAME Hercules Terminator 128 2X/i AGP
-SEE Intel 740 (generic)
-
-NAME Intel Express 3D AGP
-SEE Intel 740 (generic)
-
-NAME Jaton Video-740 AGP 3D
-SEE Intel 740 (generic)
-
-NAME Jetway J-740-3D 8MB AGP, i740 AGP 3D
-SEE Intel 740 (generic)
-
-NAME Joymedia Apollo 7400
-SEE Intel 740 (generic)
-
-NAME Leadtek Winfast S900
-SEE Intel 740 (generic)
-
-NAME Machspeed Raptor i740 AGP 4600
-SEE Intel 740 (generic)
-
-NAME Magic-Pro MP-740DVD
-SEE Intel 740 (generic)
-
-NAME MAXI Gamer AGP 8 MB
-SEE Intel 740 (generic)
-
-NAME Palit Daytona AGP740
-SEE Intel 740 (generic)
-
-NAME PowerColor C740 (SG/SD) AGP
-SEE Intel 740 (generic)
-
-NAME QDI Amazing I
-SEE Intel 740 (generic)
-
-NAME Soyo AGP (SY-740 AGP)
-SEE Intel 740 (generic)
-
-NAME VideoExcel AGP 740
-SEE Intel 740 (generic)
-
-NAME ViewTop ZeusL 8MB 
-SEE Intel 740 (generic)
-
-NAME Winfast S900 i740 AGP 8MB
-SEE Intel 740 (generic)
 
 NAME Intel 810 / 815
 DRIVER i810
