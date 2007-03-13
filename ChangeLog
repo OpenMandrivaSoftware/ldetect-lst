@@ -1,3 +1,162 @@
+2007-03-13 13:53  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* soft/ldetect-lst/trunk/lst/MonitorsDB: add LG Flatron L226WT
+	  (Javier Martinez Villacampa)
+
+2007-03-12 17:20  Olivier Blin <oblin at mandriva.com>
+
+	* soft/ldetect-lst/trunk/lst/pcitable: use amd driver for Geode
+	  GX/LX
+
+2007-03-12 17:05  Olivier Blin <oblin at mandriva.com>
+
+	* soft/ldetect-lst/trunk/lst/Cards+: add amd Xorg driver
+
+2007-03-12 14:47  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* soft/ldetect-lst/trunk/Makefile: bump release (0.1.157)
+
+2007-03-12 06:07  adamw
+
+	* soft/ldetect-lst/trunk/lst/pcitable: Add names for other MCP67
+	  bits (doesn't do anything, but just makes it easier to read)
+
+2007-03-12 06:03  adamw
+
+	* soft/ldetect-lst/trunk/lst/pcitable: Add MCP67 ethernet IDs (per
+	  NVIDIA checkin
+	  http://kernel.org/pub/linux/kernel/people/akpm/patches/2.6/2.6.19-rc4/2.6.19-rc4-mm1/broken-out/forcedeth-add-new-nvidia-pci-ids.patch)
+
+2007-03-12 02:13  adamw
+
+	* soft/ldetect-lst/trunk/lst/pcitable: clean madwifi definitions:
+	  convert ar5k definitions to madwifi as ar5k is obsolete, remove
+	  some IDs which do not appear to really exist, add one definition
+	  per http://madwifi.org/wiki/Compatibility
+
+2007-03-12 01:47  adamw
+
+	* soft/ldetect-lst/trunk/lst/Cards+: sanitize Sun definitions
+
+2007-03-12 01:43  adamw
+
+	* soft/ldetect-lst/trunk/lst/Cards+,
+	  soft/ldetect-lst/trunk/lst/pcitable: sanitize Silicon Motion
+	  definitions
+
+2007-03-12 01:38  adamw
+
+	* soft/ldetect-lst/trunk/lst/Cards+,
+	  soft/ldetect-lst/trunk/lst/pcitable: Sanitize 3DFX entries,
+	  enable 3D on tdfx
+
+2007-03-12 01:28  adamw
+
+	* soft/ldetect-lst/trunk/lst/Cards+,
+	  soft/ldetect-lst/trunk/lst/pcitable: sanitize Intel 740
+	  definitions
+
+2007-03-12 01:19  adamw
+
+	* soft/ldetect-lst/trunk/lst/Cards+: remove very old Epson
+	  definition that pointed to vga driver
+
+2007-03-12 01:18  adamw
+
+	* soft/ldetect-lst/trunk/lst/Cards+,
+	  soft/ldetect-lst/trunk/lst/pcitable: rename IMS definition for
+	  consistency, sanitize apm definitions, support one more apm card
+	  according to driver source
+
+2007-03-12 01:09  adamw
+
+	* soft/ldetect-lst/trunk/lst/Cards+: Correct FireGL3000 option for
+	  glint according to current driver manpage
+
+2007-03-12 01:04  adamw
+
+	* soft/ldetect-lst/trunk/lst/Cards+: Switch G80 nvidias to VESA,
+	  doesn't seem that nvidiafb supports them
+
+2007-03-12 01:02  adamw
+
+	* soft/ldetect-lst/trunk/lst/Cards+,
+	  soft/ldetect-lst/trunk/lst/pcitable: Sanitize Matrox definitions,
+	  support a few oddballs based on their core, use VESA driver for
+	  Parhelia and newer cards
+
+2007-03-10 19:12  adamw
+
+	* soft/ldetect-lst/trunk/lst/Cards+,
+	  soft/ldetect-lst/trunk/lst/pcitable: Revise NVIDIA again: G80
+	  cores are not supported by nv for 2007.1 so need a new category.
+	  Set them to fbdev for now
+
+2007-03-10 10:12  adamw
+
+	* soft/ldetect-lst/trunk/lst/pcitable: Add a couple of
+	  snd-hda-intel IDs from the driver source
+
+2007-03-10 10:02  adamw
+
+	* soft/ldetect-lst/trunk/lst/pcitable: support ENE sdhci SD card
+	  reader (per driver source)
+
+2007-03-10 09:43  adamw
+
+	* soft/ldetect-lst/trunk/lst/Cards+,
+	  soft/ldetect-lst/trunk/lst/pcitable: Merge i128 definitions, fix
+	  tabs in line 6462
+
+2007-03-10 09:38  adamw
+
+	* soft/ldetect-lst/trunk/lst/pcitable: 0x1078 0x0001 is not a
+	  graphics card, per driver source
+
+2007-03-10 09:29  adamw
+
+	* soft/ldetect-lst/trunk/lst/pcitable: Support a couple more SiS /
+	  XGI cards from pci.ids
+
+2007-03-10 09:24  adamw
+
+	* soft/ldetect-lst/trunk/lst/Cards+,
+	  soft/ldetect-lst/trunk/lst/pcitable: Clean up SiS definitions in
+	  line with driver documentation
+
+2007-03-10 09:07  adamw
+
+	* soft/ldetect-lst/trunk/lst/pcitable: Revert last change, it may
+	  be wrong
+
+2007-03-10 08:58  adamw
+
+	* soft/ldetect-lst/trunk/lst/pcitable: Drop three SiS chips to
+	  generic VESA driver: according to current sis driver source, they
+	  are no longer supported
+
+2007-03-10 08:43  adamw
+
+	* soft/ldetect-lst/trunk/lst/pcitable: set 0x1106 0x3022 to
+	  framebuffer driver: it's disabled in openchrome source
+
+2007-03-10 08:30  adamw
+
+	* soft/ldetect-lst/trunk/lst/pcitable: Support two more Radeons
+	  (one previously unknown, one previously not listed, pulled from
+	  pci.ids); drop incorrect driver definition for secondary output
+
+2007-03-09 21:53  adamw
+
+	* soft/ldetect-lst/trunk/lst/pcitable: support Quadro FX 4600 and
+	  5600 (with NVIDIA driver 9755)
+
+2007-03-09 19:45  adamw
+
+	* soft/ldetect-lst/trunk/lst/pcitable: support more bcm43xx
+	  devices, including mine: should work with kernel-tmb in 2007.1,
+	  maybe not regular kernel, but it beats unknown
+
 2007-03-08 20:04  adamw
 
 	* soft/ldetect-lst/trunk/lst/pcitable: Add one NVIDIA definition
