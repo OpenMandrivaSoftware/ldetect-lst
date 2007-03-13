@@ -72,16 +72,16 @@ Acer; Acer 77c; API980A; 30.0-72.0; 50.0-120.0
 Acer; Acer 77e; API971C; 30.0-72.0; 50.0-120.0
 Acer; Acer 77e; API9808; 30.0-72.0; 50.0-120.0
 Acer; Acer 78c; API9719; 30.0-86.0; 50.0-120.0
-Acer; Acer 78c; API9805; 31.0-86.0; 50.0-120.0
+Acer; Acer 78c/G781; API9805; 31.0-86.0; 50.0-120.0
 Acer; Acer 78i; API494E; 30.0-82.0; 50.0-110.0
 Acer; Acer 78ie; API424E; 30.0-86.0; 50.0-120.0
 Acer; Acer 78ie; API454E; 30.0-86.0; 50.0-120.0
 Acer; Acer 79g; API9716; 30.0-95.0; 50.0-160.0
-Acer; Acer 79g; API971E; 30.0-95.0; 50.0-160.0
-Acer; Acer 98e; API9806; 30.0-86.0; 50.0-160.0
+Acer; Acer 79g/P791; API971E; 30.0-95.0; 50.0-160.0
+Acer; Acer 98e/V981; API9806; 30.0-86.0; 50.0-160.0
 Acer; Acer 98i; API4962; 30.0-82.0; 50.0-120.0
 Acer; Acer 99c; API9718; 30.0-95.0; 50.0-160.0
-Acer; Acer 99g; API9804; 30.0-107.0; 50.0-160.0
+Acer; Acer 99g/P911; API9804; 30.0-107.0; 50.0-160.0
 Acer; Acer 99sl; API9721; 30.0-98.0; 50.0-160.0
 Acer; Acer AC501; ABO5572; 30.0-70.0; 50.0-120.0
 Acer; Acer AC511; ACRAC02; 30.0-54.0; 50.0-120.0
@@ -211,7 +211,7 @@ ADI; ADI MicroScan 3V; adi0638; 24.6-48.9; 50.0-100.0; 1
 ADI; ADI MicroScan 3V; adi0640; 24.6-48.9; 50.0-100.0; 1
 ADI; ADI MicroScan 4A; sm-5515; 30.0-58.0; 50.0-100.0; 1
 ADI; ADI MicroScan 4G; adi4g; 30.0-64.0; 50.0-100.0; 1
-ADI; ADI MicroScan 4GP; adi4gp; 30-64; 50-100; 1
+ADI; ADI MicroScan 4GP; adi4gp; 30.0-64.0; 50.0-100.0; 1
 ADI; ADI MicroScan 4P/4P+; adi1630; 30.0-69.0; 50.0-100.0; 1
 ADI; ADI MicroScan 4P/4P+; adi1632; 30.0-69.0; 50.0-100.0; 1
 ADI; ADI MicroScan 4P/4P+; adi1633; 30.0-69.0; 50.0-100.0; 1
@@ -244,7 +244,7 @@ ADI; ADI MicroScan 4V; adi0740; 30-64; 50-100; 1
 ADI; ADI MicroScan 4V; adi0750; 30-64; 50-100; 1
 ADI; ADI MicroScan 4V; adi0755; 30-64; 50-100; 1
 ADI; ADI MicroScan 4V; adi0940; 30-64; 50-100; 1
-ADI; ADI MicroScan 4V; adi4v; 30-64; 50-95; 1
+ADI; ADI MicroScan 4V; adi4v; 30.0-64.0; 50.0-95.0; 1
 ADI; ADI MicroScan 5AP; adi5ap; 30-64; 50-100; 1
 ADI; ADI MicroScan 5EP; adi5ep; 30-64; 50-100; 1
 ADI; ADI MicroScan 5G; adi1550; 30.0-95.0; 50.0-120.0; 1
@@ -345,7 +345,7 @@ ADI; ADI MicroScan I610; adiA950; 31.0-61.0; 56.0-75.0; 1
 ADI; ADI MicroScan I612; adi8450; 31.0-61.0; 56.0-75.0; 1
 ADI; ADI MicroScan M500; adi8630; 30.0-54.0; 50.0-160.0; 1
 ADI; ADI MicroScan M510; adi8730; 30.0-70.0; 50.0-160.0; 1
-ADI; ADI MicroScan M700; ADI8830; 30-70; 50-160; 1
+ADI; ADI MicroScan M700; adi8830; 30.0-70.0; 50.0-160.0; 1
 ADI; ADI MicroScan P40; adi2c30; 30.0-69.0; 50.0-100.0; 1
 ADI; ADI MicroScan P50; adi3330; 30.0-69.0; 50.0-100.0; 1
 ADI; ADI MicroScan P55; adi3430; 30.0-82.0; 50.0-120.0; 1
@@ -410,7 +410,7 @@ AOC; AOC SPECTRUM 5Nlr; aoca569; 30.0-69.0;50.0-120; 1
 AOC; AOC SPECTRUM 5Vlr & 5VlrA; aocd566; 30.0-66.0; 50.0-100.0; 1
 AOC; AOC SPECTRUM 7Clr; aocf764; 30.0-64.0; 47.0-100.0; 1
 AOC; AOC SPECTRUM 7Dlr & 7DlrA; aoce750; 30.0-68.0; 50.0-120.0; 1
-AOC; AOC SPECTRUM 7Glr & 7GlrA; aoca785; 30.0-95.0; 50.0-160.0; 1
+AOC; AOC SPECTRUM 7Glr & 7GlrA; aoca785; 30.0-85.0; 50.0-130.0; 1
 AOC; AOC SPECTRUM 7Nlr; aoca782; 30.0-82.0; 50.0-110.0; 1
 AOC; AOC SPECTRUM 7Vlr & 7VlrA & 7Vlr+ & 7VlrA+; aoca770; 30.0-70.0; 50.0-130.0; 1
 AOC; AOC SPECTRUM 9Glr; aoce995; 30.0-95.0; 47.0-150.0; 1
@@ -1139,7 +1139,7 @@ Dell; Dell D1025TM; del5155; 31.0-85.0; 50.0-160.0; 1
 Dell; Dell D1028L; del730b; 31.0-70.0; 50.0-120.0; 1
 Dell; Dell D1226H; del7077; 30.0-95.0; 50.0-160.0; 1
 Dell; Dell D1428L; del3276; 31.0-48.0; 43.0-75.0; 1
-Dell; Dell D1626HT; DEL515b; 30-107; 50-160; 
+Dell; Dell D1626HT; del515b; 31.0-107.0; 50.0-160.0; 1
 Dell; Dell D2026T; del5314; 31.0-96.0; 50.0-100.0; 1
 Dell; Dell D2128-TCO; del602f; 31.0-102.0; 50.0-150.0; 1
 Dell; Dell D825HR; del62ff; 31.0-70.0; 50.0-120.0; 1
@@ -1627,7 +1627,7 @@ Gateway; Gateway Vivitron 17; vivitron17; 31.5-64; 50-120; 1
 Gateway; Gateway Vivitron 20; vivitron20; 29-82; 50-150; 1
 Gateway; Gateway VX1100; gwy0454; 31.0-108.0; 50.0-160.0; 1
 Gateway; Gateway VX1110; gwy045b; 31.0-115.0; 50.0-160.0; 1
-Gateway; Gateway VX1120; gwy0460; 30-121; 50-160; 1
+Gateway; Gateway VX1120; gwy0460; 30.0-121.0; 50.0-160.0; 1
 Gateway; Gateway VX1120; gwy046A; 30.0-130.0; 50.0-160.0; 1
 Gateway; Gateway VX1130; gwy046B; 30.0-140.0; 50.0-160.0; 1
 Gateway; Gateway VX700A; gwy044e; 30.0-86.0; 50.0-130.0; 1
@@ -2113,7 +2113,7 @@ IBM; IBM P200; ibm199b; 29.0-90.0; 50.0-120.0; 1
 IBM; IBM P201; ibmp201; 30.0-107.0; 50.0-160.0; 1
 IBM; IBM P50; ibm1999; 30.0-69.0; 50.0-120.0; 1
 IBM; IBM P70; ibm199a; 29.0-82.0; 50.0-120.0; 1
-IBM; IBM P76; IBM1996; 30.0-94.0; 48.0-120.0; 1
+IBM; IBM P76; IBM1996; 30.0-94.0; 48.0-120.0
 ICL; ICL 14C; icl14c; 34.2-36.2; 50.0-90.0; 1
 ICL; ICL 14M; icl14m; 31.5; 70; 1
 ICL; ICL 14V; icl14v; 37.9; 58.0-75.0; 1
@@ -3877,7 +3877,7 @@ Sony; Sony CPD-E500/E500E; sny04b0; 30.0-96.0; 48.0-160.0; 1
 Sony; Sony CPD-G200; sny1270; 30.0-96.0; 48.0-120.0; 1
 Sony; Sony CPD-G400; sny0290; 30.0-107.0; 48.0-120.0; 1
 Sony; Sony CPD-G410R; sny0191; 30.0-110.0; 40.0-170.0; 1
-Sony; Sony CPD-G420; SNY0490; 30-110; 48-170; 
+Sony; Sony CPD-G420; sny0490; 30.0-110.0; 48.0-170.0; 1
 Sony; Sony CPD-G500; sny03b0; 30.0-121.0; 48.0-160.0; 1
 Sony; Sony CPD-H200; sny1170; 30.0-70.0; 48.0-120.0; 1
 Sony; Sony CPD-L100; sny0140; 30.0-61.0; 50.0-65.0; 1
@@ -3897,7 +3897,7 @@ Sony; Sony GDM-20SE2T5; sny05a0; 30.0-96.0; 48.0-160.0; 1
 Sony; Sony GDM-20SE3T; sny06a0; 30.0-96.0; 48.0-160.0; 1
 Sony; Sony GDM-20SHT(NEW); sny08a0; 30.0-107.0; 50.0-160.0; 1
 Sony; Sony GDM-20SHT; sny0000; 30.0-65.0; 50.0-120.0; 1
-Sony; Sony GDM-400PS/400PST/19PS; SNY0090; 30-95; 48-160;
+Sony; Sony GDM-400PS/400PST/19PS; sny0090; 30.0-95.0; 48.0-160.0; 1
 Sony; Sony GDM-500PS/T/T9/21PS; sny00b0; 30.0-107.0; 48.0-160.0; 1
 Sony; Sony GDM-F400/F400T9; sny0190; 30.0-107.0; 48.0-160.0; 1
 Sony; Sony GDM-F500/F500T9; sny01b0; 30.0-121.0; 48.0-160.0; 1
@@ -4129,7 +4129,7 @@ Unisys; Unisys SVG-201-COL; svg201; 31-38.0; 60-87; 1
 Unisys; Unisys SVG-250-COL; svg250; 31-38.0; 60-87; 1
 Unisys; Unisys VGA-200-MON; vga200; 31-32; 60-70; 1
 Unisys; Unisys VGA-250-MON; vga250; 31-32; 60-70; 1
-ViewSonic; ViewSonic 14ES; vsc3141; 31-51.0; 50-100; 1
+ViewSonic; ViewSonic 14ES; vsc3141; 31-51.0; 50-75; 1
 ViewSonic; ViewSonic 15ES-2; vsc3844; 31-62; 50-100; 1
 ViewSonic; ViewSonic 15E; vs_15e; 30-62; 50-90; 1
 ViewSonic; ViewSonic 15EX; vs_15ex; 30-62; 50-100; 1
@@ -4226,7 +4226,7 @@ ViewSonic; ViewSonic E790B-4; vsce405; 30-95; 50-160; 1
 ViewSonic; ViewSonic E790B; vsc514d; 30-95; 50-200; 1
 ViewSonic; ViewSonic E790; vsc4d4d; 30-95; 50-200; 1
 ViewSonic; ViewSonic E810; vsc5251; 30-95; 50-180; 1
-ViewSonic; ViewSonic E90; vsc564e; 30-87; 50-180; 1
+ViewSonic; ViewSonic E90; vsc564e; 30-86; 50-180; 1
 ViewSonic; ViewSonic E90-4; VSCA418; 30-86; 50-180
 ViewSonic; ViewSonic E90f+-3; VSC9517; 30-86; 50-180
 ViewSonic; ViewSonic E90f+; VSC890E; 30-86; 50-180
