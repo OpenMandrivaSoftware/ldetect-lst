@@ -641,7 +641,6 @@ Belinea; Belinea 10 50 95; MAX3539; 30.0-64.0; 55.0-120.0 ; 1
 Belinea; Belinea 10 55 20; 0; 30.0-64.0; 50.0-100.0
 Belinea; Belinea 10 55 40; MAX3430; 30.0-64.0; 50.0-90.0 ; 1
 Belinea; Belinea 10 55 50; MAX15AE; 24.0-69.0; 50.0-120.0 ; 1
-Belinea; Belinea 10 50 60; 0; 30.0-64.0; 50.0-90.0
 Belinea; Belinea 10 55 70; MAX15C2; 30.0-69.0; 50.0-120.0 ; 1
 Belinea; Belinea 10 55 75; MAX15C7; 30.0-69.0; 50.0-120.0 ; 1
 Belinea; Belinea 10 55 76; MAX15C8; 30.0-69.0; 50.0-120.0 ; 1
