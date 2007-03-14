@@ -382,10 +382,10 @@ ADI; ADI ProVista E40; adi1950; 30.0-64.0; 50.0-100.0; 1
 ADI; ADI ProVista E40; adi1952; 30.0-64.0; 50.0-100.0; 1
 ADI; ADI ProVista E44; adi2e30; 30.0-69.0; 50.0-100.0; 1
 ADI; ADI ProVista E44+; adi7650; 30.0-70.0; 50.0-160.0; 1
-ADI; ADI TM-29; adi8110; 31.0-50.0; 50.0-120.0; 1
-ADI; ADI TM-34; adi5F10; 31.0-38.0; 50.0-120.0; 1
 ADI; ADI ProVista E55; adi4430; 30.0-69.0; 50.0-100.0; 1
 ADI; ADI ProVista E66; adi3e30; 30.0-86.0; 50.0-120.0; 1
+ADI; ADI TM-29; adi8110; 31.0-50.0; 50.0-120.0; 1
+ADI; ADI TM-34; adi5F10; 31.0-38.0; 50.0-120.0; 1
 Amptron International,Inc.; Amptron CS19; AMPCS19; 30.0-95.0; 50.0-120.0
 Amptron International,Inc.; Amptron AV8S; AMPAV8S; 30.0-68.0; 50.0-110.0
 Amptron International,Inc.; Amptron ES15; AMPD556; 30.0-54.0; 50.0-120.0
