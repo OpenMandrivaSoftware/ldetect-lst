@@ -833,6 +833,7 @@ Compaq; Compaq 151FS; cpq0348; 31.5-57.0; 50.0-90.0; 1
 Compaq; Compaq 151FS; cpq0349; 31.5-57.0; 50.0-90.0; 1
 Compaq; Compaq 151FS; cpq034a; 31.5-57.0; 50.0-90.0; 1
 Compaq; Compaq 151FS; cpq034b; 31.5-57.0; 50.0-90.0; 1
+Compaq; Compaq 1520 Flat Panel Monitor;cpq1456;30.0-60.0;56.0-76.0;1
 Compaq; Compaq 171FS; cpq002d; 31.5-57.0; 50.0-90.0; 1
 Compaq; Compaq 171FS; cpq002e; 31.5-57.0; 50.0-90.0; 1
 Compaq; Compaq 171FS; cpq002f; 31.5-57.0; 50.0-90.0; 1
@@ -844,20 +845,31 @@ Compaq; Compaq 171FS; cpq0546; 31.5-57.0; 50.0-90.0; 1
 Compaq; Compaq 171FS; cpq0547; 31.5-57.0; 50.0-90.0; 1
 Compaq; Compaq 171FS; cpq0548; 31.5-57.0; 50.0-90.0; 1
 Compaq; Compaq 171FS; cpq0549; 31.5-57.0; 50.0-90.0; 1
+Compaq; Compaq 1720 Flat Panel Monitor;cpq144f;30.0-81.0;56.0-76.0;1
 Compaq; Compaq 172; cpq_172; 31.5-82.0; 50.0-90.0; 1
+Compaq; Compaq 5500 Color Monitor;cpq1444;30.0-54.0;50.0-120.0;1
+Compaq; Compaq 7500 Color Monitor;cpq1445;30.0-70.0;50.0-140.0;1
+Compaq; Compaq 7550 Color Monitor;cpq1446;30.0-86.0;50.0-140.0;1
 Compaq; Compaq Advanced Graphics; ags; 54.0; 50.0-75.0; 1
+Compaq; Compaq FP15 Flat Panel Monitor;cpq145c;30.0-61.0;56.0-76.0;1
+Compaq; Compaq FP17 Flat Panel Monito;cpq145e;30.0-81.0;56.0-76.0;1
+Compaq; Compaq FP5315 Flat Panel Monitor;cpq1459;30.0-61.0;56.0-76.0;1
+Compaq; Compaq FP7317 Flat Panel Monitor;cpq145b;30.0-81.0;56.0-76.0;1
 Compaq; Compaq Internal VGA Panel; ivga; 31.5; 50.0-70.0; 1
 Compaq; Compaq MV920; CPQ3027; 30-96; 50-160; 1600x1200
 Compaq; Compaq P110 Color Monitor; cpq1321; 30.0-107.0; 48.0-160.0; 1
 Compaq; Compaq P1110 Color Monitor; 0; 50.0-160.0; 30.0-121.0; 1
 Compaq; Compaq P1210 Color Monitor; cpq1386; 30.0-121.0; 50.0-160.0; 1
+Compaq; Compaq P1220 Color Monitor;cpq1421;30.0-130.0;50.0-160.0;1
 Compaq; Compaq P1610 Color Monitor; cpq1327; 30.0-96.0; 48.0-160.0; 1
 Compaq; Compaq P50 Color Monitor; cpq1323; 30.0-69.0; 50.0-125.0; 1
 Compaq; Compaq P70 Color Monitor; cpq1320; 30.0-92.0; 48.0-150.0; 1
 Compaq; Compaq P710; CPQ1384; 30-96; 50-140; 1600x1200
+Compaq; Compaq P720 Color Monitor;cpq1419;31.0-96.0;55.0-160.0;1
 Compaq; Compaq P75 Color Monitor; cpq1330; 30.0-85.0; 50.0-150.0; 1
 Compaq; Compaq P900 Color Monitor; cpq1353; 30.0-107.0; 50.0-120.0; 1
 Compaq; Compaq P910 Color Monitor; cpq1385; 30.0-108.0; 50.0-140.0; 1
+Compaq; Compaq P920 Color Monitor;cpq1420;30.0-110.0;50.0-160.0;1
 Compaq; Compaq Presario 140; cpq0017; 31-62; 48-90; 1
 Compaq; Compaq Presario 140; cpq0018; 31-62; 48-90; 1
 Compaq; Compaq Presario 140; cpq0019; 31-62; 48-90; 1
@@ -914,38 +926,26 @@ Compaq; Compaq S900 Color Monitor; cpq1350; 30.0-95.0; 50.0-160.0; 1
 Compaq; Compaq S910 Color Monitor; cpq1361; 30.0-95.0; 50.0-160.0; 1
 Compaq; Compaq SVGA; svga; 35.2-38.0; 56.0-60.0; 1
 Compaq; Compaq TFT450 Flat Panel Monitor; cpq1333; 31.5-60.0; 56.3-85.0; 1
+Compaq; Compaq TFT500 Flat Panel Monitor; cpq1324; 32.0-60.0; 57.0-85.0; 1
 Compaq; Compaq TFT5000 Flat Panel Monitor; cpq1341; 32.0-60.0; 57.0-85.0; 1
 Compaq; Compaq TFT5005 Flat Panel Monitor; cpq1383; 24.0-61.0; 56.0-75.0; 1
-Compaq; Compaq TFT500 Flat Panel Monitor; cpq1324; 32.0-60.0; 57.0-85.0; 1
 Compaq; Compaq TFT5010 Flat Panel Monitor; cpq1370; 31.5-60.0; 58.0-78.75; 1
+Compaq; Compaq TFT5030 Flat Panel Monitor;cpq1391;31.47-60.0;58.0-75.0;1
 Compaq; Compaq TFT8000 Flat Panel Monitor; cpq1329; 31.0-80.0; 58.0-85.0; 1
 Compaq; Compaq TFT8020 Flat Panel Monitor; cpq1345; 31.5-80.0; 58.0-85.0; 1
+Compaq; Compaq TFT8030 Flat Panel Monitor;cpq1395;32.0-91.0;58.0-85.0;1
 Compaq; Compaq V1000 Color Monitor; cpq1347; 30.0-107.0; 48.0-160.0; 1
 Compaq; Compaq V1100 Color Monitor; cpq1336; 30.0-107.0; 48.0-160.0; 1
 Compaq; Compaq V40 Color Monitor; cpq1334; 31.0-48.0; 50.0-100.0; 1
 Compaq; Compaq V45 Color Monitor; cpq1338; 31-48; 50-100; 1
 Compaq; Compaq V50 Color Monitor; cpq1322; 30.0-60.0; 50-125.0; 1
 Compaq; Compaq V55 Color Monitor; cpq1331; 30.0-60.0; 47.5-125.0; 1
-Compaq; Compaq V700 Color Monitor; cpq1340; 30.0-85.0; 50.0-160.0; 1
 Compaq; Compaq V70 Color Monitor; cpq170a; 30.0-69.0; 50-125.0; 1
+Compaq; Compaq V700 Color Monitor; cpq1340; 30.0-85.0; 50.0-160.0; 1
 Compaq; Compaq V710 Color Monitor; cpq1382; 30.0-85.0; 50.0-160.0; 1
 Compaq; Compaq V75 Color Monitor; cpq1332; 31.5-69.0; 50.0-100.0; 1
 Compaq; Compaq V900 Color Monitor; cpq1325; 30.0-96.0; 48.0-160.0; 1
 Compaq; Compaq VGA; cvga; 31.5; 50.0-70.0; 1
-Compaq;Compaq 1520 Flat Panel Monitor;cpq1456;30.0-60.0;56.0-76.0;1
-Compaq;Compaq 7500 Color Monitor;cpq1445;30.0-70.0;50.0-140.0;1
-Compaq;Compaq FP17 Flat Panel Monito;cpq145e;30.0-81.0;56.0-76.0;1
-Compaq;Compaq P720 Color Monitor;cpq1419;31.0-96.0;55.0-160.0;1
-Compaq;Compaq TFT5030 Flat Panel Monitor;cpq1391;31.47-60.0;58.0-75.0;1
-Compaq;Compaq 1720 Flat Panel Monitor;cpq144f;30.0-81.0;56.0-76.0;1
-Compaq;Compaq 7550 Color Monitor;cpq1446;30.0-86.0;50.0-140.0;1
-Compaq;Compaq FP5315 Flat Panel Monitor;cpq1459;30.0-61.0;56.0-76.0;1
-Compaq;Compaq P920 Color Monitor;cpq1420;30.0-110.0;50.0-160.0;1
-Compaq;Compaq TFT8030 Flat Panel Monitor;cpq1395;32.0-91.0;58.0-85.0;1
-Compaq;Compaq 5500 Color Monitor;cpq1444;30.0-54.0;50.0-120.0;1
-Compaq;Compaq FP15 Flat Panel Monitor;cpq145c;30.0-61.0;56.0-76.0;1
-Compaq;Compaq FP7317 Flat Panel Monitor;cpq145b;30.0-81.0;56.0-76.0;1
-Compaq;Compaq P1220 Color Monitor;cpq1421;30.0-130.0;50.0-160.0;1
 Compdyne; Compudyne KD-1500N; 0; 30.00-66; 50-90
 Compeq USA/Focus; Compeq CT-1458; ct-1458; 15.0-48.0; 47.0-100.0; 1
 Compeq USA/Focus; Compeq CT-1958; ct-1958; 15.0-51.0; 47.0-100.0; 1
