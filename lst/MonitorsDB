@@ -1238,7 +1238,7 @@ Dell; Dell 2001FP (Analog); DELa007; 31-80; 56-76; 1600x1200
 Dell; Dell 2001FP (Digital); DELA008; 31.0-80.0; 56.0-76.0; 1
 Dell; Dell 2005FPW (Analog); DELE008; 30.0-83.0; 56.0-75.0; 1
 Dell; Dell 2005FPW (Digital); DELE009; 30.0-83.0; 56.0-75.0; 1
-Dell; Dell 2007FP (Analog); DELA020; 30.0-83.0; 56.0-76.0; 1
+Dell; Dell 2007FP (Analog); DELA020; 30.0-83.0; 56.0-76.0; 1600x1200
 Dell; Dell 2007FP (Digital); DELA021; 30.0-83.0; 56.0-76.0; 1600x1200
 Dell; Dell 2007WFP (Analog); DELA018; 30.0-83.0; 56.0-76.0; 1
 Dell; Dell 2007WFP (Digital); DELA019; 30.0-83.0; 56.0-76.0; 1
@@ -1251,7 +1251,6 @@ Dell; Dell 2407WFP (Digital); DELA017; 30.0-83.0; 56.0-76.0; 1
 Dell; Dell 2707WFP; DELD013; 30.0-81.0; 56.0-76.0; 1
 Dell; Dell 3007WFP; DEL4016; 30.0-100.0; 56.0-76.0; 1
 Dell; Dell 2405FPW; DELa010; 30-81; 56-76; 1920x1200
-Dell; Dell 2007FP; DELa021; 30-83; 56-76; 1600x1200
 Dell; Dell 800M; del5697; 30.0-70.0; 50.0-130.0; 1
 Dell; Dell 828FI; del3319; 30.0-70.0; 50.0-120.0; 1
 Dell; Dell D1025HE; del6124; 31.5-92.0; 50.0-150.0; 1
