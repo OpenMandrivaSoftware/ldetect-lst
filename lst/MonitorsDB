@@ -407,7 +407,7 @@ AOC; AOC SPECTRUM 5Glr & 5GlrA & 5Glr+ & 5GlrA+; aoc569e; 30.0-69.0; 50.0-120.0;
 AOC; AOC SPECTRUM 5Glr; aoce570; 30.0-64.0; 50.0-120.0; 1
 AOC; AOC SPECTRUM 5Llr & 5LlrA; aocc564; 30.0-64.0; 50.0-90.0; 1
 AOC; AOC SPECTRUM 5Nlr; aoca566; 30.0-66.0; 50.0-100.0; 1
-AOC; AOC SPECTRUM 5Nlr; aoca569; 30.0-69.0;50.0-120; 1
+AOC; AOC SPECTRUM 5Nlr; aoca569; 30.0-69.0; 50.0-120; 1
 AOC; AOC SPECTRUM 5Vlr & 5VlrA; aocd566; 30.0-66.0; 50.0-100.0; 1
 AOC; AOC SPECTRUM 7Clr; aocf764; 30.0-64.0; 47.0-100.0; 1
 AOC; AOC SPECTRUM 7Dlr & 7DlrA; aoce750; 30.0-68.0; 50.0-120.0; 1
@@ -833,7 +833,7 @@ Compaq; Compaq 151FS; cpq0348; 31.5-57.0; 50.0-90.0; 1
 Compaq; Compaq 151FS; cpq0349; 31.5-57.0; 50.0-90.0; 1
 Compaq; Compaq 151FS; cpq034a; 31.5-57.0; 50.0-90.0; 1
 Compaq; Compaq 151FS; cpq034b; 31.5-57.0; 50.0-90.0; 1
-Compaq; Compaq 1520 Flat Panel Monitor;cpq1456;30.0-60.0;56.0-76.0;1
+Compaq; Compaq 1520 Flat Panel Monitor; cpq1456; 30.0-60.0; 56.0-76.0; 1
 Compaq; Compaq 171FS; cpq002d; 31.5-57.0; 50.0-90.0; 1
 Compaq; Compaq 171FS; cpq002e; 31.5-57.0; 50.0-90.0; 1
 Compaq; Compaq 171FS; cpq002f; 31.5-57.0; 50.0-90.0; 1
@@ -845,31 +845,31 @@ Compaq; Compaq 171FS; cpq0546; 31.5-57.0; 50.0-90.0; 1
 Compaq; Compaq 171FS; cpq0547; 31.5-57.0; 50.0-90.0; 1
 Compaq; Compaq 171FS; cpq0548; 31.5-57.0; 50.0-90.0; 1
 Compaq; Compaq 171FS; cpq0549; 31.5-57.0; 50.0-90.0; 1
-Compaq; Compaq 1720 Flat Panel Monitor;cpq144f;30.0-81.0;56.0-76.0;1
+Compaq; Compaq 1720 Flat Panel Monitor; cpq144f; 30.0-81.0; 56.0-76.0; 1
 Compaq; Compaq 172; cpq_172; 31.5-82.0; 50.0-90.0; 1
-Compaq; Compaq 5500 Color Monitor;cpq1444;30.0-54.0;50.0-120.0;1
-Compaq; Compaq 7500 Color Monitor;cpq1445;30.0-70.0;50.0-140.0;1
-Compaq; Compaq 7550 Color Monitor;cpq1446;30.0-86.0;50.0-140.0;1
+Compaq; Compaq 5500 Color Monitor; cpq1444; 30.0-54.0; 50.0-120.0; 1
+Compaq; Compaq 7500 Color Monitor; cpq1445; 30.0-70.0; 50.0-140.0; 1
+Compaq; Compaq 7550 Color Monitor; cpq1446; 30.0-86.0; 50.0-140.0; 1
 Compaq; Compaq Advanced Graphics; ags; 54.0; 50.0-75.0; 1
-Compaq; Compaq FP15 Flat Panel Monitor;cpq145c;30.0-61.0;56.0-76.0;1
-Compaq; Compaq FP17 Flat Panel Monito;cpq145e;30.0-81.0;56.0-76.0;1
-Compaq; Compaq FP5315 Flat Panel Monitor;cpq1459;30.0-61.0;56.0-76.0;1
-Compaq; Compaq FP7317 Flat Panel Monitor;cpq145b;30.0-81.0;56.0-76.0;1
+Compaq; Compaq FP15 Flat Panel Monitor; cpq145c; 30.0-61.0; 56.0-76.0; 1
+Compaq; Compaq FP17 Flat Panel Monito; cpq145e; 30.0-81.0; 56.0-76.0; 1
+Compaq; Compaq FP5315 Flat Panel Monitor; cpq1459; 30.0-61.0; 56.0-76.0; 1
+Compaq; Compaq FP7317 Flat Panel Monitor; cpq145b; 30.0-81.0; 56.0-76.0; 1
 Compaq; Compaq Internal VGA Panel; ivga; 31.5; 50.0-70.0; 1
 Compaq; Compaq MV920; CPQ3027; 30-96; 50-160; 1600x1200
 Compaq; Compaq P110 Color Monitor; cpq1321; 30.0-107.0; 48.0-160.0; 1
 Compaq; Compaq P1110 Color Monitor; 0; 50.0-160.0; 30.0-121.0; 1
 Compaq; Compaq P1210 Color Monitor; cpq1386; 30.0-121.0; 50.0-160.0; 1
-Compaq; Compaq P1220 Color Monitor;cpq1421;30.0-130.0;50.0-160.0;1
+Compaq; Compaq P1220 Color Monitor; cpq1421; 30.0-130.0; 50.0-160.0; 1
 Compaq; Compaq P1610 Color Monitor; cpq1327; 30.0-96.0; 48.0-160.0; 1
 Compaq; Compaq P50 Color Monitor; cpq1323; 30.0-69.0; 50.0-125.0; 1
 Compaq; Compaq P70 Color Monitor; cpq1320; 30.0-92.0; 48.0-150.0; 1
 Compaq; Compaq P710; CPQ1384; 30-96; 50-140; 1600x1200
-Compaq; Compaq P720 Color Monitor;cpq1419;31.0-96.0;55.0-160.0;1
+Compaq; Compaq P720 Color Monitor; cpq1419; 31.0-96.0; 55.0-160.0; 1
 Compaq; Compaq P75 Color Monitor; cpq1330; 30.0-85.0; 50.0-150.0; 1
 Compaq; Compaq P900 Color Monitor; cpq1353; 30.0-107.0; 50.0-120.0; 1
 Compaq; Compaq P910 Color Monitor; cpq1385; 30.0-108.0; 50.0-140.0; 1
-Compaq; Compaq P920 Color Monitor;cpq1420;30.0-110.0;50.0-160.0;1
+Compaq; Compaq P920 Color Monitor; cpq1420; 30.0-110.0; 50.0-160.0; 1
 Compaq; Compaq Presario 140; cpq0017; 31-62; 48-90; 1
 Compaq; Compaq Presario 140; cpq0018; 31-62; 48-90; 1
 Compaq; Compaq Presario 140; cpq0019; 31-62; 48-90; 1
@@ -930,10 +930,10 @@ Compaq; Compaq TFT500 Flat Panel Monitor; cpq1324; 32.0-60.0; 57.0-85.0; 1
 Compaq; Compaq TFT5000 Flat Panel Monitor; cpq1341; 32.0-60.0; 57.0-85.0; 1
 Compaq; Compaq TFT5005 Flat Panel Monitor; cpq1383; 24.0-61.0; 56.0-75.0; 1
 Compaq; Compaq TFT5010 Flat Panel Monitor; cpq1370; 31.5-60.0; 58.0-78.75; 1
-Compaq; Compaq TFT5030 Flat Panel Monitor;cpq1391;31.47-60.0;58.0-75.0;1
+Compaq; Compaq TFT5030 Flat Panel Monitor; cpq1391; 31.47-60.0; 58.0-75.0; 1
 Compaq; Compaq TFT8000 Flat Panel Monitor; cpq1329; 31.0-80.0; 58.0-85.0; 1
 Compaq; Compaq TFT8020 Flat Panel Monitor; cpq1345; 31.5-80.0; 58.0-85.0; 1
-Compaq; Compaq TFT8030 Flat Panel Monitor;cpq1395;32.0-91.0;58.0-85.0;1
+Compaq; Compaq TFT8030 Flat Panel Monitor; cpq1395; 32.0-91.0; 58.0-85.0; 1
 Compaq; Compaq V1000 Color Monitor; cpq1347; 30.0-107.0; 48.0-160.0; 1
 Compaq; Compaq V1100 Color Monitor; cpq1336; 30.0-107.0; 48.0-160.0; 1
 Compaq; Compaq V40 Color Monitor; cpq1334; 31.0-48.0; 50.0-100.0; 1
@@ -1929,10 +1929,10 @@ Hewlett-Packard; HP D8910A HP P910 19-inch Monitor; hwp22ce; 29.0-107.0; 50.0-15
 Hewlett-Packard; HP D8911A HP 91 19-inch Monitor; hwp22cf; 30.0-95.0; 50.0-160.0; 1
 Hewlett-Packard; HP D8912A HP P920 19-inch Monitor; hwp22d0; 30.0-107.0; 50.0-160.0; 1
 Hewlett-Packard; HP D8915A HP P1120 21-inch Monitor; hwp22d3; 30.0-121.0; 48.0-160.0; 1
-Hewlett-Packard; HP L2035 Flat Panel Monitor; HWP2612; 30.0-94.0; 48.0-85.0;1
-Hewlett-Packard; HP L2035 Flat Panel Monitor; HWP2613; 30.0-94.0; 48.0-85.0;1
-Hewlett-Packard; HP L2335 Flat Panel Monitor; HWP2614; 30.0-107.0; 48.0-85.0;1
-Hewlett-Packard; HP L2335 Flat Panel Monitor; HWP2615; 30.0-107.0; 48.0-85.0;1
+Hewlett-Packard; HP L2035 Flat Panel Monitor; HWP2612; 30.0-94.0; 48.0-85.0; 1
+Hewlett-Packard; HP L2035 Flat Panel Monitor; HWP2613; 30.0-94.0; 48.0-85.0; 1
+Hewlett-Packard; HP L2335 Flat Panel Monitor; HWP2614; 30.0-107.0; 48.0-85.0; 1
+Hewlett-Packard; HP L2335 Flat Panel Monitor; HWP2615; 30.0-107.0; 48.0-85.0; 1
 Hewlett-Packard; HP M500 15-inch Display; 0; 30-70; 50-120
 Hewlett-Packard; HP M700 17-inch Display; 0; 30-86; 50-160
 Hewlett-Packard; HP M720 17-inch Display; 0; 30-85; 50-150
@@ -1944,43 +1944,43 @@ Hewlett-Packard; HP P4819 HP P1130 21-inch Monitor; hwp12d3; 30.0-130.0; 48.0-17
 Hewlett-Packard; HP P4829 L1820 18.1-inch LCD Monitor; hwp12dd; 31-80; 56-75; 1
 Hewlett-Packard; HP P4829J L1820 18.1-inch LCD Monitor; 0; 25-82; 54-88; 1
 Hewlett-Packard; HP Pavilion M45/S40 Monitor; hwp14b2; 31.468-50.0; 56.0-75.0; 1
-Hewlett-Packard;HP F1503 Flat Panel Monitor;hwp2590;30.0-63.0;56.0-76.0;1
-Hewlett-Packard;HP 2025 Flat Panel Monitor;hwp144a;30.0-94.0;56.0-85.0;1
-Hewlett-Packard;HP 2025 Flat Panel Monitor;hwp144b;30.0-92.0;56.0-85.0;1
-Hewlett-Packard;HP 7550 Color Monitor;hwp2604;30.0-86.0;50.0-140.0;1
-Hewlett-Packard;HP F1723 Flat Panel Monitor;hwp2609;30.0-81.0;56.0-76.0;1
-Hewlett-Packard;HP F2105 Flat Panel Monitor;hwp2655;30.0-94.0;48.0-85.0;1
-Hewlett-Packard;HP L1730 Flat Panel Monitor;hwp260e;30.0-83.0;56.0-76.0;1
-Hewlett-Packard;HP L1506 Flat Panel Monitor;hwp265b;30.0-83.0;50.0-76.0;1
-Hewlett-Packard;HP 1825 Flat Panel Monitor;hwp0721;30.0-82.0;56.0-76.0;1
-Hewlett-Packard;HP 5500 Color Monitor;hwp2602;30.0-54.0;50.0-120.0;1
-Hewlett-Packard;HP 7500 Color Monitor;hwp2603;30.0-70.0;50.0-140.0;1
-Hewlett-Packard;HP 9500 Color Monitor;hwp2605;30.0-96.0;50.0-160.0;1
-Hewlett-Packard;HP F1523 Flat Panel Monitor;hwp2607;30.0-61.0;56.0-76.0;1
-Hewlett-Packard;HP F1703 Flat Panel Monitor;hwp2594;30.0-83.0;56.0-76.0;1
-Hewlett-Packard;HP L1502 Flat Panel Monitor;hwp2600;30.0-61.0;56.0-76.0;1
-Hewlett-Packard;HP L1530 Flat Panel Monitor;hwp260c;30.0-63.0;56.0-76.0;1
-Hewlett-Packard;HP L1702 Flat Panel Monitor;hwp2601;30.0-81.0;56.0-76.0;1
-Hewlett-Packard;HP L1740 LCD Flat Panel Monitor;hwp2649;30.0-83.0;56.0-76.0;1
-Hewlett-Packard;HP L1755 LCD Flat Panel Monitor;hwp264b;30.0-82.0;56.0-75.0;1
-Hewlett-Packard;HP L1906 Flat Panel Monitor;hwp265e;30.0-83.0;50.0-76.0;1
-Hewlett-Packard;HP L1925 Flat Panel Monitor;hwp259a;30.0-82.0;56.0-76.0;1
-Hewlett-Packard;HP L1925 Flat Panel Monitor;hwp259b;30.0-82.0;56.0-76.0;1
-Hewlett-Packard;HP L1940 Flat Panel Monitor;hwp262e;30.0-83.0;56.0-76.0;1
-Hewlett-Packard;HP L1940 LCD Flat Panel Monitor;hwp262f;30.0-83.0;65.0-76.0;1
-Hewlett-Packard;HP L1940T Flat Panel Monitor;hwp2683;30.0-83.0;56.0-76.0;1
-Hewlett-Packard;HP L1955 LCD Flat Panel Monitor;hwp262c;30.0-82.0;56.0-75.0;1
-Hewlett-Packard;HP L2335 LCD Flat Panel Monitor;hwp2615;30.0-92.0;48.0-85.0;1
-Hewlett-Packard;HP LP2065 Flat Panel Monitor;hwp0a72;30.0-92.0;48.0-85.0;1
-Hewlett-Packard;HP LP2465 Flat Panel Monitor;hwp2676;30.0-92.0;48.0-85.0;1
-Hewlett-Packard;HP LP3065 Wide LCD Monitor; HWP2690; 98.0-100.0; 59-60; 1
-Hewlett-Packard;HP M500 15-inch Display; 0; 30-70; 50-120
-Hewlett-Packard;HP M703 Color Monitor;hwp2584;30.0-70.0;50.0-140.0;1
-Hewlett-Packard;HP MX703 Color Monitor;hwp2585;30.0-70.0;50.0-150.0;1
-Hewlett-Packard;HP P1130 Color Monitor;hwp12d3;30.0-130.0;48.0-170.0;1
-Hewlett-Packard;HP P930 Color Monitor;hwp03a2;30.0-110.0;50.0-160.0;1
-Hewlett-Packard;HP VF15 Flat Panel Monitor;hwp2608;30.0-61.0;56.0-76.0;1
-Hewlett-Packard;HP VF17 Flat Panel Monitor;hwp260a;30.0-81.0;56.0-76.0;1
+Hewlett-Packard; HP F1503 Flat Panel Monitor; hwp2590; 30.0-63.0; 56.0-76.0; 1
+Hewlett-Packard; HP 2025 Flat Panel Monitor; hwp144a; 30.0-94.0; 56.0-85.0; 1
+Hewlett-Packard; HP 2025 Flat Panel Monitor; hwp144b; 30.0-92.0; 56.0-85.0; 1
+Hewlett-Packard; HP 7550 Color Monitor; hwp2604; 30.0-86.0; 50.0-140.0; 1
+Hewlett-Packard; HP F1723 Flat Panel Monitor; hwp2609; 30.0-81.0; 56.0-76.0; 1
+Hewlett-Packard; HP F2105 Flat Panel Monitor; hwp2655; 30.0-94.0; 48.0-85.0; 1
+Hewlett-Packard; HP L1730 Flat Panel Monitor; hwp260e; 30.0-83.0; 56.0-76.0; 1
+Hewlett-Packard; HP L1506 Flat Panel Monitor; hwp265b; 30.0-83.0; 50.0-76.0; 1
+Hewlett-Packard; HP 1825 Flat Panel Monitor; hwp0721; 30.0-82.0; 56.0-76.0; 1
+Hewlett-Packard; HP 5500 Color Monitor; hwp2602; 30.0-54.0; 50.0-120.0; 1
+Hewlett-Packard; HP 7500 Color Monitor; hwp2603; 30.0-70.0; 50.0-140.0; 1
+Hewlett-Packard; HP 9500 Color Monitor; hwp2605; 30.0-96.0; 50.0-160.0; 1
+Hewlett-Packard; HP F1523 Flat Panel Monitor; hwp2607; 30.0-61.0; 56.0-76.0; 1
+Hewlett-Packard; HP F1703 Flat Panel Monitor; hwp2594; 30.0-83.0; 56.0-76.0; 1
+Hewlett-Packard; HP L1502 Flat Panel Monitor; hwp2600; 30.0-61.0; 56.0-76.0; 1
+Hewlett-Packard; HP L1530 Flat Panel Monitor; hwp260c; 30.0-63.0; 56.0-76.0; 1
+Hewlett-Packard; HP L1702 Flat Panel Monitor; hwp2601; 30.0-81.0; 56.0-76.0; 1
+Hewlett-Packard; HP L1740 LCD Flat Panel Monitor; hwp2649; 30.0-83.0; 56.0-76.0; 1
+Hewlett-Packard; HP L1755 LCD Flat Panel Monitor; hwp264b; 30.0-82.0; 56.0-75.0; 1
+Hewlett-Packard; HP L1906 Flat Panel Monitor; hwp265e; 30.0-83.0; 50.0-76.0; 1
+Hewlett-Packard; HP L1925 Flat Panel Monitor; hwp259a; 30.0-82.0; 56.0-76.0; 1
+Hewlett-Packard; HP L1925 Flat Panel Monitor; hwp259b; 30.0-82.0; 56.0-76.0; 1
+Hewlett-Packard; HP L1940 Flat Panel Monitor; hwp262e; 30.0-83.0; 56.0-76.0; 1
+Hewlett-Packard; HP L1940 LCD Flat Panel Monitor; hwp262f; 30.0-83.0; 65.0-76.0; 1
+Hewlett-Packard; HP L1940T Flat Panel Monitor; hwp2683; 30.0-83.0; 56.0-76.0; 1
+Hewlett-Packard; HP L1955 LCD Flat Panel Monitor; hwp262c; 30.0-82.0; 56.0-75.0; 1
+Hewlett-Packard; HP L2335 LCD Flat Panel Monitor; hwp2615; 30.0-92.0; 48.0-85.0; 1
+Hewlett-Packard; HP LP2065 Flat Panel Monitor; hwp0a72; 30.0-92.0; 48.0-85.0; 1
+Hewlett-Packard; HP LP2465 Flat Panel Monitor; hwp2676; 30.0-92.0; 48.0-85.0; 1
+Hewlett-Packard; HP LP3065 Wide LCD Monitor; HWP2690; 98.0-100.0; 59-60; 1
+Hewlett-Packard; HP M500 15-inch Display; 0; 30-70; 50-120
+Hewlett-Packard; HP M703 Color Monitor; hwp2584; 30.0-70.0; 50.0-140.0; 1
+Hewlett-Packard; HP MX703 Color Monitor; hwp2585; 30.0-70.0; 50.0-150.0; 1
+Hewlett-Packard; HP P1130 Color Monitor; hwp12d3; 30.0-130.0; 48.0-170.0; 1
+Hewlett-Packard; HP P930 Color Monitor; hwp03a2; 30.0-110.0; 50.0-160.0; 1
+Hewlett-Packard; HP VF15 Flat Panel Monitor; hwp2608; 30.0-61.0; 56.0-76.0; 1
+Hewlett-Packard; HP VF17 Flat Panel Monitor; hwp260a; 30.0-81.0; 56.0-76.0; 1
 Highscreen; Highscreen LE 1024; 45; 31.4-31.6,35.1-35.2,35.5-35.6; 50-87
 Hitachi, Ltd.; Hitachi 20-AP; 20-ap; 30.0-65.0; 55.0-80.0; 1
 Hitachi, Ltd.; Hitachi 20-APF; 20-apf; 30.0-65.0; 55.0-80.0; 1
@@ -2477,7 +2477,7 @@ LG Electronics Inc.; LG Flatron 775 FT; GSM42d1; 30-70; 50-160; 1
 LG Electronics Inc.; LG Flatron 795FT; gsm42c6; 30.0-96.0; 50.0-160.0; 1
 LG Electronics Inc.; LG Flatron 915FT; gsm4a4d; 30.0-107.0; 50.0-200.0; 1
 LG Electronics Inc.; LG Flatron 995FT Plus; gsm4a5d; 30.0-96.0; 50.0-160.0; 1
-LG Electronics Inc.; LG Flatron L1715S; 30 - 83;56 - 75;1
+LG Electronics Inc.; LG Flatron L1715S; 30 - 83; 56 - 75; 1
 LG Electronics Inc.; LG Flatron L204WT; GSM4e47; 28-83; 56-75; 1680x1050
 LG Electronics Inc.; LG Flatron L204WT; GSM4e48; 28-83; 56-75; 1680x1050
 LG Electronics Inc.; LG Flatron L226WT; GSM5633; 28-83; 56-75; 1680x1050
@@ -2677,7 +2677,7 @@ Maxdata Computer; Maxdata Belinea 10 40 65; max4065; 30.0-50.0; 50.0-120.0; 1
 Maxdata Computer; Maxdata Belinea 10 50 95; max3539; 30.0-64.0; 55.0-90.0; 1
 Maxdata Computer; Maxdata Belinea 10 55 75; max7555; 30.0-69.0; 50.0-120.0; 1
 MegaImage; MegaImage 17; 106; 30-64; 50-100
-Megavision; MV173 LCD; ate8506;  31.0-80.0; 58.0-75.0;
+Megavision; MV173 LCD; ate8506;  31.0-80.0; 58.0-75.0; 
 Microtec; Microtec MD15-9; PBR023c; 30.0-70.0; 50.0-150.0; 1
 Microvitec, Inc.; Microvitec 1020/LP; 1020lp; 15.0-36.5; 45.0-100.0; 1
 Microvitec, Inc.; Microvitec 1020/SP; 1020sp; 15.0-36.5; 45.0-100.0; 1
@@ -3861,7 +3861,7 @@ Samsung; Samsung SyncMaster 730B (Digital); SAM0192; 30-81; 56-75
 Samsung; Samsung SyncMaster 750(M)b; sam1059; 30-70; 50-160; 1
 Samsung; Samsung SyncMaster 750(M)s(T); sam1057; 30-70; 50-160; 1
 Samsung; Samsung SyncMaster 750s(T); SAM12B6; 30-70; 50-160; 1
-Samsung; Samsung SyncMaster 753DF(X)/703DF(X)/783DF(X)/CD173A(T);SAM0022; 30-71; 50-160; 1024x768
+Samsung; Samsung SyncMaster 753DF(X)/703DF(X)/783DF(X)/CD173A(T); SAM0022; 30-71; 50-160; 1024x768
 Samsung; Samsung SyncMaster 755DFG/740DFG/CTT17DFG; SAM0009; 30-85; 50-160; 1
 Samsung; Samsung SyncMaster 755DF(X)/705DF(X)/CDP17BDF(U)(UP); SAM1156; 30-85; 50-160; 1
 Samsung; Samsung SyncMaster 757DF(X)/707DF(X)/700IFT/CD177A(P); SAM0029; 30-96; 50-160; 1
@@ -3915,9 +3915,9 @@ Seiko; Seiko CM-1440; cm-1440; 31.0-40.0; 50.0-90.0; 1
 Seiko; Seiko CM-1450; cm-1450; 31.0-50.0; 50.0-90.0; 1
 Seiko; Seiko CM-2050; cm-2050; 31.0-50.0; 50.0-90.0; 1
 SGI; SGI 17-inch 340C; 0; 30-95; 48-180
-SGI; SGI 17-inch GDM-17E11; 0; 30.0-85.0;48.0-150.0
-SGI; SGI 17-inch GDM-17E21; 0; 30.0-85.0;48.0-160.0
-SGI; SGI 17-inch GDM-2011P; 0; 30.0-92.0;48.0-160.0
+SGI; SGI 17-inch GDM-17E11; 0; 30.0-85.0; 48.0-150.0
+SGI; SGI 17-inch GDM-17E21; 0; 30.0-85.0; 48.0-160.0
+SGI; SGI 17-inch GDM-2011P; 0; 30.0-92.0; 48.0-160.0
 SGI; SGI 17-inch M-7S54SG; 0; 30.0-95.0; 48.0-180.0
 SGI; SGI 19-inch CMNB024B; 0; 30-100; 48-200
 SGI; SGI 20-inch GDM-20E21; 0; 30.0-96.0; 48.0-160.0
@@ -3927,8 +3927,8 @@ SGI; SGI 21-inch GDM-5011P; 0; 30.0-107.0; 48.0-160.0
 SGI; SGI 21-inch GDM5011P; 0; 30-107; 48-160
 SGI; SGI 21-inch GDM-5021PT; 0; 30.0-107.0; 48.0-160.0
 SGI; SGI 21-inch GDM-5411; 0; 30-121; 48-160
-SGI; SGI 24-inch GDM-90W11; 0; 30.0-96.0;48.0-160.0
-SGI; SGI GDM-90W11; 0; 30.0-96.0;48.0-160.0
+SGI; SGI 24-inch GDM-90W11; 0; 30.0-96.0; 48.0-160.0
+SGI; SGI GDM-90W11; 0; 30.0-96.0; 48.0-160.0
 SGI; SGI 1600SW FlatPanel; SGX0640; 72.0; 60.0
 Shamrock; Shamrock C407L; 0; 31.5-55.0; 50-70
 Siemens Nixdorf; Siemens Nixdorf MCM1402; siemens1; 30-64; 50-100; 1
