@@ -419,54 +419,54 @@ Apollo; Apollo 1280x1024-68Hz; 0; 73.702; 68.24
 Apollo; Apollo 1280x1024-70Hz; 0; 75.118; 70.07
 Apple; Apple 23 Cinema HD; APP9218; 30.0-90.0; 50.0-70.0; 1
 Apple; Apple eMac; APP079d; 71-73; 70-140
-Apple; Apple HiRes Display 1152x864; 0; 30.0-100.0; 50.0-160.0
-Apple; Apple HiRes Display 1280x1024; 0; 30.0-130.0; 50.0-160.0
-Apple; Apple iMac CRT; APP059d; 60.015; 75-117
-Apple; Apple iMac LCD 15; APP229c; 28.0-49.0; 60
-Apple; Apple iMac LCD 17; APP279c; 28.0-49.0; 60
-Apple; Apple iMac (Rev A or B) 15; APP019d; 59-63; 50-150
 Apple; Apple iBook 800x600; 0; 28-50; 60
 Apple; Apple iBook2 12 (1024x768); APP129c; 30-70; 43.0-72.0
 Apple; Apple iBook2 15 (1024x768); APP1a9c; 30-70; 43.0-72.0
+Apple; Apple iMac (Rev A or B) 15; APP019d; 59-63; 50-150
+Apple; Apple iMac CRT; APP059d; 60.015; 75-117
+Apple; Apple iMac LCD 15; APP229c; 28.0-49.0; 60
+Apple; Apple iMac LCD 17; APP279c; 28.0-49.0; 60
 Apple; Apple iMac/PowerBook 1024x768; 0; 30.0-70.0; 50.0-160.0
-Apple; Apple LoRes Display 640x480; 0; 28.0-33.0; 43.0-72.0
-Apple; Apple PowerBook G4 12 (2003); APP2a9c; 30-70; 60
-Apple; Apple PowerBook G4 12 (2003); APP2b9c; 30-70; 60
-Apple; Apple PowerBook G3 (pre-1999); 0; 119; 196
-Apple; Apple PowerBook G3 Series (1999-2000); 0; 31.5-57.0; 60
-Apple; Apple Titanium PowerBook G4 (2001); APP1d9c; 30.0-100.0; 50-60
-Apple; Apple Titanium PowerBook G4 (2002); APP209c; 30.0-100.0; 50-60
 Apple; Apple Aluminum PowerBook G4; APP359c; 30.0-100.0; 50-60
-Apple; Apple Studio Display 15 LCD; APP1592; 28.0-49.0; 60
-Apple; Apple Studio Display 15 LCD (pre-2001); APPf401; 48-60; 60-75
-Apple; Apple Studio Display 17 LCD; APP1792; 30-130; 60
-Apple; Apple Studio Display 20 LCD; APP1992; 30-130; 60
+Apple; Apple AudioVision 14; 0; 35.0; 66.7
+Apple; Apple Basic Color Monitor; 0; 31.5; 60.0
 Apple; Apple Cinema Display 20 LCD; APP1d92; 30-75; 60
 Apple; Apple Cinema Display 22 LCD; APP1692; 30-130; 60
 Apple; Apple Cinema Display 23 LCD; APP1892; 30-130; 60
-Apple; Apple AudioVision 14; 0; 35.0; 66.7
-Apple; Apple Basic Color Monitor; 0; 31.5; 60.0
 Apple; Apple Color Plus 14; 0; 35.0 ; 67.0
 Apple; Apple ColorSync 17; 0; 30-82; 40-120
 Apple; Apple ColorSync 20; 0; 30-94; 48-120
+Apple; Apple HiRes Display 1152x864; 0; 30.0-100.0; 50.0-160.0
+Apple; Apple HiRes Display 1280x1024; 0; 30.0-130.0; 50.0-160.0
+Apple; Apple LoRes Display 640x480; 0; 28.0-33.0; 43.0-72.0
 Apple; Apple Macintosh 16 Color Display; 0; 50.0; 75.0
 Apple; Apple Macintosh 21 Color Display; 0; 68.7; 75.0
 Apple; Apple Multiple Scan 14; 0; 31.5-48.1; 60-72
 Apple; Apple Multiple Scan 15; 0; 30-61 ; 60-75
 Apple; Apple Multiple Scan 15AV; 0; 30-56.5; 56-75
-Apple; Apple Multiple Scan 17; 0; 60-75; 31.4-60.2
 Apple; Apple Multiple Scan 1705; 0; 30-65; 50-120
+Apple; Apple Multiple Scan 17; 0; 60-75; 31.4-60.2
 Apple; Apple Multiple Scan 20; 0; 60-75; 31.4-80
 Apple; Apple Multiple Scan 720; 0; 30-69; 48-160
 Apple; Apple Performa Display; 0; 35.0 ; 66.7
+Apple; Apple PowerBook G3 (pre-1999); 0; 119; 196
+Apple; Apple PowerBook G3 Series (1999-2000); 0; 31.5-57.0; 60
+Apple; Apple PowerBook G4 12 (2003); APP2a9c; 30-70; 60
+Apple; Apple PowerBook G4 12 (2003); APP2b9c; 30-70; 60
+Apple; Apple Studio Display 15 LCD (pre-2001); APPf401; 48-60; 60-75
+Apple; Apple Studio Display 15 LCD; APP1592; 28.0-49.0; 60
 Apple; Apple Studio Display 17 CRT; 0; 30-85; 48-160
+Apple; Apple Studio Display 17 LCD; APP1792; 30-130; 60
+Apple; Apple Studio Display 20 LCD; APP1992; 30-130; 60
 Apple; Apple Studio Display 21 CRT; 0; 31-107; 48-120
+Apple; Apple TiPowerBook 1152x768; 0; 30.0-100.0; 50.0-160.0
+Apple; Apple TiPowerBook 1280x854; 0; 30.0-100.0; 50.0-160.0
+Apple; Apple Titanium PowerBook G4 (2001); APP1d9c; 30.0-100.0; 50-60
+Apple; Apple Titanium PowerBook G4 (2002); APP209c; 30.0-100.0; 50-60
 Apple; Apple Vision 1710; APP1017; 30-80; 40-120
 Apple; Apple Vision 1710AV; 0; 30-82; 50-120
 Apple; Apple Vision 750AV; 0; 30-82; 40-120
 Apple; Apple Vision 850 AV; APP0352; 30-94; 48-120
-Apple; Apple TiPowerBook 1152x768; 0; 30.0-100.0; 50.0-160.0
-Apple; Apple TiPowerBook 1280x854; 0; 30.0-100.0; 50.0-160.0
 AST; AST Sabre; ast8009; 30.0-64.0; 50.0-90.0; 1
 AST; AST Vision 20H; ast8008; 29.0-82.0; 50.0-150.0; 1
 AST; AST Vision 4I; ast8002; 30.0-38.0; 50.0-90.0; 1
