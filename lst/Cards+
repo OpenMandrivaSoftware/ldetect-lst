@@ -197,6 +197,8 @@ NEEDVIDEORAM
 
 NAME S3 UniChrome-based cards
 DRIVER openchrome
+# 3D needs a DRM driver in kernel:
+DRI_GLX
 
 # Tseng
 
