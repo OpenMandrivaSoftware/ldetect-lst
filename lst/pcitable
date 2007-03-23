@@ -7788,7 +7788,7 @@
 0x8086	0x29f9	"unknown"	"Intel Corporation|Server Host-Secondary PCI Express Bridge"
 0x8086	0x2a00	"unknown"	"Intel Corporation|Mobile Memory Controller Hub"
 0x8086	0x2a01	"unknown"	"Intel Corporation|Mobile PCI Express Root Port"
-0x8086	0x2a02	"Card:Intel 830 - 965"	"Intel Corporation|Mobile Integrated Graphics Controller"
+0x8086	0x2a02	"Card:VESA driver (generic)"	"Intel Corporation|Mobile Integrated Graphics Controller"
 0x8086	0x2a03	"unknown"	"Intel Corporation|Mobile Integrated Graphics Controller"
 0x8086	0x2a04	"unknown"	"Intel Corporation|Mobile HECI Controller"
 0x8086	0x2a05	"unknown"	"Intel Corporation|Mobile HECI Controller"
