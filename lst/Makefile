@@ -18,6 +18,8 @@ clean:
 	rm -f *~ *.tmp ScannerDB.gz
 
 check:
+	@../convert/merge2pcitable.pl pcitable pcitable.x86_64 pcitable.x86_64 > .pcitable
+	@diff -u pcitable.x86_64 .pcitable
 	@../convert/merge2pcitable.pl pcitable pcitable pcitable > .pcitable
 	@diff -u pcitable .pcitable
 	@../convert/merge2pcitable.pl pcitable usbtable usbtable > .usbtable
