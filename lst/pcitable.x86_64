@@ -1,3 +1,4 @@
 0x1002	0x5954	"Card:ATI Radeon 9250 and earlier"	"ATI Technologies Inc.|Radeon XPRESS 200 (RS480 5954)"
 0x1002	0x5974	"Card:ATI Radeon 9250 and earlier"	"ATI Technologies Inc|RS482 [Radeon Xpress 200]"
+0x1002	0x5a61	"Card:ATI Radeon 9250 and earlier"	"ATI Technologies Inc|RC410 [Radeon Xpress 200]"
 0x1002	0x3e50	"Card:ATI Radeon 9250 and earlier"	"ATI Technologies Inc.|Radeon X600 Pro (PCI-Express)"
