@@ -205,13 +205,8 @@ NAME NVIDIA GeForce 3 - GeForce 4 (96xx)
 DRIVER nv
 DRIVER2 nvidia96xx
 
-NAME NVIDIA GeForce FX - GeForce 7950
+NAME NVIDIA GeForce FX - GeForce 8800
 DRIVER nv
-DRIVER2 nvidia97xx
-
-# not supported by nv in 2007.1
-NAME NVIDIA GeForce 8300 - 8800
-DRIVER vesa
 DRIVER2 nvidia97xx
 
 NAME NVIDIA GeForce3 (xbox)
