@@ -40,8 +40,7 @@ DRIVER fbdev
 
 #Chips & Technologies
 
-#untested
-NAME Chips & Technologies CT65520
+NAME Chips & Technologies-based cards
 DRIVER chips
 LINE # Device section for C&T cards.
 LINE # Option "suspend_hack"
@@ -51,59 +50,6 @@ LINE # Option "no_center"
 LINE # Option "use_modeline"
 LINE # Option "fix_panel_size"
 LINE # videoram 512
-
-NAME Chips & Technologies CT65525 / CT65530
-LINE # Option "nolinear"
-LINE # MemBase 0x03b00000
-SEE Chips & Technologies CT65520
-
-NAME Chips & Technologies CT65535
-LINE # Option "hw_clocks"
-LINE # Textclockfreq 25.175
-SEE Chips & Technologies CT65525 / CT65530
-
-NAME Chips & Technologies CT65540
-LINE # Option "use_18bit_bus"
-SEE Chips & Technologies CT65535
-
-NAME Chips & Technologies CT65545 / CT65546 / CT65548
-LINE # Option "noaccel"
-LINE # Option "no_bitblt"
-LINE # Option "xaa_no_color_exp"
-LINE # Option "xaa_benchmark"
-LINE # Option "hw_cursor"
-LINE # Option "mmio"
-SEE Chips & Technologies CT65540
-
-NAME Chips & Technologies CT6555x / CT68xxx / CT69xxx
-LINE # Option "noaccel"
-LINE # Option "no_bitblt"
-LINE # Option "xaa_no_color_exp"
-LINE # Option "xaa_benchmark"
-LINE # Option "hw_cursor"
-LINE # Option "sync_on_green"
-LINE # Option "fast_dram"
-LINE # Option "use_vclk1"
-LINE # Textclockfreq 25.175
-SEE Chips & Technologies CT65525 / CT65530
-
-NAME Chips & Technologies CT64200
-DRIVER chips
-LINE # Device section for C&T cards.
-LINE # videoram 1024
-
-NAME Chips & Technologies CT64300
-DRIVER chips
-LINE # Option "noaccel"
-LINE # Option "no_bitblt"
-LINE # Option "xaa_no_color_exp"
-LINE # Option "xaa_benchmark"
-LINE # Option "hw_cursor"
-LINE # Option "nolinear"
-LINE # MemBase 0x03b00000
-LINE # Option "hw_clocks"
-LINE # Textclockfreq 25.175
-SEE Chips & Technologies CT64200
 
 # Cirrus Logic
 
