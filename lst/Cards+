@@ -338,73 +338,17 @@ DRIVER imstt
 
 # 3DLabs
 
-NAME 3Dlabs Permedia2 (generic)
-DRIVER glint
-LINE #Option "no_accel"
-
-NAME 3Dlabs Permedia4 (generic)
+NAME 3Dlabs Glint / Permedia-based cards
 DRIVER glint
 
-NAME Elsa GLoria-L/MX
-DRIVER glint
-LINE #Option "no_accel"
-
-NAME Elsa GLoria-L
-DRIVER glint
-
-NAME Elsa GLoria-XL
-LINE Option     "SWcursor"
-DRIVER glint
-
-NAME Elsa GLoria-XXL
-LINE Option     "SWcursor"
+NAME 3Dlabs Glint / Permedia-based cards (software cursor)
+LINE Option	"SWcursor"
 DRIVER glint
 
 NAME Diamond Fire GL 3000
 LINE Option     "SWcursor"
 DRIVER glint
 LINE Option "FireGL3000" "true"
-
-NAME Elsa GLoria-S
-DRIVER glint
-LINE #Option "no_accel"
-LINE #VideoRam 8192
-LINE Option     "SWcursor"
-
-NAME Diamond Fire GL 1000
-DRIVER glint
-LINE #Option "no_accel"
-LINE #VideoRam 8192
-LINE Option     "SWcursor"
-
-NAME Elsa GLoria Synergy
-DRIVER glint
-LINE #Option "no_accel"
-LINE Option     "SWcursor"
-
-NAME Elsa Winner 2000/Office
-DRIVER glint
-LINE #Option "no_accel"
-LINE Option     "SWcursor"
-
-NAME Diamond Fire GL 1000 PRO
-DRIVER glint
-LINE #Option "no_accel"
-LINE Option     "SWcursor"
-
-NAME AccelStar Permedia II AGP
-DRIVER glint
-LINE #Option "no_accel"
-LINE Option     "SWcursor"
-
-NAME Leadtek WinFast 2300
-DRIVER glint
-LINE Option     "SWcursor"
-
-NAME 3Dlabs Oxygen GMX
-DRIVER glint
-LINE #Option "no_accel"
-LINE Option     "SWcursor"
 
 # Alliance Semiconductor
 
