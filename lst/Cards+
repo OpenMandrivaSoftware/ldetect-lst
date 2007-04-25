@@ -488,12 +488,7 @@ LINE     #Option     "hw_cursor"
 LINE     #Option     "sgram"
 LINE     #Option     "sdram"
 
-NAME Intel 810 / 815
-DRIVER i810
-DRI_GLX
-LINE Option "XaaNoPixmapCache"
-
-NAME Intel 830 - 965
+NAME Intel 810 and later
 DRIVER i810
 DRI_GLX
 
