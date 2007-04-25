@@ -73,20 +73,9 @@ NAME S3 ViRGE-based cards
 DRIVER s3virge
 NEEDVIDEORAM
 
-NAME S3 ViRGE/MX-based cards
-DRIVER s3virge
-NEEDVIDEORAM
-LINE      #Option "lcd_center"
-LINE      #Set_LCDClk  <pixel_clock_for_LCD>
-
 NAME S3 Trio3D-based cards
 DRIVER s3virge
 LINE Option "sw_cursor"
-
-NAME MELCO WGP-VG4S
-LINE      #DACSpeed  191 162 111 83
-LINE      #SetMClck  75
-SEE S3 ViRGE-based cards
 
 NAME S3 Savage-based cards
 DRIVER savage
@@ -295,22 +284,12 @@ NAME Digital 8-plane TGA (Generic)
 CHIPSET TGA
 DRIVER tga
 
-NAME Digital 8-plane TGA (UDB/Multia)
+NAME Digital 8-plane TGA (Bt485-based)
 CHIPSET TGA
 DRIVER tga
 LINE     Ramdac "Bt485"
 
-NAME Digital 8-plane TGA (ZLXp-E1)
-CHIPSET TGA
-DRIVER tga
-LINE     Ramdac "Bt485"
-
-NAME Digital 24-plane TGA (ZLXp-E2)
-CHIPSET TGA
-DRIVER tga
-LINE     Ramdac "Bt463"
-
-NAME Digital 24-plane+3D TGA (ZLXp-E3)
+NAME Digital 24-plane TGA
 CHIPSET TGA
 DRIVER tga
 LINE     Ramdac "Bt463"
