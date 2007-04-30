@@ -306,7 +306,7 @@ LINE     #Option     "sgram"
 LINE     #Option     "sdram"
 
 NAME Intel 810 and later
-DRIVER i810
+DRIVER intel
 DRI_GLX
 
 # 3DFX
