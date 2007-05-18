@@ -129,7 +129,7 @@ DRIVER2 fglrx
 # Radeon cards supported by proprietary driver but not free driver: update name as
 # support changes
 NAME ATI Radeon X1300 - X1950
-DRIVER fbdev
+DRIVER vesa
 DRIVER2 fglrx
 
 # ARK Logic
