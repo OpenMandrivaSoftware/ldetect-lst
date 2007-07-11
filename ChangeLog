@@ -1,3 +1,21 @@
+2007-07-11 02:26  Adam Williamson <awilliamson at mandriva.com>
+
+	* Makefile: - bump to 0.1.171
+
+2007-07-11 02:22  Adam Williamson <awilliamson at mandriva.com>
+
+	* lst/pcitable: - add new NVIDIA cards from
+	  http://us.download.nvidia.com/XFree86/Linux-x86/100.14.11/README/appendix-a.html
+
+2007-07-11 02:02  Adam Williamson <awilliamson at mandriva.com>
+
+	* lst/pcitable: - add latest ATI cards from
+	  http://ati.amd.com/developer/ATI_Device_IDs.txt
+
+2007-07-09 18:31  Frederic Crozat <fcrozat at mandriva.com>
+
+	* lst/usbtable: Update wacom tablets list
+
 2007-03-23 18:49  Thierry Vignaud <tvignaud at mandriva.com>
 
 	* soft/ldetect-lst/trunk/Makefile: bump release (0.1.163)
