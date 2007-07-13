@@ -132,6 +132,11 @@ NAME ATI Radeon X1300 - X1950
 DRIVER vesa
 DRIVER2 fglrx
 
+# Radeon cards supported neither by proprietary driver nor by free driver: update
+# name as support changes
+NAME ATI Radeon HD 2300 and later
+DRIVER vesa
+
 # ARK Logic
 
 NAME Ark Logic ARKx000-based cards
