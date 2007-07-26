@@ -382,6 +382,7 @@
 0x1002	0x4391	"ahci"	"ATI Technologies Inc|SB700 (SATA in AHCI mode)"
 0x1002	0x4392	"ahci"	"ATI Technologies Inc|SB700 (SATA in RAID mode with Promise non-Raid5 driver)"
 0x1002	0x4393	"ahci"	"ATI Technologies Inc|SB700 (SATA in RAID mode with Promise Raid5 driver)"
+0x1002	0x439c	"atiixp"	"ATI Technologies Inc|SB700 IDE"
 0x1002	0x4437	"Card:ATI Radeon 9250 and earlier"	"ATI Technologies Inc.|Radeon Mobility 7000 IGP 4437"
 0x1002	0x4554	"Card:ATI Mach / Rage-based cards"	"ATI Technologies Inc.|210888ET [Mach64 ET]"
 0x1002	0x4654	"Card:ATI Mach / Rage-based cards"	"ATI Technologies Inc.|Mach64 VT"
