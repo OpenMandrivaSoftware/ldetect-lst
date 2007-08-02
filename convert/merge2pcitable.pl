@@ -325,7 +325,7 @@ sub merge_entries_with_wildcards {
     my ($drivers, $classes) = @_;
     foreach (keys %$classes) {
         my ($vendor, $id, $subvendor, $subid);
-        next unless ($vendor, $id, $subvendor, $subid) = ($_ =~ /^([0-9a-f]{4,4})([0-9a-f]{4,4})/);
+        next unless ($vendor, $id, $subvendor, $subid) = /^([0-9a-f]{4,4})([0-9a-f]{4,4})/;
 
         # handle PCI_ANY_ID as PCI device ID:
         if ($vendor !~ /ffff$/ && $id =~ /ffff$/) {
