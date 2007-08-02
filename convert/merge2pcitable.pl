@@ -7,18 +7,22 @@ my @ignored_modules = (
 qw(alsa ignore),
 );
 
-my ($force, $all, $true_all, $keep_subids, $chk_descr, $wildcards);
+my ($force, @force_modules, $all, $true_all, $keep_subids, $chk_descr, $wildcards);
 
 if ($0 =~ /merge2pcitable/) 
 {
-    $ARGV[0] eq '-f' and $force = shift;
+    if ($ARGV[0] =~ /^-f=?(.*)$/) {
+        shift;
+        @force_modules = split(/,/, $1);
+        $force = !@force_modules;
+    }
     $ARGV[0] eq '-a' and $all = shift;
     $ARGV[0] eq '--keep-subids' and $keep_subids = shift;
     $ARGV[0] eq '--handle-wildcards' and $wildcards = shift;
 
     my $formats = join '|', grep { $_ } map { /^read_(.*)/ ? $1 : '' } keys %main::;
 
-    @ARGV == 3 or die "usage: $0 [-f] [-a] $formats <in_file> <mdk_pcitable>\n";
+    @ARGV == 3 or die "usage: $0 [-f[=module1,...]] [-a] $formats <in_file> <mdk_pcitable>\n";
 
     my ($format, $in, $pcitable) = @ARGV;
 
@@ -347,7 +351,7 @@ sub merge {
 	next if $new->{$_}[0] =~ /parport_pc|i810_ng/;
 	if ($drivers->{$_}) {
 	    if ($new->{$_}[0] ne "unknown") {
-		if ($drivers->{$_}[0] eq "unknown" || $force) {
+		if ($drivers->{$_}[0] eq "unknown" || $force || member($new->{$_}[0], @force_modules)) {
 		    $drivers->{$_}[0] = $new->{$_}[0];
 		} elsif ($drivers->{$_}[0] ne $new->{$_}[0]) {
 		    my $different = 1;
