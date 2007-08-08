@@ -212,7 +212,7 @@ DRIVER2 nvidia96xx
 
 NAME NVIDIA GeForce FX - GeForce 8800
 DRIVER nv
-DRIVER2 nvidia97xx
+DRIVER2 nvidia-current
 
 NAME NVIDIA GeForce3 (xbox)
 DRIVER nvxbox
