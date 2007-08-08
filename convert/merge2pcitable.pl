@@ -44,9 +44,9 @@ sub dummy_module {
 sub to_string {
     my ($id, $driver) = @_;
     @$driver >= 2 or error("error: to_string $id");
-    my ($module, $text) = map { qq("$_") } @$driver;
+    my ($module, $text) = map { defined($_) && qq("$_") } @$driver;
     my ($id1, $id2, $subid1, $subid2) = map { "0x$_" } ($id =~ /(....)/g);
-    join "\t", $id1, $id2, if_("$subid1 $subid2" ne "0xffff 0xffff", $subid1, $subid2), $module, $text;
+    join "\t", $id1, $id2, if_("$subid1 $subid2" ne "0xffff 0xffff", $subid1, $subid2), $module, if_($text, $text);
 }
 
 sub read_rhpcitable {
@@ -81,13 +81,13 @@ sub read_pcitable {
 	if (my ($id1, $id2, @l) = split /\t+/) {
 	    push @l, '""' if $newer_rh_format;
 	    my ($subid1, $subid2) = ('ffff', 'ffff');
-	    ($subid1, $subid2, @l) = @l if @l == 4;
-	    @l == 2 or die "$f:$line: bad number of fields " . (int @l) . " (in $_)\n";
+	    ($subid1, $subid2, @l) = @l if @l > 2;
+	    @l == 1 || @l == 2 or die "$f:$line: bad number of fields " . (int @l) . " (in $_)\n";
 	    my ($module, $text) = @l;
 
 	    my $class = $text =~ /(.*?)|/;
 	    my $id1_ = $rm_quote_silent->($id1);
-	    if ($class{$id1_}) {
+	    if (defined $text && $class{$id1_}) {
 		print STDERR "$f:$line: class $id1_ named both $class and $class{$id1_}, taking $class{$id1_}\n";
 		$class{$id1_} ||= $1;
 		$text =~ s/(.*?)|/$class{$id1_}|/;
@@ -105,7 +105,7 @@ sub read_pcitable {
 		lc($_);
 	    } $id1, $id2, $subid1, $subid2;
 	    $drivers{$id} && $strict and error("$f:$line: multiple entry for $id (skipping $module $text)");
-	    $drivers{$id} ||= [ $rm_quote->($module), $rm_quote->($text), $line ];
+	    $drivers{$id} ||= [ $rm_quote->($module), defined($text) ? $rm_quote->($text) : undef, $line ];
 	} else {
 	    die "$f:$line: bad line\n";
 	}
