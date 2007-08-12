@@ -1,3 +1,7 @@
+2007-08-12 18:52  Adam Williamson <awilliamson at mandriva.com>
+
+	* Makefile: - bump to 0.1.175 in makefile
+
 2007-08-12 18:49  Adam Williamson <awilliamson at mandriva.com>
 
 	* lst/Cards+: - use avivo as free driver for Radeon X1300 - X1950
