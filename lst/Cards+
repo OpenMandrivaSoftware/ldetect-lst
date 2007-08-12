@@ -114,26 +114,31 @@ NAME ATI Rage 128 TV-out
 SEE ATI Mach / Rage-based cards
 FB_TVOUT
 
-# Radeon cards not supported by proprietary driver: update name as support changes
+# Radeon cards not supported by proprietary driver: update name 
+# as support changes
 NAME ATI Radeon 9250 and earlier
 DRIVER ati
 DRI_GLX
 
-# Radeon cards supported by proprietary driver and free driver: update name as
-# support changes
+# Radeon cards supported by proprietary driver and free 'radeon'
+# driver: update name as support changes
 NAME ATI Radeon 9500 - X850
 DRIVER ati
 DRI_GLX
 DRIVER2 fglrx
 
-# Radeon cards supported by proprietary driver but not free driver: update name as
-# support changes
+# Radeon cards supported by proprietary driver and free 'avivo' 
+# driver: update name as support changes
+# AdamW 2007/08: enabling avivo for these cards in 2008 beta 2
+# for testing purposes. For 2008 RC / final, will probably revert
+# to using vesa for all cards except those verified by user testing
+# to work with avivo.
 NAME ATI Radeon X1300 - X1950
-DRIVER vesa
+DRIVER avivo
 DRIVER2 fglrx
 
-# Radeon cards supported neither by proprietary driver nor by free driver: update
-# name as support changes
+# Radeon cards supported neither by proprietary driver nor by either
+# free driver: update name as support changes
 NAME ATI Radeon HD 2300 and later
 DRIVER vesa
 
