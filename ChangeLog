@@ -1,3 +1,18 @@
+2007-08-12 18:49  Adam Williamson <awilliamson at mandriva.com>
+
+	* lst/Cards+: - use avivo as free driver for Radeon X1300 - X1950
+	  (temporarily)
+
+2007-08-08 20:25  Pixel <pixel at mandriva.com>
+
+	* convert/merge2pcitable.pl: handle pcitable with no text field,
+	  and so fixes make check
+
+2007-08-08 19:50  Pixel <pixel at mandriva.com>
+
+	* Makefile, lst/Cards+: new release with nvidia-current instead of
+	  nvidia97xx (Anssi Hannula)
+
 2007-08-06 15:35  Thierry Vignaud <tvignaud at mandriva.com>
 
 	* lst/pcitable: drop description field
