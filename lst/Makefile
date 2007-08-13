@@ -53,3 +53,5 @@ install: $(TMP_TABLES) $(TABLES3)
 
 	mkdir -p $(modprobe_dir)
 	install -m 644 modprobe.conf $(modprobe_dir)/$(project).conf
+
+	install -m 644 `ls -tr /lib/modules/*/modules.alias | tail -1` $(dir)/fallback-modules.alias
