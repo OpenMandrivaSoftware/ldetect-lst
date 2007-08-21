@@ -1,3 +1,22 @@
+2007-08-21 21:05  Adam Williamson <awilliamson at mandriva.com>
+
+	* lst/Cards+: use software cursor for openchrome as per pcpa
+
+2007-08-21 20:58  Adam Williamson <awilliamson at mandriva.com>
+
+	* Makefile: bump version
+
+2007-08-21 20:55  Adam Williamson <awilliamson at mandriva.com>
+
+	* lst/Cards+, lst/pcitable: add some openchrome definitions,
+	  disable 3D for openchrome devices where 3D support is not present
+	  or not safe
+
+2007-08-20 13:54  Olivier Blin <oblin at mandriva.com>
+
+	* Makefile, lst/isatable, lst/pcitable, lst/usbtable: use '_' in
+	  modules name
+
 2007-08-16 13:49  Thierry Vignaud <tvignaud at mandriva.com>
 
 	* lst/usbtable: kill entries w/o any description since we rely on
