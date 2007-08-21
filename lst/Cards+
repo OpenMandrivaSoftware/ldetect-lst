@@ -83,10 +83,16 @@ NEEDVIDEORAM
 
 # S3 UniChrome (via)
 
-NAME S3 UniChrome-based cards
+NAME S3 UniChrome-based cards with 3D support
 DRIVER openchrome
 # 3D needs a DRM driver in kernel:
 DRI_GLX
+
+# Some cards do not have 3D support, or 3D support is not safe: see
+# http://wiki.openchrome.org/tikiwiki/tiki-index.php?page=HardwareCaveats
+
+NAME S3 UniChrome-based cards without 3D support
+DRIVER openchrome
 
 # Tseng
 
