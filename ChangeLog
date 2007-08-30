@@ -1,3 +1,236 @@
+2007-08-30 14:19  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/usbtable: kill some wrong entries (#31331)
+
+2007-08-30 14:13  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/MonitorsDB: addded ViewSonic VX2025wm (#29569)
+
+2007-08-30 13:51  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable: fix wrong driver for RTL8139 (#32927)
+
+2007-08-29 10:28  mandrake
+
+	* dkms-modules-info/2.6.17-13mdv,
+	  dkms-modules-info/2.6.17-13mdv/ath_hal.alias,
+	  dkms-modules-info/2.6.17-13mdv/ath_hal.description,
+	  dkms-modules-info/2.6.17-13mdv/ath_pci.alias,
+	  dkms-modules-info/2.6.17-13mdv/ath_pci.description,
+	  dkms-modules-info/2.6.17-13mdv/ath_rate_amrr.alias,
+	  dkms-modules-info/2.6.17-13mdv/ath_rate_amrr.description,
+	  dkms-modules-info/2.6.17-13mdv/ath_rate_onoe.alias,
+	  dkms-modules-info/2.6.17-13mdv/ath_rate_onoe.description,
+	  dkms-modules-info/2.6.17-13mdv/ath_rate_sample.alias,
+	  dkms-modules-info/2.6.17-13mdv/ath_rate_sample.description,
+	  dkms-modules-info/2.6.17-13mdv/wlan.alias,
+	  dkms-modules-info/2.6.17-13mdv/wlan.description,
+	  dkms-modules-info/2.6.17-13mdv/wlan_acl.alias,
+	  dkms-modules-info/2.6.17-13mdv/wlan_acl.description,
+	  dkms-modules-info/2.6.17-13mdv/wlan_ccmp.alias,
+	  dkms-modules-info/2.6.17-13mdv/wlan_ccmp.description,
+	  dkms-modules-info/2.6.17-13mdv/wlan_scan_ap.alias,
+	  dkms-modules-info/2.6.17-13mdv/wlan_scan_ap.description,
+	  dkms-modules-info/2.6.17-13mdv/wlan_scan_sta.alias,
+	  dkms-modules-info/2.6.17-13mdv/wlan_scan_sta.description,
+	  dkms-modules-info/2.6.17-13mdv/wlan_tkip.alias,
+	  dkms-modules-info/2.6.17-13mdv/wlan_tkip.description,
+	  dkms-modules-info/2.6.17-13mdv/wlan_wep.alias,
+	  dkms-modules-info/2.6.17-13mdv/wlan_wep.description,
+	  dkms-modules-info/2.6.17-13mdv/wlan_xauth.alias,
+	  dkms-modules-info/2.6.17-13mdv/wlan_xauth.description: add dkms
+	  info for madwifi with kernel 2.6.17-13mdv
+
+2007-08-29 08:30  Olivier Blin <oblin at mandriva.com>
+
+	* dkms-modules-info/2.6.21-tmb-desktop-2mdv/pciradio.alias,
+	  dkms-modules-info/2.6.21-tmb-desktop-2mdv/pciradio.description,
+	  dkms-modules-info/2.6.21-tmb-desktop-2mdv/tor2.alias,
+	  dkms-modules-info/2.6.21-tmb-desktop-2mdv/tor2.description,
+	  dkms-modules-info/2.6.21-tmb-desktop-2mdv/torisa.alias,
+	  dkms-modules-info/2.6.21-tmb-desktop-2mdv/torisa.description,
+	  dkms-modules-info/2.6.21-tmb-desktop-2mdv/wcfxo.alias,
+	  dkms-modules-info/2.6.21-tmb-desktop-2mdv/wcfxo.description,
+	  dkms-modules-info/2.6.21-tmb-desktop-2mdv/wct1xxp.alias,
+	  dkms-modules-info/2.6.21-tmb-desktop-2mdv/wct1xxp.description,
+	  dkms-modules-info/2.6.21-tmb-desktop-2mdv/wct4xxp.alias,
+	  dkms-modules-info/2.6.21-tmb-desktop-2mdv/wct4xxp.description,
+	  dkms-modules-info/2.6.21-tmb-desktop-2mdv/wctdm.alias,
+	  dkms-modules-info/2.6.21-tmb-desktop-2mdv/wctdm.description,
+	  dkms-modules-info/2.6.21-tmb-desktop-2mdv/wctdm24xxp.alias,
+	  dkms-modules-info/2.6.21-tmb-desktop-2mdv/wctdm24xxp.description,
+	  dkms-modules-info/2.6.21-tmb-desktop-2mdv/wcte11xp.alias,
+	  dkms-modules-info/2.6.21-tmb-desktop-2mdv/wcte11xp.description,
+	  dkms-modules-info/2.6.21-tmb-desktop-2mdv/wcusb.alias,
+	  dkms-modules-info/2.6.21-tmb-desktop-2mdv/wcusb.description,
+	  dkms-modules-info/2.6.21-tmb-desktop-2mdv/xpd_fxo.alias,
+	  dkms-modules-info/2.6.21-tmb-desktop-2mdv/xpd_fxo.description,
+	  dkms-modules-info/2.6.21-tmb-desktop-2mdv/xpd_fxs.alias,
+	  dkms-modules-info/2.6.21-tmb-desktop-2mdv/xpd_fxs.description,
+	  dkms-modules-info/2.6.21-tmb-desktop-2mdv/xpp.alias,
+	  dkms-modules-info/2.6.21-tmb-desktop-2mdv/xpp.description,
+	  dkms-modules-info/2.6.21-tmb-desktop-2mdv/zaptel.alias,
+	  dkms-modules-info/2.6.21-tmb-desktop-2mdv/zaptel.description,
+	  dkms-modules-info/2.6.21-tmb-desktop-2mdv/ztd-eth.alias,
+	  dkms-modules-info/2.6.21-tmb-desktop-2mdv/ztd-eth.description,
+	  dkms-modules-info/2.6.21-tmb-desktop-2mdv/ztd-loc.alias,
+	  dkms-modules-info/2.6.21-tmb-desktop-2mdv/ztd-loc.description,
+	  dkms-modules-info/2.6.21-tmb-desktop-2mdv/ztdummy.alias,
+	  dkms-modules-info/2.6.21-tmb-desktop-2mdv/ztdummy.description,
+	  dkms-modules-info/2.6.21-tmb-desktop-2mdv/ztdynamic.alias,
+	  dkms-modules-info/2.6.21-tmb-desktop-2mdv/ztdynamic.description:
+	  add dkms info for zaptel with kernel 2.6.21-tmb-desktop-2mdv
+
+2007-08-29 08:29  Olivier Blin <oblin at mandriva.com>
+
+	* dkms-modules-info/2.6.21-2mdvsmp/pciradio.alias,
+	  dkms-modules-info/2.6.21-2mdvsmp/pciradio.description,
+	  dkms-modules-info/2.6.21-2mdvsmp/tor2.alias,
+	  dkms-modules-info/2.6.21-2mdvsmp/tor2.description,
+	  dkms-modules-info/2.6.21-2mdvsmp/torisa.alias,
+	  dkms-modules-info/2.6.21-2mdvsmp/torisa.description,
+	  dkms-modules-info/2.6.21-2mdvsmp/wcfxo.alias,
+	  dkms-modules-info/2.6.21-2mdvsmp/wcfxo.description,
+	  dkms-modules-info/2.6.21-2mdvsmp/wct1xxp.alias,
+	  dkms-modules-info/2.6.21-2mdvsmp/wct1xxp.description,
+	  dkms-modules-info/2.6.21-2mdvsmp/wct4xxp.alias,
+	  dkms-modules-info/2.6.21-2mdvsmp/wct4xxp.description,
+	  dkms-modules-info/2.6.21-2mdvsmp/wctdm.alias,
+	  dkms-modules-info/2.6.21-2mdvsmp/wctdm.description,
+	  dkms-modules-info/2.6.21-2mdvsmp/wctdm24xxp.alias,
+	  dkms-modules-info/2.6.21-2mdvsmp/wctdm24xxp.description,
+	  dkms-modules-info/2.6.21-2mdvsmp/wcte11xp.alias,
+	  dkms-modules-info/2.6.21-2mdvsmp/wcte11xp.description,
+	  dkms-modules-info/2.6.21-2mdvsmp/wcusb.alias,
+	  dkms-modules-info/2.6.21-2mdvsmp/wcusb.description,
+	  dkms-modules-info/2.6.21-2mdvsmp/xpd_fxo.alias,
+	  dkms-modules-info/2.6.21-2mdvsmp/xpd_fxo.description,
+	  dkms-modules-info/2.6.21-2mdvsmp/xpd_fxs.alias,
+	  dkms-modules-info/2.6.21-2mdvsmp/xpd_fxs.description,
+	  dkms-modules-info/2.6.21-2mdvsmp/xpp.alias,
+	  dkms-modules-info/2.6.21-2mdvsmp/xpp.description,
+	  dkms-modules-info/2.6.21-2mdvsmp/zaptel.alias,
+	  dkms-modules-info/2.6.21-2mdvsmp/zaptel.description,
+	  dkms-modules-info/2.6.21-2mdvsmp/ztd-eth.alias,
+	  dkms-modules-info/2.6.21-2mdvsmp/ztd-eth.description,
+	  dkms-modules-info/2.6.21-2mdvsmp/ztd-loc.alias,
+	  dkms-modules-info/2.6.21-2mdvsmp/ztd-loc.description,
+	  dkms-modules-info/2.6.21-2mdvsmp/ztdummy.alias,
+	  dkms-modules-info/2.6.21-2mdvsmp/ztdummy.description,
+	  dkms-modules-info/2.6.21-2mdvsmp/ztdynamic.alias,
+	  dkms-modules-info/2.6.21-2mdvsmp/ztdynamic.description: add dkms
+	  info for zaptel with kernel 2.6.21-2mdvsmp
+
+2007-08-29 08:28  Olivier Blin <oblin at mandriva.com>
+
+	* dkms-modules-info/2.6.21-2mdv/pciradio.alias,
+	  dkms-modules-info/2.6.21-2mdv/pciradio.description,
+	  dkms-modules-info/2.6.21-2mdv/tor2.alias,
+	  dkms-modules-info/2.6.21-2mdv/tor2.description,
+	  dkms-modules-info/2.6.21-2mdv/torisa.alias,
+	  dkms-modules-info/2.6.21-2mdv/torisa.description,
+	  dkms-modules-info/2.6.21-2mdv/wcfxo.alias,
+	  dkms-modules-info/2.6.21-2mdv/wcfxo.description,
+	  dkms-modules-info/2.6.21-2mdv/wct1xxp.alias,
+	  dkms-modules-info/2.6.21-2mdv/wct1xxp.description,
+	  dkms-modules-info/2.6.21-2mdv/wct4xxp.alias,
+	  dkms-modules-info/2.6.21-2mdv/wct4xxp.description,
+	  dkms-modules-info/2.6.21-2mdv/wctdm.alias,
+	  dkms-modules-info/2.6.21-2mdv/wctdm.description,
+	  dkms-modules-info/2.6.21-2mdv/wctdm24xxp.alias,
+	  dkms-modules-info/2.6.21-2mdv/wctdm24xxp.description,
+	  dkms-modules-info/2.6.21-2mdv/wcte11xp.alias,
+	  dkms-modules-info/2.6.21-2mdv/wcte11xp.description,
+	  dkms-modules-info/2.6.21-2mdv/wcusb.alias,
+	  dkms-modules-info/2.6.21-2mdv/wcusb.description,
+	  dkms-modules-info/2.6.21-2mdv/xpd_fxo.alias,
+	  dkms-modules-info/2.6.21-2mdv/xpd_fxo.description,
+	  dkms-modules-info/2.6.21-2mdv/xpd_fxs.alias,
+	  dkms-modules-info/2.6.21-2mdv/xpd_fxs.description,
+	  dkms-modules-info/2.6.21-2mdv/xpp.alias,
+	  dkms-modules-info/2.6.21-2mdv/xpp.description,
+	  dkms-modules-info/2.6.21-2mdv/zaptel.alias,
+	  dkms-modules-info/2.6.21-2mdv/zaptel.description,
+	  dkms-modules-info/2.6.21-2mdv/ztd-eth.alias,
+	  dkms-modules-info/2.6.21-2mdv/ztd-eth.description,
+	  dkms-modules-info/2.6.21-2mdv/ztd-loc.alias,
+	  dkms-modules-info/2.6.21-2mdv/ztd-loc.description,
+	  dkms-modules-info/2.6.21-2mdv/ztdummy.alias,
+	  dkms-modules-info/2.6.21-2mdv/ztdummy.description,
+	  dkms-modules-info/2.6.21-2mdv/ztdynamic.alias,
+	  dkms-modules-info/2.6.21-2mdv/ztdynamic.description: add dkms
+	  info for zaptel with kernel 2.6.21-2mdv
+
+2007-08-29 08:27  Olivier Blin <oblin at mandriva.com>
+
+	* dkms-modules-info/2.6.21-tmb-desktop-2mdv: add dkms info for
+	  zaptel with kernel 2.6.21-tmb-desktop-2mdv
+
+2007-08-29 08:26  Olivier Blin <oblin at mandriva.com>
+
+	* dkms-modules-info/2.6.21-2mdvsmp: add dkms info for zaptel with
+	  kernel 2.6.21-2mdvsmp
+
+2007-08-29 08:25  Olivier Blin <oblin at mandriva.com>
+
+	* dkms-modules-info/2.6.21-2mdv: add dkms info for zaptel with
+	  kernel 2.6.21-2mdv
+
+2007-08-28 17:24  Olivier Blin <oblin at mandriva.com>
+
+	* dkms-modules-info/2.6.12-19mdk/ipw3945.alias,
+	  dkms-modules-info/2.6.12-19mdk/ipw3945.description: add dkms info
+	  for ipw3945 with kernel 2.6.12-19mdk
+
+2007-08-28 17:21  Olivier Blin <oblin at mandriva.com>
+
+	* dkms-modules-info/2.6.12-19mdk,
+	  dkms-modules-info/2.6.12-19mdk/ieee80211.alias,
+	  dkms-modules-info/2.6.12-19mdk/ieee80211.description,
+	  dkms-modules-info/2.6.12-19mdk/ieee80211_crypt.alias,
+	  dkms-modules-info/2.6.12-19mdk/ieee80211_crypt.description,
+	  dkms-modules-info/2.6.12-19mdk/ieee80211_crypt_ccmp.alias,
+	  dkms-modules-info/2.6.12-19mdk/ieee80211_crypt_ccmp.description,
+	  dkms-modules-info/2.6.12-19mdk/ieee80211_crypt_tkip.alias,
+	  dkms-modules-info/2.6.12-19mdk/ieee80211_crypt_tkip.description,
+	  dkms-modules-info/2.6.12-19mdk/ieee80211_crypt_wep.alias,
+	  dkms-modules-info/2.6.12-19mdk/ieee80211_crypt_wep.description:
+	  add dkms info for ieee80211 with kernel 2.6.12-19mdk
+
+2007-08-28 17:21  Olivier Blin <oblin at mandriva.com>
+
+	* dkms-modules-info/2.6.17.14-mm-desktop-9mdv,
+	  dkms-modules-info/2.6.17.14-mm-desktop-9mdv/zd1211.alias,
+	  dkms-modules-info/2.6.17.14-mm-desktop-9mdv/zd1211.description:
+	  add dkms info for zd1211 with kernel 2.6.17.14-mm-desktop-9mdv
+
+2007-08-28 16:44  Olivier Blin <oblin at mandriva.com>
+
+	* dkms-modules-info: add dkms-modules-info directory
+
+2007-08-28 08:03  adamw
+
+	* lst/pcitable: add an oddball GeForce 7950 reported by Jason
+	  Carson on forums
+
+2007-08-21 21:05  adamw
+
+	* ChangeLog: Generated by svn2cl the 21_Aug
+
+2007-08-21 21:05  adamw
+
+	* lst/Cards+: use software cursor for openchrome as per pcpa
+
+2007-08-21 20:58  adamw
+
+	* Makefile: bump version
+
+2007-08-21 20:55  adamw
+
+	* lst/Cards+, lst/pcitable: add some openchrome definitions,
+	  disable 3D for openchrome devices where 3D support is not present
+	  or not safe
+
 2007-08-21 21:05  Adam Williamson <awilliamson at mandriva.com>
 
 	* lst/Cards+: use software cursor for openchrome as per pcpa
