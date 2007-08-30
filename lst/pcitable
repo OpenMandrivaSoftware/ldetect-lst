@@ -515,6 +515,7 @@
 0x1023	0x9910	"Card:Trident-based cards"
 0x1023	0x9930	"Card:Trident-based cards"
 0x1024	0x1024	"Hcf:www.linmodems.org"
+0x1025	0x0039	"8139too"
 0x1025	0x1689	"amd64_agp"
 0x102b	0x0001	"Card:Matrox Millennium G series (single head)"
 0x102b	0x0010	"Card:Matrox Millennium / II / Productiva G100"
