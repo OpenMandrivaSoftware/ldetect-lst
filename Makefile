@@ -12,6 +12,7 @@ FILES = AUTHORS ChangeLog Makefile Makefile.config convert lst update-ldetect-ls
 
 build: 
 	make -C lst build
+	make -C dkms-modules-info build
 
 check:
 	make -C lst check
@@ -23,6 +24,7 @@ clean:
 install: build
 	install -d $(bindir) $(sbindir) $(dir)
 	make -C lst install
+	make -C dkms-modules-info install
 	install update-ldetect-lst $(sbindir)
 	install convert/merge2pcitable.pl $(bindir)
 
@@ -32,7 +34,7 @@ cleandist:
 	rm -rf $(PACKAGE)-$(VERSION) $(PACKAGE)-$(VERSION).tar.bz2
 
 localcopy:
-	svn export -q -rBASE . $(PACKAGE)-$(VERSION)
+	svn export -q . $(PACKAGE)-$(VERSION)
 
 tar:
 	tar cvf $(PACKAGE)-$(VERSION).tar $(PACKAGE)-$(VERSION)
