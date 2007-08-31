@@ -34,7 +34,7 @@ cleandist:
 	rm -rf $(PACKAGE)-$(VERSION) $(PACKAGE)-$(VERSION).tar.bz2
 
 localcopy:
-	svn export -q . $(PACKAGE)-$(VERSION)
+	svn export -q -rBASE . $(PACKAGE)-$(VERSION)
 
 tar:
 	tar cvf $(PACKAGE)-$(VERSION).tar $(PACKAGE)-$(VERSION)
