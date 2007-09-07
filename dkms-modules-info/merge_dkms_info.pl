@@ -8,7 +8,7 @@ my %fields;
 my %filters = (
     alias => sub {
         my ($module, $values) = @_;
-        map { "alias $module $_\n" } sort(uniq(@$values));
+        map { "alias $_ $module\n" } sort(uniq(@$values));
     },
     description => sub {
         my ($module, $values) = @_;
