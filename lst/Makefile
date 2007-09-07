@@ -15,7 +15,7 @@ TMP_TABLES  = $(TABLES:%=%.tmp)
 build: preferred-modules.alias
 
 clean:
-	rm -f *~ *.tmp ScannerDB.gz preferred-modules.alias
+	rm -f *~ *.tmp ScannerDB.gz preferred-modules.alias fallback-modules.alias
 
 check:
 	@../convert/merge2pcitable.pl pcitable pcitable.x86_64 pcitable.x86_64 > .pcitable
@@ -27,7 +27,10 @@ check:
 	@cd ../convert; ./verify_Cards.pl
 	@rm -f .pcitable .usbtable
 
-preferred-modules.alias: hardcoded-modules.alias
+fallback-modules.alias:
+	cp `ls -tr /lib/modules/*/modules.alias | tail -1` fallback-modules.alias
+
+preferred-modules.alias: hardcoded-modules.alias fallback-modules.alias
 	@../convert/uniquify-modalias.pl > $@ 2>undecided.alias
 	@cat hardcoded-modules.alias >> $@
 
@@ -55,5 +58,5 @@ install: $(TMP_TABLES) $(TABLES3)
 
 	install -m 644 ScannerDB.gz scannerconfigs Cards+ MonitorsDB isdn.db $(dir)
 
-	install -m 644 `ls -tr /lib/modules/*/modules.alias | tail -1` $(dir)/fallback-modules.alias
+	install -m 644 fallback-modules.alias $(dir)/fallback-modules.alias
 	install -m 644 preferred-modules.alias $(dir)/preferred-modules.alias

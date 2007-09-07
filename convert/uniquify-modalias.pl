@@ -102,9 +102,8 @@ sub print_module {
     print STDERR "unable to choose for $modalias " . join(" ", map { $_->[1] } @modules) . "\n";
 }
 
-#- we are only interested in the last group:
-#    /lib/modules/`uname -r`/modules.alias
-my $alias_group = top(modalias::get_alias_groups());
+my $alias_group = {};
+modalias::parse_path($alias_group, "../lst/fallback-modules.alias");
 
 foreach my $class (qw(pci pcmcia usb)) {
     my @class_other = group_by2(@{$alias_group->{$class}{other}});
