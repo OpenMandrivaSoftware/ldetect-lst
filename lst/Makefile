@@ -12,10 +12,10 @@ TMP_TABLES1 = $(TABLES1:%=%.tmp)
 TMP_TABLES2 = $(TABLES2:%=%.tmp)
 TMP_TABLES  = $(TABLES:%=%.tmp)
 
-build: 
+build: preferred-modules.alias
 
 clean:
-	rm -f *~ *.tmp ScannerDB.gz
+	rm -f *~ *.tmp ScannerDB.gz preferred-modules.alias
 
 check:
 	@../convert/merge2pcitable.pl pcitable pcitable.x86_64 pcitable.x86_64 > .pcitable
@@ -26,6 +26,9 @@ check:
 	@diff -u usbtable .usbtable
 	@cd ../convert; ./verify_Cards.pl
 	@rm -f .pcitable .usbtable
+
+preferred-modules.alias:
+	@../convert/uniquify-modalias.pl > $@ 2>undecided.alias
 
 $(TMP_TABLES1): %.tmp: %
 	../convert/merge2pcitable.pl pcitable $< $<.$(ARCH) > $@
@@ -55,3 +58,4 @@ install: $(TMP_TABLES) $(TABLES3)
 	install -m 644 modprobe.conf $(modprobe_dir)/$(project).conf
 
 	install -m 644 `ls -tr /lib/modules/*/modules.alias | tail -1` $(dir)/fallback-modules.alias
+	install -m 644 preferred-modules.alias $(dir)/preferred-modules.alias
