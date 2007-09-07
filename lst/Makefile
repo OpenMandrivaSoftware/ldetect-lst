@@ -27,8 +27,9 @@ check:
 	@cd ../convert; ./verify_Cards.pl
 	@rm -f .pcitable .usbtable
 
-preferred-modules.alias:
+preferred-modules.alias: hardcoded-modules.alias
 	@../convert/uniquify-modalias.pl > $@ 2>undecided.alias
+	@cat hardcoded-modules.alias >> $@
 
 $(TMP_TABLES1): %.tmp: %
 	../convert/merge2pcitable.pl pcitable $< $<.$(ARCH) > $@
@@ -53,9 +54,6 @@ install: $(TMP_TABLES) $(TABLES3)
 	gzip -9 $(dir)/{pcitable,usbtable,dmitable}.d/90default.lst
 
 	install -m 644 ScannerDB.gz scannerconfigs Cards+ MonitorsDB isdn.db $(dir)
-
-	mkdir -p $(modprobe_dir)
-	install -m 644 modprobe.conf $(modprobe_dir)/$(project).conf
 
 	install -m 644 `ls -tr /lib/modules/*/modules.alias | tail -1` $(dir)/fallback-modules.alias
 	install -m 644 preferred-modules.alias $(dir)/preferred-modules.alias
