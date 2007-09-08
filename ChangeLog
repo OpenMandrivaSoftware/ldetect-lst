@@ -1,3 +1,167 @@
+2007-09-08 23:51  Adam Williamson <awilliamson at mandriva.com>
+
+	* lst/Cards+, lst/pcitable: refine (uni)chrome support: switch some
+	  cards to the viaarena driver as per pcpa
+
+2007-09-08 10:20  mandrake
+
+	* dkms-modules-info/2.6.17.14-mm-desktop-9mdv/actuator.alias,
+	  dkms-modules-info/2.6.17.14-mm-desktop-9mdv/actuator.description:
+	  add dkms info for actuator with kernel 2.6.17.14-mm-desktop-9mdv
+
+2007-09-08 10:20  mandrake
+
+	* dkms-modules-info/2.6.22.6-tmb-desktop-2mdv/actuator.alias,
+	  dkms-modules-info/2.6.22.6-tmb-desktop-2mdv/actuator.description:
+	  add dkms info for actuator with kernel 2.6.22.6-tmb-desktop-2mdv
+
+2007-09-08 10:20  mandrake
+
+	* dkms-modules-info/2.6.22.6-tmb-laptop-2mdv/actuator.alias,
+	  dkms-modules-info/2.6.22.6-tmb-laptop-2mdv/actuator.description:
+	  add dkms info for actuator with kernel 2.6.22.6-tmb-laptop-2mdv
+
+2007-09-08 10:00  mandrake
+
+	* dkms-modules-info/2.6.22.6-server-1mdv/actuator.alias,
+	  dkms-modules-info/2.6.22.6-server-1mdv/actuator.description: add
+	  dkms info for actuator with kernel 2.6.22.6-server-1mdv
+
+2007-09-08 10:00  mandrake
+
+	* dkms-modules-info/2.6.22.6-desktop-1mdv/actuator.alias,
+	  dkms-modules-info/2.6.22.6-desktop-1mdv/actuator.description: add
+	  dkms info for actuator with kernel 2.6.22.6-desktop-1mdv
+
+2007-09-08 10:00  mandrake
+
+	* dkms-modules-info/2.6.22.6-laptop-1mdv/actuator.alias,
+	  dkms-modules-info/2.6.22.6-laptop-1mdv/actuator.description: add
+	  dkms info for actuator with kernel 2.6.22.6-laptop-1mdv
+
+2007-09-08 10:00  mandrake
+
+	* dkms-modules-info/2.6.22.6-desktop586-1mdv/actuator.alias,
+	  dkms-modules-info/2.6.22.6-desktop586-1mdv/actuator.description:
+	  add dkms info for actuator with kernel 2.6.22.6-desktop586-1mdv
+
+2007-09-07 21:54  Adam Williamson <awilliamson at mandriva.com>
+
+	* lst/pcitable: add a new Intel graphics adapter ID from
+	  ashashiwa@gmail.com
+
+2007-09-07 14:02  Olivier Blin <oblin at mandriva.com>
+
+	* Makefile: 0.1.184
+
+2007-09-07 14:02  Olivier Blin <oblin at mandriva.com>
+
+	* convert/uniquify-modalias.pl, lst/Makefile: use
+	  fallback-modules.alias to build preferred-modules.alias
+
+2007-09-07 13:37  Olivier Blin <oblin at mandriva.com>
+
+	* Makefile: 0.1.183
+
+2007-09-07 13:37  Olivier Blin <oblin at mandriva.com>
+
+	* dkms-modules-info/merge_dkms_info.pl: fix fields order in
+	  dkms-modules.alias
+
+2007-09-07 10:20  Olivier Blin <oblin at mandriva.com>
+
+	* Makefile: 0.1.182
+
+2007-09-07 10:19  Olivier Blin <oblin at mandriva.com>
+
+	* Makefile.config: remove unused variables
+
+2007-09-07 10:17  Olivier Blin <oblin at mandriva.com>
+
+	* lst/Makefile, lst/hardcoded-modules.alias, lst/modprobe.conf:
+	  rename ldetect-lst.conf modprobe file as hardcoded-modules.alias
+	  and merge it in preferred-modules.alias at build time
+
+2007-09-07 10:15  Olivier Blin <oblin at mandriva.com>
+
+	* convert/uniquify-modalias.pl, lst/Makefile: provide default
+	  module aliases for PCI/USB devices matching multiple modules in
+	  preferred-modules.alias (not complete yet, undecided.alias is
+	  still 73 lines
+
+2007-09-07 02:20  mandrake
+
+	* dkms-modules-info/2.6.22.6-laptop-1mdv/nvidia96xx.alias,
+	  dkms-modules-info/2.6.22.6-laptop-1mdv/nvidia96xx.description:
+	  add dkms info for nvidia96xx with kernel 2.6.22.6-laptop-1mdv
+
+2007-09-07 02:20  mandrake
+
+	* dkms-modules-info/2.6.22.6-server-1mdv/nvidia96xx.alias,
+	  dkms-modules-info/2.6.22.6-server-1mdv/nvidia96xx.description:
+	  add dkms info for nvidia96xx with kernel 2.6.22.6-server-1mdv
+
+2007-09-07 02:20  mandrake
+
+	* dkms-modules-info/2.6.22.6-desktop-1mdv/nvidia96xx.alias,
+	  dkms-modules-info/2.6.22.6-desktop-1mdv/nvidia96xx.description:
+	  add dkms info for nvidia96xx with kernel 2.6.22.6-desktop-1mdv
+
+2007-09-07 02:00  mandrake
+
+	* dkms-modules-info/2.6.22.6-laptop-1mdv/fglrx.alias,
+	  dkms-modules-info/2.6.22.6-laptop-1mdv/fglrx.description: add
+	  dkms info for fglrx with kernel 2.6.22.6-laptop-1mdv
+
+2007-09-07 02:00  mandrake
+
+	* dkms-modules-info/2.6.22.6-server-1mdv/fglrx.alias,
+	  dkms-modules-info/2.6.22.6-server-1mdv/fglrx.description: add
+	  dkms info for fglrx with kernel 2.6.22.6-server-1mdv
+
+2007-09-07 02:00  mandrake
+
+	* dkms-modules-info/2.6.22.6-desktop-1mdv/fglrx.alias,
+	  dkms-modules-info/2.6.22.6-desktop-1mdv/fglrx.description: add
+	  dkms info for fglrx with kernel 2.6.22.6-desktop-1mdv
+
+2007-09-07 01:42  mandrake
+
+	* dkms-modules-info/2.6.22.6-desktop-1mdv/nvidia71xx.alias,
+	  dkms-modules-info/2.6.22.6-desktop-1mdv/nvidia71xx.description:
+	  add dkms info for nvidia71xx with kernel 2.6.22.6-desktop-1mdv
+
+2007-09-07 01:42  mandrake
+
+	* dkms-modules-info/2.6.22.6-laptop-1mdv/nvidia71xx.alias,
+	  dkms-modules-info/2.6.22.6-laptop-1mdv/nvidia71xx.description:
+	  add dkms info for nvidia71xx with kernel 2.6.22.6-laptop-1mdv
+
+2007-09-07 01:42  mandrake
+
+	* dkms-modules-info/2.6.22.6-laptop-1mdv/nvidia-current.alias,
+	  dkms-modules-info/2.6.22.6-laptop-1mdv/nvidia-current.description:
+	  add dkms info for nvidia-current with kernel 2.6.22.6-laptop-1mdv
+
+2007-09-07 01:42  mandrake
+
+	* dkms-modules-info/2.6.22.6-desktop-1mdv/nvidia-current.alias,
+	  dkms-modules-info/2.6.22.6-desktop-1mdv/nvidia-current.description:
+	  add dkms info for nvidia-current with kernel
+	  2.6.22.6-desktop-1mdv
+
+2007-09-07 01:42  mandrake
+
+	* dkms-modules-info/2.6.22.6-server-1mdv/nvidia-current.alias,
+	  dkms-modules-info/2.6.22.6-server-1mdv/nvidia-current.description:
+	  add dkms info for nvidia-current with kernel 2.6.22.6-server-1mdv
+
+2007-09-07 01:42  mandrake
+
+	* dkms-modules-info/2.6.22.6-server-1mdv/nvidia71xx.alias,
+	  dkms-modules-info/2.6.22.6-server-1mdv/nvidia71xx.description:
+	  add dkms info for nvidia71xx with kernel 2.6.22.6-server-1mdv
+
 2007-09-06 08:01  Pixel <pixel at mandriva.com>
 
 	* convert/sort_MonitorsDB.pl, lst/MonitorsDB: nicely sort
