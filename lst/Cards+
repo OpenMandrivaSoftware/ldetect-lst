@@ -98,6 +98,12 @@ NAME S3 UniChrome-based cards without 3D support
 DRIVER openchrome
 LINE Option	"SWcursor"
 
+# These devices have better support in the official viaarena driver than
+# in openchrome, according to pcpa as of 2007/09
+
+NAME VIA Chrome9-based cards
+DRIVER viaarena
+
 # Tseng
 
 # All potential driver options, and non-PCI-based cards, dropped (2007/03/08) on 
