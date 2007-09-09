@@ -145,12 +145,14 @@ DRIVER2 fglrx
 
 # Radeon cards supported by proprietary driver and free 'avivo' 
 # driver: update name as support changes
-# AdamW 2007/08: enabling avivo for these cards in 2008 beta 2
-# for testing purposes. For 2008 RC / final, will probably revert
-# to using vesa for all cards except those verified by user testing
-# to work with avivo.
-NAME ATI Radeon X1300 - X1950
+NAME ATI Radeon X1300 - X1950 (working with avivo driver)
 DRIVER avivo
+DRIVER2 fglrx
+
+# Radeon cards supported by proprietary driver but no free driver -
+# fall back on vesa: update name as support changes
+NAME ATI Radeon X1300 - X1950
+DRIVER vesa
 DRIVER2 fglrx
 
 # Radeon cards supported neither by proprietary driver nor by either
