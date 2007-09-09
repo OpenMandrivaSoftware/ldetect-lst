@@ -1,3 +1,9 @@
+2007-09-09 00:50  Adam Williamson <awilliamson at mandriva.com>
+
+	* lst/Cards+, lst/pcitable: revert to vesa driver for most Radeon
+	  X1xxx series cards: add new avivo definition and enable avivo for
+	  two cards verified by testing
+
 2007-09-08 23:52  Adam Williamson <awilliamson at mandriva.com>
 
 	* Makefile: update version
