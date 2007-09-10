@@ -177,17 +177,17 @@ DRIVER trident
 
 # SiS
 
-NAME SiS USB
+NAME SiS USB video adapter
 DRIVER sisusb
 
-NAME SiS (old series)
+NAME SiS old series-based cards
 DRIVER sis
 
-NAME SiS (300 series)
+NAME SiS 300 series-based cards
 DRIVER sis
 DRI_GLX
 
-NAME SiS / XGI (315 / 330 / 340 series)
+NAME SiS SiS / XGI 315 / 330 / 340 series-based cards
 DRIVER sis
 
 # Cyrix
