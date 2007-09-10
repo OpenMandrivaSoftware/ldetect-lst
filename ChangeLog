@@ -1,3 +1,199 @@
+2007-09-10 22:10  Adam Williamson <awilliamson at mandriva.com>
+
+	* lst/Cards+, lst/pcitable: change SiS definitions to look better
+	  in XFdrake
+
+2007-09-10 13:05  mandrake
+
+	* dkms-modules-info/2.6.23-tmb-desktop-0.rc5.1mdv/fusion.alias,
+	  dkms-modules-info/2.6.23-tmb-desktop-0.rc5.1mdv/fusion.description:
+	  add dkms info for fusion with kernel
+	  2.6.23-tmb-desktop-0.rc5.1mdv
+
+2007-09-10 13:03  mandrake
+
+	* dkms-modules-info/2.6.22.6-server-1mdv/iscsi_trgt.alias,
+	  dkms-modules-info/2.6.22.6-server-1mdv/iscsi_trgt.description:
+	  add dkms info for iscsitarget with kernel 2.6.22.6-server-1mdv
+
+2007-09-10 12:57  mandrake
+
+	* dkms-modules-info/2.6.22.6-laptop-1mdv/iscsi_trgt.alias,
+	  dkms-modules-info/2.6.22.6-laptop-1mdv/iscsi_trgt.description:
+	  add dkms info for iscsitarget with kernel 2.6.22.6-laptop-1mdv
+
+2007-09-10 12:32  mandrake
+
+	* dkms-modules-info/2.6.23-0.rc5.1mdv/actuator.alias,
+	  dkms-modules-info/2.6.23-0.rc5.1mdv/actuator.description: add
+	  dkms info for actuator with kernel 2.6.23-0.rc5.1mdv
+
+2007-09-10 12:30  mandrake
+
+	* dkms-modules-info/2.6.23-tmb-laptop-0.rc5.1mdv/fusion.alias,
+	  dkms-modules-info/2.6.23-tmb-laptop-0.rc5.1mdv/fusion.description:
+	  add dkms info for fusion with kernel 2.6.23-tmb-laptop-0.rc5.1mdv
+
+2007-09-10 12:29  mandrake
+
+	* dkms-modules-info/2.6.23-0.rc5.2mdvsmp/fusion.alias,
+	  dkms-modules-info/2.6.23-0.rc5.2mdvsmp/fusion.description: add
+	  dkms info for fusion with kernel 2.6.23-0.rc5.2mdvsmp
+
+2007-09-10 12:24  mandrake
+
+	* dkms-modules-info/2.6.23-tmb-server-0.rc5.1mdv/fusion.alias,
+	  dkms-modules-info/2.6.23-tmb-server-0.rc5.1mdv/fusion.description:
+	  add dkms info for fusion with kernel 2.6.23-tmb-server-0.rc5.1mdv
+
+2007-09-10 12:23  mandrake
+
+	* dkms-modules-info/2.6.23-0.rc5.1mdvsmp/actuator.alias,
+	  dkms-modules-info/2.6.23-0.rc5.1mdvsmp/actuator.description: add
+	  dkms info for actuator with kernel 2.6.23-0.rc5.1mdvsmp
+
+2007-09-10 12:23  mandrake
+
+	* dkms-modules-info/2.6.19.1-1mdv/iscsi_trgt.alias,
+	  dkms-modules-info/2.6.19.1-1mdv/iscsi_trgt.description: add dkms
+	  info for iscsitarget with kernel 2.6.19.1-1mdv
+
+2007-09-10 12:22  mandrake
+
+	* dkms-modules-info/2.6.23-tmb-desktop586-0.rc5.1mdv/fusion.alias,
+	  dkms-modules-info/2.6.23-tmb-desktop586-0.rc5.1mdv/fusion.description:
+	  add dkms info for fusion with kernel
+	  2.6.23-tmb-desktop586-0.rc5.1mdv
+
+2007-09-10 12:22  mandrake
+
+	* dkms-modules-info/2.6.23-0.rc5.2mdv/fusion.alias,
+	  dkms-modules-info/2.6.23-0.rc5.2mdv/fusion.description: add dkms
+	  info for fusion with kernel 2.6.23-0.rc5.2mdv
+
+2007-09-10 11:29  Pixel <pixel at mandriva.com>
+
+	* lst/MonitorsDB: add monitor (from Austin on cooker mailing list)
+
+2007-09-09 08:11  mandrake
+
+	* dkms-modules-info/2.6.23-tmb-server-0.rc5.1mdv,
+	  dkms-modules-info/2.6.23-tmb-server-0.rc5.1mdv/actuator.alias,
+	  dkms-modules-info/2.6.23-tmb-server-0.rc5.1mdv/actuator.description:
+	  add dkms info for actuator with kernel
+	  2.6.23-tmb-server-0.rc5.1mdv
+
+2007-09-09 08:10  mandrake
+
+	* dkms-modules-info/2.6.20.16-krg2.1.1-1mdv/actuator.alias,
+	  dkms-modules-info/2.6.20.16-krg2.1.1-1mdv/actuator.description:
+	  add dkms info for actuator with kernel 2.6.20.16-krg2.1.1-1mdv
+
+2007-09-09 08:10  mandrake
+
+	* dkms-modules-info/2.6.23-0.rc4.mm1.1mdvsmp/actuator.alias,
+	  dkms-modules-info/2.6.23-0.rc4.mm1.1mdvsmp/actuator.description:
+	  add dkms info for actuator with kernel 2.6.23-0.rc4.mm1.1mdvsmp
+
+2007-09-09 08:10  mandrake
+
+	* dkms-modules-info/2.6.23-tmb-laptop-0.rc5.1mdv,
+	  dkms-modules-info/2.6.23-tmb-laptop-0.rc5.1mdv/actuator.alias,
+	  dkms-modules-info/2.6.23-tmb-laptop-0.rc5.1mdv/actuator.description:
+	  add dkms info for actuator with kernel
+	  2.6.23-tmb-laptop-0.rc5.1mdv
+
+2007-09-09 08:10  mandrake
+
+	* dkms-modules-info/2.6.17.14-mm-laptop-9mdvsmp/actuator.alias,
+	  dkms-modules-info/2.6.17.14-mm-laptop-9mdvsmp/actuator.description:
+	  add dkms info for actuator with kernel
+	  2.6.17.14-mm-laptop-9mdvsmp
+
+2007-09-09 08:02  mandrake
+
+	* dkms-modules-info/2.6.23-0.rc2.rt2.1mdv/actuator.alias,
+	  dkms-modules-info/2.6.23-0.rc2.rt2.1mdv/actuator.description: add
+	  dkms info for actuator with kernel 2.6.23-0.rc2.rt2.1mdv
+
+2007-09-09 08:02  mandrake
+
+	* dkms-modules-info/2.6.17.14-mm-desktop-9mdvsmp/actuator.alias,
+	  dkms-modules-info/2.6.17.14-mm-desktop-9mdvsmp/actuator.description:
+	  add dkms info for actuator with kernel
+	  2.6.17.14-mm-desktop-9mdvsmp
+
+2007-09-09 08:02  mandrake
+
+	* dkms-modules-info/2.6.23-tmb-desktop-0.rc5.1mdv,
+	  dkms-modules-info/2.6.23-tmb-desktop-0.rc5.1mdv/actuator.alias,
+	  dkms-modules-info/2.6.23-tmb-desktop-0.rc5.1mdv/actuator.description:
+	  add dkms info for actuator with kernel
+	  2.6.23-tmb-desktop-0.rc5.1mdv
+
+2007-09-09 08:02  mandrake
+
+	* dkms-modules-info/2.6.23-tmb-desktop586-0.rc5.1mdv,
+	  dkms-modules-info/2.6.23-tmb-desktop586-0.rc5.1mdv/actuator.alias,
+	  dkms-modules-info/2.6.23-tmb-desktop586-0.rc5.1mdv/actuator.description:
+	  add dkms info for actuator with kernel
+	  2.6.23-tmb-desktop586-0.rc5.1mdv
+
+2007-09-09 08:02  mandrake
+
+	* dkms-modules-info/2.6.22.6-tmb-desktop586-2mdv/actuator.alias,
+	  dkms-modules-info/2.6.22.6-tmb-desktop586-2mdv/actuator.description:
+	  add dkms info for actuator with kernel
+	  2.6.22.6-tmb-desktop586-2mdv
+
+2007-09-09 08:01  mandrake
+
+	* dkms-modules-info/2.6.23-0.rc2.rt2.1mdvsmp/actuator.alias,
+	  dkms-modules-info/2.6.23-0.rc2.rt2.1mdvsmp/actuator.description:
+	  add dkms info for actuator with kernel 2.6.23-0.rc2.rt2.1mdvsmp
+
+2007-09-09 08:01  mandrake
+
+	* dkms-modules-info/2.6.23-0.rc4.mm1.1mdv/actuator.alias,
+	  dkms-modules-info/2.6.23-0.rc4.mm1.1mdv/actuator.description: add
+	  dkms info for actuator with kernel 2.6.23-0.rc4.mm1.1mdv
+
+2007-09-09 08:00  mandrake
+
+	* dkms-modules-info/2.6.23-0.rc5.2mdvsmp,
+	  dkms-modules-info/2.6.23-0.rc5.2mdvsmp/actuator.alias,
+	  dkms-modules-info/2.6.23-0.rc5.2mdvsmp/actuator.description: add
+	  dkms info for actuator with kernel 2.6.23-0.rc5.2mdvsmp
+
+2007-09-09 08:00  mandrake
+
+	* dkms-modules-info/2.6.22.6-tmb-server-2mdv/actuator.alias,
+	  dkms-modules-info/2.6.22.6-tmb-server-2mdv/actuator.description:
+	  add dkms info for actuator with kernel 2.6.22.6-tmb-server-2mdv
+
+2007-09-09 08:00  mandrake
+
+	* dkms-modules-info/2.6.17.14-mm-laptop-9mdv/actuator.alias,
+	  dkms-modules-info/2.6.17.14-mm-laptop-9mdv/actuator.description:
+	  add dkms info for actuator with kernel 2.6.17.14-mm-laptop-9mdv
+
+2007-09-09 08:00  mandrake
+
+	* dkms-modules-info/2.6.23-0.rc5.2mdv,
+	  dkms-modules-info/2.6.23-0.rc5.2mdv/actuator.alias,
+	  dkms-modules-info/2.6.23-0.rc5.2mdv/actuator.description: add
+	  dkms info for actuator with kernel 2.6.23-0.rc5.2mdv
+
+2007-09-09 08:00  mandrake
+
+	* dkms-modules-info/2.6.19.1-1mdv/actuator.alias,
+	  dkms-modules-info/2.6.19.1-1mdv/actuator.description: add dkms
+	  info for actuator with kernel 2.6.19.1-1mdv
+
+2007-09-09 00:50  Adam Williamson <awilliamson at mandriva.com>
+
+	* ChangeLog: Generated by svn2cl the 08_Sep
+
 2007-09-09 00:50  Adam Williamson <awilliamson at mandriva.com>
 
 	* lst/Cards+, lst/pcitable: revert to vesa driver for most Radeon
