@@ -59,4 +59,4 @@ install: $(TMP_TABLES) $(TABLES3)
 	install -m 644 ScannerDB.gz scannerconfigs Cards+ MonitorsDB isdn.db $(dir)
 
 	install -m 644 fallback-modules.alias $(dir)/fallback-modules.alias
-	install -m 644 preferred-modules.alias $(dir)/preferred-modules.alias
+	install -m 644 preferred-modules.alias $(slibdir)/module-init-tools/ldetect-lst-modules.alias
