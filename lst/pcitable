@@ -338,7 +338,7 @@
 0x1002	0x7180	"Card:ATI Radeon X1300 - X1950"
 0x1002	0x7181	"Card:ATI Radeon X1300 - X1950"
 0x1002	0x7183	"Card:ATI Radeon X1300 - X1950"
-0x1002	0x7186	"Card:ATI Radeon X1300 - X1950"
+0x1002	0x7186	"Card:ATI Radeon X1300 - X1950 (working with avivo driver)"
 0x1002	0x7187	"Card:ATI Radeon X1300 - X1950"
 0x1002	0x7188	"Card:ATI Radeon X1300 - X1950"
 0x1002	0x718a	"Card:ATI Radeon X1300 - X1950"
