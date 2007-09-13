@@ -1779,6 +1779,7 @@ Generic; Flat Panel 1024x768; 0; 31.5-55; 40-70
 Generic; Flat Panel 1280x1024; 0; 31.5-90; 60
 Generic; Flat Panel 1280x768; 0; 31.5-90; 60
 Generic; Flat Panel 1280x800; 0; 31.5-90; 60
+Generic; Flat Panel 1360x768; 0; 31.5-90; 60
 Generic; Flat Panel 1400x1050; 0; 31.5-90; 60
 Generic; Flat Panel 1440x900; 0; 31.5-90; 60
 Generic; Flat Panel 1600x1200; 0; 31.5-90; 60
@@ -2133,6 +2134,7 @@ Hyundai Electronics Industries Co., Ltd.; Hyundai ImageFlat F910; heif910; 30.0-
 Hyundai Electronics Industries Co., Ltd.; Hyundai Image Quest B91A; HIQ500a; 31-83; 56-75; 1280x1024
 Hyundai Electronics Industries Co., Ltd.; Hyundai Image Quest L70S+; IQT0704; 31-80; 56-75; 1280x1024
 Hyundai Electronics Industries Co., Ltd.; Hyundai Image Quest Q17; IQT217a; 31-80; 56-75; 1
+Hyundai Electronics Industries Co., Ltd.; Hyundai Q320WD D-sub; HIQ500c; 31-83; 56-85; 1360x768
 IBM; IBM 2112; ibm2112; 31.0-38.0; 50.0-80.0; 1
 IBM; IBM 2113; ibm2113; 31.0-38.0; 50.0-80.0; 1
 IBM; IBM 2114; ibm2114; 31.0-62.0; 50.0-120.0; 1
