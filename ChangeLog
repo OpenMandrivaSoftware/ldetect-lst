@@ -1,3 +1,8 @@
+2007-09-17 18:18  Adam Williamson <awilliamson at mandriva.com>
+
+	* Makefile, lst/pcitable: add several GeForce IDs from latest
+	  Windows beta driver .inf
+
 
 2007-09-17 15:52  Adam Williamson <awilliamson at mandriva.com>
 
