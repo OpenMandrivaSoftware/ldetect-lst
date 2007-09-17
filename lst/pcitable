@@ -367,6 +367,8 @@
 0x1002	0x71da	"Card:ATI Radeon X1300 - X1950"
 0x1002	0x71de	"Card:ATI Radeon X1300 - X1950"
 0x1002	0x71e7	"Card:ATI Radeon X1300 - X1950"
+0x1002	0x7210	"Card:ATI Radeon HD 2300 and later"
+0x1002	0x7211	"Card:ATI Radeon HD 2300 and later"
 0x1002	0x7240	"Card:ATI Radeon X1300 - X1950"
 0x1002	0x7241	"Card:ATI Radeon X1300 - X1950"
 0x1002	0x7242	"Card:ATI Radeon X1300 - X1950"
