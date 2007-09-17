@@ -5445,6 +5445,7 @@
 0x16ab	0x1102	"unknown"	"Global Sun Technology Inc|PCMCIA-to-PCI Wireless Network Bridge"
 0x16ae	0x1141	"unknown"	"Safenet Inc|SafeXcel-1141"
 0x16ca	0x0001	"unknown"	"CENATEK Inc|Rocket Drive DL"
+0x16d5	0x6501	"usbserial"
 0x16e3	0x1e0f	"unknown"	"European Space Agency|LEON2FT Processor"
 0x16ec	0x00ff	"unknown"	"U.S. Robotics|USR997900 10/100 Mbps PCI Network Card"
 0x16ec	0x3685	"unknown"	"U.S. Robotics|Wireless Access PCI Adapter Model 022415"
