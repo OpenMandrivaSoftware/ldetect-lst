@@ -1,3 +1,8 @@
+2007-09-17 18:53  Adam Williamson <awilliamson at mandriva.com>
+
+	* Makefile, lst/pcitable: use proprietary driver for AGP HD 2xxx
+	  cards, as it turns out the AGP bridge bug is not so terrible
+
 2007-09-17 18:18  Adam Williamson <awilliamson at mandriva.com>
 
 	* Makefile, lst/pcitable: add several GeForce IDs from latest
