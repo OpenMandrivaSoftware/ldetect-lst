@@ -18,12 +18,9 @@ my %filters = (
 );
 
 foreach my $kver (grep { $_ ne ".svn" && -d $_ } all(".")) {
-	    warn "--> $kver\n" if $kver =~ /19/;
     foreach my $file (all($kver)) {
-	    warn ">> $file\n" if my $debug = $kver =~ /19/ && $file =~ /adm8211/;
         my ($module, $type) = $file =~ /^(.+)\.(.+?)$/ or next;
         push @{$fields{$type}{$module}}, chomp_(cat_($kver . '/' . $file));
-	print ">> ", $fields{$type}{$module}[-1], "\n" if $debug;
     }
 }
 
