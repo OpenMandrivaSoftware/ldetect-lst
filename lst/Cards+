@@ -98,6 +98,14 @@ NAME S3 UniChrome-based cards without 3D support
 DRIVER openchrome
 LINE Option	"SWcursor"
 
+# See bug #33535. This specific adapter doesn't work with 3D with
+# openchrome any more, but does work with the old via driver.
+
+NAME VIA K8M800 UniChrome
+DRIVER via
+DRI_GLX
+LINE Option	"SWcursor"
+
 # These devices have better support in the official viaarena driver than
 # in openchrome, according to pcpa as of 2007/09
 
