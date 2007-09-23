@@ -12,7 +12,8 @@ my @ignored_modules = (
     qr/_rng$/,
 );
 my @preferred_modules = (
-    "ata_piix", #- prefer over ahci (arbitrary choice, install will try both), depends on BIOS setting
+    "ahci", #- prefer over ata_piix (install will still try both), depends on BIOS settins
+            #- do not prefer ata_piix, since it would override piix choice
     "bcm43xx", #- prefer over b43, b43legacy and ssb
     "dpt_i2o", #- prefer over i2o_core
     "dmfe", #- prefer over tulip, it only lists supported devices
