@@ -6,6 +6,10 @@ use MDK::Common;
 use list_modules;
 use modalias;
 
+#- known bugs:
+#- o does not match subvendors, they have to be handled on a case-by-case basis
+#- o does not match PCI class (thus ahci won't match jmicron devices)
+
 my @ignored_modules = (
     "ata_generic", #- prefer "generic" non-libata module or full implementation
     "intelfb", "savagefb", "tdfxfb", qr/_agp$/,
