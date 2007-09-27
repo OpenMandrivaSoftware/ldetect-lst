@@ -27,6 +27,7 @@ my @preferred_modules = (
     "mxser_new", #- experimental clone of mxser
     "pata_netcell", "pata_ns87410", #- no non-libata implementation, prefer over generic module
     "prism54", #- prefer over p54pci
+    "ipw3945", #- prefer over iwl3945, which has some stability/performance issues
     "rt2400", "rt2500", "rt2570", "rt61", "rt73", #- prefer legacy Ralink drivers
     "skge", #- prefer over sk98lin
     qr/^snd_/, #- prefer alsa drivers
