@@ -2065,7 +2065,7 @@
 0x8086	0x2992	"Card:Intel 810 and later"
 0x8086	0x29a2	"Card:Intel 810 and later"
 0x8086	0x29c2	"Card:Intel 810 and later"
-0x8086	0x2a02	"Card:VESA driver (generic)"
+0x8086	0x2a02	"Card:Intel 810 and later"
 0x8086	0x3577	"Card:Intel 810 and later"
 0x8086	0x3582	"Card:Intel 810 and later"
 0x8086	0x5200	"eepro100"
