@@ -1,3 +1,1250 @@
+2007-09-28 11:39  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* Makefile: 0.1.195
+
+2007-09-28 11:38  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* dkms-modules-info/2.6.22.6-desktop-3mdv,
+	  dkms-modules-info/2.6.22.6-desktop586-3mdv,
+	  dkms-modules-info/2.6.22.6-laptop-3mdv,
+	  dkms-modules-info/2.6.22.6-server-3mdv,
+	  dkms-modules-info/2.6.22.7-desktop-1mdv,
+	  dkms-modules-info/2.6.22.7-desktop586-1mdv,
+	  dkms-modules-info/2.6.22.7-laptop-1mdv,
+	  dkms-modules-info/2.6.22.7-server-1mdv,
+	  dkms-modules-info/2.6.23-0.rc2.rt2.1mdv,
+	  dkms-modules-info/2.6.23-0.rc2.rt2.1mdvsmp,
+	  dkms-modules-info/2.6.23-0.rc4.mm1.1mdv,
+	  dkms-modules-info/2.6.23-0.rc4.mm1.1mdvsmp,
+	  dkms-modules-info/2.6.23-0.rc7.1mdv,
+	  dkms-modules-info/2.6.23-0.rc7.1mdvsmp: kill duplicated data
+
+2007-09-28 09:09  mandrake
+
+	* dkms-modules-info/2.6.22.9-laptop-1mdv/alsa_raoppcm.alias,
+	  dkms-modules-info/2.6.22.9-laptop-1mdv/alsa_raoppcm.description:
+	  add dkms info for alsa_raoppcm with kernel 2.6.22.9-laptop-1mdv
+
+2007-09-28 09:09  mandrake
+
+	* dkms-modules-info/2.6.20.16-krg2.1.1-1mdv/cdemu.alias,
+	  dkms-modules-info/2.6.20.16-krg2.1.1-1mdv/cdemu.description: add
+	  dkms info for cdemu with kernel 2.6.20.16-krg2.1.1-1mdv
+
+2007-09-28 09:09  mandrake
+
+	* dkms-modules-info/2.6.22.9-server-1mdv/alsa_raoppcm.alias,
+	  dkms-modules-info/2.6.22.9-server-1mdv/alsa_raoppcm.description:
+	  add dkms info for alsa_raoppcm with kernel 2.6.22.9-server-1mdv
+
+2007-09-28 09:09  mandrake
+
+	* dkms-modules-info/2.6.23-0.rc7.2mdvsmp/alsa_raoppcm.alias,
+	  dkms-modules-info/2.6.23-0.rc7.2mdvsmp/alsa_raoppcm.description:
+	  add dkms info for alsa_raoppcm with kernel 2.6.23-0.rc7.2mdvsmp
+
+2007-09-28 09:09  mandrake
+
+	* dkms-modules-info/2.6.23-0.rc7.mm1.1mdvsmp/alsa_raoppcm.alias,
+	  dkms-modules-info/2.6.23-0.rc7.mm1.1mdvsmp/alsa_raoppcm.description:
+	  add dkms info for alsa_raoppcm with kernel
+	  2.6.23-0.rc7.mm1.1mdvsmp
+
+2007-09-28 08:50  mandrake
+
+	* dkms-modules-info/2.6.17.14-mm-desktop-9mdvsmp/alsa_raoppcm.alias,
+	  dkms-modules-info/2.6.17.14-mm-desktop-9mdvsmp/alsa_raoppcm.description:
+	  add dkms info for alsa_raoppcm with kernel
+	  2.6.17.14-mm-desktop-9mdvsmp
+
+2007-09-28 08:50  mandrake
+
+	* dkms-modules-info/2.6.22.9-desktop586-1mdv/alsa_raoppcm.alias,
+	  dkms-modules-info/2.6.22.9-desktop586-1mdv/alsa_raoppcm.description:
+	  add dkms info for alsa_raoppcm with kernel
+	  2.6.22.9-desktop586-1mdv
+
+2007-09-28 08:50  mandrake
+
+	* dkms-modules-info/2.6.23-0.rc7.2mdv/alsa_raoppcm.alias,
+	  dkms-modules-info/2.6.23-0.rc7.2mdv/alsa_raoppcm.description: add
+	  dkms info for alsa_raoppcm with kernel 2.6.23-0.rc7.2mdv
+
+2007-09-28 08:50  mandrake
+
+	* dkms-modules-info/2.6.23-tmb-desktop-0.rc7.1mdv/alsa_raoppcm.alias,
+	  dkms-modules-info/2.6.23-tmb-desktop-0.rc7.1mdv/alsa_raoppcm.description:
+	  add dkms info for alsa_raoppcm with kernel
+	  2.6.23-tmb-desktop-0.rc7.1mdv
+
+2007-09-28 08:50  mandrake
+
+	* dkms-modules-info/2.6.22.9-desktop-1mdv/alsa_raoppcm.alias,
+	  dkms-modules-info/2.6.22.9-desktop-1mdv/alsa_raoppcm.description:
+	  add dkms info for alsa_raoppcm with kernel 2.6.22.9-desktop-1mdv
+
+2007-09-28 08:49  mandrake
+
+	* dkms-modules-info/2.6.23-0.rc8.rt1.2mdv/alsa_raoppcm.alias,
+	  dkms-modules-info/2.6.23-0.rc8.rt1.2mdv/alsa_raoppcm.description:
+	  add dkms info for alsa_raoppcm with kernel 2.6.23-0.rc8.rt1.2mdv
+
+2007-09-28 08:49  mandrake
+
+	* dkms-modules-info/2.6.23-tmb-desktop586-0.rc7.1mdv/alsa_raoppcm.alias,
+	  dkms-modules-info/2.6.23-tmb-desktop586-0.rc7.1mdv/alsa_raoppcm.description:
+	  add dkms info for alsa_raoppcm with kernel
+	  2.6.23-tmb-desktop586-0.rc7.1mdv
+
+2007-09-28 08:49  mandrake
+
+	* dkms-modules-info/2.6.23-0.rc7.mm1.1mdv/alsa_raoppcm.alias,
+	  dkms-modules-info/2.6.23-0.rc7.mm1.1mdv/alsa_raoppcm.description:
+	  add dkms info for alsa_raoppcm with kernel 2.6.23-0.rc7.mm1.1mdv
+
+2007-09-28 08:49  mandrake
+
+	* dkms-modules-info/2.6.23-0.rc8.rt1.2mdvsmp/alsa_raoppcm.alias,
+	  dkms-modules-info/2.6.23-0.rc8.rt1.2mdvsmp/alsa_raoppcm.description:
+	  add dkms info for alsa_raoppcm with kernel
+	  2.6.23-0.rc8.rt1.2mdvsmp
+
+2007-09-28 08:49  mandrake
+
+	* dkms-modules-info/2.6.23-tmb-laptop-0.rc7.1mdv/alsa_raoppcm.alias,
+	  dkms-modules-info/2.6.23-tmb-laptop-0.rc7.1mdv/alsa_raoppcm.description:
+	  add dkms info for alsa_raoppcm with kernel
+	  2.6.23-tmb-laptop-0.rc7.1mdv
+
+2007-09-28 08:49  mandrake
+
+	* dkms-modules-info/2.6.20.16-krg2.1.1-1mdv/alsa_raoppcm.alias,
+	  dkms-modules-info/2.6.20.16-krg2.1.1-1mdv/alsa_raoppcm.description:
+	  add dkms info for alsa_raoppcm with kernel
+	  2.6.20.16-krg2.1.1-1mdv
+
+2007-09-28 08:49  mandrake
+
+	* dkms-modules-info/2.6.23-tmb-server-0.rc7.1mdv/alsa_raoppcm.alias,
+	  dkms-modules-info/2.6.23-tmb-server-0.rc7.1mdv/alsa_raoppcm.description:
+	  add dkms info for alsa_raoppcm with kernel
+	  2.6.23-tmb-server-0.rc7.1mdv
+
+2007-09-28 08:49  mandrake
+
+	* dkms-modules-info/2.6.19.1-1mdv/cdemu.alias,
+	  dkms-modules-info/2.6.19.1-1mdv/cdemu.description: add dkms info
+	  for cdemu with kernel 2.6.19.1-1mdv
+
+2007-09-28 08:49  mandrake
+
+	* dkms-modules-info/2.6.19.1-1mdv/alsa_raoppcm.alias,
+	  dkms-modules-info/2.6.19.1-1mdv/alsa_raoppcm.description: add
+	  dkms info for alsa_raoppcm with kernel 2.6.19.1-1mdv
+
+2007-09-28 08:19  mandrake
+
+	* dkms-modules-info/2.6.22.9-laptop-1mdv/cdemu.alias,
+	  dkms-modules-info/2.6.22.9-laptop-1mdv/cdemu.description: add
+	  dkms info for cdemu with kernel 2.6.22.9-laptop-1mdv
+
+2007-09-28 08:19  mandrake
+
+	* dkms-modules-info/2.6.22.9-desktop586-1mdv/cdemu.alias,
+	  dkms-modules-info/2.6.22.9-desktop586-1mdv/cdemu.description: add
+	  dkms info for cdemu with kernel 2.6.22.9-desktop586-1mdv
+
+2007-09-28 08:19  mandrake
+
+	* dkms-modules-info/2.6.22.9-desktop-1mdv/cdemu.alias,
+	  dkms-modules-info/2.6.22.9-desktop-1mdv/cdemu.description: add
+	  dkms info for cdemu with kernel 2.6.22.9-desktop-1mdv
+
+2007-09-28 08:18  mandrake
+
+	* dkms-modules-info/2.6.22.9-server-1mdv/cdemu.alias,
+	  dkms-modules-info/2.6.22.9-server-1mdv/cdemu.description: add
+	  dkms info for cdemu with kernel 2.6.22.9-server-1mdv
+
+2007-09-28 08:09  mandrake
+
+	* dkms-modules-info/2.6.23-0.rc8.rt1.2mdvsmp/actuator.alias,
+	  dkms-modules-info/2.6.23-0.rc8.rt1.2mdvsmp/actuator.description:
+	  add dkms info for actuator with kernel 2.6.23-0.rc8.rt1.2mdvsmp
+
+2007-09-28 08:09  mandrake
+
+	* dkms-modules-info/2.6.23-0.rc8.rt1.2mdvsmp,
+	  dkms-modules-info/2.6.23-0.rc8.rt1.2mdvsmp/fusion.alias,
+	  dkms-modules-info/2.6.23-0.rc8.rt1.2mdvsmp/fusion.description:
+	  add dkms info for fusion with kernel 2.6.23-0.rc8.rt1.2mdvsmp
+
+2007-09-28 08:09  mandrake
+
+	* dkms-modules-info/2.6.23-0.rc8.rt1.2mdv/actuator.alias,
+	  dkms-modules-info/2.6.23-0.rc8.rt1.2mdv/actuator.description: add
+	  dkms info for actuator with kernel 2.6.23-0.rc8.rt1.2mdv
+
+2007-09-28 08:08  mandrake
+
+	* dkms-modules-info/2.6.23-0.rc8.rt1.2mdv,
+	  dkms-modules-info/2.6.23-0.rc8.rt1.2mdv/fusion.alias,
+	  dkms-modules-info/2.6.23-0.rc8.rt1.2mdv/fusion.description: add
+	  dkms info for fusion with kernel 2.6.23-0.rc8.rt1.2mdv
+
+2007-09-28 03:49  mandrake
+
+	* dkms-modules-info/2.6.22.9-desktop-1mdv/ath_hal.alias,
+	  dkms-modules-info/2.6.22.9-desktop-1mdv/ath_hal.description,
+	  dkms-modules-info/2.6.22.9-desktop-1mdv/ath_pci.alias,
+	  dkms-modules-info/2.6.22.9-desktop-1mdv/ath_pci.description,
+	  dkms-modules-info/2.6.22.9-desktop-1mdv/ath_rate_amrr.alias,
+	  dkms-modules-info/2.6.22.9-desktop-1mdv/ath_rate_amrr.description,
+	  dkms-modules-info/2.6.22.9-desktop-1mdv/ath_rate_onoe.alias,
+	  dkms-modules-info/2.6.22.9-desktop-1mdv/ath_rate_onoe.description,
+	  dkms-modules-info/2.6.22.9-desktop-1mdv/ath_rate_sample.alias,
+	  dkms-modules-info/2.6.22.9-desktop-1mdv/ath_rate_sample.description,
+	  dkms-modules-info/2.6.22.9-desktop-1mdv/wlan.alias,
+	  dkms-modules-info/2.6.22.9-desktop-1mdv/wlan.description,
+	  dkms-modules-info/2.6.22.9-desktop-1mdv/wlan_acl.alias,
+	  dkms-modules-info/2.6.22.9-desktop-1mdv/wlan_acl.description,
+	  dkms-modules-info/2.6.22.9-desktop-1mdv/wlan_ccmp.alias,
+	  dkms-modules-info/2.6.22.9-desktop-1mdv/wlan_ccmp.description,
+	  dkms-modules-info/2.6.22.9-desktop-1mdv/wlan_scan_ap.alias,
+	  dkms-modules-info/2.6.22.9-desktop-1mdv/wlan_scan_ap.description,
+	  dkms-modules-info/2.6.22.9-desktop-1mdv/wlan_scan_sta.alias,
+	  dkms-modules-info/2.6.22.9-desktop-1mdv/wlan_scan_sta.description,
+	  dkms-modules-info/2.6.22.9-desktop-1mdv/wlan_tkip.alias,
+	  dkms-modules-info/2.6.22.9-desktop-1mdv/wlan_tkip.description,
+	  dkms-modules-info/2.6.22.9-desktop-1mdv/wlan_wep.alias,
+	  dkms-modules-info/2.6.22.9-desktop-1mdv/wlan_wep.description,
+	  dkms-modules-info/2.6.22.9-desktop-1mdv/wlan_xauth.alias,
+	  dkms-modules-info/2.6.22.9-desktop-1mdv/wlan_xauth.description:
+	  add dkms info for madwifi with kernel 2.6.22.9-desktop-1mdv
+
+2007-09-28 03:39  mandrake
+
+	* dkms-modules-info/2.6.22.9-server-1mdv/ath_hal.alias,
+	  dkms-modules-info/2.6.22.9-server-1mdv/ath_hal.description,
+	  dkms-modules-info/2.6.22.9-server-1mdv/ath_pci.alias,
+	  dkms-modules-info/2.6.22.9-server-1mdv/ath_pci.description,
+	  dkms-modules-info/2.6.22.9-server-1mdv/ath_rate_amrr.alias,
+	  dkms-modules-info/2.6.22.9-server-1mdv/ath_rate_amrr.description,
+	  dkms-modules-info/2.6.22.9-server-1mdv/ath_rate_onoe.alias,
+	  dkms-modules-info/2.6.22.9-server-1mdv/ath_rate_onoe.description,
+	  dkms-modules-info/2.6.22.9-server-1mdv/ath_rate_sample.alias,
+	  dkms-modules-info/2.6.22.9-server-1mdv/ath_rate_sample.description,
+	  dkms-modules-info/2.6.22.9-server-1mdv/wlan.alias,
+	  dkms-modules-info/2.6.22.9-server-1mdv/wlan.description,
+	  dkms-modules-info/2.6.22.9-server-1mdv/wlan_acl.alias,
+	  dkms-modules-info/2.6.22.9-server-1mdv/wlan_acl.description,
+	  dkms-modules-info/2.6.22.9-server-1mdv/wlan_ccmp.alias,
+	  dkms-modules-info/2.6.22.9-server-1mdv/wlan_ccmp.description,
+	  dkms-modules-info/2.6.22.9-server-1mdv/wlan_scan_ap.alias,
+	  dkms-modules-info/2.6.22.9-server-1mdv/wlan_scan_ap.description,
+	  dkms-modules-info/2.6.22.9-server-1mdv/wlan_scan_sta.alias,
+	  dkms-modules-info/2.6.22.9-server-1mdv/wlan_scan_sta.description,
+	  dkms-modules-info/2.6.22.9-server-1mdv/wlan_tkip.alias,
+	  dkms-modules-info/2.6.22.9-server-1mdv/wlan_tkip.description,
+	  dkms-modules-info/2.6.22.9-server-1mdv/wlan_wep.alias,
+	  dkms-modules-info/2.6.22.9-server-1mdv/wlan_wep.description,
+	  dkms-modules-info/2.6.22.9-server-1mdv/wlan_xauth.alias,
+	  dkms-modules-info/2.6.22.9-server-1mdv/wlan_xauth.description:
+	  add dkms info for madwifi with kernel 2.6.22.9-server-1mdv
+
+2007-09-28 03:39  mandrake
+
+	* dkms-modules-info/2.6.22.9-laptop-1mdv/ath_hal.alias,
+	  dkms-modules-info/2.6.22.9-laptop-1mdv/ath_hal.description,
+	  dkms-modules-info/2.6.22.9-laptop-1mdv/ath_pci.alias,
+	  dkms-modules-info/2.6.22.9-laptop-1mdv/ath_pci.description,
+	  dkms-modules-info/2.6.22.9-laptop-1mdv/ath_rate_amrr.alias,
+	  dkms-modules-info/2.6.22.9-laptop-1mdv/ath_rate_amrr.description,
+	  dkms-modules-info/2.6.22.9-laptop-1mdv/ath_rate_onoe.alias,
+	  dkms-modules-info/2.6.22.9-laptop-1mdv/ath_rate_onoe.description,
+	  dkms-modules-info/2.6.22.9-laptop-1mdv/ath_rate_sample.alias,
+	  dkms-modules-info/2.6.22.9-laptop-1mdv/ath_rate_sample.description,
+	  dkms-modules-info/2.6.22.9-laptop-1mdv/wlan.alias,
+	  dkms-modules-info/2.6.22.9-laptop-1mdv/wlan.description,
+	  dkms-modules-info/2.6.22.9-laptop-1mdv/wlan_acl.alias,
+	  dkms-modules-info/2.6.22.9-laptop-1mdv/wlan_acl.description,
+	  dkms-modules-info/2.6.22.9-laptop-1mdv/wlan_ccmp.alias,
+	  dkms-modules-info/2.6.22.9-laptop-1mdv/wlan_ccmp.description,
+	  dkms-modules-info/2.6.22.9-laptop-1mdv/wlan_scan_ap.alias,
+	  dkms-modules-info/2.6.22.9-laptop-1mdv/wlan_scan_ap.description,
+	  dkms-modules-info/2.6.22.9-laptop-1mdv/wlan_scan_sta.alias,
+	  dkms-modules-info/2.6.22.9-laptop-1mdv/wlan_scan_sta.description,
+	  dkms-modules-info/2.6.22.9-laptop-1mdv/wlan_tkip.alias,
+	  dkms-modules-info/2.6.22.9-laptop-1mdv/wlan_tkip.description,
+	  dkms-modules-info/2.6.22.9-laptop-1mdv/wlan_wep.alias,
+	  dkms-modules-info/2.6.22.9-laptop-1mdv/wlan_wep.description,
+	  dkms-modules-info/2.6.22.9-laptop-1mdv/wlan_xauth.alias,
+	  dkms-modules-info/2.6.22.9-laptop-1mdv/wlan_xauth.description:
+	  add dkms info for madwifi with kernel 2.6.22.9-laptop-1mdv
+
+2007-09-27 22:53  Olivier Blin <oblin at mandriva.com>
+
+	* Makefile: 0.1.194
+
+2007-09-27 22:53  Olivier Blin <oblin at mandriva.com>
+
+	* convert/uniquify-modalias.pl: prefer ipw3945 over iwl3945, which
+	  has some stability/performance issues
+
+2007-09-27 10:41  mandrake
+
+	* dkms-modules-info/2.6.22.9-desktop586-1mdv/fglrx.alias,
+	  dkms-modules-info/2.6.22.9-desktop586-1mdv/fglrx.description: add
+	  dkms info for fglrx with kernel 2.6.22.9-desktop586-1mdv
+
+2007-09-27 10:40  mandrake
+
+	* dkms-modules-info/2.6.22.9-desktop-1mdv/fglrx-hd2000.alias,
+	  dkms-modules-info/2.6.22.9-desktop-1mdv/fglrx-hd2000.description:
+	  add dkms info for fglrx-hd2000 with kernel 2.6.22.9-desktop-1mdv
+
+2007-09-27 10:40  mandrake
+
+	* dkms-modules-info/2.6.22.7-desktop-1mdv/fglrx.alias,
+	  dkms-modules-info/2.6.22.7-desktop-1mdv/fglrx.description: add
+	  dkms info for fglrx with kernel 2.6.22.7-desktop-1mdv
+
+2007-09-27 10:40  mandrake
+
+	* dkms-modules-info/2.6.22.9-server-1mdv/nvidia71xx.alias,
+	  dkms-modules-info/2.6.22.9-server-1mdv/nvidia71xx.description:
+	  add dkms info for nvidia71xx with kernel 2.6.22.9-server-1mdv
+
+2007-09-27 10:40  mandrake
+
+	* dkms-modules-info/2.6.22.9-laptop-1mdv/nvidia71xx.alias,
+	  dkms-modules-info/2.6.22.9-laptop-1mdv/nvidia71xx.description:
+	  add dkms info for nvidia71xx with kernel 2.6.22.9-laptop-1mdv
+
+2007-09-27 10:40  mandrake
+
+	* dkms-modules-info/2.6.22.9-server-1mdv/fglrx.alias,
+	  dkms-modules-info/2.6.22.9-server-1mdv/fglrx.description: add
+	  dkms info for fglrx with kernel 2.6.22.9-server-1mdv
+
+2007-09-27 10:40  mandrake
+
+	* dkms-modules-info/2.6.22.9-desktop586-1mdv/nvidia96xx.alias,
+	  dkms-modules-info/2.6.22.9-desktop586-1mdv/nvidia96xx.description:
+	  add dkms info for nvidia96xx with kernel 2.6.22.9-desktop586-1mdv
+
+2007-09-27 10:40  mandrake
+
+	* dkms-modules-info/2.6.22.9-desktop-1mdv/nvidia-current.alias,
+	  dkms-modules-info/2.6.22.9-desktop-1mdv/nvidia-current.description:
+	  add dkms info for nvidia-current with kernel
+	  2.6.22.9-desktop-1mdv
+
+2007-09-27 10:40  mandrake
+
+	* dkms-modules-info/2.6.22.9-laptop-1mdv/fglrx-hd2000.alias,
+	  dkms-modules-info/2.6.22.9-laptop-1mdv/fglrx-hd2000.description:
+	  add dkms info for fglrx-hd2000 with kernel 2.6.22.9-laptop-1mdv
+
+2007-09-27 10:40  mandrake
+
+	* dkms-modules-info/2.6.22.9-laptop-1mdv/fglrx.alias,
+	  dkms-modules-info/2.6.22.9-laptop-1mdv/fglrx.description: add
+	  dkms info for fglrx with kernel 2.6.22.9-laptop-1mdv
+
+2007-09-27 10:39  mandrake
+
+	* dkms-modules-info/2.6.22.9-desktop-1mdv/fuse.alias,
+	  dkms-modules-info/2.6.22.9-desktop-1mdv/fuse.description: add
+	  dkms info for fuse with kernel 2.6.22.9-desktop-1mdv
+
+2007-09-27 10:39  mandrake
+
+	* dkms-modules-info/2.6.22.7-laptop-1mdv/nvidia96xx.alias,
+	  dkms-modules-info/2.6.22.7-laptop-1mdv/nvidia96xx.description:
+	  add dkms info for nvidia96xx with kernel 2.6.22.7-laptop-1mdv
+
+2007-09-27 10:39  mandrake
+
+	* dkms-modules-info/2.6.22.7-server-1mdv/fuse.alias,
+	  dkms-modules-info/2.6.22.7-server-1mdv/fuse.description: add dkms
+	  info for fuse with kernel 2.6.22.7-server-1mdv
+
+2007-09-27 10:39  mandrake
+
+	* dkms-modules-info/2.6.22.9-desktop586-1mdv/fuse.alias,
+	  dkms-modules-info/2.6.22.9-desktop586-1mdv/fuse.description: add
+	  dkms info for fuse with kernel 2.6.22.9-desktop586-1mdv
+
+2007-09-27 10:39  mandrake
+
+	* dkms-modules-info/2.6.22.9-server-1mdv/nvidia96xx.alias,
+	  dkms-modules-info/2.6.22.9-server-1mdv/nvidia96xx.description:
+	  add dkms info for nvidia96xx with kernel 2.6.22.9-server-1mdv
+
+2007-09-27 10:39  mandrake
+
+	* dkms-modules-info/2.6.22.9-laptop-1mdv/fuse.alias,
+	  dkms-modules-info/2.6.22.9-laptop-1mdv/fuse.description: add dkms
+	  info for fuse with kernel 2.6.22.9-laptop-1mdv
+
+2007-09-27 10:09  mandrake
+
+	* dkms-modules-info/2.6.22.9-laptop-1mdv/nvidia-current.alias,
+	  dkms-modules-info/2.6.22.9-laptop-1mdv/nvidia-current.description:
+	  add dkms info for nvidia-current with kernel 2.6.22.9-laptop-1mdv
+
+2007-09-27 10:09  mandrake
+
+	* dkms-modules-info/2.6.22.9-desktop586-1mdv/nvidia-current.alias,
+	  dkms-modules-info/2.6.22.9-desktop586-1mdv/nvidia-current.description:
+	  add dkms info for nvidia-current with kernel
+	  2.6.22.9-desktop586-1mdv
+
+2007-09-27 10:09  mandrake
+
+	* dkms-modules-info/2.6.22.7-desktop586-1mdv/fglrx-hd2000.alias,
+	  dkms-modules-info/2.6.22.7-desktop586-1mdv/fglrx-hd2000.description:
+	  add dkms info for fglrx-hd2000 with kernel
+	  2.6.22.7-desktop586-1mdv
+
+2007-09-27 10:09  mandrake
+
+	* dkms-modules-info/2.6.22.7-desktop-1mdv/libafs.alias,
+	  dkms-modules-info/2.6.22.7-desktop-1mdv/libafs.description: add
+	  dkms info for libafs with kernel 2.6.22.7-desktop-1mdv
+
+2007-09-27 10:09  mandrake
+
+	* dkms-modules-info/2.6.22.9-server-1mdv/nvidia-current.alias,
+	  dkms-modules-info/2.6.22.9-server-1mdv/nvidia-current.description:
+	  add dkms info for nvidia-current with kernel 2.6.22.9-server-1mdv
+
+2007-09-27 10:09  mandrake
+
+	* dkms-modules-info/2.6.22.9-server-1mdv/fglrx-hd2000.alias,
+	  dkms-modules-info/2.6.22.9-server-1mdv/fglrx-hd2000.description:
+	  add dkms info for fglrx-hd2000 with kernel 2.6.22.9-server-1mdv
+
+2007-09-27 10:09  mandrake
+
+	* dkms-modules-info/2.6.22.7-desktop-1mdv/nvidia96xx.alias,
+	  dkms-modules-info/2.6.22.7-desktop-1mdv/nvidia96xx.description:
+	  add dkms info for nvidia96xx with kernel 2.6.22.7-desktop-1mdv
+
+2007-09-27 09:49  mandrake
+
+	* dkms-modules-info/2.6.22.9-desktop586-1mdv/nvidia71xx.alias,
+	  dkms-modules-info/2.6.22.9-desktop586-1mdv/nvidia71xx.description:
+	  add dkms info for nvidia71xx with kernel 2.6.22.9-desktop586-1mdv
+
+2007-09-27 09:48  mandrake
+
+	* dkms-modules-info/2.6.22.9-desktop-1mdv/nvidia71xx.alias,
+	  dkms-modules-info/2.6.22.9-desktop-1mdv/nvidia71xx.description:
+	  add dkms info for nvidia71xx with kernel 2.6.22.9-desktop-1mdv
+
+2007-09-27 08:50  mandrake
+
+	* dkms-modules-info/2.6.22.7-laptop-1mdv/iscsi_trgt.alias,
+	  dkms-modules-info/2.6.22.7-laptop-1mdv/iscsi_trgt.description:
+	  add dkms info for iscsitarget with kernel 2.6.22.7-laptop-1mdv
+
+2007-09-27 08:50  mandrake
+
+	* dkms-modules-info/2.6.22.7-desktop-1mdv/iscsi_trgt.alias,
+	  dkms-modules-info/2.6.22.7-desktop-1mdv/iscsi_trgt.description:
+	  add dkms info for iscsitarget with kernel 2.6.22.7-desktop-1mdv
+
+2007-09-27 08:50  mandrake
+
+	* dkms-modules-info/2.6.22.9-laptop-1mdv/et131x.alias,
+	  dkms-modules-info/2.6.22.9-laptop-1mdv/et131x.description: add
+	  dkms info for et131x with kernel 2.6.22.9-laptop-1mdv
+
+2007-09-27 08:50  mandrake
+
+	* dkms-modules-info/2.6.22.9-desktop586-1mdv/realcrypt.alias,
+	  dkms-modules-info/2.6.22.9-desktop586-1mdv/realcrypt.description:
+	  add dkms info for realcrypt with kernel 2.6.22.9-desktop586-1mdv
+
+2007-09-27 08:50  mandrake
+
+	* dkms-modules-info/2.6.22.9-desktop-1mdv/realcrypt.alias,
+	  dkms-modules-info/2.6.22.9-desktop-1mdv/realcrypt.description:
+	  add dkms info for realcrypt with kernel 2.6.22.9-desktop-1mdv
+
+2007-09-27 08:50  mandrake
+
+	* dkms-modules-info/2.6.22.9-desktop586-1mdv/iscsi_trgt.alias,
+	  dkms-modules-info/2.6.22.9-desktop586-1mdv/iscsi_trgt.description:
+	  add dkms info for iscsitarget with kernel
+	  2.6.22.9-desktop586-1mdv
+
+2007-09-27 08:50  mandrake
+
+	* dkms-modules-info/2.6.22.7-desktop586-1mdv/iscsi_trgt.alias,
+	  dkms-modules-info/2.6.22.7-desktop586-1mdv/iscsi_trgt.description:
+	  add dkms info for iscsitarget with kernel
+	  2.6.22.7-desktop586-1mdv
+
+2007-09-27 08:49  mandrake
+
+	* dkms-modules-info/2.6.22.9-server-1mdv/realcrypt.alias,
+	  dkms-modules-info/2.6.22.9-server-1mdv/realcrypt.description: add
+	  dkms info for realcrypt with kernel 2.6.22.9-server-1mdv
+
+2007-09-27 08:49  mandrake
+
+	* dkms-modules-info/2.6.22.9-laptop-1mdv/realcrypt.alias,
+	  dkms-modules-info/2.6.22.9-laptop-1mdv/realcrypt.description: add
+	  dkms info for realcrypt with kernel 2.6.22.9-laptop-1mdv
+
+2007-09-27 08:49  mandrake
+
+	* dkms-modules-info/2.6.22.7-desktop586-1mdv/realcrypt.alias,
+	  dkms-modules-info/2.6.22.7-desktop586-1mdv/realcrypt.description:
+	  add dkms info for realcrypt with kernel 2.6.22.7-desktop586-1mdv
+
+2007-09-27 08:49  mandrake
+
+	* dkms-modules-info/2.6.22.7-desktop-1mdv/realcrypt.alias,
+	  dkms-modules-info/2.6.22.7-desktop-1mdv/realcrypt.description:
+	  add dkms info for realcrypt with kernel 2.6.22.7-desktop-1mdv
+
+2007-09-27 08:49  mandrake
+
+	* dkms-modules-info/2.6.22.9-laptop-1mdv/fusion.alias,
+	  dkms-modules-info/2.6.22.9-laptop-1mdv/fusion.description: add
+	  dkms info for fusion with kernel 2.6.22.9-laptop-1mdv
+
+2007-09-27 08:49  mandrake
+
+	* dkms-modules-info/2.6.22.7-server-1mdv/iscsi_trgt.alias,
+	  dkms-modules-info/2.6.22.7-server-1mdv/iscsi_trgt.description:
+	  add dkms info for iscsitarget with kernel 2.6.22.7-server-1mdv
+
+2007-09-27 08:49  mandrake
+
+	* dkms-modules-info/2.6.22.9-server-1mdv/iscsi_trgt.alias,
+	  dkms-modules-info/2.6.22.9-server-1mdv/iscsi_trgt.description:
+	  add dkms info for iscsitarget with kernel 2.6.22.9-server-1mdv
+
+2007-09-27 08:49  mandrake
+
+	* dkms-modules-info/2.6.22.9-desktop-1mdv/et131x.alias,
+	  dkms-modules-info/2.6.22.9-desktop-1mdv/et131x.description: add
+	  dkms info for et131x with kernel 2.6.22.9-desktop-1mdv
+
+2007-09-27 08:49  mandrake
+
+	* dkms-modules-info/2.6.22.7-server-1mdv/realcrypt.alias,
+	  dkms-modules-info/2.6.22.7-server-1mdv/realcrypt.description: add
+	  dkms info for realcrypt with kernel 2.6.22.7-server-1mdv
+
+2007-09-27 08:49  mandrake
+
+	* dkms-modules-info/2.6.22.9-desktop586-1mdv/et131x.alias,
+	  dkms-modules-info/2.6.22.9-desktop586-1mdv/et131x.description:
+	  add dkms info for et131x with kernel 2.6.22.9-desktop586-1mdv
+
+2007-09-27 08:48  mandrake
+
+	* dkms-modules-info/2.6.22.9-desktop-1mdv/fusion.alias,
+	  dkms-modules-info/2.6.22.9-desktop-1mdv/fusion.description: add
+	  dkms info for fusion with kernel 2.6.22.9-desktop-1mdv
+
+2007-09-27 08:38  mandrake
+
+	* dkms-modules-info/2.6.22.7-laptop-1mdv/realcrypt.alias,
+	  dkms-modules-info/2.6.22.7-laptop-1mdv/realcrypt.description: add
+	  dkms info for realcrypt with kernel 2.6.22.7-laptop-1mdv
+
+2007-09-27 08:38  mandrake
+
+	* dkms-modules-info/2.6.22.9-desktop586-1mdv/fusion.alias,
+	  dkms-modules-info/2.6.22.9-desktop586-1mdv/fusion.description:
+	  add dkms info for fusion with kernel 2.6.22.9-desktop586-1mdv
+
+2007-09-27 08:18  mandrake
+
+	* dkms-modules-info/2.6.22.9-desktop-1mdv/iscsi_trgt.alias,
+	  dkms-modules-info/2.6.22.9-desktop-1mdv/iscsi_trgt.description:
+	  add dkms info for iscsitarget with kernel 2.6.22.9-desktop-1mdv
+
+2007-09-27 08:18  mandrake
+
+	* dkms-modules-info/2.6.22.9-laptop-1mdv/iscsi_trgt.alias,
+	  dkms-modules-info/2.6.22.9-laptop-1mdv/iscsi_trgt.description:
+	  add dkms info for iscsitarget with kernel 2.6.22.9-laptop-1mdv
+
+2007-09-27 08:09  mandrake
+
+	* dkms-modules-info/2.6.22.9-server-1mdv/et131x.alias,
+	  dkms-modules-info/2.6.22.9-server-1mdv/et131x.description: add
+	  dkms info for et131x with kernel 2.6.22.9-server-1mdv
+
+2007-09-27 08:08  mandrake
+
+	* dkms-modules-info/2.6.22.9-server-1mdv/fusion.alias,
+	  dkms-modules-info/2.6.22.9-server-1mdv/fusion.description: add
+	  dkms info for fusion with kernel 2.6.22.9-server-1mdv
+
+2007-09-27 07:39  mandrake
+
+	* dkms-modules-info/2.6.22.9-laptop-1mdv/omfs.alias,
+	  dkms-modules-info/2.6.22.9-laptop-1mdv/omfs.description: add dkms
+	  info for omfs with kernel 2.6.22.9-laptop-1mdv
+
+2007-09-27 07:39  mandrake
+
+	* dkms-modules-info/2.6.22.9-desktop586-1mdv,
+	  dkms-modules-info/2.6.22.9-desktop586-1mdv/actuator.alias,
+	  dkms-modules-info/2.6.22.9-desktop586-1mdv/actuator.description:
+	  add dkms info for actuator with kernel 2.6.22.9-desktop586-1mdv
+
+2007-09-27 07:39  mandrake
+
+	* dkms-modules-info/2.6.22.9-laptop-1mdv,
+	  dkms-modules-info/2.6.22.9-laptop-1mdv/actuator.alias,
+	  dkms-modules-info/2.6.22.9-laptop-1mdv/actuator.description: add
+	  dkms info for actuator with kernel 2.6.22.9-laptop-1mdv
+
+2007-09-27 07:39  mandrake
+
+	* dkms-modules-info/2.6.22.9-desktop-1mdv/actuator.alias,
+	  dkms-modules-info/2.6.22.9-desktop-1mdv/actuator.description: add
+	  dkms info for actuator with kernel 2.6.22.9-desktop-1mdv
+
+2007-09-27 07:39  mandrake
+
+	* dkms-modules-info/2.6.22.9-server-1mdv/omfs.alias,
+	  dkms-modules-info/2.6.22.9-server-1mdv/omfs.description: add dkms
+	  info for omfs with kernel 2.6.22.9-server-1mdv
+
+2007-09-27 07:39  mandrake
+
+	* dkms-modules-info/2.6.22.9-server-1mdv,
+	  dkms-modules-info/2.6.22.9-server-1mdv/actuator.alias,
+	  dkms-modules-info/2.6.22.9-server-1mdv/actuator.description: add
+	  dkms info for actuator with kernel 2.6.22.9-server-1mdv
+
+2007-09-27 07:38  mandrake
+
+	* dkms-modules-info/2.6.22.9-desktop-1mdv,
+	  dkms-modules-info/2.6.22.9-desktop-1mdv/omfs.alias,
+	  dkms-modules-info/2.6.22.9-desktop-1mdv/omfs.description: add
+	  dkms info for omfs with kernel 2.6.22.9-desktop-1mdv
+
+2007-09-26 18:39  mandrake
+
+	* dkms-modules-info/2.6.22.7-desktop586-1mdv/fglrx.alias,
+	  dkms-modules-info/2.6.22.7-desktop586-1mdv/fglrx.description: add
+	  dkms info for fglrx with kernel 2.6.22.7-desktop586-1mdv
+
+2007-09-26 09:50  mandrake
+
+	* dkms-modules-info/2.6.22.7-desktop-1mdv/et131x.alias,
+	  dkms-modules-info/2.6.22.7-desktop-1mdv/et131x.description: add
+	  dkms info for et131x with kernel 2.6.22.7-desktop-1mdv
+
+2007-09-26 09:50  mandrake
+
+	* dkms-modules-info/2.6.22.7-desktop-1mdv/fglrx-hd2000.alias,
+	  dkms-modules-info/2.6.22.7-desktop-1mdv/fglrx-hd2000.description:
+	  add dkms info for fglrx-hd2000 with kernel 2.6.22.7-desktop-1mdv
+
+2007-09-26 09:50  mandrake
+
+	* dkms-modules-info/2.6.22.7-server-1mdv/fglrx-hd2000.alias,
+	  dkms-modules-info/2.6.22.7-server-1mdv/fglrx-hd2000.description:
+	  add dkms info for fglrx-hd2000 with kernel 2.6.22.7-server-1mdv
+
+2007-09-26 09:50  mandrake
+
+	* dkms-modules-info/2.6.22.7-desktop586-1mdv/et131x.alias,
+	  dkms-modules-info/2.6.22.7-desktop586-1mdv/et131x.description:
+	  add dkms info for et131x with kernel 2.6.22.7-desktop586-1mdv
+
+2007-09-26 09:49  mandrake
+
+	* dkms-modules-info/2.6.23-0.rc7.2mdv/fusion.alias,
+	  dkms-modules-info/2.6.23-0.rc7.2mdv/fusion.description: add dkms
+	  info for fusion with kernel 2.6.23-0.rc7.2mdv
+
+2007-09-26 09:49  mandrake
+
+	* dkms-modules-info/2.6.22.7-server-1mdv/fusion.alias,
+	  dkms-modules-info/2.6.22.7-server-1mdv/fusion.description: add
+	  dkms info for fusion with kernel 2.6.22.7-server-1mdv
+
+2007-09-26 09:49  mandrake
+
+	* dkms-modules-info/2.6.22.7-desktop-1mdv/fusion.alias,
+	  dkms-modules-info/2.6.22.7-desktop-1mdv/fusion.description: add
+	  dkms info for fusion with kernel 2.6.22.7-desktop-1mdv
+
+2007-09-26 09:49  mandrake
+
+	* dkms-modules-info/2.6.22.7-laptop-1mdv/fusion.alias,
+	  dkms-modules-info/2.6.22.7-laptop-1mdv/fusion.description: add
+	  dkms info for fusion with kernel 2.6.22.7-laptop-1mdv
+
+2007-09-26 09:49  mandrake
+
+	* dkms-modules-info/2.6.22.7-server-1mdv/et131x.alias,
+	  dkms-modules-info/2.6.22.7-server-1mdv/et131x.description: add
+	  dkms info for et131x with kernel 2.6.22.7-server-1mdv
+
+2007-09-26 09:49  mandrake
+
+	* dkms-modules-info/2.6.23-0.rc7.mm1.1mdvsmp/fusion.alias,
+	  dkms-modules-info/2.6.23-0.rc7.mm1.1mdvsmp/fusion.description:
+	  add dkms info for fusion with kernel 2.6.23-0.rc7.mm1.1mdvsmp
+
+2007-09-26 09:49  mandrake
+
+	* dkms-modules-info/2.6.23-0.rc7.mm1.1mdv/fusion.alias,
+	  dkms-modules-info/2.6.23-0.rc7.mm1.1mdv/fusion.description: add
+	  dkms info for fusion with kernel 2.6.23-0.rc7.mm1.1mdv
+
+2007-09-26 09:49  mandrake
+
+	* dkms-modules-info/2.6.22.7-laptop-1mdv/et131x.alias,
+	  dkms-modules-info/2.6.22.7-laptop-1mdv/et131x.description: add
+	  dkms info for et131x with kernel 2.6.22.7-laptop-1mdv
+
+2007-09-26 09:49  mandrake
+
+	* dkms-modules-info/2.6.22.7-laptop-1mdv/fglrx-hd2000.alias,
+	  dkms-modules-info/2.6.22.7-laptop-1mdv/fglrx-hd2000.description:
+	  add dkms info for fglrx-hd2000 with kernel 2.6.22.7-laptop-1mdv
+
+2007-09-26 09:43  mandrake
+
+	* dkms-modules-info/2.6.22.7-desktop586-1mdv/fusion.alias,
+	  dkms-modules-info/2.6.22.7-desktop586-1mdv/fusion.description:
+	  add dkms info for fusion with kernel 2.6.22.7-desktop586-1mdv
+
+2007-09-26 09:42  mandrake
+
+	* dkms-modules-info/2.6.23-0.rc7.2mdvsmp/fusion.alias,
+	  dkms-modules-info/2.6.23-0.rc7.2mdvsmp/fusion.description: add
+	  dkms info for fusion with kernel 2.6.23-0.rc7.2mdvsmp
+
+2007-09-26 07:49  mandrake
+
+	* dkms-modules-info/2.6.22.7-laptop-1mdv/omfs.alias,
+	  dkms-modules-info/2.6.22.7-laptop-1mdv/omfs.description: add dkms
+	  info for omfs with kernel 2.6.22.7-laptop-1mdv
+
+2007-09-26 07:49  mandrake
+
+	* dkms-modules-info/2.6.23-0.rc7.2mdv,
+	  dkms-modules-info/2.6.23-0.rc7.2mdv/actuator.alias,
+	  dkms-modules-info/2.6.23-0.rc7.2mdv/actuator.description: add
+	  dkms info for actuator with kernel 2.6.23-0.rc7.2mdv
+
+2007-09-26 07:49  mandrake
+
+	* dkms-modules-info/2.6.22.7-desktop-1mdv/omfs.alias,
+	  dkms-modules-info/2.6.22.7-desktop-1mdv/omfs.description: add
+	  dkms info for omfs with kernel 2.6.22.7-desktop-1mdv
+
+2007-09-26 07:49  mandrake
+
+	* dkms-modules-info/2.6.22.7-desktop-1mdv/actuator.alias,
+	  dkms-modules-info/2.6.22.7-desktop-1mdv/actuator.description: add
+	  dkms info for actuator with kernel 2.6.22.7-desktop-1mdv
+
+2007-09-26 07:49  mandrake
+
+	* dkms-modules-info/2.6.23-0.rc7.2mdvsmp,
+	  dkms-modules-info/2.6.23-0.rc7.2mdvsmp/actuator.alias,
+	  dkms-modules-info/2.6.23-0.rc7.2mdvsmp/actuator.description: add
+	  dkms info for actuator with kernel 2.6.23-0.rc7.2mdvsmp
+
+2007-09-26 07:49  mandrake
+
+	* dkms-modules-info/2.6.22.7-server-1mdv/omfs.alias,
+	  dkms-modules-info/2.6.22.7-server-1mdv/omfs.description: add dkms
+	  info for omfs with kernel 2.6.22.7-server-1mdv
+
+2007-09-26 07:49  mandrake
+
+	* dkms-modules-info/2.6.22.7-desktop586-1mdv,
+	  dkms-modules-info/2.6.22.7-desktop586-1mdv/actuator.alias,
+	  dkms-modules-info/2.6.22.7-desktop586-1mdv/actuator.description:
+	  add dkms info for actuator with kernel 2.6.22.7-desktop586-1mdv
+
+2007-09-26 07:49  mandrake
+
+	* dkms-modules-info/2.6.23-0.rc7.mm1.1mdvsmp,
+	  dkms-modules-info/2.6.23-0.rc7.mm1.1mdvsmp/actuator.alias,
+	  dkms-modules-info/2.6.23-0.rc7.mm1.1mdvsmp/actuator.description:
+	  add dkms info for actuator with kernel 2.6.23-0.rc7.mm1.1mdvsmp
+
+2007-09-26 07:49  mandrake
+
+	* dkms-modules-info/2.6.22.7-server-1mdv/actuator.alias,
+	  dkms-modules-info/2.6.22.7-server-1mdv/actuator.description: add
+	  dkms info for actuator with kernel 2.6.22.7-server-1mdv
+
+2007-09-26 07:49  mandrake
+
+	* dkms-modules-info/2.6.22.7-laptop-1mdv/actuator.alias,
+	  dkms-modules-info/2.6.22.7-laptop-1mdv/actuator.description: add
+	  dkms info for actuator with kernel 2.6.22.7-laptop-1mdv
+
+2007-09-26 07:48  mandrake
+
+	* dkms-modules-info/2.6.23-0.rc7.mm1.1mdv,
+	  dkms-modules-info/2.6.23-0.rc7.mm1.1mdv/actuator.alias,
+	  dkms-modules-info/2.6.23-0.rc7.mm1.1mdv/actuator.description: add
+	  dkms info for actuator with kernel 2.6.23-0.rc7.mm1.1mdv
+
+2007-09-26 01:50  mandrake
+
+	* dkms-modules-info/2.6.22.7-laptop-1mdv,
+	  dkms-modules-info/2.6.22.7-laptop-1mdv/ath_hal.alias,
+	  dkms-modules-info/2.6.22.7-laptop-1mdv/ath_hal.description,
+	  dkms-modules-info/2.6.22.7-laptop-1mdv/ath_pci.alias,
+	  dkms-modules-info/2.6.22.7-laptop-1mdv/ath_pci.description,
+	  dkms-modules-info/2.6.22.7-laptop-1mdv/ath_rate_amrr.alias,
+	  dkms-modules-info/2.6.22.7-laptop-1mdv/ath_rate_amrr.description,
+	  dkms-modules-info/2.6.22.7-laptop-1mdv/ath_rate_onoe.alias,
+	  dkms-modules-info/2.6.22.7-laptop-1mdv/ath_rate_onoe.description,
+	  dkms-modules-info/2.6.22.7-laptop-1mdv/ath_rate_sample.alias,
+	  dkms-modules-info/2.6.22.7-laptop-1mdv/ath_rate_sample.description,
+	  dkms-modules-info/2.6.22.7-laptop-1mdv/wlan.alias,
+	  dkms-modules-info/2.6.22.7-laptop-1mdv/wlan.description,
+	  dkms-modules-info/2.6.22.7-laptop-1mdv/wlan_acl.alias,
+	  dkms-modules-info/2.6.22.7-laptop-1mdv/wlan_acl.description,
+	  dkms-modules-info/2.6.22.7-laptop-1mdv/wlan_ccmp.alias,
+	  dkms-modules-info/2.6.22.7-laptop-1mdv/wlan_ccmp.description,
+	  dkms-modules-info/2.6.22.7-laptop-1mdv/wlan_scan_ap.alias,
+	  dkms-modules-info/2.6.22.7-laptop-1mdv/wlan_scan_ap.description,
+	  dkms-modules-info/2.6.22.7-laptop-1mdv/wlan_scan_sta.alias,
+	  dkms-modules-info/2.6.22.7-laptop-1mdv/wlan_scan_sta.description,
+	  dkms-modules-info/2.6.22.7-laptop-1mdv/wlan_tkip.alias,
+	  dkms-modules-info/2.6.22.7-laptop-1mdv/wlan_tkip.description,
+	  dkms-modules-info/2.6.22.7-laptop-1mdv/wlan_wep.alias,
+	  dkms-modules-info/2.6.22.7-laptop-1mdv/wlan_wep.description,
+	  dkms-modules-info/2.6.22.7-laptop-1mdv/wlan_xauth.alias,
+	  dkms-modules-info/2.6.22.7-laptop-1mdv/wlan_xauth.description:
+	  add dkms info for madwifi with kernel 2.6.22.7-laptop-1mdv
+
+2007-09-26 01:50  mandrake
+
+	* dkms-modules-info/2.6.22.7-server-1mdv,
+	  dkms-modules-info/2.6.22.7-server-1mdv/ath_hal.alias,
+	  dkms-modules-info/2.6.22.7-server-1mdv/ath_hal.description,
+	  dkms-modules-info/2.6.22.7-server-1mdv/ath_pci.alias,
+	  dkms-modules-info/2.6.22.7-server-1mdv/ath_pci.description,
+	  dkms-modules-info/2.6.22.7-server-1mdv/ath_rate_amrr.alias,
+	  dkms-modules-info/2.6.22.7-server-1mdv/ath_rate_amrr.description,
+	  dkms-modules-info/2.6.22.7-server-1mdv/ath_rate_onoe.alias,
+	  dkms-modules-info/2.6.22.7-server-1mdv/ath_rate_onoe.description,
+	  dkms-modules-info/2.6.22.7-server-1mdv/ath_rate_sample.alias,
+	  dkms-modules-info/2.6.22.7-server-1mdv/ath_rate_sample.description,
+	  dkms-modules-info/2.6.22.7-server-1mdv/wlan.alias,
+	  dkms-modules-info/2.6.22.7-server-1mdv/wlan.description,
+	  dkms-modules-info/2.6.22.7-server-1mdv/wlan_acl.alias,
+	  dkms-modules-info/2.6.22.7-server-1mdv/wlan_acl.description,
+	  dkms-modules-info/2.6.22.7-server-1mdv/wlan_ccmp.alias,
+	  dkms-modules-info/2.6.22.7-server-1mdv/wlan_ccmp.description,
+	  dkms-modules-info/2.6.22.7-server-1mdv/wlan_scan_ap.alias,
+	  dkms-modules-info/2.6.22.7-server-1mdv/wlan_scan_ap.description,
+	  dkms-modules-info/2.6.22.7-server-1mdv/wlan_scan_sta.alias,
+	  dkms-modules-info/2.6.22.7-server-1mdv/wlan_scan_sta.description,
+	  dkms-modules-info/2.6.22.7-server-1mdv/wlan_tkip.alias,
+	  dkms-modules-info/2.6.22.7-server-1mdv/wlan_tkip.description,
+	  dkms-modules-info/2.6.22.7-server-1mdv/wlan_wep.alias,
+	  dkms-modules-info/2.6.22.7-server-1mdv/wlan_wep.description,
+	  dkms-modules-info/2.6.22.7-server-1mdv/wlan_xauth.alias,
+	  dkms-modules-info/2.6.22.7-server-1mdv/wlan_xauth.description:
+	  add dkms info for madwifi with kernel 2.6.22.7-server-1mdv
+
+2007-09-26 01:49  mandrake
+
+	* dkms-modules-info/2.6.22.7-desktop-1mdv,
+	  dkms-modules-info/2.6.22.7-desktop-1mdv/ath_hal.alias,
+	  dkms-modules-info/2.6.22.7-desktop-1mdv/ath_hal.description,
+	  dkms-modules-info/2.6.22.7-desktop-1mdv/ath_pci.alias,
+	  dkms-modules-info/2.6.22.7-desktop-1mdv/ath_pci.description,
+	  dkms-modules-info/2.6.22.7-desktop-1mdv/ath_rate_amrr.alias,
+	  dkms-modules-info/2.6.22.7-desktop-1mdv/ath_rate_amrr.description,
+	  dkms-modules-info/2.6.22.7-desktop-1mdv/ath_rate_onoe.alias,
+	  dkms-modules-info/2.6.22.7-desktop-1mdv/ath_rate_onoe.description,
+	  dkms-modules-info/2.6.22.7-desktop-1mdv/ath_rate_sample.alias,
+	  dkms-modules-info/2.6.22.7-desktop-1mdv/ath_rate_sample.description,
+	  dkms-modules-info/2.6.22.7-desktop-1mdv/wlan.alias,
+	  dkms-modules-info/2.6.22.7-desktop-1mdv/wlan.description,
+	  dkms-modules-info/2.6.22.7-desktop-1mdv/wlan_acl.alias,
+	  dkms-modules-info/2.6.22.7-desktop-1mdv/wlan_acl.description,
+	  dkms-modules-info/2.6.22.7-desktop-1mdv/wlan_ccmp.alias,
+	  dkms-modules-info/2.6.22.7-desktop-1mdv/wlan_ccmp.description,
+	  dkms-modules-info/2.6.22.7-desktop-1mdv/wlan_scan_ap.alias,
+	  dkms-modules-info/2.6.22.7-desktop-1mdv/wlan_scan_ap.description,
+	  dkms-modules-info/2.6.22.7-desktop-1mdv/wlan_scan_sta.alias,
+	  dkms-modules-info/2.6.22.7-desktop-1mdv/wlan_scan_sta.description,
+	  dkms-modules-info/2.6.22.7-desktop-1mdv/wlan_tkip.alias,
+	  dkms-modules-info/2.6.22.7-desktop-1mdv/wlan_tkip.description,
+	  dkms-modules-info/2.6.22.7-desktop-1mdv/wlan_wep.alias,
+	  dkms-modules-info/2.6.22.7-desktop-1mdv/wlan_wep.description,
+	  dkms-modules-info/2.6.22.7-desktop-1mdv/wlan_xauth.alias,
+	  dkms-modules-info/2.6.22.7-desktop-1mdv/wlan_xauth.description:
+	  add dkms info for madwifi with kernel 2.6.22.7-desktop-1mdv
+
+2007-09-24 14:01  Olivier Blin <oblin at mandriva.com>
+
+	* convert/uniquify-modalias.pl: list some known bugs
+
+2007-09-23 14:55  Olivier Blin <oblin at mandriva.com>
+
+	* Makefile: 0.1.193
+
+2007-09-23 14:54  Olivier Blin <oblin at mandriva.com>
+
+	* convert/uniquify-modalias.pl: prefer ahci instead of ata_piix, so
+	  that piix is preferred over ata_piix
+
+2007-09-23 10:09  mandrake
+
+	* dkms-modules-info/2.6.22.6-laptop-3mdv/realcrypt.alias,
+	  dkms-modules-info/2.6.22.6-laptop-3mdv/realcrypt.description: add
+	  dkms info for realcrypt with kernel 2.6.22.6-laptop-3mdv
+
+2007-09-23 10:09  mandrake
+
+	* dkms-modules-info/2.6.22.6-server-3mdv/realcrypt.alias,
+	  dkms-modules-info/2.6.22.6-server-3mdv/realcrypt.description: add
+	  dkms info for realcrypt with kernel 2.6.22.6-server-3mdv
+
+2007-09-23 10:09  mandrake
+
+	* dkms-modules-info/2.6.22.6-desktop586-3mdv/realcrypt.alias,
+	  dkms-modules-info/2.6.22.6-desktop586-3mdv/realcrypt.description:
+	  add dkms info for realcrypt with kernel 2.6.22.6-desktop586-3mdv
+
+2007-09-23 10:08  mandrake
+
+	* dkms-modules-info/2.6.22.6-desktop-3mdv/realcrypt.alias,
+	  dkms-modules-info/2.6.22.6-desktop-3mdv/realcrypt.description:
+	  add dkms info for realcrypt with kernel 2.6.22.6-desktop-3mdv
+
+2007-09-23 10:08  mandrake
+
+	* dkms-modules-info/2.6.19.1-1mdv/realcrypt.alias,
+	  dkms-modules-info/2.6.19.1-1mdv/realcrypt.description: add dkms
+	  info for realcrypt with kernel 2.6.19.1-1mdv
+
+2007-09-23 09:49  mandrake
+
+	* dkms-modules-info/2.6.22.6-desktop586-3mdv/iscsi_trgt.alias,
+	  dkms-modules-info/2.6.22.6-desktop586-3mdv/iscsi_trgt.description:
+	  add dkms info for iscsitarget with kernel
+	  2.6.22.6-desktop586-3mdv
+
+2007-09-23 09:49  mandrake
+
+	* dkms-modules-info/2.6.22.6-laptop-3mdv/iscsi_trgt.alias,
+	  dkms-modules-info/2.6.22.6-laptop-3mdv/iscsi_trgt.description:
+	  add dkms info for iscsitarget with kernel 2.6.22.6-laptop-3mdv
+
+2007-09-23 09:49  mandrake
+
+	* dkms-modules-info/2.6.22.6-server-3mdv/iscsi_trgt.alias,
+	  dkms-modules-info/2.6.22.6-server-3mdv/iscsi_trgt.description:
+	  add dkms info for iscsitarget with kernel 2.6.22.6-server-3mdv
+
+2007-09-23 09:48  mandrake
+
+	* dkms-modules-info/2.6.22.6-desktop-3mdv/iscsi_trgt.alias,
+	  dkms-modules-info/2.6.22.6-desktop-3mdv/iscsi_trgt.description:
+	  add dkms info for iscsitarget with kernel 2.6.22.6-desktop-3mdv
+
+2007-09-23 09:48  mandrake
+
+	* dkms-modules-info/2.6.20.16-krg2.1.1-1mdv/et131x.alias,
+	  dkms-modules-info/2.6.20.16-krg2.1.1-1mdv/et131x.description: add
+	  dkms info for et131x with kernel 2.6.20.16-krg2.1.1-1mdv
+
+2007-09-23 09:39  mandrake
+
+	* dkms-modules-info/2.6.22.6-desktop-3mdv/et131x.alias,
+	  dkms-modules-info/2.6.22.6-desktop-3mdv/et131x.description: add
+	  dkms info for et131x with kernel 2.6.22.6-desktop-3mdv
+
+2007-09-23 09:39  mandrake
+
+	* dkms-modules-info/2.6.22.6-desktop586-3mdv/et131x.alias,
+	  dkms-modules-info/2.6.22.6-desktop586-3mdv/et131x.description:
+	  add dkms info for et131x with kernel 2.6.22.6-desktop586-3mdv
+
+2007-09-23 09:38  mandrake
+
+	* dkms-modules-info/2.6.22.6-server-3mdv/et131x.alias,
+	  dkms-modules-info/2.6.22.6-server-3mdv/et131x.description: add
+	  dkms info for et131x with kernel 2.6.22.6-server-3mdv
+
+2007-09-23 09:38  mandrake
+
+	* dkms-modules-info/2.6.22.6-laptop-3mdv/et131x.alias,
+	  dkms-modules-info/2.6.22.6-laptop-3mdv/et131x.description: add
+	  dkms info for et131x with kernel 2.6.22.6-laptop-3mdv
+
+2007-09-22 02:11  mandrake
+
+	* dkms-modules-info/2.6.22.6-server-3mdv/ath_hal.alias,
+	  dkms-modules-info/2.6.22.6-server-3mdv/ath_hal.description,
+	  dkms-modules-info/2.6.22.6-server-3mdv/ath_pci.alias,
+	  dkms-modules-info/2.6.22.6-server-3mdv/ath_pci.description,
+	  dkms-modules-info/2.6.22.6-server-3mdv/ath_rate_amrr.alias,
+	  dkms-modules-info/2.6.22.6-server-3mdv/ath_rate_amrr.description,
+	  dkms-modules-info/2.6.22.6-server-3mdv/ath_rate_onoe.alias,
+	  dkms-modules-info/2.6.22.6-server-3mdv/ath_rate_onoe.description,
+	  dkms-modules-info/2.6.22.6-server-3mdv/ath_rate_sample.alias,
+	  dkms-modules-info/2.6.22.6-server-3mdv/ath_rate_sample.description,
+	  dkms-modules-info/2.6.22.6-server-3mdv/wlan.alias,
+	  dkms-modules-info/2.6.22.6-server-3mdv/wlan.description,
+	  dkms-modules-info/2.6.22.6-server-3mdv/wlan_acl.alias,
+	  dkms-modules-info/2.6.22.6-server-3mdv/wlan_acl.description,
+	  dkms-modules-info/2.6.22.6-server-3mdv/wlan_ccmp.alias,
+	  dkms-modules-info/2.6.22.6-server-3mdv/wlan_ccmp.description,
+	  dkms-modules-info/2.6.22.6-server-3mdv/wlan_scan_ap.alias,
+	  dkms-modules-info/2.6.22.6-server-3mdv/wlan_scan_ap.description,
+	  dkms-modules-info/2.6.22.6-server-3mdv/wlan_scan_sta.alias,
+	  dkms-modules-info/2.6.22.6-server-3mdv/wlan_scan_sta.description,
+	  dkms-modules-info/2.6.22.6-server-3mdv/wlan_tkip.alias,
+	  dkms-modules-info/2.6.22.6-server-3mdv/wlan_tkip.description,
+	  dkms-modules-info/2.6.22.6-server-3mdv/wlan_wep.alias,
+	  dkms-modules-info/2.6.22.6-server-3mdv/wlan_wep.description,
+	  dkms-modules-info/2.6.22.6-server-3mdv/wlan_xauth.alias,
+	  dkms-modules-info/2.6.22.6-server-3mdv/wlan_xauth.description:
+	  add dkms info for madwifi with kernel 2.6.22.6-server-3mdv
+
+2007-09-22 02:10  mandrake
+
+	* dkms-modules-info/2.6.22.6-desktop-3mdv/ath_hal.alias,
+	  dkms-modules-info/2.6.22.6-desktop-3mdv/ath_hal.description,
+	  dkms-modules-info/2.6.22.6-desktop-3mdv/ath_pci.alias,
+	  dkms-modules-info/2.6.22.6-desktop-3mdv/ath_pci.description,
+	  dkms-modules-info/2.6.22.6-desktop-3mdv/ath_rate_amrr.alias,
+	  dkms-modules-info/2.6.22.6-desktop-3mdv/ath_rate_amrr.description,
+	  dkms-modules-info/2.6.22.6-desktop-3mdv/ath_rate_onoe.alias,
+	  dkms-modules-info/2.6.22.6-desktop-3mdv/ath_rate_onoe.description,
+	  dkms-modules-info/2.6.22.6-desktop-3mdv/ath_rate_sample.alias,
+	  dkms-modules-info/2.6.22.6-desktop-3mdv/ath_rate_sample.description,
+	  dkms-modules-info/2.6.22.6-desktop-3mdv/wlan.alias,
+	  dkms-modules-info/2.6.22.6-desktop-3mdv/wlan.description,
+	  dkms-modules-info/2.6.22.6-desktop-3mdv/wlan_acl.alias,
+	  dkms-modules-info/2.6.22.6-desktop-3mdv/wlan_acl.description,
+	  dkms-modules-info/2.6.22.6-desktop-3mdv/wlan_ccmp.alias,
+	  dkms-modules-info/2.6.22.6-desktop-3mdv/wlan_ccmp.description,
+	  dkms-modules-info/2.6.22.6-desktop-3mdv/wlan_scan_ap.alias,
+	  dkms-modules-info/2.6.22.6-desktop-3mdv/wlan_scan_ap.description,
+	  dkms-modules-info/2.6.22.6-desktop-3mdv/wlan_scan_sta.alias,
+	  dkms-modules-info/2.6.22.6-desktop-3mdv/wlan_scan_sta.description,
+	  dkms-modules-info/2.6.22.6-desktop-3mdv/wlan_tkip.alias,
+	  dkms-modules-info/2.6.22.6-desktop-3mdv/wlan_tkip.description,
+	  dkms-modules-info/2.6.22.6-desktop-3mdv/wlan_wep.alias,
+	  dkms-modules-info/2.6.22.6-desktop-3mdv/wlan_wep.description,
+	  dkms-modules-info/2.6.22.6-desktop-3mdv/wlan_xauth.alias,
+	  dkms-modules-info/2.6.22.6-desktop-3mdv/wlan_xauth.description:
+	  add dkms info for madwifi with kernel 2.6.22.6-desktop-3mdv
+
+2007-09-22 02:10  mandrake
+
+	* dkms-modules-info/2.6.22.6-laptop-3mdv/ath_hal.alias,
+	  dkms-modules-info/2.6.22.6-laptop-3mdv/ath_hal.description,
+	  dkms-modules-info/2.6.22.6-laptop-3mdv/ath_pci.alias,
+	  dkms-modules-info/2.6.22.6-laptop-3mdv/ath_pci.description,
+	  dkms-modules-info/2.6.22.6-laptop-3mdv/ath_rate_amrr.alias,
+	  dkms-modules-info/2.6.22.6-laptop-3mdv/ath_rate_amrr.description,
+	  dkms-modules-info/2.6.22.6-laptop-3mdv/ath_rate_onoe.alias,
+	  dkms-modules-info/2.6.22.6-laptop-3mdv/ath_rate_onoe.description,
+	  dkms-modules-info/2.6.22.6-laptop-3mdv/ath_rate_sample.alias,
+	  dkms-modules-info/2.6.22.6-laptop-3mdv/ath_rate_sample.description,
+	  dkms-modules-info/2.6.22.6-laptop-3mdv/wlan.alias,
+	  dkms-modules-info/2.6.22.6-laptop-3mdv/wlan.description,
+	  dkms-modules-info/2.6.22.6-laptop-3mdv/wlan_acl.alias,
+	  dkms-modules-info/2.6.22.6-laptop-3mdv/wlan_acl.description,
+	  dkms-modules-info/2.6.22.6-laptop-3mdv/wlan_ccmp.alias,
+	  dkms-modules-info/2.6.22.6-laptop-3mdv/wlan_ccmp.description,
+	  dkms-modules-info/2.6.22.6-laptop-3mdv/wlan_scan_ap.alias,
+	  dkms-modules-info/2.6.22.6-laptop-3mdv/wlan_scan_ap.description,
+	  dkms-modules-info/2.6.22.6-laptop-3mdv/wlan_scan_sta.alias,
+	  dkms-modules-info/2.6.22.6-laptop-3mdv/wlan_scan_sta.description,
+	  dkms-modules-info/2.6.22.6-laptop-3mdv/wlan_tkip.alias,
+	  dkms-modules-info/2.6.22.6-laptop-3mdv/wlan_tkip.description,
+	  dkms-modules-info/2.6.22.6-laptop-3mdv/wlan_wep.alias,
+	  dkms-modules-info/2.6.22.6-laptop-3mdv/wlan_wep.description,
+	  dkms-modules-info/2.6.22.6-laptop-3mdv/wlan_xauth.alias,
+	  dkms-modules-info/2.6.22.6-laptop-3mdv/wlan_xauth.description:
+	  add dkms info for madwifi with kernel 2.6.22.6-laptop-3mdv
+
+2007-09-21 11:23  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* dkms-modules-info/2.6.23-0.rc6.1mdv,
+	  dkms-modules-info/2.6.23-0.rc6.1mdvsmp,
+	  dkms-modules-info/2.6.23-tmb-desktop-0.rc6.2mdv,
+	  dkms-modules-info/2.6.23-tmb-desktop586-0.rc6.2mdv,
+	  dkms-modules-info/2.6.23-tmb-laptop-0.rc6.2mdv,
+	  dkms-modules-info/2.6.23-tmb-server-0.rc6.2mdv: kill duplicated
+	  entries
+
+2007-09-21 10:19  mandrake
+
+	* dkms-modules-info/2.6.23-tmb-server-0.rc6.2mdv/fusion.alias,
+	  dkms-modules-info/2.6.23-tmb-server-0.rc6.2mdv/fusion.description:
+	  add dkms info for fusion with kernel 2.6.23-tmb-server-0.rc6.2mdv
+
+2007-09-21 10:19  mandrake
+
+	* dkms-modules-info/2.6.23-tmb-laptop-0.rc6.2mdv/fusion.alias,
+	  dkms-modules-info/2.6.23-tmb-laptop-0.rc6.2mdv/fusion.description:
+	  add dkms info for fusion with kernel 2.6.23-tmb-laptop-0.rc6.2mdv
+
+2007-09-21 10:19  mandrake
+
+	* dkms-modules-info/2.6.23-tmb-server-0.rc7.1mdv/fusion.alias,
+	  dkms-modules-info/2.6.23-tmb-server-0.rc7.1mdv/fusion.description:
+	  add dkms info for fusion with kernel 2.6.23-tmb-server-0.rc7.1mdv
+
+2007-09-21 10:12  mandrake
+
+	* dkms-modules-info/2.6.23-tmb-desktop586-0.rc7.1mdv/fusion.alias,
+	  dkms-modules-info/2.6.23-tmb-desktop586-0.rc7.1mdv/fusion.description:
+	  add dkms info for fusion with kernel
+	  2.6.23-tmb-desktop586-0.rc7.1mdv
+
+2007-09-21 10:12  mandrake
+
+	* dkms-modules-info/2.6.23-tmb-desktop-0.rc7.1mdv/fusion.alias,
+	  dkms-modules-info/2.6.23-tmb-desktop-0.rc7.1mdv/fusion.description:
+	  add dkms info for fusion with kernel
+	  2.6.23-tmb-desktop-0.rc7.1mdv
+
+2007-09-21 10:12  mandrake
+
+	* dkms-modules-info/2.6.22.6-server-3mdv/fusion.alias,
+	  dkms-modules-info/2.6.22.6-server-3mdv/fusion.description: add
+	  dkms info for fusion with kernel 2.6.22.6-server-3mdv
+
+2007-09-21 10:12  mandrake
+
+	* dkms-modules-info/2.6.22.6-laptop-3mdv/fusion.alias,
+	  dkms-modules-info/2.6.22.6-laptop-3mdv/fusion.description: add
+	  dkms info for fusion with kernel 2.6.22.6-laptop-3mdv
+
+2007-09-21 10:12  mandrake
+
+	* dkms-modules-info/2.6.22.6-desktop-3mdv/fusion.alias,
+	  dkms-modules-info/2.6.22.6-desktop-3mdv/fusion.description: add
+	  dkms info for fusion with kernel 2.6.22.6-desktop-3mdv
+
+2007-09-21 10:12  mandrake
+
+	* dkms-modules-info/2.6.23-tmb-laptop-0.rc7.1mdv/fusion.alias,
+	  dkms-modules-info/2.6.23-tmb-laptop-0.rc7.1mdv/fusion.description:
+	  add dkms info for fusion with kernel 2.6.23-tmb-laptop-0.rc7.1mdv
+
+2007-09-21 10:11  mandrake
+
+	* dkms-modules-info/2.6.23-0.rc7.1mdv/fusion.alias,
+	  dkms-modules-info/2.6.23-0.rc7.1mdv/fusion.description: add dkms
+	  info for fusion with kernel 2.6.23-0.rc7.1mdv
+
+2007-09-21 10:11  mandrake
+
+	* dkms-modules-info/2.6.22.6-desktop586-3mdv/fusion.alias,
+	  dkms-modules-info/2.6.22.6-desktop586-3mdv/fusion.description:
+	  add dkms info for fusion with kernel 2.6.22.6-desktop586-3mdv
+
+2007-09-21 10:11  mandrake
+
+	* dkms-modules-info/2.6.23-tmb-desktop586-0.rc6.2mdv/fusion.alias,
+	  dkms-modules-info/2.6.23-tmb-desktop586-0.rc6.2mdv/fusion.description:
+	  add dkms info for fusion with kernel
+	  2.6.23-tmb-desktop586-0.rc6.2mdv
+
+2007-09-21 10:11  mandrake
+
+	* dkms-modules-info/2.6.23-0.rc7.1mdvsmp/fusion.alias,
+	  dkms-modules-info/2.6.23-0.rc7.1mdvsmp/fusion.description: add
+	  dkms info for fusion with kernel 2.6.23-0.rc7.1mdvsmp
+
+2007-09-21 10:11  mandrake
+
+	* dkms-modules-info/2.6.23-tmb-desktop-0.rc6.2mdv/fusion.alias,
+	  dkms-modules-info/2.6.23-tmb-desktop-0.rc6.2mdv/fusion.description:
+	  add dkms info for fusion with kernel
+	  2.6.23-tmb-desktop-0.rc6.2mdv
+
+2007-09-21 08:21  mandrake
+
+	* dkms-modules-info/2.6.23-tmb-server-0.rc7.1mdv,
+	  dkms-modules-info/2.6.23-tmb-server-0.rc7.1mdv/actuator.alias,
+	  dkms-modules-info/2.6.23-tmb-server-0.rc7.1mdv/actuator.description:
+	  add dkms info for actuator with kernel
+	  2.6.23-tmb-server-0.rc7.1mdv
+
+2007-09-21 08:20  mandrake
+
+	* dkms-modules-info/2.6.23-tmb-desktop586-0.rc7.1mdv,
+	  dkms-modules-info/2.6.23-tmb-desktop586-0.rc7.1mdv/actuator.alias,
+	  dkms-modules-info/2.6.23-tmb-desktop586-0.rc7.1mdv/actuator.description:
+	  add dkms info for actuator with kernel
+	  2.6.23-tmb-desktop586-0.rc7.1mdv
+
+2007-09-21 08:20  mandrake
+
+	* dkms-modules-info/2.6.23-tmb-laptop-0.rc7.1mdv,
+	  dkms-modules-info/2.6.23-tmb-laptop-0.rc7.1mdv/actuator.alias,
+	  dkms-modules-info/2.6.23-tmb-laptop-0.rc7.1mdv/actuator.description:
+	  add dkms info for actuator with kernel
+	  2.6.23-tmb-laptop-0.rc7.1mdv
+
+2007-09-21 08:20  mandrake
+
+	* dkms-modules-info/2.6.23-tmb-desktop-0.rc7.1mdv,
+	  dkms-modules-info/2.6.23-tmb-desktop-0.rc7.1mdv/actuator.alias,
+	  dkms-modules-info/2.6.23-tmb-desktop-0.rc7.1mdv/actuator.description:
+	  add dkms info for actuator with kernel
+	  2.6.23-tmb-desktop-0.rc7.1mdv
+
+2007-09-21 07:49  mandrake
+
+	* dkms-modules-info/2.6.23-0.rc7.1mdv,
+	  dkms-modules-info/2.6.23-0.rc7.1mdv/actuator.alias,
+	  dkms-modules-info/2.6.23-0.rc7.1mdv/actuator.description: add
+	  dkms info for actuator with kernel 2.6.23-0.rc7.1mdv
+
+2007-09-21 07:49  mandrake
+
+	* dkms-modules-info/2.6.23-0.rc7.1mdvsmp,
+	  dkms-modules-info/2.6.23-0.rc7.1mdvsmp/actuator.alias,
+	  dkms-modules-info/2.6.23-0.rc7.1mdvsmp/actuator.description: add
+	  dkms info for actuator with kernel 2.6.23-0.rc7.1mdvsmp
+
+2007-09-20 22:25  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* dkms-modules-info/2.6.22.6-desktop-2mdv,
+	  dkms-modules-info/2.6.22.6-desktop586-2mdv,
+	  dkms-modules-info/2.6.22.6-laptop-2mdv,
+	  dkms-modules-info/2.6.22.6-server-2mdv,
+	  dkms-modules-info/2.6.23-tmb-desktop-0.rc6.1mdv,
+	  dkms-modules-info/2.6.23-tmb-desktop586-0.rc5.1mdv,
+	  dkms-modules-info/2.6.23-tmb-desktop586-0.rc6.1mdv,
+	  dkms-modules-info/2.6.23-tmb-laptop-0.rc6.1mdv,
+	  dkms-modules-info/2.6.23-tmb-server-0.rc6.1mdv: kill duplicated
+	  entries
+
+2007-09-20 20:34  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* ChangeLog: repair some svn2l damage
+
 2007-09-20 20:16  Adam Williamson <awilliamson at mandriva.com>
 
 	* ChangeLog: Generated by svn2cl the 20_Sep
@@ -2675,6 +3922,18 @@
 	* Makefile, lst/isatable, lst/pcitable, lst/usbtable: use '_' in
 	  modules name
 
+2007-08-16 15:23  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* Makefile: new release (0.1.177)
+
+2007-08-16 15:22  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/pcitable.x86_64: drop description field
+
+2007-08-16 15:22  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* ChangeLog: Generated by svn2cl the 16_Aug
+
 2007-08-16 13:49  Thierry Vignaud <tvignaud at mandriva.com>
 
 	* lst/usbtable: kill entries w/o any description since we rely on
@@ -2711,26 +3970,17 @@
 	  (where we don't have the modules.alias corresponding to the
 	  running kernel)
 
-2007-08-12 18:52  adamw
+2007-08-12 18:52  Adam Williamson <awilliamson at mandriva.com>
 
 	* ChangeLog: Generated by svn2cl the 12_Aug
-
-2007-08-12 18:52  adamw
-
-	* Makefile: - bump to 0.1.175 in makefile
-
-2007-08-12 18:51  adamw
-
-	* ChangeLog: Generated by svn2cl the 12_Aug
-
-2007-08-12 18:49  adamw
-
-	* lst/Cards+: - use avivo as free driver for Radeon X1300 - X1950
-	  (temporarily)
 
 2007-08-12 18:52  Adam Williamson <awilliamson at mandriva.com>
 
 	* Makefile: - bump to 0.1.175 in makefile
+
+2007-08-12 18:51  Adam Williamson <awilliamson at mandriva.com>
+
+	* ChangeLog: Generated by svn2cl the 12_Aug
 
 2007-08-12 18:49  Adam Williamson <awilliamson at mandriva.com>
 
@@ -2747,6 +3997,14 @@
 	* Makefile, lst/Cards+: new release with nvidia-current instead of
 	  nvidia97xx (Anssi Hannula)
 
+2007-08-06 15:36  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* Makefile: bump release (0.1.173)
+
+2007-08-06 15:36  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* ChangeLog: Generated by svn2cl the 06_Aug
+
 2007-08-06 15:35  Thierry Vignaud <tvignaud at mandriva.com>
 
 	* lst/pcitable: drop description field
@@ -2756,7 +4014,7 @@
 	* lst/pcitable: kill e1000 lines since the eepro1000 alternative is
 	  dead
 
-2007-08-04 21:22  adamw
+2007-08-04 21:22  Adam Williamson <awilliamson at mandriva.com>
 
 	* lst/pcitable: - correct some ATI definitions, move 0x1113 to the
 	  correct place so make check passes
@@ -2799,21 +4057,26 @@
 
 	* lst/pcitable: sync pcitable with 2.6.22-3mdv pcimap
 
-2007-07-26 20:13  adamw
+2007-07-26 20:13  Adam Williamson <awilliamson at mandriva.com>
 
 	* lst/pcitable: add ATI SB700 IDE controller ID (per Shane Huang of
 	  AMD)
 
-2007-07-24 17:00  adamw
+2007-07-24 17:00  Adam Williamson <awilliamson at mandriva.com>
 
 	* lst/pcitable: - actually, to be safe, we should detect both;
 	  seems you can't be sure which will be active
 
-2007-07-24 16:57  adamw
+2007-07-24 16:57  Adam Williamson <awilliamson at mandriva.com>
 
 	* lst/pcitable: - per
 	  http://list.drzeus.cx/pipermail/sdhci-devel/2007-May/001735.html,
 	  0x0551 is the active device, not 0x0550, for this SD card reader
+
+2007-07-20 06:35  Adam Williamson <awilliamson at mandriva.com>
+
+	* lst/pcitable: add ATI SB700 IDE controller IDs from Shane Huang
+	  at AMD (bug #31884)
 
 2007-07-20 06:35  adamw
 
