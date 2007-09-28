@@ -393,6 +393,11 @@ DRIVER sunffb
 NAME VMware virtual video card
 DRIVER vmware
 
+# VirtualBox virtual video cards
+
+NAME VirtualBox virtual video card
+DRIVER vboxvideo
+
 # Misc
 
 END
