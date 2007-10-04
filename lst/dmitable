@@ -13,6 +13,7 @@ System/Manufacturer: Acer.*
 
   System/Product Name: Aspire.*
   => Type: laptop
+  => Module: acer_acpi
 
   System/Product Name: TravelMate.*
   => Type: laptop
