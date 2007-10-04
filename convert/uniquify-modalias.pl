@@ -11,7 +11,6 @@ use modalias;
 #- o does not match PCI class (thus ahci won't match jmicron devices)
 
 my @ignored_modules = (
-    "ata_generic", #- prefer "generic" non-libata module or full implementation
     "intelfb", "savagefb", "tdfxfb", qr/_agp$/,
     qr/_rng$/,
 );
@@ -43,6 +42,14 @@ my @depreciated_modules = (
 my @preferred_categories = (
     "disk/ide",
     "disk/scsi",
+);
+#- For the following categories, the deferred modules are ignored, and
+#- an explicit alias is set even if only one module match exactly.
+#- This allows to workaround modules having class wildcards, which isn't supported.
+my %category_deferred_modules = (
+    #- prefer "generic" non-libata module or full implementation
+    "disk/ide" => [ "ata_generic" ],
+    "disk/sata" => [ "ata_generic" ],
 );
 
 sub build_modalias {
@@ -79,9 +86,17 @@ sub print_module {
     my @aliases = group_by2(@$aliases);
     my @other = grep { File::FnMatch::fnmatch($_->[0], $modalias) } @$class_other;
     my @modules = uniq_ { $_->[1] } @aliases, @other;
-    @modules > 1 or return;
 
-    my @non_ignored = grep_non_matching(\@modules, \@ignored_modules);
+    @modules or return;
+
+    my @category_deferred_modules;
+    foreach (map { list_modules::module2category($_->[1]) } @modules) {
+        push @category_deferred_modules, @{$category_deferred_modules{$_} || []}
+    }
+
+    @modules > 1 || @category_deferred_modules or return;
+
+    my @non_ignored = grep_non_matching(\@modules, [ @ignored_modules, @category_deferred_modules ]);
     if (@non_ignored == 1) {
         print "alias $modalias $non_ignored[0][1]\n";
         return;
