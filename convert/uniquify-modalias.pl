@@ -38,6 +38,7 @@ my @depreciated_modules = (
     "ir_usb", #- false positive because of pattern
     qr/^pata_/, #- don't use libata drivers for now
     "usb_storage", #- false positive because we don't use subvendors/subdevices
+    "snd_usb_audio", #- prefer video camera drivers if any
 );
 my @preferred_categories = (
     "disk/ide",
