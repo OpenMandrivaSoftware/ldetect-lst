@@ -151,28 +151,19 @@ DRIVER ati
 DRI_GLX
 DRIVER2 fglrx
 
-# Radeon cards supported by proprietary driver and free 'avivo' 
+# Radeon cards supported by proprietary driver and free 'radeonhd' 
 # driver: update name as support changes
-NAME ATI Radeon X1300 - X1950 (working with avivo driver)
-DRIVER avivo
-DRIVER2 fglrx
-
-# Radeon cards supported by proprietary driver but no free driver -
-# fall back on vesa: update name as support changes
 NAME ATI Radeon X1300 - X1950
-DRIVER vesa
+DRIVER radeonhd
+DRI_GLX
 DRIVER2 fglrx
 
-# Radeon cards supported by new proprietary driver but no free driver:
-# update name as support changes
-NAME ATI Radeon HD 2300 and later (working with proprietary driver)
-DRIVER vesa
-DRIVER2 fglrx-hd2000
-
-# Radeon cards supported by neither proprietary driver nor free
-# driver: update name as support changes
+# Radeon cards supported by new proprietary driver and free 
+# 'radeonhd' driver: update name as support changes
 NAME ATI Radeon HD 2300 and later
-DRIVER vesa
+DRIVER radeonhd
+DRI_GLX
+DRIVER2 fglrx-hd2000
 
 # ARK Logic
 
