@@ -146,14 +146,14 @@ DRI_GLX
 
 # Radeon cards supported by proprietary driver and free 'radeon'
 # driver: update name as support changes
-NAME ATI Radeon 9500 - X850
+NAME ATI Radeon 9500 to Radeon X850
 DRIVER ati
 DRI_GLX
 DRIVER2 fglrx
 
 # Radeon cards supported by proprietary driver and free 'radeonhd' 
 # driver: update name as support changes
-NAME ATI Radeon X1300 - X1950
+NAME ATI Radeon X1300 to Radeon X1950
 DRIVER radeonhd
 DRI_GLX
 DRIVER2 fglrx
@@ -230,15 +230,15 @@ NAME NVIDIA RIVA 128
 DRIVER nv
 BAD_FB_RESTORE
 
-NAME NVIDIA RIVA TNT - GeForce 2 (71xx)
+NAME NVIDIA RIVA TNT to GeForce 2 (71xx)
 DRIVER nv
 DRIVER2 nvidia71xx
 
-NAME NVIDIA GeForce 3 - GeForce 4 (96xx)
+NAME NVIDIA GeForce 3 to GeForce 4 (96xx)
 DRIVER nv
 DRIVER2 nvidia96xx
 
-NAME NVIDIA GeForce FX - GeForce 8800
+NAME NVIDIA GeForce FX and later
 DRIVER nv
 DRIVER2 nvidia-current
 
