@@ -149,21 +149,28 @@ DRI_GLX
 NAME ATI Radeon 9500 to Radeon X850
 DRIVER ati
 DRI_GLX
-DRIVER2 fglrx
+DRIVER2 fglrx-hd2000
 
 # Radeon cards supported by proprietary driver and free 'radeonhd' 
 # driver: update name as support changes
-NAME ATI Radeon X1300 to Radeon X1950
-DRIVER radeonhd
-DRI_GLX
-DRIVER2 fglrx
-
-# Radeon cards supported by new proprietary driver and free 
-# 'radeonhd' driver: update name as support changes
-NAME ATI Radeon HD 2300 and later
+NAME ATI Radeon X1300 and later
 DRIVER radeonhd
 DRI_GLX
 DRIVER2 fglrx-hd2000
+
+# FireGL cards supported by old proprietary driver and free 'radeon'
+# driver: update name as support changes
+NAME ATI r300 or r400 based FireGL 
+DRIVER ati
+DRI_GLX
+DRIVER2 fglrx
+
+# FireGL cards supported by old proprietary driver and free 'radeonhd'
+# driver: update name as support changes
+NAME ATI r500 or r600 based FireGL
+DRIVER radeonhd
+DRI_GLX
+DRIVER2 fglrx
 
 # ARK Logic
 
