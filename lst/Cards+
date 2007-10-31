@@ -349,6 +349,9 @@ NAME Intel 810 and later
 DRIVER intel
 DRI_GLX
 
+NAME Intel Vermilion-based cards
+DRIVER vermilion
+
 # 3DFX
 
 NAME 3DFX Voodoo / Voodoo II
