@@ -146,7 +146,7 @@ DRI_GLX
 
 # Radeon cards supported by proprietary driver and free 'radeon'
 # driver: update name as support changes
-NAME ATI Radeon 9500 to Radeon X850
+NAME ATI Radeon 9500 to Radeon X1050
 DRIVER ati
 DRI_GLX
 DRIVER2 fglrx-hd2000
