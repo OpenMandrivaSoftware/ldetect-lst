@@ -1,3 +1,28 @@
+2007-12-18 22:39  Adam Williamson <awilliamson at mandriva.com>
+
+	* Makefile: new version 0.203
+
+2007-12-18 22:38  Adam Williamson <awilliamson at mandriva.com>
+
+	* lst/pcitable: - add five ATI IDs from latest upstream developer
+	  ID list
+
+2007-12-18 22:25  Adam Williamson <awilliamson at mandriva.com>
+
+	* lst/Cards+, lst/pcitable: - rename 'radeon 9500 to radeon x850'
+	  group to 'radeon 9500 to radeon x1050' (x1050 exists and is
+	  rebadged 9550/9600)
+
+2007-12-18 22:24  Adam Williamson <awilliamson at mandriva.com>
+
+	* lst/pcitable: - three additions and one correction from latest
+	  Windows driver (7.11)
+
+2007-12-18 21:52  Adam Williamson <awilliamson at mandriva.com>
+
+	* lst/pcitable: add three new NVIDIA IDs from the latest Windows
+	  driver
+
 2007-11-22 17:48  Adam Williamson <awilliamson at mandriva.com>
 
 	* Makefile: - bump version
