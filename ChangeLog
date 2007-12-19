@@ -1,3 +1,7 @@
+2007-12-19 01:12  Adam Williamson <awilliamson at mandriva.com>
+
+	* Makefile: - bump version
+
 2007-12-18 22:39  Adam Williamson <awilliamson at mandriva.com>
 
 	* Makefile: new version 0.203
