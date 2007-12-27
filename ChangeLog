@@ -1,3 +1,8 @@
+2007-12-27 13:27  Adam Williamson <awilliamson at mandriva.com>
+
+	* Makefile, lst/Cards+: back to using plain fglrx for all post-9500
+	  Radeons now the new version supports FireGL cards
+
 2007-12-19 01:12  Adam Williamson <awilliamson at mandriva.com>
 
 	* Makefile: - bump version
