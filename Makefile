@@ -1,7 +1,7 @@
 include Makefile.config
 
 PACKAGE = ldetect-lst
-VERSION := 0.1.204
+VERSION := 0.1.205
 
 SVN_URL  := $(shell svn info | grep ^URL: | cut -f2 -d\ )
 SVN_BASE := $(shell svn info | sed -n '/^URL: \(.*\/$(PACKAGE)\).*/s//\1/p')
