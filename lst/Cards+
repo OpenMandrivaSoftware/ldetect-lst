@@ -168,6 +168,12 @@ DRIVER2 fglrx
 NAME ATI r500 or r600 based FireGL
 SEE ATI Radeon X1300 and later
 
+# Blacklisted from proprietary driver per report from Jan Ciger,
+# 2008/01, black screen with proprietary 8.44.3 / Catalyst 7.12;
+# re-evaluate with future proprietary releases
+NAME ATI FireGL Mobility T2
+SEE ATI Radeon 9250 and earlier
+
 # ARK Logic
 
 NAME Ark Logic ARKx000-based cards
