@@ -3948,6 +3948,7 @@
 0x110b	0x0004	"unknown"	"Chromatic Research Inc.|Mpact 2"
 0x1110	0x6037	"unknown"	"Powerhouse Systems|Firepower Powerized SMP I/O ASIC"
 0x1110	0x6073	"unknown"	"Powerhouse Systems|Firepower Powerized SMP I/O ASIC"
+0x1110	0x9021	"ueagle_atm"	"Sagem F@st 800 ADSL modem"
 0x1112	0x2200	"unknown"	"Osicom Technologies Inc|FDDI Adapter"
 0x1112	0x2300	"unknown"	"Osicom Technologies Inc|Fast Ethernet Adapter"
 0x1112	0x2340	"unknown"	"Osicom Technologies Inc|4 Port Fast Ethernet Adapter"
