@@ -94,10 +94,6 @@ DRIVER openchrome
 DRI_GLX
 LINE Option	"SWcursor"
 
-NAME S3 UniChrome-based cards without 3D support
-DRIVER openchrome
-LINE Option	"SWcursor"
-
 # See bug #33535. This specific adapter doesn't work with 3D with
 # openchrome any more, but does work with the old via driver.
 
@@ -106,11 +102,11 @@ DRIVER via
 DRI_GLX
 LINE Option	"SWcursor"
 
-# These devices have better support in the official viaarena driver than
-# in openchrome, according to pcpa as of 2007/09
+# Same as UniChrome, but no 3D support yet
 
 NAME VIA Chrome9-based cards
-DRIVER viaarena
+DRIVER openchrome
+LINE Option	"SWcursor"
 
 # Tseng
 
