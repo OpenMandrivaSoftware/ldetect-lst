@@ -1774,6 +1774,7 @@ Generic; 1400x1050; 0; 31.5-82; 50-90
 Generic; 1600x1200 @ 70 Hz; 0; 31.5-88.0; 50-90
 Generic; 1600x1200 @ 76 Hz; 0; 31.5-94.0; 50-90
 Generic; Flat Panel 640x480; 0; 31.5; 40-70
+Generic; Flat Panel 800x480; 0; 31.5-37.9; 40-70
 Generic; Flat Panel 800x600; 0; 31.5-37.9; 40-70
 Generic; Flat Panel 1024x768; 0; 31.5-55; 40-70
 Generic; Flat Panel 1280x1024; 0; 31.5-90; 60
