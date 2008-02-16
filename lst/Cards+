@@ -116,6 +116,7 @@ LINE Option	"SWcursor"
 
 NAME Tseng ET4000W32p / ET6x00-based cards
 DRIVER tseng
+NEEDVIDEORAM
 
 # AMD
 NAME AMD Geode GX/LX
