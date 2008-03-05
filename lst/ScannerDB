@@ -2253,6 +2253,11 @@ FIRMWARELINE firmware "$FIRMWARE"
 MANUAL
 COMMENT Works upto 1200 dpi and 12 bits/color.
 
+NAME hp|psc 1310 series
+SERVER hpaio
+DRIVER USB
+COMMENT HP PSC 1310 series
+
 # from sane-backends-1.0.18/doc/descriptions/hp3500.desc
 NAME Hewlett-Packard|ScanJet 3500C
 SERVER hp3500
