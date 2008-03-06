@@ -253,6 +253,9 @@ NAME NVIDIA GeForce FX and later
 DRIVER nv
 DRIVER2 nvidia-current
 
+NAME NVIDIA GeForce 9600 GT
+DRIVER nv
+
 NAME NVIDIA GeForce3 (xbox)
 DRIVER nvxbox
 LINE Option "UseFBDev" "1"

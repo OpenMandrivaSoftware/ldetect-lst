@@ -1245,6 +1245,7 @@
 0x10de	0x055d	"snd_hda_intel"
 0x10de	0x0600	"Card:NVIDIA GeForce FX and later"
 0x10de	0x0611	"Card:NVIDIA GeForce FX and later"
+0x10de	0x0622	"Card:NVIDIA GeForce 9600 GT"
 0x10de	0x06e2	"Card:NVIDIA GeForce FX and later"
 0x10de	0x06e4	"Card:NVIDIA GeForce FX and later"
 0x10de	0x07e0	"Card:NVIDIA GeForce FX and later"
