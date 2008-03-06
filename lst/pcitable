@@ -248,7 +248,6 @@
 0x1002	0x5655	"Card:ATI Mach / Rage-based cards"
 0x1002	0x5656	"Card:ATI Mach / Rage-based cards"
 0x1002	0x5657	"Card:ATI Radeon 9500 to Radeon X1050"
-0x1002	0x5772	"Card:ATI Radeon 9500 to Radeon X1050"
 0x1002	0x5834	"Card:ATI Radeon 9250 and earlier"
 0x1002	0x5835	"Card:ATI Radeon 9250 and earlier"
 0x1002	0x5836	"Card:ATI Radeon 9250 and earlier"
