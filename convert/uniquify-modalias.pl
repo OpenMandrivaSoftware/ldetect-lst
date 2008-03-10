@@ -51,6 +51,7 @@ my %category_deferred_modules = (
     #- prefer "generic" non-libata module or full implementation
     "disk/ide" => [ "ata_generic" ],
     "disk/sata" => [ "ata_generic" ],
+    "input/tablet" => [ "usbmouse" ],
 );
 
 sub build_modalias {
