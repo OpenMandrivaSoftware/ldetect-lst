@@ -2253,7 +2253,7 @@ FIRMWARELINE firmware "$FIRMWARE"
 MANUAL
 COMMENT Works upto 1200 dpi and 12 bits/color.
 
-NAME hp|psc 1310 series
+NAME Hewlett-Packard|PSC-1315
 SERVER hpaio
 DRIVER USB
 COMMENT HP PSC 1310 series
