@@ -50,7 +50,7 @@ my @preferred_categories = (
 my %category_deferred_modules = (
     #- prefer "generic" non-libata module or full implementation
     "disk/ide" => [ "ata_generic" ],
-    "disk/sata" => [ "ata_generic" ],
+    "disk/sata" => [ "ata_generic", "pata_acpi" ],
     "input/tablet" => [ "usbmouse" ],
 );
 
