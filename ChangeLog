@@ -1,3 +1,35 @@
+2008-03-11 13:55  Pixel <pixel at mandriva.com>
+
+	* lst/Cards+: nvidia-current now require processor with SSE,
+	  defaulting to nvidia96xx if no SSE
+
+2008-03-11 10:37  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* Makefile: 0.1.213
+
+2008-03-11 09:57  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* ChangeLog: update ; remove duplicated entries
+
+2008-03-11 09:51  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* Makefile: (tar) no need to be verbose
+
+2008-03-11 09:50  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* dkms-modules-info/2.6.24-desktop-1mdv,
+	  dkms-modules-info/2.6.24-desktop586-1mdv,
+	  dkms-modules-info/2.6.24-laptop-1mdv,
+	  dkms-modules-info/2.6.24-server-1mdv,
+	  dkms-modules-info/2.6.24.2-desktop-1mdv,
+	  dkms-modules-info/2.6.24.2-desktop-4mdv,
+	  dkms-modules-info/2.6.24.2-desktop586-1mdv,
+	  dkms-modules-info/2.6.24.2-desktop586-4mdv,
+	  dkms-modules-info/2.6.24.2-laptop-1mdv,
+	  dkms-modules-info/2.6.24.2-laptop-4mdv,
+	  dkms-modules-info/2.6.24.2-server-1mdv,
+	  dkms-modules-info/2.6.24.2-server-4mdv: remove duplicated data
+
 2008-03-11 09:51  Thierry Vignaud <tvignaud at mandriva.com>
 
 	* Makefile: (tar) no need to be verbose
