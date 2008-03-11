@@ -252,6 +252,7 @@ DRIVER2 nvidia96xx
 NAME NVIDIA GeForce FX and later
 DRIVER nv
 DRIVER2 nvidia-current
+DRIVER2_NO_SSE nvidia96xx
 
 NAME NVIDIA GeForce 9600 GT
 DRIVER nv
