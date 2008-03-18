@@ -31,7 +31,7 @@ install: build
 # rules to build a test rpm
 
 cleandist:
-	rm -rf $(PACKAGE)-$(VERSION) $(PACKAGE)-$(VERSION).tar.bz2
+	rm -rf $(PACKAGE)-$(VERSION) $(PACKAGE)-$(VERSION).tar.lzma
 
 localcopy:
 	svn export -q -rBASE . $(PACKAGE)-$(VERSION)
