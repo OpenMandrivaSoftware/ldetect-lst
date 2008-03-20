@@ -8,7 +8,7 @@ foreach my $file (glob("dmidecode.*")) {
     my %got = map {
 	s/\s*: .*//;
 	/(\S+):(.*)/ ? ($1 => $2) : ();
-    } `lspcidrake -p /dev/null -u /dev/null --dmidecode $file`;
+    } `lspcidrake --dmidecode $file`;
 
     my @missing = difference2([ keys %wanted ], [ keys %got ]);
     if (@missing) {
