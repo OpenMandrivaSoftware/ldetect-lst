@@ -8,10 +8,15 @@ System/Manufacturer: ACER
   => Resolution: 1024x768
   => Diagonal_size: 14.1
 
+  System/Product Name: TravelMate.*
+  => Type: laptop
 
 System/Manufacturer: Acer.*
 
-  System/Product Name: Aspire.*
+  System/Product Name: Aspire 1520
+  => Type: laptop
+
+  System/Product Name: Aspire 1650Z
   => Type: laptop
 
   System/Product Name: TravelMate.*
