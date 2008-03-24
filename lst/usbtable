@@ -451,6 +451,7 @@
 0x046d	0xc504	"Mouse:USB|Wheel"	"Logitech Inc.|Cordless Mouse+Keyboard Receiver"
 0x046d	0xc505	"unknown"	"Logitech, Inc.|Cordless Mouse+Keyboard Receiver"
 0x046d	0xc506	"Mouse:evdev|imwheel:MX700"	"Logitech, Inc.|MX-700 Cordless Mouse Receiver"
+0x046d	0xc508	"Mouse:evdev|imwheel:MX700"	"Logitech, Inc.|Optical Trackman Receiver"
 0x046d	0xc50e	"Mouse:evdev|imwheel:MX1000"	"Logitech, Inc.|MX-1000 Cordless Mouse Receiver"
 0x046d	0xd001	"unknown"	"Logitech Inc.|QuickCam Pro"
 0x046e	0x6782	"unknown"	"Behavior Tech. Computer|BTC 7932 keyboard"
