@@ -710,6 +710,7 @@
 0x04b8	0x011d	"scanner"	"Seiko Epson Corp.|Perfection 1260 Photo"
 0x04b8	0x011e	"scanner"	"Epson Corp.|Perfection 1660 Photo"
 0x04b8	0x011f	"unknown"	"Seiko Epson Corp.|Perfection 1670"
+0x04b8	0x0129	"unknown"	"Epson Corp.|Expression 10000XL"
 0x04b8	0x0202	"unknown"	"Seiko Epson Corp.|Receipt Printer M129C"
 0x04b8	0x0601	"unknown"	"Epson Corp.|Stylus Photo 875DC Card Reader"
 0x04b8	0x0602	"unknown"	"Epson Corp.|Stylus Photo 9xx Card Reader"
