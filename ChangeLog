@@ -1,3 +1,10 @@
+2008-03-25 23:53  Adam Williamson <awilliamson at mandriva.com>
+
+	* lst/Cards+, lst/pcitable: ATI adjustments: don't blacklist FireGL
+	  T2 any more (Jan reports it now works with fglrx), use radeon not
+	  radeonhd or fglrx for HD 3200 (only radeon works with this chip
+	  at present)
+
 2008-03-25 23:45  Adam Williamson <awilliamson at mandriva.com>
 
 	* Makefile: bump version
