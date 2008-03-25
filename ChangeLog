@@ -1,3 +1,284 @@
+2008-03-24 17:50  Adam Williamson <awilliamson at mandriva.com>
+
+	* lst/usbtable: handle Logitech LX-710 mouse (using imwheel MX1000
+	  definition)
+
+2008-03-24 17:04  Adam Williamson <awilliamson at mandriva.com>
+
+	* lst/usbtable: handle Logitech Cordless Optical Trackman trackball
+	  (with imwheel MX700 definition)
+
+2008-03-24 13:43  salem
+
+	* lst/usbtable: - add usb id for Epson Expression 10000XL
+
+2008-03-24 02:21  mandrake
+
+	* dkms-modules-info/2.6.24.3-desktop586-4mnb/pcc_acpi.alias,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/pcc_acpi.description:
+	  add dkms info for dkms-pcc-acpi with kernel
+	  2.6.24.3-desktop586-4mnb
+
+2008-03-24 02:21  mandrake
+
+	* dkms-modules-info/2.6.24.3-desktop-4mnb/pcc_acpi.alias,
+	  dkms-modules-info/2.6.24.3-desktop-4mnb/pcc_acpi.description: add
+	  dkms info for dkms-pcc-acpi with kernel 2.6.24.3-desktop-4mnb
+
+2008-03-24 02:20  mandrake
+
+	* dkms-modules-info/2.6.24.3-laptop-4mnb/pcc_acpi.alias,
+	  dkms-modules-info/2.6.24.3-laptop-4mnb/pcc_acpi.description: add
+	  dkms info for dkms-pcc-acpi with kernel 2.6.24.3-laptop-4mnb
+
+2008-03-24 02:20  mandrake
+
+	* dkms-modules-info/2.6.24.3-server-4mnb/pcc_acpi.alias,
+	  dkms-modules-info/2.6.24.3-server-4mnb/pcc_acpi.description: add
+	  dkms info for dkms-pcc-acpi with kernel 2.6.24.3-server-4mnb
+
+2008-03-23 02:21  mandrake
+
+	* dkms-modules-info/2.6.24.3-laptop-4mnb/unicorn_pci_atm.alias,
+	  dkms-modules-info/2.6.24.3-laptop-4mnb/unicorn_pci_atm.description,
+	  dkms-modules-info/2.6.24.3-laptop-4mnb/unicorn_pci_eth.alias,
+	  dkms-modules-info/2.6.24.3-laptop-4mnb/unicorn_pci_eth.description,
+	  dkms-modules-info/2.6.24.3-laptop-4mnb/unicorn_usb_atm.alias,
+	  dkms-modules-info/2.6.24.3-laptop-4mnb/unicorn_usb_atm.description,
+	  dkms-modules-info/2.6.24.3-laptop-4mnb/unicorn_usb_eth.alias,
+	  dkms-modules-info/2.6.24.3-laptop-4mnb/unicorn_usb_eth.description:
+	  add dkms info for unicorn with kernel 2.6.24.3-laptop-4mnb
+
+2008-03-23 02:21  mandrake
+
+	* dkms-modules-info/2.6.24.3-desktop586-4mnb/unicorn_pci_atm.alias,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/unicorn_pci_atm.description,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/unicorn_pci_eth.alias,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/unicorn_pci_eth.description,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/unicorn_usb_atm.alias,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/unicorn_usb_atm.description,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/unicorn_usb_eth.alias,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/unicorn_usb_eth.description:
+	  add dkms info for unicorn with kernel 2.6.24.3-desktop586-4mnb
+
+2008-03-23 02:21  mandrake
+
+	* dkms-modules-info/2.6.24.3-server-4mnb/unicorn_pci_atm.alias,
+	  dkms-modules-info/2.6.24.3-server-4mnb/unicorn_pci_atm.description,
+	  dkms-modules-info/2.6.24.3-server-4mnb/unicorn_pci_eth.alias,
+	  dkms-modules-info/2.6.24.3-server-4mnb/unicorn_pci_eth.description,
+	  dkms-modules-info/2.6.24.3-server-4mnb/unicorn_usb_atm.alias,
+	  dkms-modules-info/2.6.24.3-server-4mnb/unicorn_usb_atm.description,
+	  dkms-modules-info/2.6.24.3-server-4mnb/unicorn_usb_eth.alias,
+	  dkms-modules-info/2.6.24.3-server-4mnb/unicorn_usb_eth.description:
+	  add dkms info for unicorn with kernel 2.6.24.3-server-4mnb
+
+2008-03-23 02:20  mandrake
+
+	* dkms-modules-info/2.6.24.3-desktop-4mnb/unicorn_pci_atm.alias,
+	  dkms-modules-info/2.6.24.3-desktop-4mnb/unicorn_pci_atm.description,
+	  dkms-modules-info/2.6.24.3-desktop-4mnb/unicorn_pci_eth.alias,
+	  dkms-modules-info/2.6.24.3-desktop-4mnb/unicorn_pci_eth.description,
+	  dkms-modules-info/2.6.24.3-desktop-4mnb/unicorn_usb_atm.alias,
+	  dkms-modules-info/2.6.24.3-desktop-4mnb/unicorn_usb_atm.description,
+	  dkms-modules-info/2.6.24.3-desktop-4mnb/unicorn_usb_eth.alias,
+	  dkms-modules-info/2.6.24.3-desktop-4mnb/unicorn_usb_eth.description:
+	  add dkms info for unicorn with kernel 2.6.24.3-desktop-4mnb
+
+2008-03-22 02:21  mandrake
+
+	* dkms-modules-info/2.6.24.3-desktop586-4mnb/usbcam.alias,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/usbcam.description:
+	  add dkms info for r5u870 with kernel 2.6.24.3-desktop586-4mnb
+
+2008-03-22 02:21  mandrake
+
+	* dkms-modules-info/2.6.24.3-laptop-4mnb/usbcam.alias,
+	  dkms-modules-info/2.6.24.3-laptop-4mnb/usbcam.description: add
+	  dkms info for r5u870 with kernel 2.6.24.3-laptop-4mnb
+
+2008-03-22 02:21  mandrake
+
+	* dkms-modules-info/2.6.24.3-desktop-4mnb/usbcam.alias,
+	  dkms-modules-info/2.6.24.3-desktop-4mnb/usbcam.description: add
+	  dkms info for r5u870 with kernel 2.6.24.3-desktop-4mnb
+
+2008-03-22 02:20  mandrake
+
+	* dkms-modules-info/2.6.24.3-server-4mnb/usbcam.alias,
+	  dkms-modules-info/2.6.24.3-server-4mnb/usbcam.description: add
+	  dkms info for r5u870 with kernel 2.6.24.3-server-4mnb
+
+2008-03-21 00:22  mandrake
+
+	* dkms-modules-info/2.6.24.3-desktop586-4mnb/drm.alias,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/drm.description,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/i810.alias,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/i810.description,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/i915.alias,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/i915.description,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/mach64.alias,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/mach64.description,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/mga.alias,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/mga.description,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/nouveau.alias,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/nouveau.description,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/r128.alias,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/r128.description,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/radeon.alias,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/radeon.description,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/savage.alias,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/savage.description,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/sis.alias,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/sis.description,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/tdfx.alias,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/tdfx.description,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/via.alias,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/via.description,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/xgi.alias,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/xgi.description: add
+	  dkms info for drm-experimental with kernel
+	  2.6.24.3-desktop586-4mnb
+
+2008-03-21 00:20  mandrake
+
+	* dkms-modules-info/2.6.24.3-desktop586-4mnb/m560x.alias,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/m560x.description: add
+	  dkms info for m560x with kernel 2.6.24.3-desktop586-4mnb
+
+2008-03-21 00:10  mandrake
+
+	* dkms-modules-info/2.6.24.3-desktop586-4mnb/squashfs-lzma.alias,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/squashfs-lzma.description:
+	  add dkms info for squashfs-lzma with kernel
+	  2.6.24.3-desktop586-4mnb
+
+2008-03-21 00:01  mandrake
+
+	* dkms-modules-info/2.6.24.3-desktop586-4mnb/ov51x-jpeg.alias,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/ov51x-jpeg.description:
+	  add dkms info for ov51x-jpeg with kernel 2.6.24.3-desktop586-4mnb
+
+2008-03-21 00:01  mandrake
+
+	* dkms-modules-info/2.6.24.3-desktop586-4mnb/squashfs.alias,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/squashfs.description:
+	  add dkms info for squashfs with kernel 2.6.24.3-desktop586-4mnb
+
+2008-03-20 23:51  mandrake
+
+	* dkms-modules-info/2.6.24.3-desktop586-4mnb/r5u870.alias,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/r5u870.description:
+	  add dkms info for r5u870 with kernel 2.6.24.3-desktop586-4mnb
+
+2008-03-20 23:51  mandrake
+
+	* dkms-modules-info/2.6.24.3-desktop586-4mnb/omfs.alias,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/omfs.description: add
+	  dkms info for omfs with kernel 2.6.24.3-desktop586-4mnb
+
+2008-03-20 23:50  mandrake
+
+	* dkms-modules-info/2.6.24.3-desktop586-4mnb/gspca.alias,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/gspca.description: add
+	  dkms info for gspca with kernel 2.6.24.3-desktop586-4mnb
+
+2008-03-20 23:50  mandrake
+
+	* dkms-modules-info/2.6.24.3-desktop586-4mnb/hdaps.alias,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/hdaps.description,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/thinkpad_ec.alias,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/thinkpad_ec.description,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/tp_smapi.alias,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/tp_smapi.description:
+	  add dkms info for tp_smapi with kernel 2.6.24.3-desktop586-4mnb
+
+2008-03-20 23:20  mandrake
+
+	* dkms-modules-info/2.6.24.3-desktop586-4mnb/qc-usb-messenger.alias,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/qc-usb-messenger.description:
+	  add dkms info for qc-usb-messenger with kernel
+	  2.6.24.3-desktop586-4mnb
+
+2008-03-20 23:10  mandrake
+
+	* dkms-modules-info/2.6.24.3-desktop586-4mnb/cbm.alias,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/cbm.description: add
+	  dkms info for opencbm with kernel 2.6.24.3-desktop586-4mnb
+
+2008-03-20 23:00  mandrake
+
+	* dkms-modules-info/2.6.24.3-desktop586-4mnb/alsa_raoppcm.alias,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/alsa_raoppcm.description:
+	  add dkms info for alsa_raoppcm with kernel
+	  2.6.24.3-desktop586-4mnb
+
+2008-03-20 23:00  mandrake
+
+	* dkms-modules-info/2.6.24.3-desktop586-4mnb/realcrypt.alias,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/realcrypt.description:
+	  add dkms info for realcrypt with kernel 2.6.24.3-desktop586-4mnb
+
+2008-03-20 22:42  mandrake
+
+	* dkms-modules-info/2.6.24.3-desktop586-4mnb/rtcmosram.alias,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/rtcmosram.description,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/smapi.alias,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/smapi.description,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/superio.alias,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/superio.description,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/thinkpad.alias,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/thinkpad.description:
+	  add dkms info for thinkpad with kernel 2.6.24.3-desktop586-4mnb
+
+2008-03-20 22:42  mandrake
+
+	* dkms-modules-info/2.6.24.3-desktop586-4mnb/et131x.alias,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/et131x.description:
+	  add dkms info for et131x with kernel 2.6.24.3-desktop586-4mnb
+
+2008-03-20 22:41  mandrake
+
+	* dkms-modules-info/2.6.24.3-laptop-4mnb/rtcmosram.alias,
+	  dkms-modules-info/2.6.24.3-laptop-4mnb/rtcmosram.description,
+	  dkms-modules-info/2.6.24.3-laptop-4mnb/smapi.alias,
+	  dkms-modules-info/2.6.24.3-laptop-4mnb/smapi.description,
+	  dkms-modules-info/2.6.24.3-laptop-4mnb/superio.alias,
+	  dkms-modules-info/2.6.24.3-laptop-4mnb/superio.description,
+	  dkms-modules-info/2.6.24.3-laptop-4mnb/thinkpad.alias,
+	  dkms-modules-info/2.6.24.3-laptop-4mnb/thinkpad.description: add
+	  dkms info for thinkpad with kernel 2.6.24.3-laptop-4mnb
+
+2008-03-20 22:41  mandrake
+
+	* dkms-modules-info/2.6.24.3-server-4mnb/rtcmosram.alias,
+	  dkms-modules-info/2.6.24.3-server-4mnb/rtcmosram.description,
+	  dkms-modules-info/2.6.24.3-server-4mnb/smapi.alias,
+	  dkms-modules-info/2.6.24.3-server-4mnb/smapi.description,
+	  dkms-modules-info/2.6.24.3-server-4mnb/superio.alias,
+	  dkms-modules-info/2.6.24.3-server-4mnb/superio.description,
+	  dkms-modules-info/2.6.24.3-server-4mnb/thinkpad.alias,
+	  dkms-modules-info/2.6.24.3-server-4mnb/thinkpad.description: add
+	  dkms info for thinkpad with kernel 2.6.24.3-server-4mnb
+
+2008-03-20 22:41  mandrake
+
+	* dkms-modules-info/2.6.24.3-desktop586-4mnb/actuator.alias,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/actuator.description:
+	  add dkms info for actuator with kernel 2.6.24.3-desktop586-4mnb
+
+2008-03-20 22:41  mandrake
+
+	* dkms-modules-info/2.6.24.3-desktop-4mnb/rtcmosram.alias,
+	  dkms-modules-info/2.6.24.3-desktop-4mnb/rtcmosram.description,
+	  dkms-modules-info/2.6.24.3-desktop-4mnb/smapi.alias,
+	  dkms-modules-info/2.6.24.3-desktop-4mnb/smapi.description,
+	  dkms-modules-info/2.6.24.3-desktop-4mnb/superio.alias,
+	  dkms-modules-info/2.6.24.3-desktop-4mnb/superio.description,
+	  dkms-modules-info/2.6.24.3-desktop-4mnb/thinkpad.alias,
+	  dkms-modules-info/2.6.24.3-desktop-4mnb/thinkpad.description: add
+	  dkms info for thinkpad with kernel 2.6.24.3-desktop-4mnb
+
 2008-03-20 15:36  Pixel <pixel at mandriva.com>
 
 	* lst/dmitable, test/dmidecode.Desktop.Acer-Aspire-T180,
