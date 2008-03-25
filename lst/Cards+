@@ -165,16 +165,14 @@ DRIVER2 fglrx
 NAME ATI r500 or r600 based FireGL
 SEE ATI Radeon X1300 and later
 
-# Blacklisted from proprietary driver per report from Jan Ciger,
-# 2008/01, black screen with proprietary 8.44.3 / Catalyst 7.12;
-# re-evaluate with future proprietary releases
-NAME ATI FireGL Mobility T2
-SEE ATI Radeon 9250 and earlier
-
 # Supported by radeonhd but *not* fglrx as of 8.471
-NAME ATI Radeon HD3870 X2
+NAME ATI Radeon HD 3870 X2
 DRIVER radeonhd
 DRI_GLX
+
+# Supported by radeon but *not* fglrx or radeonhd as of 2008/03
+NAME ATI Radeon HD 3200
+DRIVER ati
 
 # ARK Logic
 
