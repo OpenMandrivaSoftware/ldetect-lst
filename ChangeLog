@@ -1,3 +1,8 @@
+2008-03-26 02:18  Adam Williamson <awilliamson at mandriva.com>
+
+	* lst/Cards+: adjust HD 3200 again (our current radeon does not
+	  actually support it, but fglrx does)
+
 2008-03-25 23:53  Adam Williamson <awilliamson at mandriva.com>
 
 	* lst/Cards+, lst/pcitable: ATI adjustments: don't blacklist FireGL
