@@ -1,1 +1,0 @@
-LZMA uncompress for squashfs. Some functions for squashfs to support LZMA and a tiny wrapper for LzmaDecode.c in LZMA SDK from www.7-zip.org.
