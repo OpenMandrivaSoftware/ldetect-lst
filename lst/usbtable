@@ -338,7 +338,7 @@
 0x045e	0x0024	"Mouse:USB|Microsoft Explorer"	"Microsoft Corp.|Trackball Explorer"
 0x045e	0x0025	"Mouse:USB|Wheel"	"Microsoft Corp.|IntelliEye Mouse"
 0x045e	0x0026	"unknown"	"Microsoft Corp.|SideWinder GamePad Pro"
-0x045e	0x0027	"unknown"	"Microsoft Corp.|SideWinger PnP GamePad"
+0x045e	0x0027	"unknown"	"Microsoft Corp.|SideWinder PnP GamePad"
 0x045e	0x0028	"unknown"	"Microsoft Corp.|SideWinder Dual Strike"
 0x045e	0x0029	"Mouse:USB|Wheel"	"Microsoft Corp.|IntelliMouse Optical"
 0x045e	0x002b	"unknown"	"Microsoft Corp.|Internet Keyboard Pro"
