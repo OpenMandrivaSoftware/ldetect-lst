@@ -1,3 +1,3316 @@
+2008-04-03 15:16  Adam Williamson <awilliamson at mandriva.com>
+
+	* Makefile, lst/Cards+, lst/pcitable: blacklist HD 2400 XT from
+	  using radeonhd (the one we have at aboukir has problems)
+
+2008-03-31 09:01  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lst/usbtable: typo fix (#39531)
+
+2008-03-31 08:21  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* dkms-modules-info/2.6.23.1-desktop-1mdv,
+	  dkms-modules-info/2.6.24.3-desktop-4mnb,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb,
+	  dkms-modules-info/2.6.24.3-laptop-4mnb,
+	  dkms-modules-info/2.6.24.3-server-4mnb: kill duplicated data
+
+2008-03-29 10:42  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/m560x.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/m560x.description:
+	  add dkms info for m560x with kernel 2.6.24.4-tmb-desktop-1mdv
+
+2008-03-29 10:41  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/m560x.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/m560x.description: add
+	  dkms info for m560x with kernel 2.6.24.4-tmb-laptop-1mdv
+
+2008-03-29 10:41  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop586-1mnb/m560x.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/m560x.description: add
+	  dkms info for m560x with kernel 2.6.24.4-desktop586-1mnb
+
+2008-03-29 10:41  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/m560x.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/m560x.description:
+	  add dkms info for m560x with kernel 2.6.24.4-tmb-desktop586-1mdv
+
+2008-03-29 10:22  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop586-1mnb/drm.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/drm.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/i810.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/i810.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/i915.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/i915.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/mach64.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/mach64.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/mga.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/mga.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/nouveau.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/nouveau.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/r128.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/r128.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/radeon.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/radeon.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/savage.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/savage.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/sis.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/sis.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/tdfx.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/tdfx.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/via.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/via.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/xgi.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/xgi.description: add
+	  dkms info for drm-experimental with kernel
+	  2.6.24.4-desktop586-1mnb
+
+2008-03-29 10:22  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/drm.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/drm.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/i810.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/i810.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/i915.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/i915.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/mach64.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/mach64.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/mga.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/mga.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/nouveau.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/nouveau.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/r128.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/r128.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/radeon.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/radeon.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/savage.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/savage.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/sis.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/sis.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/tdfx.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/tdfx.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/via.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/via.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/xgi.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/xgi.description: add
+	  dkms info for drm-experimental with kernel
+	  2.6.24.4-tmb-laptop-1mdv
+
+2008-03-29 10:21  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/drm.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/drm.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/i810.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/i810.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/i915.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/i915.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/mach64.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/mach64.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/mga.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/mga.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/nouveau.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/nouveau.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/r128.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/r128.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/radeon.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/radeon.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/savage.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/savage.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/sis.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/sis.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/tdfx.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/tdfx.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/via.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/via.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/xgi.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/xgi.description:
+	  add dkms info for drm-experimental with kernel
+	  2.6.24.4-tmb-desktop586-1mdv
+
+2008-03-29 10:20  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/drm.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/drm.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/i810.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/i810.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/i915.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/i915.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/mach64.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/mach64.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/mga.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/mga.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/nouveau.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/nouveau.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/r128.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/r128.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/radeon.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/radeon.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/savage.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/savage.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/sis.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/sis.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/tdfx.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/tdfx.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/via.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/via.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/xgi.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/xgi.description: add
+	  dkms info for drm-experimental with kernel
+	  2.6.24.4-tmb-desktop-1mdv
+
+2008-03-29 10:11  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/squashfs-lzma.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/squashfs-lzma.description:
+	  add dkms info for squashfs-lzma with kernel
+	  2.6.24.4-tmb-desktop586-1mdv
+
+2008-03-29 10:00  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop586-1mnb/squashfs-lzma.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/squashfs-lzma.description:
+	  add dkms info for squashfs-lzma with kernel
+	  2.6.24.4-desktop586-1mnb
+
+2008-03-29 09:52  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/squashfs.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/squashfs.description:
+	  add dkms info for squashfs with kernel 2.6.24.4-tmb-laptop-1mdv
+
+2008-03-29 09:52  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/ov51x-jpeg.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/ov51x-jpeg.description:
+	  add dkms info for ov51x-jpeg with kernel
+	  2.6.24.4-tmb-desktop586-1mdv
+
+2008-03-29 09:51  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop586-1mnb/hdaps.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/hdaps.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/thinkpad_ec.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/thinkpad_ec.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/tp_smapi.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/tp_smapi.description:
+	  add dkms info for tp_smapi with kernel 2.6.24.4-desktop586-1mnb
+
+2008-03-29 09:51  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop586-1mnb/ov51x-jpeg.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/ov51x-jpeg.description:
+	  add dkms info for ov51x-jpeg with kernel 2.6.24.4-desktop586-1mnb
+
+2008-03-29 09:50  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/hdaps.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/hdaps.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/thinkpad_ec.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/thinkpad_ec.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/tp_smapi.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/tp_smapi.description:
+	  add dkms info for tp_smapi with kernel
+	  2.6.24.4-tmb-desktop586-1mdv
+
+2008-03-29 09:50  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop586-1mnb/squashfs.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/squashfs.description:
+	  add dkms info for squashfs with kernel 2.6.24.4-desktop586-1mnb
+
+2008-03-29 09:50  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/squashfs.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/squashfs.description:
+	  add dkms info for squashfs with kernel
+	  2.6.24.4-tmb-desktop586-1mdv
+
+2008-03-29 09:11  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop586-1mnb/gspca.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/gspca.description: add
+	  dkms info for gspca with kernel 2.6.24.4-desktop586-1mnb
+
+2008-03-29 09:11  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/gspca.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/gspca.description:
+	  add dkms info for gspca with kernel 2.6.24.4-tmb-desktop586-1mdv
+
+2008-03-29 09:10  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/omfs.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/omfs.description:
+	  add dkms info for omfs with kernel 2.6.24.4-tmb-desktop586-1mdv
+
+2008-03-29 09:10  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop586-1mnb/omfs.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/omfs.description: add
+	  dkms info for omfs with kernel 2.6.24.4-desktop586-1mnb
+
+2008-03-29 08:51  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop586-1mnb/r5u870.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/r5u870.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/usbcam.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/usbcam.description:
+	  add dkms info for r5u870 with kernel 2.6.24.4-desktop586-1mnb
+
+2008-03-29 08:51  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/pcc_acpi.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/pcc_acpi.description:
+	  add dkms info for dkms-pcc-acpi with kernel
+	  2.6.24.4-tmb-desktop586-1mdv
+
+2008-03-29 08:51  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop586-1mnb/qc-usb-messenger.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/qc-usb-messenger.description:
+	  add dkms info for qc-usb-messenger with kernel
+	  2.6.24.4-desktop586-1mnb
+
+2008-03-29 08:51  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop586-1mnb/pcc_acpi.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/pcc_acpi.description:
+	  add dkms info for dkms-pcc-acpi with kernel
+	  2.6.24.4-desktop586-1mnb
+
+2008-03-29 08:50  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/qc-usb-messenger.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/qc-usb-messenger.description:
+	  add dkms info for qc-usb-messenger with kernel
+	  2.6.24.4-tmb-desktop586-1mdv
+
+2008-03-29 08:11  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop586-1mnb/cbm.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/cbm.description: add
+	  dkms info for opencbm with kernel 2.6.24.4-desktop586-1mnb
+
+2008-03-29 08:10  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/cbm.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/cbm.description:
+	  add dkms info for opencbm with kernel
+	  2.6.24.4-tmb-desktop586-1mdv
+
+2008-03-29 08:01  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/realcrypt.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/realcrypt.description:
+	  add dkms info for realcrypt with kernel
+	  2.6.24.4-tmb-desktop586-1mdv
+
+2008-03-29 08:01  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop586-1mnb/realcrypt.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/realcrypt.description:
+	  add dkms info for realcrypt with kernel 2.6.24.4-desktop586-1mnb
+
+2008-03-29 08:00  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop586-1mnb/alsa_raoppcm.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/alsa_raoppcm.description:
+	  add dkms info for alsa_raoppcm with kernel
+	  2.6.24.4-desktop586-1mnb
+
+2008-03-29 08:00  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/alsa_raoppcm.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/alsa_raoppcm.description:
+	  add dkms info for alsa_raoppcm with kernel
+	  2.6.24.4-tmb-desktop586-1mdv
+
+2008-03-29 07:50  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/et131x.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/et131x.description:
+	  add dkms info for et131x with kernel 2.6.24.4-tmb-desktop586-1mdv
+
+2008-03-29 07:50  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop586-1mnb/et131x.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/et131x.description:
+	  add dkms info for et131x with kernel 2.6.24.4-desktop586-1mnb
+
+2008-03-29 07:22  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/rtcmosram.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/rtcmosram.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/smapi.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/smapi.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/superio.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/superio.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/thinkpad.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/thinkpad.description:
+	  add dkms info for thinkpad with kernel 2.6.24.4-tmb-desktop-1mdv
+
+2008-03-29 07:21  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/rtcmosram.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/rtcmosram.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/smapi.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/smapi.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/superio.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/superio.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/thinkpad.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/thinkpad.description:
+	  add dkms info for thinkpad with kernel 2.6.24.4-tmb-laptop-1mdv
+
+2008-03-29 07:21  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop586-1mnb/rtcmosram.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/rtcmosram.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/smapi.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/smapi.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/superio.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/superio.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/thinkpad.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/thinkpad.description:
+	  add dkms info for thinkpad with kernel 2.6.24.4-desktop586-1mnb
+
+2008-03-29 07:21  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop-1mnb/rtcmosram.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/rtcmosram.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/smapi.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/smapi.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/superio.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/superio.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/thinkpad.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/thinkpad.description: add
+	  dkms info for thinkpad with kernel 2.6.24.4-desktop-1mnb
+
+2008-03-29 07:21  mandrake
+
+	* dkms-modules-info/2.6.24.4-server-1mnb/rtcmosram.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/rtcmosram.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/smapi.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/smapi.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/superio.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/superio.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/thinkpad.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/thinkpad.description: add
+	  dkms info for thinkpad with kernel 2.6.24.4-server-1mnb
+
+2008-03-29 07:20  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/rtcmosram.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/rtcmosram.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/smapi.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/smapi.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/superio.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/superio.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/thinkpad.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/thinkpad.description:
+	  add dkms info for thinkpad with kernel
+	  2.6.24.4-tmb-desktop586-1mdv
+
+2008-03-29 07:20  mandrake
+
+	* dkms-modules-info/2.6.24.4-laptop-1mnb/rtcmosram.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/rtcmosram.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/smapi.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/smapi.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/superio.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/superio.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/thinkpad.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/thinkpad.description: add
+	  dkms info for thinkpad with kernel 2.6.24.4-laptop-1mnb
+
+2008-03-29 07:00  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/actuator.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/actuator.description:
+	  add dkms info for actuator with kernel
+	  2.6.24.4-tmb-desktop586-1mdv
+
+2008-03-29 06:52  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/vboxvfs.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/vboxvfs.description:
+	  add dkms info for vboxvfs with kernel
+	  2.6.24.4-tmb-desktop586-1mdv
+
+2008-03-29 06:52  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/vboxdrv.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/vboxdrv.description:
+	  add dkms info for virtualbox with kernel
+	  2.6.24.4-tmb-desktop586-1mdv
+
+2008-03-29 06:51  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/libafs.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/libafs.description:
+	  add dkms info for libafs with kernel 2.6.24.4-tmb-desktop586-1mdv
+
+2008-03-29 06:51  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/kqemu.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/kqemu.description:
+	  add dkms info for kqemu with kernel 2.6.24.4-tmb-desktop586-1mdv
+
+2008-03-29 06:51  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-server-1mdv/vboxvfs.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/vboxvfs.description:
+	  add dkms info for vboxvfs with kernel 2.6.24.4-tmb-server-1mdv
+
+2008-03-29 06:20  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/vboxvfs.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/vboxvfs.description:
+	  add dkms info for vboxvfs with kernel 2.6.24.4-tmb-laptop-1mdv
+
+2008-03-29 06:20  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/vboxvfs.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/vboxvfs.description:
+	  add dkms info for vboxvfs with kernel 2.6.24.4-tmb-desktop-1mdv
+
+2008-03-29 06:11  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/ndiswrapper.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/ndiswrapper.description:
+	  add dkms info for ndiswrapper with kernel
+	  2.6.24.4-tmb-desktop586-1mdv
+
+2008-03-29 06:10  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/sqlzma.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/sqlzma.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/unlzma.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/unlzma.description:
+	  add dkms info for lzma with kernel 2.6.24.4-tmb-desktop586-1mdv
+
+2008-03-29 06:01  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-server-1mdv/vboxadd.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/vboxadd.description:
+	  add dkms info for vboxadd with kernel 2.6.24.4-tmb-server-1mdv
+
+2008-03-29 06:01  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/adv717x.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/adv717x.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/bt865.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/bt865.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/em8300.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/em8300.description:
+	  add dkms info for em8300 with kernel 2.6.24.4-tmb-desktop586-1mdv
+
+2008-03-29 06:00  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/vboxadd.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/vboxadd.description:
+	  add dkms info for vboxadd with kernel 2.6.24.4-tmb-laptop-1mdv
+
+2008-03-29 06:00  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/vboxadd.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/vboxadd.description:
+	  add dkms info for vboxadd with kernel
+	  2.6.24.4-tmb-desktop586-1mdv
+
+2008-03-29 06:00  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/vboxadd.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/vboxadd.description:
+	  add dkms info for vboxadd with kernel 2.6.24.4-tmb-desktop-1mdv
+
+2008-03-29 05:55  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-server-1mdv/fcdslusba.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/fcdslusba.description:
+	  add dkms info for fcdslusba with kernel 2.6.24.4-tmb-server-1mdv
+
+2008-03-29 05:55  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/fcdslusba.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/fcdslusba.description:
+	  add dkms info for fcdslusba with kernel 2.6.24.4-tmb-laptop-1mdv
+
+2008-03-29 05:54  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-server-1mdv/omfs.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/omfs.description: add
+	  dkms info for omfs with kernel 2.6.24.4-tmb-server-1mdv
+
+2008-03-29 05:53  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/omfs.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/omfs.description: add
+	  dkms info for omfs with kernel 2.6.24.4-tmb-desktop-1mdv
+
+2008-03-29 05:53  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/fcdslusb.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/fcdslusb.description:
+	  add dkms info for fcdslusb with kernel 2.6.24.4-tmb-desktop-1mdv
+
+2008-03-29 05:53  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/fcusb2.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/fcusb2.description:
+	  add dkms info for fcusb2 with kernel 2.6.24.4-tmb-laptop-1mdv
+
+2008-03-29 05:53  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/squashfs.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/squashfs.description:
+	  add dkms info for squashfs with kernel 2.6.24.4-tmb-desktop-1mdv
+
+2008-03-29 05:53  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/fcdslusb.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/fcdslusb.description:
+	  add dkms info for fcdslusb with kernel
+	  2.6.24.4-tmb-desktop586-1mdv
+
+2008-03-29 05:51  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-server-1mdv/fcdslusb.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/fcdslusb.description:
+	  add dkms info for fcdslusb with kernel 2.6.24.4-tmb-server-1mdv
+
+2008-03-29 05:51  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-server-1mdv/fcusb2.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/fcusb2.description:
+	  add dkms info for fcusb2 with kernel 2.6.24.4-tmb-server-1mdv
+
+2008-03-29 05:51  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/omfs.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/omfs.description: add
+	  dkms info for omfs with kernel 2.6.24.4-tmb-laptop-1mdv
+
+2008-03-29 05:51  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/fuse.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/fuse.description:
+	  add dkms info for fuse with kernel 2.6.24.4-tmb-desktop586-1mdv
+
+2008-03-29 05:51  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/lirc_atiusb.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/lirc_atiusb.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/lirc_bt829.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/lirc_bt829.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/lirc_cmdir.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/lirc_cmdir.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/lirc_dev.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/lirc_dev.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/lirc_i2c.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/lirc_i2c.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/lirc_igorplugusb.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/lirc_igorplugusb.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/lirc_imon.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/lirc_imon.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/lirc_it87.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/lirc_it87.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/lirc_mceusb.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/lirc_mceusb.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/lirc_mceusb2.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/lirc_mceusb2.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/lirc_sasem.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/lirc_sasem.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/lirc_serial.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/lirc_serial.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/lirc_sir.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/lirc_sir.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/lirc_streamzap.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/lirc_streamzap.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/lirc_ttusbir.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/lirc_ttusbir.description:
+	  add dkms info for lirc with kernel 2.6.24.4-tmb-desktop586-1mdv
+
+2008-03-29 05:50  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/fcdslusb.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/fcdslusb.description:
+	  add dkms info for fcdslusb with kernel 2.6.24.4-tmb-laptop-1mdv
+
+2008-03-29 05:50  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/fcusb2.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/fcusb2.description:
+	  add dkms info for fcusb2 with kernel 2.6.24.4-tmb-desktop586-1mdv
+
+2008-03-29 05:50  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/fcusb2.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/fcusb2.description:
+	  add dkms info for fcusb2 with kernel 2.6.24.4-tmb-desktop-1mdv
+
+2008-03-29 05:11  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/fcdslusba.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/fcdslusba.description:
+	  add dkms info for fcdslusba with kernel
+	  2.6.24.4-tmb-desktop586-1mdv
+
+2008-03-29 05:11  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/fcdslusba.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/fcdslusba.description:
+	  add dkms info for fcdslusba with kernel 2.6.24.4-tmb-desktop-1mdv
+
+2008-03-29 05:11  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/ov51x-jpeg.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/ov51x-jpeg.description:
+	  add dkms info for ov51x-jpeg with kernel 2.6.24.4-tmb-laptop-1mdv
+
+2008-03-29 05:11  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/ov51x-jpeg.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/ov51x-jpeg.description:
+	  add dkms info for ov51x-jpeg with kernel
+	  2.6.24.4-tmb-desktop-1mdv
+
+2008-03-29 05:11  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/squashfs-lzma.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/squashfs-lzma.description:
+	  add dkms info for squashfs-lzma with kernel
+	  2.6.24.4-tmb-desktop-1mdv
+
+2008-03-29 05:11  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-server-1mdv/ov51x-jpeg.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/ov51x-jpeg.description:
+	  add dkms info for ov51x-jpeg with kernel 2.6.24.4-tmb-server-1mdv
+
+2008-03-29 05:11  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-server-1mdv/fcdslusb2.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/fcdslusb2.description:
+	  add dkms info for fcdslusb2 with kernel 2.6.24.4-tmb-server-1mdv
+
+2008-03-29 05:10  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/squashfs-lzma.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/squashfs-lzma.description:
+	  add dkms info for squashfs-lzma with kernel
+	  2.6.24.4-tmb-laptop-1mdv
+
+2008-03-29 05:10  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/fcdslusb2.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/fcdslusb2.description:
+	  add dkms info for fcdslusb2 with kernel
+	  2.6.24.4-tmb-desktop586-1mdv
+
+2008-03-29 05:10  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-server-1mdv/squashfs-lzma.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/squashfs-lzma.description:
+	  add dkms info for squashfs-lzma with kernel
+	  2.6.24.4-tmb-server-1mdv
+
+2008-03-29 05:10  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/fcdslusb2.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/fcdslusb2.description:
+	  add dkms info for fcdslusb2 with kernel 2.6.24.4-tmb-desktop-1mdv
+
+2008-03-29 05:10  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/fcdslusb2.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/fcdslusb2.description:
+	  add dkms info for fcdslusb2 with kernel 2.6.24.4-tmb-laptop-1mdv
+
+2008-03-29 05:01  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/fcdslslusb.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/fcdslslusb.description:
+	  add dkms info for fcdslslusb with kernel
+	  2.6.24.4-tmb-desktop586-1mdv
+
+2008-03-29 05:01  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/gspca.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/gspca.description: add
+	  dkms info for gspca with kernel 2.6.24.4-tmb-laptop-1mdv
+
+2008-03-29 05:01  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-server-1mdv/gspca.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/gspca.description: add
+	  dkms info for gspca with kernel 2.6.24.4-tmb-server-1mdv
+
+2008-03-29 05:01  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/fcdslslusb.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/fcdslslusb.description:
+	  add dkms info for fcdslslusb with kernel
+	  2.6.24.4-tmb-desktop-1mdv
+
+2008-03-29 05:01  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/fcdslslusb.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/fcdslslusb.description:
+	  add dkms info for fcdslslusb with kernel 2.6.24.4-tmb-laptop-1mdv
+
+2008-03-29 05:01  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-server-1mdv/fcdslsl.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/fcdslsl.description:
+	  add dkms info for fcdslsl with kernel 2.6.24.4-tmb-server-1mdv
+
+2008-03-29 05:01  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/fcdslsl.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/fcdslsl.description:
+	  add dkms info for fcdslsl with kernel 2.6.24.4-tmb-laptop-1mdv
+
+2008-03-29 05:00  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/gspca.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/gspca.description:
+	  add dkms info for gspca with kernel 2.6.24.4-tmb-desktop-1mdv
+
+2008-03-29 05:00  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-server-1mdv/fcdslslusb.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/fcdslslusb.description:
+	  add dkms info for fcdslslusb with kernel 2.6.24.4-tmb-server-1mdv
+
+2008-03-29 04:53  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/alsa_raoppcm.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/alsa_raoppcm.description:
+	  add dkms info for alsa_raoppcm with kernel
+	  2.6.24.4-tmb-laptop-1mdv
+
+2008-03-29 04:53  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/fcdslsl.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/fcdslsl.description:
+	  add dkms info for fcdslsl with kernel
+	  2.6.24.4-tmb-desktop586-1mdv
+
+2008-03-29 04:53  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/pcc_acpi.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/pcc_acpi.description:
+	  add dkms info for dkms-pcc-acpi with kernel
+	  2.6.24.4-tmb-laptop-1mdv
+
+2008-03-29 04:53  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/fxusb.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/fxusb.description:
+	  add dkms info for fxusb with kernel 2.6.24.4-tmb-desktop586-1mdv
+
+2008-03-29 04:53  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/fcdsl2.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/fcdsl2.description:
+	  add dkms info for fcdsl2 with kernel 2.6.24.4-tmb-laptop-1mdv
+
+2008-03-29 04:53  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/cbm.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/cbm.description: add
+	  dkms info for opencbm with kernel 2.6.24.4-tmb-desktop-1mdv
+
+2008-03-29 04:53  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/hdaps.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/hdaps.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/thinkpad_ec.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/thinkpad_ec.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/tp_smapi.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/tp_smapi.description:
+	  add dkms info for tp_smapi with kernel 2.6.24.4-tmb-desktop-1mdv
+
+2008-03-29 04:52  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/fcdsl2.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/fcdsl2.description:
+	  add dkms info for fcdsl2 with kernel 2.6.24.4-tmb-desktop-1mdv
+
+2008-03-29 04:52  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/fcpci.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/fcpci.description:
+	  add dkms info for fcpci with kernel 2.6.24.4-tmb-desktop-1mdv
+
+2008-03-29 04:52  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-server-1mdv/fcdsl2.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/fcdsl2.description:
+	  add dkms info for fcdsl2 with kernel 2.6.24.4-tmb-server-1mdv
+
+2008-03-29 04:52  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/fcdslsl.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/fcdslsl.description:
+	  add dkms info for fcdslsl with kernel 2.6.24.4-tmb-desktop-1mdv
+
+2008-03-29 04:52  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/fcpci.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/fcpci.description: add
+	  dkms info for fcpci with kernel 2.6.24.4-tmb-laptop-1mdv
+
+2008-03-29 04:52  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/fcdsl2.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/fcdsl2.description:
+	  add dkms info for fcdsl2 with kernel 2.6.24.4-tmb-desktop586-1mdv
+
+2008-03-29 04:52  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-server-1mdv/fcpci.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/fcpci.description: add
+	  dkms info for fcpci with kernel 2.6.24.4-tmb-server-1mdv
+
+2008-03-29 04:51  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-server-1mdv/cbm.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/cbm.description: add
+	  dkms info for opencbm with kernel 2.6.24.4-tmb-server-1mdv
+
+2008-03-29 04:51  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/fxusb.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/fxusb.description:
+	  add dkms info for fxusb with kernel 2.6.24.4-tmb-desktop-1mdv
+
+2008-03-29 04:51  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/cbm.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/cbm.description: add
+	  dkms info for opencbm with kernel 2.6.24.4-tmb-laptop-1mdv
+
+2008-03-29 04:51  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/pcc_acpi.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/pcc_acpi.description:
+	  add dkms info for dkms-pcc-acpi with kernel
+	  2.6.24.4-tmb-desktop-1mdv
+
+2008-03-29 04:51  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-server-1mdv/pcc_acpi.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/pcc_acpi.description:
+	  add dkms info for dkms-pcc-acpi with kernel
+	  2.6.24.4-tmb-server-1mdv
+
+2008-03-29 04:51  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-server-1mdv/alsa_raoppcm.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/alsa_raoppcm.description:
+	  add dkms info for alsa_raoppcm with kernel
+	  2.6.24.4-tmb-server-1mdv
+
+2008-03-29 04:51  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-server-1mdv/fxusb.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/fxusb.description: add
+	  dkms info for fxusb with kernel 2.6.24.4-tmb-server-1mdv
+
+2008-03-29 04:51  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/hdaps.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/hdaps.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/thinkpad_ec.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/thinkpad_ec.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/tp_smapi.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/tp_smapi.description:
+	  add dkms info for tp_smapi with kernel 2.6.24.4-tmb-laptop-1mdv
+
+2008-03-29 04:50  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/fxusb.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/fxusb.description: add
+	  dkms info for fxusb with kernel 2.6.24.4-tmb-laptop-1mdv
+
+2008-03-29 04:50  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/fcpci.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/fcpci.description:
+	  add dkms info for fcpci with kernel 2.6.24.4-tmb-desktop586-1mdv
+
+2008-03-29 04:50  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/alsa_raoppcm.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/alsa_raoppcm.description:
+	  add dkms info for alsa_raoppcm with kernel
+	  2.6.24.4-tmb-desktop-1mdv
+
+2008-03-29 04:50  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-server-1mdv/hdaps.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/hdaps.description,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/thinkpad_ec.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/thinkpad_ec.description,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/tp_smapi.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/tp_smapi.description:
+	  add dkms info for tp_smapi with kernel 2.6.24.4-tmb-server-1mdv
+
+2008-03-29 04:21  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-server-1mdv/qc-usb-messenger.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/qc-usb-messenger.description:
+	  add dkms info for qc-usb-messenger with kernel
+	  2.6.24.4-tmb-server-1mdv
+
+2008-03-29 04:21  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/qc-usb-messenger.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/qc-usb-messenger.description:
+	  add dkms info for qc-usb-messenger with kernel
+	  2.6.24.4-tmb-desktop-1mdv
+
+2008-03-29 04:21  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/realcrypt.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/realcrypt.description:
+	  add dkms info for realcrypt with kernel 2.6.24.4-tmb-laptop-1mdv
+
+2008-03-29 04:21  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/qc-usb-messenger.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/qc-usb-messenger.description:
+	  add dkms info for qc-usb-messenger with kernel
+	  2.6.24.4-tmb-laptop-1mdv
+
+2008-03-29 04:21  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/cisco_ipsec.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/cisco_ipsec.description:
+	  add dkms info for vpnclient with kernel
+	  2.6.24.4-tmb-desktop586-1mdv
+
+2008-03-29 04:20  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/realcrypt.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/realcrypt.description:
+	  add dkms info for realcrypt with kernel 2.6.24.4-tmb-desktop-1mdv
+
+2008-03-29 04:20  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-server-1mdv/realcrypt.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/realcrypt.description:
+	  add dkms info for realcrypt with kernel 2.6.24.4-tmb-server-1mdv
+
+2008-03-29 04:12  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/ath_hal.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/ath_hal.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/ath_pci.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/ath_pci.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/ath_rate_amrr.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/ath_rate_amrr.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/ath_rate_onoe.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/ath_rate_onoe.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/ath_rate_sample.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/ath_rate_sample.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/wlan.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/wlan.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/wlan_acl.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/wlan_acl.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/wlan_ccmp.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/wlan_ccmp.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/wlan_scan_ap.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/wlan_scan_ap.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/wlan_scan_sta.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/wlan_scan_sta.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/wlan_tkip.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/wlan_tkip.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/wlan_wep.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/wlan_wep.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/wlan_xauth.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/wlan_xauth.description:
+	  add dkms info for madwifi with kernel
+	  2.6.24.4-tmb-desktop586-1mdv
+
+2008-03-29 04:11  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-server-1mdv/et131x.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/et131x.description:
+	  add dkms info for et131x with kernel 2.6.24.4-tmb-server-1mdv
+
+2008-03-29 04:10  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/et131x.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/et131x.description:
+	  add dkms info for et131x with kernel 2.6.24.4-tmb-laptop-1mdv
+
+2008-03-29 04:10  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/et131x.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/et131x.description:
+	  add dkms info for et131x with kernel 2.6.24.4-tmb-desktop-1mdv
+
+2008-03-29 04:02  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-server-1mdv/actuator.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/actuator.description:
+	  add dkms info for actuator with kernel 2.6.24.4-tmb-server-1mdv
+
+2008-03-29 04:01  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/actuator.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/actuator.description:
+	  add dkms info for actuator with kernel 2.6.24.4-tmb-desktop-1mdv
+
+2008-03-29 04:01  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/actuator.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/actuator.description:
+	  add dkms info for actuator with kernel 2.6.24.4-tmb-laptop-1mdv
+
+2008-03-29 03:54  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-server-1mdv/libafs.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/libafs.description:
+	  add dkms info for libafs with kernel 2.6.24.4-tmb-server-1mdv
+
+2008-03-29 03:54  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/sqlzma.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/sqlzma.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/unlzma.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/unlzma.description:
+	  add dkms info for lzma with kernel 2.6.24.4-tmb-laptop-1mdv
+
+2008-03-29 03:53  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/vboxdrv.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/vboxdrv.description:
+	  add dkms info for virtualbox with kernel 2.6.24.4-tmb-laptop-1mdv
+
+2008-03-29 03:53  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/libafs.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/libafs.description:
+	  add dkms info for libafs with kernel 2.6.24.4-tmb-desktop-1mdv
+
+2008-03-29 03:53  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/libafs.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/libafs.description:
+	  add dkms info for libafs with kernel 2.6.24.4-tmb-laptop-1mdv
+
+2008-03-29 03:53  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-server-1mdv/vboxdrv.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/vboxdrv.description:
+	  add dkms info for virtualbox with kernel 2.6.24.4-tmb-server-1mdv
+
+2008-03-29 03:52  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/vboxdrv.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/vboxdrv.description:
+	  add dkms info for virtualbox with kernel
+	  2.6.24.4-tmb-desktop-1mdv
+
+2008-03-29 03:52  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-server-1mdv/fuse.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/fuse.description: add
+	  dkms info for fuse with kernel 2.6.24.4-tmb-server-1mdv
+
+2008-03-29 03:52  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/ndiswrapper.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/ndiswrapper.description:
+	  add dkms info for ndiswrapper with kernel
+	  2.6.24.4-tmb-laptop-1mdv
+
+2008-03-29 03:52  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-server-1mdv/ndiswrapper.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/ndiswrapper.description:
+	  add dkms info for ndiswrapper with kernel
+	  2.6.24.4-tmb-server-1mdv
+
+2008-03-29 03:51  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/adv717x.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/adv717x.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/bt865.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/bt865.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/em8300.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/em8300.description:
+	  add dkms info for em8300 with kernel 2.6.24.4-tmb-laptop-1mdv
+
+2008-03-29 03:51  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/adv717x.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/adv717x.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/bt865.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/bt865.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/em8300.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/em8300.description:
+	  add dkms info for em8300 with kernel 2.6.24.4-tmb-desktop-1mdv
+
+2008-03-29 03:51  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-server-1mdv/sqlzma.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/sqlzma.description,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/unlzma.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/unlzma.description:
+	  add dkms info for lzma with kernel 2.6.24.4-tmb-server-1mdv
+
+2008-03-29 03:51  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/ndiswrapper.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/ndiswrapper.description:
+	  add dkms info for ndiswrapper with kernel
+	  2.6.24.4-tmb-desktop-1mdv
+
+2008-03-29 03:50  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/sqlzma.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/sqlzma.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/unlzma.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/unlzma.description:
+	  add dkms info for lzma with kernel 2.6.24.4-tmb-desktop-1mdv
+
+2008-03-29 03:50  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-server-1mdv/adv717x.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/adv717x.description,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/bt865.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/bt865.description,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/em8300.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/em8300.description:
+	  add dkms info for em8300 with kernel 2.6.24.4-tmb-server-1mdv
+
+2008-03-29 03:23  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/kqemu.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/kqemu.description:
+	  add dkms info for kqemu with kernel 2.6.24.4-tmb-desktop-1mdv
+
+2008-03-29 03:22  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/kqemu.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/kqemu.description: add
+	  dkms info for kqemu with kernel 2.6.24.4-tmb-laptop-1mdv
+
+2008-03-29 03:22  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-server-1mdv/kqemu.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/kqemu.description: add
+	  dkms info for kqemu with kernel 2.6.24.4-tmb-server-1mdv
+
+2008-03-29 03:22  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/lirc_atiusb.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/lirc_atiusb.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/lirc_bt829.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/lirc_bt829.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/lirc_cmdir.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/lirc_cmdir.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/lirc_dev.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/lirc_dev.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/lirc_i2c.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/lirc_i2c.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/lirc_igorplugusb.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/lirc_igorplugusb.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/lirc_imon.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/lirc_imon.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/lirc_it87.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/lirc_it87.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/lirc_mceusb.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/lirc_mceusb.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/lirc_mceusb2.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/lirc_mceusb2.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/lirc_sasem.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/lirc_sasem.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/lirc_serial.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/lirc_serial.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/lirc_sir.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/lirc_sir.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/lirc_streamzap.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/lirc_streamzap.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/lirc_ttusbir.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/lirc_ttusbir.description:
+	  add dkms info for lirc with kernel 2.6.24.4-tmb-desktop-1mdv
+
+2008-03-29 03:22  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/fuse.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/fuse.description: add
+	  dkms info for fuse with kernel 2.6.24.4-tmb-desktop-1mdv
+
+2008-03-29 03:21  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/nvidia96xx.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/nvidia96xx.description:
+	  add dkms info for nvidia96xx with kernel
+	  2.6.24.4-tmb-desktop586-1mdv
+
+2008-03-29 03:21  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/lirc_atiusb.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/lirc_atiusb.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/lirc_bt829.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/lirc_bt829.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/lirc_cmdir.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/lirc_cmdir.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/lirc_dev.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/lirc_dev.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/lirc_i2c.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/lirc_i2c.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/lirc_igorplugusb.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/lirc_igorplugusb.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/lirc_imon.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/lirc_imon.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/lirc_it87.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/lirc_it87.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/lirc_mceusb.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/lirc_mceusb.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/lirc_mceusb2.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/lirc_mceusb2.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/lirc_sasem.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/lirc_sasem.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/lirc_serial.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/lirc_serial.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/lirc_sir.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/lirc_sir.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/lirc_streamzap.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/lirc_streamzap.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/lirc_ttusbir.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/lirc_ttusbir.description:
+	  add dkms info for lirc with kernel 2.6.24.4-tmb-laptop-1mdv
+
+2008-03-29 03:21  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-server-1mdv/lirc_atiusb.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/lirc_atiusb.description,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/lirc_bt829.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/lirc_bt829.description,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/lirc_cmdir.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/lirc_cmdir.description,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/lirc_dev.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/lirc_dev.description,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/lirc_i2c.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/lirc_i2c.description,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/lirc_igorplugusb.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/lirc_igorplugusb.description,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/lirc_imon.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/lirc_imon.description,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/lirc_it87.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/lirc_it87.description,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/lirc_mceusb.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/lirc_mceusb.description,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/lirc_mceusb2.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/lirc_mceusb2.description,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/lirc_sasem.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/lirc_sasem.description,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/lirc_serial.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/lirc_serial.description,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/lirc_sir.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/lirc_sir.description,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/lirc_streamzap.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/lirc_streamzap.description,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/lirc_ttusbir.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/lirc_ttusbir.description:
+	  add dkms info for lirc with kernel 2.6.24.4-tmb-server-1mdv
+
+2008-03-29 03:20  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/fuse.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/fuse.description: add
+	  dkms info for fuse with kernel 2.6.24.4-tmb-laptop-1mdv
+
+2008-03-29 03:11  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/nvidia-current.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/nvidia-current.description:
+	  add dkms info for nvidia-current with kernel
+	  2.6.24.4-tmb-desktop586-1mdv
+
+2008-03-29 03:11  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-server-1mdv/unicorn_pci_atm.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/unicorn_pci_atm.description,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/unicorn_pci_eth.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/unicorn_pci_eth.description,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/unicorn_usb_atm.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/unicorn_usb_atm.description,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/unicorn_usb_eth.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/unicorn_usb_eth.description:
+	  add dkms info for unicorn with kernel 2.6.24.4-tmb-server-1mdv
+
+2008-03-29 03:11  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/unicorn_pci_atm.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/unicorn_pci_atm.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/unicorn_pci_eth.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/unicorn_pci_eth.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/unicorn_usb_atm.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/unicorn_usb_atm.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/unicorn_usb_eth.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/unicorn_usb_eth.description:
+	  add dkms info for unicorn with kernel 2.6.24.4-tmb-desktop-1mdv
+
+2008-03-29 03:10  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/unicorn_pci_atm.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/unicorn_pci_atm.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/unicorn_pci_eth.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/unicorn_pci_eth.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/unicorn_usb_atm.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/unicorn_usb_atm.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/unicorn_usb_eth.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/unicorn_usb_eth.description:
+	  add dkms info for unicorn with kernel
+	  2.6.24.4-tmb-desktop586-1mdv
+
+2008-03-29 03:10  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/unicorn_pci_atm.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/unicorn_pci_atm.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/unicorn_pci_eth.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/unicorn_pci_eth.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/unicorn_usb_atm.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/unicorn_usb_atm.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/unicorn_usb_eth.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/unicorn_usb_eth.description:
+	  add dkms info for unicorn with kernel 2.6.24.4-tmb-laptop-1mdv
+
+2008-03-29 02:58  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/hsfengine.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/hsfengine.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/hsfhda.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/hsfhda.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/hsfmc97ali.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/hsfmc97ali.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/hsfmc97ati.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/hsfmc97ati.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/hsfmc97ich.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/hsfmc97ich.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/hsfmc97sis.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/hsfmc97sis.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/hsfmc97via.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/hsfmc97via.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/hsfosspec.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/hsfosspec.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/hsfpcibasic2.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/hsfpcibasic2.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/hsfserial.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/hsfserial.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/hsfsoar.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/hsfsoar.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/hsfusbcd2.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/hsfusbcd2.description:
+	  add dkms info for hsfmodem with kernel
+	  2.6.24.4-tmb-desktop586-1mdv
+
+2008-03-29 02:58  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/ath_hal.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/ath_hal.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/ath_pci.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/ath_pci.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/ath_rate_amrr.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/ath_rate_amrr.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/ath_rate_onoe.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/ath_rate_onoe.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/ath_rate_sample.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/ath_rate_sample.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/wlan.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/wlan.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/wlan_acl.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/wlan_acl.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/wlan_ccmp.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/wlan_ccmp.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/wlan_scan_ap.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/wlan_scan_ap.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/wlan_scan_sta.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/wlan_scan_sta.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/wlan_tkip.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/wlan_tkip.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/wlan_wep.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/wlan_wep.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/wlan_xauth.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/wlan_xauth.description:
+	  add dkms info for madwifi with kernel 2.6.24.4-tmb-laptop-1mdv
+
+2008-03-29 02:57  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-server-1mdv/fglrx.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/fglrx.description: add
+	  dkms info for fglrx with kernel 2.6.24.4-tmb-server-1mdv
+
+2008-03-29 02:57  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-server-1mdv/slamr.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/slamr.description,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/slusb.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/slusb.description: add
+	  dkms info for slmodem with kernel 2.6.24.4-tmb-server-1mdv
+
+2008-03-29 02:57  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/nvidia96xx.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/nvidia96xx.description:
+	  add dkms info for nvidia96xx with kernel
+	  2.6.24.4-tmb-desktop-1mdv
+
+2008-03-29 02:57  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/fcdsl.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/fcdsl.description: add
+	  dkms info for fcdsl with kernel 2.6.24.4-tmb-laptop-1mdv
+
+2008-03-29 02:56  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-server-1mdv/nvidia-current.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/nvidia-current.description:
+	  add dkms info for nvidia-current with kernel
+	  2.6.24.4-tmb-server-1mdv
+
+2008-03-29 02:55  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-server-1mdv/cisco_ipsec.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/cisco_ipsec.description:
+	  add dkms info for vpnclient with kernel 2.6.24.4-tmb-server-1mdv
+
+2008-03-29 02:55  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/fcusb.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/fcusb.description: add
+	  dkms info for fcusb with kernel 2.6.24.4-tmb-laptop-1mdv
+
+2008-03-29 02:55  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/fcdsl.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/fcdsl.description:
+	  add dkms info for fcdsl with kernel 2.6.24.4-tmb-desktop-1mdv
+
+2008-03-29 02:55  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-server-1mdv/nvidia71xx.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/nvidia71xx.description:
+	  add dkms info for nvidia71xx with kernel 2.6.24.4-tmb-server-1mdv
+
+2008-03-29 02:55  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/fcusb.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/fcusb.description:
+	  add dkms info for fcusb with kernel 2.6.24.4-tmb-desktop-1mdv
+
+2008-03-29 02:54  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/nvidia96xx.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/nvidia96xx.description:
+	  add dkms info for nvidia96xx with kernel 2.6.24.4-tmb-laptop-1mdv
+
+2008-03-29 02:54  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-server-1mdv/nvidia96xx.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/nvidia96xx.description:
+	  add dkms info for nvidia96xx with kernel 2.6.24.4-tmb-server-1mdv
+
+2008-03-29 02:54  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/ath_hal.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/ath_hal.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/ath_pci.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/ath_pci.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/ath_rate_amrr.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/ath_rate_amrr.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/ath_rate_onoe.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/ath_rate_onoe.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/ath_rate_sample.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/ath_rate_sample.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/wlan.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/wlan.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/wlan_acl.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/wlan_acl.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/wlan_ccmp.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/wlan_ccmp.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/wlan_scan_ap.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/wlan_scan_ap.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/wlan_scan_sta.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/wlan_scan_sta.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/wlan_tkip.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/wlan_tkip.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/wlan_wep.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/wlan_wep.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/wlan_xauth.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/wlan_xauth.description:
+	  add dkms info for madwifi with kernel 2.6.24.4-tmb-desktop-1mdv
+
+2008-03-29 02:53  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-server-1mdv/ath_hal.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/ath_hal.description,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/ath_pci.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/ath_pci.description,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/ath_rate_amrr.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/ath_rate_amrr.description,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/ath_rate_onoe.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/ath_rate_onoe.description,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/ath_rate_sample.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/ath_rate_sample.description,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/wlan.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/wlan.description,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/wlan_acl.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/wlan_acl.description,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/wlan_ccmp.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/wlan_ccmp.description,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/wlan_scan_ap.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/wlan_scan_ap.description,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/wlan_scan_sta.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/wlan_scan_sta.description,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/wlan_tkip.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/wlan_tkip.description,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/wlan_wep.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/wlan_wep.description,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/wlan_xauth.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/wlan_xauth.description:
+	  add dkms info for madwifi with kernel 2.6.24.4-tmb-server-1mdv
+
+2008-03-29 02:52  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/slamr.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/slamr.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/slusb.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/slusb.description: add
+	  dkms info for slmodem with kernel 2.6.24.4-tmb-laptop-1mdv
+
+2008-03-29 02:52  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-server-1mdv/fcusb.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/fcusb.description: add
+	  dkms info for fcusb with kernel 2.6.24.4-tmb-server-1mdv
+
+2008-03-29 02:52  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/nvidia-current.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/nvidia-current.description:
+	  add dkms info for nvidia-current with kernel
+	  2.6.24.4-tmb-desktop-1mdv
+
+2008-03-29 02:51  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-server-1mdv/fcdsl.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/fcdsl.description: add
+	  dkms info for fcdsl with kernel 2.6.24.4-tmb-server-1mdv
+
+2008-03-29 02:51  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/slamr.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/slamr.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/slusb.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/slusb.description:
+	  add dkms info for slmodem with kernel 2.6.24.4-tmb-desktop-1mdv
+
+2008-03-29 02:51  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/fcusb.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/fcusb.description:
+	  add dkms info for fcusb with kernel 2.6.24.4-tmb-desktop586-1mdv
+
+2008-03-29 02:51  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/slamr.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/slamr.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/slusb.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/slusb.description:
+	  add dkms info for slmodem with kernel
+	  2.6.24.4-tmb-desktop586-1mdv
+
+2008-03-29 02:51  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/nvidia-current.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/nvidia-current.description:
+	  add dkms info for nvidia-current with kernel
+	  2.6.24.4-tmb-laptop-1mdv
+
+2008-03-29 02:51  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/fglrx.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/fglrx.description:
+	  add dkms info for fglrx with kernel 2.6.24.4-tmb-desktop586-1mdv
+
+2008-03-29 02:51  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/fcdsl.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/fcdsl.description:
+	  add dkms info for fcdsl with kernel 2.6.24.4-tmb-desktop586-1mdv
+
+2008-03-29 02:50  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/cisco_ipsec.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/cisco_ipsec.description:
+	  add dkms info for vpnclient with kernel 2.6.24.4-tmb-desktop-1mdv
+
+2008-03-29 02:50  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/cisco_ipsec.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/cisco_ipsec.description:
+	  add dkms info for vpnclient with kernel 2.6.24.4-tmb-laptop-1mdv
+
+2008-03-29 02:22  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/nvidia71xx.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv/nvidia71xx.description:
+	  add dkms info for nvidia71xx with kernel
+	  2.6.24.4-tmb-desktop586-1mdv
+
+2008-03-29 02:22  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/fglrx.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/fglrx.description:
+	  add dkms info for fglrx with kernel 2.6.24.4-tmb-desktop-1mdv
+
+2008-03-29 02:22  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/fglrx.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/fglrx.description: add
+	  dkms info for fglrx with kernel 2.6.24.4-tmb-laptop-1mdv
+
+2008-03-29 02:22  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-server-1mdv,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/hsfengine.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/hsfengine.description,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/hsfhda.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/hsfhda.description,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/hsfmc97ali.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/hsfmc97ali.description,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/hsfmc97ati.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/hsfmc97ati.description,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/hsfmc97ich.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/hsfmc97ich.description,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/hsfmc97sis.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/hsfmc97sis.description,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/hsfmc97via.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/hsfmc97via.description,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/hsfosspec.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/hsfosspec.description,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/hsfpcibasic2.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/hsfpcibasic2.description,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/hsfserial.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/hsfserial.description,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/hsfsoar.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/hsfsoar.description,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/hsfusbcd2.alias,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv/hsfusbcd2.description:
+	  add dkms info for hsfmodem with kernel 2.6.24.4-tmb-server-1mdv
+
+2008-03-29 02:21  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/hsfengine.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/hsfengine.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/hsfhda.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/hsfhda.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/hsfmc97ali.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/hsfmc97ali.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/hsfmc97ati.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/hsfmc97ati.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/hsfmc97ich.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/hsfmc97ich.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/hsfmc97sis.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/hsfmc97sis.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/hsfmc97via.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/hsfmc97via.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/hsfosspec.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/hsfosspec.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/hsfpcibasic2.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/hsfpcibasic2.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/hsfserial.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/hsfserial.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/hsfsoar.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/hsfsoar.description,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/hsfusbcd2.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/hsfusbcd2.description:
+	  add dkms info for hsfmodem with kernel 2.6.24.4-tmb-laptop-1mdv
+
+2008-03-29 02:21  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-laptop-1mdv,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/nvidia71xx.alias,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv/nvidia71xx.description:
+	  add dkms info for nvidia71xx with kernel 2.6.24.4-tmb-laptop-1mdv
+
+2008-03-29 02:21  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/hsfengine.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/hsfengine.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/hsfhda.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/hsfhda.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/hsfmc97ali.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/hsfmc97ali.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/hsfmc97ati.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/hsfmc97ati.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/hsfmc97ich.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/hsfmc97ich.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/hsfmc97sis.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/hsfmc97sis.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/hsfmc97via.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/hsfmc97via.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/hsfosspec.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/hsfosspec.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/hsfpcibasic2.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/hsfpcibasic2.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/hsfserial.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/hsfserial.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/hsfsoar.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/hsfsoar.description,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/hsfusbcd2.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/hsfusbcd2.description:
+	  add dkms info for hsfmodem with kernel 2.6.24.4-tmb-desktop-1mdv
+
+2008-03-29 02:20  mandrake
+
+	* dkms-modules-info/2.6.24.4-tmb-desktop-1mdv,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/nvidia71xx.alias,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv/nvidia71xx.description:
+	  add dkms info for nvidia71xx with kernel
+	  2.6.24.4-tmb-desktop-1mdv
+
+2008-03-28 05:20  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop586-1mnb/actuator.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/actuator.description:
+	  add dkms info for actuator with kernel 2.6.24.4-desktop586-1mnb
+
+2008-03-28 05:12  mandrake
+
+	* dkms-modules-info/2.6.24.4-laptop-1mnb/drm.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/drm.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/i810.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/i810.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/i915.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/i915.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/mach64.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/mach64.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/mga.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/mga.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/nouveau.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/nouveau.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/r128.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/r128.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/radeon.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/radeon.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/savage.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/savage.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/sis.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/sis.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/tdfx.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/tdfx.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/via.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/via.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/xgi.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/xgi.description: add dkms
+	  info for drm-experimental with kernel 2.6.24.4-laptop-1mnb
+
+2008-03-28 05:12  mandrake
+
+	* dkms-modules-info/2.6.24.4-laptop-1mnb/squashfs.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/squashfs.description: add
+	  dkms info for squashfs with kernel 2.6.24.4-laptop-1mnb
+
+2008-03-28 05:12  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop-1mnb/m560x.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/m560x.description: add
+	  dkms info for m560x with kernel 2.6.24.4-desktop-1mnb
+
+2008-03-28 05:12  mandrake
+
+	* dkms-modules-info/2.6.24.4-server-1mnb/m560x.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/m560x.description: add
+	  dkms info for m560x with kernel 2.6.24.4-server-1mnb
+
+2008-03-28 05:12  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop-1mnb/drm.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/drm.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/i810.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/i810.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/i915.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/i915.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/mach64.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/mach64.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/mga.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/mga.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/nouveau.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/nouveau.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/r128.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/r128.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/radeon.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/radeon.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/savage.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/savage.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/sis.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/sis.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/tdfx.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/tdfx.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/via.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/via.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/xgi.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/xgi.description: add dkms
+	  info for drm-experimental with kernel 2.6.24.4-desktop-1mnb
+
+2008-03-28 05:11  mandrake
+
+	* dkms-modules-info/2.6.24.4-server-1mnb/drm.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/drm.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/i810.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/i810.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/i915.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/i915.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/mach64.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/mach64.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/mga.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/mga.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/nouveau.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/nouveau.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/r128.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/r128.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/radeon.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/radeon.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/savage.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/savage.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/sis.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/sis.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/tdfx.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/tdfx.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/via.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/via.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/xgi.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/xgi.description: add dkms
+	  info for drm-experimental with kernel 2.6.24.4-server-1mnb
+
+2008-03-28 05:11  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop-1mnb/squashfs.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/squashfs.description: add
+	  dkms info for squashfs with kernel 2.6.24.4-desktop-1mnb
+
+2008-03-28 05:11  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop586-1mnb/unionfs.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/unionfs.description:
+	  add dkms info for unionfs with kernel 2.6.24.4-desktop586-1mnb
+
+2008-03-28 05:10  mandrake
+
+	* dkms-modules-info/2.6.24.4-laptop-1mnb/m560x.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/m560x.description: add
+	  dkms info for m560x with kernel 2.6.24.4-laptop-1mnb
+
+2008-03-28 05:10  mandrake
+
+	* dkms-modules-info/2.6.24.4-server-1mnb/squashfs.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/squashfs.description: add
+	  dkms info for squashfs with kernel 2.6.24.4-server-1mnb
+
+2008-03-28 05:10  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop-1mnb/omfs.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/omfs.description: add
+	  dkms info for omfs with kernel 2.6.24.4-desktop-1mnb
+
+2008-03-28 05:10  mandrake
+
+	* dkms-modules-info/2.6.24.4-laptop-1mnb/omfs.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/omfs.description: add dkms
+	  info for omfs with kernel 2.6.24.4-laptop-1mnb
+
+2008-03-28 05:00  mandrake
+
+	* dkms-modules-info/2.6.24.4-server-1mnb/omfs.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/omfs.description: add dkms
+	  info for omfs with kernel 2.6.24.4-server-1mnb
+
+2008-03-28 05:00  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop586-1mnb/libafs.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/libafs.description:
+	  add dkms info for libafs with kernel 2.6.24.4-desktop586-1mnb
+
+2008-03-28 04:54  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop-1mnb/squashfs-lzma.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/squashfs-lzma.description:
+	  add dkms info for squashfs-lzma with kernel 2.6.24.4-desktop-1mnb
+
+2008-03-28 04:54  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop-1mnb/gspca.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/gspca.description: add
+	  dkms info for gspca with kernel 2.6.24.4-desktop-1mnb
+
+2008-03-28 04:54  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop586-1mnb/sqlzma.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/sqlzma.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/unlzma.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/unlzma.description:
+	  add dkms info for lzma with kernel 2.6.24.4-desktop586-1mnb
+
+2008-03-28 04:54  mandrake
+
+	* dkms-modules-info/2.6.24.4-server-1mnb/gspca.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/gspca.description: add
+	  dkms info for gspca with kernel 2.6.24.4-server-1mnb
+
+2008-03-28 04:53  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop586-1mnb/vboxdrv.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/vboxdrv.description:
+	  add dkms info for virtualbox with kernel 2.6.24.4-desktop586-1mnb
+
+2008-03-28 04:53  mandrake
+
+	* dkms-modules-info/2.6.24.4-laptop-1mnb/vboxvfs.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/vboxvfs.description: add
+	  dkms info for vboxvfs with kernel 2.6.24.4-laptop-1mnb
+
+2008-03-28 04:53  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop-1mnb/hdaps.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/hdaps.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/thinkpad_ec.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/thinkpad_ec.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/tp_smapi.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/tp_smapi.description: add
+	  dkms info for tp_smapi with kernel 2.6.24.4-desktop-1mnb
+
+2008-03-28 04:53  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop-1mnb/r5u870.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/r5u870.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/usbcam.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/usbcam.description: add
+	  dkms info for r5u870 with kernel 2.6.24.4-desktop-1mnb
+
+2008-03-28 04:53  mandrake
+
+	* dkms-modules-info/2.6.24.4-server-1mnb/hdaps.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/hdaps.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/thinkpad_ec.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/thinkpad_ec.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/tp_smapi.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/tp_smapi.description: add
+	  dkms info for tp_smapi with kernel 2.6.24.4-server-1mnb
+
+2008-03-28 04:52  mandrake
+
+	* dkms-modules-info/2.6.24.4-laptop-1mnb/ov51x-jpeg.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/ov51x-jpeg.description:
+	  add dkms info for ov51x-jpeg with kernel 2.6.24.4-laptop-1mnb
+
+2008-03-28 04:52  mandrake
+
+	* dkms-modules-info/2.6.24.4-server-1mnb/squashfs-lzma.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/squashfs-lzma.description:
+	  add dkms info for squashfs-lzma with kernel 2.6.24.4-server-1mnb
+
+2008-03-28 04:52  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop-1mnb/ov51x-jpeg.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/ov51x-jpeg.description:
+	  add dkms info for ov51x-jpeg with kernel 2.6.24.4-desktop-1mnb
+
+2008-03-28 04:52  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop586-1mnb/vboxvfs.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/vboxvfs.description:
+	  add dkms info for vboxvfs with kernel 2.6.24.4-desktop586-1mnb
+
+2008-03-28 04:52  mandrake
+
+	* dkms-modules-info/2.6.24.4-server-1mnb/ov51x-jpeg.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/ov51x-jpeg.description:
+	  add dkms info for ov51x-jpeg with kernel 2.6.24.4-server-1mnb
+
+2008-03-28 04:52  mandrake
+
+	* dkms-modules-info/2.6.24.4-laptop-1mnb/gspca.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/gspca.description: add
+	  dkms info for gspca with kernel 2.6.24.4-laptop-1mnb
+
+2008-03-28 04:51  mandrake
+
+	* dkms-modules-info/2.6.24.4-server-1mnb/vboxvfs.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/vboxvfs.description: add
+	  dkms info for vboxvfs with kernel 2.6.24.4-server-1mnb
+
+2008-03-28 04:51  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop-1mnb/vboxvfs.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/vboxvfs.description: add
+	  dkms info for vboxvfs with kernel 2.6.24.4-desktop-1mnb
+
+2008-03-28 04:51  mandrake
+
+	* dkms-modules-info/2.6.24.4-laptop-1mnb/hdaps.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/hdaps.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/thinkpad_ec.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/thinkpad_ec.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/tp_smapi.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/tp_smapi.description: add
+	  dkms info for tp_smapi with kernel 2.6.24.4-laptop-1mnb
+
+2008-03-28 04:51  mandrake
+
+	* dkms-modules-info/2.6.24.4-laptop-1mnb/squashfs-lzma.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/squashfs-lzma.description:
+	  add dkms info for squashfs-lzma with kernel 2.6.24.4-laptop-1mnb
+
+2008-03-28 04:51  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop586-1mnb/kqemu.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/kqemu.description: add
+	  dkms info for kqemu with kernel 2.6.24.4-desktop586-1mnb
+
+2008-03-28 04:50  mandrake
+
+	* dkms-modules-info/2.6.24.4-server-1mnb/r5u870.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/r5u870.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/usbcam.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/usbcam.description: add
+	  dkms info for r5u870 with kernel 2.6.24.4-server-1mnb
+
+2008-03-28 04:50  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop586-1mnb/ndiswrapper.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/ndiswrapper.description:
+	  add dkms info for ndiswrapper with kernel
+	  2.6.24.4-desktop586-1mnb
+
+2008-03-28 04:50  mandrake
+
+	* dkms-modules-info/2.6.24.4-laptop-1mnb/r5u870.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/r5u870.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/usbcam.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/usbcam.description: add
+	  dkms info for r5u870 with kernel 2.6.24.4-laptop-1mnb
+
+2008-03-28 04:22  mandrake
+
+	* dkms-modules-info/2.6.24.4-laptop-1mnb/vboxadd.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/vboxadd.description: add
+	  dkms info for vboxadd with kernel 2.6.24.4-laptop-1mnb
+
+2008-03-28 04:22  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop586-1mnb/lirc_atiusb.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/lirc_atiusb.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/lirc_bt829.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/lirc_bt829.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/lirc_cmdir.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/lirc_cmdir.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/lirc_dev.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/lirc_dev.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/lirc_i2c.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/lirc_i2c.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/lirc_igorplugusb.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/lirc_igorplugusb.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/lirc_imon.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/lirc_imon.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/lirc_it87.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/lirc_it87.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/lirc_mceusb.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/lirc_mceusb.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/lirc_mceusb2.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/lirc_mceusb2.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/lirc_sasem.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/lirc_sasem.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/lirc_serial.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/lirc_serial.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/lirc_sir.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/lirc_sir.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/lirc_streamzap.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/lirc_streamzap.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/lirc_ttusbir.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/lirc_ttusbir.description:
+	  add dkms info for lirc with kernel 2.6.24.4-desktop586-1mnb
+
+2008-03-28 04:22  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop-1mnb/vboxadd.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/vboxadd.description: add
+	  dkms info for vboxadd with kernel 2.6.24.4-desktop-1mnb
+
+2008-03-28 04:22  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop-1mnb/cbm.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/cbm.description: add dkms
+	  info for opencbm with kernel 2.6.24.4-desktop-1mnb
+
+2008-03-28 04:21  mandrake
+
+	* dkms-modules-info/2.6.24.4-laptop-1mnb/pcc_acpi.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/pcc_acpi.description: add
+	  dkms info for dkms-pcc-acpi with kernel 2.6.24.4-laptop-1mnb
+
+2008-03-28 04:21  mandrake
+
+	* dkms-modules-info/2.6.24.4-server-1mnb/cbm.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/cbm.description: add dkms
+	  info for opencbm with kernel 2.6.24.4-server-1mnb
+
+2008-03-28 04:21  mandrake
+
+	* dkms-modules-info/2.6.24.4-laptop-1mnb/cbm.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/cbm.description: add dkms
+	  info for opencbm with kernel 2.6.24.4-laptop-1mnb
+
+2008-03-28 04:21  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop586-1mnb/adv717x.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/adv717x.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/bt865.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/bt865.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/em8300.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/em8300.description:
+	  add dkms info for em8300 with kernel 2.6.24.4-desktop586-1mnb
+
+2008-03-28 04:20  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop-1mnb/pcc_acpi.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/pcc_acpi.description: add
+	  dkms info for dkms-pcc-acpi with kernel 2.6.24.4-desktop-1mnb
+
+2008-03-28 04:20  mandrake
+
+	* dkms-modules-info/2.6.24.4-server-1mnb/vboxadd.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/vboxadd.description: add
+	  dkms info for vboxadd with kernel 2.6.24.4-server-1mnb
+
+2008-03-28 04:20  mandrake
+
+	* dkms-modules-info/2.6.24.4-server-1mnb/pcc_acpi.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/pcc_acpi.description: add
+	  dkms info for dkms-pcc-acpi with kernel 2.6.24.4-server-1mnb
+
+2008-03-28 04:20  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop586-1mnb/vboxadd.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/vboxadd.description:
+	  add dkms info for vboxadd with kernel 2.6.24.4-desktop586-1mnb
+
+2008-03-28 04:12  mandrake
+
+	* dkms-modules-info/2.6.24.4-laptop-1mnb/alsa_raoppcm.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/alsa_raoppcm.description:
+	  add dkms info for alsa_raoppcm with kernel 2.6.24.4-laptop-1mnb
+
+2008-03-28 04:12  mandrake
+
+	* dkms-modules-info/2.6.24.4-server-1mnb/realcrypt.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/realcrypt.description: add
+	  dkms info for realcrypt with kernel 2.6.24.4-server-1mnb
+
+2008-03-28 04:12  mandrake
+
+	* dkms-modules-info/2.6.24.4-laptop-1mnb/realcrypt.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/realcrypt.description: add
+	  dkms info for realcrypt with kernel 2.6.24.4-laptop-1mnb
+
+2008-03-28 04:12  mandrake
+
+	* dkms-modules-info/2.6.24.4-server-1mnb/alsa_raoppcm.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/alsa_raoppcm.description:
+	  add dkms info for alsa_raoppcm with kernel 2.6.24.4-server-1mnb
+
+2008-03-28 04:11  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop-1mnb/realcrypt.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/realcrypt.description:
+	  add dkms info for realcrypt with kernel 2.6.24.4-desktop-1mnb
+
+2008-03-28 04:11  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop-1mnb/alsa_raoppcm.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/alsa_raoppcm.description:
+	  add dkms info for alsa_raoppcm with kernel 2.6.24.4-desktop-1mnb
+
+2008-03-28 04:01  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop-1mnb/fxusb_CZ.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/fxusb_CZ.description: add
+	  dkms info for fxusb_CZ with kernel 2.6.24.4-desktop-1mnb
+
+2008-03-28 04:01  mandrake
+
+	* dkms-modules-info/2.6.24.4-server-1mnb/fxusb_CZ.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/fxusb_CZ.description: add
+	  dkms info for fxusb_CZ with kernel 2.6.24.4-server-1mnb
+
+2008-03-28 04:01  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop-1mnb/qc-usb-messenger.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/qc-usb-messenger.description:
+	  add dkms info for qc-usb-messenger with kernel
+	  2.6.24.4-desktop-1mnb
+
+2008-03-28 04:01  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop586-1mnb/fcdslusb.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/fcdslusb.description:
+	  add dkms info for fcdslusb with kernel 2.6.24.4-desktop586-1mnb
+
+2008-03-28 04:01  mandrake
+
+	* dkms-modules-info/2.6.24.4-laptop-1mnb/fxusb_CZ.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/fxusb_CZ.description: add
+	  dkms info for fxusb_CZ with kernel 2.6.24.4-laptop-1mnb
+
+2008-03-28 04:01  mandrake
+
+	* dkms-modules-info/2.6.24.4-laptop-1mnb/qc-usb-messenger.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/qc-usb-messenger.description:
+	  add dkms info for qc-usb-messenger with kernel
+	  2.6.24.4-laptop-1mnb
+
+2008-03-28 04:00  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop586-1mnb/fxusb_CZ.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/fxusb_CZ.description:
+	  add dkms info for fxusb_CZ with kernel 2.6.24.4-desktop586-1mnb
+
+2008-03-28 04:00  mandrake
+
+	* dkms-modules-info/2.6.24.4-server-1mnb/qc-usb-messenger.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/qc-usb-messenger.description:
+	  add dkms info for qc-usb-messenger with kernel
+	  2.6.24.4-server-1mnb
+
+2008-03-28 03:51  mandrake
+
+	* dkms-modules-info/2.6.24.4-server-1mnb/fcusb2.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/fcusb2.description: add
+	  dkms info for fcusb2 with kernel 2.6.24.4-server-1mnb
+
+2008-03-28 03:51  mandrake
+
+	* dkms-modules-info/2.6.24.4-laptop-1mnb/fcdslusb.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/fcdslusb.description: add
+	  dkms info for fcdslusb with kernel 2.6.24.4-laptop-1mnb
+
+2008-03-28 03:51  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop-1mnb/fcusb2.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/fcusb2.description: add
+	  dkms info for fcusb2 with kernel 2.6.24.4-desktop-1mnb
+
+2008-03-28 03:51  mandrake
+
+	* dkms-modules-info/2.6.24.4-server-1mnb/et131x.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/et131x.description: add
+	  dkms info for et131x with kernel 2.6.24.4-server-1mnb
+
+2008-03-28 03:51  mandrake
+
+	* dkms-modules-info/2.6.24.4-laptop-1mnb/fcusb2.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/fcusb2.description: add
+	  dkms info for fcusb2 with kernel 2.6.24.4-laptop-1mnb
+
+2008-03-28 03:51  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop-1mnb/fcdslusb.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/fcdslusb.description: add
+	  dkms info for fcdslusb with kernel 2.6.24.4-desktop-1mnb
+
+2008-03-28 03:51  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop-1mnb/et131x.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/et131x.description: add
+	  dkms info for et131x with kernel 2.6.24.4-desktop-1mnb
+
+2008-03-28 03:50  mandrake
+
+	* dkms-modules-info/2.6.24.4-laptop-1mnb/et131x.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/et131x.description: add
+	  dkms info for et131x with kernel 2.6.24.4-laptop-1mnb
+
+2008-03-28 03:50  mandrake
+
+	* dkms-modules-info/2.6.24.4-server-1mnb/actuator.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/actuator.description: add
+	  dkms info for actuator with kernel 2.6.24.4-server-1mnb
+
+2008-03-28 03:50  mandrake
+
+	* dkms-modules-info/2.6.24.4-laptop-1mnb/actuator.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/actuator.description: add
+	  dkms info for actuator with kernel 2.6.24.4-laptop-1mnb
+
+2008-03-28 03:50  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop586-1mnb/fcusb2.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/fcusb2.description:
+	  add dkms info for fcusb2 with kernel 2.6.24.4-desktop586-1mnb
+
+2008-03-28 03:50  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop-1mnb/actuator.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/actuator.description: add
+	  dkms info for actuator with kernel 2.6.24.4-desktop-1mnb
+
+2008-03-28 03:50  mandrake
+
+	* dkms-modules-info/2.6.24.4-server-1mnb/fcdslusb.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/fcdslusb.description: add
+	  dkms info for fcdslusb with kernel 2.6.24.4-server-1mnb
+
+2008-03-28 03:44  mandrake
+
+	* dkms-modules-info/2.6.24.4-server-1mnb/fcdslusb2.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/fcdslusb2.description: add
+	  dkms info for fcdslusb2 with kernel 2.6.24.4-server-1mnb
+
+2008-03-28 03:43  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop-1mnb/fcdslusb2.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/fcdslusb2.description:
+	  add dkms info for fcdslusb2 with kernel 2.6.24.4-desktop-1mnb
+
+2008-03-28 03:43  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop-1mnb/libafs.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/libafs.description: add
+	  dkms info for libafs with kernel 2.6.24.4-desktop-1mnb
+
+2008-03-28 03:43  mandrake
+
+	* dkms-modules-info/2.6.24.4-laptop-1mnb/fcdslusb2.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/fcdslusb2.description: add
+	  dkms info for fcdslusb2 with kernel 2.6.24.4-laptop-1mnb
+
+2008-03-28 03:43  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop-1mnb/unionfs.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/unionfs.description: add
+	  dkms info for unionfs with kernel 2.6.24.4-desktop-1mnb
+
+2008-03-28 03:43  mandrake
+
+	* dkms-modules-info/2.6.24.4-server-1mnb/fcdslslusb.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/fcdslslusb.description:
+	  add dkms info for fcdslslusb with kernel 2.6.24.4-server-1mnb
+
+2008-03-28 03:43  mandrake
+
+	* dkms-modules-info/2.6.24.4-laptop-1mnb/fcdslusba.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/fcdslusba.description: add
+	  dkms info for fcdslusba with kernel 2.6.24.4-laptop-1mnb
+
+2008-03-28 03:43  mandrake
+
+	* dkms-modules-info/2.6.24.4-server-1mnb/unionfs.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/unionfs.description: add
+	  dkms info for unionfs with kernel 2.6.24.4-server-1mnb
+
+2008-03-28 03:43  mandrake
+
+	* dkms-modules-info/2.6.24.4-laptop-1mnb/fcdslslusb.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/fcdslslusb.description:
+	  add dkms info for fcdslslusb with kernel 2.6.24.4-laptop-1mnb
+
+2008-03-28 03:43  mandrake
+
+	* dkms-modules-info/2.6.24.4-server-1mnb/fcdslusba.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/fcdslusba.description: add
+	  dkms info for fcdslusba with kernel 2.6.24.4-server-1mnb
+
+2008-03-28 03:43  mandrake
+
+	* dkms-modules-info/2.6.24.4-server-1mnb/fcdslsl.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/fcdslsl.description: add
+	  dkms info for fcdslsl with kernel 2.6.24.4-server-1mnb
+
+2008-03-28 03:42  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop-1mnb/fcdslusba.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/fcdslusba.description:
+	  add dkms info for fcdslusba with kernel 2.6.24.4-desktop-1mnb
+
+2008-03-28 03:42  mandrake
+
+	* dkms-modules-info/2.6.24.4-laptop-1mnb/sqlzma.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/sqlzma.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/unlzma.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/unlzma.description: add
+	  dkms info for lzma with kernel 2.6.24.4-laptop-1mnb
+
+2008-03-28 03:42  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop586-1mnb/fcdslusb2.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/fcdslusb2.description:
+	  add dkms info for fcdslusb2 with kernel 2.6.24.4-desktop586-1mnb
+
+2008-03-28 03:42  mandrake
+
+	* dkms-modules-info/2.6.24.4-laptop-1mnb/libafs.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/libafs.description: add
+	  dkms info for libafs with kernel 2.6.24.4-laptop-1mnb
+
+2008-03-28 03:42  mandrake
+
+	* dkms-modules-info/2.6.24.4-server-1mnb/fxusb.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/fxusb.description: add
+	  dkms info for fxusb with kernel 2.6.24.4-server-1mnb
+
+2008-03-28 03:42  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop-1mnb/fcdslsl.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/fcdslsl.description: add
+	  dkms info for fcdslsl with kernel 2.6.24.4-desktop-1mnb
+
+2008-03-28 03:42  mandrake
+
+	* dkms-modules-info/2.6.24.4-server-1mnb/libafs.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/libafs.description: add
+	  dkms info for libafs with kernel 2.6.24.4-server-1mnb
+
+2008-03-28 03:42  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop-1mnb/fcdslslusb.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/fcdslslusb.description:
+	  add dkms info for fcdslslusb with kernel 2.6.24.4-desktop-1mnb
+
+2008-03-28 03:42  mandrake
+
+	* dkms-modules-info/2.6.24.4-laptop-1mnb/fcdslsl.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/fcdslsl.description: add
+	  dkms info for fcdslsl with kernel 2.6.24.4-laptop-1mnb
+
+2008-03-28 03:41  mandrake
+
+	* dkms-modules-info/2.6.24.4-server-1mnb/sqlzma.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/sqlzma.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/unlzma.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/unlzma.description: add
+	  dkms info for lzma with kernel 2.6.24.4-server-1mnb
+
+2008-03-28 03:41  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop586-1mnb/fcdslsl.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/fcdslsl.description:
+	  add dkms info for fcdslsl with kernel 2.6.24.4-desktop586-1mnb
+
+2008-03-28 03:41  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop586-1mnb/fcdslslusb.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/fcdslslusb.description:
+	  add dkms info for fcdslslusb with kernel 2.6.24.4-desktop586-1mnb
+
+2008-03-28 03:41  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop586-1mnb/fxusb.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/fxusb.description: add
+	  dkms info for fxusb with kernel 2.6.24.4-desktop586-1mnb
+
+2008-03-28 03:41  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop586-1mnb/fcdslusba.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/fcdslusba.description:
+	  add dkms info for fcdslusba with kernel 2.6.24.4-desktop586-1mnb
+
+2008-03-28 03:41  mandrake
+
+	* dkms-modules-info/2.6.24.4-laptop-1mnb/unionfs.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/unionfs.description: add
+	  dkms info for unionfs with kernel 2.6.24.4-laptop-1mnb
+
+2008-03-28 03:41  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop-1mnb/sqlzma.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/sqlzma.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/unlzma.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/unlzma.description: add
+	  dkms info for lzma with kernel 2.6.24.4-desktop-1mnb
+
+2008-03-28 03:22  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop586-1mnb/fcpci.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/fcpci.description: add
+	  dkms info for fcpci with kernel 2.6.24.4-desktop586-1mnb
+
+2008-03-28 03:22  mandrake
+
+	* dkms-modules-info/2.6.24.4-laptop-1mnb/adv717x.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/adv717x.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/bt865.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/bt865.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/em8300.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/em8300.description: add
+	  dkms info for em8300 with kernel 2.6.24.4-laptop-1mnb
+
+2008-03-28 03:22  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop-1mnb/adv717x.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/adv717x.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/bt865.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/bt865.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/em8300.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/em8300.description: add
+	  dkms info for em8300 with kernel 2.6.24.4-desktop-1mnb
+
+2008-03-28 03:21  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop-1mnb/fxusb.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/fxusb.description: add
+	  dkms info for fxusb with kernel 2.6.24.4-desktop-1mnb
+
+2008-03-28 03:21  mandrake
+
+	* dkms-modules-info/2.6.24.4-laptop-1mnb/ndiswrapper.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/ndiswrapper.description:
+	  add dkms info for ndiswrapper with kernel 2.6.24.4-laptop-1mnb
+
+2008-03-28 03:21  mandrake
+
+	* dkms-modules-info/2.6.24.4-laptop-1mnb/fcdsl2.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/fcdsl2.description: add
+	  dkms info for fcdsl2 with kernel 2.6.24.4-laptop-1mnb
+
+2008-03-28 03:21  mandrake
+
+	* dkms-modules-info/2.6.24.4-server-1mnb/fcpci.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/fcpci.description: add
+	  dkms info for fcpci with kernel 2.6.24.4-server-1mnb
+
+2008-03-28 03:21  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop-1mnb/ndiswrapper.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/ndiswrapper.description:
+	  add dkms info for ndiswrapper with kernel 2.6.24.4-desktop-1mnb
+
+2008-03-28 03:21  mandrake
+
+	* dkms-modules-info/2.6.24.4-server-1mnb/ndiswrapper.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/ndiswrapper.description:
+	  add dkms info for ndiswrapper with kernel 2.6.24.4-server-1mnb
+
+2008-03-28 03:21  mandrake
+
+	* dkms-modules-info/2.6.24.4-server-1mnb/fcdsl2.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/fcdsl2.description: add
+	  dkms info for fcdsl2 with kernel 2.6.24.4-server-1mnb
+
+2008-03-28 03:21  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop-1mnb/fcpci.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/fcpci.description: add
+	  dkms info for fcpci with kernel 2.6.24.4-desktop-1mnb
+
+2008-03-28 03:21  mandrake
+
+	* dkms-modules-info/2.6.24.4-server-1mnb/adv717x.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/adv717x.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/bt865.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/bt865.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/em8300.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/em8300.description: add
+	  dkms info for em8300 with kernel 2.6.24.4-server-1mnb
+
+2008-03-28 03:20  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop586-1mnb/fcdsl2.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/fcdsl2.description:
+	  add dkms info for fcdsl2 with kernel 2.6.24.4-desktop586-1mnb
+
+2008-03-28 03:20  mandrake
+
+	* dkms-modules-info/2.6.24.4-laptop-1mnb/fcpci.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/fcpci.description: add
+	  dkms info for fcpci with kernel 2.6.24.4-laptop-1mnb
+
+2008-03-28 03:20  mandrake
+
+	* dkms-modules-info/2.6.24.4-laptop-1mnb/fxusb.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/fxusb.description: add
+	  dkms info for fxusb with kernel 2.6.24.4-laptop-1mnb
+
+2008-03-28 03:12  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop-1mnb/vboxdrv.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/vboxdrv.description: add
+	  dkms info for virtualbox with kernel 2.6.24.4-desktop-1mnb
+
+2008-03-28 03:12  mandrake
+
+	* dkms-modules-info/2.6.24.4-laptop-1mnb/kqemu.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/kqemu.description: add
+	  dkms info for kqemu with kernel 2.6.24.4-laptop-1mnb
+
+2008-03-28 03:12  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop586-1mnb/ath_hal.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/ath_hal.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/ath_pci.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/ath_pci.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/ath_rate_amrr.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/ath_rate_amrr.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/ath_rate_onoe.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/ath_rate_onoe.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/ath_rate_sample.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/ath_rate_sample.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/wlan.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/wlan.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/wlan_acl.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/wlan_acl.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/wlan_ccmp.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/wlan_ccmp.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/wlan_scan_ap.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/wlan_scan_ap.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/wlan_scan_sta.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/wlan_scan_sta.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/wlan_tkip.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/wlan_tkip.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/wlan_wep.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/wlan_wep.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/wlan_xauth.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/wlan_xauth.description:
+	  add dkms info for madwifi with kernel 2.6.24.4-desktop586-1mnb
+
+2008-03-28 03:11  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop-1mnb/kqemu.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/kqemu.description: add
+	  dkms info for kqemu with kernel 2.6.24.4-desktop-1mnb
+
+2008-03-28 03:11  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop-1mnb/fcdsl2.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/fcdsl2.description: add
+	  dkms info for fcdsl2 with kernel 2.6.24.4-desktop-1mnb
+
+2008-03-28 03:11  mandrake
+
+	* dkms-modules-info/2.6.24.4-server-1mnb/vboxdrv.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/vboxdrv.description: add
+	  dkms info for virtualbox with kernel 2.6.24.4-server-1mnb
+
+2008-03-28 03:11  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop586-1mnb/cisco_ipsec.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/cisco_ipsec.description:
+	  add dkms info for vpnclient with kernel 2.6.24.4-desktop586-1mnb
+
+2008-03-28 03:10  mandrake
+
+	* dkms-modules-info/2.6.24.4-laptop-1mnb/vboxdrv.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/vboxdrv.description: add
+	  dkms info for virtualbox with kernel 2.6.24.4-laptop-1mnb
+
+2008-03-28 03:10  mandrake
+
+	* dkms-modules-info/2.6.24.4-server-1mnb/kqemu.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/kqemu.description: add
+	  dkms info for kqemu with kernel 2.6.24.4-server-1mnb
+
+2008-03-28 03:03  mandrake
+
+	* dkms-modules-info/2.6.24.4-server-1mnb/lirc_atiusb.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/lirc_atiusb.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/lirc_bt829.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/lirc_bt829.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/lirc_cmdir.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/lirc_cmdir.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/lirc_dev.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/lirc_dev.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/lirc_i2c.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/lirc_i2c.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/lirc_igorplugusb.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/lirc_igorplugusb.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/lirc_imon.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/lirc_imon.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/lirc_it87.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/lirc_it87.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/lirc_mceusb.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/lirc_mceusb.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/lirc_mceusb2.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/lirc_mceusb2.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/lirc_sasem.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/lirc_sasem.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/lirc_serial.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/lirc_serial.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/lirc_sir.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/lirc_sir.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/lirc_streamzap.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/lirc_streamzap.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/lirc_ttusbir.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/lirc_ttusbir.description:
+	  add dkms info for lirc with kernel 2.6.24.4-server-1mnb
+
+2008-03-28 03:02  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop-1mnb/lirc_atiusb.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/lirc_atiusb.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/lirc_bt829.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/lirc_bt829.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/lirc_cmdir.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/lirc_cmdir.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/lirc_dev.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/lirc_dev.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/lirc_i2c.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/lirc_i2c.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/lirc_igorplugusb.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/lirc_igorplugusb.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/lirc_imon.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/lirc_imon.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/lirc_it87.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/lirc_it87.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/lirc_mceusb.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/lirc_mceusb.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/lirc_mceusb2.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/lirc_mceusb2.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/lirc_sasem.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/lirc_sasem.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/lirc_serial.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/lirc_serial.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/lirc_sir.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/lirc_sir.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/lirc_streamzap.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/lirc_streamzap.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/lirc_ttusbir.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/lirc_ttusbir.description:
+	  add dkms info for lirc with kernel 2.6.24.4-desktop-1mnb
+
+2008-03-28 03:01  mandrake
+
+	* dkms-modules-info/2.6.24.4-laptop-1mnb/lirc_atiusb.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/lirc_atiusb.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/lirc_bt829.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/lirc_bt829.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/lirc_cmdir.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/lirc_cmdir.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/lirc_dev.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/lirc_dev.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/lirc_i2c.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/lirc_i2c.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/lirc_igorplugusb.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/lirc_igorplugusb.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/lirc_imon.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/lirc_imon.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/lirc_it87.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/lirc_it87.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/lirc_mceusb.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/lirc_mceusb.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/lirc_mceusb2.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/lirc_mceusb2.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/lirc_sasem.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/lirc_sasem.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/lirc_serial.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/lirc_serial.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/lirc_sir.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/lirc_sir.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/lirc_streamzap.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/lirc_streamzap.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/lirc_ttusbir.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/lirc_ttusbir.description:
+	  add dkms info for lirc with kernel 2.6.24.4-laptop-1mnb
+
+2008-03-28 03:01  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop586-1mnb/nvidia-current.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/nvidia-current.description:
+	  add dkms info for nvidia-current with kernel
+	  2.6.24.4-desktop586-1mnb
+
+2008-03-28 03:00  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop586-1mnb/nvidia96xx.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/nvidia96xx.description:
+	  add dkms info for nvidia96xx with kernel 2.6.24.4-desktop586-1mnb
+
+2008-03-28 02:57  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop-1mnb/ath_hal.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/ath_hal.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/ath_pci.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/ath_pci.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/ath_rate_amrr.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/ath_rate_amrr.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/ath_rate_onoe.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/ath_rate_onoe.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/ath_rate_sample.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/ath_rate_sample.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/wlan.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/wlan.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/wlan_acl.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/wlan_acl.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/wlan_ccmp.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/wlan_ccmp.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/wlan_scan_ap.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/wlan_scan_ap.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/wlan_scan_sta.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/wlan_scan_sta.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/wlan_tkip.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/wlan_tkip.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/wlan_wep.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/wlan_wep.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/wlan_xauth.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/wlan_xauth.description:
+	  add dkms info for madwifi with kernel 2.6.24.4-desktop-1mnb
+
+2008-03-28 02:57  mandrake
+
+	* dkms-modules-info/2.6.24.4-server-1mnb/nvidia96xx.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/nvidia96xx.description:
+	  add dkms info for nvidia96xx with kernel 2.6.24.4-server-1mnb
+
+2008-03-28 02:56  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop-1mnb/slamr.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/slamr.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/slusb.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/slusb.description: add
+	  dkms info for slmodem with kernel 2.6.24.4-desktop-1mnb
+
+2008-03-28 02:56  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop586-1mnb/slamr.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/slamr.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/slusb.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/slusb.description: add
+	  dkms info for slmodem with kernel 2.6.24.4-desktop586-1mnb
+
+2008-03-28 02:56  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop-1mnb/nvidia96xx.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/nvidia96xx.description:
+	  add dkms info for nvidia96xx with kernel 2.6.24.4-desktop-1mnb
+
+2008-03-28 02:56  mandrake
+
+	* dkms-modules-info/2.6.24.4-laptop-1mnb/ath_hal.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/ath_hal.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/ath_pci.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/ath_pci.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/ath_rate_amrr.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/ath_rate_amrr.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/ath_rate_onoe.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/ath_rate_onoe.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/ath_rate_sample.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/ath_rate_sample.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/wlan.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/wlan.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/wlan_acl.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/wlan_acl.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/wlan_ccmp.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/wlan_ccmp.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/wlan_scan_ap.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/wlan_scan_ap.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/wlan_scan_sta.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/wlan_scan_sta.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/wlan_tkip.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/wlan_tkip.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/wlan_wep.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/wlan_wep.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/wlan_xauth.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/wlan_xauth.description:
+	  add dkms info for madwifi with kernel 2.6.24.4-laptop-1mnb
+
+2008-03-28 02:56  mandrake
+
+	* dkms-modules-info/2.6.24.4-server-1mnb/cisco_ipsec.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/cisco_ipsec.description:
+	  add dkms info for vpnclient with kernel 2.6.24.4-server-1mnb
+
+2008-03-28 02:55  mandrake
+
+	* dkms-modules-info/2.6.24.4-server-1mnb/nvidia-current.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/nvidia-current.description:
+	  add dkms info for nvidia-current with kernel 2.6.24.4-server-1mnb
+
+2008-03-28 02:55  mandrake
+
+	* dkms-modules-info/2.6.24.4-server-1mnb/ath_hal.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/ath_hal.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/ath_pci.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/ath_pci.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/ath_rate_amrr.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/ath_rate_amrr.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/ath_rate_onoe.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/ath_rate_onoe.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/ath_rate_sample.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/ath_rate_sample.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/wlan.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/wlan.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/wlan_acl.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/wlan_acl.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/wlan_ccmp.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/wlan_ccmp.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/wlan_scan_ap.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/wlan_scan_ap.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/wlan_scan_sta.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/wlan_scan_sta.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/wlan_tkip.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/wlan_tkip.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/wlan_wep.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/wlan_wep.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/wlan_xauth.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/wlan_xauth.description:
+	  add dkms info for madwifi with kernel 2.6.24.4-server-1mnb
+
+2008-03-28 02:55  mandrake
+
+	* dkms-modules-info/2.6.24.4-laptop-1mnb/slamr.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/slamr.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/slusb.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/slusb.description: add
+	  dkms info for slmodem with kernel 2.6.24.4-laptop-1mnb
+
+2008-03-28 02:54  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop586-1mnb/fglrx.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/fglrx.description: add
+	  dkms info for fglrx with kernel 2.6.24.4-desktop586-1mnb
+
+2008-03-28 02:54  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop-1mnb/fcdsl.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/fcdsl.description: add
+	  dkms info for fcdsl with kernel 2.6.24.4-desktop-1mnb
+
+2008-03-28 02:54  mandrake
+
+	* dkms-modules-info/2.6.24.4-laptop-1mnb/cisco_ipsec.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/cisco_ipsec.description:
+	  add dkms info for vpnclient with kernel 2.6.24.4-laptop-1mnb
+
+2008-03-28 02:54  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop586-1mnb/hsfengine.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/hsfengine.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/hsfhda.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/hsfhda.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/hsfmc97ali.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/hsfmc97ali.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/hsfmc97ati.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/hsfmc97ati.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/hsfmc97ich.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/hsfmc97ich.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/hsfmc97sis.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/hsfmc97sis.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/hsfmc97via.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/hsfmc97via.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/hsfosspec.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/hsfosspec.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/hsfpcibasic2.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/hsfpcibasic2.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/hsfserial.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/hsfserial.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/hsfsoar.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/hsfsoar.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/hsfusbcd2.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/hsfusbcd2.description:
+	  add dkms info for hsfmodem with kernel 2.6.24.4-desktop586-1mnb
+
+2008-03-28 02:53  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop-1mnb/cisco_ipsec.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/cisco_ipsec.description:
+	  add dkms info for vpnclient with kernel 2.6.24.4-desktop-1mnb
+
+2008-03-28 02:53  mandrake
+
+	* dkms-modules-info/2.6.24.4-server-1mnb/slamr.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/slamr.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/slusb.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/slusb.description: add
+	  dkms info for slmodem with kernel 2.6.24.4-server-1mnb
+
+2008-03-28 02:53  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop-1mnb/fcusb.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/fcusb.description: add
+	  dkms info for fcusb with kernel 2.6.24.4-desktop-1mnb
+
+2008-03-28 02:53  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop-1mnb/unicorn_pci_atm.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/unicorn_pci_atm.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/unicorn_pci_eth.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/unicorn_pci_eth.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/unicorn_usb_atm.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/unicorn_usb_atm.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/unicorn_usb_eth.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/unicorn_usb_eth.description:
+	  add dkms info for unicorn with kernel 2.6.24.4-desktop-1mnb
+
+2008-03-28 02:53  mandrake
+
+	* dkms-modules-info/2.6.24.4-laptop-1mnb/unicorn_pci_atm.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/unicorn_pci_atm.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/unicorn_pci_eth.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/unicorn_pci_eth.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/unicorn_usb_atm.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/unicorn_usb_atm.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/unicorn_usb_eth.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/unicorn_usb_eth.description:
+	  add dkms info for unicorn with kernel 2.6.24.4-laptop-1mnb
+
+2008-03-28 02:52  mandrake
+
+	* dkms-modules-info/2.6.24.4-laptop-1mnb/fcusb.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/fcusb.description: add
+	  dkms info for fcusb with kernel 2.6.24.4-laptop-1mnb
+
+2008-03-28 02:52  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop586-1mnb/fcusb.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/fcusb.description: add
+	  dkms info for fcusb with kernel 2.6.24.4-desktop586-1mnb
+
+2008-03-28 02:52  mandrake
+
+	* dkms-modules-info/2.6.24.4-laptop-1mnb/nvidia96xx.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/nvidia96xx.description:
+	  add dkms info for nvidia96xx with kernel 2.6.24.4-laptop-1mnb
+
+2008-03-28 02:52  mandrake
+
+	* dkms-modules-info/2.6.24.4-laptop-1mnb/fcdsl.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/fcdsl.description: add
+	  dkms info for fcdsl with kernel 2.6.24.4-laptop-1mnb
+
+2008-03-28 02:52  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop586-1mnb/unicorn_pci_atm.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/unicorn_pci_atm.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/unicorn_pci_eth.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/unicorn_pci_eth.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/unicorn_usb_atm.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/unicorn_usb_atm.description,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/unicorn_usb_eth.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/unicorn_usb_eth.description:
+	  add dkms info for unicorn with kernel 2.6.24.4-desktop586-1mnb
+
+2008-03-28 02:51  mandrake
+
+	* dkms-modules-info/2.6.24.4-server-1mnb/fcdsl.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/fcdsl.description: add
+	  dkms info for fcdsl with kernel 2.6.24.4-server-1mnb
+
+2008-03-28 02:50  mandrake
+
+	* dkms-modules-info/2.6.24.4-laptop-1mnb/nvidia-current.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/nvidia-current.description:
+	  add dkms info for nvidia-current with kernel 2.6.24.4-laptop-1mnb
+
+2008-03-28 02:50  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop586-1mnb/fcdsl.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/fcdsl.description: add
+	  dkms info for fcdsl with kernel 2.6.24.4-desktop586-1mnb
+
+2008-03-28 02:50  mandrake
+
+	* dkms-modules-info/2.6.24.4-server-1mnb/fcusb.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/fcusb.description: add
+	  dkms info for fcusb with kernel 2.6.24.4-server-1mnb
+
+2008-03-28 02:50  mandrake
+
+	* dkms-modules-info/2.6.24.4-server-1mnb/unicorn_pci_atm.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/unicorn_pci_atm.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/unicorn_pci_eth.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/unicorn_pci_eth.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/unicorn_usb_atm.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/unicorn_usb_atm.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/unicorn_usb_eth.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/unicorn_usb_eth.description:
+	  add dkms info for unicorn with kernel 2.6.24.4-server-1mnb
+
+2008-03-28 02:23  mandrake
+
+	* dkms-modules-info/2.6.24.4-laptop-1mnb/hsfengine.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/hsfengine.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/hsfhda.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/hsfhda.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/hsfmc97ali.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/hsfmc97ali.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/hsfmc97ati.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/hsfmc97ati.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/hsfmc97ich.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/hsfmc97ich.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/hsfmc97sis.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/hsfmc97sis.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/hsfmc97via.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/hsfmc97via.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/hsfosspec.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/hsfosspec.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/hsfpcibasic2.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/hsfpcibasic2.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/hsfserial.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/hsfserial.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/hsfsoar.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/hsfsoar.description,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/hsfusbcd2.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/hsfusbcd2.description: add
+	  dkms info for hsfmodem with kernel 2.6.24.4-laptop-1mnb
+
+2008-03-28 02:22  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop-1mnb/hsfengine.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/hsfengine.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/hsfhda.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/hsfhda.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/hsfmc97ali.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/hsfmc97ali.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/hsfmc97ati.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/hsfmc97ati.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/hsfmc97ich.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/hsfmc97ich.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/hsfmc97sis.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/hsfmc97sis.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/hsfmc97via.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/hsfmc97via.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/hsfosspec.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/hsfosspec.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/hsfpcibasic2.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/hsfpcibasic2.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/hsfserial.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/hsfserial.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/hsfsoar.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/hsfsoar.description,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/hsfusbcd2.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/hsfusbcd2.description:
+	  add dkms info for hsfmodem with kernel 2.6.24.4-desktop-1mnb
+
+2008-03-28 02:22  mandrake
+
+	* dkms-modules-info/2.6.24.4-server-1mnb/hsfengine.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/hsfengine.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/hsfhda.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/hsfhda.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/hsfmc97ali.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/hsfmc97ali.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/hsfmc97ati.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/hsfmc97ati.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/hsfmc97ich.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/hsfmc97ich.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/hsfmc97sis.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/hsfmc97sis.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/hsfmc97via.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/hsfmc97via.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/hsfosspec.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/hsfosspec.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/hsfpcibasic2.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/hsfpcibasic2.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/hsfserial.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/hsfserial.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/hsfsoar.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/hsfsoar.description,
+	  dkms-modules-info/2.6.24.4-server-1mnb/hsfusbcd2.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/hsfusbcd2.description: add
+	  dkms info for hsfmodem with kernel 2.6.24.4-server-1mnb
+
+2008-03-28 02:21  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop-1mnb/fglrx.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/fglrx.description: add
+	  dkms info for fglrx with kernel 2.6.24.4-desktop-1mnb
+
+2008-03-28 02:21  mandrake
+
+	* dkms-modules-info/2.6.24.4-laptop-1mnb/fglrx.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/fglrx.description: add
+	  dkms info for fglrx with kernel 2.6.24.4-laptop-1mnb
+
+2008-03-28 02:21  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop-1mnb/nvidia71xx.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/nvidia71xx.description:
+	  add dkms info for nvidia71xx with kernel 2.6.24.4-desktop-1mnb
+
+2008-03-28 02:21  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop-1mnb,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/nvidia-current.alias,
+	  dkms-modules-info/2.6.24.4-desktop-1mnb/nvidia-current.description:
+	  add dkms info for nvidia-current with kernel
+	  2.6.24.4-desktop-1mnb
+
+2008-03-28 02:21  mandrake
+
+	* dkms-modules-info/2.6.24.4-laptop-1mnb,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/nvidia71xx.alias,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb/nvidia71xx.description:
+	  add dkms info for nvidia71xx with kernel 2.6.24.4-laptop-1mnb
+
+2008-03-28 02:21  mandrake
+
+	* dkms-modules-info/2.6.24.4-server-1mnb/fglrx.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/fglrx.description: add
+	  dkms info for fglrx with kernel 2.6.24.4-server-1mnb
+
+2008-03-28 02:21  mandrake
+
+	* dkms-modules-info/2.6.24.4-server-1mnb,
+	  dkms-modules-info/2.6.24.4-server-1mnb/nvidia71xx.alias,
+	  dkms-modules-info/2.6.24.4-server-1mnb/nvidia71xx.description:
+	  add dkms info for nvidia71xx with kernel 2.6.24.4-server-1mnb
+
+2008-03-28 02:21  mandrake
+
+	* dkms-modules-info/2.6.24.4-desktop586-1mnb,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/nvidia71xx.alias,
+	  dkms-modules-info/2.6.24.4-desktop586-1mnb/nvidia71xx.description:
+	  add dkms info for nvidia71xx with kernel 2.6.24.4-desktop586-1mnb
+
+2008-03-26 12:53  Pixel <pixel at mandriva.com>
+
+	* lst/MonitorsDB: simplify long monitor names (#39222)
+
+2008-03-26 02:21  mandrake
+
+	* dkms-modules-info/2.6.24.3-desktop-4mnb/cisco_ipsec.alias,
+	  dkms-modules-info/2.6.24.3-desktop-4mnb/cisco_ipsec.description:
+	  add dkms info for vpnclient with kernel 2.6.24.3-desktop-4mnb
+
+2008-03-26 02:20  mandrake
+
+	* dkms-modules-info/2.6.24.3-server-4mnb/cisco_ipsec.alias,
+	  dkms-modules-info/2.6.24.3-server-4mnb/cisco_ipsec.description:
+	  add dkms info for vpnclient with kernel 2.6.24.3-server-4mnb
+
+2008-03-26 02:20  mandrake
+
+	* dkms-modules-info/2.6.24.3-laptop-4mnb/cisco_ipsec.alias,
+	  dkms-modules-info/2.6.24.3-laptop-4mnb/cisco_ipsec.description:
+	  add dkms info for vpnclient with kernel 2.6.24.3-laptop-4mnb
+
+2008-03-26 02:20  mandrake
+
+	* dkms-modules-info/2.6.24.3-desktop586-4mnb/cisco_ipsec.alias,
+	  dkms-modules-info/2.6.24.3-desktop586-4mnb/cisco_ipsec.description:
+	  add dkms info for vpnclient with kernel 2.6.24.3-desktop586-4mnb
+
+2008-03-26 02:19  Adam Williamson <awilliamson at mandriva.com>
+
+	* ChangeLog: Generated by svn2cl the 25_Mar
+
+2008-03-26 02:18  Adam Williamson <awilliamson at mandriva.com>
+
+	* lst/Cards+: adjust HD 3200 again (our current radeon does not
+	  actually support it, but fglrx does)
+
 2008-03-26 02:18  Adam Williamson <awilliamson at mandriva.com>
 
 	* lst/Cards+: adjust HD 3200 again (our current radeon does not
