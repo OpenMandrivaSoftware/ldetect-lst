@@ -425,7 +425,7 @@
 0x1002	0x940b	"Card:ATI r500 or r600 based FireGL"
 0x1002	0x940f	"Card:ATI r500 or r600 based FireGL"
 0x1002	0x94c0	"Card:ATI Radeon X1300 and later"
-0x1002	0x94c1	"Card:ATI Radeon X1300 and later"
+0x1002	0x94c1	"Card:ATI Radeon HD 2400 XT"
 0x1002	0x94c3	"Card:ATI Radeon X1300 and later"
 0x1002	0x94c4	"Card:ATI Radeon X1300 and later"
 0x1002	0x94c5	"Card:ATI Radeon X1300 and later"
