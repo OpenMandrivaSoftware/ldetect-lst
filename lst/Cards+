@@ -176,12 +176,6 @@ NAME ATI Radeon HD 3200
 DRIVER vesa
 DRIVER2 fglrx
 
-# Tested to be problematic with a machine at Aboukir, works with
-# fbdev: see with Blino
-NAME ATI Radeon HD 2400 XT
-DRIVER fbdev
-DRIVER2 fglrx
-
 # ARK Logic
 
 NAME Ark Logic ARKx000-based cards
