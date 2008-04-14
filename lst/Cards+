@@ -249,13 +249,10 @@ NAME NVIDIA GeForce 3 to GeForce 4 (96xx)
 DRIVER nv
 DRIVER2 nvidia96xx
 
-NAME NVIDIA GeForce FX to GeForce 8800
+NAME NVIDIA GeForce FX and later
 DRIVER nv
 DRIVER2 nvidia-current
 DRIVER2_NO_SSE nvidia96xx
-
-NAME NVIDIA GeForce 9300 and later
-DRIVER nv
 
 NAME NVIDIA GeForce3 (xbox)
 DRIVER nvxbox
