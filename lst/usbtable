@@ -454,6 +454,7 @@
 0x046d	0xc508	"Mouse:evdev|imwheel:MX700"	"Logitech, Inc.|Optical Trackman Receiver"
 0x046d	0xc50e	"Mouse:evdev|imwheel:MX1000"	"Logitech, Inc.|MX-1000 Cordless Mouse Receiver"
 0x046d	0xc517	"Mouse:evdev|imwheel:MX1000"	"Logitech, Inc.|LX-710 Cordless Mouse Receiver"
+0x046d	0xc521	"Mouse:evdev|imwheel:MX500"	"Logitech, Inc.|MX620 Laser Cordless Mouse"
 0x046d	0xd001	"unknown"	"Logitech Inc.|QuickCam Pro"
 0x046e	0x6782	"unknown"	"Behavior Tech. Computer|BTC 7932 keyboard"
 0x0471	0x0101	"unknown"	"Philips|DSS350 Digital Speaker System"
