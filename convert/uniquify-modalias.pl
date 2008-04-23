@@ -16,7 +16,6 @@ my @ignored_modules = (
 );
 my @preferred_modules = (
     "ahci", #- prefer over ata_piix (install will still try both), depends on BIOS settins
-            #- do not prefer ata_piix, since it would override piix choice
     "bcm43xx", #- prefer over b43, b43legacy and ssb
     "dpt_i2o", #- prefer over i2o_core
     "dmfe", #- prefer over tulip, it only lists supported devices
@@ -24,7 +23,6 @@ my @preferred_modules = (
     "i2c_viapro", #- prefer over via686a
     "ipr", #- subvendors listed in ipr driver seems not to be supported by DAC960
     "mxser_new", #- experimental clone of mxser
-    "pata_netcell", "pata_ns87410", #- no non-libata implementation, prefer over generic module
     "prism54", #- prefer over p54pci
     "ipw3945", #- prefer over iwl3945, which has some stability/performance issues
     "rt2400", "rt2500", "rt2570", "rt61", "rt73", #- prefer legacy Ralink drivers
@@ -33,23 +31,21 @@ my @preferred_modules = (
     "sx", #- prefer over specialix (sx matches subvendors)
 );
 my @depreciated_modules = (
-    "generic", #- prefer full implementation
     "gspca", #- kernel hackers value it as poorly coded
     "ir_usb", #- false positive because of pattern
-    qr/^pata_/, #- don't use libata drivers for now
     "usb_storage", #- false positive because we don't use subvendors/subdevices
     "snd_usb_audio", #- prefer video camera drivers if any
 );
 my @preferred_categories = (
-    "disk/ide",
+    "disk/sata",
     "disk/scsi",
 );
 #- For the following categories, the deferred modules are ignored, and
 #- an explicit alias is set even if only one module match exactly.
 #- This allows to workaround modules having class wildcards, which isn't supported.
 my %category_deferred_modules = (
-    #- prefer "generic" non-libata module or full implementation
-    "disk/ide" => [ "ata_generic" ],
+    #- prefer full implementation or "generic" libata module, not old IDE generic module
+    "disk/ide" => [ "generic" ],
     "disk/sata" => [ "ata_generic", "pata_acpi" ],
     "input/tablet" => [ "usbmouse" ],
 );
@@ -98,7 +94,7 @@ sub print_module {
 
     @modules > 1 || @category_deferred_modules or return;
 
-    my @non_ignored = grep_non_matching(\@modules, [ @ignored_modules, @category_deferred_modules ]);
+    my @non_ignored = grep_non_matching(\@modules, [ @ignored_modules ]);
     if (@non_ignored == 1) {
         print "alias $modalias $non_ignored[0][1]\n";
         return;
@@ -120,6 +116,12 @@ sub print_module {
     if (@preferred == 1) {
         print "alias $modalias $preferred[0][1]\n";
         return;
+    } else {
+        my @non_deferred = grep_non_matching(\@modules, [ @category_deferred_modules ]);
+        if (@non_deferred == 1) {
+            print "alias $modalias $non_deferred[0][1]\n";
+            return;
+        }
     }
 
     print STDERR "unable to choose for $modalias " . join(" ", map { $_->[1] } @modules) . "\n";
