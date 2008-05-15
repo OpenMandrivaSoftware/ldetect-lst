@@ -120,7 +120,7 @@ NEEDVIDEORAM
 
 # AMD
 NAME AMD Geode GX/LX
-DRIVER amd
+DRIVER geode
 
 # ATI
 
