@@ -1,3 +1,8 @@
+2008-05-27 21:50  Adam Williamson <awilliamson at mandriva.com>
+
+	* Makefile, lst/Cards+, lst/pcitable: rs780 now supported by
+	  radeonhd, drop separate definition
+
 
 2008-05-15 22:20  Adam Williamson <awilliamson at mandriva.com>
 
