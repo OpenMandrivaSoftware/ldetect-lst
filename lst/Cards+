@@ -170,12 +170,6 @@ NAME ATI Radeon HD 3870 X2
 DRIVER radeonhd
 DRI_GLX
 
-# Supported by fglrx but *not* radeonhd or radeon as of 2008/03.
-# discussing possibility of backporting support in radeon with pcpa
-NAME ATI Radeon HD 3200
-DRIVER vesa
-DRIVER2 fglrx
-
 # ARK Logic
 
 NAME Ark Logic ARKx000-based cards
