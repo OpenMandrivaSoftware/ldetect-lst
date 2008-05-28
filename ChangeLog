@@ -1,3 +1,8 @@
+2008-05-28 17:17  Adam Williamson <awilliamson at mandriva.com>
+
+	* Makefile, lst/pcitable: using geode driver for the two chips it
+	  supports on advice of upstream (AMD)
+
 2008-05-27 21:50  Adam Williamson <awilliamson at mandriva.com>
 
 	* Makefile, lst/Cards+, lst/pcitable: rs780 now supported by
