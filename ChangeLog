@@ -1,3 +1,26 @@
+2008-05-30 23:42  Adam Williamson <awilliamson at mandriva.com>
+
+	* Makefile: bump version
+
+2008-05-30 23:40  Adam Williamson <awilliamson at mandriva.com>
+
+	* lst/pcitable: add a bunch of mystery IDs that showed up in the
+	  latest fglrx headers
+
+2008-05-30 23:32  Adam Williamson <awilliamson at mandriva.com>
+
+	* lst/pcitable: add three new GeForce IDs from latest Windows
+	  driver
+
+2008-05-30 22:34  Adam Williamson <awilliamson at mandriva.com>
+
+	* lst/Cards+, lst/pcitable: first update for fglrx 8.473: 3870 X2
+	  is now supported, add 3850 X2
+
+2008-05-29 07:06  Pixel <pixel at mandriva.com>
+
+	* lst/MonitorsDB: add monitor (from #41118)
+
 2008-05-28 17:17  Adam Williamson <awilliamson at mandriva.com>
 
 	* Makefile, lst/pcitable: using geode driver for the two chips it
