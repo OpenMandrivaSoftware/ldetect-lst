@@ -165,11 +165,6 @@ DRIVER2 fglrx
 NAME ATI r500 or r600 based FireGL
 SEE ATI Radeon X1300 and later
 
-# Supported by radeonhd but *not* fglrx as of 8.471
-NAME ATI Radeon HD 3870 X2
-DRIVER radeonhd
-DRI_GLX
-
 # ARK Logic
 
 NAME Ark Logic ARKx000-based cards
