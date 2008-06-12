@@ -45,7 +45,7 @@ my @preferred_categories = (
 #- This allows to workaround modules having class wildcards, which isn't supported.
 my %category_deferred_modules = (
     #- prefer full implementation or "generic" libata module, not old IDE generic module
-    "disk/ide" => [ "generic" ],
+    "disk/ide" => [ "ide_pci_generic" ],
     "disk/sata" => [ "ata_generic", "pata_acpi" ],
     "input/tablet" => [ "usbmouse" ],
 );
