@@ -1,3 +1,9 @@
+2008-06-17 23:41  Adam Williamson <awilliamson at mandriva.com>
+
+	* Makefile, lst/Cards+, lst/pcitable: split out Mach 64 and Rage
+	  128 based cards again as the driver was split upstream, Mach 32
+	  no longer supported so map to vga
+
 2008-06-17 23:00  Adam Williamson <awilliamson at mandriva.com>
 
 	* Makefile, lst/Cards+, lst/pcitable: add new NVIDIA cards; split
