@@ -124,15 +124,19 @@ DRIVER geode
 
 # ATI
 
-NAME ATI Mach / Rage-based cards
-DRIVER ati
+NAME ATI Mach 64-based cards
+DRIVER mach64
 DRI_GLX
 
-NAME ATI Mach / Rage-based cards (no 3D acceleration)
-DRIVER ati
+NAME ATI Rage 128-based cards
+DRIVER r128
+DRI_GLX
+
+NAME ATI Mach 64-based cards (no 3D acceleration)
+DRIVER mach64
 
 NAME ATI Rage 128 TV-out
-SEE ATI Mach / Rage-based cards
+SEE ATI Rage 128-based cards
 FB_TVOUT
 
 # Radeon cards not supported by proprietary driver: update name 
