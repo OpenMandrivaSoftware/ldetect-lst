@@ -2165,6 +2165,7 @@
 0x8086	0x29d2	"Card:Intel 810 and later"
 0x8086	0x2a02	"Card:Intel 810 and later"
 0x8086	0x2a12	"Card:Intel 810 and later"
+0x8086	0x2a42	"Card:Intel 810 and later"
 0x8086	0x3577	"Card:Intel 810 and later"
 0x8086	0x3582	"Card:Intel 810 and later"
 0x8086	0x5002	"Card:Intel Vermilion-based cards"
