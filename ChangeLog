@@ -1,3 +1,16 @@
+2008-07-24 17:09  Adam Williamson <awilliamson at mandriva.com>
+
+	* Makefile, lst/pcitable: add three new Intel video IDs (from
+	  xf86-video-intel-2.4.0)
+
+2008-07-17 00:42  Adam Williamson <awilliamson at mandriva.com>
+
+	* lst/MonitorsDB: add a new HP monitor reported on the forums
+
+2008-07-07 10:06  Pixel <pixel at mandriva.com>
+
+	* lst/MonitorsDB: add monitor (#41762)
+
 2008-06-20 18:15  Adam Williamson <awilliamson at mandriva.com>
 
 	* Makefile, lst/Cards+, lst/pcitable: add IDs for r700 series from
