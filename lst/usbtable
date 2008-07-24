@@ -1661,6 +1661,7 @@
 0x09da	0x0006	"unknown"	"A4 Tech Co., Ltd|Optical Mouse WOP-35 / Trust 450L Optical Mouse"
 0x09da	0x001a	"unknown"	"A4 Tech Co., Ltd|Wireless Mouse & RXM-15 Receiver"
 0x09da	0x002a	"unknown"	"A4 Tech Co., Ltd|Wireless Optical Mouse NB-30"
+0x09da	0x000e	"unknown"	"A4 Tech Co., Ltd|Optical Mouse X-710F"
 0x09db	0x0075	"unknown"	"Measurement Computing Corp.|MiniLab 1008"
 0x09db	0x0076	"unknown"	"Measurement Computing Corp.|PMD-1024"
 0x09db	0x007a	"unknown"	"Measurement Computing Corp.|PMD-1208LS"
