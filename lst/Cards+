@@ -241,20 +241,20 @@ NAME NVIDIA RIVA 128
 DRIVER nv
 BAD_FB_RESTORE
 
-NAME NVIDIA RIVA TNT to GeForce 2 (71xx)
+NAME NVIDIA RIVA TNT to GeForce 2
 DRIVER nv
 DRIVER2 nvidia71xx
 
-NAME NVIDIA GeForce 3 to GeForce 4 (96xx)
+NAME NVIDIA GeForce 3 to GeForce 4
 DRIVER nv
 DRIVER2 nvidia96xx
 
-NAME NVIDIA GeForce FX series
+NAME NVIDIA GeForce FX to GeForce 9850
 DRIVER nv
 DRIVER2 nvidia173
 DRIVER2_NO_SSE nvidia96xx
 
-NAME NVIDIA GeForce 6100 and later
+NAME NVIDIA GeForce GTX 260 and later
 DRIVER nv
 DRIVER2 nvidia-current
 DRIVER2_NO_SSE nvidia96xx
