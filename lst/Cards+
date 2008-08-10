@@ -206,6 +206,9 @@ DRI_GLX
 NAME SiS SiS / XGI 315 / 330 / 340 series-based cards
 DRIVER sis
 
+NAME SiS SiS 670 / 671-based cards
+DRIVER sisimedia
+
 # Cyrix
 
 NAME MediaGX
