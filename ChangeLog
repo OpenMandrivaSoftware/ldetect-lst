@@ -1,3 +1,561 @@
+2008-08-20 21:26  Adam Williamson <awilliamson at mandriva.com>
+
+	* Makefile: bump version
+
+2008-08-20 21:26  Adam Williamson <awilliamson at mandriva.com>
+
+	* lst/pcitable: add several new NVIDIA cards found in recent 177.x
+	  driver docs
+
+2008-08-20 21:12  Adam Williamson <awilliamson at mandriva.com>
+
+	* lst/Cards+, lst/pcitable: NVIDIA: back to using 173.x for FX
+	  series and 177.x for all later cards (177.x is going stable)
+
+2008-08-19 15:40  Pascal Terjan <pterjan at mandriva.com>
+
+	* lst/hardcoded-modules.alias: - Use madwifi instead of ath5k on
+	  Aspire One
+
+2008-08-19 10:21  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* dkms-modules-info/2.6.20.16-krg2.1.1-1mdv: kill duplicated data
+
+2008-08-19 10:21  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* dkms-modules-info/2.6.24.4-desktop586-1mnb,
+	  dkms-modules-info/2.6.24.4-laptop-1mnb,
+	  dkms-modules-info/2.6.24.4-server-1mnb,
+	  dkms-modules-info/2.6.24.4-tmb-desktop-1mdv,
+	  dkms-modules-info/2.6.24.4-tmb-desktop586-1mdv,
+	  dkms-modules-info/2.6.24.4-tmb-laptop-1mdv,
+	  dkms-modules-info/2.6.24.4-tmb-server-1mdv: kill duplicated data
+
+2008-08-19 08:57  mandrake
+
+	* dkms-modules-info/2.6.26.2-server-2mnb/cisco_ipsec.alias,
+	  dkms-modules-info/2.6.26.2-server-2mnb/cisco_ipsec.description:
+	  add dkms info for vpnclient with kernel 2.6.26.2-server-2mnb
+
+2008-08-19 08:57  mandrake
+
+	* dkms-modules-info/2.6.26.2-desktop586-2mnb/cisco_ipsec.alias,
+	  dkms-modules-info/2.6.26.2-desktop586-2mnb/cisco_ipsec.description:
+	  add dkms info for vpnclient with kernel 2.6.26.2-desktop586-2mnb
+
+2008-08-19 08:57  mandrake
+
+	* dkms-modules-info/2.6.26.2-desktop-2mnb/cisco_ipsec.alias,
+	  dkms-modules-info/2.6.26.2-desktop-2mnb/cisco_ipsec.description:
+	  add dkms info for vpnclient with kernel 2.6.26.2-desktop-2mnb
+
+2008-08-19 08:57  mandrake
+
+	* dkms-modules-info/2.6.26.2-server-2mnb/nvidia96xx.alias,
+	  dkms-modules-info/2.6.26.2-server-2mnb/nvidia96xx.description:
+	  add dkms info for nvidia96xx with kernel 2.6.26.2-server-2mnb
+
+2008-08-19 08:57  mandrake
+
+	* dkms-modules-info/2.6.26.2-server-2mnb/nvidia71xx.alias,
+	  dkms-modules-info/2.6.26.2-server-2mnb/nvidia71xx.description:
+	  add dkms info for nvidia71xx with kernel 2.6.26.2-server-2mnb
+
+2008-08-19 08:57  mandrake
+
+	* dkms-modules-info/2.6.26.2-server-2mnb/fglrx.alias,
+	  dkms-modules-info/2.6.26.2-server-2mnb/fglrx.description: add
+	  dkms info for fglrx with kernel 2.6.26.2-server-2mnb
+
+2008-08-19 08:57  mandrake
+
+	* dkms-modules-info/2.6.26.2-server-2mnb/fcpci.alias,
+	  dkms-modules-info/2.6.26.2-server-2mnb/fcpci.description: add
+	  dkms info for fcpci with kernel 2.6.26.2-server-2mnb
+
+2008-08-19 08:56  mandrake
+
+	* dkms-modules-info/2.6.26.2-desktop586-2mnb/fcpci.alias,
+	  dkms-modules-info/2.6.26.2-desktop586-2mnb/fcpci.description: add
+	  dkms info for fcpci with kernel 2.6.26.2-desktop586-2mnb
+
+2008-08-19 08:56  mandrake
+
+	* dkms-modules-info/2.6.26.2-desktop-2mnb/fcpci.alias,
+	  dkms-modules-info/2.6.26.2-desktop-2mnb/fcpci.description: add
+	  dkms info for fcpci with kernel 2.6.26.2-desktop-2mnb
+
+2008-08-19 08:56  mandrake
+
+	* dkms-modules-info/2.6.26.2-server-2mnb/ndiswrapper.alias,
+	  dkms-modules-info/2.6.26.2-server-2mnb/ndiswrapper.description:
+	  add dkms info for ndiswrapper with kernel 2.6.26.2-server-2mnb
+
+2008-08-19 08:56  mandrake
+
+	* dkms-modules-info/2.6.26.2-desktop586-2mnb/ndiswrapper.alias,
+	  dkms-modules-info/2.6.26.2-desktop586-2mnb/ndiswrapper.description:
+	  add dkms info for ndiswrapper with kernel
+	  2.6.26.2-desktop586-2mnb
+
+2008-08-19 08:56  mandrake
+
+	* dkms-modules-info/2.6.26.2-desktop-2mnb/ndiswrapper.alias,
+	  dkms-modules-info/2.6.26.2-desktop-2mnb/ndiswrapper.description:
+	  add dkms info for ndiswrapper with kernel 2.6.26.2-desktop-2mnb
+
+2008-08-19 08:56  mandrake
+
+	* dkms-modules-info/2.6.26.2-server-2mnb/sqlzma.alias,
+	  dkms-modules-info/2.6.26.2-server-2mnb/sqlzma.description,
+	  dkms-modules-info/2.6.26.2-server-2mnb/unlzma.alias,
+	  dkms-modules-info/2.6.26.2-server-2mnb/unlzma.description: add
+	  dkms info for lzma with kernel 2.6.26.2-server-2mnb
+
+2008-08-19 08:56  mandrake
+
+	* dkms-modules-info/2.6.26.2-desktop586-2mnb/sqlzma.alias,
+	  dkms-modules-info/2.6.26.2-desktop586-2mnb/sqlzma.description,
+	  dkms-modules-info/2.6.26.2-desktop586-2mnb/unlzma.alias,
+	  dkms-modules-info/2.6.26.2-desktop586-2mnb/unlzma.description:
+	  add dkms info for lzma with kernel 2.6.26.2-desktop586-2mnb
+
+2008-08-19 08:56  mandrake
+
+	* dkms-modules-info/2.6.26.2-desktop-2mnb/sqlzma.alias,
+	  dkms-modules-info/2.6.26.2-desktop-2mnb/sqlzma.description,
+	  dkms-modules-info/2.6.26.2-desktop-2mnb/unlzma.alias,
+	  dkms-modules-info/2.6.26.2-desktop-2mnb/unlzma.description: add
+	  dkms info for lzma with kernel 2.6.26.2-desktop-2mnb
+
+2008-08-19 08:56  mandrake
+
+	* dkms-modules-info/2.6.26.2-server-2mnb/adv717x.alias,
+	  dkms-modules-info/2.6.26.2-server-2mnb/adv717x.description,
+	  dkms-modules-info/2.6.26.2-server-2mnb/bt865.alias,
+	  dkms-modules-info/2.6.26.2-server-2mnb/bt865.description,
+	  dkms-modules-info/2.6.26.2-server-2mnb/em8300.alias,
+	  dkms-modules-info/2.6.26.2-server-2mnb/em8300.description: add
+	  dkms info for em8300 with kernel 2.6.26.2-server-2mnb
+
+2008-08-19 08:55  mandrake
+
+	* dkms-modules-info/2.6.26.2-desktop586-2mnb/adv717x.alias,
+	  dkms-modules-info/2.6.26.2-desktop586-2mnb/adv717x.description,
+	  dkms-modules-info/2.6.26.2-desktop586-2mnb/bt865.alias,
+	  dkms-modules-info/2.6.26.2-desktop586-2mnb/bt865.description,
+	  dkms-modules-info/2.6.26.2-desktop586-2mnb/em8300.alias,
+	  dkms-modules-info/2.6.26.2-desktop586-2mnb/em8300.description:
+	  add dkms info for em8300 with kernel 2.6.26.2-desktop586-2mnb
+
+2008-08-19 08:55  mandrake
+
+	* dkms-modules-info/2.6.26.2-desktop-2mnb/adv717x.alias,
+	  dkms-modules-info/2.6.26.2-desktop-2mnb/adv717x.description,
+	  dkms-modules-info/2.6.26.2-desktop-2mnb/bt865.alias,
+	  dkms-modules-info/2.6.26.2-desktop-2mnb/bt865.description,
+	  dkms-modules-info/2.6.26.2-desktop-2mnb/em8300.alias,
+	  dkms-modules-info/2.6.26.2-desktop-2mnb/em8300.description: add
+	  dkms info for em8300 with kernel 2.6.26.2-desktop-2mnb
+
+2008-08-19 08:55  mandrake
+
+	* dkms-modules-info/2.6.26.2-server-2mnb/vboxdrv.alias,
+	  dkms-modules-info/2.6.26.2-server-2mnb/vboxdrv.description: add
+	  dkms info for virtualbox with kernel 2.6.26.2-server-2mnb
+
+2008-08-19 08:55  mandrake
+
+	* dkms-modules-info/2.6.26.2-desktop586-2mnb/vboxdrv.alias,
+	  dkms-modules-info/2.6.26.2-desktop586-2mnb/vboxdrv.description:
+	  add dkms info for virtualbox with kernel 2.6.26.2-desktop586-2mnb
+
+2008-08-19 08:55  mandrake
+
+	* dkms-modules-info/2.6.26.2-desktop-2mnb/vboxdrv.alias,
+	  dkms-modules-info/2.6.26.2-desktop-2mnb/vboxdrv.description: add
+	  dkms info for virtualbox with kernel 2.6.26.2-desktop-2mnb
+
+2008-08-19 08:55  mandrake
+
+	* dkms-modules-info/2.6.26.2-server-2mnb/vhba.alias,
+	  dkms-modules-info/2.6.26.2-server-2mnb/vhba.description: add dkms
+	  info for vhba with kernel 2.6.26.2-server-2mnb
+
+2008-08-19 08:55  mandrake
+
+	* dkms-modules-info/2.6.26.2-desktop586-2mnb/vhba.alias,
+	  dkms-modules-info/2.6.26.2-desktop586-2mnb/vhba.description: add
+	  dkms info for vhba with kernel 2.6.26.2-desktop586-2mnb
+
+2008-08-19 08:54  mandrake
+
+	* dkms-modules-info/2.6.26.2-desktop-2mnb/vhba.alias,
+	  dkms-modules-info/2.6.26.2-desktop-2mnb/vhba.description: add
+	  dkms info for vhba with kernel 2.6.26.2-desktop-2mnb
+
+2008-08-19 08:54  mandrake
+
+	* dkms-modules-info/2.6.26.2-server-2mnb/vboxvfs.alias,
+	  dkms-modules-info/2.6.26.2-server-2mnb/vboxvfs.description: add
+	  dkms info for vboxvfs with kernel 2.6.26.2-server-2mnb
+
+2008-08-19 08:54  mandrake
+
+	* dkms-modules-info/2.6.26.2-desktop586-2mnb/vboxvfs.alias,
+	  dkms-modules-info/2.6.26.2-desktop586-2mnb/vboxvfs.description:
+	  add dkms info for vboxvfs with kernel 2.6.26.2-desktop586-2mnb
+
+2008-08-19 08:54  mandrake
+
+	* dkms-modules-info/2.6.26.2-desktop-2mnb/vboxvfs.alias,
+	  dkms-modules-info/2.6.26.2-desktop-2mnb/vboxvfs.description: add
+	  dkms info for vboxvfs with kernel 2.6.26.2-desktop-2mnb
+
+2008-08-19 08:54  mandrake
+
+	* dkms-modules-info/2.6.26.2-server-2mnb/vboxadd.alias,
+	  dkms-modules-info/2.6.26.2-server-2mnb/vboxadd.description: add
+	  dkms info for vboxadd with kernel 2.6.26.2-server-2mnb
+
+2008-08-19 08:54  mandrake
+
+	* dkms-modules-info/2.6.26.2-desktop586-2mnb/vboxadd.alias,
+	  dkms-modules-info/2.6.26.2-desktop586-2mnb/vboxadd.description:
+	  add dkms info for vboxadd with kernel 2.6.26.2-desktop586-2mnb
+
+2008-08-19 08:54  mandrake
+
+	* dkms-modules-info/2.6.26.2-desktop-2mnb/vboxadd.alias,
+	  dkms-modules-info/2.6.26.2-desktop-2mnb/vboxadd.description: add
+	  dkms info for vboxadd with kernel 2.6.26.2-desktop-2mnb
+
+2008-08-19 08:54  mandrake
+
+	* dkms-modules-info/2.6.26.2-server-2mnb/stk11xx.alias,
+	  dkms-modules-info/2.6.26.2-server-2mnb/stk11xx.description: add
+	  dkms info for syntek with kernel 2.6.26.2-server-2mnb
+
+2008-08-19 08:53  mandrake
+
+	* dkms-modules-info/2.6.26.2-desktop586-2mnb/stk11xx.alias,
+	  dkms-modules-info/2.6.26.2-desktop586-2mnb/stk11xx.description:
+	  add dkms info for syntek with kernel 2.6.26.2-desktop586-2mnb
+
+2008-08-19 08:53  mandrake
+
+	* dkms-modules-info/2.6.26.2-desktop-2mnb/stk11xx.alias,
+	  dkms-modules-info/2.6.26.2-desktop-2mnb/stk11xx.description: add
+	  dkms info for syntek with kernel 2.6.26.2-desktop-2mnb
+
+2008-08-19 08:53  mandrake
+
+	* dkms-modules-info/2.6.26.2-server-2mnb/squashfs-lzma.alias,
+	  dkms-modules-info/2.6.26.2-server-2mnb/squashfs-lzma.description:
+	  add dkms info for squashfs-lzma with kernel 2.6.26.2-server-2mnb
+
+2008-08-19 08:53  mandrake
+
+	* dkms-modules-info/2.6.26.2-desktop586-2mnb/squashfs-lzma.alias,
+	  dkms-modules-info/2.6.26.2-desktop586-2mnb/squashfs-lzma.description:
+	  add dkms info for squashfs-lzma with kernel
+	  2.6.26.2-desktop586-2mnb
+
+2008-08-19 08:53  mandrake
+
+	* dkms-modules-info/2.6.26.2-desktop-2mnb/squashfs-lzma.alias,
+	  dkms-modules-info/2.6.26.2-desktop-2mnb/squashfs-lzma.description:
+	  add dkms info for squashfs-lzma with kernel 2.6.26.2-desktop-2mnb
+
+2008-08-19 08:53  mandrake
+
+	* dkms-modules-info/2.6.26.2-server-2mnb/rt2860sta.alias,
+	  dkms-modules-info/2.6.26.2-server-2mnb/rt2860sta.description: add
+	  dkms info for rt2860 with kernel 2.6.26.2-server-2mnb
+
+2008-08-19 08:53  mandrake
+
+	* dkms-modules-info/2.6.26.2-desktop586-2mnb/rt2860sta.alias,
+	  dkms-modules-info/2.6.26.2-desktop586-2mnb/rt2860sta.description:
+	  add dkms info for rt2860 with kernel 2.6.26.2-desktop586-2mnb
+
+2008-08-19 08:53  mandrake
+
+	* dkms-modules-info/2.6.26.2-desktop-2mnb/rt2860sta.alias,
+	  dkms-modules-info/2.6.26.2-desktop-2mnb/rt2860sta.description:
+	  add dkms info for rt2860 with kernel 2.6.26.2-desktop-2mnb
+
+2008-08-19 08:53  mandrake
+
+	* dkms-modules-info/2.6.26.2-server-2mnb/realcrypt.alias,
+	  dkms-modules-info/2.6.26.2-server-2mnb/realcrypt.description: add
+	  dkms info for realcrypt with kernel 2.6.26.2-server-2mnb
+
+2008-08-19 08:52  mandrake
+
+	* dkms-modules-info/2.6.26.2-desktop586-2mnb/realcrypt.alias,
+	  dkms-modules-info/2.6.26.2-desktop586-2mnb/realcrypt.description:
+	  add dkms info for realcrypt with kernel 2.6.26.2-desktop586-2mnb
+
+2008-08-19 08:52  mandrake
+
+	* dkms-modules-info/2.6.26.2-desktop-2mnb/realcrypt.alias,
+	  dkms-modules-info/2.6.26.2-desktop-2mnb/realcrypt.description:
+	  add dkms info for realcrypt with kernel 2.6.26.2-desktop-2mnb
+
+2008-08-19 08:52  mandrake
+
+	* dkms-modules-info/2.6.26.2-server-2mnb/quickcam.alias,
+	  dkms-modules-info/2.6.26.2-server-2mnb/quickcam.description: add
+	  dkms info for qc-usb with kernel 2.6.26.2-server-2mnb
+
+2008-08-19 08:52  mandrake
+
+	* dkms-modules-info/2.6.26.2-desktop586-2mnb/quickcam.alias,
+	  dkms-modules-info/2.6.26.2-desktop586-2mnb/quickcam.description:
+	  add dkms info for qc-usb with kernel 2.6.26.2-desktop586-2mnb
+
+2008-08-19 08:52  mandrake
+
+	* dkms-modules-info/2.6.26.2-desktop-2mnb/quickcam.alias,
+	  dkms-modules-info/2.6.26.2-desktop-2mnb/quickcam.description: add
+	  dkms info for qc-usb with kernel 2.6.26.2-desktop-2mnb
+
+2008-08-19 08:52  mandrake
+
+	* dkms-modules-info/2.6.26.2-server-2mnb/ov51x-jpeg.alias,
+	  dkms-modules-info/2.6.26.2-server-2mnb/ov51x-jpeg.description:
+	  add dkms info for ov51x-jpeg with kernel 2.6.26.2-server-2mnb
+
+2008-08-19 08:52  mandrake
+
+	* dkms-modules-info/2.6.26.2-desktop586-2mnb/ov51x-jpeg.alias,
+	  dkms-modules-info/2.6.26.2-desktop586-2mnb/ov51x-jpeg.description:
+	  add dkms info for ov51x-jpeg with kernel 2.6.26.2-desktop586-2mnb
+
+2008-08-19 08:52  mandrake
+
+	* dkms-modules-info/2.6.26.2-desktop-2mnb/ov51x-jpeg.alias,
+	  dkms-modules-info/2.6.26.2-desktop-2mnb/ov51x-jpeg.description:
+	  add dkms info for ov51x-jpeg with kernel 2.6.26.2-desktop-2mnb
+
+2008-08-19 08:52  mandrake
+
+	* dkms-modules-info/2.6.26.2-server-2mnb/cbm.alias,
+	  dkms-modules-info/2.6.26.2-server-2mnb/cbm.description: add dkms
+	  info for opencbm with kernel 2.6.26.2-server-2mnb
+
+2008-08-19 08:51  mandrake
+
+	* dkms-modules-info/2.6.26.2-desktop586-2mnb/cbm.alias,
+	  dkms-modules-info/2.6.26.2-desktop586-2mnb/cbm.description: add
+	  dkms info for opencbm with kernel 2.6.26.2-desktop586-2mnb
+
+2008-08-19 08:51  mandrake
+
+	* dkms-modules-info/2.6.26.2-desktop-2mnb/cbm.alias,
+	  dkms-modules-info/2.6.26.2-desktop-2mnb/cbm.description: add dkms
+	  info for opencbm with kernel 2.6.26.2-desktop-2mnb
+
+2008-08-19 08:51  mandrake
+
+	* dkms-modules-info/2.6.26.2-server-2mnb/omnibook.alias,
+	  dkms-modules-info/2.6.26.2-server-2mnb/omnibook.description: add
+	  dkms info for omnibook with kernel 2.6.26.2-server-2mnb
+
+2008-08-19 08:51  mandrake
+
+	* dkms-modules-info/2.6.26.2-desktop586-2mnb/omnibook.alias,
+	  dkms-modules-info/2.6.26.2-desktop586-2mnb/omnibook.description:
+	  add dkms info for omnibook with kernel 2.6.26.2-desktop586-2mnb
+
+2008-08-19 08:51  mandrake
+
+	* dkms-modules-info/2.6.26.2-desktop-2mnb/omnibook.alias,
+	  dkms-modules-info/2.6.26.2-desktop-2mnb/omnibook.description: add
+	  dkms info for omnibook with kernel 2.6.26.2-desktop-2mnb
+
+2008-08-19 08:51  mandrake
+
+	* dkms-modules-info/2.6.26.2-server-2mnb/omfs.alias,
+	  dkms-modules-info/2.6.26.2-server-2mnb/omfs.description: add dkms
+	  info for omfs with kernel 2.6.26.2-server-2mnb
+
+2008-08-19 08:51  mandrake
+
+	* dkms-modules-info/2.6.26.2-desktop586-2mnb/omfs.alias,
+	  dkms-modules-info/2.6.26.2-desktop586-2mnb/omfs.description: add
+	  dkms info for omfs with kernel 2.6.26.2-desktop586-2mnb
+
+2008-08-19 08:51  mandrake
+
+	* dkms-modules-info/2.6.26.2-desktop-2mnb/omfs.alias,
+	  dkms-modules-info/2.6.26.2-desktop-2mnb/omfs.description: add
+	  dkms info for omfs with kernel 2.6.26.2-desktop-2mnb
+
+2008-08-19 08:50  mandrake
+
+	* dkms-modules-info/2.6.26.2-server-2mnb/kqemu.alias,
+	  dkms-modules-info/2.6.26.2-server-2mnb/kqemu.description: add
+	  dkms info for kqemu with kernel 2.6.26.2-server-2mnb
+
+2008-08-19 08:50  mandrake
+
+	* dkms-modules-info/2.6.26.2-desktop586-2mnb/kqemu.alias,
+	  dkms-modules-info/2.6.26.2-desktop586-2mnb/kqemu.description: add
+	  dkms info for kqemu with kernel 2.6.26.2-desktop586-2mnb
+
+2008-08-19 08:50  mandrake
+
+	* dkms-modules-info/2.6.26.2-desktop-2mnb/kqemu.alias,
+	  dkms-modules-info/2.6.26.2-desktop-2mnb/kqemu.description: add
+	  dkms info for kqemu with kernel 2.6.26.2-desktop-2mnb
+
+2008-08-19 08:50  mandrake
+
+	* dkms-modules-info/2.6.26.2-server-2mnb/iwl3945.alias,
+	  dkms-modules-info/2.6.26.2-server-2mnb/iwl3945.description,
+	  dkms-modules-info/2.6.26.2-server-2mnb/iwl4965.alias,
+	  dkms-modules-info/2.6.26.2-server-2mnb/iwl4965.description,
+	  dkms-modules-info/2.6.26.2-server-2mnb/iwlwifi_mac80211.alias,
+	  dkms-modules-info/2.6.26.2-server-2mnb/iwlwifi_mac80211.description,
+	  dkms-modules-info/2.6.26.2-server-2mnb/iwlwifi_rc80211_simple.alias,
+	  dkms-modules-info/2.6.26.2-server-2mnb/iwlwifi_rc80211_simple.description:
+	  add dkms info for iwlwifi with kernel 2.6.26.2-server-2mnb
+
+2008-08-19 08:50  mandrake
+
+	* dkms-modules-info/2.6.26.2-desktop586-2mnb/iwl3945.alias,
+	  dkms-modules-info/2.6.26.2-desktop586-2mnb/iwl3945.description,
+	  dkms-modules-info/2.6.26.2-desktop586-2mnb/iwl4965.alias,
+	  dkms-modules-info/2.6.26.2-desktop586-2mnb/iwl4965.description,
+	  dkms-modules-info/2.6.26.2-desktop586-2mnb/iwlwifi_mac80211.alias,
+	  dkms-modules-info/2.6.26.2-desktop586-2mnb/iwlwifi_mac80211.description,
+	  dkms-modules-info/2.6.26.2-desktop586-2mnb/iwlwifi_rc80211_simple.alias,
+	  dkms-modules-info/2.6.26.2-desktop586-2mnb/iwlwifi_rc80211_simple.description:
+	  add dkms info for iwlwifi with kernel 2.6.26.2-desktop586-2mnb
+
+2008-08-19 08:50  mandrake
+
+	* dkms-modules-info/2.6.26.2-desktop-2mnb/iwl3945.alias,
+	  dkms-modules-info/2.6.26.2-desktop-2mnb/iwl3945.description,
+	  dkms-modules-info/2.6.26.2-desktop-2mnb/iwl4965.alias,
+	  dkms-modules-info/2.6.26.2-desktop-2mnb/iwl4965.description,
+	  dkms-modules-info/2.6.26.2-desktop-2mnb/iwlwifi_mac80211.alias,
+	  dkms-modules-info/2.6.26.2-desktop-2mnb/iwlwifi_mac80211.description,
+	  dkms-modules-info/2.6.26.2-desktop-2mnb/iwlwifi_rc80211_simple.alias,
+	  dkms-modules-info/2.6.26.2-desktop-2mnb/iwlwifi_rc80211_simple.description:
+	  add dkms info for iwlwifi with kernel 2.6.26.2-desktop-2mnb
+
+2008-08-19 08:50  mandrake
+
+	* dkms-modules-info/2.6.26.2-server-2mnb/ipw3945.alias,
+	  dkms-modules-info/2.6.26.2-server-2mnb/ipw3945.description: add
+	  dkms info for ipw3945 with kernel 2.6.26.2-server-2mnb
+
+2008-08-19 08:49  mandrake
+
+	* dkms-modules-info/2.6.26.2-desktop586-2mnb/ipw3945.alias,
+	  dkms-modules-info/2.6.26.2-desktop586-2mnb/ipw3945.description:
+	  add dkms info for ipw3945 with kernel 2.6.26.2-desktop586-2mnb
+
+2008-08-19 08:49  mandrake
+
+	* dkms-modules-info/2.6.26.2-desktop-2mnb/ipw3945.alias,
+	  dkms-modules-info/2.6.26.2-desktop-2mnb/ipw3945.description: add
+	  dkms info for ipw3945 with kernel 2.6.26.2-desktop-2mnb
+
+2008-08-19 08:49  mandrake
+
+	* dkms-modules-info/2.6.26.2-server-2mnb/hso.alias,
+	  dkms-modules-info/2.6.26.2-server-2mnb/hso.description: add dkms
+	  info for hso with kernel 2.6.26.2-server-2mnb
+
+2008-08-19 08:49  mandrake
+
+	* dkms-modules-info/2.6.26.2-desktop586-2mnb/hso.alias,
+	  dkms-modules-info/2.6.26.2-desktop586-2mnb/hso.description: add
+	  dkms info for hso with kernel 2.6.26.2-desktop586-2mnb
+
+2008-08-19 08:49  mandrake
+
+	* dkms-modules-info/2.6.26.2-desktop-2mnb/hso.alias,
+	  dkms-modules-info/2.6.26.2-desktop-2mnb/hso.description: add dkms
+	  info for hso with kernel 2.6.26.2-desktop-2mnb
+
+2008-08-19 08:49  mandrake
+
+	* dkms-modules-info/2.6.26.2-server-2mnb/gspca.alias,
+	  dkms-modules-info/2.6.26.2-server-2mnb/gspca.description: add
+	  dkms info for gspca with kernel 2.6.26.2-server-2mnb
+
+2008-08-19 08:49  mandrake
+
+	* dkms-modules-info/2.6.26.2-desktop586-2mnb/gspca.alias,
+	  dkms-modules-info/2.6.26.2-desktop586-2mnb/gspca.description: add
+	  dkms info for gspca with kernel 2.6.26.2-desktop586-2mnb
+
+2008-08-19 08:49  mandrake
+
+	* dkms-modules-info/2.6.26.2-desktop-2mnb/gspca.alias,
+	  dkms-modules-info/2.6.26.2-desktop-2mnb/gspca.description: add
+	  dkms info for gspca with kernel 2.6.26.2-desktop-2mnb
+
+2008-08-19 08:49  mandrake
+
+	* dkms-modules-info/2.6.26.2-server-2mnb/et131x.alias,
+	  dkms-modules-info/2.6.26.2-server-2mnb/et131x.description: add
+	  dkms info for et131x with kernel 2.6.26.2-server-2mnb
+
+2008-08-19 08:49  mandrake
+
+	* dkms-modules-info/2.6.26.2-desktop586-2mnb/et131x.alias,
+	  dkms-modules-info/2.6.26.2-desktop586-2mnb/et131x.description:
+	  add dkms info for et131x with kernel 2.6.26.2-desktop586-2mnb
+
+2008-08-19 08:48  mandrake
+
+	* dkms-modules-info/2.6.26.2-desktop-2mnb/et131x.alias,
+	  dkms-modules-info/2.6.26.2-desktop-2mnb/et131x.description: add
+	  dkms info for et131x with kernel 2.6.26.2-desktop-2mnb
+
+2008-08-19 08:48  mandrake
+
+	* dkms-modules-info/2.6.26.2-server-2mnb,
+	  dkms-modules-info/2.6.26.2-server-2mnb/alsa_raoppcm.alias,
+	  dkms-modules-info/2.6.26.2-server-2mnb/alsa_raoppcm.description:
+	  add dkms info for alsa_raoppcm with kernel 2.6.26.2-server-2mnb
+
+2008-08-19 08:48  mandrake
+
+	* dkms-modules-info/2.6.26.2-desktop586-2mnb/alsa_raoppcm.alias,
+	  dkms-modules-info/2.6.26.2-desktop586-2mnb/alsa_raoppcm.description:
+	  add dkms info for alsa_raoppcm with kernel
+	  2.6.26.2-desktop586-2mnb
+
+2008-08-19 08:48  mandrake
+
+	* dkms-modules-info/2.6.26.2-desktop-2mnb,
+	  dkms-modules-info/2.6.26.2-desktop-2mnb/alsa_raoppcm.alias,
+	  dkms-modules-info/2.6.26.2-desktop-2mnb/alsa_raoppcm.description:
+	  add dkms info for alsa_raoppcm with kernel 2.6.26.2-desktop-2mnb
+
+2008-08-19 08:43  mandrake
+
+	* dkms-modules-info/2.6.26.2-desktop586-2mnb,
+	  dkms-modules-info/2.6.26.2-desktop586-2mnb/nvidia96xx.alias,
+	  dkms-modules-info/2.6.26.2-desktop586-2mnb/nvidia96xx.description:
+	  add dkms info for nvidia96xx with kernel 2.6.26.2-desktop586-2mnb
+
+2008-08-14 21:29  Adam Williamson <awilliamson at mandriva.com>
+
+	* lst/MonitorsDB: add a new Samsung monitor from the forums (thanks
+	  CN-20)
+
+2008-08-10 20:16  Adam Williamson <awilliamson at mandriva.com>
+
+	* ChangeLog: Generated by svn2cl the 10_Aug
+
 2008-08-10 20:14  Adam Williamson <awilliamson at mandriva.com>
 
 	* Makefile: bump version
