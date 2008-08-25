@@ -426,6 +426,7 @@
 0x046d	0xc025	"Mouse:evdev|imwheel:MX500"	"Logitech, Inc.|MX500 Optical Mouse"
 0x046d	0xc030	"Mouse:USB|Generic"	"Logitech Inc.|iFeel Mouse"
 0x046d	0xc032	"Mouse:USB|Wheel"	"Logitech Inc.|MouseMan iFeel"
+0x046d	0xc043	"Mouse:imwheel:generic"	"Logitech Inc.|MX400 Optical Mouse"
 0x046d	0xc202	"unknown"	"Logitech Inc.|WingMan Formula"
 0x046d	0xc207	"unknown"	"Logitech Inc.|WingMan Extreme Digital 3D"
 0x046d	0xc208	"unknown"	"Logitech Inc.|WingMan GamePad Extreme"
