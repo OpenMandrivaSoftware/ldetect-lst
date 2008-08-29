@@ -362,6 +362,10 @@ NAME Intel 810 and later
 DRIVER intel
 DRI_GLX
 
+# unlike i815 and newer, i810 doesn't support graphical installer:
+NAME Intel 810
+SEE Intel 810 and later
+
 NAME Intel Vermilion-based cards
 DRIVER vermilion
 
