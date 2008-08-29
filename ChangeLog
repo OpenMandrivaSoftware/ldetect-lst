@@ -1,3 +1,18 @@
+2008-08-29 16:11  Adam Williamson <awilliamson at mandriva.com>
+
+	* Makefile, lst/hardcoded-modules.alias: drop hardcoded preference
+	  for madwifi over ath5k for a specific card: per #41988, ath5k
+	  works fine now
+
+2008-08-25 21:28  Adam Williamson <awilliamson at mandriva.com>
+
+	* lst/usbtable: new mouse, Logitech MX400: only has thumb buttons,
+	  handle as imwheel:generic
+
+2008-08-22 21:51  Adam Williamson <awilliamson at mandriva.com>
+
+	* lst/pcitable: add new NVIDIA cards from 177.68 driver docs
+
 2008-08-20 22:02  Adam Williamson <awilliamson at mandriva.com>
 
 	* lst/pcitable: ATI: add some mysterious new IDs from Catalyst 8.8
