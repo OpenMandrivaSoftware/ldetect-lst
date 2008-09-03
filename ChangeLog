@@ -1,3 +1,7 @@
+2008-09-03 15:06  Adam Williamson <awilliamson at mandriva.com>
+
+	* lst/pcitable: add three new NVIDIA IDs from driver 177.70
+
 2008-08-29 16:11  Adam Williamson <awilliamson at mandriva.com>
 
 	* Makefile, lst/hardcoded-modules.alias: drop hardcoded preference
