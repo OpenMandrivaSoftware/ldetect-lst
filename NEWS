@@ -1,3 +1,7 @@
+Version 0.1.239 - 18 September 2008
+
+- update dkms modules info (mainly for rt2860 and rtl8187se)
+
 Version 0.1.238 - 18 September 2008
 
 - add support for Intel G41 graphics adapter
