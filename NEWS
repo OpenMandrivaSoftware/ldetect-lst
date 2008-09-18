@@ -1,5 +1,6 @@
 Version 0.1.238 - 18 September 2008
 
+- add support for Intel G41 graphics adapter
 - use 'vesa' driver not 'nv' for GeForce 7050 (#38391)
 
 Version 0.1.237 - 4 September 2008
