@@ -1,3 +1,7 @@
+Version 0.1.238 - 18 September 2008
+
+- use 'vesa' driver not 'nv' for GeForce 7050 (#38391)
+
 Version 0.1.237 - 4 September 2008
 
 - use pata_jmicron for jmicron controllers
