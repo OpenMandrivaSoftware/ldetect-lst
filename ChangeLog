@@ -1,3 +1,33 @@
+2008-09-18 02:35  Adam Williamson <awilliamson at mandriva.com>
+
+	* Makefile: bump version
+
+2008-09-18 02:35  Adam Williamson <awilliamson at mandriva.com>
+
+	* lst/Cards+, lst/pcitable: use vesa not nv for GeForce 7050
+	  (#38391)
+
+2008-09-11 20:05  Adam Williamson <awilliamson at mandriva.com>
+
+	* lst/pcitable: add support for Intel G41 graphics adapter
+
+2008-09-04 16:57  Olivier Blin <oblin at mandriva.com>
+
+	* NEWS: remove incorrect entry (thanks titi)
+
+2008-09-04 16:46  Olivier Blin <oblin at mandriva.com>
+
+	* NEWS: add NEWS
+
+2008-09-04 16:40  Olivier Blin <oblin at mandriva.com>
+
+	* Makefile: 0.1.237
+
+2008-09-04 16:39  Olivier Blin <oblin at mandriva.com>
+
+	* lst/hardcoded-modules.alias: use pata_jmicron for jmicron
+	  controllers
+
 2008-09-03 15:06  Adam Williamson <awilliamson at mandriva.com>
 
 	* lst/pcitable: add three new NVIDIA IDs from driver 177.70
