@@ -267,6 +267,14 @@ DRIVER nvxbox
 LINE Option "UseFBDev" "1"
 LINE Option "HWCursor" "0"
 
+# Per https://qa.mandriva.com/show_bug.cgi?id=38391 : as of 2008/09
+# these are not supported by nv driver - AdamW 2008/09
+
+NAME NVIDIA GeForce 7050
+DRIVER vesa
+DRIVER2 nvidia-current
+DRIVER2_NO_SSE nvidia96xx
+
 # IMS
 
 NAME IMS TwinTurbo-based cards
