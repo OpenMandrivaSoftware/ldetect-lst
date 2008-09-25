@@ -1,3 +1,7 @@
+Version 0.1.240 - 25 September 2008
+
+- update dkms modules info
+
 Version 0.1.239 - 18 September 2008
 
 - update dkms modules info (mainly for rt2860 and rtl8187se)
