@@ -1290,6 +1290,7 @@
 0x10de	0x0600	"Card:NVIDIA GeForce 6100 and later"
 0x10de	0x0602	"Card:NVIDIA GeForce 6100 and later"
 0x10de	0x0604	"Card:NVIDIA GeForce 6100 and later"
+0x10de	0x0605	"Card:NVIDIA GeForce 6100 and later"
 0x10de	0x0606	"Card:NVIDIA GeForce 6100 and later"
 0x10de	0x0609	"Card:NVIDIA GeForce 6100 and later"
 0x10de	0x060c	"Card:NVIDIA GeForce 6100 and later"

@@ -1,3 +1,7 @@
+Version 0.1.241 - 30 September 2008
+
+- add ID 0605 for NVIDIA GeForce 9800 GT (reported and tested by Zoida A)
+
 Version 0.1.240 - 25 September 2008
 
 - update dkms modules info
