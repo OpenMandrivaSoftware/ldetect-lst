@@ -159,22 +159,15 @@ SEE ATI Radeon 9500 to Radeon X1050
 
 # Radeon cards supported by proprietary driver and free 'radeonhd' 
 # driver: update name as support changes
-NAME ATI Radeon X1300 to Radeon HD 3870 X2
+NAME ATI Radeon X1300 and later
 DRIVER radeonhd
-DRI_GLX
-DRIVER2 fglrx
-
-# Radeon cards supported by proprietary driver but no free driver
-# yet: update name as support changes
-NAME ATI Radeon HD 4850 and later
-DRIVER vesa
 DRI_GLX
 DRIVER2 fglrx
 
 # FireGL cards supported by proprietary driver and free 'radeonhd'
 # driver: update name as support changes
 NAME ATI r500 or r600 based FireGL
-SEE ATI Radeon X1300 to Radeon HD 3870 X2
+SEE ATI Radeon X1300 and later
 
 # ARK Logic
 
