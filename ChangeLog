@@ -1,3 +1,8 @@
+2008-10-01 15:02  Adam Williamson <awilliamson at mandriva.com>
+
+	* Makefile, NEWS, lst/Cards+, lst/pcitable: drop separateRadeon HD
+	  4xxx category: radeonhd supports these now
+
 2008-09-30 19:52  Adam Williamson <awilliamson at mandriva.com>
 
 	* Makefile, NEWS, lst/pcitable: add ID 0605 for NVIDIA GeForce 9800
