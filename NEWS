@@ -1,3 +1,5 @@
+- updated DKMS alias DB
+
 Version 0.1.242 - 01 October 2008
 
 - drop separate Radeon HD 4xxx category: radeonhd supports these now
