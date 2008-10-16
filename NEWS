@@ -1,3 +1,6 @@
+- disable 3D on ATI Rage 128-based cards (hard lock the machine on
+  x86_64)
+
 Version 0.1.243 - 01 October 2008
 
 - updated DKMS alias DB

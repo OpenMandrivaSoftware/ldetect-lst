@@ -130,7 +130,6 @@ DRI_GLX
 
 NAME ATI Rage 128-based cards
 DRIVER r128
-DRI_GLX
 
 NAME ATI Mach 64-based cards (no 3D acceleration)
 DRIVER mach64
