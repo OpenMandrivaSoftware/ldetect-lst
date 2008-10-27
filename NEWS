@@ -1,3 +1,4 @@
+- add new mouse definition (Logitech G5v2)
 - vesa not framebuffer for ST Kyro, per dams
 - disable 3D on ATI Rage 128-based cards (hard lock the machine on
   x86_64)
