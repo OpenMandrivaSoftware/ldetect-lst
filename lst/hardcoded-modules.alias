@@ -1,2 +1,3 @@
 alias pcmcia:m*c*f*fn*pfn*paC7B8DF9Dpb1700D087pc4B74BAA0pd* hostap_cs
 alias pci:v0000197Bd*sv*sd*bc01sc01i* pata_jmicron
+alias pci:v00001022d0000209Asv*sd*bc*i* pata_cs5536

@@ -2,6 +2,7 @@
 - vesa not framebuffer for ST Kyro, per dams
 - disable 3D on ATI Rage 128-based cards (hard lock the machine on
   x86_64)
+- use pata_cs5536 for Geode IDE controllers
 
 Version 0.1.243 - 01 October 2008
 
