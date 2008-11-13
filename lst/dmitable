@@ -140,6 +140,12 @@ System/Manufacturer: Sony .*
   => Resolution: 1280x800
 
 
+Base Board/Manufacturer: TECO.*
+
+   Base Board/Product Name: TR2350
+   => Resolution: 800x480
+
+
 System/Manufacturer: TOSHIBA
 
   BIOS/Vendor: TOSHIBA

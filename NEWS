@@ -3,6 +3,7 @@
 - disable 3D on ATI Rage 128-based cards (hard lock the machine on
   x86_64)
 - use pata_cs5536 for Geode IDE controllers
+- default to 800x480 on TECO TR2350 (Omatek netbook)
 
 Version 0.1.243 - 01 October 2008
 
