@@ -1,3 +1,5 @@
+Version 0.1.244 - 13 November 2008
+
 - add new mouse definition (Logitech G5v2)
 - vesa not framebuffer for ST Kyro, per dams
 - disable 3D on ATI Rage 128-based cards (hard lock the machine on
