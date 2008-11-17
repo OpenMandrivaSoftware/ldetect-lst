@@ -10,7 +10,6 @@
 # Horiz and vert sync can be a range; like 35.2-55.75; or 31.5,35.5
 # BUT remember to use ';' to separate fields
 #
-# $Id$
 
 Aamazing; Aamazing CM-8426; cm-8426; 31.0-60.0; 40.0-80.0; 1
 Aamazing; Aamazing MS-8431; ms-8431; 15.0-36.0; 50.0-70.0; 1
@@ -403,11 +402,12 @@ AOC; AOC CM-324; cm-324; 15.0-37.0; 50.0-90.0; 1
 AOC; AOC CM-325; cm-325; 31.0-38.0; 50.0-90.0; 1
 AOC; AOC CM-326; cm-326; 15.0-38.0; 50.0-90.0; 1
 AOC; AOC Monochrome MM-415; mm-415; 30.0-38.0; 50.0-90.0; 1
+AOC; AOC SPECTRUM 21Hlr; aoce2182; 30.0-66.0; 50.0-100.0; 1
 AOC; AOC SPECTRUM 4V,4VA,4Vlr & 4VlrA, 4Vn, 4VnA; aocd350; 30.0-50.0; 50.0-100.0; 1
 AOC; AOC SPECTRUM 4Vlr & 4VlrA & 4V & 4VA; aocd356; 30.0-54.0; 50.0-120.0; 1
 AOC; AOC SPECTRUM 5Elr & 5ElrA & 5E & 5EA; aocd556; 30.0-54.0; 50.0-120.0; 1
-AOC; AOC SPECTRUM 5Glr; aoce570; 30.0-64.0; 50.0-120.0; 1
 AOC; AOC SPECTRUM 5Glr & 5GlrA & 5Glr+ & 5GlrA+; aoc569e; 30.0-69.0; 50.0-120.0; 1
+AOC; AOC SPECTRUM 5Glr; aoce570; 30.0-64.0; 50.0-120.0; 1
 AOC; AOC SPECTRUM 5Llr & 5LlrA; aocc564; 30.0-64.0; 50.0-90.0; 1
 AOC; AOC SPECTRUM 5Nlr; aoca566; 30.0-66.0; 50.0-100.0; 1
 AOC; AOC SPECTRUM 5Nlr; aoca569; 30.0-69.0; 50.0-120; 1
@@ -418,7 +418,6 @@ AOC; AOC SPECTRUM 7Glr & 7GlrA; aoca785; 30.0-85.0; 50.0-130.0; 1
 AOC; AOC SPECTRUM 7Nlr; aoca782; 30.0-82.0; 50.0-110.0; 1
 AOC; AOC SPECTRUM 7Vlr & 7VlrA & 7Vlr+ & 7VlrA+; aoca770; 30.0-70.0; 50.0-130.0; 1
 AOC; AOC SPECTRUM 9Glr; aoce995; 30.0-95.0; 47.0-150.0; 1
-AOC; AOC SPECTRUM 21Hlr; aoce2182; 30.0-66.0; 50.0-100.0; 1
 Apollo; Apollo 1280x1024-68Hz; 0; 73.702; 68.24
 Apollo; Apollo 1280x1024-70Hz; 0; 75.118; 70.07
 Apple; Apple 23 Cinema HD; APP9218; 30.0-90.0; 50.0-70.0; 1
@@ -2590,8 +2589,8 @@ Lite-On; Lite-On B1996NSL; ltnb965; 30.0-95.0; 50.0-160.0; 1
 Lite-On; Lite-On B1996NST(95); ltnb967; 30.0-95.0; 50.0-160.0; 1
 Lite-On; Lite-On B1996NST(99); ltnb968; 30.0-95.0; 50.0-160.0; 1
 Lite-On; Lite-On B1997NST(99); ltn1901; 30.0-95.0; 50.0-120.0; 1
-Lite-On; Lite-On BL150AT; ltn0205; 24.0-61.0; 56.0-85.0; 1
 Lite-On; Lite-On BL150ATA; ltn0204; 24.0-61.0; 56.0-85.0; 1
+Lite-On; Lite-On BL150AT; ltn0205; 24.0-61.0; 56.0-85.0; 1
 Lite-On; Lite-On CM-1412; ltn1412; 30.0-38.0; 55.0-90.0; 1
 Lite-On; Lite-On CM-1413; ltn1413; 30.0-38.0; 55.0-90.0; 1
 Lite-On; Lite-On CM-1414; ltn1414; 30.0-38.0; 55.0-90.0; 1
@@ -2860,15 +2859,15 @@ Mitsubishi; Mitsubishi RD17F; mel6040; 30.0-82.0; 50.0-130.0; 1
 Mitsubishi; Mitsubishi RD17GR; mel4065; 30.0-69.0; 55.0-125.0; 1
 Mitsubishi; Mitsubishi RD17GZ; mel4150; 30.0-86.0; 50.0-130.0; 1
 Mitsubishi; Mitsubishi RD21GH; mel4141; 30.0-115.0; 50.0-152.0; 1
-Mitsubishi; Mitsubishi RD21GII; mel40f0; 30.0-95.0; 50.0-152.0; 1
 Mitsubishi; Mitsubishi RD21GIII; mel4140; 30.0-115.0; 50.0-152.0; 1
+Mitsubishi; Mitsubishi RD21GII; mel40f0; 30.0-95.0; 50.0-152.0; 1
 Mitsubishi; Mitsubishi RD21GX; mel40f1; 30.0-86.0; 50.0-132.0; 1
 Mitsubishi; Mitsubishi RDF173H; MEL4627; 30.0-96.0; 50.0-160.0; 1
 Mitsubishi; Mitsubishi RDF193H; MEL4628; 30.0-96.0; 50.0-160.0; 1
 Mitsubishi; Mitsubishi RDS173X; MEL4626; 30.0-70.0; 50.0-120.0; 1
 Mitsubishi; Mitsubishi RDT151; mel41b0; 24.8-60.2; 56.3-85.1; 1
-Mitsubishi; Mitsubishi SpectraView 700; mel4130; 30.0-95.0; 50.0-152.0; 1
 Mitsubishi; Mitsubishi SpectraView 1000; mel4120; 30.0-95.0; 50.0-130.0; 1
+Mitsubishi; Mitsubishi SpectraView 700; mel4130; 30.0-95.0; 50.0-152.0; 1
 Mitsubishi; Mitsubishi TFT Monitor RDT150S; mel41b3; 24.8-63.0; 30.0-85.1; 1
 Mitsubishi; Mitsubishi TFT Monitor RDT180S; mel42d0; 24.8-83.0; 30.0-85.1; 1
 Mitsubishi; Mitsubishi The Big Easy 1281 (VS1281); mel1281; 15.0-103.0; 40.0-150.0; 0
@@ -2878,8 +2877,8 @@ Mitsubishi; Mitsubishi XJ59992; tatbbcf; 30.0-54.0; 50.0-100.0; 1
 Modgraph; Modgraph. MG-3200; mg-3200; 15.0-35.0; 47.0-80.0; 1
 Monitronix; Monitronix MX-200MC; mx-200mc; 15.0-75.0; 40.0-120.0; 1
 Monitronix; Monitronix MX-210EZ; mx-210ez; 30.0-75.0; 40.0-120.0; 1
-Monitronix; Monitronix MX240; mx240; 30.0-90.0; 20.0-120.0; 1
 Monitronix; Monitronix MX-240EZ; mx-240ez; 30.0-75.0; 40.0-120.0; 1
+Monitronix; Monitronix MX240; mx240; 30.0-90.0; 20.0-120.0; 1
 Morse; Morse Monitor; morsemon; 30.0-57.0; 50.0-90.0; 1
 Nanao; Nanao 9060S; nan0502; 15.5-38.5; 50.0-90.0; 1
 Nanao; Nanao 9060S; nan0902; 15.5-38.5; 50.0-90.0; 1
@@ -2913,16 +2912,16 @@ Nanao; Nanao FlexScan 53T; nan0993; 30.0-85.0; 55.0-160.0; 1
 Nanao; Nanao FlexScan 54T; nan0805; 24.5-86.0; 55.0-160.0; 1
 Nanao; Nanao FlexScan 55F; nan098c; 24.5-65.0; 55.0-90.0; 1
 Nanao; Nanao FlexScan 56T; nan0913; 30.0-85.0; 55.0-160.0; 1
+Nanao; Nanao FlexScan 6500; nan0900; 56.0-80.0; 55.0-90.0; 1
+Nanao; Nanao FlexScan 6600; nan0406; 56.0-110.0; 70.0-90.0; 1
 Nanao; Nanao FlexScan 68T; nan0914; 30.0-85.0; 55.0-160.0; 1
 Nanao; Nanao FlexScan 76F; nan098f; 30.0-78.0; 55.0-90.0; 1
 Nanao; Nanao FlexScan 77F; nan090f; 24.5-90.0; 55.0-160.0; 1
 Nanao; Nanao FlexScan 88F; nan0802; 31.5-102.0; 55.0-160.0; 1
-Nanao; Nanao FlexScan 6500; nan0900; 56.0-80.0; 55.0-90.0; 1
-Nanao; Nanao FlexScan 6600; nan0406; 56.0-110.0; 70.0-90.0; 1
 Nanao; Nanao FlexScan E151L; nan1209; 24.0-61.0; 50.0-85.0; 1
 Nanao; Nanao FlexScan F340iW; nan050a; 27.0-61.5; 55.0-90.0; 1
-Nanao; Nanao FlexScan F347; nan090a; 24.5-61.5; 55.0-90.0; 1
 Nanao; Nanao FlexScan F347II; nan098a; 24.5-61.5; 55.0-90.0; 1
+Nanao; Nanao FlexScan F347; nan090a; 24.5-61.5; 55.0-90.0; 1
 Nanao; Nanao FlexScan F550i; nan050b; 30.0-65.0; 55.0-90.0; 1
 Nanao; Nanao FlexScan F550i; nan090b; 30.0-65.0; 55.0-90.0; 1
 Nanao; Nanao FlexScan F550iW; nan050c; 30.0-65.0; 55.0-90.0; 1
@@ -2932,16 +2931,16 @@ Nanao; Nanao FlexScan F750i; nan050e; 30.0-80.0; 55.0-90.0; 1
 Nanao; Nanao FlexScan F760iW; nan050f; 30.0-78.0; 55.0-90.0; 1
 Nanao; Nanao FlexScan F780iJ; nan0910; 45.0-100.0; 55.0-120.0; 1
 Nanao; Nanao FlexScan F780iW; nan0510; 45.0-100.0; 55.0-120.0; 1
-Nanao; Nanao FlexScan L66; nan1219; 27.0-80.0; 50.0-75.0; 1
 Nanao; Nanao FlexScan L360; nan1221; 27.0-61.0; 55.0-75.0; 1
-Nanao; Nanao FlexScan T560i; nan0511; 30.0-82.0; 55.0-90.0; 1
+Nanao; Nanao FlexScan L66; nan1219; 27.0-80.0; 50.0-75.0; 1
 Nanao; Nanao FlexScan T560iJ; nan0911; 30.0-82.0; 55.0-90.0; 1
+Nanao; Nanao FlexScan T560i; nan0511; 30.0-82.0; 55.0-90.0; 1
 Nanao; Nanao FlexScan T567; nan0991; 30.0-82.0; 55.0-90.0; 1
-Nanao; Nanao FlexScan T660i; nan0512; 30.0-78.0; 55.0-90.0; 1
 Nanao; Nanao FlexScan T660iJ; nan0912; 30.0-82.0; 55.0-90.0; 1
+Nanao; Nanao FlexScan T660i; nan0512; 30.0-78.0; 55.0-90.0; 1
 Nanao; Nanao USA F2-15; nan0400; 24.5-69.0; 55.0-120.0; 1
-Nanao; Nanao USA F2-17; nan0401; 24.5-69.0; 55.0-120.0; 1
 Nanao; Nanao USA F2-17EX; nan0402; 24.5-86.0; 55.0-160.0; 1
+Nanao; Nanao USA F2-17; nan0401; 24.5-69.0; 55.0-120.0; 1
 Nanao; Nanao USA F2-21; nan0403; 24.5-90.0; 55.0-160.0; 1
 Nanao; Nanao USA FlexScan 6300; nan0580; 56.0-80.0; 55.0-90.0; 1
 Nanao; Nanao USA FlexScan T2-17; nan0513; 30.0-85.0; 55.0-160.0; 1
@@ -2950,12 +2949,12 @@ Nanao; Nanao USA FlexScan T2-20; nan0000; 30.0-85.0; 55.0-160.0; 1
 Nanao; Nanao USA FlexScan T2-20; nan0514; 30.0-85.0; 55.0-160.0; 1
 Nanao; Nanao USA FX2-21; nan0404; 31.5-102.0; 55.0-160.0; 1
 NEC; NEC 15TFT CP Monitor; necea8e; 48; 60; 1
+NEC; NEC AccuSync 120; nec5dd5; 31.0-96.0; 55.0-200.0; 1
 NEC; NEC AccuSync 50; nec5dc3; 31.0-70.0; 55.0-120.0; 1
 NEC; NEC AccuSync 70; nec5dc4; 31.0-70.0; 55.0-120.0; 1
 NEC; NEC AccuSync 75F; nec5dcf; 31.0-70.0; 55.0-120.0; 1
 NEC; NEC AccuSync 90; nec5dc5; 31.0-96.0; 55.0-160.0; 1
 NEC; NEC AccuSync 95F; nec5dd0; 31.0-96.0; 55.0-160.0; 1
-NEC; NEC AccuSync 120; nec5dd5; 31.0-96.0; 55.0-200.0; 1
 NEC; NEC AccuSync 125F; NEC61D4; 30.0-96.0; 50.0-160.0; 1
 NEC; NEC AccuSync 500; NEC61DF; 30.0-71.0; 55.0-120.0; 1
 NEC; NEC AccuSync 700; NEC61E0; 30.0-71.0; 55.0-120.0; 1
@@ -2972,8 +2971,8 @@ NEC; NEC C700; necea67; 30.0-70.0; 50.0-90.0; 1
 NEC; NEC C710; necea6c; 30.0-70.0; 50.0-120.0; 1
 NEC; NEC C900; necea69; 30.0-95.0; 50.0-150.0; 1
 NEC; NEC C900; necea8d; 30.0-95.0; 50.0-150.0; 1
-NEC; NEC CS500; nec3e53; 30.0-70.0; 50.0-90.0; 1
 NEC; NEC CS500 Multimedia Monitor; nec3e53; 30.0-64.0; 50.0-120.0; 1
+NEC; NEC CS500; nec3e53; 30.0-70.0; 50.0-90.0; 1
 NEC; NEC DH28W2; nec0afa; 30.0-38.0; 60.0-75.0; 1
 NEC; NEC DH32W2; nec0c8a; 30.0-38.0; 60.0-75.0; 1
 NEC; NEC DV15A1; nec006e; 30.0-63.0; 60.0-75.0; 1
@@ -2986,9 +2985,9 @@ NEC; NEC DV17C1; nec008c; 30.0-67.0; 60.0-75.0; 1
 NEC; NEC DV17C2; nec0096; 30.0-83.0; 60.0-75.0; 1
 NEC; NEC DV17C3; nec01a4; 30.0-71.0; 59.0-86.0; 1
 NEC; NEC F14T1; nec00a0; 24.0-63.0; 60.0-75.0; 1
-NEC; NEC F14T2; nec00b4; 30.0-63.0; 60.0-75.0; 1
 NEC; NEC F14T2H; nec00dc; 31.0-61.0; 59.0-76.0; 1
 NEC; NEC F14T2L; nec00e6; 31.0-61.0; 59.0-76.0; 1
+NEC; NEC F14T2; nec00b4; 30.0-63.0; 60.0-75.0; 1
 NEC; NEC F15T1; nec00d2; 31.0-61.0; 59.0-76.0; 1
 NEC; NEC LCD51V; NEC661B; 31.0-63.0; 56.0-75.0; 1
 NEC; NEC LCD51VM; NEC661A; 31.0-63.0; 56.0-75.0; 1
@@ -3973,8 +3972,8 @@ Samtron; Samtron SC-528MXLJ; sdi1530; 24.0-66.0; 50.0-100.0; 1
 Samtron; Samtron SC-528TXL; sdi1528; 30.0-48.0; 50.0-100.0; 1
 Samtron; Samtron SC-528UXL; sdi1529; 30.0-65.0; 50.0-120.0; 1
 Samtron; Samtron SC-726GXL; sdi4d71; 30.0-85.0; 50.0-120.0; 1
-Samtron; Samtron SC-728FXL; sdi4d70; 30.0-65.0; 50.0-120.0; 1
 Samtron; Samtron SC-728FXLJ; sdi4d73; 24.0-65.0; 50.0-120.0; 1
+Samtron; Samtron SC-728FXL; sdi4d70; 30.0-65.0; 50.0-120.0; 1
 Seiko; Seiko CM-1440; cm-1440; 31.0-40.0; 50.0-90.0; 1
 Seiko; Seiko CM-1450; cm-1450; 31.0-50.0; 50.0-90.0; 1
 Seiko; Seiko CM-2050; cm-2050; 31.0-50.0; 50.0-90.0; 1
@@ -3992,8 +3991,8 @@ SGI; SGI 21-inch GDM5011P; 0; 30-107; 48-160
 SGI; SGI 21-inch GDM-5021PT; 0; 30.0-107.0; 48.0-160.0
 SGI; SGI 21-inch GDM-5411; 0; 30-121; 48-160
 SGI; SGI 24-inch GDM-90W11; 0; 30.0-96.0; 48.0-160.0
-SGI; SGI 1600SW FlatPanel; SGX0640; 72.0; 60.0
 SGI; SGI GDM-90W11; 0; 30.0-96.0; 48.0-160.0
+SGI; SGI 1600SW FlatPanel; SGX0640; 72.0; 60.0
 Shamrock; Shamrock C407L; 0; 31.5-55.0; 50-70
 Siemens Nixdorf; Siemens Nixdorf MCM1402; siemens1; 30-64; 50-100; 1
 Siemens Nixdorf; Siemens Nixdorf MCM1503; siemens2; 30-64; 50-100; 1
@@ -4078,11 +4077,11 @@ Sony; Sony CPD-L200/M151; sny0f50; 30.0-61.0; 50.0-65.0; 1
 Sony; Sony CPD-V200; sny1570; 30.0-70.0; 48.0-120.0; 1
 Sony; Sony GDM-17SE1; gdm-17se1; 31.5-82.0; 50.0-150.0; 1
 Sony; Sony GDM-17SE2T; sny0170; 30.0-85.0; 48.0-150.0; 1
+Sony; Sony GDM-200PS; sny0c70; 30.0-92.0; 48.0-160.0; 1
 Sony; Sony GDM-20SE2T5; sny05a0; 30.0-96.0; 48.0-160.0; 1
 Sony; Sony GDM-20SE3T; sny06a0; 30.0-96.0; 48.0-160.0; 1
-Sony; Sony GDM-20SHT; sny0000; 30.0-65.0; 50.0-120.0; 1
 Sony; Sony GDM-20SHT(NEW); sny08a0; 30.0-107.0; 50.0-160.0; 1
-Sony; Sony GDM-200PS; sny0c70; 30.0-92.0; 48.0-160.0; 1
+Sony; Sony GDM-20SHT; sny0000; 30.0-65.0; 50.0-120.0; 1
 Sony; Sony GDM-400PS/400PST/19PS; sny0090; 30.0-95.0; 48.0-160.0; 1
 Sony; Sony GDM-500PS/T/T9/21PS; sny00b0; 30.0-107.0; 48.0-160.0; 1
 Sony; Sony GDM-1310; cpd-1310; 15.7-36.0; 50.0-100.0; 1
