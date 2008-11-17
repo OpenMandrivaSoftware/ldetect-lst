@@ -3186,7 +3186,6 @@ Nissei Sangyo; Nissei Sangyo CM2086A; cm2086a; 46.0-64.0; 55.0-65.0; 1
 Nissei Sangyo; Nissei Sangyo CM2087MU; cm2087mu; 30.0-78.0; 50.0-120.0; 1
 Nissei Sangyo; Nissei Sangyo CM2186AF; cm2186af; 60.0-65.0; 60.0-70.0; 1
 Nissei Sangyo; Nissei Sangyo CM2187MU; cm2187mu; 30.0-78.0; 50.0-120.0; 1
-Nokia; Nokia 44BS; nok0093; 30.0-62.0; 50.0-100.0; 1
 Nokia; Nokia 300Xa; nok1300; 48.3-60.3; 60.0-75.0; 1
 Nokia; Nokia 400Xa; nok1400; 48.3-60.3; 60.0-75.0; 1
 Nokia; Nokia 417TV; nok00b4; 30.0-64.0; 50.0-100.0; 1
@@ -3194,13 +3193,13 @@ Nokia; Nokia 445G; nok00c7; 30.0-70.0; 50.0-115.0; 1
 Nokia; Nokia 445M; nok00cd; 30.0-82.0; 50.0-120.0; 0
 Nokia; Nokia 445PRO; nok01ce; 29.0-125.0; 50.0-180.0; 1
 Nokia; Nokia 445R; nok00d2; 30.0-102.0; 50.0-120.0; 1
-Nokia; Nokia 445X; nok00d8; 30.0-102.0; 50.0-120.0; 0
-Nokia; Nokia 445Xav; nok00c1; 30.0-102.0; 50.0-120.0; 1
 Nokia; Nokia 445Xavc; nok01c0; 30.0-102.0; 50.0-120.0; 1
+Nokia; Nokia 445Xav; nok00c1; 30.0-102.0; 50.0-120.0; 1
 Nokia; Nokia 445Xi; nok00c9; 30.0-102.0; 50.0-120.0; 1
 Nokia; Nokia 445XiPlus; nok00ca; 30.0-110.0; 50.0-150.0; 1
-Nokia; Nokia 445Xpro; nok01d0; 30.0-121.0; 50.0-150.0; 1
+Nokia; Nokia 445X; nok00d8; 30.0-102.0; 50.0-120.0; 0
 Nokia; Nokia 445Xpro125; nok01d2; 30.0-125.0; 50.0-150.0; 1
+Nokia; Nokia 445Xpro; nok01d0; 30.0-121.0; 50.0-150.0; 1
 Nokia; Nokia 445ZA; nok01da; 30.0-110.0; 50.0-150.0; 1
 Nokia; Nokia 446PRO; nok0146; 30.0-107.0; 50.0-150.0; 1
 Nokia; Nokia 446Xpro; nok0150; 30.0-107.0; 50.0-150.0; 1
@@ -3211,21 +3210,21 @@ Nokia; Nokia 447B; nok00a2; 30.0-64.0; 50.0-124.0; 1
 Nokia; Nokia 447DTC; nok00b9; 31.0-92.0; 50.0-150.0; 1
 Nokia; Nokia 447E; nok00a5; 30.0-82.0; 50.0-110.0; 1
 Nokia; Nokia 447i; nok01aa; 30.0-72.0; 50.0-120.0; 1
-Nokia; Nokia 447K; nok00bc; 30.0-91.0; 50.0-150.0; 1
 Nokia; Nokia 447KA; nok00ab; 30.0-91.0; 50.0-150.0; 1
 Nokia; Nokia 447KC; nok00a3; 30.0-91.0; 50.0-150.0; 1
+Nokia; Nokia 447K; nok00bc; 30.0-91.0; 50.0-150.0; 1
 Nokia; Nokia 447L; nok00ac; 30.0-64.0; 50.0-100.0; 1
 Nokia; Nokia 447M; nok00ad; 30.0-64.0; 50.0-110.0; 1
 Nokia; Nokia 447PRO; nok01bd; 30.0-96.0; 50.0-150.0; 1
 Nokia; Nokia 447S; nok00a6; 30.0-86.0; 50.0-150.0; 1
 Nokia; Nokia 447V; nok00b6; 30.0-64.0; 50.0-100.0; 1
 Nokia; Nokia 447W; nok00b7; 30.0-85.0; 50.0-100.0; 1
-Nokia; Nokia 447X; nok00b8; 30.0-82.0; 50.0-110.0; 1
 Nokia; Nokia 447Xa; nok00a1; 30.0-91.0; 50.0-150.0; 1
-Nokia; Nokia 447Xav; nok00bb; 30.0-91.0; 50.0-150.0; 1
 Nokia; Nokia 447Xavc; nok01a0; 30.0-91.0; 50.0-150.0; 1
+Nokia; Nokia 447Xav; nok00bb; 30.0-91.0; 50.0-150.0; 1
 Nokia; Nokia 447Xi; nok00a9; 30.0-91.0; 50.0-150.0; 1
 Nokia; Nokia 447XiPlus; nok00aa; 30.0-86.0; 50.0-150.0; 1
+Nokia; Nokia 447X; nok00b8; 30.0-82.0; 50.0-110.0; 1
 Nokia; Nokia 447Xpro; nok01b0; 30.0-96.0; 50.0-150.0; 1
 Nokia; Nokia 447XS; nok01b3; 30.0-86.0; 50.0-150.0; 1
 Nokia; Nokia 447Za; nok00ba; 30.0-72.0; 50.0-120.0; 1
@@ -3235,12 +3234,13 @@ Nokia; Nokia 447Zi; nok01a9; 30.0-72.0; 50.0-120.0; 1
 Nokia; Nokia 447ZiPlus; nok01bc; 30.0-72.0; 50.0-150.0; 1
 Nokia; Nokia 449E; nok0085; 30.0-62.0; 50.0-100.0; 1
 Nokia; Nokia 449M; nok008d; 30.0-64.0; 50.0-100.0; 1
-Nokia; Nokia 449X; nok0098; 30.0-64.0; 50.0-100.0; 1
 Nokia; Nokia 449Xa; nok0081; 30.0-65.0; 50.0-120.0; 1
 Nokia; Nokia 449XaPlus; nok0082; 30.0-69.0; 50.0-120.0; 1
 Nokia; Nokia 449Xi; nok0089; 30.0-65.0; 50.0-120.0; 1
 Nokia; Nokia 449XiPlus; nok008a; 30.0-69.0; 50.0-120.0; 1
+Nokia; Nokia 449X; nok0098; 30.0-64.0; 50.0-100.0; 1
 Nokia; Nokia 449ZA; nok009a; 30.0-70.0; 50.0-120.0; 1
+Nokia; Nokia 44BS; nok0093; 30.0-62.0; 50.0-100.0; 1
 Nokia; Nokia 500Xa; nok1500; 31.4-60.0; 56.2-75.0; 1
 Nokia; Nokia 800PRO; nok1802; 30.0-82.0; 55.0-86.0; 1
 Nokia; Nokia 800PRO; nok1803; 31.0-65.0; 58.0-62.0; 1
@@ -3257,8 +3257,8 @@ Olivetti; Olivetti DSM 27-514 MS; dsm27-514ms; 30.0-58.0; 50.0-110.0; 1
 Olivetti; Olivetti DSM 27-615; dsm27-615; 30.0-62.0; 48.0-100.0; 1
 Olivetti; Olivetti DSM 28-039 PS; dsm28-039ps; 30.0-38.0; 50.0-90.0; 1
 Olivetti; Olivetti DSM 28-142 PS; dsm28-142ps; 30.0-38.0; 50.0-90.0; 1
-Olivetti; Olivetti DSM 28-143 PS; dsm28-143ps; 30.0-48.5; 50.0-90.0; 1
 Olivetti; Olivetti DSM 28-143 PS-2; dsm28-143ps-2; 30.0-48.5; 50.0-90.0; 1
+Olivetti; Olivetti DSM 28-143 PS; dsm28-143ps; 30.0-48.5; 50.0-90.0; 1
 Olivetti; Olivetti DSM 28-144 MS; dsm28-144ms; 30.0-60.0; 50.0-95.0; 1
 Olivetti; Olivetti DSM 28-171 HR; dsm28-171hr; 31.0-82.0; 50.0-110.0; 1
 Olivetti; Olivetti DSM 28-172 EY; dsm28-172ey; 30.0-65.0; 50.0-120.0; 1
