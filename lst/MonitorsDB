@@ -2352,7 +2352,56 @@ Ikegami; Ikegami C/DM-2010A; dm-2010a; 48.0-64.0; 50.0-70.0; 1
 Ikegami; Ikegami C/DM-2060; dm-2060; 48.0-64.0; 50.0-70.0; 1
 Ikegami; Ikegami CN-20; cn-20; 45.0-68.0; 50.0-150.0; 1
 Ikegami; Ikegami CT-20; ct-20; 48.0-64.0; 50.0-70.0; 1
+ImageQuest Co., Ltd.; ImageFlat F770D; iqtf772; 30.0-70.0; 50.0-150.0; 1
+ImageQuest Co., Ltd.; ImageFlat F790; iqtf790; 30.0-95.0; 50.0-150.0; 1
+ImageQuest Co., Ltd.; ImageQuest B70A; hiq5004; 31.0-83.0; 56.0-75.0; 1
+ImageQuest Co., Ltd.; ImageQuest B70D Analog; hiq5008; 31.0-83.0; 56.0-75.0; 1
+ImageQuest Co., Ltd.; ImageQuest B70D Digital; hiq5d08; 31.0-83.0; 56.0-75.0; 1
+ImageQuest Co., Ltd.; ImageQuest B71D/B70D Analog; hiq501f; 31.0-83.0; 56.0-75.0; 1
+ImageQuest Co., Ltd.; ImageQuest B71D/B70D Digital; hiq5d1f; 31.0-83.0; 56.0-75.0; 1
+ImageQuest Co., Ltd.; ImageQuest B90A; hiq5005; 31.0-83.0; 56.0-75.0; 1
+ImageQuest Co., Ltd.; ImageQuest B91D/B70D Analog; hiq5020; 31.0-83.0; 56.0-75.0; 1
+ImageQuest Co., Ltd.; ImageQuest B91D/B70D Digital; hiq5d20; 31.0-83.0; 56.0-75.0; 1
+ImageQuest Co., Ltd.; ImageQuest B790+; iqt0790; 30.0-97.0; 50.0-150.0; 1
+ImageQuest Co., Ltd.; ImageQuest F230; iqtf230; 30.0-125.0; 50.0-160.0; 1
+ImageQuest Co., Ltd.; ImageQuest F791; iqtf791; 30.0-96.0; 50.0-150.0; 1
+ImageQuest Co., Ltd.; ImageQuest G210; iqt0210; 30.0-110.0; 50.0-150.0; 1
+ImageQuest Co., Ltd.; ImageQuest L50A; iqt0520; 31.0-60.0; 56.0-75.0; 1
+ImageQuest Co., Ltd.; ImageQuest L50S; iqt0503; 31.0-63.0; 56.0-75.0; 1
+ImageQuest Co., Ltd.; ImageQuest L52S; hiq5006; 31.0-63.0; 56.0-75.0; 1
+ImageQuest Co., Ltd.; ImageQuest L70A Analog; iqt70aa; 31.0-80.0; 56.0-75.0; 1
+ImageQuest Co., Ltd.; ImageQuest L70A Digital; iqt70ad; 31.0-80.0; 56.0-75.0; 1
+ImageQuest Co., Ltd.; ImageQuest L70D+ Analog; hiq70da; 31.0-83.0; 56.0-75.0; 1
+ImageQuest Co., Ltd.; ImageQuest L70D+ Digital; hiq70dd; 31.0-83.0; 56.0-75.0; 1
+ImageQuest Co., Ltd.; ImageQuest L70N; hiq0705; 31.0-83.0; 56.0-75.0; 1
+ImageQuest Co., Ltd.; ImageQuest L70S; iqt0703; 31.0-83.0; 56.0-75.0; 1
+ImageQuest Co., Ltd.; ImageQuest L72D Analog; hiq5002; 31.0-83.0; 56.0-75.0; 1
+ImageQuest Co., Ltd.; ImageQuest L72D Digital; hiq5003; 31.0-83.0; 56.0-75.0; 1
+ImageQuest Co., Ltd.; ImageQuest L72S; hiq5001; 31.0-83.0; 56.0-75.0; 1
+ImageQuest Co., Ltd.; ImageQuest L80A Digital; iqt80ad; 31.0-80.0; 56.0-87.0; 1
+ImageQuest Co., Ltd.; ImageQuest L80A Analog; iqt80aa; 31.0-80.0; 56.0-87.0; 1
+ImageQuest Co., Ltd.; ImageQuest L90D+ Analog; hiq91da; 31.0-83.0; 56.0-75.0; 1
+ImageQuest Co., Ltd.; ImageQuest L90D+ Digital; hiq91dd; 31.0-83.0; 56.0-75.0; 1
+ImageQuest Co., Ltd.; ImageQuest LM1510A; iqt151b; 31.0-60.0; 56.0-75.0; 1
+ImageQuest Co., Ltd.; ImageQuest N71S; hiq6001; 30-83; 56-75; 1
+ImageQuest Co., Ltd.; ImageQuest N91S; hiq6002; 30-83; 56-75; 1
+ImageQuest Co., Ltd.; ImageQuest V560; iqt1560; 30.0-55.0; 50.0-150.0; 1
+ImageQuest Co., Ltd.; ImageQuest V570; iqt1570; 30.0-70.0; 50.0-150.0; 1
+ImageQuest Co., Ltd.; ImageQuest V770; iqt1770; 30.0-70.0; 50.0-150.0; 1
+ImageQuest Co., Ltd.; ImageQuest V770+; iqt1772; 30.0-70.0; 50.0-150.0; 1
+ImageQuest Co., Ltd.; ImageQuest V773; iqt1773; 30.0-73.0; 50.0-150.0; 1
+ImageQuest Co., Ltd.; ImageQuest V780; iqt1780; 30.0-87.0; 50.0-150.0; 1
+ImageQuest Co., Ltd.; ImageQuest V791; iqt1791; 30.0-95.0; 50.0-150.0; 1
+ImageQuest Co., Ltd.; ImageQuest V995; iqt1995; 30.0-97.0; 50.0-150.0; 1
+ImageQuest Co., Ltd.; ImageQuest P910+; iqt0910; 30.0-107.0; 50.0-150.0; 1
+ImageQuest Co., Ltd.; ImageQuest P990+; iqt0990; 30.0-95.0; 50.0-150.0; 1
+ImageQuest Co., Ltd.; ImageQuest Q15; iqt2015; 31.0-63.0; 56.0-75.0; 1
+ImageQuest Co., Ltd.; ImageQuest Q19+ DVI; hiq5d0d; 31.0-67.0; 56.0-75.0; 1
+ImageQuest Co., Ltd.; ImageQuest Q19+ D-sub; hiq500d; 31.0-83.0; 56.0-75.0; 1
+ImageQuest Co., Ltd.; ImageQuest Q770; iqt2770; 30.0-73.0; 50.0-150.0; 1
+ImageQuest Co., Ltd.; ImageQuest Q790; iqt2790; 30.0-97.0; 50.0-150.0; 1
 ImageQuest Co., Ltd.; ImageQuest Q910; iqt2910; 30.0-110.0; 50.0-150.0; 1
+ImageQuest Co., Ltd.; ImageQuest Q995; iqt2995; 30.0-97.0; 50.0-150.0; 1
 Image Systems; Image Systems C21LMAX; cs1lmax; 48.0-96.0; 60.0-80.0; 1
 Image Systems; Image Systems M24LMAX; m24lmax; 48.0-96.0; 60.0-80.0; 1
 Impression; Impression 3 3428G; dcm-1488e; 35.5; 87.0; 1
