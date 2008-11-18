@@ -1533,10 +1533,10 @@ Epson; Epson CG1439I; epson1; 35.5; 56.0-87.0; 1
 Epson; Epson CG1528N; epson4; 30-65; 50-120.0; 1
 Epson; Epson CG1728N; epson5; 30-65; 50-120.0; 1
 ESCOM; ESCOM Mono-LCD screen; 28; 30-36; 43-72
-Everex Systems; Everex Eversync_SVGA; eversync_svga; 15.5-35.0; 50.0-70.0; 1
-Fora; Fora, MON-7C5; mon-7c5; 15.0-36.0; 45.0-90.0; 1
-Forefront Technology; Forefront Technology MTS-9608S; mts-9608s; 15.0-38.0; 50.0-90.0; 1
-Fujikama; Fujikama PVGA-1024A; pvga-1024a; 31.5-38.5; 50.0-90.0; 1
+Everex Systems, Inc.; Everex Eversync_SVGA; eversync_svga; 15.5-35.0; 50.0-70.0; 1
+Fora, Inc.; Fora, MON-7C5; mon-7c5; 15.0-36.0; 45.0-90.0; 1
+Forefront Technology Corp.; Forefront Technology MTS-9608S; mts-9608s; 15.0-38.0; 50.0-90.0; 1
+Fujikama O.A. Distribution; Fujikama PVGA-1024A; pvga-1024a; 31.5-38.5; 50.0-90.0; 1
 Fujitsu; Fujitsu 151E; FUS0170; 30.0-54.0; 50.0-120.0; 1
 Fujitsu; Fujitsu 1554G+; fpa0612; 30-54; 50-120; 1
 Fujitsu; Fujitsu 1568G1; fpa2d30; 30-69; 50-120; 1
@@ -1635,7 +1635,7 @@ Fujitsu; Fujitsu x176; fuj2118; 30.0-100.0; 50.0-200.0; 1
 Fujitsu; Fujitsu x177; fuj2218; 30.0-92.0; 50.0-150.0; 1
 Fujitsu; Fujitsu x177a; fuj2318; 30.0-92.0; 50.0-150.0; 1
 Fujitsu; Fujitsu x191; icl2800; 30.0-96.0; 50.0-160.0; 1
-Funai; Funai 17GD; fcm3313; 30.0-70.0; 50.0-120.0; 1
+Funai Electric Company of Taiwan; Funai 17GD; fcm3313; 30.0-70.0; 50.0-120.0; 1
 Futura; Futura K7034LD 0; 30.0-95.0; 50.0-160.0; 1
 Futura; Futura K9034LD 0; 30.0-95.0; 50.0-160.0; 1
 Gateway; Gateway 14SVGA; 14svga; 31.5-35.5; 50-90; 1
@@ -2349,8 +2349,8 @@ Ikegami; Ikegami C/DM-2010A; dm-2010a; 48.0-64.0; 50.0-70.0; 1
 Ikegami; Ikegami C/DM-2060; dm-2060; 48.0-64.0; 50.0-70.0; 1
 Ikegami; Ikegami CN-20; cn-20; 45.0-68.0; 50.0-150.0; 1
 Ikegami; Ikegami CT-20; ct-20; 48.0-64.0; 50.0-70.0; 1
-Image Systems; Image Systems C21LMAX; cs1lmax; 48.0-96.0; 60.0-80.0; 1
-Image Systems; Image Systems M24LMAX; m24lmax; 48.0-96.0; 60.0-80.0; 1
+Image Systems Corp.; Image Systems C21LMAX; cs1lmax; 48.0-96.0; 60.0-80.0; 1
+Image Systems Corp.; Image Systems M24LMAX; m24lmax; 48.0-96.0; 60.0-80.0; 1
 ImageQuest Co., Ltd.; ImageFlat F770D; iqtf772; 30.0-70.0; 50.0-150.0; 1
 ImageQuest Co., Ltd.; ImageFlat F790; iqtf790; 30.0-95.0; 50.0-150.0; 1
 ImageQuest Co., Ltd.; ImageQuest B70A; hiq5004; 31.0-83.0; 56.0-75.0; 1
@@ -2423,10 +2423,12 @@ Impression; Impression Vienna 15; dpc6515; 64.0; 60.0; 1
 Impression; Impression Vienna Pro 75; amt3844; 30.0-96.0; 65.0; 1
 Impression; Impression Vienna Pro 75; at1782d; 82.0; 65.0; 1
 Impression; Impression ViennaPro75; imp9802; 30.0-96.0; 65.0; 1
-Intra Electronics; Intra Electronics CM-1403; cm-1403; 15.0-38.0; 40.0-100.0; 1
-Iocomm; Iocomm CM-7126; cm-7126; 30.0-75.0; 50.0-90.0; 1
-JVC; JVC GD-H4220US; h422ous; 15.0-37.0; 45.0-87.0; 1
-KFC; KFC CA-17; ca-17; 30.0-64.0; 50.0-100.0; 1
+Intra Electronics USA, Inc.; Intra Electronics CM-1403; cm-1403; 15.0-38.0; 40.0-100.0; 1
+Iocomm International Technology Corp.; Iocomm CM-7126; cm-7126; 30.0-75.0; 50.0-90.0; 1
+JVC Information Products Co.; JVC GD-H4220US; h422ous; 15.0-37.0; 45.0-87.0; 1
+KFC Computek Components Corp.; KFC CA-17; ca-17; 30.0-64.0; 50.0-100.0; 1
+KFC Computek Components Corp.; KFC CH-14; ch-14; 15.0-36.0; 50.0-86.0; 1
+KFC Computek Components Corp.; KFC CM-14; cm-14; 30.0-64.0; 50.0-90.0; 1
 KFC; KFC CA/CB1414VX; sml1414; 30-48; 50-70; 1
 KFC; KFC CA/CB6415DX/6515DX; sml6415; 30-54; 50-100; 1
 KFC; KFC CA/CB6425DX/6525DX; sml6425; 30-54; 50-100; 1
@@ -2448,8 +2450,6 @@ KFC; KFC CA8729SL; sml8729; 30-95; 50-160; 1
 KFC; KFC CA8911SL; sml8911; 30-107; 50-160; 1
 KFC; KFC CA8919SL; sml8919; 30-95; 50-160; 1
 KFC; KFC CA8929SL; sml8929; 30-95; 50-160; 1
-KFC; KFC CH-14; ch-14; 15.0-36.0; 50.0-86.0; 1
-KFC; KFC CM-14; cm-14; 30.0-64.0; 50.0-90.0; 1
 KFC; KFC L133/L133E; smll133; 30-61; 55-75; 1
 KFC; KFC L150/L150E; smll150; 30-61; 55-75; 1
 KFC; KFC MA0933; sml0933; 30-31.5; 50-70; 0
@@ -2489,7 +2489,7 @@ Korea Data Systems; KDS Visual Sensations VS-9; kdsd606; 30.0-95.0; 50.0-120.0; 
 Korea Data Systems; KDS VS-190is; STC0812; 30.0-96.0; 50.0-160.0
 Korea Data Systems; KDS XFlat XF-70/XF-7b/XF-7e/XF-71/XF-7p; STC0777; 30.0-72.0; 50.0-160.0
 Korea Data Systems; KDS XFlat XF-9b/XF-9c/XF-9e/XF-9p; PTS03E5; 30.0-98.0; 50.0-160.0
-Leading Technology; Leading Technology 1730S; 1730s; 21.0-50.0; 50.0-90.0; 1
+Leading Technology, Inc.; Leading Technology 1730S; 1730s; 21.0-50.0; 50.0-90.0; 1
 LG Electronics Inc.; LG 1455; 1455; 37.9; 72.8; 1
 LG Electronics Inc.; LG 1455D; 1455d; 37.9; 72.8; 1
 LG Electronics Inc.; LG 1455DL; 1455dl; 37.9; 72.8; 1
@@ -2562,8 +2562,8 @@ LG Electronics Inc.; LG StudioWorks 995E; gsm4a4c; 30.0-96.0; 50.0-160.0; 1
 LG Electronics Inc.; LG Studioworks28i; sw28i; 30.0-85.0; 50.0-120.0; 1
 LG Electronics Inc.; LG StudioWorks74m; sw74m; 30.0-50.0; 50.0-90.0; 1
 LG Electronics Inc.; LG StudioWorks78T; gsm426b; 30.0-85.0; 50.0-120.0; 1
-Link Computer; Link Computer CE-8; ce-8; 15.5-38.0; 50.0-90.0; 1
-Link Computer; Link Computer CM-3; cm-3; 15.5-36.0; 50.0-70.0; 1
+Link Computer, Inc.; Link Computer CE-8; ce-8; 15.5-38.0; 50.0-90.0; 1
+Link Computer, Inc.; Link Computer CM-3; cm-3; 15.5-36.0; 50.0-70.0; 1
 Lite-On; Lite-On 1570; ltn1570; 30.0-70.0; 50.0-120.0; 1
 Lite-On; Lite-On 1770NSL; ltn1770; 30.0-70.0; 50.0-120.0; 1
 Lite-On; Lite-On A1454NE; ltna442; 30.0-54.0; 50.0-100.0; 1
@@ -2725,35 +2725,35 @@ Magnavox; Magnavox MB4010(14inch/CM1300); 0; 30.0-54.0; 50.0-110.0
 Magnavox; Magnavox MB5314(15inch/CM1200); 0; 30.0-66.0; 50.0-110.0
 Magnavox; Magnavox MB7000(17inch/CM6800); 0; 30.0-66.0; 50.0-130.0
 Magnavox; Magnavox MV5011(15inch/CM1300); 0; 30.0-54.0; 50.0-110.0
-Maxdata; Maxdata Belinea 10 30 52; max06b9; 30.0-97.0; 50.0-150.0; 1
-Maxdata; Maxdata Belinea 10 40 65; max4065; 30.0-50.0; 50.0-120.0; 1
-Maxdata; Maxdata Belinea 10 50 95; max3539; 30.0-64.0; 55.0-90.0; 1
-Maxdata; Maxdata Belinea 10 55 75; max7555; 30.0-69.0; 50.0-120.0; 1
+Maxdata Computer; Maxdata Belinea 10 30 52; max06b9; 30.0-97.0; 50.0-150.0; 1
+Maxdata Computer; Maxdata Belinea 10 40 65; max4065; 30.0-50.0; 50.0-120.0; 1
+Maxdata Computer; Maxdata Belinea 10 50 95; max3539; 30.0-64.0; 55.0-90.0; 1
+Maxdata Computer; Maxdata Belinea 10 55 75; max7555; 30.0-69.0; 50.0-120.0; 1
 MED; MED 2914; MED2914; 30-98; 50-120
 MegaImage; MegaImage 17; 106; 30-64; 50-100
 Megavision; MV173 LCD; ate8506;  31.0-80.0; 58.0-75.0; 
 Microtec; Microtec MD15-9; PBR023c; 30.0-70.0; 50.0-150.0; 1
-Microvitec; Microvitec 1020/LP; 1020lp; 15.0-36.5; 45.0-100.0; 1
-Microvitec; Microvitec 1020/SP; 1020sp; 15.0-36.5; 45.0-100.0; 1
-Microvitec; Microvitec 2012/LP; 2012lp; 15.0-40.0; 45.0-100.0; 1
-Microvitec; Microvitec 2014/LP; 2014lp; 15.0-40.0; 45.0-100.0; 1
-Microvitec; Microvitec 2014/SVGA; 2014svga; 30.0-40.0; 45.0-90.0; 1
-Microvitec; Microvitec 2019/SP; 2019sp; 15.0-38.0; 45.0-100.0; 1
-Microvitec; Microvitec 4015/FST; 4015fst; 30.0-50.0; 45.0-100.0; 1
-Microvitec; Microvitec 604/FST; 604fst; 15.0-36.5; 45.0-100.0; 1
-Microvitec; Microvitec 704/FST; 704fst; 15.0-36.5; 45.0-100.0; 1
-Miro; Miro miroD1568; mir6815; 31.5-68.0; 50.0-100.0; 1
-Miro; Miro miroD1769; mir6917; 31.5-69.0; 50.0-100.0; 1
-Miro; Miro PROOFSCREEN miroC1768; mir6817; 29.0-68.0; 50.0-100.0; 1
-Miro; Miro PROOFSCREEN miroC1782; mir8217; 29.0-82.0; 50.0-120.0; 1
-Miro; Miro PROOFSCREEN miroC2085 E; mir8520; 29.0-85.0; 50.0-160.0; 1
-Miro; Miro PROOFSCREEN miroC21107; mir0721; 31.5-107.0; 50.0-150.0; 1
-Miro; Miro PROOFSCREEN miroC2185; mir8521; 30.0-85.0; 50.0-152.0; 1
-Miro; Miro PROOFSCREEN miroC2193; mir9321; 30.0-93.0; 50.0-150.0; 1
+Microvitec, Inc.; Microvitec 1020/LP; 1020lp; 15.0-36.5; 45.0-100.0; 1
+Microvitec, Inc.; Microvitec 1020/SP; 1020sp; 15.0-36.5; 45.0-100.0; 1
+Microvitec, Inc.; Microvitec 2012/LP; 2012lp; 15.0-40.0; 45.0-100.0; 1
+Microvitec, Inc.; Microvitec 2014/LP; 2014lp; 15.0-40.0; 45.0-100.0; 1
+Microvitec, Inc.; Microvitec 2014/SVGA; 2014svga; 30.0-40.0; 45.0-90.0; 1
+Microvitec, Inc.; Microvitec 2019/SP; 2019sp; 15.0-38.0; 45.0-100.0; 1
+Microvitec, Inc.; Microvitec 4015/FST; 4015fst; 30.0-50.0; 45.0-100.0; 1
+Microvitec, Inc.; Microvitec 604/FST; 604fst; 15.0-36.5; 45.0-100.0; 1
+Microvitec, Inc.; Microvitec 704/FST; 704fst; 15.0-36.5; 45.0-100.0; 1
+Miro Computer Products AG; Miro miroD1568; mir6815; 31.5-68.0; 50.0-100.0; 1
+Miro Computer Products AG; Miro miroD1769; mir6917; 31.5-69.0; 50.0-100.0; 1
+Miro Computer Products AG; Miro PROOFSCREEN miroC1768; mir6817; 29.0-68.0; 50.0-100.0; 1
+Miro Computer Products AG; Miro PROOFSCREEN miroC1782; mir8217; 29.0-82.0; 50.0-120.0; 1
+Miro Computer Products AG; Miro PROOFSCREEN miroC2085 E; mir8520; 29.0-85.0; 50.0-160.0; 1
+Miro Computer Products AG; Miro PROOFSCREEN miroC21107; mir0721; 31.5-107.0; 50.0-150.0; 1
+Miro Computer Products AG; Miro PROOFSCREEN miroC2185; mir8521; 30.0-85.0; 50.0-152.0; 1
+Miro Computer Products AG; Miro PROOFSCREEN miroC2193; mir9321; 30.0-93.0; 50.0-150.0; 1
 MiTAC; MiTAC 1450FD; mtc0003; 31.0-50.0; 50.0-90.0; 1
 MiTAC; MiTAC 1450FV; mtc0001; 31.0-50.0; 50.0-90.0; 1
 MiTAC; MiTAC 1564FD/1564FS; mtc0002; 30.0-66.0; 50.0-100.0; 1
-Mitsuba; Mitsuba 710MH; 710mh; 15.0-38.0; 50.0-90.0; 1
+Mitsuba Corp.; Mitsuba 710MH; 710mh; 15.0-38.0; 50.0-90.0; 1
 Mitsubishi; Mitsubishi Diamond Plus 100 (TFW1105); MEL40E1; 30.0-108.0; 50.0-152.0; 1
 Mitsubishi; Mitsubishi Diamond Plus 100 (TFW1105); mel40e1; 30.0-108.0; 50.0-152.0; 1
 Mitsubishi; Mitsubishi Diamond Plus 120u (TFA1105); MEL42F0; 30.0-115.0; 50.0-160.0; 1
