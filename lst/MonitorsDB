@@ -1832,7 +1832,7 @@ Hewlett-Packard; HP 1024 LE Flat Panel 14-inch Display; 0; 32-54; 50-105
 Hewlett-Packard; HP 1825 Flat Panel Monitor; hwp0721; 30.0-82.0; 56.0-76.0; 1
 Hewlett-Packard; HP 2025 (P4831) 20.2-inch LCD Monitor; hwp144a; 30-94; 56-85; 1
 Hewlett-Packard; HP 2025 Flat Panel Monitor; hwp144a; 30.0-94.0; 56.0-85.0; 1
-Hewlett-Packard; HP 2025 Flat Panel Monitor; hwp144b; 30.0-92.0; 56.0-85.0; 1
+Hewlett-Packard; HP 2025 Flat Panel Monitor (Variant 2); hwp144b; 30.0-92.0; 56.0-85.0; 1
 Hewlett-Packard; HP 5500 Color Monitor; hwp2602; 30.0-54.0; 50.0-120.0; 1
 Hewlett-Packard; HP 7500 Color Monitor; hwp2603; 30.0-70.0; 50.0-140.0; 1
 Hewlett-Packard; HP 7550 Color Monitor; hwp2604; 30.0-86.0; 50.0-140.0; 1
@@ -2423,7 +2423,7 @@ Impression; Impression Vienna 15; dpc6515; 64.0; 60.0; 1
 Impression; Impression Vienna Pro 75; amt3844; 30.0-96.0; 65.0; 1
 Impression; Impression Vienna Pro 75; at1782d; 82.0; 65.0; 1
 Impression; Impression ViennaPro75; imp9802; 30.0-96.0; 65.0; 1
-Intra Electronics USA, Inc.; Intra Electronics CM-1403; cm-1403; 15.0-38.0; 40.0-100.0; 1
+Intra Electronics USA, Inc.; Intra Electronics USA CM-1403; cm-1403; 15.0-38.0; 40.0-100.0; 1
 Iocomm International Technology Corp.; Iocomm CM-7126; cm-7126; 30.0-75.0; 50.0-90.0; 1
 JVC Information Products Co.; JVC GD-H4220US; h422ous; 15.0-37.0; 45.0-87.0; 1
 KFC Computek Components Corp.; KFC Computek CA-17; ca-17; 30.0-64.0; 50.0-100.0; 1
