@@ -2571,7 +2571,9 @@ LG Electronics Inc.; LG StudioWorks 56m; gsm3aa2; 30.0-65.0; 50.0-110.0; 1
 LG Electronics Inc.; LG StudioWorks 56T; gsm3aaf; 30.0-65.0; 50.0-120.0; 1
 LG Electronics Inc.; LG StudioWorks 5D; gsm3ab6; 30.0-65.0; 50.0-120.0; 1
 LG Electronics Inc.; LG StudioWorks 74i; gsm4278; 30.0-50.0; 50.0-90.0; 1
+LG Electronics Inc.; LG Studioworks 28i; sw28i; 30.0-85.0; 50.0-120.0; 1
 LG Electronics Inc.; LG StudioWorks 74m; gsm4277; 30.0-50.0; 50.0-90.0; 1
+LG Electronics Inc.; LG StudioWorks 74m; sw74m; 30.0-50.0; 50.0-90.0; 1
 LG Electronics Inc.; LG StudioWorks 76i; gsm426e; 30.0-65.0; 50.0-110.0; 1
 LG Electronics Inc.; LG StudioWorks 76m; gsm4273; 30.0-65.0; 50.0-110.0; 1
 LG Electronics Inc.; LG StudioWorks 76T; gsm4284; 30.0-65.0; 50.0-120.0; 1
@@ -2579,13 +2581,11 @@ LG Electronics Inc.; LG StudioWorks 78D; gsm427f; 30.0-85.0; 50.0-120.0; 1
 LG Electronics Inc.; LG StudioWorks 78DT; gsm4280; 30.0-85.0; 50.0-120.0; 1
 LG Electronics Inc.; LG StudioWorks 78i; gsm426c; 30.0-85.0; 50.0-120.0; 1
 LG Electronics Inc.; LG StudioWorks 78m; gsm4274; 30.0-85.0; 50.0-120.0; 1
+LG Electronics Inc.; LG StudioWorks 78T; gsm426b; 30.0-85.0; 50.0-120.0; 1
 LG Electronics Inc.; LG StudioWorks 78T; gsm426d; 30.0-85.0; 50.0-120.0; 1
 LG Electronics Inc.; LG StudioWorks 7D; GSM427E; 30.0-65.0; 50.0-120.0; 1
 LG Electronics Inc.; LG StudioWorks 7DT; gsm4281; 30.0-65.0; 50.0-120.0; 1
 LG Electronics Inc.; LG StudioWorks 995E; gsm4a4c; 30.0-96.0; 50.0-160.0; 1
-LG Electronics Inc.; LG Studioworks28i; sw28i; 30.0-85.0; 50.0-120.0; 1
-LG Electronics Inc.; LG StudioWorks74m; sw74m; 30.0-50.0; 50.0-90.0; 1
-LG Electronics Inc.; LG StudioWorks78T; gsm426b; 30.0-85.0; 50.0-120.0; 1
 Link Computer, Inc.; Link Computer CE-8; ce-8; 15.5-38.0; 50.0-90.0; 1
 Link Computer, Inc.; Link Computer CM-3; cm-3; 15.5-36.0; 50.0-70.0; 1
 Lite-On; Lite-On 1570; ltn1570; 30.0-70.0; 50.0-120.0; 1
