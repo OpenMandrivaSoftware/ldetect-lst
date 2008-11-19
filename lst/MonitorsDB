@@ -1080,33 +1080,33 @@ CTX; CTX VL410; ctx3450; 30.0-54.0; 50.0-110.0; 1
 CTX; CTX VL410; ctx3451; 30.0-54.0; 50.0-110.0; 1
 CTX; CTX VL410; ctx3455; 30.0-55.0; 50.0-110.0; 1
 CTX; CTX VL410; ctx3456; 30.0-55.0; 50.0-110.0; 1
-CTX; CTX VL500 series, MS500 series; ctx0150; 30.0-70.0; 50.0-120.0; 1
-CTX; CTX VL500 series, MS500 series; ctx3520; 30.0-70.0; 50.0-160.0; 1
-CTX; CTX VL500 series, MS500 series; ctx3521; 30.0-70.0; 50.0-160.0; 1
-CTX; CTX VL500 series, MS500 series; ctx3550; 30.0-70.0; 50.0-100.0; 1
-CTX; CTX VL500 series, MS500 series; ctx3560; 30.0-70.0; 50.0-100.0; 1
-CTX; CTX VL500 series, MS500 series; ctx3571; 30.0-70.0; 50.0-130.0; 1
-CTX; CTX VL500 series, MS500 series; ctx3572; 30.0-70.0; 50.0-130.0; 1
-CTX; CTX VL500 series, MS500 series; ctx3575; 30.0-70.0; 50.0-120.0; 1
-CTX; CTX VL500 series, MS500 series; ctx3576; 30.0-70.0; 50.0-120.0; 1
-CTX; CTX VL500 series, MS500 series; ctx5002; 30.0-70.0; 50.0-100.0; 1
-CTX; CTX VL500 series, MS500 series; ctx5690; 30.0-70.0; 50.0-100.0; 1
-CTX; CTX VL500 series, MS500 series; ctx5695; 30.0-70.0; 50.0-120.0; 1
-CTX; CTX VL500 series, MS500 series; ctx5696; 30.0-70.0; 50.0-120.0; 1
-CTX; CTX VL500 series, MS500 series; ctx5698; 30.0-70.0; 50.0-160.0; 1
-CTX; CTX VL500 series, MS500 series; ctx5699; 30.0-70.0; 50.0-120.0; 1
+CTX; CTX VL500 series, MS500 series (100 Hz); ctx3550; 30.0-70.0; 50.0-100.0; 1
+CTX; CTX VL500 series, MS500 series (100 Hz); ctx3560; 30.0-70.0; 50.0-100.0; 1
+CTX; CTX VL500 series, MS500 series (100 Hz); ctx5002; 30.0-70.0; 50.0-100.0; 1
+CTX; CTX VL500 series, MS500 series (100 Hz); ctx5690; 30.0-70.0; 50.0-100.0; 1
+CTX; CTX VL500 series, MS500 series (120 Hz; ctx3575; 30.0-70.0; 50.0-120.0; 1
+CTX; CTX VL500 series, MS500 series (120 Hz; ctx3576; 30.0-70.0; 50.0-120.0; 1
+CTX; CTX VL500 series, MS500 series (120 Hz; ctx5696; 30.0-70.0; 50.0-120.0; 1
+CTX; CTX VL500 series, MS500 series (120 Hz); ctx0150; 30.0-70.0; 50.0-120.0; 1
+CTX; CTX VL500 series, MS500 series (120 Hz); ctx5695; 30.0-70.0; 50.0-120.0; 1
+CTX; CTX VL500 series, MS500 series (120 Hz); ctx5699; 30.0-70.0; 50.0-120.0; 1
+CTX; CTX VL500 series, MS500 series (130 Hz); ctx3571; 30.0-70.0; 50.0-130.0; 1
+CTX; CTX VL500 series, MS500 series (130 Hz); ctx3572; 30.0-70.0; 50.0-130.0; 1
+CTX; CTX VL500 series, MS500 series (160 Hz); ctx3520; 30.0-70.0; 50.0-160.0; 1
+CTX; CTX VL500 series, MS500 series (160 Hz); ctx3521; 30.0-70.0; 50.0-160.0; 1
+CTX; CTX VL500 series, MS500 series (160 Hz); ctx5696; 30.0-70.0; 50.0-160.0; 1
 CTX; CTX VL510 series, PL5 series; ctx3580; 30.0-55.0; 50.0-110.0; 1
 CTX; CTX VL510 series, PL5 series; ctx3590; 30.0-55.0; 50.0-110.0; 1
 CTX; CTX VL510 series, PL5 series; ctx5655; 30.0-55.0; 50.0-110.0; 1
 CTX; CTX VL700; ctx3615; 30.0-65.0; 50.0-120.0; 1
-CTX; CTX VL700; ctx3621; 30.0-70.0; 50.0-120.0; 1
-CTX; CTX VL700 series, MS700 series, PL7 series; ctx3620; 30.0-70.0; 50.0-120.0; 1
-CTX; CTX VL700 series, MS700 series, PL7 series; ctx3650; 30.0-70.0; 50.0-130.0; 1
-CTX; CTX VL700 series, MS700 series, PL7 series; ctx3651; 30.0-70.0; 50.0-130.0; 1
-CTX; CTX VL700 series, MS700 series, PL7 series; ctx3655; 30.0-70.0; 50.0-160.0; 1
-CTX; CTX VL700 series, MS700 series, PL7 series; ctx3656; 30.0-70.0; 50.0-160.0; 1
-CTX; CTX VL700 series, MS700 series, PL7 series; ctx7694; 30.0-70.0; 50.0-160.0; 1
-CTX; CTX VL700 series, MS700 series, PL7 series; ctx7695; 30.0-70.0; 50.0-160.0; 1
+CTX; CTX VL700 (Win); ctx3621; 30.0-70.0; 50.0-120.0; 1
+CTX; CTX VL700 series, MS700 series, PL7 series (120 Hz); ctx3620; 30.0-70.0; 50.0-120.0; 1
+CTX; CTX VL700 series, MS700 series, PL7 series (130 Hz); ctx3650; 30.0-70.0; 50.0-130.0; 1
+CTX; CTX VL700 series, MS700 series, PL7 series (130 Hz); ctx3651; 30.0-70.0; 50.0-130.0; 1
+CTX; CTX VL700 series, MS700 series, PL7 series (160 Hz); ctx3655; 30.0-70.0; 50.0-160.0; 1
+CTX; CTX VL700 series, MS700 series, PL7 series (160 Hz); ctx3656; 30.0-70.0; 50.0-160.0; 1
+CTX; CTX VL700 series, MS700 series, PL7 series (160 Hz); ctx7694; 30.0-70.0; 50.0-160.0; 1
+CTX; CTX VL700 series, MS700 series, PL7 series (160 Hz); ctx7695; 30.0-70.0; 50.0-160.0; 1
 CTX; CTX VL705; ctx3675; 30.0-85.0; 50.0-160.0; 1
 CTX; CTX VL710 series; ctx3680; 30.0-95.0; 50.0-160.0; 1
 CTX; CTX VL710 series; ctx3683; 30.0-95.0; 50.0-160.0; 1
