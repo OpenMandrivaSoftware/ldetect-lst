@@ -1534,7 +1534,7 @@ Epson; Epson CG1528N; epson4; 30-65; 50-120.0; 1
 Epson; Epson CG1728N; epson5; 30-65; 50-120.0; 1
 ESCOM; ESCOM Mono-LCD screen; 28; 30-36; 43-72
 Everex Systems, Inc.; Everex Eversync_SVGA; eversync_svga; 15.5-35.0; 50.0-70.0; 1
-Fora, Inc.; Fora, MON-7C5; mon-7c5; 15.0-36.0; 45.0-90.0; 1
+Fora, Inc.; Fora, Inc. MON-7C5; mon-7c5; 15.0-36.0; 45.0-90.0; 1
 Forefront Technology Corp.; Forefront Technology MTS-9608S; mts-9608s; 15.0-38.0; 50.0-90.0; 1
 Fujikama O.A. Distribution; Fujikama PVGA-1024A; pvga-1024a; 31.5-38.5; 50.0-90.0; 1
 Fujitsu; Fujitsu 151E; FUS0170; 30.0-54.0; 50.0-120.0; 1
@@ -1660,8 +1660,8 @@ Gateway; Gateway DL36-1; gwy0e11; 31.0-38.0; 50-75; 1
 Gateway; Gateway EV500; gwy138a; 31-69; 50-110; 1
 Gateway; Gateway EV500; gwy138b; 31-69; 50-110; 1
 Gateway; Gateway EV500; gwy138c; 31-69; 50-110; 1
-Gateway; Gateway EV500; gwy1393; 30.0-70.0; 50.0-120.0; 1
 Gateway; Gateway EV500; gwy5005; 31-69; 50-110; 1
+Gateway; Gateway EV500 (Variant 2); gwy1393; 30.0-70.0; 50.0-120.0; 1
 Gateway; Gateway EV500B; gwy1390; 30.0-70.0; 50.0-160.0; 1
 Gateway; Gateway EV530; gwy1394; 30.0-56.0; 50.0-120.0; 1
 Gateway; Gateway EV575; gwy15c7; 31.0-60.0; 50.0-110.0; 1
@@ -1677,9 +1677,9 @@ Gateway; Gateway EV700; gwy7658; 30.0-70.0; 50.0-120.0; 1
 Gateway; Gateway EV700-H; gwy7659; 30.0-70.0; 50.0-120.0; 1
 Gateway; Gateway EV700B; gwy1B64; 30.0-70.0; 50.0-160.0; 1
 Gateway; Gateway EV700C; gwy1B66; 30.0-70.0; 50.0-160.0; 1
-Gateway; Gateway EV730; gwy1B69; 30.0-69.0; 50.0-120.0; 1
 Gateway; Gateway EV730; gwy1B6A; 30.0-71.0; 50.0-160.0; 1
 Gateway; Gateway EV730; gwy1B6B; 30.0-71.0; 50.0-160.0; 1
+Gateway; Gateway EV730 (LiteOn manufactured); gwy1B69; 30.0-69.0; 50.0-120.0; 1
 Gateway; Gateway EV900; gwy8883; 30.0-95.0; 50.0-160.0; 1
 Gateway; Gateway EV910C; gwy232C; 30.0-95.0; 50.0-160.0; 1
 Gateway; Gateway EVF720; gwy031b; 30.0-96.0; 50.0-130.0; 1
@@ -2426,9 +2426,9 @@ Impression; Impression ViennaPro75; imp9802; 30.0-96.0; 65.0; 1
 Intra Electronics USA, Inc.; Intra Electronics CM-1403; cm-1403; 15.0-38.0; 40.0-100.0; 1
 Iocomm International Technology Corp.; Iocomm CM-7126; cm-7126; 30.0-75.0; 50.0-90.0; 1
 JVC Information Products Co.; JVC GD-H4220US; h422ous; 15.0-37.0; 45.0-87.0; 1
-KFC Computek Components Corp.; KFC CA-17; ca-17; 30.0-64.0; 50.0-100.0; 1
-KFC Computek Components Corp.; KFC CH-14; ch-14; 15.0-36.0; 50.0-86.0; 1
-KFC Computek Components Corp.; KFC CM-14; cm-14; 30.0-64.0; 50.0-90.0; 1
+KFC Computek Components Corp.; KFC Computek CA-17; ca-17; 30.0-64.0; 50.0-100.0; 1
+KFC Computek Components Corp.; KFC Computek CH-14; ch-14; 15.0-36.0; 50.0-86.0; 1
+KFC Computek Components Corp.; KFC Computek CM-14; cm-14; 30.0-64.0; 50.0-90.0; 1
 KFC; KFC CA/CB1414VX; sml1414; 30-48; 50-70; 1
 KFC; KFC CA/CB6415DX/6515DX; sml6415; 30-54; 50-100; 1
 KFC; KFC CA/CB6425DX/6525DX; sml6425; 30-54; 50-100; 1
@@ -2476,7 +2476,7 @@ Korea Data Systems; KDS Visual Sensations VS-450; STC01FF; 30.0-50.0; 50.0-90.0
 Korea Data Systems; KDS Visual Sensations VS-4D; kds05af; 28.0-55.0; 40.0-120.0; 1
 Korea Data Systems; KDS Visual Sensations VS-4D; kdsaf05; 28.0-55.0; 50.0-120.0; 1
 Korea Data Systems; KDS Visual Sensations VS-5; kdse605; 28.0-70.0; 50.0-120.0; 1
-Korea Data Systems; KDS Visual Sensations VS-5; kdsfa05; 28.0-70.0; 50.0-120.0; 1
+Korea Data Systems; KDS Visual Sensations VSx-5; kdsfa05; 28.0-70.0; 50.0-120.0; 1
 Korea Data Systems; KDS Visual Sensations VS-5/VS-51/VSx-5; kds05e6; 30.0-70.0; 50.0-120.0; 1
 Korea Data Systems; KDS Visual Sensations VS-55; kds05f5; 28.0-55.0; 40.0-120.0; 1
 Korea Data Systems; KDS Visual Sensations VS-55; kdsf505; 28.0-55.0; 50.0-120.0; 1
@@ -3712,13 +3712,13 @@ Relisys; Relisys RE795; rel0795; 30-96; 50-150; 1
 Relisys; Relisys RE9516S; rel9516; 30-35; 0-100; 1
 Relisys; Relisys RE995; rel0995; 30-95; 50-150; 1
 Relisys; Relisys RM-1541; rm-1541; 48.0-65.0; 40.0-80.0; 1
-Royal Information Company; Royal Information Company TL/RIC DH-1570M/DH-1570; trl0410; 29.0-70.0; 47.0-120.0; 1
-Royal Information Company; Royal Information Company TL/RIC DH-1764M/DH-1764; trl0510; 29.0-70.0; 47.0-120.0; 1
-Royal Information Company; Royal Information Company TL/RIC DH-1764UM/DH-1764U; trl0610; 29.0-85.0; 47.0-120.0; 1
-Royal Information Company; Royal Information Company TL/RIC DL-1564; trl061c; 29.0-64.0; 47.0-100.0; 1
-Royal Information Company; Royal Information Company TL/RIC DL-1564M/DL-1564; trl0110; 29.0-64.0; 47.0-120.0; 1
-Royal Information Company; Royal Information Company TL/RIC DL-1750MU; trl0310; 29.0-70.0; 47.0-120.0; 1
-Royal Information Company; Royal Information Company TL/RIC RH-1450; trl0010; 29.0-50.0; 47.0-90.0; 1
+Royal Information Company; Royal Information Company TRL/RIC DH-1570M/DH-1570; trl0410; 29.0-70.0; 47.0-120.0; 1
+Royal Information Company; Royal Information Company TRL/RIC DH-1764M/DH-1764; trl0510; 29.0-70.0; 47.0-120.0; 1
+Royal Information Company; Royal Information Company TRL/RIC DH-1764UM/DH-1764U; trl0610; 29.0-85.0; 47.0-120.0; 1
+Royal Information Company; Royal Information Company TRL/RIC DL-1564; trl061c; 29.0-64.0; 47.0-100.0; 1
+Royal Information Company; Royal Information Company TRL/RIC DL-1564M/DL-1564; trl0110; 29.0-64.0; 47.0-120.0; 1
+Royal Information Company; Royal Information Company TRL/RIC DL-1750MU; trl0310; 29.0-70.0; 47.0-120.0; 1
+Royal Information Company; Royal Information Company TRL/RIC RH-1450; trl0010; 29.0-50.0; 47.0-90.0; 1
 Sampo; Sampo AlphaScan 15/15g/15gx; 0; 30.0-65.0; 50.0-90.0
 Sampo; Sampo AlphaScan 15mx; 0; 30.0-65.0; 50.0-110.0
 Sampo; Sampo AlphaScan 17; 0; 30.0-65.0; 50.0-90.0
@@ -4564,7 +4564,7 @@ ViewSonic; ViewSonic VA720; VSC6C09; 30-82; 50-75
 ViewSonic; ViewSonic VA720-2; VSC700B; 30-82; 50-75
 ViewSonic; ViewSonic VA800; VSCDE00; 30-82; 50-75
 ViewSonic; ViewSonic vcdts21367-1; oqi4d31; 30-95; 50-160; 1
-ViewSonic; ViewSonic VE150; vsc5547; 30-60; 50-75; 1
+ViewSonic; ViewSonic VE150; VSC5547; 30-60; 50-75; 1
 ViewSonic; ViewSonic VE150B; vsc8115; 30-60; 50-75; 1
 ViewSonic; ViewSonic VE150m; VSCC203; 30-60; 50-75
 ViewSonic; ViewSonic VE150mb; VSCED05; 30-60; 50-75
