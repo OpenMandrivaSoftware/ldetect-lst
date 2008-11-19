@@ -2560,6 +2560,7 @@ LG Electronics Inc.; LG L1730P (Analog); GSM439D; 30.0-83.0; 56.0-75.0; 1
 LG Electronics Inc.; LG L1730P (Digital); GSM439E; 30.0-71.0; 56.0-75.0; 1
 LG Electronics Inc.; LG L1730S; GSM438D; 30.0-83.0; 56.0-75.0; 1280x1024
 LG Electronics Inc.; LG StudioWorks 20i; gsm4e21; 30.0-85.0; 50.0-120.0; 1
+LG Electronics Inc.; LG StudioWorks 28i; sw28i; 30.0-85.0; 50.0-120.0; 1
 LG Electronics Inc.; LG StudioWorks 44i; gsm36b9; 30.0-50.0; 50.0-90.0; 1
 LG Electronics Inc.; LG StudioWorks 44m; gsm36b4; 30.0-50.0; 50.0-90.0; 1
 LG Electronics Inc.; LG StudioWorks 45i; gsm36bb; 30.0-54.0; 50.0-90.0; 1
@@ -2571,7 +2572,6 @@ LG Electronics Inc.; LG StudioWorks 56m; gsm3aa2; 30.0-65.0; 50.0-110.0; 1
 LG Electronics Inc.; LG StudioWorks 56T; gsm3aaf; 30.0-65.0; 50.0-120.0; 1
 LG Electronics Inc.; LG StudioWorks 5D; gsm3ab6; 30.0-65.0; 50.0-120.0; 1
 LG Electronics Inc.; LG StudioWorks 74i; gsm4278; 30.0-50.0; 50.0-90.0; 1
-LG Electronics Inc.; LG Studioworks 28i; sw28i; 30.0-85.0; 50.0-120.0; 1
 LG Electronics Inc.; LG StudioWorks 74m; gsm4277; 30.0-50.0; 50.0-90.0; 1
 LG Electronics Inc.; LG StudioWorks 74m; sw74m; 30.0-50.0; 50.0-90.0; 1
 LG Electronics Inc.; LG StudioWorks 76i; gsm426e; 30.0-65.0; 50.0-110.0; 1
