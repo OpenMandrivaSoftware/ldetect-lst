@@ -1665,15 +1665,15 @@ Gateway; Gateway EV500 (Variant 2); gwy1393; 30.0-70.0; 50.0-120.0; 1
 Gateway; Gateway EV500B; gwy1390; 30.0-70.0; 50.0-160.0; 1
 Gateway; Gateway EV530; gwy1394; 30.0-56.0; 50.0-120.0; 1
 Gateway; Gateway EV575; gwy15c7; 31.0-60.0; 50.0-110.0; 1
-Gateway; Gateway EV700; gwy1B62; 30.0-70.0; 50.0-160.0; 1
-Gateway; Gateway EV700; gwy1B67; 30.0-69.0; 50.0-120.0; 1
-Gateway; Gateway EV700; gwy1b5a; 31-69; 50-110; 1
-Gateway; Gateway EV700; gwy1b5b; 31-69; 50-110; 1
-Gateway; Gateway EV700; gwy1b5c; 31-69; 50-110; 1
-Gateway; Gateway EV700; gwy1b5d; 31-69; 50-110; 1
-Gateway; Gateway EV700; gwy1b5e; 31-69; 50-110; 1
-Gateway; Gateway EV700; gwy1b5f; 31-69; 50-110; 1
-Gateway; Gateway EV700; gwy7658; 30.0-70.0; 50.0-120.0; 1
+Gateway; Gateway EV700; gwy1B62; 30-70; 50-110; 1
+Gateway; Gateway EV700; gwy1b5a; 30-70; 50-110; 1
+Gateway; Gateway EV700; gwy1b5b; 30-70; 50-110; 1
+Gateway; Gateway EV700; gwy1b5c; 30-70; 50-110; 1
+Gateway; Gateway EV700; gwy1b5d; 30-70; 50-110; 1
+Gateway; Gateway EV700; gwy1b5e; 30-70; 50-110; 1
+Gateway; Gateway EV700; gwy1b5f; 30-70; 50-110; 1
+Gateway; Gateway EV700 (Win1); gwy1B67; 30.0-69.0; 50.0-120.0; 1
+Gateway; Gateway EV700 (Win2); gwy7658; 30.0-70.0; 50.0-120.0; 1
 Gateway; Gateway EV700-H; gwy7659; 30.0-70.0; 50.0-120.0; 1
 Gateway; Gateway EV700B; gwy1B64; 30.0-70.0; 50.0-160.0; 1
 Gateway; Gateway EV700C; gwy1B66; 30.0-70.0; 50.0-160.0; 1
