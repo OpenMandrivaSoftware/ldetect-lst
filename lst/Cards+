@@ -128,7 +128,15 @@ NAME ATI Mach 64-based cards
 DRIVER mach64
 DRI_GLX
 
+# The first 128 definition is only used in pcitable, and the second only
+# in pcitable.x86_64. This way, 3D is enabled for these cards on i586 but
+# disabled on x86-64 (apparently it locks hard on x86-64).
+
 NAME ATI Rage 128-based cards
+DRIVER r128
+DRI_GLX
+
+NAME ATI Rage 128-based cards (3D disabled on x86-64)
 DRIVER r128
 
 NAME ATI Mach 64-based cards (no 3D acceleration)
