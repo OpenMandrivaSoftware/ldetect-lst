@@ -371,8 +371,10 @@ DRIVER intel
 DRI_GLX
 
 # unlike i815 and newer, i810 doesn't support graphical installer:
+# using "i810" driver instead of "intel" b/c of segfault when using XAA acceleration
 NAME Intel 810
-SEE Intel 810 and later
+DRIVER i810
+DRI_GLX
 
 NAME Intel Vermilion-based cards
 DRIVER vermilion
