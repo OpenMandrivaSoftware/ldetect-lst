@@ -1,5 +1,7 @@
 - add "Flat Panel 1600x900" (#45091)
-- sync monitor vendor names with Fedora
+- Monitor DB
+  o sync monitor vendor names with Fedora
+  o sync with Fedora
 
 Version 0.1.244 - 13 November 2008
 
