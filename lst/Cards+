@@ -94,14 +94,6 @@ DRIVER openchrome
 DRI_GLX
 LINE Option	"SWcursor"
 
-# See bug #33535. This specific adapter doesn't work with 3D with
-# openchrome any more, but does work with the old via driver.
-
-NAME VIA K8M800 UniChrome
-DRIVER via
-DRI_GLX
-LINE Option	"SWcursor"
-
 # Same as UniChrome, but no 3D support yet
 
 NAME VIA Chrome9-based cards

@@ -1409,7 +1409,7 @@
 0x1106	0x3057	"i2c_viapro"
 0x1106	0x3068	"slamr"
 0x1106	0x3074	"via_ircc"
-0x1106	0x3108	"Card:VIA K8M800 UniChrome"
+0x1106	0x3108	"Card:S3 UniChrome-based cards with 3D support"
 0x1106	0x3109	"via_ircc"
 0x1106	0x3118	"Card:S3 UniChrome-based cards with 3D support"
 0x1106	0x3122	"Card:S3 UniChrome-based cards with 3D support"
