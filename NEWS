@@ -1,3 +1,6 @@
+- NSC chips now use geode driver, nsc driver no longer builds
+- drop the special case for VIA K8M800, works OK with openchrome now
+- add new NVIDIA and ATI IDs from new driver versions
 - add "Flat Panel 1600x900" (#45091)
 - Monitor DB
   o sync monitor vendor names with Fedora
