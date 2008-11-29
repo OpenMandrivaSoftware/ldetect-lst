@@ -173,11 +173,6 @@ SEE ATI Radeon X1300 and later
 NAME Ark Logic ARKx000-based cards
 DRIVER ark
 
-# National Semiconductor (NSC)
-
-NAME NSC
-DRIVER nsc
-
 # Trident
 
 NAME Trident-based cards
