@@ -1,3 +1,6 @@
+- Monitor DB
+  o further sync with Fedora
+
 Version 0.1.246 - 2 December 2008
 
 - fix "INTERNAL ERROR: good_default_monitor (Generic|*) is unknown in
@@ -11,7 +14,7 @@ Version 0.1.245 - 29 November 2008
 - add "Flat Panel 1600x900" (#45091)
 - Monitor DB
   o sync monitor vendor names with Fedora
-  o sync with Fedora
+  o partial sync with Fedora
 - use "i810" instead of "intel" driver on older i810 because it
   segfaults when using XAA acceleration (#43916)
 
