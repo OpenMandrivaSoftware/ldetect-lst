@@ -475,6 +475,7 @@ Amptron International,Inc.; Amptron GS17e; AMPA770; 30.0-70.0; 50.0-130.0
 AOC; AOC CM-324; cm-324; 15.0-37.0; 50.0-90.0; 1
 AOC; AOC CM-325; cm-325; 31.0-38.0; 50.0-90.0; 1
 AOC; AOC CM-326; cm-326; 15.0-38.0; 50.0-90.0; 1
+AOC; AOC LM560; aoca566; 30.0-66.0; 50.0-100.0; 1
 AOC; AOC Monochrome MM-415; mm-415; 30.0-38.0; 50.0-90.0; 1
 AOC; AOC SPECTRUM 21Hlr; aoce2182; 30.0-66.0; 50.0-100.0; 1
 AOC; AOC SPECTRUM 4V,4VA,4Vlr & 4VlrA, 4Vn, 4VnA; aocd350; 30.0-50.0; 50.0-100.0; 1
@@ -483,7 +484,6 @@ AOC; AOC SPECTRUM 5Elr & 5ElrA & 5E & 5EA; aocd556; 30.0-54.0; 50.0-120.0; 1
 AOC; AOC SPECTRUM 5Glr; aoce570; 30.0-64.0; 50.0-120.0; 1
 AOC; AOC SPECTRUM 5Glr & 5GlrA & 5Glr+ & 5GlrA+; aoc569e; 30.0-69.0; 50.0-120.0; 1
 AOC; AOC SPECTRUM 5Llr & 5LlrA; aocc564; 30.0-64.0; 50.0-90.0; 1
-AOC; AOC SPECTRUM 5Nlr; aoca566; 30.0-66.0; 50.0-100.0; 1
 AOC; AOC SPECTRUM 5Nlr; aoca569; 30.0-69.0; 50.0-120; 1
 AOC; AOC SPECTRUM 5Vlr & 5VlrA; aocd566; 30.0-66.0; 50.0-100.0; 1
 AOC; AOC SPECTRUM 7Clr; aocf764; 30.0-64.0; 47.0-100.0; 1
@@ -1311,7 +1311,7 @@ Dell; Dell 1907FPV(Digital); DEL4020; 30.0-81.0; 56.0-76.0; 1
 Dell; Dell 1920x1200 Laptop Display Panel (16/10); 0; 30.0-107.0; 50.0-185.0; 1
 Dell; Dell 2000FP (Analog); DELA002; 31.5-80.0; 56.0-76.0; 1
 Dell; Dell 2000FP (Digital); DELA003; 31.5-80.0; 56.0-76.0; 1
-Dell; Dell 2001FP (Analog); DELa007; 31-80; 56-76; 1600x1200
+Dell; Dell 2001FP (Analog); DELA007; 31.0-80.0; 56.0-76.0; 1600x1200
 Dell; Dell 2001FP (Digital); DELA008; 31.0-80.0; 56.0-76.0; 1
 Dell; Dell 2005FPW (Analog); DELE008; 30.0-83.0; 56.0-75.0; 1
 Dell; Dell 2005FPW (Digital); DELE009; 30.0-83.0; 56.0-75.0; 1
@@ -1319,8 +1319,8 @@ Dell; Dell 2007FP (Analog); DELA020; 30.0-83.0; 56.0-76.0; 1600x1200
 Dell; Dell 2007FP (Digital); DELA021; 30.0-83.0; 56.0-76.0; 1600x1200
 Dell; Dell 2007WFP (Analog); DELA018; 30.0-83.0; 56.0-76.0; 1
 Dell; Dell 2007WFP (Digital); DELA019; 30.0-83.0; 56.0-76.0; 1
-Dell; Dell 2405FPW (Analog); DELA00F; 30-81; 56-76; 1920x1200
-Dell; Dell 2405FPW (Digital); DELA010; 30-81; 56-76; 1920x1200
+Dell; Dell 2405FPW (Analog); DELA00F; 30.0-83.0; 56.0-76.0; 1920x1200
+Dell; Dell 2405FPW (Digital); DELA010; 30.0-83.0; 56.0-76.0; 1920x1200
 Dell; Dell 2407WFP (Analog); DELA016; 30.0-83.0; 56.0-76.0; 1
 Dell; Dell 2407WFP (Digital); DELA017; 30.0-83.0; 56.0-76.0; 1
 Dell; Dell 2707WFP; DELD013; 30.0-81.0; 56.0-76.0; 1
@@ -1356,7 +1356,7 @@ Dell; Dell E177FP; DELA023; 31.0-80.0; 56.0-75.0; 1
 Dell; Dell E193FP; DEL700E; 31.0-83.0; 56.0-76.0; 1
 Dell; Dell E196FP; DELA015; 31.0-83.0; 56.0-76.0; 1
 Dell; Dell E197FP; DELA024; 31.0-83.0; 56.0-76.0; 1
-Dell; Dell E207WFP; DELD010; 30.0-83.0; 56.0-75.0; 1
+Dell; DeLL E207WFP; DELD010; 30.0-83.0; 56.0-75.0; 1
 Dell; Dell E207WFP; DELD011; 30.0-83.0; 56.0-75.0; 1
 Dell; Dell E228WFP; DELD015; 30.0-83.0; 56.0-75.0; 1
 Dell; Dell E550; dela2f1; 30.0-54.0; 50.0-120.0; 1
@@ -2058,7 +2058,7 @@ Hewlett-Packard; HP P930 Color Monitor; hwp03a2; 30.0-110.0; 50.0-160.0; 1
 Hewlett-Packard; HP Pavilion M45/S40 Monitor; hwp14b2; 31.468-50.0; 56.0-75.0; 1
 Hewlett-Packard; HP VF15 Flat Panel Monitor; hwp2608; 30.0-61.0; 56.0-76.0; 1
 Hewlett-Packard; HP VF17 Flat Panel Monitor; hwp260a; 30.0-81.0; 56.0-76.0; 1
-Hewlett-Packard; HP W2207 22-inch LCD Monitor; HWP26a9; 24-82; 48-76; 1
+Hewlett-Packard; HP W2207 Wide LCD Monitor; HWP26A9; 24.0-83.0; 50.0-76.0; 1
 Highscreen; Highscreen LE 1024; 45; 31.4-31.6,35.1-35.2,35.5-35.6; 50-87
 Hitachi, Ltd.; Hitachi 20-AP; 20-ap; 30.0-65.0; 55.0-80.0; 1
 Hitachi, Ltd.; Hitachi 20-APF; 20-apf; 30.0-65.0; 55.0-80.0; 1
@@ -4353,12 +4353,12 @@ Princeton; Princeton EO500; pgs008e; 30.0-70.0; 50.0-120.0; 1
 Princeton; Princeton EO500n; pgs00d6; 30.0-70.0; 50.0-140.0; 1
 Princeton; Princeton EO505; pgs00be; 30.0-70.0; 50.0-120.0; 1
 Princeton; Princeton EO70; pgs0050; 30.0-70.0; 50.0-120.0; 1
-Princeton; Princeton EO70; pgs00d4; 30.0-70.0; 50.0-150.0; 1
 Princeton; Princeton EO700; pgs00b6; 30.0-70.0; 50.0-120.0; 1
 Princeton; Princeton EO700-1b; pgs00e6; 30.0-70.0; 50.0-160.0; 1
 Princeton; Princeton EO700n; pgs00d5; 30.0-70.0; 50.0-150.0; 1
 Princeton; Princeton EO705; pgs00bf; 30.0-70.0; 50.0-120.0; 1
 Princeton; Princeton EO705n; pgs00dd; 30.0-70.0; 50.0-160.0; 1
+Princeton; Princeton EO70n; pgs00d4; 30.0-70.0; 50.0-150.0; 1
 Princeton; Princeton EO710; pgs008f; 30.0-70.0; 50.0-120.0; 1
 Princeton; Princeton EO710-1b; pgs00e7; 30.0-70.0; 50.0-160.0; 1
 Princeton; Princeton EO72; pgs0052; 30.0-70.0; 50.0-120.0; 1
@@ -4412,7 +4412,7 @@ Princeton; Princeton Ultra-2000; ultra-2000; 45.0-68.0; 50.0-150.0; 1
 Princeton; Princeton VL173 Flat Panel; pgs4902; 31-75; 56-75; 1
 Princeton; Princeton VL1916 19inch LCD Display; 0; 24-83; 55-76; 1
 Princeton; W74; pgs00e5; 30.0-70.0; 50.0-160.0; 1
-Princeton; W74; pgs00fb; 30.0-70.0; 55.0-120.0; 1
+Princeton; W74n; pgs00fb; 30.0-70.0; 55.0-160.0; 1
 Proview; Proview 570; pts023a; 30.0-70.0; 50.0-150.0; 1
 Proview; Proview 770; pts0302; 30.0-76.0; 50.0-150.0; 1
 Proview; Proview 775N; PTS0304; 30-75; 50-160; 1"
@@ -4590,8 +4590,8 @@ Samsung; Samsung SyncMaster 198T/910T/CX901T (Analog); SAM010E; 30-81; 56-75; 1
 Samsung; Samsung SyncMaster 198T/910T/CX901T (Digital); SAM010F; 30-81; 56-75; 1
 Samsung; Samsung SyncMaster 2032BW(Analog); SAM0301; 30-81; 56-75; 1
 Samsung; Samsung SyncMaster 2032BW(Digital); SAM0302; 30-81; 56-75; 1
-Samsung; Samsung SyncMaster 204T/204Ts/214T,Magic CX201Ts(Analog); SAM01AD; 30-81; 56-75; 1
-Samsung; Samsung SyncMaster 204T/204Ts/214T,Magic CX201Ts(Digital); SAM01AE; 30-81; 56-75; 1
+Samsung; Samsung SyncMaster 204T/204Ts/214T,SyncMaster Magic CX201Ts(Analog); SAM01AD; 30-81; 56-75; 1
+Samsung; Samsung SyncMaster 204T/204Ts/214T,SyncMaster Magic CX201Ts(Digital); SAM01AE; 30-81; 56-75; 1
 Samsung; Samsung SyncMaster 20gls; sam20gls; 30-82; 50-120; 1
 Samsung; Samsung SyncMaster 20gls; samsungsm20gls; 30-82; 50-120; 1
 Samsung; Samsung SyncMaster 20GLsi; sam4690; 30.0-82.0; 50.0-120.0; 1
@@ -4602,9 +4602,9 @@ Samsung; Samsung SyncMaster 213T/CX210T; SAMOO91; 30-81; 56-75; 1
 Samsung; Samsung SyncMaster 215TW(Analog); SAM0213; 30-81; 56-75; 1
 Samsung; Samsung SyncMaster 215TW(Digital); SAM0214; 30-81; 56-75; 1
 Samsung; Samsung SyncMaster 21GLs; sam4610; 30.0-85.0; 50.0-160.0; 1
-Samsung; Samsung SyncMaster 225BW; SAM0255; 30-81; 56-75; 1680x1050
+Samsung; Samsung SyncMaster 225BW (Digital); SAM0255; 30-81; 56-75; 1680x1050
 Samsung; Samsung SyncMaster 226; SAM0226; 30-81; 56-75; 1440x900
-Samsung; Samsung SyncMaster 226 BW; SAM027e; 30-81; 56-75; 1680x1050
+Samsung; Samsung SyncMaster 226BW (Analog); SAM027E; 30-81; 56-75; 1680x1050
 Samsung; Samsung SyncMaster 240T (Analog); SAM4254; 30-93; 50-85; 1
 Samsung; Samsung SyncMaster 240T (Digital); SAM4255; 30-81; 50-85; 1
 Samsung; Samsung SyncMaster 241MP/245MP; SAMOO4B; 30-85; 50-85; 1
