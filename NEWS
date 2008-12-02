@@ -1,3 +1,6 @@
+- fix "INTERNAL ERROR: good_default_monitor (Generic|*) is unknown in
+  MonitorsDB" after syncing with redhat
+
 Version 0.1.245 - 29 November 2008
 
 - NSC chips now use geode driver, nsc driver no longer builds

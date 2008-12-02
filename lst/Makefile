@@ -57,6 +57,8 @@ install: $(TMP_TABLES) $(TABLES3)
 	gzip -9 $(dir)/{pcitable,usbtable,dmitable}.d/90default.lst
 
 	install -m 644 ScannerDB.gz scannerconfigs Cards+ MonitorsDB isdn.db $(dir)
+	# make MonitorDB looks fine for XFdrake (b/c of sync with RH):
+	perl -pi -e 's!^Generic CRT Display; Monitor !Generic; !; s!Generic LCD Display; LCD Panel !Generic; Flat Panel !' $(dir)/MonitorsDB
 
 	install -m 644 fallback-modules.alias $(dir)/fallback-modules.alias
 	install -D -m 644 preferred-modules.alias $(slibdir)/module-init-tools/ldetect-lst-modules.alias
