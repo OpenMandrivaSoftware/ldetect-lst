@@ -322,7 +322,7 @@ ADI; ADI MicroScan 4V; adi0740; 30-64; 50-100; 1
 ADI; ADI MicroScan 4V; adi0750; 30-64; 50-100; 1
 ADI; ADI MicroScan 4V; adi0755; 30-64; 50-100; 1
 ADI; ADI MicroScan 4V; adi0940; 30-64; 50-100; 1
-ADI; ADI MicroScan 4V; adi4v; 30.0-64.0; 50.0-95.0; 1
+ADI; ADI MicroScan 4V; adi4v; 30-64; 50-100.0; 1
 ADI; ADI MicroScan 5AP; adi5ap; 30-64; 50-100; 1
 ADI; ADI MicroScan 5EP; adi5ep; 30-64; 50-100; 1
 ADI; ADI MicroScan 5G; adi1550; 30.0-95.0; 50.0-120.0; 1
@@ -399,7 +399,7 @@ ADI; ADI MicroScan 9L; adi4E50; 31.0-91.0; 56.0-85.0; 1
 ADI; ADI MicroScan A600; adi5D10; 31.0-61.0; 56.0-75.0; 1
 ADI; ADI MicroScan A610; adi6450; 31.0-61.0; 56.0-75.0; 1
 ADI; ADI MicroScan E50; adi2E30; 30.0-70.0; 50.0-120.0; 1
-ADI; ADI MicroScan E66; adi3E30; 30.0-96.0; 50.0-155.0; 1
+ADI; ADI MicroScan E66; adi3E30; 30.0-96.0; 50.0-160.0; 1
 ADI; ADI MicroScan E66; adi8930; 30.0-96.0; 50.0-160.0; 1
 ADI; ADI MicroScan E75; adi5230; 30.0-86.0; 50.0-160.0; 1
 ADI; ADI MicroScan F520; adi9830; 30.0-70.0; 50.0-160.0; 1
@@ -941,7 +941,7 @@ Compaq; Compaq P1220 Color Monitor; cpq1421; 30.0-130.0; 50.0-160.0; 1
 Compaq; Compaq P1610 Color Monitor; cpq1327; 30.0-96.0; 48.0-160.0; 1
 Compaq; Compaq P50 Color Monitor; cpq1323; 30.0-69.0; 50.0-125.0; 1
 Compaq; Compaq P70 Color Monitor; cpq1320; 30.0-92.0; 48.0-150.0; 1
-Compaq; Compaq P710; CPQ1384; 30-96; 50-140; 1600x1200
+Compaq; Compaq P710 Color Monitor; cpq1384; 30.0-96.0; 50.0-130.0; 1600x1200
 Compaq; Compaq P720 Color Monitor; cpq1419; 31.0-96.0; 55.0-160.0; 1
 Compaq; Compaq P75 Color Monitor; cpq1330; 30.0-85.0; 50.0-150.0; 1
 Compaq; Compaq P900 Color Monitor; cpq1353; 30.0-107.0; 50.0-120.0; 1
@@ -1396,12 +1396,12 @@ Dell; Dell M991; DEL7001; 30.0-96.0; 50.0-160.0; 1
 Dell; Dell M992; DEL300E; 30.0-96.0; 50.0-160.0; 1
 Dell; Dell M993c; DELD006; 30.0-96.0; 50.0-160.0; 1
 Dell; Dell M993s; DEL3014; 30.0-96.0; 50.0-160.0; 1
-Dell; Dell P1110; DEL50ab; 30-121; 48-160; 1280x1024
+Dell; Dell P1110; del50ab; 30.0-121.0; 48.0-160.0; 1
 Dell; Dell P1130; del5000; 30.0-130.0; 48.0-170.0; 1
 Dell; Dell P1230; DEL700C; 30.0-130.0; 50.0-160.0; 1
 Dell; Dell P1690; del5348; 30.0-96.0; 50.0-160.0; 1
 Dell; Dell P780; del510f; 30.0-85.0; 48.0-120.0; 1
-Dell; Dell P790; DEL62f5; 30-92; 50-150; 1024x768
+Dell; Dell P790; del62f5; 30.0-92.0; 50.0-150.0; 1
 Dell; Dell P791; del3000; 30.0-96.0; 50.0-160.0; 1
 Dell; Dell P792; DEL5001; 30.0-96.0; 48.0-170.0; 1
 Dell; Dell P793; DEL3005; 30.0-96.0; 50.0-160.0; 1
@@ -1410,7 +1410,7 @@ Dell; Dell P991; del5178; 30.0-107.0; 48.0-120.0; 1
 Dell; Dell P992; DEL5002; 30.0-107.0; 48.0-170.0; 1
 Dell; Dell SE177FP; DELF001; 30.0-81.0; 56.0-76.0; 1
 Dell; Dell SE197FP; DELF002; 30.0-81.0; 56.0-76.0; 1
-Dell; Dell SP2208WFP; DEL4039; 30.0-83.0; 56.0-76.0; 1680x1050
+Dell; Dell SP2208WFP(Digital); DEL4039; 30.0-83.0; 56.0-76.0;  1680x1050
 Dell; Dell Super VGA; 0; 30.0-38.5; 50.0-90.0; 1
 Dell; Dell Super VGA Colour; 0; 29.0-38.0; 47.0-100.0; 1
 Dell; Dell Super VGA DL 1428 I/L; 0; 35.5; 87.0; 1
@@ -1927,7 +1927,7 @@ Hewlett-Packard; HP D1196A Ergo Ultra VGA 15-inch Display; hp_d1196a; 56.4; 72; 
 Hewlett-Packard; HP D1197A Color VGA 14-inch Display; hp_d1197a; 31.5; 70; 1
 Hewlett-Packard; HP D1198A SVGA 14-inch Display; hp_d1198a; 37.9; 70; 1
 Hewlett-Packard; HP D1199A Ultra VGA 1600 21-inch Display; hp_d1199a; 30-82; 50-152; 1
-Hewlett-Packard; HP D1815A 1024 14-inch Display; hwp0aff; 31-48.4; 50-100; 1
+Hewlett-Packard; HP D1815A 1024 Low Emissions 14-inch Display; hwp0aff; 31-48.4; 50-100; 1
 Hewlett-Packard; HP D2800 Ultra VGA 1600 21-inch Display; hwp0af0; 30.0-85.0; 50.0-160.0; 1
 Hewlett-Packard; HP D2801 Monochrome VGA 14-inch Display; hwp0af1; 31.5; 60; 0
 Hewlett-Packard; HP D2802 Entry-Level SVGA 14-inch Display; hwp0af2; 35.5; 43.5; 1
@@ -1936,26 +1936,26 @@ Hewlett-Packard; HP D2804 Super VGA 1024i 14-inch Display; hwp0af4; 35.5; 43.5; 
 Hewlett-Packard; HP D2805 Ergo 1024 14-inch Display; hwp0af5; 30.0-62.0; 50.0-100.0; 1
 Hewlett-Packard; HP D2806 Ergo Ultra VGA 15-inch Display; hwp0af6; 30.0-64.0; 50.0-100.0; 1
 Hewlett-Packard; HP D2807 Ultra VGA 1280 17-inch Display; hwp0af7; 30.0-64.0; 50.0-100.0; 1
-Hewlett-Packard; HP D2808 1024 15-inch Display; hwp0af8; 30.0-48.5; 50.0-100.0; 1
-Hewlett-Packard; HP D2809 1024 MM 15-inch Display; hwp0af9; 30.0-48.5; 50.0-100.0; 1
+Hewlett-Packard; HP D2808 1024 Low Emissions 15-inch Display; hwp0af8; 30.0-48.5; 50.0-100.0; 1
+Hewlett-Packard; HP D2809 1024 Low Emissions MM 15-inch Display; hwp0af9; 30.0-48.5; 50.0-100.0; 1
 Hewlett-Packard; HP D2810 1024 14-inch Display; hwp0afa; 48.4; 60; 1
-Hewlett-Packard; HP D2811 1024 14-inch Display; hwp0afb; 48.4; 60; 1
+Hewlett-Packard; HP D2811 1024 Low Emissions 14-inch Display; hwp0afb; 48.4; 60; 1
 Hewlett-Packard; HP D2813 1024 14-inch Display; hwp0afd; 30.9-49.0; 50.0-100.0; 1
-Hewlett-Packard; HP D2814 Super VGA 14-inch Display; hwp0afe; 35.5; 43.5; 1
-Hewlett-Packard; HP D2815 1024 14-inch Display; hwp0aff; 30.9-49.0; 50.0-100.0; 1
+Hewlett-Packard; HP D2814 Super VGA Low Emissions 14-inch Display; hwp0afe; 35.5; 43.5; 1
+Hewlett-Packard; HP D2815 1024 Low Emissions 14-inch Display; hwp0aff; 30.9-49.0; 50.0-100.0; 1
 Hewlett-Packard; HP D2817 Ultra VGA 1280 17-inch Display; hwp0b01; 30.0-64.0; 50.0-160.0; 1
 Hewlett-Packard; HP D2818 Ultra VGA 1280 17-inch Display; hwp0b02; 30.0-64.0; 50.0-120.0; 1
-Hewlett-Packard; HP D2819 Ultra VGA 1280 17-inch Display; hwp0b03; 30.0-64.0; 50.0-120.0; 1
-Hewlett-Packard; HP D2821 1024 14-inch Display; hwp0b05; 31.0-54.0; 50.0-110.0; 1
+Hewlett-Packard; HP D2819 Ultra VGA 1280 Extra Low Emissions 17-inch Display; hwp0b03; 30.0-64.0; 50.0-120.0; 1
+Hewlett-Packard; HP D2821 1024 Low Emissions 14-inch Display; hwp0b05; 31.0-54.0; 50.0-110.0; 1
 Hewlett-Packard; HP D2825 Ultra VGA 1024 15-inch Display; hwp0b09; 31.0-54.0; 50.0-120.0; 1
 Hewlett-Packard; HP D2826 HP 50 15-inch Display; hwp0b0a; 31.0-54.0; 50.0-120.0; 1
 Hewlett-Packard; HP D2827 HP 51 15-inch Display; hwp0b0b; 31.0-54.0; 50.0-120.0; 1
 Hewlett-Packard; HP D2828 HP 52 15-inch Monitor; hwp0b0c; 30.0-54.0; 50.0-120.0; 1
 Hewlett-Packard; HP D2830 Ergo 1024 15-inch Display; hwp0b0e; 30.0-69.0; 50.0-160.0; 1
-Hewlett-Packard; HP D2831 Ergo 1024 15-inch Display; hwp0b0f; 30.0-69.0; 50.0-160.0; 1
+Hewlett-Packard; HP D2831 Ergo 1024 Extra Low Emissions 15-inch Display; hwp0b0f; 30.0-69.0; 50.0-160.0; 1
 Hewlett-Packard; HP D2832 HP 500 15-inch Monitor; hwp0b10; 30.0-70.0; 50.0-120.0; 1
 Hewlett-Packard; HP D2835 Ultra VGA 1280 17-inch Display; hwp0b13; 30.0-69.0; 50.0-132.0; 1
-Hewlett-Packard; HP D2836 Ultra VGA 1280 17-inch Display; hwp0b14; 30.0-69.0; 50.0-160.0; 1
+Hewlett-Packard; HP D2836 Ultra VGA 1280 Extra Low Emissions 17-inch Display; hwp0b14; 30.0-69.0; 50.0-160.0; 1
 Hewlett-Packard; HP D2837 HP 70 17-inch Display; hwp0b15; 31.0-70.0; 50.0-120.0; 1
 Hewlett-Packard; HP D2838 M700 17-inch Display; hwp0b16; 30.0-86.0; 50.0-160.0; 1
 Hewlett-Packard; HP D2839 HP 70 17-inch Monitor; hwp0b17; 31.0-70.0; 50.0-120.0; 1
@@ -3499,7 +3499,7 @@ Miro Computer Products AG; Miro PROOFSCREEN miroC2193; mir9321; 30.0-93.0; 50.0-
 MiTAC; MiTAC 1450FD; mtc0003; 31.0-50.0; 50.0-90.0; 1
 MiTAC; MiTAC 1450FV; mtc0001; 31.0-50.0; 50.0-90.0; 1
 MiTAC; MiTAC 1564FD/1564FS; mtc0002; 30.0-66.0; 50.0-100.0; 1
-Mitsuba Corp.; Mitsuba 710MH; 710mh; 15.0-38.0; 50.0-90.0; 1
+Mitsuba Corp.; Mitsuba Corp. 710MH; 710mh; 15.0-38.0; 50.0-90.0; 1
 Mitsubishi; Mitsubishi Diamond Plus 100 (TFW1105); MEL40E1; 30.0-108.0; 50.0-152.0; 1
 Mitsubishi; Mitsubishi Diamond Plus 100 (TFW1105); mel40e1; 30.0-108.0; 50.0-152.0; 1
 Mitsubishi; Mitsubishi Diamond Plus 120u (TFA1105); MEL42F0; 30.0-115.0; 50.0-160.0; 1
@@ -3985,8 +3985,8 @@ Nokia; Nokia 449XiPlus; nok008a; 30.0-69.0; 50.0-120.0; 1
 Nokia; Nokia 449ZA; nok009a; 30.0-70.0; 50.0-120.0; 1
 Nokia; Nokia 44BS; nok0093; 30.0-62.0; 50.0-100.0; 1
 Nokia; Nokia 500Xa; nok1500; 31.4-60.0; 56.2-75.0; 1
-Nokia; Nokia 800PRO; nok1802; 30.0-82.0; 55.0-86.0; 1
-Nokia; Nokia 800PRO; nok1803; 31.0-65.0; 58.0-62.0; 1
+Nokia; Nokia 800PRO-1; nok1802; 30.0-82.0; 55.0-86.0; 1
+Nokia; Nokia 800PRO-2; nok1803; 31.0-65.0; 58.0-62.0; 1
 Nokia; Nokia 800XA/820L; nok1801; 24.0-80.0; 56.0-75.0; 1
 Nokia; Nokia 800Xi; nok1800; 24.0-80.0; 56.0-75.0; 1
 Olivetti; Olivetti DSM 25-314 P-Y; dsm25-314p-y; 31.5; 60.0-70.0; 1
@@ -4350,17 +4350,17 @@ Princeton; Princeton EO400; pgs009d; 30.0-54.0; 50.0-90.0; 1
 Princeton; Princeton EO400; pgs009d; 30.0-54.0; 55.0-90.0; 1
 Princeton; Princeton EO50; pgs004f; 30.0-70.0; 50.0-120.0; 1
 Princeton; Princeton EO500; pgs008e; 30.0-70.0; 50.0-120.0; 1
-Princeton; Princeton EO500; pgs00d6; 30.0-70.0; 50.0-140.0; 1
+Princeton; Princeton EO500n; pgs00d6; 30.0-70.0; 50.0-140.0; 1
 Princeton; Princeton EO505; pgs00be; 30.0-70.0; 50.0-120.0; 1
 Princeton; Princeton EO70; pgs0050; 30.0-70.0; 50.0-120.0; 1
 Princeton; Princeton EO70; pgs00d4; 30.0-70.0; 50.0-150.0; 1
 Princeton; Princeton EO700; pgs00b6; 30.0-70.0; 50.0-120.0; 1
-Princeton; Princeton EO700; pgs00d5; 30.0-70.0; 50.0-150.0; 1
-Princeton; Princeton EO700; pgs00e6; 30.0-70.0; 50.0-160.0; 1
+Princeton; Princeton EO700-1b; pgs00e6; 30.0-70.0; 50.0-160.0; 1
+Princeton; Princeton EO700n; pgs00d5; 30.0-70.0; 50.0-150.0; 1
 Princeton; Princeton EO705; pgs00bf; 30.0-70.0; 50.0-120.0; 1
-Princeton; Princeton EO705; pgs00dd; 30.0-70.0; 50.0-160.0; 1
+Princeton; Princeton EO705n; pgs00dd; 30.0-70.0; 50.0-160.0; 1
 Princeton; Princeton EO710; pgs008f; 30.0-70.0; 50.0-120.0; 1
-Princeton; Princeton EO710; pgs00e7; 30.0-70.0; 50.0-160.0; 1
+Princeton; Princeton EO710-1b; pgs00e7; 30.0-70.0; 50.0-160.0; 1
 Princeton; Princeton EO72; pgs0052; 30.0-70.0; 50.0-120.0; 1
 Princeton; Princeton EO720; pgs00b7; 30.0-70.0; 50.0-120.0; 1
 Princeton; Princeton EO74/74T; pgs0055; 30.0-70.0; 50.0-120.0; 1
@@ -4404,9 +4404,9 @@ Princeton; Princeton Ultra 80; pgs0091; 30.0-86.0; 50.0-120.0; 1
 Princeton; Princeton Ultra 90/90B; pgs00d2; 30.0-94.0; 50.0-160.0; 1
 Princeton; Princeton Ultra 90e; pgs0130; 30.0-86.0; 50.0-160.0; 1
 Princeton; Princeton Ultra 92; pgs016c; 30.0-96.0; 50.0-160.0; 1
-Princeton; Princeton Ultra 95; pgs00db; 30.0-95.0; 50.0-160.0; 1
 Princeton; Princeton Ultra 95; pgs00fa; 30.0-95.0; 50.0-120.0; 1
 Princeton; Princeton Ultra 95e; pgs016d; 30.0-96.0; 47.0-150.0; 1
+Princeton; Princeton Ultra 95n; pgs00db; 30.0-95.0; 50.0-160.0; 1
 Princeton; Princeton Ultra-1200; max-15; 15.0-38.0; 45.0-120.0; 1
 Princeton; Princeton Ultra-1400; ultra-1400; 15.0-38.0; 45.0-120.0; 1
 Princeton; Princeton Ultra-1600; ultra-1600; 15.0-38.0; 45.0-120.0; 1
@@ -4527,7 +4527,6 @@ Samsung; Samsung Samtron 75G; sam105b; 30-85; 50-160; 1
 Samsung; Samsung Samtron 75P; sam4ee7; 30-96; 50-160; 1
 Samsung; Samsung Samtron 75P Plus; sam40d8; 30-96; 50-160; 1
 Samsung; Samsung Samtron 76DF(X)/77DF(X)/78DF; STN0006; 30-70; 50-160; 1
-Samsung; Samsung Samtron 76E/77E; STN0005; 30-70; 50-160; 1
 Samsung; Samsung Samtron 7Ei; sam2c57; 30-70; 50-120; 1
 Samsung; Samsung Samtron 9 In; sam25da; 30-96; 50-160; 1
 Samsung; Samsung Samtron 90SL; sam4dba; 30-96; 50-160; 1
@@ -4537,6 +4536,7 @@ Samsung; Samsung Samtron 95P Plus; sam40db; 30-96; 50-160; 1
 Samsung; Samsung Samtron 98PDF/99DF/99PDF; STN0020; 30-96; 50-160; 1
 Samsung; Samsung Samtron 9B; sam4f23; 30-96; 50-160; 1
 Samsung; Samsung Samtron 9P; sam4f27; 30-96; 50-160; 1
+Samsung; Samsung Samtron SAMTRON 76E/77E; STN0005; 30-70; 50-160; 1
 Samsung; Samsung SyncMaster 1000b (CGX1607*); sam1f14; 30-107; 50-160; 1
 Samsung; Samsung SyncMaster 1000p; sam1f13; 30-107; 50-160; 1
 Samsung; Samsung SyncMaster 1000s (CGP1607*); sam0cf1; 30-96; 50-160; 1
@@ -4680,8 +4680,8 @@ Samsung; Samsung SyncMaster 790DF; SAM0126; 30-71; 50-160; 1
 Samsung; Samsung SyncMaster 793DF/793MB; SAM0107; 30-71; 50-160; 1
 Samsung; Samsung SyncMaster 793S/793V/CM173G; SAM0117; 30-71; 50-160; 1
 Samsung; Samsung SyncMaster 794MB/794MBplus/798MB; SAM01AB; 30-70; 50-160; 1
+Samsung; Samsung SyncMaster 795DF/795MB/CD175GP; SAM0108; 30-85; 50-160; 1280x1024
 Samsung; Samsung SyncMaster 796MB/796MBplus; SAM01AC; 30-85; 50-160; 1
-Samsung; Samsung SyncMaster 80; SAM0080; 30-81; 56-85; 1280x1024
 Samsung; Samsung SyncMaster 800TFT; sam6058; 61.5-81.0; 59.0-76.0; 1
 Samsung; Samsung SyncMaster 900 In; sam25d9; 30-96; 50-160; 1
 Samsung; Samsung SyncMaster 900IFT; sam4f29; 30-96; 50-160; 1
@@ -4697,7 +4697,7 @@ Samsung; Samsung SyncMaster 917MB/950MB/957MB/CD197D(P); SAM0070; 30-96; 50-160;
 Samsung; Samsung SyncMaster 920T/CX911T (Analog); SAM014A; 30-81; 56-75; 1
 Samsung; Samsung SyncMaster 920T/CX911T (Digital); SAM014B; 30-81; 56-75; 1
 Samsung; Samsung SyncMaster 930B; sam0193; 30-81; 56-75; 1
-Samsung; Samsung SyncMaster 931B; SAM0218; 30-81; 56-75; 1
+Samsung; Samsung SyncMaster 931BF (VGA); SAM0218; 30-81; 56-75; 1
 Samsung; Samsung SyncMaster 940N,SyncMaster Magic CX915N/CX916N/CX917N; SAM01E1; 30-81; 56-75; 1
 Samsung; Samsung SyncMaster 940T/940B/940Fn(Analog); SAM01BA; 30-81; 56-75; 1
 Samsung; Samsung SyncMaster 940T/940B/940Fn(Digital); SAM01BB; 30-81; 56-75; 1
@@ -5310,7 +5310,7 @@ ViewSonic; ViewSonic VA720; VSC6C09; 30-82; 50-75
 ViewSonic; ViewSonic VA720-2; VSC700B; 30-82; 50-75
 ViewSonic; ViewSonic VA800; VSCDE00; 30-82; 50-75
 ViewSonic; ViewSonic vcdts21367-1; oqi4d31; 30-95; 50-160; 1
-ViewSonic; ViewSonic VE150; VSC5547; 30-60; 50-75; 1
+ViewSonic; ViewSonic VE150; VSC5547; 30-60; 50-75
 ViewSonic; ViewSonic VE150B; vsc8115; 30-60; 50-75; 1
 ViewSonic; ViewSonic VE150m; VSCC203; 30-60; 50-75
 ViewSonic; ViewSonic VE150mb; VSCED05; 30-60; 50-75
@@ -5338,7 +5338,7 @@ ViewSonic; ViewSonic VG151; vsc5a47; 24.8-61; 56-75; 1
 ViewSonic; ViewSonic VG151b; VSCDA06; 30-62; 50-75
 ViewSonic; ViewSonic VG171; 9E06   ; 30-82; 50-75
 ViewSonic; ViewSonic VG171b; VSCD906; 30-82; 50-75
-ViewSonic; ViewSonic VG175; vscdd00; 30-82; 50-75; 1
+ViewSonic; ViewSonic VG175; VSCDD00; 30-82; 50-75
 ViewSonic; ViewSonic VG180; vsc464d; 30-80; 60-85; 1
 ViewSonic; ViewSonic VG180-2; vsc464e; 30-80; 56-85; 1
 ViewSonic; ViewSonic VG180-3; vsc7517; 30-82; 50-75; 1
