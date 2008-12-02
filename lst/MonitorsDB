@@ -1929,19 +1929,19 @@ Generic CRT Display; Monitor 640x480 @ 60 Hz; 0; 31.5; 50.0-61.0
 Generic CRT Display; Monitor 800x600 @ 56 Hz; 0; 31.5-35.0.1; 50.0-61.0
 Generic CRT Display; Monitor 800x600 @ 60 Hz; 0; 31.5-37.9; 50.0-70.0
 Generic LCD Display; LCD Panel 1024x600; 0; 31.5-55.0; 40.0-70.0
-Generic LCD Display; LCD Panel 1024x768; 0; 31.5-55.0; 40.0-70.0
-Generic LCD Display; LCD Panel 1280x1024; 0; 31.5-90.0; 60
+Generic LCD Display; LCD Panel 1024x768; 0; 31.5-48.0; 56.0-65.0
+Generic LCD Display; LCD Panel 1280x1024; 0; 31.5-64.0; 56.0-65.0
 Generic LCD Display; LCD Panel 1280x768; 0; 31.5-90.0; 60
-Generic LCD Display; LCD Panel 1280x800; 0; 31.5-90.0; 60
-Generic LCD Display; LCD Panel 1360x768; 0; 31.5-90.0; 60
-Generic LCD Display; LCD Panel 1400x1050; 0; 31.5-90.0; 60
-Generic LCD Display; LCD Panel 1440x900; 0; 31.5-90.0; 60
-Generic LCD Display; LCD Panel 1600x1200; 0; 31.5-90.0; 60
+Generic LCD Display; LCD Panel 1280x800; 0; 31.5-50.0; 56.0-65.0
+Generic LCD Display; LCD Panel 1360x768; 0; 31.5-48.0; 56.0-65.0
+Generic LCD Display; LCD Panel 1400x1050; 0; 31.5-65.5; 56.0-65.0
+Generic LCD Display; LCD Panel 1440x900; 0; 31.5-56.0; 56.0-65.0
+Generic LCD Display; LCD Panel 1600x1200; 0; 31.5-74.7; 56.0-65.0
 Generic LCD Display; LCD Panel 1600x900; 0; 31.5-90.0; 60
-Generic LCD Display; LCD Panel 1680x1050; 0; 31.5-90.0; 60
-Generic LCD Display; LCD Panel 1920x1200; 0; 31.5-90.0; 60
-Generic LCD Display; LCD Panel 640x480; 0; 31.5; 40.0-70.0
-Generic LCD Display; LCD Panel 800x480; 0; 31.5-37.9; 40.0-70.0
+Generic LCD Display; LCD Panel 1680x1050; 0; 31.5-65.5; 56.0-65.0
+Generic LCD Display; LCD Panel 1920x1200; 0; 31.5-74.5; 56.0-65.0
+Generic LCD Display; LCD Panel 640x480; 0; 31.5; 56.0-65.0
+Generic LCD Display; LCD Panel 800x600; 0; 31.5-37.9; 56.0-65.0
 Generic LCD Display; LCD Panel 800x600; 0; 31.5-37.9; 40.0-70.0
 Geritec; Geritec PR568; BMM0238; 31-60; 60-75
 Golden Dragon; Golden Dragon TY-1411; ty-1411; 15.5-37.0; 50.0-120.0; 1
