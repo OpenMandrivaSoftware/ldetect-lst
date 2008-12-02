@@ -1939,7 +1939,9 @@ Generic LCD Display; LCD Panel 1440x900; 0; 31.5-56.0; 56.0-65.0
 Generic LCD Display; LCD Panel 1600x1200; 0; 31.5-74.7; 56.0-65.0
 Generic LCD Display; LCD Panel 1600x900; 0; 31.5-90.0; 60
 Generic LCD Display; LCD Panel 1680x1050; 0; 31.5-65.5; 56.0-65.0
+Generic LCD Display; LCD Panel 1920x1080; 0; 31.5-67.0; 56.0-65.0
 Generic LCD Display; LCD Panel 1920x1200; 0; 31.5-74.5; 56.0-65.0
+Generic LCD Display; LCD Panel 2560x1600; 0; 31.5-99.0; 56.0-65.0
 Generic LCD Display; LCD Panel 640x480; 0; 31.5; 56.0-65.0
 Generic LCD Display; LCD Panel 800x600; 0; 31.5-37.9; 56.0-65.0
 Generic LCD Display; LCD Panel 800x600; 0; 31.5-37.9; 40.0-70.0
