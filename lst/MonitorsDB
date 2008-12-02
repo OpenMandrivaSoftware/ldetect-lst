@@ -1483,9 +1483,8 @@ Dell; Dell SP2008WFP(Analog); DEL4032; 30.0-83.0; 56.0-76.0; 1
 Dell; Dell SP2008WFP(Digital); DEL4033; 30.0-83.0; 56.0-76.0; 1
 Dell; Dell SP2009W; DELD01A; 30.0-83.0; 56.0-75.0; 1
 Dell; Dell SP2208WFP(Analog); DEL4038; 30.0-83.0; 56.0-76.0; 1
-Dell; Dell SP2208WFP(Digital); DEL4039; 30.0-83.0; 56.0-76.0; 1
-Dell; Dell SP2208WFP(HDMI); DEL403A; 30.0-83.0; 56.0-76.0; 1
 Dell; Dell SP2208WFP(Digital); DEL4039; 30.0-83.0; 56.0-76.0;  1680x1050
+Dell; Dell SP2208WFP(HDMI); DEL403A; 30.0-83.0; 56.0-76.0; 1
 Dell; Dell Super VGA; 0; 30.0-38.5; 50.0-90.0; 1
 Dell; Dell Super VGA Colour; 0; 29.0-38.0; 47.0-100.0; 1
 Dell; Dell Super VGA DL 1428 I/L; 0; 35.5; 87.0; 1
@@ -2786,7 +2785,6 @@ LG Electronics Inc.; LG 774FT PLUS; GSM437D; 30.0-71.0; 50.0-160.0; 1
 LG Electronics Inc.; LG 775E; GSM42E7; 30.0-70.0; 50.0-160.0; 1
 LG Electronics Inc.; LG 775FC; GSM42F5; 30.0-70.0; 50.0-160.0; 1
 LG Electronics Inc.; LG 775FT; GSM42D1; 30.0-70.0; 50.0-160.0; 1
-LG Electronics Inc.; LG 795FT; gsm42c6; 30.0-96.0; 50.0-160.0; 1
 LG Electronics Inc.; LG 775FT PLUS; GSM4349; 30.0-71.0; 50.0-160.0; 1
 LG Electronics Inc.; LG 775N; GSM42B9; 30.0-70.0; 50.0-160.0; 1
 LG Electronics Inc.; LG 776FM; GSM42F1; 30.0-71.0; 50.0-160.0; 1
@@ -2803,6 +2801,7 @@ LG Electronics Inc.; LG 787LE; GSM437E; 30.0-83.0; 50.0-75.0; 1
 LG Electronics Inc.; LG 78FT; GSM4298; 30.0-85.0; 50.0-160.0; 1
 LG Electronics Inc.; LG 793FT; GSM42EA; 30.0-96.0; 50.0-160.0; 1
 LG Electronics Inc.; LG 793FT PLUS; GSM42EB; 30.0-96.0; 50.0-160.0; 1
+LG Electronics Inc.; LG 795FT; GSM42C6; 30.0-96.0; 50.0-160.0; 1
 LG Electronics Inc.; LG 795FT; GSM42DC; 30.0-96.0; 50.0-160.0; 1
 LG Electronics Inc.; LG 795FT PLUS/795FT SUPER; GSM42DD; 30.0-96.0; 50.0-160.0; 1
 LG Electronics Inc.; LG 870LE; GSM4657; 30.0-80.0; 56.0-85.0; 1
@@ -3883,7 +3882,6 @@ NEC; NEC MultiSync 95; nec5dca; 31.0-96.0; 55.0-160.0; 1
 NEC; NEC MultiSync 95F; nec5dd2; 31.0-96.0; 55.0-160.0; 1
 NEC; NEC MultiSync A500; nec3d90; 31.0-65.0; 55.0-120.0; 1
 NEC; NEC MultiSync A500+; nec3dc2; 31.0-70.0; 55.0-120.0; 1
-NEC; NEC MultiSync A700; nec43d0; 31.0-65.0; 55.0-120.0; 1
 NEC; NEC MultiSync A700; nec43d0; 31.0-69.0; 55.0-120.0; 1
 NEC; NEC MultiSync A700+; nec43ee; 31.0-70.0; 55.0-120.0; 1
 NEC; NEC MultiSync A900; nec4be6; 31.0-92.0; 55.0-160.0; 1
