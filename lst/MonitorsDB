@@ -3839,7 +3839,6 @@ NEC; NEC F14T2L; nec00e6; 31.0-61.0; 59.0-76.0; 1
 NEC; NEC F15T1; nec00d2; 31.0-61.0; 59.0-76.0; 1
 NEC; NEC F727; NCI5015; 31.0-70.0; 50.0-160.0; 1
 NEC; NEC LCD1280; 0; 29.5-33.5; 60.0-62.0; 1
-NEC; NEC LCD1830; NEC65b1; 24-82; 55-85; 1280x1024
 NEC; NEC LCD200; nec2fb2; 24.0-62.0; 53.0-85.0; 1
 NEC; NEC LCD300; 0; 30.8-38.0; 55.0-72.8; 1
 NEC; NEC LCD300; nec-lcd300; 30.8-38.0; 55.0-72.8; 1
@@ -3956,7 +3955,7 @@ NEC; NEC MultiSync LCD1765; NEC6621; 31.0-83.0; 56.0-75.0; 1
 NEC; NEC MultiSync LCD1800; nec65a1; 24.0-80.0; 55.0-86.0; 1
 NEC; NEC MultiSync LCD1810; nec4786; 31.0-80.0; 56.0-76.0; 1
 NEC; NEC MultiSync LCD1810X; nec6594; 31.0-82.0; 56.0-85.0; 1
-NEC; NEC MultiSync LCD1830; NEC65B1; 24.0-82.0; 55.0-85.0; 1
+NEC; NEC MultiSync LCD1830; NEC65B1; 24.0-82.0; 55.0-85.0; 1280x1024
 NEC; NEC MultiSync LCD1850DX; NEC65B3; 31.0-82.0; 50.0-85.0; 1
 NEC; NEC MultiSync LCD1850E; NEC65D1; 31.0-82.0; 55.0-85.0; 1
 NEC; NEC MultiSync LCD1850X; NEC65C0; 31.0-82.0; 50.0-85.0; 1
@@ -4450,8 +4449,6 @@ Princeton; Princeton EO17; pgs003d; 30.0-70.0; 50.0-120.0; 1
 Princeton; Princeton EO2000; pgs00f6; 30.0-115.0; 50.0-160.0; 1
 Princeton; Princeton EO2010; pgs00ce; 30.0-117.0; 50.0-160.0; 1
 Princeton; Princeton EO40; pgs004e; 30.0-50.0; 50.0-90.0; 1
-Princeton; Princeton EO40; pgs004e; 48.0; 50.0-120.0; 1
-Princeton; Princeton EO400; pgs009d; 30.0-54.0; 50.0-90.0; 1
 Princeton; Princeton EO400; pgs009d; 30.0-54.0; 55.0-90.0; 1
 Princeton; Princeton EO50; pgs004f; 30.0-70.0; 50.0-120.0; 1
 Princeton; Princeton EO500; pgs008e; 30.0-70.0; 50.0-120.0; 1
