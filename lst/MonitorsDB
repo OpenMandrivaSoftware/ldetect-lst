@@ -2453,7 +2453,7 @@ Iiyama; Iiyama DR-3114; dr-3114; 38.0; 43.0-70.0; 1
 Iiyama; Iiyama HM204DT, VisionMaster Pro 514; IVM216a; 30.0-142.0; 50.0-200.0; 1
 Iiyama; Iiyama HM704UTC, Diamondtron; ivm175c; 30.0-96.0; 50-160; 1
 Iiyama; Iiyama HM903DT, VisionMaster Pro 454; ivm1942; 30-132; 45-200; 1
-Iiyama; Iiyama LS902U; IVM1938; 30-96; 50-160; 
+Iiyama; Iiyama LS902U; IVM1938; 30-96; 50-160
 Iiyama; Iiyama MA201D, VisionMaster Pro 511; ivm2150; 30.0-110.0; 50.0-180.0; 1
 Iiyama; Iiyama MA901U, VisionMaster Pro 452; ivm1928; 30.0-96.0; 50.0-180.0; 1
 Iiyama; Iiyama MF-5014A; mf-5014a; 15.5-38.5; 50.0-90.0; 1
@@ -3392,8 +3392,8 @@ LG Electronics Inc.; LG StudioWorks 78T; gsm426b; 30.0-85.0; 50.0-120.0; 1
 LG Electronics Inc.; LG StudioWorks 78T; gsm426d; 30.0-85.0; 50.0-120.0; 1
 LG Electronics Inc.; LG StudioWorks 7D; GSM427E; 30.0-65.0; 50.0-120.0; 1
 LG Electronics Inc.; LG StudioWorks 7DT; gsm4281; 30.0-65.0; 50.0-120.0; 1
-LG Electronics Inc.; LG StudioWorks 995E; gsm4a4c; 30.0-96.0; 50.0-160.0; 1
 LG Electronics Inc.; LG StudioWorks 880LC; GSM4658; 30.0-80.0; 56.0-85.0; 1
+LG Electronics Inc.; LG StudioWorks 995E; gsm4a4c; 30.0-96.0; 50.0-160.0; 1
 LG Electronics Inc.; LG T530B; GSM3BA8; 30.0-54.0; 50.0-120.0; 1
 LG Electronics Inc.; LG T530S; GSM3BA9; 30.0-54.0; 50.0-120.0; 1
 LG Electronics Inc.; LG T705B; GSM43A2; 30.0-71.0; 50.0-160.0; 1
@@ -3580,7 +3580,7 @@ Maxdata Computer; Maxdata Belinea 10 50 95; max3539; 30.0-64.0; 55.0-90.0; 1
 Maxdata Computer; Maxdata Belinea 10 55 75; max7555; 30.0-69.0; 50.0-120.0; 1
 MED; MED 2914; MED2914; 30-98; 50-120
 MegaImage; MegaImage 17; 106; 30-64; 50-100
-Megavision; MV173 LCD; ate8506;  31.0-80.0; 58.0-75.0; 
+Megavision; MV173 LCD; ate8506; 31.0-80.0; 58.0-75.0 
 Microtec; Microtec MD15-9; PBR023c; 30.0-70.0; 50.0-150.0; 1
 Microvitec, Inc.; Microvitec 1020/LP; 1020lp; 15.0-36.5; 45.0-100.0; 1
 Microvitec, Inc.; Microvitec 1020/SP; 1020sp; 15.0-36.5; 45.0-100.0; 1
@@ -4220,7 +4220,7 @@ Packard Bell; Packard Bell PnP 7480; pbn7483; 30.0-69.0; 50.0-90.0; 1
 Packard Bell; Packard Bell PnP 7480 (for Europe 3G); pbn7101; 30.0-70.0; 30.0-122.0; 1
 Packard Bell; Packard Bell PnP 7680; pbn7683; 30.0-69.0; 50.0-90.0; 1
 Packard Bell; Packard Bell Pnp LCD15; pbn5105; 60.0; 75.0; 1
-Panasonic; Panasonic 264a; MEI264a; 30-61; 50-120; 
+Panasonic; Panasonic 264a; MEI264a; 30-61; 50-120
 Panasonic; Panasonic C-1591E; 7e_f; 30-69; 50-160; 1
 Panasonic; Panasonic C-1591EA; 7e_e; 30-69; 50-160; 1
 Panasonic; Panasonic C1491; mp2; 30-49; 50-90; 1
@@ -4231,7 +4231,7 @@ Panasonic; Panasonic C2192P; mei1603; 30-82; 50-160; 1
 Panasonic; Panasonic E15; mei2618; 30-61; 50-90; 1
 Panasonic; Panasonic E21; mei1638; 30-89; 50-160; 1
 Panasonic; Panasonic E50; mei2637; 30.0-61.0; 50.0-120.0; 1
-Panasonic; Panasonic E70i; MEI2c03; 30.0-70.0; 50.0-180.0; 1
+Panasonic; Panasonic E70i; mei2c03; 30.0-70.0; 50.0-180.0; 1
 Panasonic; Panasonic LC40; mei1e02; 24.0-61.0; 50.0-77.0; 1
 Panasonic; Panasonic LC50S (TX-D5L31F); mei1e07; 30.0-61.0; 50.0-77.0; 1
 Panasonic; Panasonic P15; mei2617; 30-69; 50-160; 1
