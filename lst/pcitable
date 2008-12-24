@@ -436,6 +436,8 @@
 0x1002	0x944c	"Card:ATI Radeon X1300 and later"
 0x1002	0x944e	"Card:ATI Radeon X1300 and later"
 0x1002	0x944f	"Card:ATI Radeon X1300 and later"
+0x1002	0x9450	"Card:ATI Radeon X1300 and later"
+0x1002	0x9452	"Card:ATI Radeon X1300 and later"
 0x1002	0x9456	"Card:ATI Radeon X1300 and later"
 0x1002	0x945a	"Card:ATI Radeon X1300 and later"
 0x1002	0x945b	"Card:ATI Radeon X1300 and later"
