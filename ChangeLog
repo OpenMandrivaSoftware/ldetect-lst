@@ -1,3 +1,1588 @@
+2009-01-12 04:55  Adam Williamson <awilliamson at mandriva.com>
+
+	* Makefile, NEWS: bump release and update NEWS
+
+2009-01-11 02:30  mandrake
+
+	* dkms-modules-info/2.6.28-desktop586-2mnb/drm.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/drm.description,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/i810.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/i810.description,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/mach64.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/mach64.description,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/mga.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/mga.description,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/nouveau.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/nouveau.description,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/r128.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/r128.description,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/radeon.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/radeon.description,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/savage.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/savage.description,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/sis.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/sis.description,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/tdfx.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/tdfx.description,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/via.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/via.description,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/xgi.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/xgi.description: add
+	  dkms info for drm-experimental with kernel 2.6.28-desktop586-2mnb
+
+2009-01-11 02:26  mandrake
+
+	* dkms-modules-info/2.6.28-desktop-2mnb/drm.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/drm.description,
+	  dkms-modules-info/2.6.28-desktop-2mnb/i810.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/i810.description,
+	  dkms-modules-info/2.6.28-desktop-2mnb/mach64.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/mach64.description,
+	  dkms-modules-info/2.6.28-desktop-2mnb/mga.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/mga.description,
+	  dkms-modules-info/2.6.28-desktop-2mnb/nouveau.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/nouveau.description,
+	  dkms-modules-info/2.6.28-desktop-2mnb/r128.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/r128.description,
+	  dkms-modules-info/2.6.28-desktop-2mnb/radeon.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/radeon.description,
+	  dkms-modules-info/2.6.28-desktop-2mnb/savage.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/savage.description,
+	  dkms-modules-info/2.6.28-desktop-2mnb/sis.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/sis.description,
+	  dkms-modules-info/2.6.28-desktop-2mnb/tdfx.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/tdfx.description,
+	  dkms-modules-info/2.6.28-desktop-2mnb/via.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/via.description,
+	  dkms-modules-info/2.6.28-desktop-2mnb/xgi.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/xgi.description: add dkms
+	  info for drm-experimental with kernel 2.6.28-desktop-2mnb
+
+2009-01-11 02:07  mandrake
+
+	* dkms-modules-info/2.6.28-server-2mnb/drm.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/drm.description,
+	  dkms-modules-info/2.6.28-server-2mnb/i810.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/i810.description,
+	  dkms-modules-info/2.6.28-server-2mnb/mach64.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/mach64.description,
+	  dkms-modules-info/2.6.28-server-2mnb/mga.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/mga.description,
+	  dkms-modules-info/2.6.28-server-2mnb/nouveau.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/nouveau.description,
+	  dkms-modules-info/2.6.28-server-2mnb/r128.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/r128.description,
+	  dkms-modules-info/2.6.28-server-2mnb/radeon.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/radeon.description,
+	  dkms-modules-info/2.6.28-server-2mnb/savage.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/savage.description,
+	  dkms-modules-info/2.6.28-server-2mnb/sis.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/sis.description,
+	  dkms-modules-info/2.6.28-server-2mnb/tdfx.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/tdfx.description,
+	  dkms-modules-info/2.6.28-server-2mnb/via.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/via.description,
+	  dkms-modules-info/2.6.28-server-2mnb/xgi.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/xgi.description: add dkms
+	  info for drm-experimental with kernel 2.6.28-server-2mnb
+
+2009-01-10 05:06  mandrake
+
+	* dkms-modules-info/2.6.28-desktop586-2mnb/mod_quickcam.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/mod_quickcam.description:
+	  add dkms info for qc-usb with kernel 2.6.28-desktop586-2mnb
+
+2009-01-10 02:30  mandrake
+
+	* dkms-modules-info/2.6.28-desktop-2mnb/mod_quickcam.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/mod_quickcam.description:
+	  add dkms info for qc-usb with kernel 2.6.28-desktop-2mnb
+
+2009-01-10 02:30  mandrake
+
+	* dkms-modules-info/2.6.28-server-2mnb/mod_quickcam.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/mod_quickcam.description:
+	  add dkms info for qc-usb with kernel 2.6.28-server-2mnb
+
+2009-01-09 19:31  Adam Williamson <awilliamson at mandriva.com>
+
+	* lst/Cards+, lst/pcitable: adjust 7050 group to include 9400 GT
+	  (cards that don't work with nv)
+
+2009-01-09 19:24  Adam Williamson <awilliamson at mandriva.com>
+
+	* lst/pcitable: add new NVIDIA ID (I know it exists cos I just
+	  bought one)
+
+2009-01-07 02:25  mandrake
+
+	* dkms-modules-info/2.6.28-desktop586-2mnb/nvidia173.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/nvidia173.description:
+	  add dkms info for nvidia173 with kernel 2.6.28-desktop586-2mnb
+
+2009-01-07 02:25  mandrake
+
+	* dkms-modules-info/2.6.28-desktop-2mnb/nvidia173.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/nvidia173.description: add
+	  dkms info for nvidia173 with kernel 2.6.28-desktop-2mnb
+
+2009-01-07 02:05  mandrake
+
+	* dkms-modules-info/2.6.28-desktop-1mnb,
+	  dkms-modules-info/2.6.28-desktop-1mnb/nvidia173.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/nvidia173.description: add
+	  dkms info for nvidia173 with kernel 2.6.28-desktop-1mnb
+
+2009-01-07 02:05  mandrake
+
+	* dkms-modules-info/2.6.28-server-2mnb/nvidia173.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/nvidia173.description: add
+	  dkms info for nvidia173 with kernel 2.6.28-server-2mnb
+
+2009-01-06 11:24  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* dkms-modules-info/2.6.27.7-desktop586-3mnb,
+	  dkms-modules-info/2.6.27.7-server-3mnb,
+	  dkms-modules-info/2.6.28-desktop-0.rc8.1mnb,
+	  dkms-modules-info/2.6.28-desktop-1mnb,
+	  dkms-modules-info/2.6.28-desktop586-0.rc8.1mnb,
+	  dkms-modules-info/2.6.28-desktop586-1mnb,
+	  dkms-modules-info/2.6.28-server-0.rc8.1mnb,
+	  dkms-modules-info/2.6.28-server-1mnb: kill duplicated data
+
+2009-01-04 02:25  mandrake
+
+	* dkms-modules-info/2.6.28-desktop586-2mnb/gl860.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/gl860.description: add
+	  dkms info for gl860 with kernel 2.6.28-desktop586-2mnb
+
+2009-01-04 02:10  mandrake
+
+	* dkms-modules-info/2.6.28-desktop-0.rc8.1mnb/gl860.alias,
+	  dkms-modules-info/2.6.28-desktop-0.rc8.1mnb/gl860.description:
+	  add dkms info for gl860 with kernel 2.6.28-desktop-0.rc8.1mnb
+
+2009-01-04 02:10  mandrake
+
+	* dkms-modules-info/2.6.28-server-0.rc8.1mnb/gl860.alias,
+	  dkms-modules-info/2.6.28-server-0.rc8.1mnb/gl860.description: add
+	  dkms info for gl860 with kernel 2.6.28-server-0.rc8.1mnb
+
+2008-12-31 05:41  mandrake
+
+	* dkms-modules-info/2.6.28-desktop586-2mnb/stk11xx.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/stk11xx.description: add
+	  dkms info for syntek with kernel 2.6.28-desktop586-2mnb
+
+2008-12-31 05:41  mandrake
+
+	* dkms-modules-info/2.6.28-desktop586-2mnb/omfs.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/omfs.description: add
+	  dkms info for omfs with kernel 2.6.28-desktop586-2mnb
+
+2008-12-31 05:40  mandrake
+
+	* dkms-modules-info/2.6.28-desktop586-2mnb/kqemu.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/kqemu.description: add
+	  dkms info for kqemu with kernel 2.6.28-desktop586-2mnb
+
+2008-12-31 05:30  mandrake
+
+	* dkms-modules-info/2.6.28-desktop586-2mnb/rt2860sta.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/rt2860sta.description:
+	  add dkms info for rt2860 with kernel 2.6.28-desktop586-2mnb
+
+2008-12-31 05:30  mandrake
+
+	* dkms-modules-info/2.6.28-desktop586-2mnb/ov51x-jpeg.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/ov51x-jpeg.description:
+	  add dkms info for ov51x-jpeg with kernel 2.6.28-desktop586-2mnb
+
+2008-12-31 05:26  mandrake
+
+	* dkms-modules-info/2.6.28-desktop586-2mnb/rt2870sta.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/rt2870sta.description:
+	  add dkms info for rt2870 with kernel 2.6.28-desktop586-2mnb
+
+2008-12-31 05:26  mandrake
+
+	* dkms-modules-info/2.6.28-desktop586-2mnb/hso.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/hso.description: add
+	  dkms info for hso with kernel 2.6.28-desktop586-2mnb
+
+2008-12-31 05:25  mandrake
+
+	* dkms-modules-info/2.6.28-desktop586-2mnb/hdaps.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/hdaps.description,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/thinkpad_ec.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/thinkpad_ec.description,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/tp_smapi.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/tp_smapi.description:
+	  add dkms info for tp_smapi with kernel 2.6.28-desktop586-2mnb
+
+2008-12-31 05:14  mandrake
+
+	* dkms-modules-info/2.6.28-desktop586-2mnb/et131x.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/et131x.description: add
+	  dkms info for et131x with kernel 2.6.28-desktop586-2mnb
+
+2008-12-31 04:26  mandrake
+
+	* dkms-modules-info/2.6.28-desktop586-2mnb/ieee80211-rtl.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/ieee80211-rtl.description,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/ieee80211_crypt-rtl.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/ieee80211_crypt-rtl.description,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/ieee80211_crypt_ccmp-rtl.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/ieee80211_crypt_ccmp-rtl.description,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/ieee80211_crypt_tkip-rtl.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/ieee80211_crypt_tkip-rtl.description,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/ieee80211_crypt_wep-rtl.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/ieee80211_crypt_wep-rtl.description,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/r8180.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/r8180.description: add
+	  dkms info for rtl8187se with kernel 2.6.28-desktop586-2mnb
+
+2008-12-31 04:26  mandrake
+
+	* dkms-modules-info/2.6.28-desktop586-2mnb/omnibook.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/omnibook.description:
+	  add dkms info for omnibook with kernel 2.6.28-desktop586-2mnb
+
+2008-12-31 04:25  mandrake
+
+	* dkms-modules-info/2.6.28-desktop586-2mnb/cbm.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/cbm.description: add
+	  dkms info for opencbm with kernel 2.6.28-desktop586-2mnb
+
+2008-12-31 04:10  mandrake
+
+	* dkms-modules-info/2.6.28-desktop586-2mnb/alsa_raoppcm.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/alsa_raoppcm.description:
+	  add dkms info for alsa_raoppcm with kernel 2.6.28-desktop586-2mnb
+
+2008-12-31 04:05  mandrake
+
+	* dkms-modules-info/2.6.28-desktop586-2mnb/vboxvfs.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/vboxvfs.description: add
+	  dkms info for vboxvfs with kernel 2.6.28-desktop586-2mnb
+
+2008-12-31 03:52  mandrake
+
+	* dkms-modules-info/2.6.28-desktop-2mnb/hdaps.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/hdaps.description,
+	  dkms-modules-info/2.6.28-desktop-2mnb/thinkpad_ec.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/thinkpad_ec.description,
+	  dkms-modules-info/2.6.28-desktop-2mnb/tp_smapi.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/tp_smapi.description: add
+	  dkms info for tp_smapi with kernel 2.6.28-desktop-2mnb
+
+2008-12-31 03:51  mandrake
+
+	* dkms-modules-info/2.6.28-server-2mnb/rt2860sta.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/rt2860sta.description: add
+	  dkms info for rt2860 with kernel 2.6.28-server-2mnb
+
+2008-12-31 03:51  mandrake
+
+	* dkms-modules-info/2.6.28-desktop-2mnb/hso.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/hso.description: add dkms
+	  info for hso with kernel 2.6.28-desktop-2mnb
+
+2008-12-31 03:51  mandrake
+
+	* dkms-modules-info/2.6.28-desktop586-2mnb/libafs.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/libafs.description: add
+	  dkms info for libafs with kernel 2.6.28-desktop586-2mnb
+
+2008-12-31 03:51  mandrake
+
+	* dkms-modules-info/2.6.28-server-2mnb/alsa_raoppcm.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/alsa_raoppcm.description:
+	  add dkms info for alsa_raoppcm with kernel 2.6.28-server-2mnb
+
+2008-12-31 03:51  mandrake
+
+	* dkms-modules-info/2.6.28-server-2mnb/omfs.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/omfs.description: add dkms
+	  info for omfs with kernel 2.6.28-server-2mnb
+
+2008-12-31 03:51  mandrake
+
+	* dkms-modules-info/2.6.28-desktop-2mnb/alsa_raoppcm.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/alsa_raoppcm.description:
+	  add dkms info for alsa_raoppcm with kernel 2.6.28-desktop-2mnb
+
+2008-12-31 03:50  mandrake
+
+	* dkms-modules-info/2.6.28-server-2mnb/ov51x-jpeg.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/ov51x-jpeg.description: add
+	  dkms info for ov51x-jpeg with kernel 2.6.28-server-2mnb
+
+2008-12-31 03:50  mandrake
+
+	* dkms-modules-info/2.6.28-desktop-2mnb/rt2860sta.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/rt2860sta.description: add
+	  dkms info for rt2860 with kernel 2.6.28-desktop-2mnb
+
+2008-12-31 03:50  mandrake
+
+	* dkms-modules-info/2.6.28-desktop-2mnb/ov51x-jpeg.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/ov51x-jpeg.description: add
+	  dkms info for ov51x-jpeg with kernel 2.6.28-desktop-2mnb
+
+2008-12-31 03:50  mandrake
+
+	* dkms-modules-info/2.6.28-server-2mnb/hdaps.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/hdaps.description,
+	  dkms-modules-info/2.6.28-server-2mnb/thinkpad_ec.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/thinkpad_ec.description,
+	  dkms-modules-info/2.6.28-server-2mnb/tp_smapi.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/tp_smapi.description: add
+	  dkms info for tp_smapi with kernel 2.6.28-server-2mnb
+
+2008-12-31 03:50  mandrake
+
+	* dkms-modules-info/2.6.28-desktop-2mnb/omfs.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/omfs.description: add dkms
+	  info for omfs with kernel 2.6.28-desktop-2mnb
+
+2008-12-31 03:42  mandrake
+
+	* dkms-modules-info/2.6.28-desktop-2mnb/stk11xx.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/stk11xx.description: add
+	  dkms info for syntek with kernel 2.6.28-desktop-2mnb
+
+2008-12-31 03:42  mandrake
+
+	* dkms-modules-info/2.6.28-desktop586-2mnb/vboxadd.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/vboxadd.description: add
+	  dkms info for vboxadd with kernel 2.6.28-desktop586-2mnb
+
+2008-12-31 03:42  mandrake
+
+	* dkms-modules-info/2.6.28-server-2mnb/stk11xx.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/stk11xx.description: add
+	  dkms info for syntek with kernel 2.6.28-server-2mnb
+
+2008-12-31 03:42  mandrake
+
+	* dkms-modules-info/2.6.28-desktop-2mnb/kqemu.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/kqemu.description: add dkms
+	  info for kqemu with kernel 2.6.28-desktop-2mnb
+
+2008-12-31 03:42  mandrake
+
+	* dkms-modules-info/2.6.28-server-2mnb/rt2870sta.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/rt2870sta.description: add
+	  dkms info for rt2870 with kernel 2.6.28-server-2mnb
+
+2008-12-31 03:41  mandrake
+
+	* dkms-modules-info/2.6.28-server-2mnb/kqemu.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/kqemu.description: add dkms
+	  info for kqemu with kernel 2.6.28-server-2mnb
+
+2008-12-31 03:41  mandrake
+
+	* dkms-modules-info/2.6.28-server-2mnb/hso.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/hso.description: add dkms
+	  info for hso with kernel 2.6.28-server-2mnb
+
+2008-12-31 03:41  mandrake
+
+	* dkms-modules-info/2.6.28-desktop586-2mnb/commandir.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/commandir.description,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/lirc_atiusb.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/lirc_atiusb.description,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/lirc_bt829.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/lirc_bt829.description,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/lirc_cmdir.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/lirc_cmdir.description,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/lirc_dev.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/lirc_dev.description,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/lirc_i2c.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/lirc_i2c.description,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/lirc_igorplugusb.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/lirc_igorplugusb.description,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/lirc_imon.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/lirc_imon.description,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/lirc_it87.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/lirc_it87.description,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/lirc_ite8709.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/lirc_ite8709.description,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/lirc_mceusb.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/lirc_mceusb.description,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/lirc_mceusb2.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/lirc_mceusb2.description,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/lirc_sasem.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/lirc_sasem.description,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/lirc_serial.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/lirc_serial.description,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/lirc_sir.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/lirc_sir.description,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/lirc_streamzap.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/lirc_streamzap.description,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/lirc_ttusbir.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/lirc_ttusbir.description:
+	  add dkms info for lirc with kernel 2.6.28-desktop586-2mnb
+
+2008-12-31 03:40  mandrake
+
+	* dkms-modules-info/2.6.28-desktop-2mnb/rt2870sta.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/rt2870sta.description: add
+	  dkms info for rt2870 with kernel 2.6.28-desktop-2mnb
+
+2008-12-31 03:35  mandrake
+
+	* dkms-modules-info/2.6.28-desktop-2mnb/et131x.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/et131x.description: add
+	  dkms info for et131x with kernel 2.6.28-desktop-2mnb
+
+2008-12-31 03:35  mandrake
+
+	* dkms-modules-info/2.6.28-server-2mnb/sqlzma.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/sqlzma.description,
+	  dkms-modules-info/2.6.28-server-2mnb/unlzma.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/unlzma.description: add dkms
+	  info for lzma with kernel 2.6.28-server-2mnb
+
+2008-12-31 03:35  mandrake
+
+	* dkms-modules-info/2.6.28-desktop586-2mnb/vboxdrv.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/vboxdrv.description,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/vboxnetflt.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/vboxnetflt.description:
+	  add dkms info for virtualbox with kernel 2.6.28-desktop586-2mnb
+
+2008-12-31 03:25  mandrake
+
+	* dkms-modules-info/2.6.28-server-2mnb/et131x.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/et131x.description: add dkms
+	  info for et131x with kernel 2.6.28-server-2mnb
+
+2008-12-31 03:20  mandrake
+
+	* dkms-modules-info/2.6.28-desktop-2mnb/cbm.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/cbm.description: add dkms
+	  info for opencbm with kernel 2.6.28-desktop-2mnb
+
+2008-12-31 03:19  mandrake
+
+	* dkms-modules-info/2.6.28-server-2mnb/vboxadd.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/vboxadd.description: add
+	  dkms info for vboxadd with kernel 2.6.28-server-2mnb
+
+2008-12-31 03:10  mandrake
+
+	* dkms-modules-info/2.6.28-desktop-2mnb/slamr.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/slamr.description: add dkms
+	  info for slmodem with kernel 2.6.28-desktop-2mnb
+
+2008-12-31 03:08  mandrake
+
+	* dkms-modules-info/2.6.28-desktop-2mnb/commandir.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/commandir.description,
+	  dkms-modules-info/2.6.28-desktop-2mnb/lirc_atiusb.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/lirc_atiusb.description,
+	  dkms-modules-info/2.6.28-desktop-2mnb/lirc_bt829.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/lirc_bt829.description,
+	  dkms-modules-info/2.6.28-desktop-2mnb/lirc_cmdir.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/lirc_cmdir.description,
+	  dkms-modules-info/2.6.28-desktop-2mnb/lirc_dev.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/lirc_dev.description,
+	  dkms-modules-info/2.6.28-desktop-2mnb/lirc_i2c.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/lirc_i2c.description,
+	  dkms-modules-info/2.6.28-desktop-2mnb/lirc_igorplugusb.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/lirc_igorplugusb.description,
+	  dkms-modules-info/2.6.28-desktop-2mnb/lirc_imon.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/lirc_imon.description,
+	  dkms-modules-info/2.6.28-desktop-2mnb/lirc_it87.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/lirc_it87.description,
+	  dkms-modules-info/2.6.28-desktop-2mnb/lirc_ite8709.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/lirc_ite8709.description,
+	  dkms-modules-info/2.6.28-desktop-2mnb/lirc_mceusb.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/lirc_mceusb.description,
+	  dkms-modules-info/2.6.28-desktop-2mnb/lirc_mceusb2.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/lirc_mceusb2.description,
+	  dkms-modules-info/2.6.28-desktop-2mnb/lirc_sasem.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/lirc_sasem.description,
+	  dkms-modules-info/2.6.28-desktop-2mnb/lirc_serial.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/lirc_serial.description,
+	  dkms-modules-info/2.6.28-desktop-2mnb/lirc_sir.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/lirc_sir.description,
+	  dkms-modules-info/2.6.28-desktop-2mnb/lirc_streamzap.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/lirc_streamzap.description,
+	  dkms-modules-info/2.6.28-desktop-2mnb/lirc_ttusbir.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/lirc_ttusbir.description:
+	  add dkms info for lirc with kernel 2.6.28-desktop-2mnb
+
+2008-12-31 03:06  mandrake
+
+	* dkms-modules-info/2.6.28-desktop586-2mnb/nvidia-current.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/nvidia-current.description:
+	  add dkms info for nvidia-current with kernel
+	  2.6.28-desktop586-2mnb
+
+2008-12-31 03:06  mandrake
+
+	* dkms-modules-info/2.6.28-server-2mnb/omnibook.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/omnibook.description: add
+	  dkms info for omnibook with kernel 2.6.28-server-2mnb
+
+2008-12-31 03:06  mandrake
+
+	* dkms-modules-info/2.6.28-server-2mnb/ieee80211-rtl.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/ieee80211-rtl.description,
+	  dkms-modules-info/2.6.28-server-2mnb/ieee80211_crypt-rtl.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/ieee80211_crypt-rtl.description,
+	  dkms-modules-info/2.6.28-server-2mnb/ieee80211_crypt_ccmp-rtl.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/ieee80211_crypt_ccmp-rtl.description,
+	  dkms-modules-info/2.6.28-server-2mnb/ieee80211_crypt_tkip-rtl.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/ieee80211_crypt_tkip-rtl.description,
+	  dkms-modules-info/2.6.28-server-2mnb/ieee80211_crypt_wep-rtl.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/ieee80211_crypt_wep-rtl.description,
+	  dkms-modules-info/2.6.28-server-2mnb/r8180.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/r8180.description: add dkms
+	  info for rtl8187se with kernel 2.6.28-server-2mnb
+
+2008-12-31 03:06  mandrake
+
+	* dkms-modules-info/2.6.28-desktop586-2mnb/fglrx.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/fglrx.description: add
+	  dkms info for fglrx with kernel 2.6.28-desktop586-2mnb
+
+2008-12-31 03:06  mandrake
+
+	* dkms-modules-info/2.6.28-desktop-2mnb/ieee80211-rtl.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/ieee80211-rtl.description,
+	  dkms-modules-info/2.6.28-desktop-2mnb/ieee80211_crypt-rtl.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/ieee80211_crypt-rtl.description,
+	  dkms-modules-info/2.6.28-desktop-2mnb/ieee80211_crypt_ccmp-rtl.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/ieee80211_crypt_ccmp-rtl.description,
+	  dkms-modules-info/2.6.28-desktop-2mnb/ieee80211_crypt_tkip-rtl.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/ieee80211_crypt_tkip-rtl.description,
+	  dkms-modules-info/2.6.28-desktop-2mnb/ieee80211_crypt_wep-rtl.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/ieee80211_crypt_wep-rtl.description,
+	  dkms-modules-info/2.6.28-desktop-2mnb/r8180.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/r8180.description: add dkms
+	  info for rtl8187se with kernel 2.6.28-desktop-2mnb
+
+2008-12-31 03:05  mandrake
+
+	* dkms-modules-info/2.6.28-server-2mnb/cbm.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/cbm.description: add dkms
+	  info for opencbm with kernel 2.6.28-server-2mnb
+
+2008-12-31 03:05  mandrake
+
+	* dkms-modules-info/2.6.28-desktop-2mnb/omnibook.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/omnibook.description: add
+	  dkms info for omnibook with kernel 2.6.28-desktop-2mnb
+
+2008-12-31 02:52  mandrake
+
+	* dkms-modules-info/2.6.28-desktop586-2mnb/nvidia96xx.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/nvidia96xx.description:
+	  add dkms info for nvidia96xx with kernel 2.6.28-desktop586-2mnb
+
+2008-12-31 02:52  mandrake
+
+	* dkms-modules-info/2.6.28-desktop586-2mnb/ath_hal.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/ath_hal.description,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/ath_pci.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/ath_pci.description,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/ath_rate_amrr.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/ath_rate_amrr.description,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/ath_rate_onoe.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/ath_rate_onoe.description,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/ath_rate_sample.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/ath_rate_sample.description,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/wlan.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/wlan.description,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/wlan_acl.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/wlan_acl.description,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/wlan_ccmp.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/wlan_ccmp.description,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/wlan_scan_ap.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/wlan_scan_ap.description,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/wlan_scan_sta.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/wlan_scan_sta.description,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/wlan_tkip.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/wlan_tkip.description,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/wlan_wep.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/wlan_wep.description,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/wlan_xauth.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/wlan_xauth.description:
+	  add dkms info for madwifi with kernel 2.6.28-desktop586-2mnb
+
+2008-12-31 02:51  mandrake
+
+	* dkms-modules-info/2.6.28-server-2mnb/slamr.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/slamr.description: add dkms
+	  info for slmodem with kernel 2.6.28-server-2mnb
+
+2008-12-31 02:51  mandrake
+
+	* dkms-modules-info/2.6.28-server-2mnb/commandir.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/commandir.description,
+	  dkms-modules-info/2.6.28-server-2mnb/lirc_atiusb.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/lirc_atiusb.description,
+	  dkms-modules-info/2.6.28-server-2mnb/lirc_bt829.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/lirc_bt829.description,
+	  dkms-modules-info/2.6.28-server-2mnb/lirc_cmdir.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/lirc_cmdir.description,
+	  dkms-modules-info/2.6.28-server-2mnb/lirc_dev.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/lirc_dev.description,
+	  dkms-modules-info/2.6.28-server-2mnb/lirc_i2c.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/lirc_i2c.description,
+	  dkms-modules-info/2.6.28-server-2mnb/lirc_igorplugusb.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/lirc_igorplugusb.description,
+	  dkms-modules-info/2.6.28-server-2mnb/lirc_imon.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/lirc_imon.description,
+	  dkms-modules-info/2.6.28-server-2mnb/lirc_it87.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/lirc_it87.description,
+	  dkms-modules-info/2.6.28-server-2mnb/lirc_ite8709.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/lirc_ite8709.description,
+	  dkms-modules-info/2.6.28-server-2mnb/lirc_mceusb.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/lirc_mceusb.description,
+	  dkms-modules-info/2.6.28-server-2mnb/lirc_mceusb2.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/lirc_mceusb2.description,
+	  dkms-modules-info/2.6.28-server-2mnb/lirc_sasem.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/lirc_sasem.description,
+	  dkms-modules-info/2.6.28-server-2mnb/lirc_serial.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/lirc_serial.description,
+	  dkms-modules-info/2.6.28-server-2mnb/lirc_sir.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/lirc_sir.description,
+	  dkms-modules-info/2.6.28-server-2mnb/lirc_streamzap.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/lirc_streamzap.description,
+	  dkms-modules-info/2.6.28-server-2mnb/lirc_ttusbir.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/lirc_ttusbir.description:
+	  add dkms info for lirc with kernel 2.6.28-server-2mnb
+
+2008-12-31 02:50  mandrake
+
+	* dkms-modules-info/2.6.28-desktop586-2mnb/slamr.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/slamr.description: add
+	  dkms info for slmodem with kernel 2.6.28-desktop586-2mnb
+
+2008-12-31 02:41  mandrake
+
+	* dkms-modules-info/2.6.28-desktop-2mnb/vboxdrv.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/vboxdrv.description,
+	  dkms-modules-info/2.6.28-desktop-2mnb/vboxnetflt.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/vboxnetflt.description: add
+	  dkms info for virtualbox with kernel 2.6.28-desktop-2mnb
+
+2008-12-31 02:41  mandrake
+
+	* dkms-modules-info/2.6.28-desktop-2mnb/vboxadd.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/vboxadd.description: add
+	  dkms info for vboxadd with kernel 2.6.28-desktop-2mnb
+
+2008-12-31 02:41  mandrake
+
+	* dkms-modules-info/2.6.28-server-2mnb/vboxdrv.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/vboxdrv.description,
+	  dkms-modules-info/2.6.28-server-2mnb/vboxnetflt.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/vboxnetflt.description: add
+	  dkms info for virtualbox with kernel 2.6.28-server-2mnb
+
+2008-12-31 02:41  mandrake
+
+	* dkms-modules-info/2.6.28-server-2mnb/vboxvfs.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/vboxvfs.description: add
+	  dkms info for vboxvfs with kernel 2.6.28-server-2mnb
+
+2008-12-31 02:41  mandrake
+
+	* dkms-modules-info/2.6.28-desktop-2mnb/libafs.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/libafs.description: add
+	  dkms info for libafs with kernel 2.6.28-desktop-2mnb
+
+2008-12-31 02:40  mandrake
+
+	* dkms-modules-info/2.6.28-desktop-2mnb/vboxvfs.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/vboxvfs.description: add
+	  dkms info for vboxvfs with kernel 2.6.28-desktop-2mnb
+
+2008-12-31 02:30  mandrake
+
+	* dkms-modules-info/2.6.28-desktop-2mnb/fcpci.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/fcpci.description: add dkms
+	  info for fcpci with kernel 2.6.28-desktop-2mnb
+
+2008-12-31 02:30  mandrake
+
+	* dkms-modules-info/2.6.28-server-2mnb/libafs.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/libafs.description: add dkms
+	  info for libafs with kernel 2.6.28-server-2mnb
+
+2008-12-31 02:30  mandrake
+
+	* dkms-modules-info/2.6.28-desktop586-2mnb/wl.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/wl.description: add dkms
+	  info for broadcom-wl with kernel 2.6.28-desktop586-2mnb
+
+2008-12-31 02:30  mandrake
+
+	* dkms-modules-info/2.6.28-server-2mnb/fcpci.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/fcpci.description: add dkms
+	  info for fcpci with kernel 2.6.28-server-2mnb
+
+2008-12-31 02:26  mandrake
+
+	* dkms-modules-info/2.6.28-desktop-2mnb/nvidia-current.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/nvidia-current.description:
+	  add dkms info for nvidia-current with kernel 2.6.28-desktop-2mnb
+
+2008-12-31 02:26  mandrake
+
+	* dkms-modules-info/2.6.28-server-2mnb/nvidia-current.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/nvidia-current.description:
+	  add dkms info for nvidia-current with kernel 2.6.28-server-2mnb
+
+2008-12-31 02:26  mandrake
+
+	* dkms-modules-info/2.6.28-server-2mnb/cisco_ipsec.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/cisco_ipsec.description: add
+	  dkms info for vpnclient with kernel 2.6.28-server-2mnb
+
+2008-12-31 02:25  mandrake
+
+	* dkms-modules-info/2.6.28-desktop586-2mnb/fcpci.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/fcpci.description: add
+	  dkms info for fcpci with kernel 2.6.28-desktop586-2mnb
+
+2008-12-31 02:25  mandrake
+
+	* dkms-modules-info/2.6.28-desktop586-2mnb,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/cisco_ipsec.alias,
+	  dkms-modules-info/2.6.28-desktop586-2mnb/cisco_ipsec.description:
+	  add dkms info for vpnclient with kernel 2.6.28-desktop586-2mnb
+
+2008-12-31 02:25  mandrake
+
+	* dkms-modules-info/2.6.28-desktop-2mnb/cisco_ipsec.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/cisco_ipsec.description:
+	  add dkms info for vpnclient with kernel 2.6.28-desktop-2mnb
+
+2008-12-31 02:25  mandrake
+
+	* dkms-modules-info/2.6.28-desktop-2mnb/wl.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/wl.description: add dkms
+	  info for broadcom-wl with kernel 2.6.28-desktop-2mnb
+
+2008-12-31 02:10  mandrake
+
+	* dkms-modules-info/2.6.28-server-2mnb/fglrx.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/fglrx.description: add dkms
+	  info for fglrx with kernel 2.6.28-server-2mnb
+
+2008-12-31 02:10  mandrake
+
+	* dkms-modules-info/2.6.28-server-2mnb/wl.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/wl.description: add dkms
+	  info for broadcom-wl with kernel 2.6.28-server-2mnb
+
+2008-12-31 02:10  mandrake
+
+	* dkms-modules-info/2.6.28-desktop-2mnb/fglrx.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/fglrx.description: add dkms
+	  info for fglrx with kernel 2.6.28-desktop-2mnb
+
+2008-12-31 02:06  mandrake
+
+	* dkms-modules-info/2.6.28-desktop-2mnb/ath_hal.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/ath_hal.description,
+	  dkms-modules-info/2.6.28-desktop-2mnb/ath_pci.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/ath_pci.description,
+	  dkms-modules-info/2.6.28-desktop-2mnb/ath_rate_amrr.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/ath_rate_amrr.description,
+	  dkms-modules-info/2.6.28-desktop-2mnb/ath_rate_onoe.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/ath_rate_onoe.description,
+	  dkms-modules-info/2.6.28-desktop-2mnb/ath_rate_sample.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/ath_rate_sample.description,
+	  dkms-modules-info/2.6.28-desktop-2mnb/wlan.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/wlan.description,
+	  dkms-modules-info/2.6.28-desktop-2mnb/wlan_acl.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/wlan_acl.description,
+	  dkms-modules-info/2.6.28-desktop-2mnb/wlan_ccmp.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/wlan_ccmp.description,
+	  dkms-modules-info/2.6.28-desktop-2mnb/wlan_scan_ap.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/wlan_scan_ap.description,
+	  dkms-modules-info/2.6.28-desktop-2mnb/wlan_scan_sta.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/wlan_scan_sta.description,
+	  dkms-modules-info/2.6.28-desktop-2mnb/wlan_tkip.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/wlan_tkip.description,
+	  dkms-modules-info/2.6.28-desktop-2mnb/wlan_wep.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/wlan_wep.description,
+	  dkms-modules-info/2.6.28-desktop-2mnb/wlan_xauth.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/wlan_xauth.description: add
+	  dkms info for madwifi with kernel 2.6.28-desktop-2mnb
+
+2008-12-31 02:05  mandrake
+
+	* dkms-modules-info/2.6.28-desktop-2mnb,
+	  dkms-modules-info/2.6.28-desktop-2mnb/nvidia96xx.alias,
+	  dkms-modules-info/2.6.28-desktop-2mnb/nvidia96xx.description: add
+	  dkms info for nvidia96xx with kernel 2.6.28-desktop-2mnb
+
+2008-12-31 02:05  mandrake
+
+	* dkms-modules-info/2.6.28-server-2mnb/ath_hal.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/ath_hal.description,
+	  dkms-modules-info/2.6.28-server-2mnb/ath_pci.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/ath_pci.description,
+	  dkms-modules-info/2.6.28-server-2mnb/ath_rate_amrr.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/ath_rate_amrr.description,
+	  dkms-modules-info/2.6.28-server-2mnb/ath_rate_onoe.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/ath_rate_onoe.description,
+	  dkms-modules-info/2.6.28-server-2mnb/ath_rate_sample.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/ath_rate_sample.description,
+	  dkms-modules-info/2.6.28-server-2mnb/wlan.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/wlan.description,
+	  dkms-modules-info/2.6.28-server-2mnb/wlan_acl.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/wlan_acl.description,
+	  dkms-modules-info/2.6.28-server-2mnb/wlan_ccmp.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/wlan_ccmp.description,
+	  dkms-modules-info/2.6.28-server-2mnb/wlan_scan_ap.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/wlan_scan_ap.description,
+	  dkms-modules-info/2.6.28-server-2mnb/wlan_scan_sta.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/wlan_scan_sta.description,
+	  dkms-modules-info/2.6.28-server-2mnb/wlan_tkip.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/wlan_tkip.description,
+	  dkms-modules-info/2.6.28-server-2mnb/wlan_wep.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/wlan_wep.description,
+	  dkms-modules-info/2.6.28-server-2mnb/wlan_xauth.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/wlan_xauth.description: add
+	  dkms info for madwifi with kernel 2.6.28-server-2mnb
+
+2008-12-31 02:05  mandrake
+
+	* dkms-modules-info/2.6.28-server-2mnb,
+	  dkms-modules-info/2.6.28-server-2mnb/nvidia96xx.alias,
+	  dkms-modules-info/2.6.28-server-2mnb/nvidia96xx.description: add
+	  dkms info for nvidia96xx with kernel 2.6.28-server-2mnb
+
+2008-12-30 04:06  mandrake
+
+	* dkms-modules-info/2.6.28-desktop-1mnb/alsa_raoppcm.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/alsa_raoppcm.description:
+	  add dkms info for alsa_raoppcm with kernel 2.6.28-desktop-1mnb
+
+2008-12-30 04:06  mandrake
+
+	* dkms-modules-info/2.6.28-server-1mnb/alsa_raoppcm.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/alsa_raoppcm.description:
+	  add dkms info for alsa_raoppcm with kernel 2.6.28-server-1mnb
+
+2008-12-30 04:06  mandrake
+
+	* dkms-modules-info/2.6.28-desktop-1mnb/omfs.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/omfs.description: add dkms
+	  info for omfs with kernel 2.6.28-desktop-1mnb
+
+2008-12-30 04:06  mandrake
+
+	* dkms-modules-info/2.6.28-server-1mnb/hdaps.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/hdaps.description,
+	  dkms-modules-info/2.6.28-server-1mnb/thinkpad_ec.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/thinkpad_ec.description,
+	  dkms-modules-info/2.6.28-server-1mnb/tp_smapi.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/tp_smapi.description: add
+	  dkms info for tp_smapi with kernel 2.6.28-server-1mnb
+
+2008-12-30 04:06  mandrake
+
+	* dkms-modules-info/2.6.28-server-1mnb/omfs.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/omfs.description: add dkms
+	  info for omfs with kernel 2.6.28-server-1mnb
+
+2008-12-30 04:06  mandrake
+
+	* dkms-modules-info/2.6.28-desktop-1mnb/hdaps.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/hdaps.description,
+	  dkms-modules-info/2.6.28-desktop-1mnb/thinkpad_ec.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/thinkpad_ec.description,
+	  dkms-modules-info/2.6.28-desktop-1mnb/tp_smapi.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/tp_smapi.description: add
+	  dkms info for tp_smapi with kernel 2.6.28-desktop-1mnb
+
+2008-12-30 04:05  mandrake
+
+	* dkms-modules-info/2.6.28-desktop-1mnb/rt2860sta.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/rt2860sta.description: add
+	  dkms info for rt2860 with kernel 2.6.28-desktop-1mnb
+
+2008-12-30 04:05  mandrake
+
+	* dkms-modules-info/2.6.28-desktop-1mnb/hso.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/hso.description: add dkms
+	  info for hso with kernel 2.6.28-desktop-1mnb
+
+2008-12-30 04:05  mandrake
+
+	* dkms-modules-info/2.6.28-server-1mnb/hso.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/hso.description: add dkms
+	  info for hso with kernel 2.6.28-server-1mnb
+
+2008-12-30 04:05  mandrake
+
+	* dkms-modules-info/2.6.28-server-1mnb/rt2860sta.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/rt2860sta.description: add
+	  dkms info for rt2860 with kernel 2.6.28-server-1mnb
+
+2008-12-30 04:05  mandrake
+
+	* dkms-modules-info/2.6.28-server-1mnb/ov51x-jpeg.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/ov51x-jpeg.description: add
+	  dkms info for ov51x-jpeg with kernel 2.6.28-server-1mnb
+
+2008-12-30 04:05  mandrake
+
+	* dkms-modules-info/2.6.28-desktop-1mnb/ov51x-jpeg.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/ov51x-jpeg.description: add
+	  dkms info for ov51x-jpeg with kernel 2.6.28-desktop-1mnb
+
+2008-12-30 03:51  mandrake
+
+	* dkms-modules-info/2.6.28-desktop586-1mnb/hdaps.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/hdaps.description,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/thinkpad_ec.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/thinkpad_ec.description,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/tp_smapi.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/tp_smapi.description:
+	  add dkms info for tp_smapi with kernel 2.6.28-desktop586-1mnb
+
+2008-12-30 03:51  mandrake
+
+	* dkms-modules-info/2.6.28-desktop586-1mnb/stk11xx.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/stk11xx.description: add
+	  dkms info for syntek with kernel 2.6.28-desktop586-1mnb
+
+2008-12-30 03:51  mandrake
+
+	* dkms-modules-info/2.6.28-desktop586-1mnb/kqemu.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/kqemu.description: add
+	  dkms info for kqemu with kernel 2.6.28-desktop586-1mnb
+
+2008-12-30 03:51  mandrake
+
+	* dkms-modules-info/2.6.28-server-1mnb/kqemu.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/kqemu.description: add dkms
+	  info for kqemu with kernel 2.6.28-server-1mnb
+
+2008-12-30 03:51  mandrake
+
+	* dkms-modules-info/2.6.28-desktop-1mnb/rt2870sta.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/rt2870sta.description: add
+	  dkms info for rt2870 with kernel 2.6.28-desktop-1mnb
+
+2008-12-30 03:50  mandrake
+
+	* dkms-modules-info/2.6.28-server-1mnb/stk11xx.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/stk11xx.description: add
+	  dkms info for syntek with kernel 2.6.28-server-1mnb
+
+2008-12-30 03:50  mandrake
+
+	* dkms-modules-info/2.6.28-desktop586-1mnb/ov51x-jpeg.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/ov51x-jpeg.description:
+	  add dkms info for ov51x-jpeg with kernel 2.6.28-desktop586-1mnb
+
+2008-12-30 03:50  mandrake
+
+	* dkms-modules-info/2.6.28-desktop-1mnb/et131x.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/et131x.description: add
+	  dkms info for et131x with kernel 2.6.28-desktop-1mnb
+
+2008-12-30 03:50  mandrake
+
+	* dkms-modules-info/2.6.28-desktop-1mnb/stk11xx.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/stk11xx.description: add
+	  dkms info for syntek with kernel 2.6.28-desktop-1mnb
+
+2008-12-30 03:50  mandrake
+
+	* dkms-modules-info/2.6.28-desktop586-1mnb/rt2860sta.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/rt2860sta.description:
+	  add dkms info for rt2860 with kernel 2.6.28-desktop586-1mnb
+
+2008-12-30 03:41  mandrake
+
+	* dkms-modules-info/2.6.28-desktop586-1mnb/rt2870sta.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/rt2870sta.description:
+	  add dkms info for rt2870 with kernel 2.6.28-desktop586-1mnb
+
+2008-12-30 03:41  mandrake
+
+	* dkms-modules-info/2.6.28-desktop586-1mnb/hso.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/hso.description: add
+	  dkms info for hso with kernel 2.6.28-desktop586-1mnb
+
+2008-12-30 03:41  mandrake
+
+	* dkms-modules-info/2.6.28-desktop586-1mnb/et131x.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/et131x.description: add
+	  dkms info for et131x with kernel 2.6.28-desktop586-1mnb
+
+2008-12-30 03:40  mandrake
+
+	* dkms-modules-info/2.6.28-server-1mnb/et131x.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/et131x.description: add dkms
+	  info for et131x with kernel 2.6.28-server-1mnb
+
+2008-12-30 03:40  mandrake
+
+	* dkms-modules-info/2.6.28-server-1mnb/rt2870sta.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/rt2870sta.description: add
+	  dkms info for rt2870 with kernel 2.6.28-server-1mnb
+
+2008-12-30 03:40  mandrake
+
+	* dkms-modules-info/2.6.28-desktop-1mnb/kqemu.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/kqemu.description: add dkms
+	  info for kqemu with kernel 2.6.28-desktop-1mnb
+
+2008-12-30 03:40  mandrake
+
+	* dkms-modules-info/2.6.28-desktop586-1mnb/omfs.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/omfs.description: add
+	  dkms info for omfs with kernel 2.6.28-desktop586-1mnb
+
+2008-12-30 03:06  mandrake
+
+	* dkms-modules-info/2.6.28-desktop-1mnb/cbm.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/cbm.description: add dkms
+	  info for opencbm with kernel 2.6.28-desktop-1mnb
+
+2008-12-30 03:06  mandrake
+
+	* dkms-modules-info/2.6.28-server-1mnb/cbm.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/cbm.description: add dkms
+	  info for opencbm with kernel 2.6.28-server-1mnb
+
+2008-12-30 03:06  mandrake
+
+	* dkms-modules-info/2.6.28-desktop586-1mnb/cbm.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/cbm.description: add
+	  dkms info for opencbm with kernel 2.6.28-desktop586-1mnb
+
+2008-12-30 03:06  mandrake
+
+	* dkms-modules-info/2.6.28-desktop586-1mnb/ieee80211-rtl.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/ieee80211-rtl.description,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/ieee80211_crypt-rtl.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/ieee80211_crypt-rtl.description,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/ieee80211_crypt_ccmp-rtl.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/ieee80211_crypt_ccmp-rtl.description,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/ieee80211_crypt_tkip-rtl.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/ieee80211_crypt_tkip-rtl.description,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/ieee80211_crypt_wep-rtl.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/ieee80211_crypt_wep-rtl.description,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/r8180.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/r8180.description: add
+	  dkms info for rtl8187se with kernel 2.6.28-desktop586-1mnb
+
+2008-12-30 03:06  mandrake
+
+	* dkms-modules-info/2.6.28-desktop586-1mnb/omnibook.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/omnibook.description:
+	  add dkms info for omnibook with kernel 2.6.28-desktop586-1mnb
+
+2008-12-30 03:06  mandrake
+
+	* dkms-modules-info/2.6.28-desktop586-1mnb/alsa_raoppcm.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/alsa_raoppcm.description:
+	  add dkms info for alsa_raoppcm with kernel 2.6.28-desktop586-1mnb
+
+2008-12-30 03:05  mandrake
+
+	* dkms-modules-info/2.6.28-desktop-1mnb/ieee80211-rtl.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/ieee80211-rtl.description,
+	  dkms-modules-info/2.6.28-desktop-1mnb/ieee80211_crypt-rtl.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/ieee80211_crypt-rtl.description,
+	  dkms-modules-info/2.6.28-desktop-1mnb/ieee80211_crypt_ccmp-rtl.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/ieee80211_crypt_ccmp-rtl.description,
+	  dkms-modules-info/2.6.28-desktop-1mnb/ieee80211_crypt_tkip-rtl.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/ieee80211_crypt_tkip-rtl.description,
+	  dkms-modules-info/2.6.28-desktop-1mnb/ieee80211_crypt_wep-rtl.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/ieee80211_crypt_wep-rtl.description,
+	  dkms-modules-info/2.6.28-desktop-1mnb/r8180.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/r8180.description: add dkms
+	  info for rtl8187se with kernel 2.6.28-desktop-1mnb
+
+2008-12-30 03:05  mandrake
+
+	* dkms-modules-info/2.6.28-server-1mnb/ieee80211-rtl.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/ieee80211-rtl.description,
+	  dkms-modules-info/2.6.28-server-1mnb/ieee80211_crypt-rtl.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/ieee80211_crypt-rtl.description,
+	  dkms-modules-info/2.6.28-server-1mnb/ieee80211_crypt_ccmp-rtl.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/ieee80211_crypt_ccmp-rtl.description,
+	  dkms-modules-info/2.6.28-server-1mnb/ieee80211_crypt_tkip-rtl.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/ieee80211_crypt_tkip-rtl.description,
+	  dkms-modules-info/2.6.28-server-1mnb/ieee80211_crypt_wep-rtl.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/ieee80211_crypt_wep-rtl.description,
+	  dkms-modules-info/2.6.28-server-1mnb/r8180.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/r8180.description: add dkms
+	  info for rtl8187se with kernel 2.6.28-server-1mnb
+
+2008-12-30 02:51  mandrake
+
+	* dkms-modules-info/2.6.28-desktop586-1mnb/sqlzma.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/sqlzma.description,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/unlzma.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/unlzma.description: add
+	  dkms info for lzma with kernel 2.6.28-desktop586-1mnb
+
+2008-12-30 02:51  mandrake
+
+	* dkms-modules-info/2.6.28-desktop586-1mnb/vboxvfs.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/vboxvfs.description: add
+	  dkms info for vboxvfs with kernel 2.6.28-desktop586-1mnb
+
+2008-12-30 02:51  mandrake
+
+	* dkms-modules-info/2.6.28-desktop586-1mnb/commandir.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/commandir.description,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/lirc_atiusb.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/lirc_atiusb.description,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/lirc_bt829.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/lirc_bt829.description,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/lirc_cmdir.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/lirc_cmdir.description,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/lirc_dev.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/lirc_dev.description,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/lirc_i2c.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/lirc_i2c.description,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/lirc_igorplugusb.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/lirc_igorplugusb.description,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/lirc_imon.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/lirc_imon.description,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/lirc_it87.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/lirc_it87.description,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/lirc_ite8709.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/lirc_ite8709.description,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/lirc_mceusb.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/lirc_mceusb.description,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/lirc_mceusb2.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/lirc_mceusb2.description,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/lirc_sasem.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/lirc_sasem.description,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/lirc_serial.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/lirc_serial.description,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/lirc_sir.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/lirc_sir.description,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/lirc_streamzap.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/lirc_streamzap.description,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/lirc_ttusbir.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/lirc_ttusbir.description:
+	  add dkms info for lirc with kernel 2.6.28-desktop586-1mnb
+
+2008-12-30 02:50  mandrake
+
+	* dkms-modules-info/2.6.28-server-1mnb/omnibook.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/omnibook.description: add
+	  dkms info for omnibook with kernel 2.6.28-server-1mnb
+
+2008-12-30 02:50  mandrake
+
+	* dkms-modules-info/2.6.28-desktop-1mnb/omnibook.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/omnibook.description: add
+	  dkms info for omnibook with kernel 2.6.28-desktop-1mnb
+
+2008-12-30 02:50  mandrake
+
+	* dkms-modules-info/2.6.28-desktop586-1mnb/libafs.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/libafs.description: add
+	  dkms info for libafs with kernel 2.6.28-desktop586-1mnb
+
+2008-12-30 02:50  mandrake
+
+	* dkms-modules-info/2.6.28-desktop586-1mnb/vboxadd.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/vboxadd.description: add
+	  dkms info for vboxadd with kernel 2.6.28-desktop586-1mnb
+
+2008-12-30 02:42  mandrake
+
+	* dkms-modules-info/2.6.28-desktop586-1mnb/nvidia-current.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/nvidia-current.description:
+	  add dkms info for nvidia-current with kernel
+	  2.6.28-desktop586-1mnb
+
+2008-12-30 02:42  mandrake
+
+	* dkms-modules-info/2.6.28-server-1mnb/vboxadd.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/vboxadd.description: add
+	  dkms info for vboxadd with kernel 2.6.28-server-1mnb
+
+2008-12-30 02:42  mandrake
+
+	* dkms-modules-info/2.6.28-server-1mnb/commandir.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/commandir.description,
+	  dkms-modules-info/2.6.28-server-1mnb/lirc_atiusb.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/lirc_atiusb.description,
+	  dkms-modules-info/2.6.28-server-1mnb/lirc_bt829.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/lirc_bt829.description,
+	  dkms-modules-info/2.6.28-server-1mnb/lirc_cmdir.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/lirc_cmdir.description,
+	  dkms-modules-info/2.6.28-server-1mnb/lirc_dev.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/lirc_dev.description,
+	  dkms-modules-info/2.6.28-server-1mnb/lirc_i2c.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/lirc_i2c.description,
+	  dkms-modules-info/2.6.28-server-1mnb/lirc_igorplugusb.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/lirc_igorplugusb.description,
+	  dkms-modules-info/2.6.28-server-1mnb/lirc_imon.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/lirc_imon.description,
+	  dkms-modules-info/2.6.28-server-1mnb/lirc_it87.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/lirc_it87.description,
+	  dkms-modules-info/2.6.28-server-1mnb/lirc_ite8709.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/lirc_ite8709.description,
+	  dkms-modules-info/2.6.28-server-1mnb/lirc_mceusb.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/lirc_mceusb.description,
+	  dkms-modules-info/2.6.28-server-1mnb/lirc_mceusb2.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/lirc_mceusb2.description,
+	  dkms-modules-info/2.6.28-server-1mnb/lirc_sasem.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/lirc_sasem.description,
+	  dkms-modules-info/2.6.28-server-1mnb/lirc_serial.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/lirc_serial.description,
+	  dkms-modules-info/2.6.28-server-1mnb/lirc_sir.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/lirc_sir.description,
+	  dkms-modules-info/2.6.28-server-1mnb/lirc_streamzap.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/lirc_streamzap.description,
+	  dkms-modules-info/2.6.28-server-1mnb/lirc_ttusbir.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/lirc_ttusbir.description:
+	  add dkms info for lirc with kernel 2.6.28-server-1mnb
+
+2008-12-30 02:42  mandrake
+
+	* dkms-modules-info/2.6.28-server-1mnb/vboxdrv.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/vboxdrv.description,
+	  dkms-modules-info/2.6.28-server-1mnb/vboxnetflt.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/vboxnetflt.description: add
+	  dkms info for virtualbox with kernel 2.6.28-server-1mnb
+
+2008-12-30 02:41  mandrake
+
+	* dkms-modules-info/2.6.28-desktop586-1mnb/fglrx.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/fglrx.description: add
+	  dkms info for fglrx with kernel 2.6.28-desktop586-1mnb
+
+2008-12-30 02:41  mandrake
+
+	* dkms-modules-info/2.6.28-desktop-1mnb/vboxadd.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/vboxadd.description: add
+	  dkms info for vboxadd with kernel 2.6.28-desktop-1mnb
+
+2008-12-30 02:41  mandrake
+
+	* dkms-modules-info/2.6.28-desktop-1mnb/vboxvfs.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/vboxvfs.description: add
+	  dkms info for vboxvfs with kernel 2.6.28-desktop-1mnb
+
+2008-12-30 02:41  mandrake
+
+	* dkms-modules-info/2.6.28-server-1mnb/vboxvfs.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/vboxvfs.description: add
+	  dkms info for vboxvfs with kernel 2.6.28-server-1mnb
+
+2008-12-30 02:41  mandrake
+
+	* dkms-modules-info/2.6.28-desktop586-1mnb/vboxdrv.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/vboxdrv.description,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/vboxnetflt.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/vboxnetflt.description:
+	  add dkms info for virtualbox with kernel 2.6.28-desktop586-1mnb
+
+2008-12-30 02:41  mandrake
+
+	* dkms-modules-info/2.6.28-desktop-1mnb/vboxdrv.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/vboxdrv.description,
+	  dkms-modules-info/2.6.28-desktop-1mnb/vboxnetflt.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/vboxnetflt.description: add
+	  dkms info for virtualbox with kernel 2.6.28-desktop-1mnb
+
+2008-12-30 02:41  mandrake
+
+	* dkms-modules-info/2.6.28-desktop-1mnb/commandir.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/commandir.description,
+	  dkms-modules-info/2.6.28-desktop-1mnb/lirc_atiusb.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/lirc_atiusb.description,
+	  dkms-modules-info/2.6.28-desktop-1mnb/lirc_bt829.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/lirc_bt829.description,
+	  dkms-modules-info/2.6.28-desktop-1mnb/lirc_cmdir.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/lirc_cmdir.description,
+	  dkms-modules-info/2.6.28-desktop-1mnb/lirc_dev.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/lirc_dev.description,
+	  dkms-modules-info/2.6.28-desktop-1mnb/lirc_i2c.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/lirc_i2c.description,
+	  dkms-modules-info/2.6.28-desktop-1mnb/lirc_igorplugusb.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/lirc_igorplugusb.description,
+	  dkms-modules-info/2.6.28-desktop-1mnb/lirc_imon.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/lirc_imon.description,
+	  dkms-modules-info/2.6.28-desktop-1mnb/lirc_it87.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/lirc_it87.description,
+	  dkms-modules-info/2.6.28-desktop-1mnb/lirc_ite8709.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/lirc_ite8709.description,
+	  dkms-modules-info/2.6.28-desktop-1mnb/lirc_mceusb.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/lirc_mceusb.description,
+	  dkms-modules-info/2.6.28-desktop-1mnb/lirc_mceusb2.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/lirc_mceusb2.description,
+	  dkms-modules-info/2.6.28-desktop-1mnb/lirc_sasem.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/lirc_sasem.description,
+	  dkms-modules-info/2.6.28-desktop-1mnb/lirc_serial.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/lirc_serial.description,
+	  dkms-modules-info/2.6.28-desktop-1mnb/lirc_sir.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/lirc_sir.description,
+	  dkms-modules-info/2.6.28-desktop-1mnb/lirc_streamzap.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/lirc_streamzap.description,
+	  dkms-modules-info/2.6.28-desktop-1mnb/lirc_ttusbir.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/lirc_ttusbir.description:
+	  add dkms info for lirc with kernel 2.6.28-desktop-1mnb
+
+2008-12-30 02:30  mandrake
+
+	* dkms-modules-info/2.6.28-desktop586-1mnb/nvidia96xx.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/nvidia96xx.description:
+	  add dkms info for nvidia96xx with kernel 2.6.28-desktop586-1mnb
+
+2008-12-30 02:30  mandrake
+
+	* dkms-modules-info/2.6.28-server-1mnb/sqlzma.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/sqlzma.description,
+	  dkms-modules-info/2.6.28-server-1mnb/unlzma.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/unlzma.description: add dkms
+	  info for lzma with kernel 2.6.28-server-1mnb
+
+2008-12-30 02:30  mandrake
+
+	* dkms-modules-info/2.6.28-server-1mnb/libafs.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/libafs.description: add dkms
+	  info for libafs with kernel 2.6.28-server-1mnb
+
+2008-12-30 02:30  mandrake
+
+	* dkms-modules-info/2.6.28-desktop586-1mnb/slamr.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/slamr.description: add
+	  dkms info for slmodem with kernel 2.6.28-desktop586-1mnb
+
+2008-12-30 02:30  mandrake
+
+	* dkms-modules-info/2.6.28-desktop-1mnb/sqlzma.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/sqlzma.description,
+	  dkms-modules-info/2.6.28-desktop-1mnb/unlzma.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/unlzma.description: add
+	  dkms info for lzma with kernel 2.6.28-desktop-1mnb
+
+2008-12-30 02:30  mandrake
+
+	* dkms-modules-info/2.6.28-desktop-1mnb/libafs.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/libafs.description: add
+	  dkms info for libafs with kernel 2.6.28-desktop-1mnb
+
+2008-12-30 02:26  mandrake
+
+	* dkms-modules-info/2.6.28-desktop586-1mnb/ath_hal.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/ath_hal.description,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/ath_pci.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/ath_pci.description,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/ath_rate_amrr.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/ath_rate_amrr.description,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/ath_rate_onoe.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/ath_rate_onoe.description,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/ath_rate_sample.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/ath_rate_sample.description,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/wlan.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/wlan.description,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/wlan_acl.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/wlan_acl.description,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/wlan_ccmp.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/wlan_ccmp.description,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/wlan_scan_ap.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/wlan_scan_ap.description,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/wlan_scan_sta.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/wlan_scan_sta.description,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/wlan_tkip.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/wlan_tkip.description,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/wlan_wep.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/wlan_wep.description,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/wlan_xauth.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/wlan_xauth.description:
+	  add dkms info for madwifi with kernel 2.6.28-desktop586-1mnb
+
+2008-12-30 02:26  mandrake
+
+	* dkms-modules-info/2.6.28-desktop586-1mnb/wl.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/wl.description: add dkms
+	  info for broadcom-wl with kernel 2.6.28-desktop586-1mnb
+
+2008-12-30 02:26  mandrake
+
+	* dkms-modules-info/2.6.28-server-1mnb/cisco_ipsec.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/cisco_ipsec.description: add
+	  dkms info for vpnclient with kernel 2.6.28-server-1mnb
+
+2008-12-30 02:26  mandrake
+
+	* dkms-modules-info/2.6.28-desktop586-1mnb/fcpci.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/fcpci.description: add
+	  dkms info for fcpci with kernel 2.6.28-desktop586-1mnb
+
+2008-12-30 02:25  mandrake
+
+	* dkms-modules-info/2.6.28-desktop586-1mnb,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/cisco_ipsec.alias,
+	  dkms-modules-info/2.6.28-desktop586-1mnb/cisco_ipsec.description:
+	  add dkms info for vpnclient with kernel 2.6.28-desktop586-1mnb
+
+2008-12-30 02:25  mandrake
+
+	* dkms-modules-info/2.6.28-server-1mnb/nvidia-current.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/nvidia-current.description:
+	  add dkms info for nvidia-current with kernel 2.6.28-server-1mnb
+
+2008-12-30 02:25  mandrake
+
+	* dkms-modules-info/2.6.28-desktop-1mnb/cisco_ipsec.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/cisco_ipsec.description:
+	  add dkms info for vpnclient with kernel 2.6.28-desktop-1mnb
+
+2008-12-30 02:25  mandrake
+
+	* dkms-modules-info/2.6.28-desktop-1mnb/nvidia-current.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/nvidia-current.description:
+	  add dkms info for nvidia-current with kernel 2.6.28-desktop-1mnb
+
+2008-12-30 02:10  mandrake
+
+	* dkms-modules-info/2.6.28-server-1mnb/fglrx.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/fglrx.description: add dkms
+	  info for fglrx with kernel 2.6.28-server-1mnb
+
+2008-12-30 02:10  mandrake
+
+	* dkms-modules-info/2.6.28-desktop-1mnb/fglrx.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/fglrx.description: add dkms
+	  info for fglrx with kernel 2.6.28-desktop-1mnb
+
+2008-12-30 02:10  mandrake
+
+	* dkms-modules-info/2.6.28-server-1mnb/wl.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/wl.description: add dkms
+	  info for broadcom-wl with kernel 2.6.28-server-1mnb
+
+2008-12-30 02:10  mandrake
+
+	* dkms-modules-info/2.6.28-desktop-1mnb/wl.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/wl.description: add dkms
+	  info for broadcom-wl with kernel 2.6.28-desktop-1mnb
+
+2008-12-30 02:06  mandrake
+
+	* dkms-modules-info/2.6.28-desktop-1mnb/ath_hal.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/ath_hal.description,
+	  dkms-modules-info/2.6.28-desktop-1mnb/ath_pci.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/ath_pci.description,
+	  dkms-modules-info/2.6.28-desktop-1mnb/ath_rate_amrr.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/ath_rate_amrr.description,
+	  dkms-modules-info/2.6.28-desktop-1mnb/ath_rate_onoe.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/ath_rate_onoe.description,
+	  dkms-modules-info/2.6.28-desktop-1mnb/ath_rate_sample.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/ath_rate_sample.description,
+	  dkms-modules-info/2.6.28-desktop-1mnb/wlan.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/wlan.description,
+	  dkms-modules-info/2.6.28-desktop-1mnb/wlan_acl.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/wlan_acl.description,
+	  dkms-modules-info/2.6.28-desktop-1mnb/wlan_ccmp.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/wlan_ccmp.description,
+	  dkms-modules-info/2.6.28-desktop-1mnb/wlan_scan_ap.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/wlan_scan_ap.description,
+	  dkms-modules-info/2.6.28-desktop-1mnb/wlan_scan_sta.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/wlan_scan_sta.description,
+	  dkms-modules-info/2.6.28-desktop-1mnb/wlan_tkip.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/wlan_tkip.description,
+	  dkms-modules-info/2.6.28-desktop-1mnb/wlan_wep.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/wlan_wep.description,
+	  dkms-modules-info/2.6.28-desktop-1mnb/wlan_xauth.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/wlan_xauth.description: add
+	  dkms info for madwifi with kernel 2.6.28-desktop-1mnb
+
+2008-12-30 02:05  mandrake
+
+	* dkms-modules-info/2.6.28-server-1mnb/nvidia96xx.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/nvidia96xx.description: add
+	  dkms info for nvidia96xx with kernel 2.6.28-server-1mnb
+
+2008-12-30 02:05  mandrake
+
+	* dkms-modules-info/2.6.28-server-1mnb,
+	  dkms-modules-info/2.6.28-server-1mnb/ath_hal.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/ath_hal.description,
+	  dkms-modules-info/2.6.28-server-1mnb/ath_pci.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/ath_pci.description,
+	  dkms-modules-info/2.6.28-server-1mnb/ath_rate_amrr.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/ath_rate_amrr.description,
+	  dkms-modules-info/2.6.28-server-1mnb/ath_rate_onoe.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/ath_rate_onoe.description,
+	  dkms-modules-info/2.6.28-server-1mnb/ath_rate_sample.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/ath_rate_sample.description,
+	  dkms-modules-info/2.6.28-server-1mnb/wlan.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/wlan.description,
+	  dkms-modules-info/2.6.28-server-1mnb/wlan_acl.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/wlan_acl.description,
+	  dkms-modules-info/2.6.28-server-1mnb/wlan_ccmp.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/wlan_ccmp.description,
+	  dkms-modules-info/2.6.28-server-1mnb/wlan_scan_ap.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/wlan_scan_ap.description,
+	  dkms-modules-info/2.6.28-server-1mnb/wlan_scan_sta.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/wlan_scan_sta.description,
+	  dkms-modules-info/2.6.28-server-1mnb/wlan_tkip.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/wlan_tkip.description,
+	  dkms-modules-info/2.6.28-server-1mnb/wlan_wep.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/wlan_wep.description,
+	  dkms-modules-info/2.6.28-server-1mnb/wlan_xauth.alias,
+	  dkms-modules-info/2.6.28-server-1mnb/wlan_xauth.description: add
+	  dkms info for madwifi with kernel 2.6.28-server-1mnb
+
+2008-12-30 02:05  mandrake
+
+	* dkms-modules-info/2.6.28-desktop-1mnb,
+	  dkms-modules-info/2.6.28-desktop-1mnb/nvidia96xx.alias,
+	  dkms-modules-info/2.6.28-desktop-1mnb/nvidia96xx.description: add
+	  dkms info for nvidia96xx with kernel 2.6.28-desktop-1mnb
+
+2008-12-29 02:25  mandrake
+
+	* dkms-modules-info/2.6.28-desktop586-0.rc8.1mnb/hdaps.alias,
+	  dkms-modules-info/2.6.28-desktop586-0.rc8.1mnb/hdaps.description,
+	  dkms-modules-info/2.6.28-desktop586-0.rc8.1mnb/thinkpad_ec.alias,
+	  dkms-modules-info/2.6.28-desktop586-0.rc8.1mnb/thinkpad_ec.description,
+	  dkms-modules-info/2.6.28-desktop586-0.rc8.1mnb/tp_smapi.alias,
+	  dkms-modules-info/2.6.28-desktop586-0.rc8.1mnb/tp_smapi.description:
+	  add dkms info for tp_smapi with kernel
+	  2.6.28-desktop586-0.rc8.1mnb
+
+2008-12-29 02:05  mandrake
+
+	* dkms-modules-info/2.6.28-server-0.rc8.1mnb/hdaps.alias,
+	  dkms-modules-info/2.6.28-server-0.rc8.1mnb/hdaps.description,
+	  dkms-modules-info/2.6.28-server-0.rc8.1mnb/thinkpad_ec.alias,
+	  dkms-modules-info/2.6.28-server-0.rc8.1mnb/thinkpad_ec.description,
+	  dkms-modules-info/2.6.28-server-0.rc8.1mnb/tp_smapi.alias,
+	  dkms-modules-info/2.6.28-server-0.rc8.1mnb/tp_smapi.description:
+	  add dkms info for tp_smapi with kernel 2.6.28-server-0.rc8.1mnb
+
+2008-12-29 02:05  mandrake
+
+	* dkms-modules-info/2.6.28-desktop-0.rc8.1mnb/hdaps.alias,
+	  dkms-modules-info/2.6.28-desktop-0.rc8.1mnb/hdaps.description,
+	  dkms-modules-info/2.6.28-desktop-0.rc8.1mnb/thinkpad_ec.alias,
+	  dkms-modules-info/2.6.28-desktop-0.rc8.1mnb/thinkpad_ec.description,
+	  dkms-modules-info/2.6.28-desktop-0.rc8.1mnb/tp_smapi.alias,
+	  dkms-modules-info/2.6.28-desktop-0.rc8.1mnb/tp_smapi.description:
+	  add dkms info for tp_smapi with kernel 2.6.28-desktop-0.rc8.1mnb
+
 2008-12-24 01:28  Adam Williamson <awilliamson at mandriva.com>
 
 	* Makefile, NEWS, lst/pcitable: add new ATI IDs from 8.12
