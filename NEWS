@@ -1,3 +1,8 @@
+Version 0.1.250 - 11 January 2008
+
+- add NVIDIA GeForce 9400 GT ID, adjust 7050 group to include it 
+  (doesn't work with nv)
+
 Version 0.1.249 - 23 December 2008
 
 - add new NVIDIA IDs from 180.18
