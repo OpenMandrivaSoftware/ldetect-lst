@@ -254,12 +254,19 @@ DRIVER nvxbox
 LINE Option "UseFBDev" "1"
 LINE Option "HWCursor" "0"
 
-# Per https://qa.mandriva.com/show_bug.cgi?id=38391 : as of 2008/09
-# 7050 is not supported by nv driver. I have a 9400 GT (ID 0641) and
-# it doesn't work with nv either, hangs the system on a black screen
-# - AdamW 2009/01
+# This entry blacklists eight IDs that are known from MDV and / or
+# freedesktop.org reports to not work with the 'nv' driver. Reports:
 
-NAME NVIDIA GeForce 7050 and 9400 GT
+# https://qa.mandriva.com/show_bug.cgi?id=38391 - 053A
+# http://bugs.freedesktop.org/show_bug.cgi?id=13629 - 053B
+# http://bugs.freedesktop.org/show_bug.cgi?id=15251 - 0533
+# http://bugs.freedesktop.org/show_bug.cgi?id=16565 - 0531
+# http://bugs.freedesktop.org/show_bug.cgi?id=17526 - 0849
+# http://bugs.freedesktop.org/show_bug.cgi?id=18092 - 0848
+# http://bugs.freedesktop.org/show_bug.cgi?id=19545 - 0863
+# http://bugs.freedesktop.org/show_bug.cgi?id=19617 - 0641
+
+NAME NVIDIA cards not working with nv
 DRIVER vesa
 DRIVER2 nvidia-current
 DRIVER2_NO_SSE nvidia96xx
