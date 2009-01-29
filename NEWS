@@ -1,9 +1,13 @@
-Version 0.1.251 - 16 January 2008
+Version 0.1.252 - XX February 2009
+
+- add new NVIDIA cards supported in 180.25
+
+Version 0.1.251 - 16 January 2009
 
 - re-work the blacklist of cards that don't work with nv to be
   more general and include more confirmed IDs
 
-Version 0.1.250 - 11 January 2008
+Version 0.1.250 - 11 January 2009
 
 - add NVIDIA GeForce 9400 GT ID, adjust 7050 group to include it 
   (doesn't work with nv)
