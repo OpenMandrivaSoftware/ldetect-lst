@@ -149,7 +149,7 @@ DRI_GLX
 NAME ATI Radeon 9500 to Radeon X1050
 DRIVER ati
 DRI_GLX
-DRIVER2 fglrx
+#DRIVER2 fglrx (not compatible with x.org server 1.6)
 
 # FireGL cards supported by proprietary driver and free 'radeon'
 # driver: update name as support changes
@@ -161,7 +161,7 @@ SEE ATI Radeon 9500 to Radeon X1050
 NAME ATI Radeon X1300 and later
 DRIVER radeonhd
 DRI_GLX
-DRIVER2 fglrx
+#DRIVER2 fglrx (not compatible with x.org server 1.6)
 
 # FireGL cards supported by proprietary driver and free 'radeonhd'
 # driver: update name as support changes
@@ -233,7 +233,7 @@ BAD_FB_RESTORE
 
 NAME NVIDIA RIVA TNT to GeForce 2
 DRIVER nv
-DRIVER2 nvidia71xx
+#DRIVER2 nvidia71xx (not compatible with x.org server 1.6)
 
 NAME NVIDIA GeForce 3 to GeForce 4
 DRIVER nv

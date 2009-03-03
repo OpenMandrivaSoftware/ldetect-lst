@@ -1,3 +1,6 @@
+- disable fglrx and nvidia71xx as they do not support X.org server 1.6
+  (IgnoreABI does not work for them)
+
 Version 0.1.252 - 29 January 2009
 
 - add new NVIDIA cards supported in 180.25
