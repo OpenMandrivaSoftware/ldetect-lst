@@ -7,7 +7,7 @@ my @ignored_modules = (
 qw(alsa ignore),
 );
 
-my ($force, @force_modules, $all, $keep_subids, $wildcards);
+my ($force, @force_modules, $all, $keep_subids, $wildcards, $use_description);
 
 if ($0 =~ /merge2pcitable/) 
 {
@@ -19,10 +19,11 @@ if ($0 =~ /merge2pcitable/)
     $ARGV[0] eq '-a' and $all = shift;
     $ARGV[0] eq '--keep-subids' and $keep_subids = shift;
     $ARGV[0] eq '--handle-wildcards' and $wildcards = shift;
+    $ARGV[0] eq '--old' and $use_description = shift;
 
     my $formats = join '|', grep { $_ } map { /^read_(.*)/ ? $1 : '' } keys %main::;
 
-    @ARGV == 3 or die "usage: $0 [-f[=module1,...]] [-a] $formats <in_file> <mdk_pcitable>\n";
+    @ARGV == 3 or die "usage: $0 [-f[=module1,...]] [-a] [--old] $formats <in_file> <mdk_pcitable>\n";
 
     my ($format, $in, $pcitable) = @ARGV;
 
@@ -43,10 +44,10 @@ sub dummy_module {
 
 sub to_string {
     my ($id, $driver) = @_;
-    @$driver >= 2 or error("error: to_string $id");
+    @$driver >= 1 or error("error: to_string $id");
     my ($module, $text) = map { defined($_) && qq("$_") } @$driver;
     my ($id1, $id2, $subid1, $subid2) = map { "0x$_" } ($id =~ /(....)/g);
-    join "\t", $id1, $id2, if_("$subid1 $subid2" ne "0xffff 0xffff", $subid1, $subid2), $module, if_($text, $text);
+    join "\t", $id1, $id2, if_("$subid1 $subid2" ne "0xffff 0xffff", $subid1, $subid2), $module, if_($use_description && $text, $text);
 }
 
 sub read_rhpcitable {
@@ -308,6 +309,29 @@ sub read_begent_pcids_htm {
 
 	    $drivers{$from_h->($cur_vendor) . $from_h->($cur_id) . $sub_t} = [ 'unknown', "$cur_vendor_descr|$text" ];
 	}
+    }
+    \%drivers;
+}
+
+sub read_nvidia_readme {
+    my ($f) = @_;
+    my %drivers;
+    my $section;
+    foreach (cat_($f)) {
+	chomp;
+	last if ($section > 3);
+	if (!($section % 2)) {
+	    next unless (/^\s+NVIDIA GPU product\s+Device PCI ID/);
+	    $section++;
+	    next;
+        }
+	if (/^\s*$/) {
+	    $section++;
+	    next;
+        }
+	next if (/^\s+-+\s+-+$/);
+	my ($description, $id) = /^\s+(.+?)\s+0x(....)/;
+	$drivers{"10de".lc($id)."ffffffff"} = [ 'Card:NVIDIA_UNKNOWN', $description ];
     }
     \%drivers;
 }
