@@ -1,5 +1,6 @@
 - disable fglrx and nvidia71xx as they do not support X.org server 1.6
   (IgnoreABI does not work for them)
+- use nvidia173 for non-SSE processors as well, the support was restored
 
 Version 0.1.252 - 29 January 2009
 

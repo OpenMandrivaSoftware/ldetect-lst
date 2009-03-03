@@ -242,7 +242,6 @@ DRIVER2 nvidia96xx
 NAME NVIDIA GeForce FX series
 DRIVER nv
 DRIVER2 nvidia173
-DRIVER2_NO_SSE nvidia96xx
 
 NAME NVIDIA GeForce 6100 and later
 DRIVER nv
