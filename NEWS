@@ -3,6 +3,7 @@
 - use nvidia173 for non-SSE processors as well, the support was restored
 - Monitor DB
   o add back "LCD Panel 800x480"
+  o add ViewSonic VX2260WM (Donald Stewart)
   o sync with latest Fedora
 
 Version 0.1.252 - 29 January 2009
