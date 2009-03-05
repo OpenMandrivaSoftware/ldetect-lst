@@ -2,6 +2,7 @@
   (IgnoreABI does not work for them)
 - use nvidia173 for non-SSE processors as well, the support was restored
 - Monitor DB
+  o add back "LCD Panel 800x480"
   o sync with latest Fedora
 
 Version 0.1.252 - 29 January 2009
