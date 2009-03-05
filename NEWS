@@ -1,3 +1,6 @@
+- Monitor DB
+  o add Iiyama Prolite H481S (aapgorilla)
+
 Version 0.1.253 - 5 March 2009
 
 - disable fglrx and nvidia71xx as they do not support X.org server 1.6
