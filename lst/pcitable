@@ -2254,7 +2254,7 @@
 0x8086	0x2e22	"Card:Intel 810 and later"
 0x8086	0x2e32	"Card:Intel 810 and later"
 0x8086	0x3577	"Card:Intel 810 and later"
-0x8086	0x3582	"Card:Intel 810 and later"
+0x8086	0x3582	"Card:Intel 810"
 0x8086	0x5002	"Card:Intel Vermilion-based cards"
 0x8086	0x5200	"eepro100"
 0x8086	0x5201	"eepro100"
