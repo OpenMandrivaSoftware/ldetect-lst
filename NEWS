@@ -1,3 +1,5 @@
+Version 0.1.255 - 18 March 2009
+
 - re-enable fglrx driver
 - use (old) Intel 810 driver for 0x8086:0x3582, fixes bug #44371
 
