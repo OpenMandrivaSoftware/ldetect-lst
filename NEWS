@@ -1,3 +1,5 @@
+- fix driver for "nVidia Corporation|NV11 [GeForce2 MX/MX 400]" (#48928)
+
 Version 0.1.255 - 18 March 2009
 
 - re-enable fglrx driver

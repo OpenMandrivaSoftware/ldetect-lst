@@ -1042,7 +1042,7 @@
 0x10de	0x0101	"Card:NVIDIA RIVA TNT to GeForce 2"
 0x10de	0x0102	"Card:NVIDIA RIVA TNT to GeForce 2"
 0x10de	0x0103	"Card:NVIDIA RIVA TNT to GeForce 2"
-0x10de	0x0110	"Card:NVIDIA GeForce 3 to GeForce 4"
+0x10de	0x0110	"Card:NVIDIA RIVA TNT to GeForce 2"
 0x10de	0x0111	"Card:NVIDIA GeForce 3 to GeForce 4"
 0x10de	0x0112	"Card:NVIDIA GeForce 3 to GeForce 4"
 0x10de	0x0113	"Card:NVIDIA GeForce 3 to GeForce 4"
