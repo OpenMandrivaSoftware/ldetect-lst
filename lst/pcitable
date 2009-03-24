@@ -2074,6 +2074,4 @@
 0xedd8	0xa0a1	"Card:Ark Logic ARKx000-based cards"
 0xedd8	0xa0a9	"Card:Ark Logic ARKx000-based cards"
 0xedd8	0xa0b1	"Card:Ark Logic ARKx000-based cards"
-0xff00	0x0070	"bttv"
-0xff01	0x0070	"bttv"
 0xfffe	0x0710	"Card:VMware virtual video card"
