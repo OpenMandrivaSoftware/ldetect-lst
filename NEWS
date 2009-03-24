@@ -1,3 +1,5 @@
+Version 0.1.256 - 24 March 2009
+
 - fix driver for "nVidia Corporation|NV11 [GeForce2 MX/MX 400]" (#48928)
 - add new NVIDIA ids from 180.41
 - use e100 instead of eepro100 since kernel team disabled the latest (#49085)
