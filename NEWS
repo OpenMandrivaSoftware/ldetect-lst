@@ -1,5 +1,6 @@
 - fix driver for "nVidia Corporation|NV11 [GeForce2 MX/MX 400]" (#48928)
 - add new NVIDIA ids from 180.41
+- use e100 instead of eepro100 since kernel team disabled the latest (#49085)
 - Monitor DB
   o add Sony TV Bravia KDL-32D3000 (fcrozat)
   o add Samsung SyncMaster 2053BW (dams)
