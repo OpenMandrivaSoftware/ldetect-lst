@@ -4527,20 +4527,72 @@ Princeton; Princeton VL173 Flat Panel; pgs4902; 31-75; 56-75; 1
 Princeton; Princeton VL1916 19inch LCD Display; 0; 24-83; 55-76; 1
 Princeton; W74; pgs00e5; 30.0-70.0; 50.0-160.0; 1
 Princeton; W74n; pgs00fb; 30.0-70.0; 55.0-160.0; 1
+Proview; 2071W/2006W (LCD 21-inch wide); PTS07D1; 30.0-80.0; 60.0-75.0; 1
 Proview; Proview 2072; PTS0000; 30.0-93.0; 60.0-85.0; 1
-Proview; Proview 456/482; PTS0579; 30.0-60.0; 60.0-75.0; 1
-Proview; Proview 513/516; PTS05DD; 30.0-60.0; 60.0-75.0; 1
-Proview; Proview 570; pts023a; 30.0-70.0; 50.0-150.0; 1
-Proview; Proview 576w; PTS05DF; 30.0-50.0; 60.0-70.0; 1
-Proview; Proview 713/716; PTS06A5; 30.0-80.0; 60.0-75.0; 1
-Proview; Proview 770; pts0302; 30.0-76.0; 50.0-150.0; 1
+Proview; Proview 215 (21-inch); PTS0843; 30.0-115.0; 50.0-160.0; 1
+Proview; Proview 250 (10-inch); PTS00FA; 30.0-50.0; 50.0-150.0; 1
+Proview; Proview 330 (LCD 13.3-inch); PTS014A; 30.0-60.0; 55.0-75.0; 1
+Proview; Proview 401/420/456/468/482 (LCD 14-inch); PTS0579; 30.0-60.0; 60.0-75.0; 1
+Proview; Proview 456/458/462 (14-inch); PTS01C8; 30.0-54.0; 50.0-150.0; 1
+Proview; Proview 506I/572I/572V/576D/576I/580I/588I (LCD 15-inch); PTS05DE; 30.0-60.0; 60.0-75.0; 1
+Proview; Proview 510/560/580 (LCD 15-inch); PTS01FE; 30.0-60.0; 55.0-75.0; 1
+Proview; Proview 533/541/552/556/561/562/565/566/567/568/LP517 (LCD 15-inch); PTS05DD; 0.0-60.0; 60.0-75.0; 1
+Proview; Proview 558/561/562 (15-inch); PTS0231; 30.0-60.0; 50.0-160.0; 1
+Proview; Proview 560/580 (LCD 15-inch Pivot); PTS01FE; 30.0-60.0; 55.0-75.0; 1
+Proview; Proview 562NS/562FS (15-inch); PTS0232; 30.0-58.0; 50.0-120.0; 1
+Proview; Proview 566/568/570 (15-inch); PTS023A; 30.0-70.0; 50.0-150.0; 1
+Proview; Proview 570/572/573/576/580/582/586/587/589/590/598 (LCD 15-inch); PTS05DD; 30.0-60.0,60; 0-75.0; 1
+Proview; Proview 571/572/572N (15-inch); PTS023B; 30.0-70.0; 50.0-160.0; 1
+Proview; Proview 572NS/570FS/572FS (15-inch); PTS023C; 30.0-70.0; 50.0-160.0; 1
+Proview; Proview 576W (LCD 15-inch wide); PTS05DF; 30.0-50.0; 60.0-70.0; 1
+Proview; Proview 576W (LCD 15-inch wide); PTS05E0; 30.0-50.0; 60.0-70.0; 1
+Proview; Proview 600/660 (LCD 15-inch Pivot); PTS01FE; 30.0-60.0; 55.0-75.0; 1
+Proview; Proview 702/713/717/723/727/765/770/772/773/776/778/780/782/787/LP717 (LCD 17-inch); PTS06A5; 30.0-80.0; 60.0-75.0; 1
+Proview; Proview 720/722 (16-inch); PTS02D0; 30.0-70.0; 50.0-150.0; 1
+Proview; Proview 765/768/770 (17-inch); PTS0302; 30.0-70.0; 50.0-150.0; 1
+Proview; Proview 765W (LCD 17-inch wide); PTS06A7; 30.0-80.0; 60.0-75.0; 1 
+Proview; Proview 769/769N/771/772/772N (17-inch); PTS0303; 30.0-70.0; 50.0-160.0; 1
+Proview; Proview 772NS/771/772FS/772PF (17-inch); PTS0304; 30.0-70.0; 50.0-160.0; 1
+Proview; Proview 775/776/778 (17-inch); PTS0308; 30.0-76.0; 50.0-160.0; 1
 Proview; Proview 775N; PTS0304; 30-75; 50-160; 1"
-Proview; Proview 786N; 0; 30.0-70.0; 50.0-160.0; 1
+Proview; Proview 777/777N Pure Flat (17-inch); PTS0303; 30.0-70.0; 50.0-160.0; 1
+Proview; Proview 777NS/777PF/778NS (17-inch); PTS0309; 30.0-70.0; 50.0-160.0; 1
+Proview; Proview 785/786/786N (17-inch); PTS0311; 30.0-86.0; 50.0-160.0; 1
+Proview; Proview 786NS/786FS/786PF (17-inch); PTS0312; 30.0-86.0; 50.0-160.0; 1
+Proview; Proview 787/787NS/787PF Pure Flat (17-inch); PTS0313; 30.0-86.0; 50.0-160.0; 1
+Proview; Proview 796/796N (17-inch); PTS031B; 30.0-98.0; 50.0-160.0; 1
+Proview; Proview 796NS/796N/796PF/796PF2/796FS (17-inch); PTS031C; 30.0-98.0; 50.0-160.0; 1
+Proview; Proview 797/797N Pure Flat (17-inch); PTS031B; 30.0-98.0; 50.0-160.0; 1
+Proview; Proview 797NS/797N/797PF (17-inch); PTS031D; 30.0-98.0; 50.0-160.0; 1
 Proview; Proview 860; pts035c; 30.0-54.0; 50.0-150.0; 1
-Proview; Proview 913/916; PTS076D; 30.0-80.0; 60.0-75.0; 1
+Proview; Proview 861/865/867/872 (LCD 18-inch); PTS0709; 30.0-80.0; 60.0-75.0; 1 
 Proview; Proview 926w; PTS077D; 31.0-94.0; 60.0-75.0; 1
+Proview; Proview 986/986N/986NS/986FS/986PF (19-inch); PTS03DA; 30.0-86.0; 50.0-160.0; 1
+Proview; Proview 987NS/987PF (19-inch); PTS03DB; 30.0-86.0; 50.0-160.0; 1
 Proview; Proview 996N; pts025c; 30.0-98.0; 50.0-160.0; 1
+Proview; Proview 996NS/996N/996FS/996PF (19-inch); PTS03E4; 30.0-98.0; 50.0-160.0; 1
+Proview; Proview 997/997N Pure Flat (19-inch); PTS03E6; 30.0-98.0; 50.0-160.0; 1 
+Proview; Proview 997NS/997N/997PF (19-inch); PTS03E5; 30.0-98.0; 50.0-160.0; 1
+Proview; Proview 998/998A/998N (19-inch); PTS03E6; 30.0-98.0; 50.0-160.0; 1
+Proview; Proview BM-468 (LCD 14-inch); PTS01D4; 30.0-60.0; 55.0-75.0; 1
+Proview; Proview BM-568 (LCD 15-inch); PTS01FE; 30.0-60.0; 55.0-75.0; 1
+Proview; Proview BM-780 (LCD 17-inch); PTS030C; 30.0-72.0; 55.0-75.0; 1
 Proview; Proview CY965; PTS03c5; 30-80; 60-75; 1280x1024
+Proview; Proview E705/E771/770I/705I/776I/780I/782I/771/705/738 (LCD 17-inch); PTS06A6; 30.0-80.0; 60.0-75.0; 1
+Proview; Proview E905/E971/905I/970I/976D/980D/982D/971/905/938 (LCD 19-inch); PTS076E; 30.0-80.0; 60.0-75.0; 1
+Proview; Proview HD572 (15-inch); PTS1215; 30.0-60.0; 60.0-75.0; 1
+Proview; Proview HD772 (17-inch); PTS0817; 30.0-80.0; 60.0-75.0; 1
+Proview; Proview HD872 (18-inch); PTS0361; 30.0-80.0; 60.0-75.0; 1
+Proview; Proview HD972 (19-inch); PTS03CC; 30.0-80.0; 60.0-75.0; 1
+Proview; Proview HD972DT (19-inch); PTS0419; 30.0-81.0; 56.0-76.0; 1
+Proview; Proview I921/V913/SP916/MA982/913/917/923/927/965/972/LP917/982/916/982K (LCD 19-inch); PTS076D; 30.0-80.0; 60.0-75.0; 1
+Proview; Proview LM905W/FV916W/926W/906W/938W (LCD 19-inch wide); PTS076F; 30.0-80.0; 60.0-75.0; 1
+Proview; Proview LT776s (17-inch); PTS0917; 30.0-80.0; 60.0-75.0; 1
+Proview; Proview PD/ID-950F Diamondtron Pure Flat (19-inch); PTS031B; 30.0-98.0; 50.0-160.0; 1
+Proview; Proview PS576 (15-inch); PTS2215; 30.0-60.0; 60.0-75.0; 1
+Proview; Proview PV-1995S (19-inch); PTS03E6; 30.0-98.0; 50.0-160.0; 1
+Proview; Proview V513/SP516/MA582/501/502/505/513/517/520/523/527/516/582K (LCD 15-inch); PTS05DD; 30.0-60.0; 60.0-75.0;1
+Proview; Proview V713/MA782/SP716/I721/716/782K (LCD 17-inch); PTS06A5; 30.0-80.0; 60.0-75.0; 1
 QDS; QDS 0014; QDS0014; 48-50; 57-62; 1280x800
 Quantex; Quantex TE1564M - Super View 1280; 75; 30-64; 50-100
 Qume; Qume QM835; qm835; 30.0-36.5; 50.0-90.0; 1
