@@ -1,5 +1,7 @@
 - only use Intel 810 for a specic subvendor/subdevice of 0x8086:0x3582
-- add a lot of Proview monitors (Yannick56, #49104)
+- Monitor DB
+  o add a lot of Proview monitors (Yannick56, #49104)
+  o add Samsung SyncMaster 2253BW
 
 Version 0.1.256 - 24 March 2009
 
