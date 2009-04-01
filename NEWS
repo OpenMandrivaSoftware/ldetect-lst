@@ -5,6 +5,8 @@
 - prefer "ati"/"radeon" driver over "radeonhd"
 - add new ATI ids from fglrx, ati and radeonhd
 - do not use fglrx with old Radeon cards
+- add "GeForce (nouveau driver, experimental)" to allow users to test nouveau
+  by selecting it in XFdrake
 
 Version 0.1.256 - 24 March 2009
 

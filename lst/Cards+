@@ -279,6 +279,9 @@ DRIVER nvxbox
 LINE Option "UseFBDev" "1"
 LINE Option "HWCursor" "0"
 
+NAME NVIDIA GeForce (nouveau driver, experimental)
+DRIVER nouveau
+
 # This entry blacklists eight IDs that are known from MDV and / or
 # freedesktop.org reports to not work with the 'nv' driver. Reports:
 
