@@ -1,3 +1,5 @@
+Version 0.1.257 - 1 April 2009
+
 - only use Intel 810 for a specic subvendor/subdevice of 0x8086:0x3582
 - Monitor DB
   o add a lot of Proview monitors (Yannick56, #49104)
