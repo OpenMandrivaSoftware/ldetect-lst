@@ -140,33 +140,59 @@ FB_TVOUT
 
 # Radeon cards not supported by proprietary driver: update name 
 # as support changes
-NAME ATI Radeon 9250 and earlier
+NAME ATI Radeon X1950 and earlier
 DRIVER ati
 DRI_GLX
 
+# FireGL cards not supported by proprietary driver:
+# update name as support changes
+NAME ATI r300/r400/r500 based FireGL
+SEE ATI Radeon X1950 and earlier
+
 # Radeon cards supported by proprietary driver and free 'radeon'
 # driver: update name as support changes
-NAME ATI Radeon 9500 to Radeon X1050
+NAME ATI Radeon HD 2000 and later (radeon/fglrx)
 DRIVER ati
 DRI_GLX
 DRIVER2 fglrx
 
 # FireGL cards supported by proprietary driver and free 'radeon'
 # driver: update name as support changes
-NAME ATI r300 or r400 based FireGL 
-SEE ATI Radeon 9500 to Radeon X1050
+NAME ATI r600 based FireGL
+SEE ATI Radeon HD 2000 and later (radeon/fglrx)
 
-# Radeon cards supported by proprietary driver and free 'radeonhd' 
-# driver: update name as support changes
-NAME ATI Radeon X1300 and later
+# FirePro cards as above:
+NAME ATI FirePro (radeon/fglrx)
+SEE ATI Radeon HD 2000 and later (radeon/fglrx)
+
+# Radeon cards supported by proprietary driver but not free 'radeon'
+# driver. Radeonhd can autodetect unknown cards within the supported
+# chipsets, so use radeonhd for them.
+NAME ATI Radeon HD 2000 and later (radeonhd/fglrx)
 DRIVER radeonhd
 DRI_GLX
 DRIVER2 fglrx
 
-# FireGL cards supported by proprietary driver and free 'radeonhd'
+# FirePro cards as above:
 # driver: update name as support changes
-NAME ATI r500 or r600 based FireGL
-SEE ATI Radeon X1300 and later
+NAME ATI FirePro (radeonhd/fglrx)
+SEE ATI Radeon HD 2000 and later (radeonhd/fglrx)
+
+# Radeon cards not supported by proprietary driver or free 'radeon'
+# driver. Radeonhd can autodetect unknown cards within the supported
+# chipsets, so use radeonhd for them.
+# These are probably bogus entries, as not even fglrx listed them when it
+# still had r500 support. 71e7 seems to be a secondary port according to
+# ATI_Device_IDs.txt.
+# 71e7 RV535 [Radeon X1650 Series] (secondary port)
+# 7241	R580 [Radeon X1900]	
+# 7242	R580 [Radeon X1900]
+NAME ATI Radeon X1650 Secondary 71e7
+DRIVER radeonhd
+DRI_GLX
+
+NAME ATI Radeon X1900 7241/7242
+SEE ATI Radeon X1650 Secondary 71e7
 
 # ARK Logic
 
