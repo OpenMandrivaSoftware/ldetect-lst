@@ -1,3 +1,6 @@
+- remove dpc7146 entry since it was dropped from kernel
+- prism2_plx was removed from kernel, switch the only entry that was
+  using it to orinoco_tmd (0x15e8:0x0131)
 - Monitor DB
   o add Samsung SyncMaster 2043NW (Jaanus Ojangu)
 
