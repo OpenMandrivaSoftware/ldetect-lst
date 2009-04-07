@@ -1,3 +1,4 @@
+- don't try to use nv for 0x10de:0x053e, fixes #48684
 - remove dpc7146 entry since it was dropped from kernel
 - prism2_plx was removed from kernel, switch the only entry that was
   using it to orinoco_tmd (0x15e8:0x0131)

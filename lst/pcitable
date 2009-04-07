@@ -1306,7 +1306,7 @@
 0x10de	0x0533	"Card:NVIDIA cards not working with nv"
 0x10de	0x053a	"Card:NVIDIA cards not working with nv"
 0x10de	0x053b	"Card:NVIDIA cards not working with nv"
-0x10de	0x053e	"Card:NVIDIA GeForce 6100 and later"
+0x10de	0x053e	"Card:NVIDIA cards not working with nv"
 0x10de	0x055c	"snd_hda_intel"
 0x10de	0x055d	"snd_hda_intel"
 0x10de	0x05e0	"Card:NVIDIA GeForce 6100 and later"
