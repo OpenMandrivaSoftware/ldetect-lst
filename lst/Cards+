@@ -168,6 +168,10 @@ SEE ATI Radeon HD 2000 and later (radeon/fglrx)
 # Radeon cards supported by proprietary driver but not free 'radeon'
 # driver. Radeonhd can autodetect unknown cards within the supported
 # chipsets, so use radeonhd for them.
+# Additionally, it is used for following cards that do not work
+# correctly with the 'radeon' driver:
+# ATI Radeon HD 3200 Graphics (1002:9610)
+# - https://qa.mandriva.com/show_bug.cgi?id=49824
 NAME ATI Radeon HD 2000 and later (radeonhd/fglrx)
 DRIVER radeonhd
 DRI_GLX

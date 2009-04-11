@@ -532,7 +532,7 @@
 0x1002	0x95cd	"Card:ATI Radeon HD 2000 and later (radeon/fglrx)"
 0x1002	0x95ce	"Card:ATI Radeon HD 2000 and later (radeon/fglrx)"
 0x1002	0x95cf	"Card:ATI Radeon HD 2000 and later (radeon/fglrx)"
-0x1002	0x9610	"Card:ATI Radeon HD 2000 and later (radeon/fglrx)"
+0x1002	0x9610	"Card:ATI Radeon HD 2000 and later (radeonhd/fglrx)"
 0x1002	0x9611	"Card:ATI Radeon HD 2000 and later (radeon/fglrx)"
 0x1002	0x9612	"Card:ATI Radeon HD 2000 and later (radeon/fglrx)"
 0x1002	0x9613	"Card:ATI Radeon HD 2000 and later (radeon/fglrx)"

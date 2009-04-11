@@ -6,6 +6,7 @@
   o add Samsung SyncMaster 2043NW (Jaanus Ojangu)
 - do not use fglrx with ATI Mobility Radeon HD 3400 (Andriy Rysin reported
   a failure with fglrx 8.600)
+- use radeonhd instead of ati for ATI Radeon HD 3200 0x9610 (#49824)
 
 Version 0.1.257 - 1 April 2009
 
