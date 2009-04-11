@@ -4,6 +4,8 @@
   using it to orinoco_tmd (0x15e8:0x0131)
 - Monitor DB
   o add Samsung SyncMaster 2043NW (Jaanus Ojangu)
+- do not use fglrx with ATI Mobility Radeon HD 3400 (Andriy Rysin reported
+  a failure with fglrx 8.600)
 
 Version 0.1.257 - 1 April 2009
 

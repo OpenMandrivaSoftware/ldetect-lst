@@ -178,6 +178,14 @@ DRIVER2 fglrx
 NAME ATI FirePro (radeonhd/fglrx)
 SEE ATI Radeon HD 2000 and later (radeonhd/fglrx)
 
+# Radeon cards not working with the proprietary driver but supported by
+# the free 'radeon' driver.
+# Mobility Radeon HD 3400 Series (1002:95c4)
+# - reported by Andriy Rysin with fglrx 8.600 (sub 1028:0254)
+
+NAME ATI Mobility Radeon HD 3400
+SEE ATI Radeon X1950 and earlier
+
 # Radeon cards not supported by proprietary driver or free 'radeon'
 # driver. Radeonhd can autodetect unknown cards within the supported
 # chipsets, so use radeonhd for them.
