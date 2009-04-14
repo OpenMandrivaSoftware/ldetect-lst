@@ -1,11 +1,11 @@
 - do not try to use nv for 0x10de:0x053e (#48684)
-- remove dpc7146 entry since it was dropped from kernel
-- prism2_plx was removed from kernel, switch the only entry that was
-  using it to orinoco_tmd (0x15e8:0x0131)
-- Monitor DB
-  o add Samsung SyncMaster 2043NW (Jaanus Ojangu)
 - do not use fglrx with ATI Mobility Radeon HD 3400 (Andriy Rysin reported
   a failure with fglrx 8.600)
+- Monitor DB
+  o add Samsung SyncMaster 2043NW (Jaanus Ojangu)
+- prism2_plx was removed from kernel, switch the only entry that was
+  using it to orinoco_tmd (0x15e8:0x0131)
+- remove dpc7146 entry since it was dropped from kernel
 - use radeonhd instead of ati for ATI Radeon HD 3200 0x9610 (#49824)
 
 Version 0.1.257 - 1 April 2009
