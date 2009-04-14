@@ -15,6 +15,7 @@ my @ignored_modules = (
     qr/_rng$/,
 );
 my @preferred_modules = (
+    "pata_marvell", #- prefer over ahci since ahci need marvel_enabled=1 to make it work (#43975)
     "ahci", #- prefer over ata_piix (install will still try both), depends on BIOS settins
     "bcm43xx", #- prefer over b43, b43legacy and ssb
     "dpt_i2o", #- prefer over i2o_core

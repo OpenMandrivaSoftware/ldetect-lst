@@ -3,6 +3,7 @@
   a failure with fglrx 8.600)
 - Monitor DB
   o add Samsung SyncMaster 2043NW (Jaanus Ojangu)
+- prefer over ahci since ahci need marvel_enabled=1 to make it work (#43975)
 - prism2_plx was removed from kernel, switch the only entry that was
   using it to orinoco_tmd (0x15e8:0x0131)
 - remove dpc7146 entry since it was dropped from kernel
