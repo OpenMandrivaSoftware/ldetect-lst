@@ -1,3 +1,5 @@
+Version 0.1.258 - 1 April 2009
+
 - do not try to use nv for 0x10de:0x053e (#48684)
 - do not use fglrx with ATI Mobility Radeon HD 3400 (Andriy Rysin reported
   a failure with fglrx 8.600)
