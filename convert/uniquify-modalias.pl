@@ -16,7 +16,6 @@ my @ignored_modules = (
 );
 my @preferred_modules = (
     "pata_marvell", #- prefer over ahci since ahci need marvel_enabled=1 to make it work (#43975)
-    "ahci", #- prefer over ata_piix (install will still try both), depends on BIOS settins
     "bcm43xx", #- prefer over b43, b43legacy and ssb
     "dpt_i2o", #- prefer over i2o_core
     "dmfe", #- prefer over tulip, it only lists supported devices
@@ -32,6 +31,11 @@ my @preferred_modules = (
     "sx", #- prefer over specialix (sx matches subvendors)
 );
 my @depreciated_modules = (
+    #- defer *piix over ahci (install will still try both ahci and ata_piix), depends on BIOS settings
+    #-   do it without explicitely listing ahci in preferred modules,
+    #-   to allow ahci to be overriden by pata_marvell
+    #- ata_piix will still be preferred over piix, because ata_piix is in the disk/sata preferred category
+    "ata_piix", "piix",
     "gspca", #- kernel hackers value it as poorly coded
     "ir_usb", #- false positive because of pattern
     "usb_storage", #- false positive because we don't use subvendors/subdevices
