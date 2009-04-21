@@ -1,5 +1,6 @@
 - Monitor DB
   o sync with latest Fedora (new Dell monitors)
+- drop amd64_agp entries (#43870)
 
 Version 0.1.259 - 20 April 2009
 
