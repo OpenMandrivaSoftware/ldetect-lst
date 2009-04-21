@@ -1,3 +1,6 @@
+- Monitor DB
+  o sync with latest Fedora (new Dell monitors)
+
 Version 0.1.259 - 20 April 2009
 
 - fix preferring pata_marvell over ahci (#43975)
