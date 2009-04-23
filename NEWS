@@ -1,3 +1,10 @@
+- propagate the following changes from ansi (2009-04-01) into
+  pcitable.x86_64 too, thus fixing wrongly using 'vesa' driver on some
+  machines:
+  o prefer "ati"/"radeon" driver over "radeonhd"
+  o add new ATI ids from fglrx, ati and radeonhd
+  o do not use fglrx with old Radeon cards
+
 Version 0.1.260 - 21 April 2009
 
 - Monitor DB
@@ -27,9 +34,6 @@ Version 0.1.257 - 1 April 2009
 - Monitor DB
   o add a lot of Proview monitors (Yannick56, #49104)
   o add Samsung SyncMaster 2253BW
-- prefer "ati"/"radeon" driver over "radeonhd"
-- add new ATI ids from fglrx, ati and radeonhd
-- do not use fglrx with old Radeon cards
 - add "GeForce (nouveau driver, experimental)" to allow users to test nouveau
   by selecting it in XFdrake
 
