@@ -1,3 +1,5 @@
+Version 0.1.261 - 23 April 2009
+
 - propagate the following changes from ansi (2009-04-01) into
   pcitable.x86_64 too, thus fixing wrongly using 'vesa' driver on some
   machines:
