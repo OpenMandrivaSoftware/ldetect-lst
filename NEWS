@@ -1,3 +1,5 @@
+- update usbtable to get proper descriptions for USB devices
+
 Version 0.1.261 - 23 April 2009
 
 - propagate the following changes from ansi (2009-04-01) into
