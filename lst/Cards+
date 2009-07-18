@@ -294,7 +294,7 @@ LINE Option "HWCursor" "0"
 NAME NVIDIA GeForce (nouveau driver, experimental)
 DRIVER nouveau
 
-# This entry blacklists eight IDs that are known from MDV and / or
+# This entry blacklists IDs that are known from MDV and / or
 # freedesktop.org reports to not work with the 'nv' driver. Reports:
 
 # https://qa.mandriva.com/show_bug.cgi?id=38391 - 053A
@@ -303,8 +303,11 @@ DRIVER nouveau
 # http://bugs.freedesktop.org/show_bug.cgi?id=16565 - 0531
 # http://bugs.freedesktop.org/show_bug.cgi?id=17526 - 0849
 # http://bugs.freedesktop.org/show_bug.cgi?id=18092 - 0848
-# http://bugs.freedesktop.org/show_bug.cgi?id=19545 - 0863
+# http://bugs.freedesktop.org/show_bug.cgi?id=19545 - 0863, 086a
 # http://bugs.freedesktop.org/show_bug.cgi?id=19617 - 0641
+#
+# Note that 086a is not listed even in nvidia-current, even while it works with
+# it.
 
 NAME NVIDIA cards not working with nv
 DRIVER vesa
