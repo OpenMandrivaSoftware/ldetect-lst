@@ -59,9 +59,9 @@ pci:v00001002d00009442sv*sd*bc*sc*i*
 pci:v00001002d00009452sv*sd*bc*sc*i*
 pci:v00001002d0000944Csv*sd*bc*sc*i*
 pci:v00001002d00009450sv*sd*bc*sc*i*
-pci:v00001002d000094B5sv*sd*bc*sc*i*
 pci:v00001002d000094B1sv*sd*bc*sc*i*
 pci:v00001002d000094B3sv*sd*bc*sc*i*
+pci:v00001002d000094B5sv*sd*bc*sc*i*
 pci:v00001002d00009495sv*sd*bc*sc*i*
 pci:v00001002d00009490sv*sd*bc*sc*i*
 pci:v00001002d00009498sv*sd*bc*sc*i*
