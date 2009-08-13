@@ -3,6 +3,7 @@
 - use newer intel driver for 8086:3582:1179:0002, fixes bug #44371
 - do not choose siimage when pata_sil680 works too since the former
   seems no longuer to work (#52736)
+- fix loading '8139too' over '8139cp' on 10ec:8139:5853:0001 (#51520)
 
 Version 0.1.261 - 23 April 2009
 
