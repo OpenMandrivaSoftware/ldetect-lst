@@ -902,7 +902,6 @@
 0x1092	0x88d1	"Card:S3 8xx / 9xx / Trio / Aurora64V+-based cards"
 0x1092	0x88f0	"Card:S3 8xx / 9xx / Trio / Aurora64V+-based cards"
 0x1092	0x88f1	"Card:S3 8xx / 9xx / Trio / Aurora64V+-based cards"
-0x1095	0x0680	"siimage"
 0x1098	0x0001	"Card:VESA driver (generic)"
 0x1098	0x0002	"Card:VESA driver (generic)"
 0x109e	0x0878	0x0070	0x13eb	"bt878"

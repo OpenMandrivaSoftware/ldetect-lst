@@ -1,7 +1,8 @@
 - update usbtable to get proper descriptions for USB devices
 - add GeForce 9400 (nvidia-current / vesa)
 - use newer intel driver for 8086:3582:1179:0002, fixes bug #44371
-
+- do not choose siimage when pata_sil680 works too since the former
+  seems no longuer to work (#52736)
 
 Version 0.1.261 - 23 April 2009
 
