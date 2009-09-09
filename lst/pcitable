@@ -1382,6 +1382,7 @@
 0x10de	0x0863	"Card:NVIDIA cards not working with nv"
 0x10de	0x086a	"Card:NVIDIA cards not working with nv"
 0x10de	0x087a	"Card:NVIDIA GeForce 6100 and later"
+0x10de	0x087d	"Card:NVIDIA GeForce 6100 and later"
 0x10de	0x087f	"Card:NVIDIA GeForce 6100 and later"
 0x10e0	0x9128	"Card:IMS TwinTurbo-based cards"
 0x10e0	0x9135	"Card:IMS TwinTurbo-based cards"

@@ -1,3 +1,4 @@
+- add support for ION video card (#53515)
 - Monitor DB
   o sync with latest Fedora (new Dell monitors)
 
