@@ -749,6 +749,7 @@
 0x102b	0x0525	"Card:Matrox Millennium G series (single head)"
 0x102b	0x0527	"Card:VESA driver (generic)"
 0x102b	0x0528	"Card:VESA driver (generic)"
+0x102b	0x0530	"Matrox Millennium G series (single head)"
 0x102b	0x0541	"Card:Matrox Millennium G series (single head)"
 0x102b	0x0542	"Card:Matrox Millennium G series (single head)"
 0x102b	0x0641	"Card:Matrox Millennium G series (single head)"
