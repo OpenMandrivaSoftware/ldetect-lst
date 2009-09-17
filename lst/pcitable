@@ -542,7 +542,7 @@
 0x1002	0x959b	"Card:ATI r600 based FireGL"
 0x1002	0x95c0	"Card:ATI Radeon HD 2000 and later (radeon/fglrx)"
 0x1002	0x95c2	"Card:ATI Radeon HD 2000 and later (radeon/fglrx)"
-0x1002	0x95c4	"Card:ATI Mobility Radeon HD 3400"
+0x1002	0x95c4	"Card:ATI Radeon HD 2000 and later (radeon/fglrx)"
 0x1002	0x95c5	"Card:ATI Radeon HD 2000 and later (radeon/fglrx)"
 0x1002	0x95c6	"Card:ATI Radeon HD 2000 and later (radeon/fglrx)"
 0x1002	0x95c7	"Card:ATI Radeon HD 2000 and later (radeon/fglrx)"

@@ -1,4 +1,5 @@
 - add support for the last missing from Matrox card
+- use fglrx again with ATI Mobility Radeon HD 3400 (now working)
 
 Version 0.1.266 - 15 September 2009
 
