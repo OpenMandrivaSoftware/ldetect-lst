@@ -1980,7 +1980,7 @@ Gateway; Gateway VX900T; gwy00c0; 30.0-96.0; 48.0-120.0; 1
 Gateway; Gateway VX920; gwy0398; 30.0-96.0; 50.0-140.0; 1
 Gateway; Gateway VX920A; gwy03A2; 30.0-110.0; 50.0-160.0; 1
 Gateway; Gateway VX930; gwy232D; 30.0-97.0; 50.0-160.0; 1
-Generic CRT Display; Monitor 1024x768 @ 60 Hz; 0; 31.5-48.0.5; 50.0-70.0
+Generic CRT Display; Monitor 1024x768 @ 60 Hz; 0; 31.5-48.0; 50.0-70.0
 Generic CRT Display; Monitor 1024x768 @ 70 Hz; 0; 31.5-57.0; 50.0-70.0.0
 Generic CRT Display; Monitor 1280x1024 @ 60 Hz; 0; 31.5-64.0.3; 50.0-70.0
 Generic CRT Display; Monitor 1280x1024 @ 74 Hz; 0; 31.5-79.0; 50.0-90.0.0
