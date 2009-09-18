@@ -171,7 +171,7 @@ Acer; Acer AL506; ACRAD03; 24.0-61.0; 54.0-76.0
 Acer; Acer AL511; ABO5581; 24.0-60.0; 56.0-75.0
 Acer; Acer AL513; ACR02A6; 30.0-60.0; 50.0-75.0; 1
 Acer; Acer AL532; ACR0214; 31.0-60.0; 56.0-75.0; 1
-Acer; Acer AL702; ACR7204; 31.5.0-81.0; 56.3.0-75.0
+Acer; Acer AL702; ACR7204; 31.5-81.0; 56.3.0-75.0
 Acer; Acer AL707; ACRA707; 30.0-83.0; 55.0-75.0; 1
 Acer; Acer AL711; ABO6781; 24.0-80.0; 56.0-75.0; 1
 Acer; Acer AL712; ABO7772; 24.0-80.0; 56.0-75.0; 1
@@ -1981,15 +1981,15 @@ Gateway; Gateway VX920; gwy0398; 30.0-96.0; 50.0-140.0; 1
 Gateway; Gateway VX920A; gwy03A2; 30.0-110.0; 50.0-160.0; 1
 Gateway; Gateway VX930; gwy232D; 30.0-97.0; 50.0-160.0; 1
 Generic CRT Display; Monitor 1024x768 @ 60 Hz; 0; 31.5-48.0; 50.0-70.0
-Generic CRT Display; Monitor 1024x768 @ 70 Hz; 0; 31.5-57.0; 50.0-70.0.0
-Generic CRT Display; Monitor 1280x1024 @ 60 Hz; 0; 31.5-64.0.3; 50.0-70.0
-Generic CRT Display; Monitor 1280x1024 @ 74 Hz; 0; 31.5-79.0; 50.0-90.0.0
+Generic CRT Display; Monitor 1024x768 @ 70 Hz; 0; 31.5-57.0; 50.0-70.0
+Generic CRT Display; Monitor 1280x1024 @ 60 Hz; 0; 31.5-64.0; 50.0-70.0
+Generic CRT Display; Monitor 1280x1024 @ 74 Hz; 0; 31.5-79.0; 50.0-90.0
 Generic CRT Display; Monitor 1280x1024 @ 76 Hz; 0; 31.5-82.0; 50.0-90.0
 Generic CRT Display; Monitor 1400x1050; 0; 31.5-82.0; 50.0-90.0
-Generic CRT Display; Monitor 1600x1200 @ 70 Hz; 0; 31.5-88.0; 50.0-90.0.0
-Generic CRT Display; Monitor 1600x1200 @ 76 Hz; 0; 31.5-94.0; 50.0-90.0.0
+Generic CRT Display; Monitor 1600x1200 @ 70 Hz; 0; 31.5-88.0; 50.0-90.0
+Generic CRT Display; Monitor 1600x1200 @ 76 Hz; 0; 31.5-94.0; 50.0-90.0
 Generic CRT Display; Monitor 640x480 @ 60 Hz; 0; 31.5; 50.0-61.0
-Generic CRT Display; Monitor 800x600 @ 56 Hz; 0; 31.5-35.0.1; 50.0-61.0
+Generic CRT Display; Monitor 800x600 @ 56 Hz; 0; 31.5-35.0; 50.0-61.0
 Generic CRT Display; Monitor 800x600 @ 60 Hz; 0; 31.5-37.9; 50.0-70.0
 Generic LCD Display; LCD Panel 1024x600; 0; 31.5-55.0; 40.0-70.0
 Generic LCD Display; LCD Panel 1024x768; 0; 31.5-48.0; 56.0-65.0
@@ -4451,8 +4451,8 @@ Philips; Philips 9CM062; 9cm062; 31.5; 60.0-70.0; 1
 Philips; Philips 9CM082; 9cm082; 31.5; 60.0-70.0; 1
 Philips; Philips Brilliance 105(15inch/CM2200); phl105a; 30.0-69.0; 50.0-120.0; 1
 Philips; Philips Brilliance 107(17inch/CM8800); phl0107; 30.0-86.0; 50.0-160.0; 1
-Philips; Philips Brilliance 107(PRODUCT ID 17A58...); phl1107; 30.0-95.0; 50.0-160.0; 1
-Philips; Philips Brilliance 109(PRODUCT ID 19A58...); phl1109; 30.0-95.0; 50.0-160.0; 1
+Philips; Philips Brilliance 107(PRODUCT ID 17A58..); phl1107; 30.0-95.0; 50.0-160.0; 1
+Philips; Philips Brilliance 109(PRODUCT ID 19A58..); phl1109; 30.0-95.0; 50.0-160.0; 1
 Philips; Philips Brilliance 201(21inch/CM1700); phl201a; 31.5-107.0; 50.0-170.0; 1
 Philips; Philips Brilliance 201CS; phl0201; 30.0-107.0; 50-170; 1
 Philips; Philips Brilliance AX4500(14.5 LCD MONITOR); phl4500; 30.0-60.0; 56.0-75.0; 1
