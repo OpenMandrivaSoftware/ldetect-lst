@@ -1,3 +1,5 @@
+Version 0.1.267 - 18 September 2009
+
 - add support for the last missing from Matrox card
 - fix invalid Horzsync for 'Generic CRT Display; Monitor 1024x768' (#48063)
 - use fglrx again with ATI Mobility Radeon HD 3400 (now working)
