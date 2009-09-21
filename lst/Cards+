@@ -265,7 +265,7 @@ NAME NVIDIA RIVA TNT to GeForce 2
 DRIVER nv
 #DRIVER2 nvidia71xx (not compatible with x.org server 1.6)
 
-NAME NVIDIA GeForce 3 to GeForce 4
+NAME NVIDIA GeForce 2 MX to GeForce 4
 DRIVER nv
 DRIVER2 nvidia96xx
 
