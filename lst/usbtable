@@ -111,7 +111,7 @@
 0x03f0	0x0611	"unknown"	"Hewlett-Packard|OfficeJet K60xi"
 0x03f0	0x0612	"unknown"	"Hewlett-Packard|business inkjet 3000"
 0x03f0	0x0624	"unknown"	"Hewlett-Packard|Bluetooth Dongle"
-0x03f0	0x0701	"hp5300"	"Hewlett-Packard|ScanJet 5300"
+0x03f0	0x0701	"unknown"	"Hewlett-Packard|ScanJet 5300"
 0x03f0	0x0704	"unknown"	"Hewlett-Packard|DeskJet 825c"
 0x03f0	0x0705	"scanner"	"Hewlett-Packard|ScanJet 4400c"
 0x03f0	0x0711	"unknown"	"Hewlett-Packard|OfficeJet K80"
