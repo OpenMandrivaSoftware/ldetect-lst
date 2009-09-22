@@ -1,4 +1,11 @@
-- "generic" driver was replaced by "ata_generic" and "ide-pci-generic"
+- fix obsoleted drivers:
+  o cy82c693 => pata_cypress
+  o dtc => initio
+  o generic => ata_generic and ide-pci-generic
+  o maestro3 => snd_maestro3
+  o snd_gina3g => snd-echo3g
+  o sonypi => i2c-piix4
+  o sonicvibes => snd-sonicvibes
 
 Version 0.1.269 - 22 September 2009
 
