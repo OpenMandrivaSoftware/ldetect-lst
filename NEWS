@@ -1,4 +1,5 @@
-- auerswald, hp5300, rio500 & tiglusb are obsoleted by userspace
+- auerswald, hp5300, hpusbscsi, rio500 & tiglusb are obsoleted by
+  userspace
 - fix obsoleted drivers:
   o CDCEther => cdc_ether
   o hci_usb => btusb
