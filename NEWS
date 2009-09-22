@@ -5,6 +5,7 @@
   o hci_usb => btusb
   o mtouchusb => usbtouchscreen
   o ov518_decomp => gspca_ov519
+  o phidgetservo => hid
   o touchkitusb => usbtouchscreen
 
 Version 0.1.270 - 22 September 2009
