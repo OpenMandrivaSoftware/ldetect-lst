@@ -1,3 +1,5 @@
+- "generic" driver was replaced by "ata_generic" and "ide-pci-generic"
+
 Version 0.1.269 - 22 September 2009
 
 - add new ATI ids from fglrx
