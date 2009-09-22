@@ -6423,7 +6423,6 @@
 0x083a	0xf502	"unknown"	"Accton Technology Corp.|802.11g Wireless Adapter"
 0x083f	0xb100	"unknown"	"Global Village|TelePort V.90 Fax/Modem"
 0x0840	0x0060	"unknown"	"Argosy Research, Inc.|Storage Adapter Bridge Module"
-0x0841	0x0001	"rio500"	"Rioport.com Inc.|Rio 500"
 0x0846	0x1001	"unknown"	"NetGear, Inc.|EA101 10 Mbps 10BASE-T Ethernet [Kawasaki LSI KL5KLUSB101B]"
 0x0846	0x1002	"unknown"	"NetGear, Inc.|Ethernet"
 0x0846	0x1020	"unknown"	"NetGear, Inc.|FA101 Fast Ethernet USB 1.1"
