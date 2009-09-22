@@ -2,6 +2,8 @@
 - fix obsoleted drivers:
   o CDCEther => cdc_ether
   o hci_usb => btusb
+  o mtouchusb => usbtouchscreen
+  o ov518_decomp => gspca_ov519
   o touchkitusb => usbtouchscreen
 
 Version 0.1.270 - 22 September 2009
