@@ -1,4 +1,6 @@
 - rio500 is obsoleted by userspace
+- fix obsoleted drivers:
+  o CDCEther => cdc_ether
 
 Version 0.1.270 - 22 September 2009
 
