@@ -1298,7 +1298,7 @@
 0x0451	0x6070	"unknown"	"Texas Instruments, Inc.|RNDIS/BeWAN ADSL2+"
 0x0451	0x625f	"unknown"	"Texas Instruments, Inc.|Trekstor USB-Stick 12 CS-D 12 GB"
 0x0451	0xdbc0	"unknown"	"Texas Instruments, Inc.|Device Bay Controller"
-0x0451	0xe001	"tiglusb"	"Texas Instruments, Inc.|GraphLink"
+0x0451	0xe001	"unknown"	"Texas Instruments, Inc.|GraphLink"
 0x0451	0xe004	"unknown"	"Texas Instruments, Inc.|TI-89 Titanium Calculator"
 0x0451	0xe008	"unknown"	"Texas Instruments, Inc.|TI-84 Plus Silver Calculator"
 0x0451	0xf430	"unknown"	"Texas Instruments, Inc.|MSP-FET430UIF JTAG Tool"
