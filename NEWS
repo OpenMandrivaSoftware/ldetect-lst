@@ -1,3 +1,5 @@
+Version 0.1.269 - 22 September 2009
+
 - add new ATI ids from fglrx
 - mod_quicikame doesn't exist anymore (#52176)
 - tag one more "nVidia Geforce2 MX/MX" as GeForce 3 so that it can
