@@ -1,3 +1,5 @@
+Version 0.1.271 - 22 September 2009
+
 - auerswald, hp5300, hpusbscsi, rio500 & tiglusb are obsoleted by
   userspace
 - fix obsoleted drivers:
