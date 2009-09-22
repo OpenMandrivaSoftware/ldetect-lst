@@ -1,6 +1,7 @@
 - auerswald, rio500 & tiglusb are obsoleted by userspace
 - fix obsoleted drivers:
   o CDCEther => cdc_ether
+  o touchkitusb => usbtouchscreen
 
 Version 0.1.270 - 22 September 2009
 

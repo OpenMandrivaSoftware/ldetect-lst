@@ -8131,7 +8131,7 @@
 0x0edf	0x2060	"unknown"	"e-MDT Co., Ltd|FID irock! 100 Series"
 0x0ee3	0x1000	"unknown"	"ComTrue Technology Corp. |Image Tank 1.5"
 0x0eee	0x8810	"unknown"	"Digital Stream Technology, Inc.|Mass Storage Drive"
-0x0eef	0x0001	"touchkitusb"	"D-WAV Scientific Co., Ltd|eGalax TouchScreen"
+0x0eef	0x0001	"usbtouchscreen"	"D-WAV Scientific Co., Ltd|eGalax TouchScreen"
 0x0eef	0x0002	"unknown"	"D-WAV Scientific Co., Ltd|Touchscreen Controller(Professional)"
 0x0ef5	0x2202	"unknown"	"PointChips|Flash Disk"
 0x0ef5	0x2366	"unknown"	"PointChips|Flash Disk"
