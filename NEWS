@@ -1,3 +1,5 @@
+Version 0.1.270 - 22 September 2009
+
 - fix obsoleted drivers:
   o b2c2_usb => b2c2-flexcop-usb
   o cy82c693 => pata_cypress
