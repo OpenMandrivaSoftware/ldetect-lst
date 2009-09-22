@@ -1,4 +1,5 @@
 - fix obsoleted drivers:
+  o b2c2_usb => b2c2-flexcop-usb
   o cy82c693 => pata_cypress
   o dtc => initio
   o generic => ata_generic and ide-pci-generic

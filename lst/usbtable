@@ -7230,7 +7230,7 @@
 0x0af0	0x6000	"unknown"	"Option|GlobeTrotter 3G datacard"
 0x0af0	0x6300	"unknown"	"Option|GT 3G Quad UMTS/GPRS Card"
 0x0af0	0x6600	"unknown"	"Option|GlobeTrotter 3G+ datacard"
-0x0af7	0x0101	"b2c2_usb"	"B2C2, Inc.|Digital TV USB Receiver (DVB-S/T/C / ATSC)"
+0x0af7	0x0101	"unknown"	"B2C2, Inc.|Digital TV USB Receiver (DVB-S/T/C / ATSC)"
 0x0af9	0x0010	"unknown"	"Hama, Inc.|USB SightCam 100"
 0x0af9	0x0011	"unknown"	"Hama, Inc.|Micro Innovations IC50C Webcam"
 0x0b05	0x1101	"unknown"	"ASUSTek Computer, Inc.|Mass Storage (UISDMC4S)"
