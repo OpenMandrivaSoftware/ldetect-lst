@@ -23,9 +23,10 @@ check:
 	@../convert/merge2pcitable.pl pcitable pcitable pcitable > .pcitable
 	@diff -u pcitable .pcitable
 	@../convert/merge2pcitable.pl pcitable usbtable usbtable > .usbtable
-	@diff -u usbtable .usbtable
+	@sed -e 's!\s"[^"]*"$$!!' < usbtable > .usbtable2
+	@diff -u .usbtable2 .usbtable
 	@cd ../convert; ./verify_Cards.pl
-	@rm -f .pcitable .usbtable
+	@rm -f .pcitable .usbtable*
 
 fallback-modules.alias:
 	cp `ls -tr /lib/modules/*/modules.alias | tail -1` fallback-modules.alias
