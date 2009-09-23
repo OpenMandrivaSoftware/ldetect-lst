@@ -2,7 +2,7 @@ Version 0.1.272 - 23 September 2009
 
 - kill all 0x10ec:0x8139:*:* entries (ldetect now try to choose
   bettwen "8139cp" & "8139too" according to PCI revision like
-  performed by the kernel)
+  performed by the kernel) (#53349)
 
 Version 0.1.271 - 22 September 2009
 
