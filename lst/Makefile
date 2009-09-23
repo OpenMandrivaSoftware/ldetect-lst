@@ -23,7 +23,7 @@ check:
 	@../convert/merge2pcitable.pl pcitable pcitable pcitable > .pcitable
 	@diff -u pcitable .pcitable
 	@../convert/merge2pcitable.pl pcitable usbtable usbtable > .usbtable
-	@sed -e 's!\s"[^"]*"$$!!' < usbtable > .usbtable2
+	@LC_ALL=C.iso-8859-1 sed -e 's!\s"[^"]*"$$!!' < usbtable > .usbtable2
 	@diff -u .usbtable2 .usbtable
 	@cd ../convert; ./verify_Cards.pl
 	@rm -f .pcitable .usbtable*
