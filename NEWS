@@ -1,3 +1,5 @@
+- radeonhd failed on 0x1002:0x9480 (#53183)
+
 Version 0.1.273 - 23 September 2009
 
 - dc2xx is now obsoleted by userspace

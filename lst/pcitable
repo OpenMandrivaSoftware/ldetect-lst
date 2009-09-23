@@ -474,7 +474,7 @@
 0x1002	0x946b	"Card:ATI Radeon HD 2000 and later (radeon/fglrx)"
 0x1002	0x947a	"Card:ATI Radeon HD 2000 and later (radeon/fglrx)"
 0x1002	0x947b	"Card:ATI Radeon HD 2000 and later (radeon/fglrx)"
-0x1002	0x9480	"Card:ATI Radeon HD 2000 and later (radeonhd/fglrx)"
+0x1002	0x9480	"Card:ATI Radeon HD 2000 and later (radeon/fglrx)"
 0x1002	0x9487	"Card:ATI Radeon HD 2000 and later (radeon/fglrx)"
 0x1002	0x9488	"Card:ATI Radeon HD 2000 and later (radeonhd/fglrx)"
 0x1002	0x9489	"Card:ATI FirePro (radeon/fglrx)"
