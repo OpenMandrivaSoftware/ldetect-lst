@@ -1,3 +1,6 @@
+- drop obsolete 'cs46xx', 'cs5535', 'maestro', 'maestro3', & 'ymfpci'
+  entries
+
 Version 0.1.272 - 23 September 2009
 
 - kill all 0x10ec:0x8139:*:* entries (ldetect now try to choose
