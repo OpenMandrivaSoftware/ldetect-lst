@@ -1,3 +1,4 @@
+- dc2xx is now obsoleted by userspace
 - drop obsolete 'cs46xx', 'cs5535', 'maestro', 'maestro3', & 'ymfpci'
   entries
 
