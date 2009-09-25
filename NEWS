@@ -1,3 +1,5 @@
+Version 0.1.275 - 25 September 2009
+
 - add support for 0x10de:0x06ec (G98M [GeForce G 105M]) which only
   works with nv (#54000)
 - add quite a lot of new nvidia cards definition from NV_WHQL.inf from
