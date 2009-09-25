@@ -1,3 +1,6 @@
+- add support for 0x10de:0x06ec (G98M [GeForce G 105M]) which only
+  works with nv (#54000)
+
 Version 0.1.274 - 23 September 2009
 
 - radeonhd failed on 0x1002:0x9480 (#53183)
