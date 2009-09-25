@@ -1,5 +1,7 @@
 - add support for 0x10de:0x06ec (G98M [GeForce G 105M]) which only
   works with nv (#54000)
+- add quite a lot of new nvidia cards definition from NV_WHQL.inf from
+  windows driver 186.82)
 - remove quite a lot of usb devices descriptions that came from usb.ids
 
 Version 0.1.274 - 23 September 2009
