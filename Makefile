@@ -37,7 +37,7 @@ localcopy:
 	svn export -q -rBASE . $(PACKAGE)-$(VERSION)
 
 tar:
-	tar cfJ $(PACKAGE)-$(VERSION).tar.lzma $(PACKAGE)-$(VERSION)
+	tar cfa $(PACKAGE)-$(VERSION).tar.lzma $(PACKAGE)-$(VERSION)
 	rm -rf $(PACKAGE)-$(VERSION)
 
 
