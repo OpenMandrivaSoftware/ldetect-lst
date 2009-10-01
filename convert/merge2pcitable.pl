@@ -331,7 +331,7 @@ sub read_nvidia_readme {
         }
 	next if (/^\s+-+\s+-+$/);
 	my ($description, $id) = /^\s+(.+?)\s+0x(....)/;
-	$drivers{"10de".lc($id)."ffffffff"} = [ 'Card:NVIDIA_UNKNOWN', $description ];
+	$drivers{"10de" . lc($id) . "ffffffff"} = [ 'Card:NVIDIA_UNKNOWN', $description ];
     }
     \%drivers;
 }
