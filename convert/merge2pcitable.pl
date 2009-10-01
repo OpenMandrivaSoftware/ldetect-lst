@@ -9,6 +9,8 @@ qw(alsa ignore),
 
 my ($force, @force_modules, $all, $keep_subids, $wildcards, $use_description);
 
+# UPDATE ME WHEN UPDATING ../lst/Cards+:
+my $ati_driver   = 'Card:ATI Radeon HD 2000 and later (radeon/fglrx)';
 if ($0 =~ /merge2pcitable/) 
 {
     if ($ARGV[0] =~ /^-f=?(.*)$/) {
@@ -113,6 +115,24 @@ sub read_pcitable {
     }
     \%drivers;
 }
+
+sub read_kernel_aliasmap {
+    my ($f) = @_;
+    my %drivers;
+    if (!$f || $f eq '/dev/null') {
+        $f = find { -e $_ } map { "$_/dkms-modules-info/dkms-modules.alias" } qw(. ..);
+    }
+    foreach (cat_($f)) {
+        # too bad nvidia driver doesn't list its ids...
+        next if !/alias pci.* fglrx/;
+        if (/alias pci:v0000(....)d0000(....)sv/) {
+            my ($id1, $id2) = (lc($1), lc($2));
+            $drivers{ join '', map { /(....)$/ } $id1, $id2, '0xffff', '0xffff' } = [ $ati_driver ];
+        }
+    }
+    \%drivers;
+}
+
 
 sub read_kernel_pcimap {
     my ($f) = @_;

@@ -1,3 +1,7 @@
+- enable to automatically add new ATI cards from
+  dkms-modules-info/dkms-modules.alias where fglrx declares what it
+  supports
+
 Version 0.1.275 - 25 September 2009
 
 - add support for 0x10de:0x06ec (G98M [GeForce G 105M]) which only
