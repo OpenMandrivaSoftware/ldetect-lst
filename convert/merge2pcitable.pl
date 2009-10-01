@@ -11,6 +11,8 @@ my ($force, @force_modules, $all, $keep_subids, $wildcards, $use_description);
 
 # UPDATE ME WHEN UPDATING ../lst/Cards+:
 my $ati_driver   = 'Card:ATI Radeon HD 2000 and later (radeon/fglrx)';
+my $ati_fallback = 'Card:ATI Radeon X1950 and earlier';
+
 if ($0 =~ /merge2pcitable/) 
 {
     if ($ARGV[0] =~ /^-f=?(.*)$/) {
@@ -32,6 +34,16 @@ if ($0 =~ /merge2pcitable/)
     my $read = $main::{"read_$format"} or die "unknown format $format (must be one of $formats)\n";
     my $d_pci = read_pcitable($pcitable, 'strict');
     my ($d_in, $classes) = $read->($in);
+
+    if ($format eq 'kernel_aliasmap') {
+        foreach (keys %$d_pci) {
+            next if $d_pci->{$_}[0] ne $ati_driver;
+            next if $d_in->{$_}[0];
+            $d_pci->{$_}[0] = $ati_fallback;
+        }
+        
+    }
+
     merge($d_pci, $d_in, $classes);
     exit 1 if our $error;
     cleanup_subids($d_pci) if !$keep_subids;
