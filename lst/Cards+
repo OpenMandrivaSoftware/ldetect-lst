@@ -410,6 +410,10 @@ DRI_GLX
 NAME Intel Vermilion-based cards
 DRIVER vermilion
 
+NAME Intel Poulsbo US15W (GMA500)
+DRIVER psb
+DRI_GLX
+
 # 3DFX
 
 NAME 3DFX Voodoo / Voodoo II

@@ -1,6 +1,7 @@
 - enable to automatically add new ATI cards from
   dkms-modules-info/dkms-modules.alias where fglrx declares what it
   supports
+- add Cards+ entry for Intel Poulsbo US15W (GMA500), using the psb driver
 - Monitor DB
   - add Samsung SyncMaster 2243SN (Reinout van Schouwen)
 
