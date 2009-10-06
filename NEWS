@@ -1,3 +1,5 @@
+Version 0.1.276 - 6 October 2009
+
 - enable to automatically add new ATI cards from
   dkms-modules-info/dkms-modules.alias where fglrx declares what it
   supports
