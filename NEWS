@@ -4,6 +4,7 @@ Version 0.1.277 - 8 October 2009
 - add LCD Panel 1366x768 entry (#47706)
 - add monitor entry for Asus 1101HA (#47706)
 - add Samsung SyncMaster 732NW (from Sergio Rafael Lemke)
+- use psb video driver for Intel 0x8108 and 0x8109
 
 Version 0.1.276 - 6 October 2009
 
