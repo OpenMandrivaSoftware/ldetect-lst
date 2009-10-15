@@ -1,3 +1,5 @@
+Version 0.1.278 - 15 October 2009
+
 - select openchrome driver for 0x1106:0x1122
 - Monitor DB
   o add entry for 'Iiyama Prolite E2607WS' (#54225)
