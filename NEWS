@@ -1,3 +1,5 @@
+- use "GeForce 6100 and later" for 10de:06ec (#54862)
+
 Version 0.1.278 - 15 October 2009
 
 - select openchrome driver for 0x1106:0x1122
