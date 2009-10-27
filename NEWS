@@ -1,4 +1,4 @@
-- use "GeForce 6100 and later" for 10de:06ec (#54862)
+- really tag for 10de:06ec as not working with nvidia driver (#54862)
 - use nvidia173 for 10de:2362 (#54768)
 
 Version 0.1.278 - 15 October 2009

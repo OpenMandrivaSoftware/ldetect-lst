@@ -301,6 +301,9 @@ DRIVER nouveau
 # Note that 086a is not listed even in nvidia-current, even while it works with
 # it.
 
+NAME NVIDIA cards not working with nvidia
+DRIVER nv
+
 NAME NVIDIA cards not working with nv
 DRIVER vesa
 DRIVER2 nvidia-current
