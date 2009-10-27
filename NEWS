@@ -1,3 +1,5 @@
+Version 0.1.279 - 27 October 2009
+
 - really tag for 10de:06ec as not working with nvidia driver (#54862)
 - use nvidia173 for 10de:2362 (#54768)
 
