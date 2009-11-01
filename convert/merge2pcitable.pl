@@ -351,9 +351,9 @@ sub read_nvidia_readme {
     my $section;
     foreach (cat_($f)) {
 	chomp;
-	last if ($section > 3);
+	last if $section > 3;
 	if (!($section % 2)) {
-	    next unless (/^\s+NVIDIA GPU product\s+Device PCI ID/);
+	    next unless /^\s+NVIDIA GPU product\s+Device PCI ID/;
 	    $section++;
 	    next;
         }
@@ -361,7 +361,7 @@ sub read_nvidia_readme {
 	    $section++;
 	    next;
         }
-	next if (/^\s+-+[\s-]+$/);
+	next if /^\s+-+[\s-]+$/;
 	my ($description, $id) = /^\s+(.+?)\s+0x(....)/;
 	$drivers{"10de" . lc($id) . "ffffffff"} = [ 'Card:NVIDIA_UNKNOWN', $description ];
     }
