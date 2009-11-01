@@ -368,6 +368,17 @@ sub read_nvidia_readme {
     \%drivers;
 }
 
+sub read_fglrxko_pci_ids_h {
+    my ($f) = @_;
+    my %drivers;
+    foreach (cat_($f)) {
+	chomp;
+	my ($id) = /^\s+FGL_ASIC_ID\(0x(....)\)/ or next;
+	$drivers{"1002" . lc($id) . "ffffffff"} = [ 'Card:FGLRX_UNKNOWN', 'unknown' ];
+    }
+    \%drivers;
+}
+    
 # write in RedHat's pcitable old format (mdk one)
 sub write_pcitable {
     my ($drivers) = @_;
