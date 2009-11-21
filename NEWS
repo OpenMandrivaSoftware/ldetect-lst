@@ -1,7 +1,9 @@
 - Monitor DB
   o add entry for 'Samsung SyncMaster 2233SW (Charles A Edwards)
   o add entry for 'Samsung SyncMaster 2494HS' (Marek Laane)
-- add new NVIDIA ids from nvidia-current 190.42 
+- add new NVIDIA ids from nvidia-current 190.42
+- add new 0x6000 series ATI ids from fglrx 8.671 assigned to
+  fglrx+radeonhd
 
 Version 0.1.279 - 27 October 2009
 
