@@ -2,7 +2,7 @@
   o add entry for 'Samsung SyncMaster 2233SW (Charles A Edwards)
   o add entry for 'Samsung SyncMaster 2494HS' (Marek Laane)
 - add new NVIDIA ids from nvidia-current 190.42
-- add new HD 5000 series ATI ids from fglrx 8.671 assigned to
+- add new ATI ids from fglrx 8.671, 8.681 assigned to
   fglrx+radeonhd
 - switch all HD 5000 series ATI ids from ati to radeonhd
 
