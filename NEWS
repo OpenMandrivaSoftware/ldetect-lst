@@ -5,6 +5,8 @@
 - add new ATI ids from fglrx 8.671, 8.681 assigned to
   fglrx+radeonhd
 - switch all HD 5000 series ATI ids from ati to radeonhd
+- use nouveau as default free driver for NVIDIA cards, except for
+  Riva 128 (NV03) which is not supported by it
 
 Version 0.1.279 - 27 October 2009
 

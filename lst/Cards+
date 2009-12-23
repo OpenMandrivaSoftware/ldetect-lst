@@ -262,19 +262,19 @@ DRIVER nv
 BAD_FB_RESTORE
 
 NAME NVIDIA RIVA TNT to GeForce 2
-DRIVER nv
+DRIVER nouveau
 #DRIVER2 nvidia71xx (not compatible with x.org server 1.6)
 
 NAME NVIDIA GeForce 2 MX to GeForce 4
-DRIVER nv
+DRIVER nouveau
 DRIVER2 nvidia96xx
 
 NAME NVIDIA GeForce FX series
-DRIVER nv
+DRIVER nouveau
 DRIVER2 nvidia173
 
 NAME NVIDIA GeForce 6100 and later
-DRIVER nv
+DRIVER nouveau
 DRIVER2 nvidia-current
 DRIVER2_NO_SSE nvidia96xx
 
@@ -283,31 +283,8 @@ DRIVER nvxbox
 LINE Option "UseFBDev" "1"
 LINE Option "HWCursor" "0"
 
-NAME NVIDIA GeForce (nouveau driver, experimental)
-DRIVER nouveau
-
-# This entry blacklists IDs that are known from MDV and / or
-# freedesktop.org reports to not work with the 'nv' driver. Reports:
-
-# https://qa.mandriva.com/show_bug.cgi?id=38391 - 053A
-# http://bugs.freedesktop.org/show_bug.cgi?id=13629 - 053B
-# http://bugs.freedesktop.org/show_bug.cgi?id=15251 - 0533
-# http://bugs.freedesktop.org/show_bug.cgi?id=16565 - 0531
-# http://bugs.freedesktop.org/show_bug.cgi?id=17526 - 0849
-# http://bugs.freedesktop.org/show_bug.cgi?id=18092 - 0848
-# http://bugs.freedesktop.org/show_bug.cgi?id=19545 - 0863, 086a
-# http://bugs.freedesktop.org/show_bug.cgi?id=19617 - 0641
-#
-# Note that 086a is not listed even in nvidia-current, even while it works with
-# it.
-
 NAME NVIDIA cards not working with nvidia
-DRIVER nv
-
-NAME NVIDIA cards not working with nv
-DRIVER vesa
-DRIVER2 nvidia-current
-DRIVER2_NO_SSE nvidia96xx
+DRIVER nouveau
 
 # IMS
 
