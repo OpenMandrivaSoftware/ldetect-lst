@@ -283,9 +283,6 @@ DRIVER nvxbox
 LINE Option "UseFBDev" "1"
 LINE Option "HWCursor" "0"
 
-NAME NVIDIA cards not working with nvidia
-DRIVER nouveau
-
 # IMS
 
 NAME IMS TwinTurbo-based cards
