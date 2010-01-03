@@ -14,7 +14,7 @@ my $ati_driver     = 'Card:ATI Radeon HD 2000 and later (radeon/fglrx)';
 my $ati_driver_rhd = 'Card:ATI Radeon HD 2000 and later (radeonhd/fglrx)';
 my $ati_driver_vesa= 'Card:ATI Radeon HD 2000 and later (vesa/fglrx)';
 my $ati_free_only  = 'Card:ATI Radeon X1950 and earlier';
-my $ati_rhd_only   = 'Card:ATI Radeon RV710 9592 (radeonhd)';
+my $ati_rhd_only   = 'Card:ATI Radeon RV710 9592';
 # also, be careful when merging as Cards+ and pcitable may contain card-specific
 # cases due to bugs in the various drivers
 
