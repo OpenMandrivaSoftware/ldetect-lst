@@ -1,3 +1,5 @@
+Version 0.1.281 - 3 January 2010
+
 - disable ATI propretary driver for now, it doesn't support X.org
   server 1.7+
 - update various ATI ids as per current free driver ID lists (some
