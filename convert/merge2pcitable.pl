@@ -10,8 +10,13 @@ qw(alsa ignore),
 my ($force, @force_modules, $all, $keep_subids, $wildcards, $use_description);
 
 # UPDATE ME WHEN UPDATING ../lst/Cards+:
-my $ati_driver   = 'Card:ATI Radeon HD 2000 and later (radeon/fglrx)';
-my $ati_fallback = 'Card:ATI Radeon X1950 and earlier';
+my $ati_driver     = 'Card:ATI Radeon HD 2000 and later (radeon/fglrx)';
+my $ati_driver_rhd = 'Card:ATI Radeon HD 2000 and later (radeonhd/fglrx)';
+my $ati_driver_vesa= 'Card:ATI Radeon HD 2000 and later (vesa/fglrx)';
+my $ati_free_only  = 'Card:ATI Radeon X1950 and earlier';
+my $ati_rhd_only   = 'Card:ATI Radeon RV710 9592 (radeonhd)';
+# also, be careful when merging as Cards+ and pcitable may contain card-specific
+# cases due to bugs in the various drivers
 
 if ($0 =~ /merge2pcitable/) 
 {
@@ -35,13 +40,72 @@ if ($0 =~ /merge2pcitable/)
     my $d_pci = read_pcitable($pcitable, 'strict');
     my ($d_in, $classes) = $read->($in);
 
-    if ($format eq 'kernel_aliasmap') {
+    if ($format eq 'kernel_aliasmap' || $format eq 'fglrxko_pci_ids_h') {
         foreach (keys %$d_pci) {
-            next if $d_pci->{$_}[0] ne $ati_driver;
-            next if $d_in->{$_}[0];
-            $d_pci->{$_}[0] = $ati_fallback;
+            if (member($d_pci->{$_}[0], ($ati_driver, $ati_driver_rhd, $ati_driver_vesa)) && !$d_in->{$_}[0]) {
+                # support dropped, handle:
+                if ($d_pci->{$_}[0] eq $ati_driver) {
+                    $d_pci->{$_}[0] = $ati_free_only;
+                } elsif ($d_pci->{$_}[0] eq $ati_driver_vesa) {
+                    delete $d_pci->{$_};
+                } elsif ($d_pci->{$_}[0] eq $ati_driver_rhd) {
+                    $d_pci->{$_}[0] = $ati_rhd_only
+                } else {
+                    die 'not handled ' . $_;
+                }
+            } elsif (member($d_pci->{$_}[0], ($ati_free_only, $ati_rhd_only)) && $d_in->{$_}[0]) {
+                # support added for pre-existing entry, handle:
+                if ($d_pci->{$_}[0] eq $ati_free_only) {
+                    $d_pci->{$_}[0] = $ati_driver;
+                } elsif ($d_pci->{$_}[0] eq $ati_rhd_only) {
+                    $d_pci->{$_}[0] = $ati_driver_rhd;
+                } else {
+                    die 'not handled ' . $_;
+                }
+            }
         }
-        
+    }
+    # Here we hack around so that drivers get used in order radeon, radeonhd, vesa:
+    if ($format eq 'ati_pciids_csv') {
+        foreach (keys %$d_pci) {
+            if (member($d_pci->{$_}[0], ($ati_driver, $ati_free_only)) && !$d_in->{$_}[0]) {
+                # support dropped, handle:
+                if ($d_pci->{$_}[0] eq $ati_driver) {
+                    $d_pci->{$_}[0] = $ati_driver_vesa;
+                } elsif ($d_pci->{$_}[0] eq $ati_free_only) {
+                    delete $d_pci->{$_};
+                } else {
+                    die 'not handled ' . $_;
+                }
+            } elsif (member($d_pci->{$_}[0], ($ati_driver_rhd, $ati_driver_vesa, $ati_rhd_only)) && $d_in->{$_}[0]) {
+                # support added for pre-existing entry, handle:
+                next if $_ eq "10029610ffffffff"; # see Cards+ and #49824
+                if (member($d_pci->{$_}[0], ($ati_driver_rhd, $ati_driver_vesa))) {
+                    $d_pci->{$_}[0] = $ati_driver;
+                } elsif ($d_pci->{$_}[0] eq $ati_rhd_only) {
+                    $d_pci->{$_}[0] = $ati_free_only;
+                } else {
+                    die 'not handled ' . $_;
+                }
+            }
+        }
+    }
+    if ($format eq 'rhd_id_c') {
+        foreach (keys %$d_pci) {
+             if (member($d_pci->{$_}[0], ($ati_driver_rhd, $ati_rhd_only)) && !$d_in->{$_}[0]) {
+                # support dropped, handle:
+                if ($d_pci->{$_}[0] eq $ati_driver_rhd) {
+                    $d_pci->{$_}[0] = $ati_driver_vesa;
+                } elsif ($d_pci->{$_}[0] eq $ati_rhd_only) {
+                    delete $d_pci->{$_};
+                } else {
+                    die 'not handled ' . $_;
+                }
+            } elsif ($d_pci->{$_}[0] eq $ati_driver_vesa && $d_in->{$_}[0]) {
+                # support added for pre-existing entry, handle:
+                $d_pci->{$_}[0] = $ati_driver_rhd;
+             }
+        }
     }
 
     merge($d_pci, $d_in, $classes);
@@ -374,11 +438,33 @@ sub read_fglrxko_pci_ids_h {
     foreach (cat_($f)) {
 	chomp;
 	my ($id) = /^\s+FGL_ASIC_ID\(0x(....)\)/ or next;
-	$drivers{"1002" . lc($id) . "ffffffff"} = [ 'Card:FGLRX_UNKNOWN', 'unknown' ];
+	$drivers{"1002" . lc($id) . "ffffffff"} = [ $ati_driver_vesa, 'unknown' ];
     }
     \%drivers;
 }
-    
+
+sub read_rhd_id_c {
+    my ($f) = @_;
+    my %drivers;
+    foreach (cat_($f)) {
+	chomp;
+	my ($id, $description) = /^\s+RHD_DEVICE_MATCH\(\s*0x(....).*\/\* (.*)\*\// or next;
+	$drivers{"1002" . lc($id) . "ffffffff"} = [ $ati_rhd_only, $description ];
+    }
+    \%drivers;
+}
+
+sub read_ati_pciids_csv {
+    my ($f) = @_;
+    my %drivers;
+    foreach (cat_($f)) {
+	chomp;
+	my ($id, $description) = /^"0x(....)",.*,(?:"([^,]*)")?$/ or next;
+	$drivers{"1002" . lc($id) . "ffffffff"} = [ $ati_driver, $description ];
+    }
+    \%drivers;
+}
+
 # write in RedHat's pcitable old format (mdk one)
 sub write_pcitable {
     my ($drivers) = @_;
