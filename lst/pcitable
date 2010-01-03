@@ -501,7 +501,7 @@
 0x1002	0x958f	"Card:ATI r600 based FireGL"
 0x1002	0x9590	"Card:ATI Radeon HD 2000 and later (radeon/fglrx)"
 0x1002	0x9591	"Card:ATI Radeon HD 2000 and later (radeon/fglrx)"
-0x1002	0x9592	"Card:ATI Radeon RV710 9592 (radeonhd)"
+0x1002	0x9592	"Card:ATI Radeon RV710 9592"
 0x1002	0x9593	"Card:ATI Radeon HD 2000 and later (radeon/fglrx)"
 0x1002	0x9595	"Card:ATI r600 based FireGL"
 0x1002	0x9596	"Card:ATI Radeon HD 2000 and later (radeon/fglrx)"
