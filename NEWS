@@ -1,5 +1,8 @@
 - disable ATI propretary driver for now, it doesn't support X.org
   server 1.7+
+- update various ATI ids as per current free driver ID lists (some
+  cards were switched from radeonhd to radeon, and some to vesa)
+- remove ATI IDs that are not supported by any driver
 
 Version 0.1.280 - 24 December 2009
 
