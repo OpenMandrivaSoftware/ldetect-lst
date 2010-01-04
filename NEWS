@@ -1,3 +1,6 @@
+- disable NVidia propretary driver on 0x10de:0x0110 as it segfaults on
+  2010.0
+
 Version 0.1.281 - 3 January 2010
 
 - disable ATI propretary driver for now, it doesn't support X.org
