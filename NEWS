@@ -1,3 +1,4 @@
+- add support for Intel B43 graphics adapter
 - disable NVidia propretary driver on 0x10de:0x0110 as it segfaults on
   2010.0
 
