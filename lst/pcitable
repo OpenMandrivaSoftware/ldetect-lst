@@ -1950,6 +1950,8 @@
 0x5333	0x9102	"Card:S3 Savage-based cards"
 0x5333	0xb031	"Card:S3 8xx / 9xx / Trio / Aurora64V+-based cards"
 0x8086	0x0039	"tulip"
+0x8086	0x0042	"Card:Intel 810 and later"
+0x8086	0x0046	"Card:Intel 810 and later"
 0x8086	0x0600	"gdth"
 0x8086	0x0601	"gdth"
 0x8086	0x1132	"Card:Intel 810 and later"
