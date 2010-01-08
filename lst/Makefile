@@ -14,10 +14,12 @@ TMP_TABLES  = $(TABLES:%=%.tmp)
 
 build: preferred-modules.alias
 
+update-ids: new-usb-ids new-pci-ids new-oui-txt
+
 clean:
 	rm -f *~ *.tmp ScannerDB.gz preferred-modules.alias fallback-modules.alias
 
-check:
+check: 
 	@../convert/merge2pcitable.pl pcitable pcitable.x86_64 pcitable.x86_64 > .pcitable
 	@diff -u pcitable.x86_64 .pcitable
 	@../convert/merge2pcitable.pl pcitable pcitable pcitable > .pcitable
@@ -44,14 +46,21 @@ $(TMP_TABLES2): %.tmp: %
 $(TABLES3):
 	gzip -vc9 ScannerDB > ScannerDB.gz
 
+new-usb-ids:
+	@curl -O http://www.linux-usb.org/usb.ids
+
+new-pci-ids:
+	@curl -O http://pciids.sourceforge.net/pci.ids
+
+new-oui-txt:
+	@curl -O http://standards.ieee.org/regauth/oui/oui.txt
+
 install: $(TMP_TABLES) $(TABLES3)
 	for i in $(TABLES); do \
 	mkdir -p $(dir)/$$i.d ; \
 	(echo "# This file was created:" `date '+%Y-%m-%d %H:%M:%S (%z)'` ; \
-	 echo "# !! The latest version is available via CVS at" ; \
-	 echo "# export CVS_RSH=ssh" ; \
-	 echo "# export CVSROOT=:ext:anoncvs@cvs.mandriva.com:/cooker" ; \
-	 echo "# cvs checkout soft/$(project)    (password \`\`cvs'')" ; \
+	 echo "# !! The latest version is available via SVN at" ; \
+	 echo "# http://svn.mandriva.com/svn/soft/ldetect-lst/" ; \
 	 cat $$i.tmp \
 	) > $(dir)/$$i.d/90default.lst; done
 
@@ -63,3 +72,6 @@ install: $(TMP_TABLES) $(TABLES3)
 
 	install -m 644 fallback-modules.alias $(dir)/fallback-modules.alias
 	install -D -m 644 preferred-modules.alias $(slibdir)/module-init-tools/ldetect-lst-modules.alias
+	install -D -m 644 oui.txt usb.ids $(prefix)/share
+	mkdir -p $(prefix)/share/misc
+	install -m 644 pci.ids $(prefix)/share/misc/pci.ids
