@@ -72,6 +72,6 @@ install: $(TMP_TABLES) $(TABLES3)
 
 	install -m 644 fallback-modules.alias $(dir)/fallback-modules.alias
 	install -D -m 644 preferred-modules.alias $(slibdir)/module-init-tools/ldetect-lst-modules.alias
-	install -D -m 644 oui.txt usb.ids $(prefix)/share
+	install -D -m 644 oui.txt usb.ids pci.ids $(prefix)/share
 	mkdir -p $(prefix)/share/misc
-	install -D -m 644 pci.ids pnp.ids $(prefix)/share/misc
+	install -D -m 644 pnp.ids $(prefix)/share/misc
