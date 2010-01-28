@@ -5,6 +5,7 @@
 - add support for Intel B43 graphics adapter
 - disable NVidia propretary driver on 0x10de:0x0110 as it segfaults on
   2010.0
+- add new ATI ids from fglrx 8.690 (10.1)
 
 Version 0.1.281 - 3 January 2010
 
