@@ -1,3 +1,4 @@
+- drop i810 driver which is no longer working
 - add support for Intel Atom "Pineview G" and "Pineview GM" integrated
   graphics adapters
 - add support for desktop and mobile Intel Core i3/i5 integrated
