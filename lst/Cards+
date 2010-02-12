@@ -31,9 +31,6 @@ NAME VESA driver (generic)
 CHIPSET VESA VBE 2.0
 DRIVER vesa
 
-NAME VGA driver (generic)
-DRIVER vga
-
 NAME FrameBuffer (generic)
 DRIVER fbdev
 
@@ -54,7 +51,7 @@ LINE # videoram 512
 # Cirrus Logic
 
 NAME Cirrus Logic GD542x-based cards
-DRIVER vga
+DRIVER vesa
 LINE # Device section for Cirrus Logic GD5420/2/4/6/8/9-based cards.
 LINE     #MemBase 0x00e00000
 LINE     #MemBase 0x04e00000
