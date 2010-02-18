@@ -223,7 +223,7 @@ DRIVER sisimedia
 # Cyrix
 
 NAME MediaGX
-DRIVER cyrix
+DRIVER geode
 
 # Number 9 I128
 

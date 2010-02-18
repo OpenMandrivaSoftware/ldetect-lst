@@ -1,3 +1,4 @@
+- make MediaGX cards use geode instead of cyrix
 - make Intel Vermilion cards use vesa since vermilion doesn't work
 - drop vga driver which is no longer working
 - drop i810 driver which is no longer working
