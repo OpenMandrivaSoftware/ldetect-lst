@@ -373,7 +373,7 @@ DRIVER intel
 DRI_GLX
 
 NAME Intel Vermilion-based cards
-DRIVER vermilion
+DRIVER vesa
 
 NAME Intel Poulsbo US15W (GMA500)
 DRIVER psb
