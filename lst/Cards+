@@ -280,7 +280,7 @@ LINE Option "HWCursor" "0"
 # IMS
 
 NAME IMS TwinTurbo-based cards
-DRIVER imstt
+DRIVER vesa
 
 # 3DLabs
 
