@@ -23,7 +23,8 @@ my @preferred_modules = (
     "i2c_viapro", #- prefer over via686a
     "ipr", #- subvendors listed in ipr driver seems not to be supported by DAC960
     "mxser_new", #- experimental clone of mxser
-    "prism54", #- prefer over p54pci
+    "p54pci", #- prefer over prism54
+    "p54usb", #- prefer over prism54
     "ipw3945", #- prefer over iwl3945, which has some stability/performance issues
     "rt2400", "rt2500", "rt2570", "rt61", "rt73", #- prefer legacy Ralink drivers
     "skge", #- prefer over sk98lin
