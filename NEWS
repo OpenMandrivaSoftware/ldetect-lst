@@ -1,3 +1,5 @@
+- add new NVIDIA ids from nvidia-current
+
 Version 0.1.284 - 25 February 2010
 
 - make imstt cards use vesa driver (imstt driver doesn't exist since 2009.1)
