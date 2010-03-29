@@ -161,7 +161,7 @@ SEE ATI Radeon X1950 and earlier
 NAME ATI Radeon HD 2000 and later (radeon/fglrx)
 DRIVER ati
 DRI_GLX
-# DRIVER2 fglrx incompatible with X server 1.7+
+DRIVER2 fglrx
 
 # FireGL cards supported by proprietary driver and free 'radeon'
 # driver: update name as support changes
@@ -181,11 +181,11 @@ SEE ATI Radeon HD 2000 and later (radeon/fglrx)
 NAME ATI Radeon HD 2000 and later (radeonhd/fglrx)
 DRIVER radeonhd
 DRI_GLX
-# DRIVER2 fglrx incompatible with X server 1.7+
+DRIVER2 fglrx
 
 NAME ATI Radeon HD 2000 and later (vesa/fglrx)
 DRIVER vesa
-# DRIVER2 fglrx incompatible with X server 1.7+
+DRIVER2 fglrx
 
 # FirePro cards as above:
 # driver: update name as support changes

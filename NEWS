@@ -1,6 +1,7 @@
 - add new NVIDIA ids from nvidia-current
 - add new ATI ids from fglrx
 - switch ATI cards now supported by radeon to it from vesa
+- re-enable ATI proprietary driver
 
 Version 0.1.284 - 25 February 2010
 
