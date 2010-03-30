@@ -1,3 +1,5 @@
+Version 0.1.285 - 30 March 2010
+
 - add new NVIDIA ids from nvidia-current
 - add new ATI ids from fglrx
 - switch ATI cards now supported by radeon to it from vesa
