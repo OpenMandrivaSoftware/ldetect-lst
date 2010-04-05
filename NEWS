@@ -1,3 +1,6 @@
+- switch ATI cards now supported by radeon to it from vesa
+  (HD 5000 series cards)
+
 Version 0.1.285 - 30 March 2010
 
 - add new NVIDIA ids from nvidia-current
