@@ -1,3 +1,4 @@
+- remove imwheel support (replace with evdev)
 - switch ATI cards now supported by radeon to it from vesa
   (HD 5000 series cards)
 
