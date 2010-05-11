@@ -1,3 +1,5 @@
+Version 0.1.286 - 11 May 2010
+
 - switch back 0x10de:0x0110 to using the proprietary driver (#57539)
 - remove imwheel support (replace with evdev)
 - switch ATI cards now supported by radeon to it from vesa
