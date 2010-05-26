@@ -1,0 +1,6 @@
+acpi*:ENE0201:*
+pnp:dENE0201*
+acpi*:ENE0200:*
+pnp:dENE0200*
+acpi*:ENE0100:*
+pnp:dENE0100*
