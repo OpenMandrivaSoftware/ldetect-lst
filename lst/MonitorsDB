@@ -4961,6 +4961,10 @@ Samsung; Samsung SyncMaster 957FS/950FS/907FS/CS197A(P); SAM0023; 30-96; 50-160;
 Samsung; Samsung SyncMaster 957p; sam002c; 30-96; 50-160; 1
 Samsung; Samsung SyncMaster 959NF/900NF/909NF/CN199A(P); SAM002F; 30-110; 50-160; 1
 Samsung; Samsung SyncMaster 997DF/927DF/997MB/927MB/927DFI/927MBI; SAM0109; 30-96; 50-160; 1
+Samsung; Samsung SyncMaster P2370H (Analog); SAM05FA; 30-81; 56-60; 1
+Samsung; Samsung SyncMaster P2370H (Digital); SAM05FB; 30-81; 56-60; 1
+Samsung; Samsung SyncMaster P2470H (Analog); SAM060E; 30-81; 56-60; 1
+Samsung; Samsung SyncMaster P2470H (Digital); SAM060F; 30-81; 56-60; 1
 Samtron; Samtron 428PT/PTL; sdi1428; 31.5-48.0; 43.5-75.0; 1
 Samtron; Samtron SC-208DXL+; sdi4690; 30.0-82.0; 50.0-120.0; 1
 Samtron; Samtron SC-528MDL; sdi5451; 30.0-48.0; 50.0-120.0; 1
