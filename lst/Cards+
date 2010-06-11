@@ -267,8 +267,13 @@ NAME NVIDIA GeForce FX series
 DRIVER nouveau
 DRIVER2 nvidia173
 
-NAME NVIDIA GeForce 6100 and later
+NAME NVIDIA GeForce 6100 to GeForce 360
 DRIVER nouveau
+DRIVER2 nvidia-current
+DRIVER2_NO_SSE nvidia96xx
+
+NAME NVIDIA GeForce 400 series and later
+DRIVER vesa
 DRIVER2 nvidia-current
 DRIVER2_NO_SSE nvidia96xx
 

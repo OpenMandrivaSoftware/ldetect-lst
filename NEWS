@@ -1,3 +1,6 @@
+- add new NVIDIA ids from the proprietary driver (#59714), assigning the
+  Fermi cards to a new GF400+ class for vesa/nvidia-current
+
 Version 0.1.286 - 11 May 2010
 
 - switch back 0x10de:0x0110 to using the proprietary driver (#57539)
