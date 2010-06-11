@@ -1,3 +1,5 @@
+Version 0.1.287 - 11 June 2010
+
 - add new NVIDIA ids from the proprietary driver (#59714), assigning the
   Fermi cards to a new GF400+ class for vesa/nvidia-current
 
