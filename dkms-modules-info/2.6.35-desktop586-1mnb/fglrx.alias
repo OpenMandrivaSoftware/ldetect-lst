@@ -1,6 +1,7 @@
 pci:v00001002d000095CFsv*sd*bc*sc*i*
 pci:v00001002d000095CEsv*sd*bc*sc*i*
 pci:v00001002d000095CDsv*sd*bc*sc*i*
+pci:v00001002d000068F2sv*sd*bc*sc*i*
 pci:v00001002d00009446sv*sd*bc*sc*i*
 pci:v00001002d00009456sv*sd*bc*sc*i*
 pci:v00001002d00009444sv*sd*bc*sc*i*
@@ -175,3 +176,10 @@ pci:v00001002d00009613sv*sd*bc*sc*i*
 pci:v00001002d00009612sv*sd*bc*sc*i*
 pci:v00001002d00009611sv*sd*bc*sc*i*
 pci:v00001002d00009610sv*sd*bc*sc*i*
+pci:v00001002d00009802sv*sd*bc*sc*i*
+pci:v00001002d00009645sv*sd*bc*sc*i*
+pci:v00001002d00009644sv*sd*bc*sc*i*
+pci:v00001002d00009643sv*sd*bc*sc*i*
+pci:v00001002d00009642sv*sd*bc*sc*i*
+pci:v00001002d00009641sv*sd*bc*sc*i*
+pci:v00001002d00009640sv*sd*bc*sc*i*
