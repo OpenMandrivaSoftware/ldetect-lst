@@ -1,3 +1,9 @@
+Version 0.1.288 - 18 August 2010
+
+- update to latest usb.ids from linux-usb.org
+- add the product names corresponding to the appropriate usb product ids for
+  Samsung's new G4 USB which the firmware fails to provide & identify itself by
+
 Version 0.1.287 - 11 June 2010
 
 - add new NVIDIA ids from the proprietary driver (#59714), assigning the
