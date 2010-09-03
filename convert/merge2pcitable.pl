@@ -426,8 +426,10 @@ sub read_nvidia_readme {
 	    next;
         }
 	next if /^\s+-+[\s-]+$/;
-	my ($description, $id) = /^\s+(.+)\s+0x(....)/;
-	$drivers{"10de" . lc($id) . "ffffffff"} = [ 'Card:NVIDIA_UNKNOWN', $description ];
+	my ($description, $id, $subid) = /^\s+(.+?)\s+0x(....)(?: 0x(....))?/;
+	$id = "10de" . lc($id);
+	$subid = $subid ? "10de" . lc($subid) : "ffffffff";
+	$drivers{$id . $subid} = [ 'Card:NVIDIA_UNKNOWN', $description ];
     }
     \%drivers;
 }
