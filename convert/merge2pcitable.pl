@@ -413,6 +413,7 @@ sub read_nvidia_readme {
     my ($f) = @_;
     my %drivers;
     my $section;
+    my $card = $ENV{NVIDIA_CARD} ? $ENV{NVIDIA_CARD} : "NVIDIA_UNKNOWN";
     foreach (cat_($f)) {
 	chomp;
 	last if $section > 3;
@@ -429,7 +430,7 @@ sub read_nvidia_readme {
 	my ($description, $id, $subid) = /^\s+(.+?)\s+0x(....)(?: 0x(....))?/;
 	$id = "10de" . lc($id);
 	$subid = $subid ? "10de" . lc($subid) : "ffffffff";
-	$drivers{$id . $subid} = [ 'Card:NVIDIA_UNKNOWN', $description ];
+	$drivers{$id . $subid} = [ "Card:$card", $description ];
     }
     \%drivers;
 }
