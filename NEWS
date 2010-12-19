@@ -1,3 +1,5 @@
+Version 0.1.290 - 19 December 2010
+
 - add new NVIDIA ids from the proprietary driver
 - update pci.ids usb.ids oui.txt
 
