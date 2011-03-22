@@ -1,7 +1,7 @@
 include Makefile.config
 
 NAME = ldetect-lst
-VERSION := 0.1.290
+VERSION := 0.1.291
 
 FILES = AUTHORS ChangeLog Makefile Makefile.config convert lst update-ldetect-lst
 
@@ -29,7 +29,7 @@ install: build
 
 dist-svn: 
 	svn export -q -rBASE . $(NAME)-$(VERSION)
-	tar cfY ../$(NAME)-$(VERSION).tar.lzma $(NAME)-$(VERSION) 
+	tar cfJ ../$(NAME)-$(VERSION).tar.xz $(NAME)-$(VERSION) 
 	rm -rf $(NAME)-$(VERSION) 
 				 
 dist-git: 
