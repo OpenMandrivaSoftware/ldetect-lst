@@ -2,6 +2,7 @@
 - add new NVIDIA ids from the proprietary driver
 - disable nvidia173 and nvidia96xx as they do not support X.org server
   1.11)
+- add new Intel ids from the i915 driver
 
 Version 0.1.296 - 27 November 2011
 
