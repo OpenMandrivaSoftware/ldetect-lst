@@ -1,5 +1,50 @@
 ################################################################################
-# How to merge the pcitable with various source:
+# How to merge the pcitable with various sources:
+#
+
+
+# AMD graphics card IDs
+#
+# - from the proprietary driver:
+convert/merge2pcitable.pl fglrxko_pci_ids_h /path/to/fglrxko_pci_ids.h lst/pcitable > lst/pcitable.new
+#   fglrxko_pci_ids.h can be found in /usr/src/fglrx-$dkmsversion or in
+#   common/lib/modules/fglrx/build_mod inside the AMD installer package.
+# - from the free ATI driver:
+convert/merge2pcitable.pl ati_pciids_csv /path/to/ati_pciids.csv lst/pcitable > lst/pcitable.new
+#   ati_pciids.csv can be found in src/pcidb subdirectory of xf86-video-ati
+#   tarball
+#
+# merge2pcitable.pl contains hacks that automatically switch entries between
+# radeon/fglrx/vesa when support is added/removed in the above drivers.
+# The hacks need to be updated when Cards+ is modified regarding the AMD
+# cards.
+
+
+# NVIDIA graphics card IDs
+#
+# - from the proprietary driver:
+NVIDIA_CARD="NVIDIA GeForce 400 series and later" convert/merge2pcitable.pl nvidia_readme \
+	/path/to/README.txt lst/pcitable > lst/pcitable.new
+#   README.txt is found in /usr/share/doc/x11-driver-video-nvidia-current/README.txt and
+#   in the NVIDIA installer archive.
+#   The newly added entries will be assigned to "Card:$NVIDIA_CARD",
+#   defaulting to "Card:NVIDIA_UNKNOWN" which is an invalid assignment
+#   and shouldn't be committed as-is.
+#
+# The driver can actually unofficially support more (newer) cards than those
+# that are in README.txt, and this list can be extracted from nvidia_drv.so
+# (but not currently by merge2pcitable.pl).
+#
+# nouveau driver doesn't have ID lists, instead it uses a NVIDIA-specific
+# PMC.ID for detecting if a card is supported or not. Currently we use the
+# IDs from the proprietary driver for it as well.
+
+
+# Intel graphics card IDs
+#
+# - from the i915 kernel module:
+grep '^i915\s' /lib/modules/$version/modules.pcimap | convert/merge2pcitable.pl kernel_pcimap \
+	/dev/stdin lst/pcitable | sed 's,i915,Card:Intel 810 and later,' > lst/pcitable.new
 #
 
 
