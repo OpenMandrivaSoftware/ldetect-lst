@@ -2,6 +2,7 @@
 - add support for all new Intel Sandy Bridge graphics devices (mga#1401)
 - add support for QXL virtual video card
 - disable nvidia96xx (not compatible with x.org server 1.10)
+- prefer amd74xx module for nForce MCP51 IDE (mga#933ch mdv49957)
 
 Version 0.1.291 - 22 March 2011
 
