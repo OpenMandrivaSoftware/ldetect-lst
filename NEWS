@@ -1,5 +1,6 @@
 - add new ATI ids from the proprietary driver
 - add support for all new Intel Sandy Bridge graphics devices (mga#1401)
+- add support for QXL virtual video card
 
 Version 0.1.291 - 22 March 2011
 

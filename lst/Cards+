@@ -421,6 +421,10 @@ DRIVER suntcx
 NAME Sun Elite3D- / FFB-based cards
 DRIVER sunffb
 
+# QXL virtual video card
+NAME QXL virtual video card
+DRIVER qxl
+
 # VMware virtual video cards
 
 NAME VMware virtual video card

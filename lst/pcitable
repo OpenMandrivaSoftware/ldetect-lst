@@ -1987,6 +1987,8 @@
 0x18ca	0x0020	"Card:SiS SiS / XGI 315 / 330 / 340 series-based cards"
 0x18ca	0x0040	"Card:SiS SiS / XGI 315 / 330 / 340 series-based cards"
 0x18ca	0x0047	"Card:SiS SiS / XGI 315 / 330 / 340 series-based cards"
+0x1b36	0x0100	"Card:QXL virtual video card"
+0x1b36	0x01ff	"Card:QXL virtual video card"
 0x2000	0x2800	"slamr"
 0x2003	0x8800	"slamr"
 0x3d3d	0x0001	"Card:3Dlabs Glint / Permedia-based cards (software cursor)"
