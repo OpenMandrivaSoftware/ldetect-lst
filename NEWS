@@ -1,3 +1,5 @@
+Version 0.1.295 - 23 November 2011
+
 - fix for mga #933 must filter on subvendor/subdevice in order to fix
   mga #1525
 
