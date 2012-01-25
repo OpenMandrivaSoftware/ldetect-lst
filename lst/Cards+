@@ -260,11 +260,11 @@ DRIVER nouveau
 
 NAME NVIDIA GeForce 2 MX to GeForce 4
 DRIVER nouveau
-DRIVER2 nvidia96xx
+#DRIVER2 nvidia96xx (not compatible with X.org server 1.11)
 
 NAME NVIDIA GeForce FX series
 DRIVER nouveau
-DRIVER2 nvidia173
+#DRIVER2 nvidia173 (not compatible with X.org server 1.11)
 
 NAME NVIDIA GeForce 6100 to GeForce 360
 DRIVER nouveau
