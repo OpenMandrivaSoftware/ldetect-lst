@@ -3,6 +3,9 @@
 - disable nvidia173 and nvidia96xx as they do not support X.org server
   1.11)
 - add new Intel ids from the i915 driver
+- switch NVIDIA Fermi (400/500 series) from vesa to nouveau driver
+  except for some PMC.ID 0xd9 cards (GF410/510/520 and Quadro 4200M)
+  that will only get support in kernel 3.2
 
 Version 0.1.296 - 27 November 2011
 

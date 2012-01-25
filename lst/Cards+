@@ -272,9 +272,16 @@ DRIVER2 nvidia-current
 DRIVER2_NO_SSE nvidia96xx
 
 NAME NVIDIA GeForce 400 series and later
-DRIVER vesa
+DRIVER nouveau
 DRIVER2 nvidia-current
 DRIVER2_NO_SSE nvidia96xx
+
+NAME NVIDIA GeForce 410M/510
+DRIVER vesa
+DRIVER2 nvidia-current
+
+NAME NVIDIA GeForce GT 520/520M/520MX
+SEE NVIDIA GeForce 410M/510
 
 NAME NVIDIA GeForce3 (xbox)
 DRIVER nvxbox
