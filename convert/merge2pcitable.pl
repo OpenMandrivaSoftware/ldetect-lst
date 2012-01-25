@@ -79,7 +79,6 @@ if ($0 =~ /merge2pcitable/)
                 }
             } elsif (member($d_pci->{$_}[0], ($ati_driver_rhd, $ati_driver_vesa, $ati_rhd_only)) && $d_in->{$_}) {
                 # support added for pre-existing entry, handle:
-                next if $_ eq "10029610ffffffff"; # see Cards+ and #49824
                 if (member($d_pci->{$_}[0], ($ati_driver_rhd, $ati_driver_vesa))) {
                     $d_pci->{$_}[0] = $ati_driver;
                 } elsif ($d_pci->{$_}[0] eq $ati_rhd_only) {

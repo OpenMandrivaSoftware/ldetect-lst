@@ -174,10 +174,14 @@ SEE ATI Radeon HD 2000 and later (radeon/fglrx)
 
 # Radeon cards supported by proprietary driver and free 'radeonhd'
 # driver, but not free 'radeon' driver.
-# Additionally, it is used for following cards that are supported but
-# do not work correctly with the 'radeon' driver:
-# ATI Radeon HD 3200 Graphics (1002:9610)
-# - https://qa.mandriva.com/show_bug.cgi?id=49824
+NAME ATI Radeon HD 3850 X2
+DRIVER radeonhd
+DRI_GLX
+DRIVER2 fglrx
+
+NAME ATI FirePro V8700 Duo
+SEE ATI Radeon HD 3850 X2
+
 NAME ATI Radeon HD 2000 and later (radeonhd/fglrx)
 DRIVER radeonhd
 DRI_GLX
@@ -186,11 +190,6 @@ DRIVER2 fglrx
 NAME ATI Radeon HD 2000 and later (vesa/fglrx)
 DRIVER vesa
 DRIVER2 fglrx
-
-# FirePro cards as above:
-# driver: update name as support changes
-NAME ATI FirePro (radeonhd/fglrx)
-SEE ATI Radeon HD 2000 and later (radeonhd/fglrx)
 
 # ARK Logic
 

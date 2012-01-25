@@ -3,6 +3,8 @@
 - add support for QXL virtual video card
 - disable nvidia96xx (not compatible with x.org server 1.10)
 - prefer amd74xx module for nForce MCP51 IDE (mga#933ch mdv49957)
+- switch 1002:9610 back to ati driver (mga #1267)
+- make the names of the last two Cards using radeonhd/fglrx more specific
 
 Version 0.1.291 - 22 March 2011
 
