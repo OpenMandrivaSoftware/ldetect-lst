@@ -1,6 +1,7 @@
 - add new ATI ids from the free and proprietary drivers
 - add support for all new Intel Sandy Bridge graphics devices (mga#1401)
 - add support for QXL virtual video card
+- add support for wl driver (#2266)
 - disable nvidia96xx (not compatible with x.org server 1.10)
 - prefer amd74xx module for nForce MCP51 IDE (mga#933ch mdv49957)
 - switch 1002:9610 back to ati driver (mga #1267)
