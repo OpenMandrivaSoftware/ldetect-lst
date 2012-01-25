@@ -1,3 +1,6 @@
+- fix for mga #933 must filter on subvendor/subdevice in order to fix
+  mga #1525
+
 Version 0.1.294 - 23 November 2011
 
 - move back ldetect-lst-modules.alias in /lib/module-init-tools/,
