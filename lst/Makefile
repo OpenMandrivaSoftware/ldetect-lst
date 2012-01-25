@@ -71,7 +71,7 @@ install: $(TMP_TABLES) $(TABLES3)
 	perl -pi -e 's!^Generic CRT Display; Monitor !Generic; !; s!Generic LCD Display; LCD Panel !Generic; Flat Panel !' $(dir)/MonitorsDB
 
 	install -m 644 fallback-modules.alias $(dir)/fallback-modules.alias
-	install -D -m 644 preferred-modules.alias $(slibdir)/module-init-tools/ldetect-lst-modules.alias
+	install -D -m 644 preferred-modules.alias $(sysconfdir)/modprobe.d/0_ldetect-lst-modules.alias
 	install -D -m 644 oui.txt usb.ids pci.ids $(prefix)/share
 	mkdir -p $(prefix)/share/misc
 	install -D -m 644 pnp.ids $(prefix)/share/misc
