@@ -1,3 +1,5 @@
+- add new ATI ids from the proprietary driver
+
 Version 0.1.296 - 27 November 2011
 
 - add nvidia 0x0df4 (mga#3499)
