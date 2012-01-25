@@ -1,3 +1,5 @@
+- update pci.ids & usb.ids (mga#3677)
+
 Version 0.1.297 - 02 December 2011
 
 - add new ATI ids from the free and proprietary drivers
