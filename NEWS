@@ -1,3 +1,5 @@
+Version 0.1.297 - 02 December 2011
+
 - add new ATI ids from the free and proprietary drivers
 - add new NVIDIA ids from the proprietary driver
 - disable nvidia173 and nvidia96xx as they do not support X.org server
