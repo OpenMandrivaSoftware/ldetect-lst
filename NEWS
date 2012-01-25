@@ -1,5 +1,6 @@
 - disable nvidia96xx as third driver when nvidia cannot be used due to
   missing SSE support
+- refuse to set up nvidia if SSE support is not available
 - Monitor DB
   o add BENQ G2320HDB (mga#397)
 
