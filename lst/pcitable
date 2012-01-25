@@ -1741,6 +1741,7 @@
 0x121a	0x0005	"Card:3DFX Voodoo 3 - 5 / Banshee / Rush"
 0x121a	0x0007	"Card:3DFX Voodoo 3 - 5 / Banshee / Rush"
 0x121a	0x0009	"Card:3DFX Voodoo 3 - 5 / Banshee / Rush"
+0x1234	0x1111	"Card:VESA driver (generic)"
 0x1244	0x0700	"ISDN:b1pci,type=27"
 0x1244	0x0800	"ISDN:c4"
 0x1244	0x0a00	"ISDN:hisax,type=27"

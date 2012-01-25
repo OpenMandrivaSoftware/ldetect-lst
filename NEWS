@@ -1,3 +1,4 @@
+- add support for virtual gfx card
 - drop obsolete pcitable.ia64 (either redundant or invalid)
 
 Version 0.1.292 - 01 August 2011
