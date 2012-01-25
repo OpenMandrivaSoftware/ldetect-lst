@@ -1,4 +1,5 @@
 - add new ATI ids from the proprietary driver
+- add support for all new Intel Sandy Bridge graphics devices (mga#1401)
 
 Version 0.1.291 - 22 March 2011
 
