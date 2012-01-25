@@ -48,7 +48,7 @@ dis: clean
 		exit 1; \
 	fi;
 
-	$(info $(shell dirname $$PWD)/$(NAME)-$(VERSION).tar.lzma is ready)
+	$(info $(shell dirname $$PWD)/$(NAME)-$(VERSION).tar.xz is ready)
 
 log: changelog
 
