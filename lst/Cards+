@@ -269,12 +269,12 @@ DRIVER nouveau
 NAME NVIDIA GeForce 6100 to GeForce 360
 DRIVER nouveau
 DRIVER2 nvidia-current
-DRIVER2_NO_SSE nvidia96xx
+#DRIVER2_NO_SSE nvidia96xx
 
 NAME NVIDIA GeForce 400 series and later
 DRIVER nouveau
 DRIVER2 nvidia-current
-DRIVER2_NO_SSE nvidia96xx
+#DRIVER2_NO_SSE nvidia96xx
 
 NAME NVIDIA GeForce 410M/510
 DRIVER vesa
