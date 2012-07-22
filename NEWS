@@ -1,3 +1,5 @@
+- Monitor DB
+  o add Samsung SMS19A100
 - adapt dmitable to sysfs file names as now used by ldetect
 
 Version 0.1.303 - 1 November 2012
