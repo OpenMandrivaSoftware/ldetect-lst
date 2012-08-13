@@ -1703,6 +1703,7 @@
 0x10de	0x0fc2	"Card:NVIDIA GeForce 400 series and later"
 0x10de	0x1040	"Card:NVIDIA GeForce 400 series and later"
 0x10de	0x1042	"Card:NVIDIA GeForce 400 series and later"
+0x10de	0x1049	"Card:NVIDIA GeForce 400 series and later"
 0x10de	0x1050	"Card:NVIDIA GeForce 400 series and later"
 0x10de	0x1048	"Card:NVIDIA GeForce 400 series and later"
 0x10de	0x1049	"Card:NVIDIA GeForce 400 series and later"
