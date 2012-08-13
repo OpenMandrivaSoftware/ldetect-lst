@@ -1,5 +1,8 @@
 Version 0.1.301 - 13 August 2012
 
+- update AMD/ATI Cards+ entries from the proprietary driver
+  o HD 4000 and below are no longer supported by it, so the free driver
+    is now always used for those
 - switch NVIDIA NVD9/GF119 cards from vesa to nouveau
 - add new AMD ids from the proprietary and free drivers
 - restructure AMD/ATI Cards+ entries for HD 2000 and newer
