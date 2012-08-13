@@ -50,13 +50,9 @@ if ($0 =~ /merge2pcitable/)
                 } else {
                     die 'not handled ' . $_;
                 }
-            } elsif (member($d_pci->{$_}[0], ($ati_free_only)) && $d_in->{$_}) {
+            } elsif ($d_pci->{$_}[0] eq $ati_free_only && $d_in->{$_}) {
                 # support added for pre-existing entry, handle:
-                if ($d_pci->{$_}[0] eq $ati_free_only) {
-                    $d_pci->{$_}[0] = $ati_driver;
-                } else {
-                    die 'not handled ' . $_;
-                }
+                $d_pci->{$_}[0] = $ati_driver;
             }
         }
     }
@@ -72,13 +68,9 @@ if ($0 =~ /merge2pcitable/)
                 } else {
                     die 'not handled ' . $_;
                 }
-            } elsif (member($d_pci->{$_}[0], ($ati_driver_vesa)) && $d_in->{$_}) {
+            } elsif ($d_pci->{$_}[0] eq $ati_driver_vesa && $d_in->{$_}) {
                 # support added for pre-existing entry, handle:
-                if (member($d_pci->{$_}[0], ($ati_driver_vesa))) {
-                    $d_pci->{$_}[0] = (/^....(31..|3e..|4...|5...|7...|68..|94..|95..|961.|971.|98..)/) ? $ati_driver : $ati_driver_fw;
-                } else {
-                    die 'not handled ' . $_;
-                }
+                $d_pci->{$_}[0] = (/^....(31..|3e..|4...|5...|7...|68..|94..|95..|961.|971.|98..)/) ? $ati_driver : $ati_driver_fw;
             }
         }
     }
