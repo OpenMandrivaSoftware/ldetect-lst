@@ -1,0 +1,12 @@
+constant
+do_pkgs
+Carp
+Digest::base
+Encode
+File::Basename
+File::FnMatch
+File::Glob
+Gtk2::Gdk::Keysyms
+IO::Pipe
+Symbol
+XSLoader
