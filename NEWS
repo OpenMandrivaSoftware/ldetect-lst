@@ -1,4 +1,9 @@
+Version 0.1.301 - 13 August 2012
+
+- use fbdev for "Poulsbo US15W(GMA500)" (mga#5633)
+
 Version 0.1.300 - 27 May 2012
+
 - update usb.ids and pci.ids
 - add new pci ids from the proprietary nvidia driver 302.11
 - disable nvidia96xx as third driver when nvidia cannot be used due to
