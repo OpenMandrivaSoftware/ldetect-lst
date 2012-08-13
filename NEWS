@@ -1,5 +1,6 @@
 Version 0.1.301 - 13 August 2012
 
+- switch NVIDIA NVD9/GF119 cards from vesa to nouveau
 - add new AMD ids from the proprietary and free drivers
 - restructure AMD/ATI Cards+ entries for HD 2000 and newer
   o separate those that support usermode modesetting
