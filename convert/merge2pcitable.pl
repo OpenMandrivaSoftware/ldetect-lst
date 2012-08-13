@@ -10,10 +10,10 @@ qw(alsa ignore),
 my ($force, @force_modules, $all, $keep_subids, $wildcards, $use_description);
 
 # UPDATE ME WHEN UPDATING ../lst/Cards+:
-my $ati_driver      = 'Card:ATI Radeon HD 2000 to HD 6300 (radeon/fglrx)';
+my $ati_driver      = 'Card:ATI Radeon HD 5000 to HD 6300 (radeon/fglrx)';
 my $ati_driver_fw   = 'Card:ATI Radeon HD 6400 and later (radeon/fglrx)';
-my $ati_driver_vesa = 'Card:ATI Radeon HD 2000 and later without free driver (vesa/fglrx)';
-my $ati_free_only   = 'Card:ATI Radeon X1950 and earlier';
+my $ati_driver_vesa = 'Card:ATI Radeon HD 5000 and later without free driver (vesa/fglrx)';
+my $ati_free_only   = 'Card:ATI Radeon HD 4870 and earlier';
 # also, be careful when merging as Cards+ and pcitable may contain card-specific
 # cases due to bugs in the various drivers
 
