@@ -4,8 +4,9 @@ use lib qw(/usr/lib/libDrakX);
 use Xconfig::card;
 require './merge2pcitable.pl';
 
-$cards = Xconfig::card::readCardsDB("../lst/Cards+");
+my $cards = Xconfig::card::readCardsDB("../lst/Cards+");
 
+my $bad;
 foreach my $file (qw(pcitable usbtable)) {
     my $drivers = read_pcitable("../lst/$file");
     foreach (values %$drivers) {

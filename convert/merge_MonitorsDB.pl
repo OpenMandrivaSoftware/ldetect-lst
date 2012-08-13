@@ -46,7 +46,7 @@ if ($verif) {
 	}
     }
 
-    print $_->{text} foreach (@$monitors_db, @to_add);
+    print $_->{text} foreach @$monitors_db, @to_add;
 }
 
 sub verif {

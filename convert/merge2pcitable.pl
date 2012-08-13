@@ -10,10 +10,10 @@ qw(alsa ignore),
 my ($force, @force_modules, $all, $keep_subids, $wildcards, $use_description);
 
 # UPDATE ME WHEN UPDATING ../lst/Cards+:
-my $ati_driver     = 'Card:ATI Radeon HD 2000 to HD 6300 (radeon/fglrx)';
-my $ati_driver_fw  = 'Card:ATI Radeon HD 6400 and later (radeon/fglrx)';
-my $ati_driver_vesa= 'Card:ATI Radeon HD 2000 and later without free driver (vesa/fglrx)';
-my $ati_free_only  = 'Card:ATI Radeon X1950 and earlier';
+my $ati_driver      = 'Card:ATI Radeon HD 2000 to HD 6300 (radeon/fglrx)';
+my $ati_driver_fw   = 'Card:ATI Radeon HD 6400 and later (radeon/fglrx)';
+my $ati_driver_vesa = 'Card:ATI Radeon HD 2000 and later without free driver (vesa/fglrx)';
+my $ati_free_only   = 'Card:ATI Radeon X1950 and earlier';
 # also, be careful when merging as Cards+ and pcitable may contain card-specific
 # cases due to bugs in the various drivers
 
@@ -103,7 +103,7 @@ sub read_rhpcitable {
 # works for RedHat's pcitable old and new format, + mdk format (alike RedHat's old one)
 # (the new format has ending .o's and double quotes are removed)
 sub read_pcitable {
-    my ($f, $strict, $newer_rh_format) = @_;
+    my ($f, $strict, $o_newer_rh_format) = @_;
     my %drivers;
     my %class;
     my $line = 0;
@@ -125,7 +125,7 @@ sub read_pcitable {
 	}
 
 	if (my ($id1, $id2, @l) = split /\t+/) {
-	    push @l, '""' if $newer_rh_format;
+	    push @l, '""' if $o_newer_rh_format;
 	    my ($subid1, $subid2) = ('ffff', 'ffff');
 	    ($subid1, $subid2, @l) = @l if @l > 2;
 	    @l == 1 || @l == 2 or die "$f:$line: bad number of fields " . (int @l) . " (in $_)\n";
@@ -380,7 +380,7 @@ sub read_nvidia_readme {
     my ($f) = @_;
     my %drivers;
     my $section;
-    my $card = $ENV{NVIDIA_CARD} ? $ENV{NVIDIA_CARD} : "NVIDIA_UNKNOWN";
+    my $card = $ENV{NVIDIA_CARD} || "NVIDIA_UNKNOWN";
     foreach (cat_($f)) {
 	chomp;
 	last if $section > 3;
@@ -418,7 +418,7 @@ sub read_rhd_id_c {
     my %drivers;
     foreach (cat_($f)) {
 	chomp;
-	my ($id, $description) = /^\s+RHD_DEVICE_MATCH\(\s*0x(....).*\/\* (.*)\*\// or next;
+	my ($id, $description) = m!^\s+RHD_DEVICE_MATCH\(\s*0x(....).*/\* (.*)\*/! or next;
 	$drivers{"1002" . lc($id) . "ffffffff"} = [ "Card:RADEONHD_FIXME", $description ];
     }
     \%drivers;
