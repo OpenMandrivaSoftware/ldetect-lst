@@ -17,7 +17,7 @@ my %filters = (
     },
 );
 
-foreach my $kver (grep { $_ ne ".svn" && -d $_ } all(".")) {
+foreach my $kver (grep { $_ ne ".git" && -d $_ } all(".")) {
     foreach my $file (all($kver)) {
         my ($module, $type) = $file =~ /^(.+)\.(.+?)$/ or next;
         push @{$fields{$type}{$module}}, chomp_(cat_($kver . '/' . $file));
