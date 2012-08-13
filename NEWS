@@ -1,5 +1,6 @@
 Version 0.1.301 - 13 August 2012
 
+- add another intel id from kernel-3.3.6
 - drop DKMS data about r8192se_pci & rt3090sta* (mga#5681)
 - use fbdev for "Poulsbo US15W(GMA500)" (mga#5633)
 
