@@ -1,5 +1,10 @@
 Version 0.1.301 - 13 August 2012
 
+- restructure AMD/ATI Cards+ entries for HD 2000 and newer
+  o separate those that support usermode modesetting
+  o add the necessary FIRMWARE and DRIVER_NO_FIRMWARE entries as per
+    mga bug #3466
+  o do not assign anything to the old unmaintained radeonhd driver
 - Monitor DB
   o add Samsung SMS19A100
 - add another intel id from kernel-3.3.6

@@ -139,6 +139,7 @@ FB_TVOUT
 # update name as support changes
 NAME ATI Radeon X1950 and earlier
 DRIVER ati
+FIRMWARE radeon-firmware
 DRI_GLX
 
 # FireGL cards not supported by proprietary driver, but supported by ati
@@ -146,48 +147,42 @@ DRI_GLX
 NAME ATI r300/r400/r500 based FireGL
 SEE ATI Radeon X1950 and earlier
 
-# Radeon card not supported by proprietary driver, nor ati, but supported
-# by radeonhd
-NAME ATI Radeon RV710 9592
-DRIVER radeonhd
-DRI_GLX
-
 # FirePro card not supported by proprietary driver, but supported by ati
 NAME ATI FirePro M5750
 SEE ATI Radeon X1950 and earlier
 
 # Radeon cards supported by proprietary driver and free 'radeon'
 # driver: update name as support changes
-NAME ATI Radeon HD 2000 and later (radeon/fglrx)
+# PALM and older - firmware not mandatory (mga #3466)
+NAME ATI Radeon HD 2000 to HD 6300 (radeon/fglrx)
 DRIVER ati
+FIRMWARE radeon-firmware
 DRI_GLX
 DRIVER2 fglrx
 
 # FireGL cards supported by proprietary driver and free 'radeon'
 # driver: update name as support changes
 NAME ATI r600 based FireGL
-SEE ATI Radeon HD 2000 and later (radeon/fglrx)
+SEE ATI Radeon HD 2000 to HD 6300 (radeon/fglrx)
 
 # FirePro cards as above:
 NAME ATI FirePro (radeon/fglrx)
-SEE ATI Radeon HD 2000 and later (radeon/fglrx)
+SEE ATI Radeon HD 2000 to HD 6300 (radeon/fglrx)
 
-# Radeon cards supported by proprietary driver and free 'radeonhd'
-# driver, but not free 'radeon' driver.
-NAME ATI Radeon HD 3850 X2
-DRIVER radeonhd
+# Radeon cards supported by proprietary driver and free 'radeon'
+# driver: update name as support changes
+# SUMO and later - firmware mandatory for 'ati' (mga #3466)
+# TODO: s/ATI/AMD/, but update Xconfig/card.pm to still show it among
+# the other ATI entries, maybe under 'AMD / ATI' header or something
+NAME ATI Radeon HD 6400 and later (radeon/fglrx)
+DRIVER ati
+FIRMWARE radeon-firmware
+DRIVER_NO_FIRMWARE vesa
 DRI_GLX
 DRIVER2 fglrx
 
-NAME ATI FirePro V8700 Duo
-SEE ATI Radeon HD 3850 X2
-
-NAME ATI Radeon HD 2000 and later (radeonhd/fglrx)
-DRIVER radeonhd
-DRI_GLX
-DRIVER2 fglrx
-
-NAME ATI Radeon HD 2000 and later (vesa/fglrx)
+# Radeon cards supported by proprietary driver but not by free driver
+NAME ATI Radeon HD 2000 and later without free driver (vesa/fglrx)
 DRIVER vesa
 DRIVER2 fglrx
 
