@@ -93,10 +93,9 @@ sub print_module {
 
     @modules or return;
 
-    my @category_deferred_modules;
-    foreach (map { list_modules::module2category($_->[1]) } @modules) {
-        push @category_deferred_modules, @{$category_deferred_modules{$_} || []}
-    }
+    my @category_deferred_modules = map {
+	@{$category_deferred_modules{$_} || []};
+    } map { list_modules::module2category($_->[1]) } @modules;
 
     @modules > 1 || @category_deferred_modules or return;
 
