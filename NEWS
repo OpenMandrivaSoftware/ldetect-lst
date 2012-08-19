@@ -1,5 +1,6 @@
 - pcitable
   o update ids from x11-driver-video-ati-6.14.6
+  o update ids from nvidia-current-304.37
 - Monitor DB
   o add Samsung SMS19A100
 - adapt dmitable to sysfs file names as now used by ldetect
