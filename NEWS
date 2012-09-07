@@ -1,4 +1,5 @@
 - remove "wl" driver for 0x14e4:0x4727 (mga#6122)
+- remove two other "wl" references
 
 Version 0.1.306 - 19 August 2012
 
