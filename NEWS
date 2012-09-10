@@ -1,3 +1,5 @@
+- add new ids from nvidia-current-304.43
+
 Version 0.1.307 - 7 September 2012
 
 - remove "wl" driver for 0x14e4:0x4727 (mga#6122)
