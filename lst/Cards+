@@ -265,7 +265,7 @@ DRIVER nouveau
 
 NAME NVIDIA GeForce FX series
 DRIVER nouveau
-#DRIVER2 nvidia173 (not compatible with X.org server 1.11)
+DRIVER2 nvidia173
 
 NAME NVIDIA GeForce 6100 to GeForce 360
 DRIVER nouveau
