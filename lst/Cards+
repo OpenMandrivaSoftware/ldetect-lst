@@ -267,17 +267,20 @@ NAME NVIDIA GeForce FX series
 DRIVER nouveau
 DRIVER2 nvidia173
 
-NAME NVIDIA GeForce 6100 to GeForce 360
+NAME NVIDIA GeForce 6100 to GeForce 7950
+DRIVER nouveau
+DRIVER2 nvidia304
+#DRIVER2_NO_SSE nvidia96xx
+DRIVER2_NEEDS_SSE
+
+NAME NVIDIA GeForce 8100 to GeForce 360
 DRIVER nouveau
 DRIVER2 nvidia-current
 #DRIVER2_NO_SSE nvidia96xx
 DRIVER2_NEEDS_SSE
 
 NAME NVIDIA GeForce 400 series and later
-DRIVER nouveau
-DRIVER2 nvidia-current
-#DRIVER2_NO_SSE nvidia96xx
-DRIVER2_NEEDS_SSE
+SEE NVIDIA GeForce 8100 to GeForce 360
 
 NAME NVIDIA GeForce3 (xbox)
 DRIVER nvxbox
