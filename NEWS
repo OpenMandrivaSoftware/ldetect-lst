@@ -1,3 +1,5 @@
+- fix driver for some r128 cards (mga#7867)
+
 Versino 0.1.311 - 22 November 2012
 
 - switch DRIVER2 for GeForce 7xxx and GeForce 8xxx cards to the
