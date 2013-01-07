@@ -1,24 +1,34 @@
-#!/usr/bin/perl
+#!/bin/sh
+# (C) Per Øyvind Karlsen 2013
+# Ugly shell script, but does at least replace the original one written in
+# perl, thus freeing ourself from another perl dependency..
 
-my $dir = '/usr/share/ldetect-lst';
-my @files = qw(pcitable usbtable isatable pcmciatable dmitable);
+dir='/usr/share/ldetect-lst'
+files='pcitable usbtable isatable pcmciatable dmitable'
 
-unlink("$dir/$_", "$dir/$_.gz") foreach @files;
+for f in $files; do
+    rm -f "$dir/$f" "$dir/$f.gz"
+done
 
-$ARGV[0] eq '--clean' and exit 0;
+if [ "$1" == "--clean" ]; then
+    exit 0
+fi
 
-foreach (@files) {
-    my $d = "$dir/$_.d";
-    -d $d or next;
-    my @l = sort(glob("$d/*.lst"), glob("$d/*.lst.gz")) or next;
-
-    if (@l == 1 && $l[0] =~ /gz$/) {
-	link $l[0], "$dir/$_.gz";
-    } else {
-	open(my $OUT, "| gzip -9 > $dir/$_.gz");
-	foreach (@l) {
-	    open(my $IN, /gz$/ ? "gzip -dc $_ |" : $_) or next;
-	    print $OUT $_ foreach <$IN>;
-	}
-    }
-}
+for f in $files; do
+    d="$dir/$f.d"
+    [ -d "$d" ] || continue
+    num=$(find $d -name \*.lst -o -name \*.lst.gz|wc -l)
+    matches="$(find $d -name \*.lst -o -name \*.lst.gz|sort -u)"
+    if [ $num -eq 1 ] && echo "$matches" | grep -q -e '\.gz$'; then
+	ln -f "$matches" "$dir/$f.gz"
+    else
+	for m in $matches ; do
+	    if echo "$m" | grep -q -e '\.gz$'; then
+		zcat "$m" >> "$dir/$f"
+	    else
+		cat "$m" >> "$dir/$f"
+	    fi
+	done
+	gzip -9 "$dir/$f"
+    fi
+done
