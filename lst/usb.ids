@@ -9,13 +9,8 @@
 #	The latest version can be obtained from
 #		http://www.linux-usb.org/usb.ids
 #
-<<<<<<< HEAD
-# Version: 2012.09.20
-# Date:    2012-09-20 20:34:02
-=======
 # Version: 2012.11.23
 # Date:    2012-11-23 20:34:02
->>>>>>> 2e1f32e... update pci.ids & usb.ids
 #
 
 # Vendors, devices and interfaces. Please keep sorted.
@@ -688,10 +683,7 @@
 	8371  PS/2 Keyboard And Mouse
 	8372  FT8U100AX Serial Port
 	8a28  Rainforest Automation ZigBee Controller
-<<<<<<< HEAD
-=======
 	8a98  TIAO Multi-Protocol Adapter
->>>>>>> 2e1f32e... update pci.ids & usb.ids
 	9e90  Marvell OpenRD Base/Client
 	9f80  Ewert Energy Systems CANdapter
 	a6d0  Texas Instruments XDS100v2 JTAG / BeagleBone A3
@@ -1060,11 +1052,8 @@
 	019e  WLI-UC-GNP Wireless LAN Adapter
 	01a1  MiniStation Metro
 	01a2  WLI-UC-GNM Wireless LAN Adapter [Ralink RT8070]
-<<<<<<< HEAD
-=======
 	01dc  Ultra-Slim Portable DVD Writer (DVSM-PC58U2V)
 	01de  External Hard Drive HD-PCTU3 [Buffalo MiniStation]
->>>>>>> 2e1f32e... update pci.ids & usb.ids
 	01ee  WLI-UC-GNM2 Wireless LAN Adapter [Ralink RT3070]
 	01f1  SATA Adapter [HD-LBU3]
 	01fd  WLI-UC-G450 Wireless LAN Adapter
@@ -2412,10 +2401,7 @@
 	c063  DELL Laser Mouse
 	c068  G500 Laser Mouse
 	c069  M500 Laser Mouse
-<<<<<<< HEAD
-=======
 	c06a  USB Optical Mouse
->>>>>>> 2e1f32e... update pci.ids & usb.ids
 	c06b  G700 Wireless Gaming Mouse
 	c06c  Optical Mouse
 	c101  UltraX Media Remote
@@ -2865,10 +2851,7 @@
 048a  S-MOS Systems, Inc.
 048c  Alps Electric Ireland, Ltd
 048d  Integrated Technology Express, Inc.
-<<<<<<< HEAD
-=======
 	1165  IT1165 Flash Controller
->>>>>>> 2e1f32e... update pci.ids & usb.ids
 	1336  SD/MMC Cardreader
 	1345  Multi Cardreader
 	9006  IT9135 BDA Afatech DVB-T HDTV Dongle
@@ -3465,10 +3448,7 @@
 	30f0  PowerShot S2 IS (PTP mode)
 	30f2  Digital IXUS 700 (normal mode) / Digital IXUS 700 (PTP mode) / IXY Digital 600 (normal mode) / PowerShot SD500 (normal mode) / PowerShot SD500 (PTP mode)
 	30f4  PowerShot SD30 / Ixus iZoom / IXY DIGITAL L3
-<<<<<<< HEAD
-=======
 	30f5  SELPHY CP500
->>>>>>> 2e1f32e... update pci.ids & usb.ids
 	30f6  SELPHY CP400
 	30f8  Powershot A430
 	30f9  PowerShot A410 (PTP mode)
@@ -3485,11 +3465,8 @@
 	3117  PowerShot A700
 	3119  PowerShot SD700 IS / Digital IXUS 800 IS / IXY Digital 800 IS
 	311b  PowerShot A540
-<<<<<<< HEAD
-=======
 	3127  SELPHY CP710
 	3128  SELPHY CP510
->>>>>>> 2e1f32e... update pci.ids & usb.ids
 	312d  Elura 100
 	3138  PowerShot A710 IS
 	3141  SELPHY ES1
@@ -3510,14 +3487,10 @@
 	3185  SELPHY ES2
 	3192  PowerShot SX110 IS
 	319a  EOS 7D
-<<<<<<< HEAD
-	31ad  PowerShot E1
-=======
 	31aa  SELPHY CP770
 	31ab  SELPHY CP760
 	31ad  PowerShot E1
 	31b0  SELPHY ES30
->>>>>>> 2e1f32e... update pci.ids & usb.ids
 	31bc  PowerShot D10
 	31bf  PowerShot A480
 	31c0  PowerShot SX200 IS
@@ -3547,20 +3520,14 @@
 	3229  IXUS 220 HS
 	322a  PowerShot A2200
 	322b  Powershot A1200
-<<<<<<< HEAD
-=======
 	3233  PowerShot G1 X
 	3234  PowerShot SX150 IS
 	3236  PowerShot S100
->>>>>>> 2e1f32e... update pci.ids & usb.ids
 	3238  PowerShot SX40 HS
 	323f  PowerShot A810
 	3243  PowerShot A4000 IS
 	3244  PowerShot SX260 HS
 	3245  PowerShot SX240 HS
-<<<<<<< HEAD
-	324a  PowerShot A2300
-=======
 	3247  PowerShot ELPH 520 HS
 	3248  PowerShot A3400 IS
 	3249  PowerShot A2400 IS
@@ -3569,7 +3536,6 @@
 	3256  SELPHY CP810
 	3259  PowerShot SX50 HS
 	325a  PowerShot SX160 IS
->>>>>>> 2e1f32e... update pci.ids & usb.ids
 04aa  DaeWoo Telecom, Ltd
 04ab  Chromatic Research
 04ac  Micro Audiometrics Corp.
@@ -4402,11 +4368,8 @@
 	3292  ML-1640 Series Laser Printer
 	3296  ML-2580N Mono Laser Printer
 	3297  ML-191x/ML-252x Laser Printer
-<<<<<<< HEAD
-=======
 	330c  ML-1865
 	3310  ML-331x Series Laser Printer
->>>>>>> 2e1f32e... update pci.ids & usb.ids
 	3315  ML-2540 Series Laser Printer
 	3409  SCX-4216F Scanner
 	340c  SCX-5x15 series
@@ -4634,10 +4597,7 @@
 	b1b4  Lenovo Integrated Camera
 	b1b9  Asus Integrated Webcam
 	b1cf  Lenovo Integrated Camera
-<<<<<<< HEAD
-=======
 	b1d6  CNF9055 Toshiba Webcam
->>>>>>> 2e1f32e... update pci.ids & usb.ids
 	b217  Lenovo Integrated Camera (0.3MP)
 	b221  integrated camera
 	b230  Integrated HP HD Webcam
@@ -4994,10 +4954,7 @@
 	1004  F9L1004 802.11n Surf N300 XR Wireless Adapter [Realtek RTL8192CU]
 	1102  F7D1102 N150/Surf Micro Wireless Adapter v1000 [Realtek RTL8188CUS]
 	1103  F9L1103 N750 DB 802.11abgn 2x3:3 [Ralink RT3573]
-<<<<<<< HEAD
-=======
 	11f2  ISY Wireless Micro Adapter IWL 2000 [RTL8188CUS]
->>>>>>> 2e1f32e... update pci.ids & usb.ids
 	1202  F5U120-PC Parallel Printer Port
 	1203  F5U120-PC Serial Port
 	2103  F7D2102 802.11n N300 Micro Wireless Adapter v3000 [Realtek RTL8192CU]
@@ -5623,11 +5580,8 @@
 	00d6  Bamboo Pen & Touch (CTH-460)
 	00db  Bamboo Fun (CTH-661SE-NL)
 	00dd  Bamboo Pen (CTL-470)
-<<<<<<< HEAD
-=======
 	00f6  Cintiq 24HD touch (DTH-2400) touchscreen
 	00f8  Cintiq 24HD touch (DTH-2400) tablet
->>>>>>> 2e1f32e... update pci.ids & usb.ids
 	0400  PenPartner 4x5
 	4850  PenPartner 6x8
 056b  Decicon, Inc.
@@ -6332,10 +6286,7 @@
 	12a0  iPhone 4S
 	12a2  iPad 2 (3G; 64GB)
 	12a9  iPad 2
-<<<<<<< HEAD
-=======
 	12aa  iPod Touch 5.Gen [A1421]
->>>>>>> 2e1f32e... update pci.ids & usb.ids
 	1300  iPod Shuffle
 	1301  iPod Shuffle 2.Gen
 	1302  iPod Shuffle 3.Gen
@@ -9465,12 +9416,9 @@
 	22b6  eTrex Vista HCx (Mass Storage mode)
 	231b  Oregon 400t
 	2353  Nüvi 205T
-<<<<<<< HEAD
-=======
 	2380  Oregon series
 	23cc  nüvi 1350
 	2459  GPSmap 62/78 series
->>>>>>> 2e1f32e... update pci.ids & usb.ids
 	2519  eTrex 30
 	2535  Edge 800
 	255b  Nuvi 2505LM
@@ -9503,11 +9451,7 @@
 	8800  WiseGroup Ltd, MP-8800 Quad Joypad
 	8866  WiseGroup Ltd, MP-8866 Dual Joypad
 0927  Summus, Ltd
-<<<<<<< HEAD
-0928  Oxford Semiconductor, Ltd
-=======
 0928  PLX Technology, Inc. (formerly Oxford Semiconductor, Ltd)
->>>>>>> 2e1f32e... update pci.ids & usb.ids
 	8000  Firmware uploader
 0929  American Biometric Co.
 092a  Toshiba Information & Industrial Sys. And Services
@@ -9688,10 +9632,7 @@
 	1624  DataTraveler G2 4GB Pen Drive
 	1625  DataTraveler 101 II
 	162a  DataTraveler 112 4GB Pen Drive
-<<<<<<< HEAD
-=======
 	162d  DataTraveler 102
->>>>>>> 2e1f32e... update pci.ids & usb.ids
 	1630  DataTraveler 200 (32GB)
 	1642  DT101 G2
 	1643  DataTraveler G3 4GB
@@ -10088,17 +10029,11 @@
 	21bb  BCM2070 Bluetooth 2.1 + EDR
 	21bc  BCM2070 Bluetooth 2.1 + EDR
 	21bd  BCM2070 Bluetooth 2.1 + EDR
-<<<<<<< HEAD
-	21e1  HP Portable SoftSailing
-	21e3  HP Portable Valentine
-	21e6  BCM20702 Bluetooth 4.0 [ThinkPad]
-=======
 	21d7  BCM43142 Bluetooth 4.0
 	21e1  HP Portable SoftSailing
 	21e3  HP Portable Valentine
 	21e6  BCM20702 Bluetooth 4.0 [ThinkPad]
 	21e8  BCM20702A0 Bluetooth 4.0
->>>>>>> 2e1f32e... update pci.ids & usb.ids
 	21f1  HP Portable Bumble Bee
 	22be  BCM2070 Bluetooth 3.0 + HS
 	4500  BCM2046B1 USB 2.0 Hub (part of BCM2046 Bluetooth)
@@ -10425,16 +10360,11 @@
 	17a1  Eee Note EA800 (mass storage mode)
 	17ab  USB-N13 802.11n Network Adapter (rev. B1) [Realtek RTL8192CU]
 	4c80  Transformer Pad TF300TG
-<<<<<<< HEAD
-	4d00  Transformer Prime TF201
-	4d01  Transformer Prime TF201 (debug mode)
-=======
 	4c90  Transformer Pad Infinity TF700
 	4c91  Transformer Pad Infinity TF700 (Debug mode)
 	4d00  Transformer Prime TF201
 	4d01  Transformer Prime TF201 (debug mode)
 	4daf  Transformer Pad Infinity TF700 (Fastboot)
->>>>>>> 2e1f32e... update pci.ids & usb.ids
 	6101  Cable Modem
 	620a  Remote NDIS Device
 	b700  Broadcom Bluetooth 2.1
@@ -10839,18 +10769,12 @@
 0bc0  Knilink Technology, Inc.
 0bc1  Fuw Yng Electronics Co., Ltd
 0bc2  Seagate RSS LLC
-<<<<<<< HEAD
-=======
 	0502  ST3300601CB-RK 300 GB External Hard Drive
->>>>>>> 2e1f32e... update pci.ids & usb.ids
 	0503  ST3250824A [Barracuda 7200.9]
 	2000  Storage Adapter V3 (TPP)
 	2200  FreeAgent Go FW
 	2300  Expansion Portable
-<<<<<<< HEAD
-=======
 	2320  USB 3.0 bridge [Portable Expansion Drive]
->>>>>>> 2e1f32e... update pci.ids & usb.ids
 	3332  Expansion
 	5021  FreeAgent GoFlex USB 2.0
 	5031  FreeAgent GoFlex USB 3.0
@@ -10897,14 +10821,9 @@
 	0117  Mass Storage Device
 	0118  Mass Storage Device
 	0119  Storage Device (SD card reader)
-<<<<<<< HEAD
-	0138  Card reader
-	0139  Card reader
-=======
 	0129  RTS5129 Card Reader Controller
 	0138  RTS5138 Card Reader Controller
 	0139  RTS5139 Card Reader Controller
->>>>>>> 2e1f32e... update pci.ids & usb.ids
 	0151  Mass Storage Device (Multicard Reader)
 	0152  Mass Storage Device
 	0153  Mass Storage Device
@@ -11205,10 +11124,7 @@
 	6417  Integrated Webcam
 	641d  1.3 MPixel Integrated Webcam
 	6480  Sonix 1.3 MP Laptop Integrated Webcam
-<<<<<<< HEAD
-=======
 	648b  Integrated Webcam
->>>>>>> 2e1f32e... update pci.ids & usb.ids
 	64bd  Sony Visual Communication Camera
 	7402  TEMPerHUM Temperature & Humidity Sensor
 	7403  Foot Switch
@@ -11297,11 +11213,8 @@
 0c65  Eminence Enterprise Co., Ltd
 0c66  Rexon Electronics Corp.
 0c67  Concept Telecom, Ltd
-<<<<<<< HEAD
-=======
 0c6a  ACS
 	0005  Color 320 x 240 LCD Display Terminal with Touchscreen
->>>>>>> 2e1f32e... update pci.ids & usb.ids
 0c6c  JETI Technische Instrumente GmbH
 	04b2  Specbos 1201
 0c70  MCT Elektronikladen
@@ -12389,11 +12302,8 @@
 	00d9  C702 Phone
 	0112  W995 Walkman Phone
 	0166  Xperia Mini Pro
-<<<<<<< HEAD
-=======
 	0169  Xperia S
 	0172  Xperia P
->>>>>>> 2e1f32e... update pci.ids & usb.ids
 	1010  WMC Modem
 	10af  V640i Phone [PictBridge]
 	10d4  C902 Phone [PictBridge]
@@ -12455,10 +12365,7 @@
 	1003  ANT Development Board
 	1004  ANT2USB
 	1006  ANT Development Board
-<<<<<<< HEAD
-=======
 	1008  Mini stick Suunto
->>>>>>> 2e1f32e... update pci.ids & usb.ids
 0fd0  Tulip Computers B.V.
 0fd1  Giant Electronics Ltd.
 0fd4  Tenovis GmbH & Co., KG
@@ -12721,11 +12628,8 @@
 	3702  Pantech PX-500
 	3714  PANTECH USB MODEM [UM175]
 	3716  UMW190 Modem
-<<<<<<< HEAD
-=======
 	3721  Option Beemo (GI0801) LTE surfstick
 	3b14  Option Beemo (GI0801) LTE surfstick
->>>>>>> 2e1f32e... update pci.ids & usb.ids
 	3eb4  Packet Service Diagnostic Serial Port (WDM)
 	4101  Packet Service Diagnostic Serial Port (WDM)
 	4102  Packet Service
@@ -14216,15 +14120,10 @@
 	1502  Bluetooth Dongle
 16cc  silex technology, Inc.
 16d0  MCS
-<<<<<<< HEAD
-	0504  RETRO Innovations ZoomFloppy
-	054b  GrauTec ReelBox OLED Display (external)
-=======
 	0498  Braintechnology USB-LPS
 	0504  RETRO Innovations ZoomFloppy
 	054b  GrauTec ReelBox OLED Display (external)
 	05be  EasyLogic Board
->>>>>>> 2e1f32e... update pci.ids & usb.ids
 16d3  Frontline Test Equipment, Inc.
 16d5  AnyDATA Corporation
 	6202  CDMA/UMTS/GPRS modem
@@ -14419,10 +14318,7 @@
 	037b  Plugable USB-VGA-165
 	037c  Plugable DC-125
 	037d  Plugable USB2-HDMI-165
-<<<<<<< HEAD
-=======
 	430a  HP Port Replicator (Composite Device)
->>>>>>> 2e1f32e... update pci.ids & usb.ids
 17eb  Cornice, Inc.
 17ef  Lenovo
 	1003  Integrated Smart Card Reader
@@ -14505,10 +14401,7 @@
 	0216  External Hard Drive
 	0218  External Hard Drive
 	0227  Pocket Hard Drive
-<<<<<<< HEAD
-=======
 	022b  Portable Hard Drive (Store'n'Go)
->>>>>>> 2e1f32e... update pci.ids & usb.ids
 	0237  Portable Harddrive (500 GB)
 18b1  Petalynx
 	0037  Maxter Remote Control
@@ -14620,15 +14513,12 @@
 1949  Lab126, Inc.
 	0002  Amazon Kindle
 	0004  Amazon Kindle 3/4
-<<<<<<< HEAD
-=======
 	0006  Kindle Fire
 194f  PreSonus Audio Electronics, Inc.
 	0101  AudioBox 22 VSL
 	0102  AudioBox 44 VSL
 	0103  AudioBox 1818 VSL
 	0301  AudioBox
->>>>>>> 2e1f32e... update pci.ids & usb.ids
 1951  Hyperstone AG
 1953  Ironkey Inc.
 1954  Radiient Technologies
@@ -14694,9 +14584,6 @@
 	0104  K4505-Z
 	0167  MF820 4G LTE
 	0172  AX226 WIMAX MODEM (After Modeswitch)
-<<<<<<< HEAD
-	1203  MF691 [ T-Mobile webConnect Rocket 2.0]
-=======
 	0325  LTE4G O2 ZTE MF821D LTE/UMTS/GSM Modem/Networkcard
 	0326  LTE4G O2 ZTE MF821D LTE/UMTS/GSM Modem/Networkcard
 	1008  K3570-Z
@@ -14706,7 +14593,6 @@
 	1203  MF691 [ T-Mobile webConnect Rocket 2.0]
 	1217  MF652
 	1218  MF652
->>>>>>> 2e1f32e... update pci.ids & usb.ids
 	2000  MF627/MF628/MF628+/MF636+ HSDPA/HSUPA
 	fff2  Gobi Wireless Modem (QDL mode)
 	fff3  Gobi Wireless Modem
@@ -14992,10 +14878,7 @@
 	05c5  SPRF2413A [2.4GHz Wireless Keyboard/Mouse Receiver]
 	05cf  Micro keyboard & mouse receiver
 	0c31  SPIF30x Serial-ATA bridge
-<<<<<<< HEAD
-=======
 	2888  HP Universal Camera
->>>>>>> 2e1f32e... update pci.ids & usb.ids
 1bd0  Hangzhou Riyue Electronic Co., Ltd.
 1bd5  BG Systems, Inc.
 1bde  P-TWO INDUSTRIES, INC.
@@ -15203,10 +15086,7 @@
 	0001  Avatar Optical Mouse
 1e74  Coby Electronics Corporation
 	2211  MP300
-<<<<<<< HEAD
-=======
 	2647  2 GB 2 Go Video MP3 Player [MP601-2G]
->>>>>>> 2e1f32e... update pci.ids & usb.ids
 	2659  Coby 4GB Go Video MP3 Player [MP620-4G]
 	4641  A8705 MP3/Video Player
 	6511  MP705-8G MP3 player
@@ -15238,12 +15118,9 @@
 	0021  CD INSTALLER USB Device
 1f44  The Neat Company
 	0001  NM-1000 scanner
-<<<<<<< HEAD
-=======
 1f48  H-TRONIC GmbH
 	0627  Data capturing system
 	0628  Data capturing and control module
->>>>>>> 2e1f32e... update pci.ids & usb.ids
 1f4d  G-Tek Electronics Group
 	b803  Lifeview LV5TDLX DVB-T [RTL2832U]
 1f6f  Aliph
@@ -15259,11 +15136,8 @@
 	0002  Multi-touch HID Controller
 1f9b  Ubiquiti Networks, Inc.
 	0241  AirView2-EXT
-<<<<<<< HEAD
-=======
 1fab  Samsung Opto-Electroncs Co., Ltd.
 	104d  ES65
->>>>>>> 2e1f32e... update pci.ids & usb.ids
 1fbd  Delphin Technology AG
 	0001  Expert Key - Data aquisition system
 1fc9  NXP Semiconductors
@@ -15312,15 +15186,11 @@
 	3c01  AirPlus AG DWL-AG122 Wireless Adapter
 	3c02  AirPlus G DWL-G122 Wireless Adapter
 	3c05  DUB-E100 Fast Ethernet [asix]
-<<<<<<< HEAD
-	3c19  DWA-125 Wireless N 150 Adapter(rev.A3) [Ralink RT5370]
-=======
 	3c15  DWA-140 RangeBooster N Adapter(rev.B3) [Ralink RT5372]
 	3c17  DWA-123 Wireless N 150 Adapter(rev.A1) [Ralink RT3370]
 	3c19  DWA-125 Wireless N 150 Adapter(rev.A3) [Ralink RT5370]
 	3c1a  DWA-160 802.11abgn Xtreme N Dual Band Adapter(rev.B2) [Ralink RT5572]
 	3c1b  DWA-127 Wireless N 150 High-Gain Adapter(rev.A1) [Ralink RT3070]
->>>>>>> 2e1f32e... update pci.ids & usb.ids
 	4000  DSB-650C Ethernet [klsi]
 	4001  DSB-650TX Ethernet [pegasus]
 	4002  DSB-650TX Ethernet [pegasus]
@@ -15343,11 +15213,8 @@
 	f117  Formosa 3
 	f118  Formosa 4
 2002  DAP Technologies
-<<<<<<< HEAD
-=======
 200c  Reloop
 	100b  Play audio soundcard
->>>>>>> 2e1f32e... update pci.ids & usb.ids
 2013  PCTV Systems
 	0245  PCTV 73ESE
 	0246  PCTV 74E
@@ -15355,13 +15222,9 @@
 	024f  nanoStick T2 290e
 2019  PLANEX
 	3220  GW-US11S WLAN [Atmel AT76C503A]
-<<<<<<< HEAD
-	4903  GW-USFang300 802.11abgn Wireless Adapter [Realtek RTL8192DU]
-=======
 	4901  GW-USSuper300 802.11bgn Wireless Adapter [Realtek RTL8191SU]
 	4903  GW-USFang300 802.11abgn Wireless Adapter [Realtek RTL8192DU]
 	4904  GW-USUltra300 802.11abgn Wireless Adapter [Realtek RTL8192DU]
->>>>>>> 2e1f32e... update pci.ids & usb.ids
 	5303  GW-US54GXS 802.11bg
 	5304  GWUS300 802.11n
 	ab01  GW-US54HP
@@ -15370,10 +15233,7 @@
 	ab28  GW-USNano
 	ab29  GW-USMicro300
 	ab2a  GW-USNano2 802.11n Wireless Adapter [Realtek RTL8188CUS]
-<<<<<<< HEAD
-=======
 	ab2b  GW-USEco300 802.11bgn Wireless Adapter [Realtek RTL8192CU]
->>>>>>> 2e1f32e... update pci.ids & usb.ids
 	ab2c  GW-USDual300 802.11abgn Wireless Adapter [Realtek RTL8192DU]
 	ab50  GW-US54Mini2
 	c002  GW-US54SG
@@ -15382,13 +15242,9 @@
 	ed06  GW-US300MiniW 802.11bgn Wireless Adapter
 	ed10  GW-US300Mini2
 	ed14  GW-USMicroN
-<<<<<<< HEAD
-	ed17  GW-USValue-EZ 802.11n Wireless Adapter [Realtek RTL8188CUS]
-=======
 	ed16  GW-USMicroN2W 802.11bgn Wireless Adapter [Realtek RTL8188SU]
 	ed17  GW-USValue-EZ 802.11n Wireless Adapter [Realtek RTL8188CUS]
 	ed18  GW-USHyper300 / GW-USH300N 802.11bgn Wireless Adapter [Realtek RTL8191SU]
->>>>>>> 2e1f32e... update pci.ids & usb.ids
 2040  Hauppauge
 	0c80  Windham
 	0c90  Windham
