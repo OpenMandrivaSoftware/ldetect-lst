@@ -1,4 +1,6 @@
-Versiob 0.1.303 - 1 November 2012
+- adapt dmitable to sysfs file names as now used by ldetect
+
+Version 0.1.303 - 1 November 2012
 - update ids from the proprietary nvidia-current-302.17
 - update pci.ids, usb.ids and oui.txt
 
