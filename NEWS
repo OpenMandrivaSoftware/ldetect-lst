@@ -42,6 +42,8 @@ Version 0.1.306 - 19 August 2012
   o update ids from nvidia-current-304.37
 - Monitor DB
   o add Samsung SMS19A100
+
+Version 0.1.304 - 7 Januar 2013
 - adapt dmitable to sysfs file names as now used by ldetect
 
 Version 0.1.303 - 1 November 2012
