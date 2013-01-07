@@ -59,8 +59,8 @@ install: $(TMP_TABLES) $(TABLES3)
 	for i in $(TABLES); do \
 	mkdir -p $(dir)/$$i.d ; \
 	(echo "# This file was created:" `date '+%Y-%m-%d %H:%M:%S (%z)'` ; \
-	 echo "# !! The latest version is available via SVN at" ; \
-	 echo "# http://svn.mandriva.com/svn/soft/ldetect-lst/" ; \
+	 echo "# !! The latest version is available via GIT at" ; \
+	 echo "# https://abf.rosalinux.ru/proyvind/ldetect-lst" ; \
 	 cat $$i.tmp \
 	) > $(dir)/$$i.d/90default.lst; done
 
