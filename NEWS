@@ -3,6 +3,7 @@
   o drop all broadcom-wl ids from database to be able to
     configure and test  free drivers through drakx tools
   o update ids from proprietary nvidia-current 310.40
+- update pci.ids & usb.ids 
 
 
 Version 0.1.314 - 7 January 2013
