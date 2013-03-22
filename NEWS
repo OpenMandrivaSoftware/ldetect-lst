@@ -1,3 +1,5 @@
+Version 0.1.315 - 22 March 2013
+
 - disable acceleration on SiS as it crashes (mga#7521)
 - pcitable
   o drop all broadcom-wl ids from database to be able to
