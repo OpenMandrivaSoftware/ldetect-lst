@@ -1,4 +1,8 @@
 - dabusb, ultracam & via82cxxx no more exist
+- some modules were replaced:
+  o cpia-usb, ibmcam, konicawc, ov511, stv680 & w9968cf => gspca*
+  o radio-maestro => snd_es1968
+  o touchkitusb => usbtouchscreen
 
 Version 0.1.317 - 28 March 2013
 
