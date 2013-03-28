@@ -1,7 +1,7 @@
 Version 0.1.316 - 28 March 2013
 
 - kill "hci_usb" entries (mga#5841)
-  removed from kernel in 2008
+  (removed from kernel in 2008)
 
 Version 0.1.315 - 22 March 2013
 
