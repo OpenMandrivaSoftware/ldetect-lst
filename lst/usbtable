@@ -1243,8 +1243,6 @@
 0x06f8	0xa300	"unknown"	"Guillemot Corp.|Dual Analog Leader GamePad"
 0x0707	0x0200	"pegasus"	"Standard Microsystems Corp|2202 Ethernet [pegasus]"
 0x0707	0xee06	"unknown"	"Standard Microsystems Corp.|EZ-Connect 802.11g Adapter"
-0x0710	0x0001	"whiteheat"	"Connect Tech Inc.|WhiteHeat (fake ID)"
-0x0710	0x8001	"whiteheat"	"Connect Tech Inc.|WhiteHeat"
 0x0711	0x0100	"unknown"	"Magic Control Technology Corp.|Hub"
 0x0711	0x0200	"mct_u232"	"Magic Control Technology Corp.|BAY-3U1S1P Serial Port"
 0x0711	0x0210	"mct_u232"	"Magic Control Technology Corp.|MCT1S Serial Port"
