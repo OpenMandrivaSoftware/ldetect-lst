@@ -1,4 +1,10 @@
 - nuke ancient dkms-modules-info/*
+- map broadcom-wl driver for hw with no free alternative:
+  * 0x4313 / BCM4311
+  * 0x432a / BCM4321
+  * 0x432d / BCM4322
+  * 0x435a / BCM43228
+  * 0xa99d / BCM43421
 
 Version 0.1.319 - 10 April 2013
 
