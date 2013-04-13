@@ -1,3 +1,5 @@
+Version 0.1.320 - 13 April 2013
+
 - nuke ancient dkms-modules-info/*
 - map broadcom-wl driver for hw with no free alternative:
   * 0x4313 / BCM4311
