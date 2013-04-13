@@ -1,3 +1,5 @@
+- nuke ancient dkms-modules-info/*
+
 Version 0.1.319 - 10 April 2013
 
 - use "modesetting" for "Poulsbo US15W(GMA500)" (mga#8258)
