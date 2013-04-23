@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2013.01.07
-#	Date:    2013-01-07 03:15:01
+#	Version: 2013.04.21
+#	Date:    2013-04-21 03:15:02
 #
 #	Maintained by Martin Mares <mj@ucw.cz> and other volunteers from the
 #	PCI ID Project at http://pci-ids.ucw.cz/.
@@ -558,8 +558,8 @@
 	0016  PCI-MFB Analogue I/O board
 	0017  PROTO-3 PCI Prototyping board
 	9100  INI-9100/9100W SCSI Host
-# nee ATI Technologies Inc.
-1002  Advanced Micro Devices [AMD] nee ATI
+# nee ATI Technologies, Inc.
+1002  Advanced Micro Devices, Inc. [AMD/ATI]
 	1304  Kaveri
 	1305  Kaveri
 	1306  Kaveri
@@ -570,20 +570,20 @@
 		103c 168b  ProBook 4535s
 	3150  RV380/M24 [Mobility Radeon X600]
 		103c 0934  nx8220
-	3151  RV380 [FireMV 2400]
+	3151  RV380 GL [FireMV 2400]
 	3152  RV370/M22 [Mobility Radeon X300]
 	3154  RV380/M24 GL [Mobility FireGL V3200]
-	3155  RV380 [FireMV 2400]
-	3171  RV380 [FireMV 2400] (Secondary)
+	3155  RV380 GL [FireMV 2400]
+	3171  RV380 GL [FireMV 2400] (Secondary)
 	3e50  RV380 [Radeon X600]
-	3e54  RV380 [FireGL V3200]
+	3e54  RV380 GL [FireGL V3200]
 	3e70  RV380 [Radeon X600] (Secondary)
 	4136  RS100 [Mobility IGP 320M]
 	4137  RS200 [Radeon IGP 340]
-	4144  R300 AD [Radeon 9500]
-	4146  R300 AF [Radeon 9700 PRO]
-	4147  R300 AG [FireGL Z1]
-	4148  R350 AH [Radeon 9800/9800 SE]
+	4144  R300 [Radeon 9500]
+	4146  R300 [Radeon 9700 PRO]
+	4147  R300 GL [FireGL Z1]
+	4148  R350 [Radeon 9800/9800 SE]
 	4150  RV350 [Radeon 9550/9600/X1050 Series]
 		1002 0002  R9600 Pro primary (Asus OEM for HP)
 		1002 0003  R9600 Pro secondary (Asus OEM for HP)
@@ -605,16 +605,16 @@
 		1462 9510  RX9600XT (MS-8951)
 		174b 7c29  Sapphire Radeon 9600XT
 		1787 4002  Radeon 9600 XT
-	4153  RV350 AS [Radeon 9550]
+	4153  RV350 [Radeon 9550]
 		1043 010c  A9550GE/TD
 		1462 932c  RX9550SE-TD128 (MS-8932)
-	4154  RV350 AT [FireGL T2]
+	4154  RV350 GL [FireGL T2]
 	4155  RV350 [Radeon 9600]
-	4157  RV350 AW [FireGL T2]
+	4157  RV350 GL [FireGL T2]
 	4158  68800AX [Mach32]
-	4164  R300 AD [Radeon 9500 PRO] (Secondary)
-	4165  R300 AE [Radeon 9700 PRO] (Secondary)
-	4166  R300 AF [Radeon 9700 PRO] (Secondary)
+	4164  R300 [Radeon 9500 PRO] (Secondary)
+	4165  R300 [Radeon 9700 PRO] (Secondary)
+	4166  R300 [Radeon 9700 PRO] (Secondary)
 	4168  RV350 [Radeon 9800 SE] (Secondary)
 	4170  RV350 [Radeon 9550/9600/X1050 Series] (Secondary)
 		1002 0003  R9600 Pro secondary (Asus OEM for HP)
@@ -624,7 +624,7 @@
 		174b 7c28  GC-R9600PRO [Sapphire] (Secondary)
 		17ee 2003  Radeon 9600 256Mb (Secondary)
 		18bc 0100  GC-R9600PRO (Secondary)
-	4171  RV350 AQ [Radeon 9600] (Secondary)
+	4171  RV350 [Radeon 9600] (Secondary)
 		1043 c005  A9600SE (Secondary)
 	4172  RV350 [Radeon 9600/X1050 Series] (Secondary)
 		1002 0003  Radeon 9600XT (Secondary)
@@ -633,7 +633,7 @@
 		1043 c01b  A9600XT/TD (Secondary)
 		174b 7c28  Sapphire Radeon 9600XT (Secondary)
 		1787 4003  Radeon 9600 XT (Secondary)
-	4173  RV350 AS [Radeon 9550] (Secondary)
+	4173  RV350 [Radeon 9550] (Secondary)
 		1043 010d  A9550GE/TD (Secondary)
 	4242  R200 [All-In-Wonder Radeon 8500 DV]
 		1002 02aa  Radeon 8500 AIW DV Edition
@@ -935,7 +935,7 @@
 		174b 2620  R420 [Radeon X800 GTO AGP]
 	4a4a  R420 [Radeon X800 GT AGP]
 	4a4b  R420 [Radeon X800 AGP Series]
-	4a4d  R420 JM [FireGL X3]
+	4a4d  R420 GL [FireGL X3-256]
 	4a4e  RV420/M18 [Mobility Radeon 9800]
 	4a4f  R420 [Radeon X850 AGP]
 	4a50  R420 [Radeon X800 XT Platinum Edition AGP]
@@ -965,7 +965,7 @@
 		1002 0155  IBM Thinkpad A22p
 		1014 0155  IBM Thinkpad A22p
 		1028 00b1  Latitude C600
-	4c47  3D Rage IIC PCI/Mobility Radeon 7500/7500C
+	4c47  3D Rage IIC PCI / Mobility Radeon 7500/7500C
 	4c49  3D Rage LT PRO PCI
 		1002 0004  Rage LT Pro
 		1002 0040  Rage LT Pro
@@ -992,7 +992,7 @@
 		1028 012a  Latitude C640
 		1043 1622  Mobility Radeon M7 (L3C/S)
 		144d c006  Radeon Mobility M7 LW in vpr Matrix 170B4
-	4c58  RV200/M7 [Mobility FireGL 7800]
+	4c58  RV200/M7 GL [Mobility FireGL 7800]
 	4c59  RV100/M6 [Rage/Radeon Mobility Series]
 		0e11 b111  Evo N600c
 		1014 0235  ThinkPad A30/A30p (2652/2653)
@@ -1001,10 +1001,10 @@
 		104d 80e7  VAIO PCG-GR214EP/GR214MP/GR215MP/GR314MP/GR315MP
 		104d 8140  PCG-Z1SP laptop
 		1509 1930  Medion MD9703
-	4c66  RV250/M9 [Mobility FireGL 9000/Radeon 9000]
+	4c66  RV250/M9 GL [Mobility FireGL 9000/Radeon 9000]
 		1014 054d  ThinkPad T41
 	4c6e  RV250/M9 [Mobility Radeon 9000] (Secondary)
-	4d46  Mobility 128 AGP 4X/Mobility M4
+	4d46  Rage Mobility 128 AGP 4X/Mobility M4
 	4d52  Theater 550 PRO PCI [ATI TV Wonder 550]
 	4d53  Theater 550 PRO PCIe
 	4e44  R300 [Radeon 9700/9700 PRO]
@@ -1013,13 +1013,13 @@
 	4e45  R300 [Radeon 9500 PRO/9700]
 		1002 0002  Radeon R300 NE [Radeon 9500 Pro]
 		1681 0002  Hercules 3D Prophet 9500 PRO [Radeon 9500 Pro]
-	4e46  R300 NF [Radeon 9600 TX]
-	4e47  R300 [FireGL X1]
+	4e46  R300 [Radeon 9600 TX]
+	4e47  R300 GL [FireGL X1]
 	4e48  R350 [Radeon 9800 Series]
 	4e49  R350 [Radeon 9800]
 	4e4a  R360 [Radeon 9800 XXL/XT]
 		1002 4e4a  R360 [Radeon 9800 XT]
-	4e4b  R350 [FireGL X2 AGP Pro]
+	4e4b  R350 GL [FireGL X2 AGP Pro]
 	4e50  RV350/M10 [Mobility Radeon 9600 PRO Turbo]
 		1025 005a  TravelMate 290
 		103c 088c  NC8000 laptop
@@ -1030,17 +1030,17 @@
 	4e51  RV350 [Radeon 9550/9600/X1050 Series]
 	4e52  RV350/M10 [Mobility Radeon 9500/9700 SE]
 		144d c00c  P35 notebook
-	4e54  RV350/M10 [Mobility FireGL T2]
+	4e54  RV350/M10 GL [Mobility FireGL T2]
 	4e56  RV360/M12 [Mobility Radeon 9550]
 	4e64  R300 [Radeon 9700 PRO] (Secondary)
 	4e65  R300 [Radeon 9500 PRO] (Secondary)
 		1002 0003  Radeon R300 NE [Radeon 9500 Pro]
 		1681 0003  Hercules 3D Prophet 9500 PRO [Radeon 9500 Pro] (Secondary)
-	4e66  RV350 NF [Radeon 9600] (Secondary)
-	4e67  R300 [FireGL X1] (Secondary)
+	4e66  RV350 [Radeon 9600] (Secondary)
+	4e67  R300 GL [FireGL X1] (Secondary)
 	4e68  R350 [Radeon 9800 PRO] (Secondary)
 	4e69  R350 [Radeon 9800] (Secondary)
-	4e6a  RV350 NJ [Radeon 9800 XT] (Secondary)
+	4e6a  RV350 [Radeon 9800 XT] (Secondary)
 		1002 4e6a  R360 [Radeon 9800 XT] (Secondary)
 		1002 4e71  M10 NQ [Radeon Mobility 9600]
 	4e71  RV350/M10 [Mobility Radeon 9600] (Secondary)
@@ -1049,7 +1049,7 @@
 	5044  All-In-Wonder 128 PCI
 		1002 0028  Rage 128 AIW
 		1002 0029  Rage 128 AIW
-	5046  Rage 128 PF/PRO AGP 4x TMDS
+	5046  Rage 128 PRO AGP 4x TMDS
 		1002 0004  Rage Fury Pro
 		1002 0008  Rage Fury Pro/Xpert 2000 Pro
 		1002 0014  Rage Fury Pro
@@ -1062,7 +1062,7 @@
 	5050  Rage128 [Xpert 128 PCI]
 		1002 0008  Xpert 128
 	5052  Rage 128 PRO AGP 4X TMDS
-	5144  R100 QD [Radeon 7200]
+	5144  R100 [Radeon 7200 / All-In-Wonder Radeon]
 		1002 0008  Radeon 7000/Radeon VE
 		1002 0009  Radeon 7000/Radeon
 		1002 000a  Radeon 7000/Radeon
@@ -1076,20 +1076,20 @@
 		1002 028a  Radeon 7000/Radeon
 		1002 02aa  Radeon AIW
 		1002 053a  Radeon 7000/Radeon
-	5148  R200 QH [Radeon 8500]
+	5148  R200 GL [FireGL 8800]
 		1002 010a  FireGL 8800 64Mb
 		1002 0152  FireGL 8800 128Mb
 		1002 0162  FireGL 8700 32Mb
 		1002 0172  FireGL 8700 64Mb
-	514c  R200 QL [Radeon 8500/8500 LE]
+	514c  R200 [Radeon 8500/8500 LE]
 		1002 003a  Radeon R200 QL [Radeon 8500 LE]
 		1002 013a  Radeon 8500
 		148c 2026  R200 QL [Radeon 8500 Evil Master II Multi Display Edition]
 		1681 0010  Radeon 8500 [3D Prophet 8500 128Mb]
 		174b 7149  Radeon R200 QL [Sapphire Radeon 8500 LE]
 		1787 0f08  Radeon R200 QL [PowerMagic Radeon 8500]
-	514d  R200 QM [Radeon 9100]
-	5157  RV200 QW [Radeon 7500]
+	514d  R200 [Radeon 9100]
+	5157  RV200 [Radeon 7500/7500 LE]
 		1002 013a  Radeon 7500
 		1002 0f2b  ALL-IN-WONDER VE PCI
 		1002 103a  Dell Optiplex GX260
@@ -1101,7 +1101,7 @@
 		174b 7147  RV200 QW [Sapphire Radeon 7500LE]
 		174b 7161  Radeon RV200 QW [Radeon 7500 LE]
 		17af 0202  RV200 QW [Excalibur Radeon 7500LE]
-	5159  RV100 QY [Radeon 7000/VE]
+	5159  RV100 [Radeon 7000 / Radeon VE]
 		1002 000a  Radeon 7000/Radeon VE
 		1002 000b  Radeon 7000
 		1002 0038  Radeon 7000/Radeon VE
@@ -1183,24 +1183,24 @@
 	5461  RV370/M22 [Mobility Radeon X300]
 	5462  RV380/M24C [Mobility Radeon X600 SE]
 	5464  RV370/M22 GL [Mobility FireGL V3100]
-	5549  R423 UI [Radeon X800 GTO]
+	5549  R423 [Radeon X800 GTO]
 	554a  R423 [Radeon X800 XT Platinum Edition]
-	554b  R423 UK [Radeon X800 GT]
+	554b  R423 [Radeon X800 GT/SE]
 		1002 0302  Radeon X800 SE
 	554d  R430 [Radeon X800 XL]
 		1002 0322  All-In-Wonder X800 XL
 		1458 2124  GV-R80L256V-B (AGP)
 	554e  R430 [All-In-Wonder X800 GT]
 	554f  R430 [Radeon X800]
-	5550  R423 [FireGL V7100]
-	5551  R423 [FireGL V5100]
-	5569  R423 UI [Radeon X800 PRO] (Secondary)
+	5550  R423 GL [FireGL V7100]
+	5551  R423 GL [FireGL V5100]
+	5569  R423 [Radeon X800 PRO] (Secondary)
 	556b  R423 [Radeon X800 GT] (Secondary)
 	556d  R430 [Radeon X800 XL] (Secondary)
 		1458 2125  GV-R80L256V-B (AGP)
 	556f  R430 [Radeon X800] (Secondary)
 	5571  R423 GL [FireGL V5100] (Secondary)
-	564b  RV410/M26 [Mobility FireGL V5000]
+	564b  RV410/M26 GL [Mobility FireGL V5000]
 	564f  RV410/M26 [Mobility Radeon X700 XL]
 	5652  RV410/M26 [Mobility Radeon X700]
 	5653  RV410/M26 [Mobility Radeon X700]
@@ -1214,10 +1214,10 @@
 	5830  RS300 Host Bridge
 	5831  RS300 Host Bridge
 	5832  RS300 Host Bridge
-	5833  Radeon 9100 IGP Host Bridge
+	5833  RS300 Host Bridge
 	5834  RS300 [Radeon 9100 IGP]
 	5835  RS300M [Mobility Radeon 9100 IGP]
-	5838  Radeon 9100 IGP AGP Bridge
+	5838  RS300 AGP Bridge
 	5854  RS480 [Radeon Xpress 200 Series] (Secondary)
 	5874  RS480 [Radeon Xpress 1150] (Secondary)
 	5940  RV280 [Radeon 9200 PRO] (Secondary)
@@ -1228,25 +1228,25 @@
 		17af 200d  Excalibur Radeon 9200
 		18bc 0050  GeXcube GC-R9200-C3 (Secondary)
 	5944  RV280 [Radeon 9200 SE PCI]
-	5950  RS480 Host Bridge
+	5950  RS480/RS482/RS485 Host Bridge
 		1025 0080  Aspire 5024WLMMi
 		103c 280a  DC5750 Microtower
 		103c 2a20  Pavilion t3030.de Desktop PC
 		103c 308b  MX6125
 		1462 0131  MS-1013 Notebook
 		1462 7217  Aspire L250
-	5951  Radeon Xpress 200 (RS480/RS482/RX480/RX482) Chipset - Host bridge
-	5952  RD580 [CrossFire Xpress 3200] Chipset Host Bridge
+	5951  RX480/RX482 Host Bridge
+	5952  RD580 Host Bridge
 	5954  RS480 [Radeon Xpress 200 Series]
 		1002 5954  RV370 [Radeon Xpress 200G Series]
 	5955  RS480M [Mobility Radeon Xpress 200]
 		1002 5955  RS480 0x5955 [Radeon XPRESS 200M 5955 (PCIE)]
 		103c 308b  MX6125
 		1462 0131  MS-1013 Notebook
-	5956  RD790 Northbridge only dual slot PCI-e_GFX and HT3 K8 part
-	5957  RX780/RX790 Chipset Host Bridge
+	5956  RD790 Host Bridge
+	5957  RX780/RX790 Host Bridge
 		1849 5957  A770CrossFire Motherboard
-	5958  RD780 Northbridge only dual slot PCI-e_GFX and HT1 K8 part
+	5958  RD780 Host Bridge
 	5960  RV280 [Radeon 9200 PRO]
 		17af 2020  Excalibur Radeon 9250
 	5961  RV280 [Radeon 9200]
@@ -1272,8 +1272,8 @@
 		17af 2012  Radeon 9200 SE Excalibur
 		18bc 0170  Sapphire Radeon 9200 SE 128MB Game Buster
 		18bc 0173  GC-R9200L(SE)-C3H [Radeon 9200 Game Buster]
-	5965  RV280 [FireMV 2200 PCI]
-	5974  RS482 [Radeon Xpress 200/1150]
+	5965  RV280 GL [FireMV 2200 PCI]
+	5974  RS482/RS485 [Radeon Xpress 1100/1150]
 		103c 280a  DC5750 Microtower
 		1462 7141  Aspire L250
 	5975  RS482M [Mobility Radeon Xpress 200]
@@ -1336,8 +1336,8 @@
 		196d 1086  X300SE HM
 	5b62  RV370 [Radeon X600/X600 SE]
 	5b63  RV370 [Radeon X300/X550/X1050 Series]
-	5b64  RV370 [FireGL V3100]
-	5b65  RV370 [FireMV 2200]
+	5b64  RV370 GL [FireGL V3100]
+	5b65  RV370 GL [FireMV 2200]
 	5b66  RV370X
 	5b70  RV370 [Radeon X300 SE]
 		1462 0403  RX300SE-TD128E (MS-8940) (secondary display)
@@ -1345,8 +1345,8 @@
 		196d 1087  X300SE HM
 	5b72  RV380 [Radeon X300/X550/X1050 Series] (Secondary)
 	5b73  RV370 [Radeon X300/X550/X1050 Series] (Secondary)
-	5b74  RV370 [FireGL V3100] (Secondary)
-	5b75  RV370 [FireMV 2200] (Secondary)
+	5b74  RV370 GL [FireGL V3100] (Secondary)
+	5b75  RV370 GL [FireMV 2200] (Secondary)
 	5c61  RV280/M9+ [Mobility Radeon 9200 AGP]
 	5c63  RV280/M9+ [Mobility Radeon 9200 AGP]
 		1002 5c63  Apple iBook G4 2004
@@ -1360,14 +1360,14 @@
 		17af 2013  Radeon 9200 SE Excalibur (Secondary)
 		18bc 0171  Radeon 9200 SE 128MB Game Buster (Secondary)
 		18bc 0172  GC-R9200L(SE)-C3H [Radeon 9200 Game Buster]
-	5d45  RV280 [FireMV 2200 PCI] (Secondary)
+	5d45  RV280 GL [FireMV 2200 PCI] (Secondary)
 	5d48  R423/M28 [Mobility Radeon X800 XT]
-	5d49  R423/M28 [Mobility FireGL V5100]
+	5d49  R423/M28 GL [Mobility FireGL V5100]
 	5d4a  R423/M28 [Mobility Radeon X800]
 	5d4d  R480 [Radeon X850 XT Platinum Edition]
 	5d4e  R480 [Radeon X850 SE]
 	5d4f  R480 [Radeon X800 GTO]
-	5d50  R480 [FireGL V7200]
+	5d50  R480 GL [FireGL V7200]
 	5d52  R480 [Radeon X850 XT]
 		1002 0b12  PowerColor X850XT PCIe (Primary)
 		1002 0b13  PowerColor X850XT PCIe (Secondary)
@@ -1376,7 +1376,7 @@
 	5d6f  R480 [Radeon X800 GTO] (Secondary)
 	5d72  R480 [Radeon X850 XT] (Secondary)
 	5d77  R423 [Radeon X800 XT] (Secondary)
-	5e48  RV410 [FireGL V5000]
+	5e48  RV410 GL [FireGL V5000]
 	5e49  RV410 [Radeon X700 Series]
 	5e4a  RV410 [Radeon X700 XT]
 	5e4b  RV410 [Radeon X700 PRO]
@@ -1393,27 +1393,30 @@
 	6601  Mars [Radeon HD 8500/8700M Series]
 	6602  Mars
 	6603  Mars
-	6606  Mars [Radeon HD 8790M]
-	6607  Mars [Radeon HD 8530M]
+	6606  Mars XTX [Radeon HD 8790M]
+	6607  Mars LE [Radeon HD 8530M]
 	6610  Oland [Radeon HD 8600 Series]
 	6611  Oland [Radeon HD 8500 Series]
 	6613  Oland [Radeon HD 8500 Series]
 	6620  Mars
-	6621  Mars
+	6621  Mars PRO
 	6623  Mars
 	6631  Oland
+	6640  Saturn XT
+	6641  Saturn PRO
+	6649  Bonaire
+	6650  Bonaire
+	6651  Bonaire
+	6658  Bonaire
 	665c  Bonaire XT [Radeon HD 7790]
-	6660  Sun [Radeon HD 8600M Series]
-	6700  Cayman GL XT [ATI FirePro V (FireGL V) Graphics Adapter]
-	6701  Cayman GL XT [ATI FirePro V (FireGL V) Graphics Adapter]
-	6702  Cayman GL XT [ATI FirePro V (FireGL V) Graphics Adapter]
-	6703  Cayman GL XT [ATI FirePro V (FireGL V) Graphics Adapter]
+		1787 2329  Radeon HD 7790 TurboDuo
+	6660  Sun XT [Radeon HD 8600M Series]
+	6663  Sun PRO [Radeon HD 8500M Series]
+	6667  Sun
+	666f  Sun LE
+	6670  Hainan
 	6704  Cayman PRO GL [FirePro V7900]
-	6705  Cayman GL PRO [ATI FirePro V (FireGL V) Graphics Adapter]
-	6706  Cayman GL [ATI FirePro V (FireGL V) Graphics Adapter]
 	6707  Cayman LE GL [FirePro V5900]
-	6708  Cayman GL [ATI FirePro V (FireGL V) Graphics Adapter]
-	6709  Cayman GL [ATI FirePro V (FireGL V) Graphics Adapter]
 	6718  Cayman XT [Radeon HD 6970]
 	6719  Cayman PRO [Radeon HD 6950]
 	671c  Antilles [Radeon HD 6990]
@@ -1423,21 +1426,16 @@
 		1028 048f  Radeon HD 6990M
 		1028 0490  Alienware M17x R3 Radeon HD 6970M
 		1028 04a4  FirePro M8900
+		1028 04ba  Radeon HD 6990M
 		1028 053f  FirePro M8900
 		106b 0b00  Radeon HD 6970M
 		1558 5102  Radeon HD 6970M
 		1558 5104  Radeon HD 6990M
 		1558 7201  Radeon HD 6990M
 		174b e188  Radeon HD 6970M
-	6721  Blackcomb [Radeon HD 6900M Series]
-	6722  Barts GL [ATI FirePro V (FireGL V) Graphics Adapter]
 	6723  Barts GL [ATI FirePro V (FireGL V) Graphics Adapter]
 	6724  Blackcomb [Mobility Radeon HD 6000 series]
 	6725  Blackcomb [Radeon HD 6900M Series]
-	6726  Barts GL [ATI FirePro V (FireGL V) Graphics Adapter]
-	6727  Barts GL [ATI FirePro V (FireGL V) Graphics Adapter]
-	6728  Barts GL [ATI FirePro V (FireGL V) Graphics Adapter]
-	6729  Barts GL [ATI FirePro V (FireGL V) Graphics Adapter]
 	6738  Barts XT [Radeon HD 6870]
 # HD-687A-ZDFC
 		1682 3103  Radeon HD 8670
@@ -1455,11 +1453,6 @@
 		1043 1d82  K53SK Laptop Radeon HD 7610M
 		8086 2111  Radeon HD 6625M
 	6743  Whistler [Radeon E6760]
-	6744  Whistler [Radeon HD 6000M Series]
-	6745  Whistler
-	6746  Turks GL [ATI FirePro V (FireGL V) Graphics Adapter]
-	6747  Turks GL [ATI FirePro V (FireGL V) Graphics Adapter]
-	6748  Turks GL [ATI FirePro V (FireGL V) Graphics Adapter]
 	6749  Turks GL [FirePro V4900]
 	674a  Turks GL [FirePro V3900]
 	6750  Onega [Radeon HD 6650A / 7650A]
@@ -1479,7 +1472,6 @@
 		1028 04cc  Vostro 3350
 		1043 84a0  Seymour XT [Radeon HD 6470M]
 	6761  Seymour LP [Radeon HD 6430M]
-	6762  Caicos GL [ATI FirePro V (FireGL V) Graphics Adapter]
 	6763  Seymour [Radeon E6460]
 	6764  Seymour [Radeon HD 6400M Series]
 	6765  Seymour [Radeon HD 6400M Series]
@@ -1497,10 +1489,10 @@
 		174b e164  Sapphire HD 6450 1GB DDR3
 		17af 8450  Radeon HD 8450 OEM
 	677b  Caicos PRO [Radeon HD 7450]
-	6780  Tahiti XT [FirePro W9000]
+	6780  Tahiti XT GL [FirePro W9000]
 	6784  Tahiti [ATI FirePro V (FireGL V) Graphics Adapter]
 	6788  Tahiti [ATI FirePro V (FireGL V) Graphics Adapter]
-	678a  Tahiti PRO [FirePro Series]
+	678a  Tahiti PRO GL [FirePro Series]
 		1002 030c  FirePro W8000
 		1002 0310  FirePro S9000
 		1002 0b2a  FirePro S10000
@@ -1513,34 +1505,41 @@
 		1043 041c  HD 7970 DirectCU II
 		1043 0420  HD 7970 DirectCU II TOP
 		1043 0444  HD 7970 DirectCU II TOP
+		1043 0448  HD 7970 DirectCU II TOP
+		1043 044a  Tahiti XT2 [Matrix HD 7970]
+		1043 044c  Tahiti XT2 [Matrix HD 7970 Platinum]
 		1043 9999  ARES II
+		1092 3000  Tahiti XT2 [Radeon HD 7970 GHz Edition]
+		1458 2261  Tahiti XT2 [Radeon HD 7970 GHz Edition OC]
 		1682 3211  Double D HD 7970 Black Edition
 # FX-797A-TNBC
 		1682 3213  HD 7970 Black Edition
+		1682 3214  Double D HD 7970
 		1787 201c  HD 7970 IceQ X²
 # Radeon HD 7970 X2
 		1787 2317  Radeon HD 7990
+		1787 3000  Tahiti XT2 [Radeon HD 7970 GHz Edition]
 	6799  New Zealand [Radeon HD 7900 Series]
 	679a  Tahiti PRO [Radeon HD 7950]
 		1002 0b01  Radeon HD 8950 OEM
-		1002 3000  Radeon HD 7950 Boost Edition
+		1002 3000  Tahiti PRO2 [Radeon HD 7950 Boost]
 		1462 3000  Radeon HD 8950 OEM
-	679b  New Zealand [Radeon HD 7900 Series]
+	679b  New Zealand [Radeon HD 7990]
 	679e  Tahiti LE [Radeon HD 7870 XT]
 	679f  Tahiti
 	6800  Wimbledon XT [Radeon HD 7970M]
 		1002 0124  Radeon HD 7970M
 		8086 2110  Radeon HD 7970M
 		8086 2111  Radeon HD 7970M
-	6801  Pitcairn XT [Radeon HD 8970M]
+	6801  Neptune [Radeon HD 8970M]
 		1002 0124  Radeon HD 8970M
 		8086 2110  Radeon HD 8970M
 		8086 2111  Radeon HD 8970M
 	6802  Wimbledon
-	6806  Pitcairn
-	6808  Pitcairn XT [FirePro W7000]
+	6806  Neptune
+	6808  Pitcairn XT GL [FirePro W7000]
 		1002 0310  FirePro S7000
-	6809  Pitcairn LE [FirePro W5000]
+	6809  Pitcairn LE GL [FirePro W5000]
 	6810  Pitcairn
 	6811  Pitcairn
 	6816  Pitcairn
@@ -1554,12 +1553,13 @@
 	6823  Venus PRO [Radeon HD 8800M Series]
 	6824  Chelsea [Radeon HD 7700M Series]
 	6825  Heathrow XT [Radeon HD 7870M]
-	6826  Chelsea [Radeon HD 7700M Series]
+		8086 2111  Chelsea PRO
+	6826  Chelsea LP [Radeon HD 7700M Series]
 	6827  Heathrow PRO [Radeon HD 7850M/8850M]
 	6828  Cape Verde PRO [FirePro W600]
 	6829  Cape Verde
 	682b  Venus LE [Radeon HD 8800M Series]
-	682d  Chelsea [AMD Radeon HD 7700M Series]
+	682d  Chelsea XT GL [FirePro M4000]
 	682f  Chelsea LP [Radeon HD 7730M]
 	6830  Cape Verde [Radeon HD 7800M Series]
 	6831  Cape Verde [AMD Radeon HD 7700M Series]
@@ -1578,7 +1578,6 @@
 	6843  Thames [Radeon HD 7670M]
 	6849  Lombok [AMD Radeon HD 7400 Series]
 	684c  Pitcairn [ATI FirePro V(FireGL V) Graphics Adapter]
-	6858  Lombok [Radeon HD 7400 series]
 	6880  Cypress
 	6888  Cypress XT [FirePro V8800]
 	6889  Cypress PRO [FirePro V7800]
@@ -1617,18 +1616,18 @@
 		148c 3000  Powercolor HD 6750
 	68bf  Juniper PRO [Radeon HD 6750]
 		174b 6750  Radeon HD 6750
-	68c0  Madison [Mobility Radeon HD 5000 Series]
+	68c0  Madison [Mobility Radeon HD 5730 / 6570M]
 		103c 1521  Madison XT [FirePro M5800]
 		103c 1593  Mobility Radeon HD 6570
 		103c 1596  Mobility Radeon HD 6570
 		103c 1599  Mobility Radeon HD 6570
-	68c1  Madison [Mobility Radeon HD 5650/5750/6550M]
+	68c1  Madison [Mobility Radeon HD 5650/5750 / 6550M]
 		1025 033d  Mobility Radeon HD 5650
 		1025 0347  Aspire 7740G
 		103c 1521  Madison Pro [FirePro M5800]
 	68c7  Madison [Mobility Radeon HD 5570/6550A]
-	68c8  Redwood XT [FirePro V4800]
-	68c9  Redwood PRO [FirePro V3800]
+	68c8  Redwood XT GL [FirePro V4800]
+	68c9  Redwood PRO GL [FirePro V3800]
 	68d8  Redwood XT [Radeon HD 5670]
 		1787 3000  Radeon HD 5730
 	68d9  Redwood PRO [Radeon HD 5570]
@@ -1638,7 +1637,7 @@
 		148c 3000  Radeon HD 6390
 		148c 3001  Radeon HD 6490
 	68de  Redwood
-	68e0  Park [Mobility Radeon HD 5400 Series]
+	68e0  Park [Mobility Radeon HD 5430/5450/5470]
 		103c 1486  TouchSmart tm2-2050er discrete GPU (Mobility Radeon HD 5450)
 	68e1  Park [Mobility Radeon HD 5430]
 		148c 7350  Caicos [Radeon HD 7350]
@@ -1652,8 +1651,8 @@
 		148c 7350  Radeon HD 7350
 	68e8  Cedar
 	68e9  Cedar [ATI FirePro (FireGL) Graphics Adapter]
-	68f1  Cedar [FirePro 2460]
-	68f2  Cedar [FirePro 2270]
+	68f1  Cedar GL [FirePro 2460]
+	68f2  Cedar GL [FirePro 2270]
 	68f8  Cedar [Radeon HD 7300 Series]
 	68f9  Cedar [Radeon HD 5000/6000/7350 Series]
 		1019 0001  Radeon HD 5450
@@ -1672,8 +1671,8 @@
 	68fa  Cedar [Radeon HD 7350]
 		17af 3015  Radeon HD 7350
 	68fe  Cedar LE
-	700f  PCI Bridge [IGP 320M]
-	7010  PCI Bridge [IGP 340M]
+	700f  RS100 AGP Bridge
+	7010  RS200/RS250 AGP Bridge
 	7100  R520 [Radeon X1800 XT]
 	7101  R520/M58 [Mobility Radeon X1800 XT]
 	7102  R520/M58 [Mobility Radeon X1800]
@@ -1726,20 +1725,20 @@
 	718d  RV516/M64-CSP128 [Mobility Radeon X1450]
 	7193  RV516 [Radeon X1550 Series]
 	7196  RV516/M62-S [Mobility Radeon X1350]
-	719b  RV516 [FireMV 2250]
+	719b  RV516 GL [FireMV 2250]
 	719f  RV516 [Radeon X1550 Series]
 	71a0  RV516 [Radeon X1300/X1550 Series] (Secondary)
 	71a1  RV516 [Radeon X1600/X1650 Series] (Secondary)
 	71a3  RV516 [Radeon X1300/X1550 Series] (Secondary)
 	71a7  RV516 [Radeon X1300/X1550 Series] (Secondary)
-	71bb  RV516 [FireMV 2250] (Secondary)
+	71bb  RV516 GL [FireMV 2250] (Secondary)
 	71c0  RV530 [Radeon X1600 XT/X1650 GTO]
 		1002 e160  Radeon X1650 GTO
 		174b e160  Radeon X1650 GTO
 	71c1  RV535 [Radeon X1650 PRO]
 		174b 0880  Radeon X1700 FSC
 	71c2  RV530 [Radeon X1600 PRO]
-	71c4  RV530/M56GL [Mobility FireGL V5200]
+	71c4  RV530/M56 GL [Mobility FireGL V5200]
 		17aa 2007  ThinkPad T60p
 	71c5  RV530/M56-P [Mobility Radeon X1600]
 		103c 309f  Compaq nx9420 Notebook
@@ -1778,7 +1777,7 @@
 	724b  R580 [Radeon X1900 GT]
 		1002 0b12  Radeon X1900 (Primary)
 		1002 0b13  Radeon X1900 (Secondary)
-	724e  R580 [FireGL V7350]
+	724e  R580 GL [FireGL V7350]
 	7269  R580 [Radeon X1900 XT] (Secondary)
 	726b  R580 [Radeon X1900 GT] (Secondary)
 	726e  R580 [AMD Stream Processor] (Secondary)
@@ -1791,10 +1790,10 @@
 	72a8  RV570 [Radeon X1950 GT] (Secondary)
 	72b1  RV560 [Radeon X1650 XT] (Secondary)
 	72b3  RV560 [Radeon X1650 GT] (Secondary)
-	7833  Radeon 9100 IGP Host Bridge
+	7833  RS350 Host Bridge
 	7834  RS350 [Radeon 9100 PRO/XT IGP]
 	7835  RS350M [Mobility Radeon 9000 IGP]
-	7838  Radeon 9100 IGP PCI/AGP Bridge
+	7838  RS350 AGP Bridge
 	7910  RS690 Host Bridge
 		1179 ff50  Satellite P305D-S8995E
 		17f2 5000  KI690-AM2 Motherboard
@@ -1805,7 +1804,7 @@
 	7916  RS690 PCI to PCI Bridge (PCI Express Port 2)
 	7917  RS690 PCI to PCI Bridge (PCI Express Port 3)
 		1002 7910  RS690 PCI to PCI Bridge
-	7919  Radeon X1200 Series Audio Controller
+	7919  RS690 HDMI Audio [Radeon Xpress 1200 Series]
 		1179 7919  Satellite P305D-S8995E
 		17f2 5000  KI690-AM2 Motherboard
 	791e  RS690 [Radeon X1200]
@@ -1824,7 +1823,7 @@
 	7941  RS600 [Radeon Xpress 1250]
 	7942  RS600M [Radeon Xpress 1250]
 	796e  RS740 [Radeon 2100]
-	9400  R600 [Radeon HD 2900 Series]
+	9400  R600 [Radeon HD 2900 PRO/XT]
 		1002 2552  Radeon HD 2900 XT
 		1002 3000  Radeon HD 2900 PRO
 		1002 3142  HIS Radeon HD 2900XT 512MB GDDR3 VIVO PCIe
@@ -1840,24 +1839,24 @@
 		1002 0502  MSI R4850-T2D512
 		174b e810  Sapphire HD 4850 512MB GDDR3 PCI-E Dual Slot Fansink
 	9443  R700 [Radeon HD 4850 X2]
-	9444  RV770 [FirePro V8750]
-	9446  RV770 [FirePro V7760]
+	9444  RV770 GL [FirePro V8750]
+	9446  RV770 GL [FirePro V7760]
 	944a  RV770/M98L [Mobility Radeon HD 4850]
 	944b  RV770/M98 [Mobility Radeon HD 4850 X2]
 	944c  RV770 LE [Radeon HD 4830]
 	944e  RV770 CE [Radeon HD 4710]
 		174b 3261  Sapphire Radeon HD 4810
-	9450  RV770 [FireStream 9270]
-	9452  RV770 [FireStream 9250]
-	9456  RV770 [FirePro V8700]
+	9450  RV770 GL [FireStream 9270]
+	9452  RV770 GL [FireStream 9250]
+	9456  RV770 GL [FirePro V8700]
 	945a  RV770/M98-XT [Mobility Radeon HD 4870]
 	9460  RV790 [Radeon HD 4890]
 	9462  RV790 [Radeon HD 4860]
-	946a  RV770 [FirePro M7750]
+	946a  RV770 GL [FirePro M7750]
 	9480  RV730/M96 [Mobility Radeon HD 4650/5165]
 		103c 3628  ATI Mobility Radeon HD 4650 [dv6-1190en]
 	9488  RV730/M96-XT [Mobility Radeon HD 4670]
-	9489  RV730/M96-XT [Mobility FireGL V5725]
+	9489  RV730/M96 GL [Mobility FireGL V5725]
 	9490  RV730 XT [Radeon HD 4670]
 		174b e880  Radeon HD 4670 512MB DDR3
 	9491  RV730/M96-CSP [Radeon E4690]
@@ -1866,9 +1865,9 @@
 		1458 0028  HD4650
 		1682 0028  HD465X
 	9498  RV730 PRO [Radeon HD 4650]
-	949c  RV730 [FirePro V7750]
-	949e  RV730 [FirePro V5700]
-	949f  RV730 [FirePro V3750]
+	949c  RV730 GL [FirePro V7750]
+	949e  RV730 GL [FirePro V5700]
+	949f  RV730 GL [FirePro V3750]
 	94a0  RV740/M97 [Mobility Radeon HD 4830]
 	94a1  RV740/M97-XT [Mobility Radeon HD 4860]
 	94a3  RV740/M97 GL [FirePro M7740]
@@ -1907,7 +1906,7 @@
 	9511  RV670 GL [FireGL V7700]
 	9513  RV670 [Radeon HD 3850 X2]
 	9515  RV670 PRO [Radeon HD 3850 AGP]
-	9519  RV670 [FireStream 9170]
+	9519  RV670 GL [FireStream 9170]
 	9540  RV710 [Radeon HD 4550]
 	954f  RV710 [Radeon HD 4350/4550]
 		1462 1618  R4350 MD512H (MS-V161)
@@ -1925,7 +1924,7 @@
 		1179 ff82  Satellite L505-13T GPU (Mobility Radeon HD 5145)
 	9555  RV710/M92 [Mobility Radeon HD 4350/4550]
 		103c 1411  ProBook 4720s GPU (Mobility Radeon HD 4350)
-	9557  RV711 [FirePro RG220]
+	9557  RV711 GL [FirePro RG220]
 	955f  RV710/M92 [Mobility Radeon HD 4330]
 	9580  RV630 [Radeon HD 2600 PRO]
 	9581  RV630/M76 [Mobility Radeon HD 2600]
@@ -1966,8 +1965,8 @@
 		1028 0342  OptiPlex 980
 	95c6  RV620 LE [Radeon HD 3450 AGP]
 	95c9  RV620 LE [Radeon HD 3450 PCI]
-	95cc  RV620 [FirePro V3700]
-	95cf  RV620 [FirePro 2260]
+	95cc  RV620 GL [FirePro V3700]
+	95cf  RV620 GL [FirePro 2260]
 	960f  RS780 HDMI Audio [Radeon (HD) 3000 Series]
 	9610  RS780 [Radeon HD 3200]
 		1458 d000  GA-MA78GM-S2H Motherboard
@@ -1997,7 +1996,7 @@
 	9710  RS880 [Radeon HD 4200]
 		1019 2120  A785GM-M
 		1043 83a2  M4A785TD Motherboard
-	9712  RS880M [Mobility Radeon HD 4200 Series]
+	9712  RS880M [Mobility Radeon HD 4225/4250]
 	9713  RS880M [Mobility Radeon HD 4100]
 	9714  RS880 [Radeon HD 4290]
 	9715  RS880 [Radeon HD 4250]
@@ -2099,10 +2098,10 @@
 	ac00  Theater 600 Pro
 	ac02  TV Wonder HD 600 PCIe
 	ac12  Theater HD T507 (DVB-T) TV tuner/capture device
-	cab0  RS100 AGP Bridge [IGP 320M]
-	cab2  RS200/RS200M AGP Bridge [IGP 340M]
-	cab3  R200 AGP Bridge [Mobility Radeon 7000 IGP]
-	cbb2  RS200/RS200M AGP Bridge [IGP 340M]
+	cab0  RS100 Host Bridge
+	cab2  RS200 Host Bridge
+	cab3  RS250 Host Bridge
+	cbb2  RS200 Host Bridge
 1003  ULSI Systems
 	0201  US201
 1004  VLSI Technology Inc
@@ -2569,7 +2568,7 @@
 101f  PictureTel
 1020  Hitachi Computer Products
 1021  OKI Electric Industry Co. Ltd.
-1022  Advanced Micro Devices [AMD]
+1022  Advanced Micro Devices, Inc. [AMD]
 	1100  K8 [Athlon64/Opteron] HyperTransport Technology Configuration
 	1101  K8 [Athlon64/Opteron] Address Map
 	1102  K8 [Athlon64/Opteron] DRAM Controller
@@ -5887,8 +5886,6 @@
 	0047  NV40 [GeForce 6800 GS]
 		1682 2109  GeForce 6800 GS
 	0048  NV40 [GeForce 6800 XT]
-	0049  NV40GL
-	004d  NV40GL [Quadro FX 4000]
 	004e  NV40GL [Quadro FX 4000]
 	0050  CK804 ISA Bridge
 		1043 815a  K8N4-E or A8N-E Mainboard
@@ -6134,12 +6131,12 @@
 	00f5  G71 [GeForce 7800 GS]
 	00f6  NV43 [GeForce 6800 GS/XT]
 		1682 217e  XFX GeForce 6800 XTreme 256MB DDR3 AGP
-	00f8  NV45GL [Quadro FX 3400/4400]
-	00f9  NV45 [GeForce 6800 GTO]
+	00f8  NV40GL [Quadro FX 3400/4400]
+	00f9  NV40 [GeForce 6800 GT/GTO/Ultra]
 		10de 00f9  NV40 [GeForce 6800 GT]
 		1682 2120  GEFORCE 6800 GT PCI-E
 	00fa  NV36 [GeForce PCX 5750]
-	00fb  NV35 [GeForce PCX 5900]
+	00fb  NV38 [GeForce PCX 5900]
 	00fc  NV37GL [Quadro FX 330/GeForce PCX 5300]
 	00fd  NV37GL [Quadro PCI-E Series]
 	00fe  NV38GL [Quadro FX 1300]
@@ -6230,8 +6227,8 @@
 		1048 0c56  GLADIAC Ultra
 	0153  NV15GL [Quadro2 Pro]
 	0160  NV44 [GeForce 6500]
-	0161  NV44 [GeForce 6200 TurboCache(TM)]
-	0162  NV44 [GeForce 6200SE TurboCache (TM)]
+	0161  NV44 [GeForce 6200 TurboCache]
+	0162  NV44 [GeForce 6200 SE TurboCache]
 	0163  NV44 [GeForce 6200 LE]
 	0164  NV44M [GeForce Go 6200]
 	0165  NV44 [Quadro NVS 285]
@@ -6516,6 +6513,7 @@
 	029b  G71GLM [Quadro FX 1500M]
 	029c  G71GL [Quadro FX 5500]
 	029d  G71GL [Quadro FX 3500]
+		1028 019b  G71GLM [Quadro FX 3500M]
 	029e  G71GL [Quadro FX 1500]
 	029f  G71GL [Quadro FX 4500 X2]
 # Xbox Graphics Processing Unit (Integrated). GeForce3 derivative (NV20 < NV2A < NV25).
@@ -7076,7 +7074,8 @@
 	065f  G96 [GeForce G210]
 	06c0  GF100 [GeForce GTX 480]
 	06c4  GF100 [GeForce GTX 465]
-	06ca  GF100 [GeForce GTX 480M]
+	06ca  GF100M [GeForce GTX 480M]
+	06cb  GF100 [GeForce GTX 480]
 	06cd  GF100 [GeForce GTX 470]
 	06d1  GF100GL [Tesla C2050 / C2070]
 		10de 0771  Tesla C2050
@@ -7116,7 +7115,7 @@
 	06e8  G98M [GeForce 9200M GS]
 	06e9  G98M [GeForce 9300M GS]
 		1043 19b2  U6V laptop
-	06ea  G86M [Quadro NVS 150M]
+	06ea  G98M [Quadro NVS 150M]
 	06eb  G98M [Quadro NVS 160M]
 	06ec  G98M [GeForce G 105M]
 	06ed  G98 [GeForce 9600 GT / 9800 GT]
@@ -7333,16 +7332,16 @@
 	0a23  GT216 [GeForce 210]
 	0a26  GT216 [GeForce 405]
 	0a27  GT216 [GeForce 405]
-	0a28  GT216 [GeForce GT 230M]
-	0a29  GT216 [GeForce GT 330M]
-	0a2a  GT216 [GeForce GT 230M]
-	0a2b  GT216 [GeForce GT 330M]
-	0a2c  GT216 [NVS 5100M]
-	0a2d  GT216 [GeForce GT 320M]
+	0a28  GT216M [GeForce GT 230M]
+	0a29  GT216M [GeForce GT 330M]
+	0a2a  GT216M [GeForce GT 230M]
+	0a2b  GT216M [GeForce GT 330M]
+	0a2c  GT216M [NVS 5100M]
+	0a2d  GT216M [GeForce GT 320M]
 	0a30  GT216 [GeForce 505]
 	0a32  GT216 [GeForce GT 415]
-	0a34  GT216 [GeForce GT 240M]
-	0a35  GT216 [GeForce GT 325M]
+	0a34  GT216M [GeForce GT 240M]
+	0a35  GT216M [GeForce GT 325M]
 	0a38  GT216GL [Quadro 400]
 	0a3c  GT216GLM [Quadro FX 880M]
 	0a60  GT218 [GeForce G210]
@@ -7352,22 +7351,21 @@
 	0a65  GT218 [GeForce 210]
 		1043 8334  EN210 SILENT
 	0a66  GT218 [GeForce 310]
-# taken from nv_disp.inf
 	0a67  GT218 [GeForce 315]
 	0a68  GT218M [GeForce G 105M]
 	0a69  GT218M [GeForce G 105M]
-	0a6a  GT218 [NVS 2100M]
-	0a6c  GT218 [NVS 3100M]
+	0a6a  GT218M [NVS 2100M]
+	0a6c  GT218M [NVS 3100M]
 		1028 040b  Latitude E6510
 		17aa 2142  ThinkPad T410
-	0a6e  GT218 [GeForce 305M]
+	0a6e  GT218M [GeForce 305M]
 	0a6f  GT218 [ION]
-	0a70  GT218 [GeForce 310M]
-	0a71  GT218 [GeForce 305M]
-	0a72  GT218 [GeForce 310M]
-	0a73  GT218 [GeForce 305M]
-	0a74  GT218 [GeForce G210M]
-	0a75  GT218 [GeForce 310M]
+	0a70  GT218M [GeForce 310M]
+	0a71  GT218M [GeForce 305M]
+	0a72  GT218M [GeForce 310M]
+	0a73  GT218M [GeForce 305M]
+	0a74  GT218M [GeForce G210M]
+	0a75  GT218M [GeForce 310M]
 	0a76  GT218 [ION 2]
 	0a78  GT218GL [Quadro FX 380 LP]
 	0a7a  GT218M [GeForce 315M]
@@ -7478,15 +7476,14 @@
 	0ca2  GT215 [GeForce GT 320]
 	0ca3  GT215 [GeForce GT 240]
 	0ca4  GT215 [GeForce GT 340]
-# taken from nv_disp.inf
 	0ca5  GT215 [GeForce GT 220]
 	0ca7  GT215 [GeForce GT 330]
-	0ca8  GT215 [GeForce GTS 260M]
-	0ca9  GT215 [GeForce GTS 250M]
+	0ca8  GT215M [GeForce GTS 260M]
+	0ca9  GT215M [GeForce GTS 250M]
 	0cac  GT215 [GeForce GT 220/315]
-	0caf  GT215 [GeForce GT 335M]
-	0cb0  GT215 [GeForce GTS 350M]
-	0cb1  GT215 [GeForce GTS 360M]
+	0caf  GT215M [GeForce GT 335M]
+	0cb0  GT215M [GeForce GTS 350M]
+	0cb1  GT215M [GeForce GTS 360M]
 	0cbc  GT215GLM [Quadro FX 1800M]
 	0d60  MCP89 HOST Bridge
 	0d68  MCP89 Memory Controller
@@ -7507,16 +7504,14 @@
 	0dc0  GF106 [GeForce GT 440]
 	0dc4  GF106 [GeForce GTS 450]
 	0dc5  GF106 [GeForce GTS 450 OEM]
-# taken from nv_disp.inf
 	0dc6  GF106 [GeForce GTS 450]
-	0dcd  GF106 [GeForce GT 555M]
-	0dce  GF106 [GeForce GT 555M]
-# rev a1
-	0dd1  GF106 [GeForce GTX 460M]
+	0dcd  GF106M [GeForce GT 555M]
+	0dce  GF106M [GeForce GT 555M]
+	0dd1  GF106M [GeForce GTX 460M]
 		1558 8687  CLEVO/KAPOK W860CU
-	0dd2  GF106 [GeForce GT 445M]
-	0dd3  GF106 [GeForce GT 435M]
-	0dd6  GF106 [GeForce GT 550M]
+	0dd2  GF106M [GeForce GT 445M]
+	0dd3  GF106M [GeForce GT 435M]
+	0dd6  GF106M [GeForce GT 550M]
 	0dd8  GF106GL [Quadro 2000]
 		10de 0914  Quadro 2000D
 # NVIDIA calls it GF106GML
@@ -7525,33 +7520,30 @@
 	0de1  GF108 [GeForce GT 430]
 		3842 1430  GeForce GT 430
 	0de2  GF108 [GeForce GT 420]
-	0de3  GF108 [GeForce GT 635M]
-# taken from nv_disp.inf
+	0de3  GF108M [GeForce GT 635M]
 	0de4  GF108 [GeForce GT 520]
-# taken from nv_disp.inf
 	0de5  GF108 [GeForce GT 530]
-	0de8  GF108 [GeForce GT 620M]
-	0de9  GF108 [GeForce GT 630M]
-	0dea  GF108 [GeForce 610M]
+	0de8  GF108M [GeForce GT 620M]
+	0de9  GF108M [GeForce GT 630M]
+	0dea  GF108M [GeForce 610M]
 		17aa 365a  GeForce 615
 		17aa 365b  GeForce 615
 		17aa 365e  GeForce 615
 		17aa 3660  GeForce 615
 		17aa 366c  GeForce 615
-# Not fully sure that it's GF108, might also be GF106.
-	0deb  GF108 [GeForce GT 555M]
-	0dec  GF108 [GeForce GT 525M]
-	0ded  GF108 [GeForce GT 520M]
-	0dee  GF108 [GeForce GT 415M]
-	0def  GF108 [Quadro NVS 5400M]
-	0df0  GF108 [GeForce GT 425M]
-	0df1  GF108 [GeForce GT 420M]
-	0df2  GF108 [GeForce GT 435M]
-	0df3  GF108 [GeForce GT 420M]
-	0df4  GF108 [GeForce GT 540M]
-	0df5  GF108 [GeForce GT 525M]
-	0df6  GF108 [GeForce GT 550M]
-	0df7  GF108 [GeForce GT 520M]
+	0deb  GF108M [GeForce GT 555M]
+	0dec  GF108M [GeForce GT 525M]
+	0ded  GF108M [GeForce GT 520M]
+	0dee  GF108M [GeForce GT 415M]
+	0def  GF108M [NVS 5400M]
+	0df0  GF108M [GeForce GT 425M]
+	0df1  GF108M [GeForce GT 420M]
+	0df2  GF108M [GeForce GT 435M]
+	0df3  GF108M [GeForce GT 420M]
+	0df4  GF108M [GeForce GT 540M]
+	0df5  GF108M [GeForce GT 525M]
+	0df6  GF108M [GeForce GT 550M]
+	0df7  GF108M [GeForce GT 520M]
 # NVIDIA calls it GL
 	0df8  GF108GL [Quadro 600]
 # NVIDIA calls it GLM
@@ -7570,32 +7562,43 @@
 		1043 8428  GTX650-DC-1GD5
 	0e22  GF104 [GeForce GTX 460]
 		1462 2322  N460GTX Cyclone 1GD5/OC
-# taken from nv_disp.inf
 	0e23  GF104 [GeForce GTX 460 SE]
 	0e24  GF104 [GeForce GTX 460 OEM]
-	0e30  GF104 [GeForce GTX 470M]
-	0e31  GF104 [GeForce GTX 485M]
+	0e30  GF104M [GeForce GTX 470M]
+	0e31  GF104M [GeForce GTX 485M]
 	0e3a  GF104GLM [Quadro 3000M]
 	0e3b  GF104GLM [Quadro 4000M]
 	0f00  GF108 [GeForce GT 630]
 	0f01  GF108 [GeForce GT 620]
 	0fc0  GK107 [GeForce GT 640 OEM]
-# taken from nv_disp.inf
 	0fc1  GK107 [GeForce GT 640]
 	0fc2  GK107 [GeForce GT 630 OEM]
 	0fc6  GK107 [GeForce GTX 650]
 		1043 8428  GTX650-DC-1GD5
-	0fd1  GK107 [GeForce GT 650M]
+	0fd1  GK107M [GeForce GT 650M]
+		1043 1597  GeForce GT 650M
+		1043 15a7  GeForce GT 650M
 		1043 2103  N56VZ
-	0fd2  GK107 [GeForce GT 640M]
-	0fd3  GK107 [GeForce GT 640M LE]
-	0fd4  GK107 [GeForce GTX 660M]
-	0fd5  GK107 [GeForce GT 650M Mac Edition]
-	0fd8  GK107 [GeForce GT 640M Mac Edition]
-	0fd9  GK107 [GeForce GT 645M]
-	0fe1  GK107 [GeForce GT 730M]
-	0fe4  GK107 [GeForce GT 750M]
+		1043 2105  GeForce GT 650M
+		1043 2141  GeForce GT 650M
+	0fd2  GK107M [GeForce GT 640M]
+	0fd3  GK107M [GeForce GT 640M LE]
+	0fd4  GK107M [GeForce GTX 660M]
+	0fd5  GK107M [GeForce GT 650M Mac Edition]
+	0fd8  GK107M [GeForce GT 640M Mac Edition]
+	0fd9  GK107M [GeForce GT 645M]
+	0fdf  GK107M [GeForce GT 740M]
+	0fe0  GK107M [GeForce GTX 660M OEM]
+	0fe1  GK107M [GeForce GT 730M]
+	0fe3  GK107M [GeForce GT 745M]
+	0fe4  GK107M [GeForce GT 750M]
+	0fe5  GK107 [GeForce K340 USM]
+	0fe6  GK107 [NVS K1 USM]
+	0fef  GK107GL [GRID K340]
+	0ff1  GK107 [NVS 1000]
 	0ff2  GK107GL [GRID K1]
+	0ff5  GK107GL [Tesla K1 USM]
+	0ff7  GK107GL [Quadro K1 USM]
 	0ff9  GK107GL [Quadro K2000D]
 	0ffa  GK107GL [Quadro K600]
 	0ffb  GK107GLM [Quadro K2000M]
@@ -7603,6 +7606,7 @@
 	0ffd  GK107 [NVS 510]
 	0ffe  GK107GL [Quadro K2000]
 	0fff  GK107GL [Quadro 410]
+	1003  GK110 [GeForce GTX Titan LE]
 	1005  GK110 [GeForce GTX Titan]
 		1043 8451  GTXTITAN-6GD5
 # Reference Model
@@ -7617,30 +7621,35 @@
 		3842 2794  GeForce GTX Titan SC Hydro Copper
 # 06G-P4-2795-KR
 		3842 2795  GeForce GTX Titan SC Hydro Copper Signature
+	101f  GK110GL [Tesla K20]
+	1020  GK110GL [Tesla K20X]
 	1021  GK110GL [Tesla K20Xm]
 	1022  GK110GL [Tesla K20c]
 	1026  GK110GL [Tesla K20s]
 	1028  GK110GL [Tesla K20m]
 	1040  GF119 [GeForce GT 520]
-# taken from nv_disp.inf
 	1042  GF119 [GeForce 510]
-# taken from nv_disp.inf
 	1048  GF119 [GeForce 605]
 	1049  GF119 [GeForce GT 620 OEM]
-# taken from nv_disp.inf
 	104a  GF119 [GeForce GT 610]
 # 1024MB with passive cooling (heatsink)
 		10b0 104a  Gainward GeForce GT 610
 	104b  GF119 [GeForce GT 625 OEM]
-	1050  GF119 [GeForce GT 520M]
-	1051  GF119 [GeForce GT 520MX]
-	1052  GF119 [GeForce GT 520M]
-	1054  GF119 [GeForce 410M]
-	1055  GF119 [GeForce 410M]
-	1056  GF119 [Quadro NVS 4200M]
-	1057  GF119 [Quadro NVS 4200M]
-	1058  GF119 [GeForce 610M]
-	105a  GF119 [GeForce 610M]
+	1050  GF119M [GeForce GT 520M]
+	1051  GF119M [GeForce GT 520MX]
+	1052  GF119M [GeForce GT 520M]
+	1054  GF119M [GeForce 410M]
+	1055  GF119M [GeForce 410M]
+	1056  GF119M [NVS 4200M]
+	1057  GF119M [Quadro NVS 4200M]
+	1058  GF119M [GeForce 610M]
+		1043 10ac  GeForce GT 610M
+		1043 10bc  GeForce GT 610M
+		1043 1652  GeForce GT 610M
+	105a  GF119M [GeForce 610M]
+		1043 2111  GeForce GT 610M
+		1043 2112  GeForce GT 610M
+	105b  GF119M [GeForce 705M]
 	107c  GF119 [NVS 315]
 	107d  GF119 [NVS 310]
 	1080  GF110 [GeForce GTX 580]
@@ -7654,16 +7663,15 @@
 	1087  GF110 [GeForce GTX 560 Ti 448 Cores]
 # GF110-351-A1
 	1088  GF110 [GeForce GTX 590]
-# taken from nv_disp.inf
 	1089  GF110 [GeForce GTX 580]
-# taken from nv_disp.inf
 	108b  GF110 [GeForce GTX 580]
-	1091  GF110 [Tesla M2090]
+	108e  GF110GL [Tesla C2090]
+	1091  GF110GL [Tesla M2090]
 		10de 088e  Tesla X2090
 		10de 0891  Tesla X2090
-	1094  GF110 [Tesla M2075]
+	1094  GF110GL [Tesla M2075]
 		10de 0888  Tesla M2075
-	1096  GF110 [Tesla C2050 / C2075]
+	1096  GF110GL [Tesla C2050 / C2075]
 		10de 0910  Tesla C2075
 		10de 0911  Tesla C2050
 	109a  GF100GLM [Quadro 5010M]
@@ -7676,58 +7684,111 @@
 		10de 066d  G98 [GeForce 8400GS]
 	10c5  GT218 [GeForce 405]
 	10d8  GT218 [NVS 300]
-	1140  GF117M [GeForce 610M/710M / GT 620M/625M/630M]
+	1140  GF117M [GeForce 610M/710M / GT 620M/625M/630M/720M]
+		1025 064a  GeForce GT 620M
+		1025 064c  GeForce GT 620M
+		1025 0691  GeForce 710M
+		1025 0719  GeForce GT 620M
+		1025 0725  GeForce GT 620M
+		1025 072b  GeForce GT 620M
+		1025 0773  GeForce 710M
+		1028 054d  GeForce GT 630M
+		1028 054e  GeForce GT 630M
+		1028 0554  GeForce GT 620M
+		1028 0557  GeForce GT 620M
+		1028 0565  GeForce GT 630M
+		1043 10dd  NVS 5200M
+		1043 10ed  NVS 5200M
+		1043 11fd  GeForce GT 720M
+		1043 124d  GeForce GT 720M
+		1043 126d  GeForce GT 720M
+		1043 14c7  GeForce GT 720M
+		1043 1507  GeForce GT 620M
+		1043 2132  GeForce GT 620M
+		1043 2136  NVS 5200M
+		1043 21ba  GeForce GT 720M
+		1043 21fa  GeForce GT 720M
+		1043 220a  GeForce GT 720M
+		144d c0d7  GeForce GT 620M
+		144d c652  GeForce GT 620M
+		17aa 2200  NVS 5200M
+		17aa 3901  GeForce 610M / GT 620M
+		17aa 3904  GeForce GT 620M/625M
+		17aa 3983  GeForce 610M
+		17aa 500d  GeForce GT 620M
 	1180  GK104 [GeForce GTX 680]
+		3842 3682  GeForce GTX 680 Mac Edition
 	1183  GK104 [GeForce GTX 660 Ti]
 	1185  GK104 [GeForce GTX 660 OEM]
 	1188  GK104 [GeForce GTX 690]
 	1189  GK104 [GeForce GTX 670]
-	118f  GK104 [Tesla K10]
-	11a0  GK104 [GeForce GTX 680M]
-	11a1  GK104 [GeForce GTX 670MX]
-	11a2  GK104 [GeForce GTX 675MX]
-	11a3  GK104 [GeForce GTX 680MX]
-	11a7  GK104 [GeForce GTX 675MX]
+	118a  GK104GL [GRID K520]
+	118b  GK104 [GeForce K2 USM]
+	118c  GK104 [NVS K2 USM]
+	118f  GK104GL [Tesla K10]
+	119f  GK104M [GeForce GTX 780M]
+	11a0  GK104M [GeForce GTX 680M]
+	11a1  GK104M [GeForce GTX 670MX]
+	11a2  GK104M [GeForce GTX 675MX Mac Edition]
+	11a3  GK104M [GeForce GTX 680MX]
+	11a7  GK104M [GeForce GTX 675MX]
+	11b0  GK104GL [Quadro K2 USM]
+	11b1  GK104GL [Tesla K2 USM]
 	11ba  GK104GL [Quadro K5000]
+	11bb  GK104GL [Quadro 4100]
 	11bc  GK104GLM [Quadro K5000M]
 	11bd  GK104GLM [Quadro K4000M]
 	11be  GK104GLM [Quadro K3000M]
-# Device renamed.
 	11bf  GK104GL [GRID K2]
 # GK106-400-A1
 	11c0  GK106 [GeForce GTX 660]
 	11c2  GK106 [GeForce GTX 650 Ti Boost]
 	11c3  GK106 [GeForce GTX 650 Ti OEM]
+		10de 1030  GeForce GTX 650 Ti OEM
+	11c4  GK106 [GeForce GTX 645 OEM]
 # GK106-220-A1
 	11c6  GK106 [GeForce GTX 650 Ti]
+	11e0  GK106M [GeForce GTX 770M]
+	11e2  GK106M [GeForce GTX 765M]
+	11e3  GK106M [GeForce GTX 760M]
 	11fa  GK106GL [Quadro K4000]
 	1200  GF114 [GeForce GTX 560 Ti]
 	1201  GF114 [GeForce GTX 560]
+	1202  GF114 [GeForce GTX 560 Ti OEM]
 	1203  GF114 [GeForce GTX 460 SE v2]
 	1205  GF114 [GeForce GTX 460 v2]
-# taken from nv_disp.inf
 	1206  GF114 [GeForce GTX 555]
-# taken from nv_disp.inf
 	1207  GF114 [GeForce GTX 645]
-# taken from nv_disp.inf
 	1208  GF114 [GeForce GTX 560 SE]
-	1210  GF114 [GeForce GTX 570M]
-	1211  GF114 [GeForce GTX 580M]
-	1212  GF114 [GeForce GTX 675M]
-	1213  GF114 [GeForce GTX 670M]
+	1210  GF114M [GeForce GTX 570M]
+	1211  GF114M [GeForce GTX 580M]
+	1212  GF114M [GeForce GTX 675M]
+	1213  GF114M [GeForce GTX 670M]
 	1241  GF116 [GeForce GT 545 OEM]
 # GT, not GTX
 	1243  GF116 [GeForce GT 545]
 	1244  GF116 [GeForce GTX 550 Ti]
 	1245  GF116 [GeForce GTS 450 Rev. 2]
-	1246  GF116 [GeForce GT 550M]
-	1247  GF116 [GeForce GT 555M/635M]
-	1248  GF116 [GeForce GT 555M]
+	1246  GF116M [GeForce GT 550M]
+	1247  GF116M [GeForce GT 555M/635M]
+		1043 1752  GeForce GT 555M
+		1043 2050  GeForce GT 555M
+		1043 2051  GeForce GT 555M
+		1043 212a  GeForce GT 635M
+		1043 212b  GeForce GT 635M
+		1043 212c  GeForce GT 635M
+	1248  GF116M [GeForce GT 555M]
 	1249  GF116 [GeForce GTS 450 Rev. 3]
 	124b  GF116 [GeForce GT 640 OEM]
-	124d  GF116 [GeForce GT 555M/635M]
-	1251  GF116 [GeForce GT 560M]
+	124d  GF116M [GeForce GT 555M/635M]
+	1251  GF116M [GeForce GT 560M]
 	1280  GK208 [GeForce GT 635]
+	1290  GK208M [GeForce GT 730M]
+	1291  GK208M [GeForce GT 735M]
+	1292  GK208M [GeForce GT 740M]
+	1293  GK208M [GeForce GT 730M]
+	1294  GK208M [GeForce GT 740M]
+	12a0  GK208
 10df  Emulex Corporation
 	0720  OneConnect NIC (Skyhawk)
 	0722  OneConnect iSCSI Initiator (Skyhawk)
@@ -8094,6 +8155,7 @@
 		1102 1002  SB Audigy2 Platinum
 		1102 1007  SB0240 Audigy 2 Platinum 6.1
 		1102 1009  SB Audigy2 OEM HP
+		1102 2001  SB Audigy 2 ZS Platinum Pro
 		1102 2002  SB Audigy 2 ZS (SB0350)
 		1102 4001  E-MU 1010
 		1102 4002  E-MU 0404
@@ -9825,6 +9887,7 @@
 		103c 30b7  Presario V6133CL
 		103c 30c1  Compaq 6910p
 		103c 30cc  Pavilion dv6700
+		103c 30cf  Pavilion dv9668eg Laptop
 		1043 1237  A6J-Q008
 		1043 1967  ASUS V6800V
 		10f7 8338  Panasonic CF-Y5 laptop
@@ -12822,7 +12885,7 @@
 1455  Logic Plus Plus Inc
 1456  Advanced Hardware Architectures
 1457  Nuera Communications Inc
-1458  Giga-byte Technology
+1458  Gigabyte Technology Co., Ltd
 1459  DOOIN Electronics
 145a  Escalate Networks Inc
 145b  PRAIM SRL
@@ -13518,7 +13581,7 @@
 		185f 1220  TravelMate 290E WLAN Mini-PCI Card
 	4321  BCM4321 802.11a Wireless Network Controller
 	4322  BCM4322 802.11bgn Wireless Network Controller
-	4324  BCM4306 802.11a/b/g
+	4324  BCM4309 802.11abg Wireless Network Controller
 		1028 0001  Truemobile 1400
 		1028 0002  TrueMobile 1400 Dual Band WLAN PC Card
 		1028 0003  Truemobile 1450 MiniPCI
@@ -15371,6 +15434,7 @@
 	0012  SH7757 PCIe-PCI Bridge [PPB]
 	0013  SH7757 PCIe Switch [PS]
 	0014  uPD720201 USB 3.0 Host Controller
+	0015  uPD720202 USB 3.0 Host Controller
 1919  Soltek Computer Inc.
 1923  Sangoma Technologies Corp.
 	0040  A200/Remora FXO/FXS Analog AFT card
@@ -15833,6 +15897,8 @@
 	1001  Virtio block device
 	1002  Virtio memory balloon
 	1003  Virtio console
+	1004  Virtio SCSI
+	1005  Virtio RNG
 	1009  Virtio filesystem
 1af5  Netezza Corp.
 1afa  J & W Electronics Co., Ltd.
@@ -15925,6 +15991,8 @@
 1c32  Highland Technology, Inc.
 1c3b  Accensus, LLC
 	0200  Telas2
+# http://www.accensusllc.com/accensustelas2.html
+	0300  Telas 2.V
 1c44  Enmotus Inc
 	8000  8000 Storage IO Controller
 1c7f  Elektrobit Austria GmbH
@@ -16322,7 +16390,7 @@
 	0301  FlyDVB-T
 5301  Alliance Semiconductor Corp.
 	0001  ProMotion aT3D
-5333  S3 Inc.
+5333  S3 Graphics Ltd.
 	0551  Plato/PX (system)
 	5631  86c325 [ViRGE]
 	8800  86c866 [Vision 866]
@@ -16428,12 +16496,12 @@
 		1179 0001  ViRGE/MX
 	8c02  ViRGE/MX+
 	8c03  ViRGE/MX+MV
-	8c10  86C270-294 Savage/MX-MV
-	8c11  82C270-294 Savage/MX
-	8c12  86C270-294 Savage/IX-MV
+	8c10  86C270-294 [SavageMX-MV]
+	8c11  82C270-294 [SavageMX]
+	8c12  86C270-294 [SavageIX-MV]
 		1014 017f  ThinkPad T20/T22
 		1179 0001  86C584 SuperSavage/IXC Toshiba
-	8c13  86C270-294 Savage/IX
+	8c13  86C270-294 [SavageIX]
 		1179 0001  Magnia Z310
 	8c22  SuperSavage MX/128
 	8c24  SuperSavage MX/64
@@ -16449,10 +16517,15 @@
 	8d02  VT8636A [ProSavage KN133] AGP4X VGA Controller (TwisterK)
 	8d03  VT8751 [ProSavageDDR P4M266]
 	8d04  VT8375 [ProSavage8 KM266/KL266]
+	8e00  DeltaChrome
+	8e26  ProSavage
 	8e40  2300E Graphics Processor
-	8e48  Chrome S27 PCIE
+	8e48  Matrix [Chrome S25 / S27]
 		5333 0130  Chrome S27 256M DDR2
-	9102  86C410 Savage 2000
+	9043  Chrome 430 GT
+	9045  Chrome 430 ULP / 435 ULP / 440 GTX
+	9060  Chrome 530 GT
+	9102  86C410 [Savage 2000]
 		1092 5932  Viper II Z200
 		1092 5934  Viper II Z200
 		1092 5952  Viper II Z200
@@ -16509,6 +16582,7 @@
 	1022  4 photo couple 4 relay Card
 	1025  16 photo couple 16 relay Card
 	4000  WatchDog Card
+6688  Zycoo Co., Ltd
 # nee Qumranet
 6900  Red Hat, Inc.
 7063  pcHDTV
@@ -16805,6 +16879,8 @@
 	08af  Centrino Wireless-N 100
 		8086 1015  Centrino Wireless-N 100 BGN
 		8086 1017  Centrino Wireless-N 100 BG
+	08b1  Intel(R) Dual Band Wireless-AC 7260
+	08b2  Intel(R) Dual Band Wireless-AC 7260
 	0960  80960RP (i960RP) Microprocessor/Bridge
 	0962  80960RM (i960RM) Bridge
 	0964  80960RP (i960RP) Microprocessor/Bridge
@@ -17802,6 +17878,7 @@
 	1521  I350 Gigabit Network Connection
 		1028 1f60  Intel GbE 4P I350crNDC
 		1028 1f62  Intel GbE 2P I350crNDC
+		103c 17d1  Ethernet 1Gb 4-port 366FLR Adapter
 		103c 337f  Ethernet 1Gb 2-port 361i Adapter
 		103c 3380  Ethernet 1Gb 4-port 366i Adapter
 		103c 339e  Ethernet 1Gb 2-port 361T Adapter
@@ -17873,6 +17950,7 @@
 	1559  Ethernet Connection I218-V
 	155a  Ethernet Connection I218-LM
 	1560  Ethernet Controller X540-AT1
+	157b  I210 Gigabit Network Connection
 	1960  80960RP (i960RP) Microprocessor
 		101e 0431  MegaRAID 431 RAID Controller
 		101e 0438  MegaRAID 438 Ultra2 LVD RAID Controller
@@ -19407,7 +19485,9 @@
 		10f7 8338  Panasonic CF-Y5 laptop
 		17aa 2009  ThinkPad T60/R60 series
 	27bc  NM10 Family LPC Controller
+		105b 0d7c  D270S/D250S Motherboard
 		144d c072  Notebook N150P
+		1458 5001  GA-D525TUD
 		8086 4f4d  DeskTop Board D510MO
 		8086 544b  Desktop Board D425KT
 	27bd  82801GHM (ICH7-M DH) LPC Interface Bridge
@@ -19456,8 +19536,10 @@
 		103c 30a3  Compaq nw8440
 		1043 1237  A6J-Q008
 		1043 8179  P5KPL-VM,P5LD2-VM Mainboard
+		105b 0d7c  D270S/D250S Motherboard
 		107b 5048  E4500
 		144d c072  Notebook N150P
+		1458 5004  GA-D525TUD
 		1775 11cc  CC11/CL11
 		17aa 200a  ThinkPad T60/R60 series
 		8086 4f4d  DeskTop Board D510MO
@@ -19475,8 +19557,10 @@
 		103c 30a3  Compaq nw8440
 		1043 1237  A6J-Q008
 		1043 8179  P5KPL-VM,P5LD2-VM Mainboard
+		105b 0d7c  D270S/D250S Motherboard
 		107b 5048  E4500
 		144d c072  Notebook N150P
+		1458 5004  GA-D525TUD
 		1775 11cc  CC11/CL11
 		17aa 200a  ThinkPad T60/R60 series
 		8086 4f4d  DeskTop Board D510MO
@@ -19498,12 +19582,9 @@
 		107b 5048  E4500
 		144d c072  Notebook N150P
 		1458 5004  GA-D525TUD
- 		8086 4f4d  DeskTop Board D510MO
-		8086 544b  Desktop Board D425KT
 		1775 11cc  CC11/CL11
 		17aa 200a  ThinkPad T60/R60 series
 		8086 4f4d  DeskTop Board D510MO
-		8086 544b  Desktop Board D425KT
 		8086 544e  DeskTop Board D945GTP
 	27cb  NM10/ICH7 Family USB UHCI Controller #4
 		1025 006c  9814 WKMI
@@ -19523,7 +19604,6 @@
 		1775 11cc  CC11/CL11
 		17aa 200a  ThinkPad T60/R60 series
 		8086 4f4d  DeskTop Board D510MO
-		8086 544b  Desktop Board D425KT
 		8086 544e  DeskTop Board D945GTP
 	27cc  NM10/ICH7 Family USB2 EHCI Controller
 		1025 006c  9814 WKMI
@@ -19537,7 +19617,9 @@
 		103c 30a3  Compaq nw8440
 		1043 1237  A6J-Q008
 		1043 8179  P5KPL-VM,P5LD2-VM Mainboard
+		105b 0d7c  D270S/D250S Motherboard
 		144d c072  Notebook N150P
+		1458 5006  GA-D525TUD
 		1775 11cc  CC11/CL11
 		17aa 200b  ThinkPad T60/R60 series
 		8086 4f4d  DeskTop Board D510MO
@@ -19547,6 +19629,7 @@
 		103c 309f  Compaq nx9420 Notebook
 		103c 30a3  Compaq nw8440
 		144d c072  Notebook N150P
+		1458 5001  GA-D525TUD
 		1775 11cc  CC11/CL11
 		8086 544b  Desktop Board D425KT
 	27d2  NM10/ICH7 Family PCI Express Port 2
@@ -19601,9 +19684,10 @@
 		1028 01e6  PowerEdge 860
 		103c 2a3b  Pavilion A1512X
 		1043 8179  P5KPL-VM Motherboard
+		105b 0d7c  D270S/D250S Motherboard
 		10f7 8338  Panasonic CF-Y5 laptop
 		144d c072  Notebook N150P
-		1458 5001  GA-8I945PG-RH Mainboard
+		1458 5001  GA-8I945PG-RH/GA-D525TUD Mainboard
 		1775 11cc  CC11/CL11
 		17aa 200f  ThinkPad T60/R60 series
 		8086 4f4d  DeskTop Board D510MO
@@ -20136,13 +20220,11 @@
 		103c 30c0  Compaq 6710b
 		103c 30c1  Compaq 6910p
 		103c 30cc  Pavilion dv6700
-		103c 30cf  Pavilion dv9668eg Laptop
 		103c 30d9  Presario C700
 		104d 9005  Vaio VGN-FZ260E
 		104d 902d  VAIO VGN-NR120E
 		17aa 20b1  ThinkPad T61
 		17aa 20b3  ThinkPad T61/R61
-		17aa 20c8  ThinkPad W500
 		e4bf cc47  CCG-RUMBA
 	2a01  Mobile PM965/GM965/GL960 PCI Express Root Port
 	2a02  Mobile GM965/GL960 Integrated Graphics Controller (primary)
@@ -20471,7 +20553,9 @@
 	2f6d  Haswell-E Integrated Memory Controller 1 Channel Target Address Decoder
 	2f6e  Haswell-E DDRIO Channel 2/3 Broadcast
 	2f6f  Haswell-E DDRIO Global Broadcast
+	2f70  Haswell-E Home Agent 0 Debug
 	2f71  Haswell-E Integrated Memory Controller 0 Target Address, Thermal & RAS Registers
+	2f78  Haswell-E Home Agent 1 Debug
 	2f79  Haswell-E Integrated Memory Controller 1 Target Address, Thermal & RAS Registers
 	2f7d  Haswell-E Scratchpad & Semaphore Registers
 	2f80  Haswell-E QPI Link 0
@@ -21591,7 +21675,7 @@
 	8d66  Wellsburg sSATA Controller [RAID mode]
 	8d68  Wellsburg sSATA Controller [IDE mode]
 	8d6e  Wellsburg sSATA Controller [RAID mode]
-	8d7c  Wellsburg SPSR
+	8d7c  Wellsburg EPSS
 	8d7d  Wellsburg MS SMBus 0
 	8d7e  Wellsburg MS SMBus 1
 	8d7f  Wellsburg MS SMBus 2
@@ -21665,9 +21749,11 @@
 	9c65  Lynx Point-LP SPI Controller #0
 	9c66  Lynx Point-LP SPI Controller #1
 	a000  Atom Processor D4xx/D5xx/N4xx/N5xx DMI Bridge
+		1458 5000  GA-D525TUD
 		8086 4f4d  DeskTop Board D510MO
 		8086 544b  Desktop Board D425KT
 	a001  Atom Processor D4xx/D5xx/N4xx/N5xx Integrated Graphics Controller
+		1458 d000  GA-D525TUD
 		8086 4f4d  DeskTop Board D510MO
 		8086 544b  Desktop Board D425KT
 	a002  Atom Processor D4xx/D5xx/N4xx/N5xx Integrated Graphics Controller
@@ -22191,6 +22277,7 @@ cace  CACE Technologies, Inc.
 	0001  TurboCap Port A
 	0002  TurboCap Port B
 	0023  AirPcap N
+caed  Canny Edge
 cafe  Chrysalis-ITS
 	0003  Luna K3 Hardware Security Module
 	0006  Luna PCI-e 3000 Hardware Security Module
