@@ -33,10 +33,12 @@ dist-svn:
 	rm -rf $(NAME)-$(VERSION) 
 				 
 dist-git: 
-	@git archive --prefix=$(NAME)-$(VERSION)/ HEAD | xz >../$(NAME)-$(VERSION).tar.xz;
+	git archive --prefix=$(NAME)-$(VERSION)/ HEAD | xz -v > $(NAME)-$(VERSION).tar.xz;
 
 
-dist: dis
+dist: dist-git
+	$(info $(NAME)-$(VERSION).tar.xz is ready)
+
 dis: clean
 	rm -rf ../$(NAME)-$(VERSION)*.tar* $(NAME)-$(VERSION)
 	@if [ -e ".svn" ]; then \
