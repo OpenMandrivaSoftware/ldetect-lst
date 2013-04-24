@@ -1,6 +1,10 @@
+- pcitable:
+  o update device ids from x11-driver-video-ati-7.1.0-3.mga3
+
 Version 0.1.322 - 24 April 2013
 
-- update device ids from proprietary fglrx-12.104-1.mga3
+- pcitable:
+  o update device ids from proprietary fglrx-12.104
 
 Version 0.1.321 - 24 April 2013
 
