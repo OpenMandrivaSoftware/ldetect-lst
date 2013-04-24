@@ -1,5 +1,6 @@
 - pcitable:
   o update device ids from x11-driver-video-ati-7.1.0-3.mga3
+  o update device ids from i915 in kernel-3.8.8-3.mga3
 
 Version 0.1.322 - 24 April 2013
 
