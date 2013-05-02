@@ -1,3 +1,7 @@
+- pcitable:
+  o drop hardcoding of free broadcom wireless drivers done in
+    0.1.321, as it does not work as intended.
+
 Version 0.1.325 - 28 April 2013
 
 - Cards+
