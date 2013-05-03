@@ -1,3 +1,5 @@
+Version 0.1.327 - 3 May 2013
+
 - pcitable:
   o add missing NVIDIA Tesla/VGX device ids
   o update device ids from proprietary nvidia-current 319.17
