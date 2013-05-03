@@ -399,7 +399,10 @@ sub read_nvidia_readme {
 	next if /^\s+-+[\s-]+$/;
 	my ($description, $id, $subid) = /^\s+(.+?)\s+0x(....)(?: 0x(....))?/;
 	$id = "10de" . lc($id);
-	$subid = $subid ? "10de" . lc($subid) : "ffffffff";
+	# not really that useful (all subids belong to same generation anyway)
+	# and just causes more work when updating the lists
+	#$subid = $subid ? "10de" . lc($subid) : "ffffffff";
+	$subid = "ffffffff";
 	$drivers{$id . $subid} = [ "Card:$card", $description ];
     }
     \%drivers;
