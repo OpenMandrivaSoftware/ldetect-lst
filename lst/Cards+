@@ -388,7 +388,7 @@ DRIVER vesa
 NAME Intel Poulsbo US15W (GMA500)
 #DRIVER psb
 #DRI_GLX
-DRIVER fbdev
+DRIVER modesetting
 
 # 3DFX
 
