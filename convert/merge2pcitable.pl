@@ -379,24 +379,30 @@ sub read_begent_pcids_htm {
 sub read_nvidia_readme {
     my ($f) = @_;
     my %drivers;
-    my $section;
+    my $section = "nothingyet";
     my $card = $ENV{NVIDIA_CARD} || "NVIDIA_UNKNOWN";
     foreach (cat_($f)) {
 	chomp;
-	last if $section > 3;
-	if (!($section % 2)) {
-	    next unless /^\s+NVIDIA GPU product\s+Device PCI ID/;
-	    $section++;
+	if ($section eq "nothingyet" || $section eq "midspace") {
+	    if (/^\s+NVIDIA GPU product\s+Device PCI ID/) {
+		$section = "data";
+	    } elsif ($section eq "midspace" && /legacy/) {
+		last;
+	    }
 	    next;
         }
-	if (/^\s*$/) {
-	    $section++;
+
+	if ($section eq "data" && /^\s*$/) {
+	    $section = "midspace";
 	    next;
         }
 	next if /^\s+-+[\s-]+$/;
 	my ($description, $id, $subid) = /^\s+(.+?)\s+0x(....)(?: 0x(....))?/;
 	$id = "10de" . lc($id);
-	$subid = $subid ? "10de" . lc($subid) : "ffffffff";
+	# not really that useful (all subids belong to same generation anyway)
+	# and just causes more work when updating the lists
+	#$subid = $subid ? "10de" . lc($subid) : "ffffffff";
+	$subid = "ffffffff";
 	$drivers{$id . $subid} = [ "Card:$card", $description ];
     }
     \%drivers;
