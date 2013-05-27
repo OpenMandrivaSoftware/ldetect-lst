@@ -114,7 +114,6 @@ Version 0.1.315 - 22 March 2013
   o update ids from proprietary nvidia-current 310.40
 - update pci.ids & usb.ids 
 
-
 Version 0.1.314 - 7 January 2013
 
 - rewrite update-ldetect-lst in shell script to eliminate perl dependency
