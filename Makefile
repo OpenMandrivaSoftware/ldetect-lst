@@ -5,6 +5,9 @@ VERSION := 0.1.327.1
 
 FILES = AUTHORS ChangeLog Makefile Makefile.config convert lst update-ldetect-lst
 
+# Please do *not* just simply do "sync with mageia commits", but rather merge
+# their individual commits in stead. See 'git format-patch' & 'git am' :)
+
 .PHONY: changelog log ChangeLog
 
 build: 
