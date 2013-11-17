@@ -1,6 +1,18 @@
+2013-11-17 18:16:42 +0100 tpg (Tomasz Paweł Gajc) 
+
+	* bump release (HEAD, master)
+
+2013-11-17 18:14:50 +0100 tpg (Tomasz Paweł Gajc) 
+
+	* fix changelog generation (origin/master, origin/HEAD)
+
+2013-11-17 18:12:52 +0100 tpg (Tomasz Paweł Gajc) 
+
+	* generated changelog
+
 2013-11-17 18:09:58 +0100 tpg (Tomasz Paweł Gajc) 
 
-	* update oui.xtx pci.ids and usb.ids (HEAD, origin/master, origin/HEAD, master)
+	* update oui.xtx pci.ids and usb.ids
 
 2013-05-27 18:03:39 +0200 Per Øyvind Karlsen (proyvind) 
 
