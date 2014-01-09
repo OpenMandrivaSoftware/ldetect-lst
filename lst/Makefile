@@ -47,13 +47,13 @@ $(TABLES3):
 	gzip -vc9 ScannerDB > ScannerDB.gz
 
 new-usb-ids:
-	@curl -O http://www.linux-usb.org/usb.ids
+    @curl --compressed -O http://www.linux-usb.org/usb.ids
 
 new-pci-ids:
-	@curl -O http://pciids.sourceforge.net/pci.ids
+	@curl --compressed -O http://pciids.sourceforge.net/pci.ids
 
 new-oui-txt:
-	@curl -O http://standards.ieee.org/develop/regauth/oui/oui.txt
+	@curl --compressed -O http://standards.ieee.org/develop/regauth/oui/oui.txt
 
 install: $(TMP_TABLES) $(TABLES3)
 	for i in $(TABLES); do \
