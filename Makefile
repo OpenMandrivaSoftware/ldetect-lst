@@ -1,7 +1,7 @@
 include Makefile.config
 
 NAME = ldetect-lst
-VERSION := 0.1.327.2
+VERSION := 0.1.327.3
 
 FILES = AUTHORS ChangeLog Makefile Makefile.config convert lst update-ldetect-lst
 
@@ -36,7 +36,7 @@ dist-svn:
 	rm -rf $(NAME)-$(VERSION) 
 				 
 dist-git: 
-	git archive --prefix=$(NAME)-$(VERSION)/ HEAD | xz -v > $(NAME)-$(VERSION).tar.xz;
+	git archive --prefix=$(NAME)-$(VERSION)/ HEAD | xz -v -T0 > $(NAME)-$(VERSION).tar.xz;
 
 
 dist: dist-git
