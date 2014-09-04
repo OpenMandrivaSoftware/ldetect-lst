@@ -2,152 +2,152 @@
 # only .* at the end is allowed, its means non anchored
 
 
-sys_vendor: ACER
+System/Manufacturer: ACER
 
-  product_name: TravelMate 610
+  System/Product Name: TravelMate 610
   => Resolution: 1024x768
   => Diagonal_size: 14.1
 
-  product_name: TravelMate.*
+  System/Product Name: TravelMate.*
   => Type: laptop
 
-sys_vendor: Acer.*
+System/Manufacturer: Acer.*
 
-  product_name: Aspire 1520
+  System/Product Name: Aspire 1520
   => Type: laptop
 
-  product_name: Aspire 1650Z
+  System/Product Name: Aspire 1650Z
   => Type: laptop
 
-  product_name: TravelMate.*
+  System/Product Name: TravelMate.*
   => Type: laptop
 
-board_vendor: COMPAL
+Base Board/Manufacturer: COMPAL
 
-  board_name: ACL10
+  Base Board/Product Name: ACL10
   => Resolution: 1400x1050
 
 
-sys_vendor: Dell .*
+System/Manufacturer: Dell .*
 
-  product_name: Inspiron 8600 
+  System/Product Name: Inspiron 8600 
   => Resolution: 1280x800
 
-  product_name: Inspiron.*
+  System/Product Name: Inspiron.*
   => Module: i8k
   => Pkg: i8kutils
 
-  product_name: Latitude D410
+  System/Product Name: Latitude D410
   => XkbModel: inspiron
 
-  product_name: Latitude D600
+  System/Product Name: Latitude D600
   => XkbModel: inspiron
 
-  product_name: Latitude D620
+  System/Product Name: Latitude D620
   => XkbModel: inspiron
 
-  product_name: Latitude.*
+  System/Product Name: Latitude.*
   => Module: i8k
   => Pkg: i8kutils
 
-  product_name: Precision M60
+  System/Product Name: Precision M60
   => Resolution: 1920x1200
   => XkbModel: inspiron
 
-  product_name: Precision M90
+  System/Product Name: Precision M90
   => Resolution: 1920x1200
   => XkbModel: inspiron
 
-sys_vendor: IBM
+System/Manufacturer: IBM
 
-  product_name: 2626JNG
+  System/Product Name: 2626JNG
   => Resolution: 1024x768
 
-  product_name: 2722DG1
+  System/Product Name: 2722DG1
   => Resolution: 1400x1050
 
-  product_version: ThinkPad T41p
+  System/Version: ThinkPad T41p
   => Resolution: 1400x1050
 
 
-sys_vendor: MAXDATA
+System/Manufacturer: MAXDATA
 
-  product_name: Pro 6100X
+  System/Product Name: Pro 6100X
   => Resolution: 1024x768
   => Diagonal_size: 15
 
-  product_name: Pro 7000X
+  System/Product Name: Pro 7000X
   => Resolution: 1024x768
   => Diagonal_size: 15
 
 
-sys_vendor: Hewlett-Packard
+System/Manufacturer: Hewlett-Packard
 
-  product_name: Compaq nx7010 (DJ342A.*
+  System/Product Name: Compaq nx7010 (DJ342A.*
   => XkbModel: hp5185
 
-  product_name: compaq nx9030 (PG574EA.*
+  System/Product Name: compaq nx9030 (PG574EA.*
   => XkbModel: hp5185
 
-  product_name: HP Compaq nc4400 (EN004AV)
+  System/Product Name: HP Compaq nc4400 (EN004AV)
   => XkbModel: inspiron
 
-  product_name: HP Compaq nc8000 (PF196AA.*
+  System/Product Name: HP Compaq nc8000 (PF196AA.*
   => XkbModel: inspiron
 
-  product_name: HP Pavilion dv1000 (PS600EA.*
+  System/Product Name: HP Pavilion dv1000 (PS600EA.*
   => Diagonal_size: 14.1
   => Resolution: 1280x768
 
-  product_name: HP nx9010.*
+  System/Product Name: HP nx9010.*
   => Resolution: 1024x768
   => Diagonal_size: 15
 
-  product_version: HP OmniBook 6000 EA
+  System/Version: HP OmniBook 6000 EA
   => Resolution: 1024x768
 
 
-sys_vendor: Sony .*
+System/Manufacturer: Sony .*
 
-  product_name: PCG-C1X.*
+  System/Product Name: PCG-C1X.*
   # especially PCG-C1XD(GB)
   => Resolution: 1024x480
   
-  product_name: PCG-C1V.*
+  System/Product Name: PCG-C1V.*
   => Resolution: 1024x480
   
-  product_name: PCG-C1M.*
+  System/Product Name: PCG-C1M.*
   => Resolution: 1280x600
 
-  product_name: PCG-GR214MP.*
+  System/Product Name: PCG-GR214MP.*
   => Resolution: 1024x768
   => Diagonal_size: 14.1
 
-  product_name: PCG-GRX316MP.*
+  System/Product Name: PCG-GRX316MP.*
   # including PCG-GRX316MP(IT)
   => Diagonal_size: 16.1
   => Resolution: 1600x1200
 
-  product_name: PCG-NV105.*
+  System/Product Name: PCG-NV105.*
   => Resolution: 1024x768
 
-  product_name: PCG-NV109M.*
+  System/Product Name: PCG-NV109M.*
   => Resolution: 1024x768
   => Diagonal_size: 15
 
-  product_name: VGN-S2XP.*
+  System/Product Name: VGN-S2XP.*
   => Diagonal_size: 13.3
   => Resolution: 1280x800
 
 
-board_vendor: TECO.*
+Base Board/Manufacturer: TECO.*
 
-   board_name: TR2350
+   Base Board/Product Name: TR2350
    => Resolution: 800x480
 
 
-sys_vendor: TOSHIBA
+System/Manufacturer: TOSHIBA
 
-  bios_vendor: TOSHIBA
+  BIOS/Vendor: TOSHIBA
   => Module: toshiba
   => Pkg: toshutils
