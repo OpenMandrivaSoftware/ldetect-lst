@@ -259,7 +259,7 @@ DRIVER nouveau
 
 NAME NVIDIA GeForce FX series
 DRIVER nouveau
-DRIVER2 nvidia173
+#DRIVER2 nvidia173 (not compatible with X.org server 1.14)
 
 NAME NVIDIA GeForce 6100 to GeForce 7950
 DRIVER nouveau
@@ -267,14 +267,22 @@ DRIVER2 nvidia304
 #DRIVER2_NO_SSE nvidia96xx
 DRIVER2_NEEDS_SSE
 
-NAME NVIDIA GeForce 8100 to GeForce 360
+NAME NVIDIA GeForce 8100 to GeForce 415
 DRIVER nouveau
-DRIVER2 nvidia-current
+DRIVER2 nvidia340
 #DRIVER2_NO_SSE nvidia96xx
 DRIVER2_NEEDS_SSE
 
-NAME NVIDIA GeForce 400 series and later
-SEE NVIDIA GeForce 8100 to GeForce 360
+# nvidia-current supports some GeForce 410 cards as well,
+# but does not support some 415 cards. The higher bound
+# is used in the name, since this way both auto-selection
+# and manual user selection by model number always result in a
+# working driver for 410/415, since all of those are also
+# supported by nvidia340.
+NAME NVIDIA GeForce 420 series and later
+DRIVER nouveau
+DRIVER2 nvidia-current
+DRIVER2_NEEDS_SSE
 
 NAME NVIDIA GeForce3 (xbox)
 DRIVER nvxbox

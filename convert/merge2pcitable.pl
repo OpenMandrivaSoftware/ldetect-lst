@@ -397,7 +397,7 @@ sub read_nvidia_readme {
 	    next;
         }
 	next if /^\s+-+[\s-]+$/;
-	my ($description, $id, $subid) = /^\s+(.+?)\s+0x(....)(?: 0x(....))?/;
+	my ($description, $id) = /^\s+(.+?)\s+(?:0x)?([0-9A-Fa-f]{4})/;
 	$id = "10de" . lc($id);
 	# not really that useful (all subids belong to same generation anyway)
 	# and just causes more work when updating the lists
