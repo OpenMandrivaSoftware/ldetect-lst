@@ -58,7 +58,7 @@ LINE     #MemBase 0x04e00000
 LINE     #Option "linear"
 
 NAME Cirrus Logic GD54xx-based cards
-DRIVER cirrus
+DRIVER modesetting
 
 # S3
 
@@ -227,11 +227,11 @@ DRIVER i128
 # Matrox
 
 NAME Matrox Millennium / II / Productiva G100
-DRIVER mga
+DRIVER modesetting
 BAD_FB_RESTORE
 
 NAME Matrox Millennium G series (single head)
-DRIVER mga
+DRIVER modesetting
 DRI_GLX
 BAD_FB_RESTORE
 
