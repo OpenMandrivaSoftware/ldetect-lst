@@ -1,4 +1,4 @@
-# $Id$
+# $Id: Cards+ 269992 2010-06-11 14:42:13Z anssi $
 # This is the database of card definitions used by XFdrake
 #
 
@@ -57,6 +57,7 @@ LINE     #MemBase 0x00e00000
 LINE     #MemBase 0x04e00000
 LINE     #Option "linear"
 
+# use modesetting instead of cirrus (#10263)
 NAME Cirrus Logic GD54xx-based cards
 DRIVER modesetting
 
@@ -139,7 +140,7 @@ FB_TVOUT
 # update name as support changes
 NAME ATI Radeon HD 4870 and earlier
 DRIVER ati
-FIRMWARE kernel-firmware-extra
+FIRMWARE radeon-firmware
 DRI_GLX
 
 # FireGL cards not supported by proprietary driver, but supported by ati
@@ -156,9 +157,9 @@ SEE ATI Radeon HD 4870 and earlier
 # PALM and older - firmware not mandatory (mga #3466)
 NAME ATI Radeon HD 5000 to HD 6300 (radeon/fglrx)
 DRIVER ati
-FIRMWARE kernel-firmware-extra
+FIRMWARE radeon-firmware
 DRI_GLX
-DRIVER2 fglrx
+#DRIVER2 fglrx
 
 # FireGL cards supported by proprietary driver and free 'radeon'
 # driver: update name as support changes
@@ -176,15 +177,25 @@ SEE ATI Radeon HD 5000 to HD 6300 (radeon/fglrx)
 # the other ATI entries, maybe under 'AMD / ATI' header or something
 NAME ATI Radeon HD 6400 and later (radeon/fglrx)
 DRIVER ati
-FIRMWARE kernel-firmware-extra
+FIRMWARE radeon-firmware
 DRIVER_NO_FIRMWARE vesa
 DRI_GLX
-DRIVER2 fglrx
+#DRIVER2 fglrx
+
+# Radeon cards supported by proprietary driver and free 'amdgpu'
+# TODO: s/ATI/AMD/, but update Xconfig/card.pm to still show it among
+# the other ATI entries, maybe under 'AMD / ATI' header or something
+NAME ATI Volcanic Islands and later (amdgpu/fglrx)
+DRIVER amdgpu
+FIRMWARE radeon-firmware
+DRIVER_NO_FIRMWARE modesetting
+DRI_GLX
+#DRIVER2 fglrx
 
 # Radeon cards supported by proprietary driver but not by free driver
 NAME ATI Radeon HD 5000 and later without free driver (vesa/fglrx)
 DRIVER vesa
-DRIVER2 fglrx
+#DRIVER2 fglrx
 
 # ARK Logic
 
@@ -225,6 +236,7 @@ NAME Number Nine I-128-based cards
 DRIVER i128
 
 # Matrox
+# use modesetting instead of mga (#15568)
 
 NAME Matrox Millennium / II / Productiva G100
 DRIVER modesetting
@@ -259,7 +271,7 @@ DRIVER nouveau
 
 NAME NVIDIA GeForce FX series
 DRIVER nouveau
-#DRIVER2 nvidia173 (not compatible with X.org server 1.14)
+# DRIVER2 nvidia173 (not compatible with X.org server 1.16)
 
 NAME NVIDIA GeForce 6100 to GeForce 7950
 DRIVER nouveau
