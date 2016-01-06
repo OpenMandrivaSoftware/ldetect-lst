@@ -1,3 +1,71 @@
+Version 0.1.338.1 - 06 Feb 2016
+
+- update pci.ids and usb.ids
+
+Version 0.1.338 - 21 Feb 2015
+
+- update pci.ids and usb.ids
+- sync intel gpu ids with kernel 3.19
+
+Version 0.1.337 - 26 Jan 2015
+
+- add GeForce FX series pci ids back (they are supported
+  by the nouveau driver)
+- merge2pcitable.pl: add support for nvidia driver 346+
+- update ids from nvidia proprietary driver 346.35
+- reassign GeForce 8100 through 415 to the newly branched
+  nvidia proprietary legacy driver nvidia340
+
+Version 0.1.336 - 14 Dec 2014
+
+- update pci.ids and usb.ids
+- update ids from x11-driver-video-ati-7.5.0-2.mga5
+- update ids from fglrx-14.501.1003-1.mga5.nonfree
+- update ids from nvidia-current-340.65-1.mga5.nonfree
+
+Version 0.1.335 - 29 Aug 2014
+
+- nvidia173 (aka Geforce FX series) is EOL upstream, wont
+  support x.org server 1.16
+- update ids from nvidia-current-340.32-1.mga5
+- update pci.ids and usb.ids
+
+Version 0.1.334 - 29 May 2014
+
+- update pci.ids and usb.ids
+- sync nvidia ids with nvidia-current 331.79
+- sync fglrx ids with fglrx-14.010.1006
+
+Version 0.1.333 - 22 Feb 2014
+
+- sync nvidia ids with nvidia-current 331.49
+
+Version 0.1.332 - 27 Jan 2014
+
+- add 2 missing intel gpu ids (0x041e and 0x0f32)
+
+Version 0.1.331 - 16 Jan 2014
+
+- sync nvidia ids with nvidia-current 325.15
+- sync radeon ids with x11-driver-video-ati-7.2.0-9
+- sync i915 ids with kernel 3.12.7
+- update pci.ids & usb.ids
+
+Version 0.1.330 - 1 Aug 2013
+
+- update pcitable ids from proprietary fglrx 13.200.5
+- update pci.ids
+
+Version 0.1.329 - 11 Jul 2013
+
+ - update pci.ids & usb.ids
+
+Version 0.1.328 - 28 Jun 2013
+
+- pcitable:
+  o update device ids from proprietary nvidia-current 319.32
+  o update device ids from proprietary fglrx 13.101
+
 Version 0.1.327 - 3 May 2013
 
 - pcitable:
@@ -113,6 +181,7 @@ Version 0.1.315 - 22 March 2013
     configure and test  free drivers through drakx tools
   o update ids from proprietary nvidia-current 310.40
 - update pci.ids & usb.ids 
+
 
 Version 0.1.314 - 7 January 2013
 
