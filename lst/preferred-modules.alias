@@ -1,10 +1,7 @@
 alias pci:v00000E11d0000AE33sv*sd*bc*i* pata_triflex
 alias pci:v00001002d00004349sv*sd*bc*i* pata_atiixp
 alias pci:v00001002d00004369sv*sd*bc*i* pata_atiixp
-alias pci:v00001002d0000436Esv*sd*bc*i* sata_sil
 alias pci:v00001002d00004376sv*sd*bc*i* pata_atiixp
-alias pci:v00001002d00004379sv*sd*bc*i* sata_sil
-alias pci:v00001002d0000437Asv*sd*bc*i* sata_sil
 alias pci:v00001002d0000438Csv*sd*bc*i* pata_atiixp
 alias pci:v00001002d0000439Csv*sd*bc*i* pata_atiixp
 alias pci:v0000100Bd00000002sv*sd*bc*i* pata_ns87415
@@ -32,7 +29,6 @@ alias pci:v00001039d00005518sv*sd*bc*i* pata_sis
 alias pci:v00001042d00001000sv*sd*bc*i* pata_rz1000
 alias pci:v00001042d00001001sv*sd*bc*i* pata_rz1000
 alias pci:v00001042d00003020sv*sd*bc*i* ata_generic
-alias pci:v00001044d0000A511sv*sd*bc*i* dpt_i2o
 alias pci:v00001045d0000C558sv*sd*bc*i* ata_generic
 alias pci:v00001045d0000C621sv*sd*bc*i* pata_opti
 alias pci:v00001055d00009130sv*sd*bc*i* pata_efar
@@ -73,7 +69,6 @@ alias pci:v00001060d0000673Asv*sd*bc*i* ata_generic
 alias pci:v00001060d0000886Asv*sd*bc*i* ata_generic
 alias pci:v00001069d0000B166sv*sd*bc*i* ipr
 alias pci:v00001080d0000C693sv*sd*bc*i* pata_cypress
-alias pci:v00001095d00000240sv*sd*bc*i* sata_sil
 alias pci:v00001095d00000242sv*sd*bc*i* sata_sil24
 alias pci:v00001095d00000244sv*sd*bc*i* sata_sil24
 alias pci:v00001095d00000640sv*sd*bc*i* pata_cmd640
@@ -82,12 +77,9 @@ alias pci:v00001095d00000646sv*sd*bc*i* pata_cmd64x
 alias pci:v00001095d00000648sv*sd*bc*i* pata_cmd64x
 alias pci:v00001095d00000649sv*sd*bc*i* pata_cmd64x
 alias pci:v00001095d00000680sv*sd*bc*i* pata_sil680
-alias pci:v00001095d00003112sv*sd*bc*i* sata_sil
-alias pci:v00001095d00003114sv*sd*bc*i* sata_sil
 alias pci:v00001095d00003124sv*sd*bc*i* sata_sil24
 alias pci:v00001095d00003131sv*sd*bc*i* sata_sil24
 alias pci:v00001095d00003132sv*sd*bc*i* sata_sil24
-alias pci:v00001095d00003512sv*sd*bc*i* sata_sil
 alias pci:v00001095d00003531sv*sd*bc*i* sata_sil24
 alias pci:v0000109Ed00000878sv*sd*bc*i* snd_bt87x
 alias pci:v000010ADd00000105sv*sd*bc*i* pata_sl82c105
@@ -395,6 +387,7 @@ alias usb:v08CAp0022d*dc*dsc*dp*ic*isc*ip* aiptek
 alias usb:v08CAp0023d*dc*dsc*dp*ic*isc*ip* aiptek
 alias usb:v08CAp0024d*dc*dsc*dp*ic*isc*ip* aiptek
 alias usb:v08E9p0100d*dc*dsc*dp*ic*isc*ip* irda_usb
+alias usb:v0984p0301d*dc*dsc*dp*ic*isc*ip* uas
 alias usb:v09C4p0011d*dc*dsc*dp*ic*isc*ip* irda_usb
 alias usb:v0ACEp2011d*dc*dsc*dp*ic*isc*ip* zd1211rw
 alias usb:v0ACEp20FFd*dc*dsc*dp*ic*isc*ip* zd1211rw
@@ -417,6 +410,7 @@ alias usb:v0AF0pD257d*dc*dsc*dp*ic*isc*ip* hso
 alias usb:v0AF0pD357d*dc*dsc*dp*ic*isc*ip* hso
 alias usb:v0BC2p2312d*dc*dsc*dp*ic*isc*ip* uas
 alias usb:v0BC2p3312d*dc*dsc*dp*ic*isc*ip* uas
+alias usb:v0BC2p331Ad*dc*dsc*dp*ic*isc*ip* uas
 alias usb:v0BC2p3320d*dc*dsc*dp*ic*isc*ip* uas
 alias usb:v0BC2pA003d*dc*dsc*dp*ic*isc*ip* uas
 alias usb:v0BC2pA013d*dc*dsc*dp*ic*isc*ip* uas
@@ -427,8 +421,9 @@ alias usb:v0BC2pAB2Ad*dc*dsc*dp*ic*isc*ip* uas
 alias usb:v0FD9p0008d*dc*dsc*dp*ic*isc*ip* au0828
 alias usb:v1186p3E04d*dc*dsc*dp*ic*isc*ip* option
 alias usb:v12D1p1406d*dc*dsc*dp*ic*isc*ip* option
+alias usb:v13FDp3940d*dc*dsc*dp*ic*isc*ip* uas
+alias usb:v152Dp0539d*dc*dsc*dp*ic*isc*ip* uas
 alias usb:v152Dp0567d*dc*dsc*dp*ic*isc*ip* uas
-alias usb:v174Cp5106d*dc*dsc*dp*ic*isc*ip* uas
 alias usb:v2040p7200d*dc*dsc*dp*ic*isc*ip* au0828
 alias usb:v2040p7201d*dc*dsc*dp*ic*isc*ip* au0828
 alias usb:v2040p7210d*dc*dsc*dp*ic*isc*ip* au0828
@@ -447,6 +442,7 @@ alias usb:v2040p8200d*dc*dsc*dp*ic*isc*ip* au0828
 alias usb:v2109p0711d*dc*dsc*dp*ic*isc*ip* uas
 alias usb:v357Dp7788d*dc*dsc*dp*ic*isc*ip* uas
 alias usb:v4971p1012d*dc*dsc*dp*ic*isc*ip* uas
+alias usb:v4971p8017d*dc*dsc*dp*ic*isc*ip* uas
 alias pcmcia:m*c*f*fn*pfn*paC7B8DF9Dpb1700D087pc4B74BAA0pd* hostap_cs
 alias pci:v0000197Bd*sv*sd*bc01sc01i* pata_jmicron
 alias pci:v00001022d0000209Asv*sd*bc*i* pata_cs5536
