@@ -453,7 +453,7 @@ DRIVER vmware
 # VirtualBox virtual video cards
 
 NAME VirtualBox virtual video card
-DRIVER vboxvideo
+DRIVER modesetting
 
 # Misc
 
