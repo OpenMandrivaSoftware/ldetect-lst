@@ -450,6 +450,11 @@ DRIVER qxl
 NAME VMware virtual video card
 DRIVER vmware
 
+# Virtio virtual video cards
+
+NAME Virtio virtual video card
+DRIVER modesetting
+
 # VirtualBox virtual video cards
 
 NAME VirtualBox virtual video card
