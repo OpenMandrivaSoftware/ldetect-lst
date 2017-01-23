@@ -262,25 +262,25 @@ DRIVER nv
 BAD_FB_RESTORE
 
 NAME NVIDIA RIVA TNT to GeForce 2
-DRIVER nouveau
+DRIVER modesetting
 #DRIVER2 nvidia71xx (not compatible with x.org server 1.6)
 
 NAME NVIDIA GeForce 2 MX to GeForce 4
-DRIVER nouveau
+DRIVER modesetting
 #DRIVER2 nvidia96xx (not compatible with X.org server 1.11)
 
 NAME NVIDIA GeForce FX series
-DRIVER nouveau
+DRIVER modesetting
 # DRIVER2 nvidia173 (not compatible with X.org server 1.16)
 
 NAME NVIDIA GeForce 6100 to GeForce 7950
-DRIVER nouveau
+DRIVER modesetting
 DRIVER2 nvidia304
 #DRIVER2_NO_SSE nvidia96xx
 DRIVER2_NEEDS_SSE
 
 NAME NVIDIA GeForce 8100 to GeForce 415
-DRIVER nouveau
+DRIVER modesetting
 DRIVER2 nvidia340
 #DRIVER2_NO_SSE nvidia96xx
 DRIVER2_NEEDS_SSE
@@ -292,7 +292,7 @@ DRIVER2_NEEDS_SSE
 # working driver for 410/415, since all of those are also
 # supported by nvidia340.
 NAME NVIDIA GeForce 420 series and later
-DRIVER nouveau
+DRIVER modesetting
 DRIVER2 nvidia-current
 DRIVER2_NEEDS_SSE
 
@@ -385,23 +385,15 @@ LINE # Option "sw_cursor"
 # Intel
 
 NAME Intel 740-based cards
-DRIVER i740
-LINE     #Option     "no_accel"
-LINE     #Option     "sw_cursor"
-LINE     #Option     "hw_cursor"
-LINE     #Option     "sgram"
-LINE     #Option     "sdram"
+DRIVER modesetting
 
 NAME Intel 810 and later
-DRIVER intel
-DRI_GLX
+DRIVER modesetting
 
 NAME Intel Vermilion-based cards
 DRIVER vesa
 
 NAME Intel Poulsbo US15W (GMA500)
-#DRIVER psb
-#DRI_GLX
 DRIVER modesetting
 
 # 3DFX
