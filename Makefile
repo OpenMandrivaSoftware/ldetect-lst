@@ -1,7 +1,7 @@
 include Makefile.config
 
 NAME = ldetect-lst
-VERSION := 0.1.338.4
+VERSION := 0.1.338.5
 
 FILES = AUTHORS Makefile Makefile.config convert lst update-ldetect-lst
 
